@@ -1,0 +1,45 @@
+---
+title: "Procédure de validation des bordereaux paiement"
+description: "Vous devez valider des bordereaux paiement afin de finaliser une transaction paiement et créer des données financières. Vous pouvez valider un bordereau paiement si le **type d'action** du bordereau paiement est défini sur **Comptabilité**."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 07/01/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 194e4dc3e4bd996318569022f2fe00eb0f727819
+ms.contentlocale: fr-fr
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="post-payment-slips"></a>Valider des bordereaux paiement
+Vous devez valider des bordereaux paiement afin de finaliser une transaction paiement et créer des données financières. Vous pouvez valider un bordereau paiement si le **type d'action** du bordereau paiement est défini sur **Comptabilité**.  
+
+Avant de publier un bordereau paiement, vous devez créer le bordereau paiement. Pour plus d'informations, consultez [Créer des bordereaux paiement](how-to-create-payment-slips.md).  
+
+## <a name="to-post-a-payment-slip"></a>Pour valider un bordereau paiement  
+
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Bordereaux paiement**, puis sélectionnez le lien approprié.  
+2.  Sélectionnez un bordereau paiement, puis cliquez sur **Modifier**.  
+3.  Dans la fenêtre **Bordereau paiement**, sélectionnez **Valider**.  
+4.  Cliquez sur le bouton **OK**.  
+
+Le bordereau paiement est validé.  
+
+## <a name="see-also"></a>Voir aussi  
+ [Gestion des paiements](payment-management.md)   
+ [Paramétrer des types de règlement](how-to-set-up-payment-classes.md)   
+ [Paramétrer des statuts règlement](how-to-set-up-payment-statuses.md)   
+ [Paramétrer des étapes règlement](how-to-set-up-payment-steps.md)   
+ [Configurer des adresses de paiement](how-to-set-up-payment-addresses.md)   
+ [Créer bordereaux paiement](how-to-create-payment-slips.md)   
+ [Exporter ou importer les paramètres de configuration de la gestion des paiements](how-to-export-or-import-payment-management-setup-parameters.md)   
+ [Archiver les bordereaux de paiement](how-to-archive-payment-slips.md)
+
