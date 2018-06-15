@@ -13,17 +13,14 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fd2833222359bba4efec62f6f94b7a283e247185
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 4abd84c01035c40be33dfa3c90713d1c8684faa8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="fiscally-close-accounting-periods"></a>Clôturer fiscalement des périodes comptables
 Lorsqu'une période fiscale est terminée, vous pouvez la clôturer fiscalement pour veiller à ce qu'aucune autre écriture comptable ne puisse être validée.  
-
-> [!NOTE]  
->  Lorsqu'une période est clôturée, toutes les écritures de simulation qui peuvent exister sont identifiées et supprimées.  
 
 ## <a name="to-fiscally-close-accounting-periods"></a>Pour clôturer fiscalement des périodes comptables  
 

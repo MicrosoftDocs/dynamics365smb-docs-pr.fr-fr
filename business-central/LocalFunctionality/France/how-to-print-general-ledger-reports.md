@@ -1,6 +1,6 @@
 ---
 title: "Procédure d'impression des états comptables"
-description: "Les états comptables répondent aux normes de la comptabilité générale et ils contiennent des informations sur les écritures comptables, les simulations d'écritures, les écritures des clients, des fournisseurs et des banques."
+description: "Les états de la comptabilité répondent aux normes de la comptabilité générale et ils contiennent des informations sur les écritures comptables, les écritures des clients, des fournisseurs et des banques."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5e69e2af06579518b8dcf3c36e776c396a7da2fe
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 5ac214ce2eae2f0f5c1625cdd0e48ab368d074ff
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="print-general-ledger-reports"></a>Imprimer des états de la comptabilité
-Les états comptables répondent aux normes de la comptabilité générale et ils contiennent des informations sur les écritures comptables, les simulations d'écritures, les écritures des clients, des fournisseurs et des banques.  
+Les états de la comptabilité répondent aux normes de la comptabilité générale et ils contiennent des informations sur les écritures comptables, les écritures des clients, des fournisseurs et des banques.  
 
 ## <a name="to-print-general-ledger-reports"></a>Pour imprimer des états comptables  
 

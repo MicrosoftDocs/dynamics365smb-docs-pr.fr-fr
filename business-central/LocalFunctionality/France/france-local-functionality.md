@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 04/12/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 6f571695e0e89d3bd7cce372ec13417622301661
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: b38418038dbd71a2c413a2b6a31b115d978f685e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 
@@ -25,8 +25,7 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
 [Écritures comptables](general-ledger.md)  
 [Périodes fiscales et exercices comptables](fiscal-periods-and-fiscal-years.md)  
 [Amortissement accéléré](accelerated-depreciation.md)  
-[Gestion des paiements](payment-management.md)  
-[Simulation d'écritures](simulation-of-entries.md)  
+[Gestion des paiements](payment-management.md)
 
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)     

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fa72b0ecb6c02851458f9d5806a4c10e9fbd0a5d
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ce87bf4704a3f4f2d0643391556107dfd9e04bbb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="fiscally-close-years"></a>Clôturer fiscalement des exercices
@@ -25,7 +25,7 @@ Lorsqu'un exercice comptable est terminé, vous devez clôturer fiscalement les 
 Avant que la clôture fiscale ne soit autorisée, vous devez vérifier ce qui suit :  
 
 - l'exercice comptable a été préalablement clôturé ; Pour plus d'informations, voir [Clôture des exercices](how-to-close-years.md).  
-- toutes les lignes de feuille non validées et toutes les écritures de simulation de l'exercice sont validées ou supprimées avant la clôture fiscale de l'exercice ;
+- toutes les lignes feuille non validées pour l'exercice sont validées ou supprimées avant la clôture fiscale de l'exercice ;
 - toutes les écritures de clôture sont à jour.  
 
 ## <a name="to-fiscally-close-years"></a>Pour clôturer fiscalement des exercices  

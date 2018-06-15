@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 30/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0818b918648ed01590f215a2f25e8288b0092a02
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: bad4579c897d9f933ea42f7f3e13e40c6b29fab0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="fiscal-periods-and-fiscal-years"></a>Périodes fiscales et exercices comptables
@@ -35,7 +35,7 @@ Un exercice comptable peut être clôturé si tous les critères suivants sont r
 
 - L'exercice comptable a été clôturé à l'aide de la fonction **Clôturer exercice** dans la fenêtre **Périodes comptables**. Pour plus d'informations, voir [Clôture des exercices et des périodes](../../year-close-years-periods.md).  
 
-- Toutes les lignes feuille non validées et les écritures de simulation de l'exercice ont été validées ou supprimées.  
+- Toutes les lignes feuille non validées pour l'exercice ont été validées ou supprimées.  
 
 - Toutes les écritures de clôture sont à jour.  
 
