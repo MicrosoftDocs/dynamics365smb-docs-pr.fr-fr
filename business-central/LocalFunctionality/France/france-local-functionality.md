@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 04/12/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
-ms.openlocfilehash: b38418038dbd71a2c413a2b6a31b115d978f685e
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 980a15b21b3be1fa16bfe2942cd351a7bd698b65
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 
@@ -31,5 +31,5 @@ ms.lasthandoff: 04/16/2018
 <span data-ttu-id="44e0c-111">[Utilisation de [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="44e0c-111">[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span></span>     
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](../../includes/training_link_md.md)]
+ 
 
