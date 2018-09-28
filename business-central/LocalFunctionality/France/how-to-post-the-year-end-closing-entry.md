@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cc0e2d7930d19989e59cf14cfe7768682730ce41
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: cb5ddfc7db4729747eb672d7ecd64cd59da30876
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="post-the-year-end-closing-entry"></a><span data-ttu-id="2dc21-103">Valider l'écriture de clôture d'exercice</span><span class="sxs-lookup"><span data-stu-id="2dc21-103">Post the Year-End Closing Entry</span></span>

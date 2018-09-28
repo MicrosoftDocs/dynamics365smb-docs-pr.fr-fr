@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b6d293370c0f7762917be0808023823382dedbc4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 620d1908c68c41ef5a0b931609e52afe9350eb75
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="unapply-general-ledger-entries"></a><span data-ttu-id="3dcab-103">Délettrer des écritures comptables</span><span class="sxs-lookup"><span data-stu-id="3dcab-103">Unapply General Ledger Entries</span></span>

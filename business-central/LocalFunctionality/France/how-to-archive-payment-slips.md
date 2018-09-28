@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d1258744cae6384bbee45fe79c321f49e2d44cdc
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7bec2b1ab6c277d5004872f7a7802645ced91f2e
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="archive-payment-slips"></a><span data-ttu-id="ff3e6-103">Archiver les bordereaux de paiement</span><span class="sxs-lookup"><span data-stu-id="ff3e6-103">Archive Payment Slips</span></span>

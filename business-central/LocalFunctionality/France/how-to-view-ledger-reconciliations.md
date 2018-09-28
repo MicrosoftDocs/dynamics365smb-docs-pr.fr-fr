@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c56d731ae5884b84a9865f859884fbb70dbc7e6f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d13d19cbe5e1d80f41ab7b1e3f2756af9706de99
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="view-ledger-reconciliations"></a><span data-ttu-id="05448-103">Afficher des rapprochements comptables</span><span class="sxs-lookup"><span data-stu-id="05448-103">View Ledger Reconciliations</span></span>
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)]<span data-ttu-id="05448-104"> comprend deux états qui peuvent vous aider à rapprocher les écritures comptables et les écritures comptables client et fournisseur.</span><span class="sxs-lookup"><span data-stu-id="05448-104"> includes two reports that can help you reconcile general ledger entries with customer ledger entries and vendor ledger entries.</span></span> <span data-ttu-id="05448-105">L'état imprime une page distincte pour chaque client ou fournisseur qui récapitule les montants des transactions comptables basées sur les paiements et les factures validées.</span><span class="sxs-lookup"><span data-stu-id="05448-105">The reports print a separate page for each customer or vendor that sums up amounts from general ledger transactions based on payments and posted invoices.</span></span>  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] <span data-ttu-id="05448-104">comprend deux états qui peuvent vous aider à rapprocher les écritures comptables et les écritures comptables client et fournisseur.</span><span class="sxs-lookup"><span data-stu-id="05448-104"> includes two reports that can help you reconcile general ledger entries with customer ledger entries and vendor ledger entries.</span></span> <span data-ttu-id="05448-105">L'état imprime une page distincte pour chaque client ou fournisseur qui récapitule les montants des transactions comptables basées sur les paiements et les factures validées.</span><span class="sxs-lookup"><span data-stu-id="05448-105">The reports print a separate page for each customer or vendor that sums up amounts from general ledger transactions based on payments and posted invoices.</span></span>  
 
 <span data-ttu-id="05448-106">La procédure suivante s'applique à afficher le rapprochement entre les écritures comptables et les écritures comptables client, mais les mêmes étapes s'appliquent au rapprochement avec les écritures comptables fournisseur.</span><span class="sxs-lookup"><span data-stu-id="05448-106">The following procedure applies to viewing reconciliation between the general ledger and the customer ledger, but the same steps apply to reconciliation with the vendor ledger.</span></span>  
 

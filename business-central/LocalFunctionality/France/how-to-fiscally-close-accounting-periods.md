@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
-ms.openlocfilehash: 4abd84c01035c40be33dfa3c90713d1c8684faa8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: edbbfcadc1b921b88b5d5dc3226445c6dd226c44
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="fiscally-close-accounting-periods"></a><span data-ttu-id="4b1e7-103">Clôturer fiscalement des périodes comptables</span><span class="sxs-lookup"><span data-stu-id="4b1e7-103">Fiscally Close Accounting Periods</span></span>

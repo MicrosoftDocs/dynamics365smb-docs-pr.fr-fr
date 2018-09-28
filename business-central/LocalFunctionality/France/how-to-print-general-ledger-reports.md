@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
-ms.openlocfilehash: 5ac214ce2eae2f0f5c1625cdd0e48ab368d074ff
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5f8e29f3cd69e40e5e22d5e3c752ecead18c9222
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="print-general-ledger-reports"></a><span data-ttu-id="07691-103">Imprimer des états de la comptabilité</span><span class="sxs-lookup"><span data-stu-id="07691-103">Print General Ledger Reports</span></span>

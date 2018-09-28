@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
-ms.openlocfilehash: ce87bf4704a3f4f2d0643391556107dfd9e04bbb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 44c3cb6c63cae2e528ef012650a2afad07c8c1ff
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="fiscally-close-years"></a><span data-ttu-id="a4abc-103">Clôturer fiscalement des exercices</span><span class="sxs-lookup"><span data-stu-id="a4abc-103">Fiscally Close Years</span></span>

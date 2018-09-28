@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: daf9b5d3102421c877939c1576c6ed1590a7e447
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0558e82e7ef880749c68aa84abce5076ca6cef04
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="open-a-new-fiscal-year"></a><span data-ttu-id="b5a78-103">Ouvrir un nouvel exercice comptable</span><span class="sxs-lookup"><span data-stu-id="b5a78-103">Open a New Fiscal Year</span></span>

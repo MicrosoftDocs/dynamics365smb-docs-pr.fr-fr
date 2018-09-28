@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5ce479e420aa84ae66386959cc2f170c6d080081
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: cda2d412be67ec04e87b5aea9c3f2b6d91f73efb
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-payment-classes"></a><span data-ttu-id="01777-103">Paramétrer des types de règlement</span><span class="sxs-lookup"><span data-stu-id="01777-103">Set Up Payment Classes</span></span>

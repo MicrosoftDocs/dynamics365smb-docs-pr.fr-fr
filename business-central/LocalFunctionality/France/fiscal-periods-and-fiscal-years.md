@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 30/01/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
-ms.openlocfilehash: bad4579c897d9f933ea42f7f3e13e40c6b29fab0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6c2f4a921f24993db787a07a45f205a6eed533a0
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="fiscal-periods-and-fiscal-years"></a><span data-ttu-id="55e48-104">Périodes fiscales et exercices comptables</span><span class="sxs-lookup"><span data-stu-id="55e48-104">Fiscal Periods and Fiscal Years</span></span>

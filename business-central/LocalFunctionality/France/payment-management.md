@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4ead5cd4e40e6087143d736079e8bf26efd18741
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fa0f4a844cbb775de6309fb35c954d3a2fb95a6a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="payment-management"></a><span data-ttu-id="200d2-103">Gestion des paiements</span><span class="sxs-lookup"><span data-stu-id="200d2-103">Payment Management</span></span>
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)]<span data-ttu-id="200d2-104"> vous permet de gérer des lettres de change, des paiements électroniques et des paiements fournisseur à l'aide de la fonction de gestion des paiements.</span><span class="sxs-lookup"><span data-stu-id="200d2-104"> allows you to manage bills of exchange, electronic payments, and vendor payments using the payment management function.</span></span>  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] <span data-ttu-id="200d2-104">vous permet de gérer des lettres de change, des paiements électroniques et des paiements fournisseur à l'aide de la fonction de gestion des paiements.</span><span class="sxs-lookup"><span data-stu-id="200d2-104"> allows you to manage bills of exchange, electronic payments, and vendor payments using the payment management function.</span></span>  
 
 <span data-ttu-id="200d2-105">Vous pouvez gérer les paiements fournisseur et client à l'aide des bordereaux paiement.</span><span class="sxs-lookup"><span data-stu-id="200d2-105">You can manage customer and vendor payments using payment slips.</span></span> <span data-ttu-id="200d2-106">Avant de créer un bordereau paiement, vous devez définir les paramétrages suivants :</span><span class="sxs-lookup"><span data-stu-id="200d2-106">Before you create a payment slip, you must set up the following prerequisites:</span></span>  
 
