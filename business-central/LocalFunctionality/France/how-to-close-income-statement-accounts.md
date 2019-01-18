@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 39b109291ff171da9796f80c6786215b0e0a52c9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 60e9fdcf0c4d596ef39db40b3feba71af02de11a
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="close-income-statement-accounts"></a>Clôturer les comptes de gestion
@@ -25,7 +25,7 @@ Avant d'exécuter un traitement par lots **Clôturer exercice comptable**, vous 
 ## <a name="to-close-the-income-statement-accounts"></a>Pour clôturer des comptes de gestion  
 
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Solder les comptes de gestion**, puis sélectionnez le lien approprié.  
-2.  Dans la fenêtre **Clôturer exercice comptable**, sous le raccourci **Options**, indiquez les conditions du traitement par lots.  
+2.  Sur la page **Clôturer exercice comptable**, sous le raccourci **Options**, indiquez les conditions du traitement par lots.  
 3.  Cliquez sur le bouton **OK**.  
 
     Lorsque le traitement par lots est terminé, vous devez clôturer les comptes.  

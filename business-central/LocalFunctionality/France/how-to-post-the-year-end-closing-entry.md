@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cc0e2d7930d19989e59cf14cfe7768682730ce41
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 0f68260bde7f4491d362ee7bc3b0f191e810d16d
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="post-the-year-end-closing-entry"></a>Valider l'écriture de clôture d'exercice
@@ -27,7 +27,7 @@ Après avoir utilisé le traitement par lots **Solder les comptes de gestion** p
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille comptabilité**, puis sélectionnez le lien connexe.  
 2.  Examinez les écritures.  
 3.  Sélectionnez l'action **Valider**.  
-4.  Dans la fenêtre de confirmation de la validation, cliquez sur le bouton **OK**.  
+4.  Sur la page de confirmation de la validation, cliquez sur le bouton **Oui**.  
 
 En cas de détection d'une erreur, un message d'erreur s'affiche. Si la validation réussit, le système supprime les entrées validées de la feuille.  
 

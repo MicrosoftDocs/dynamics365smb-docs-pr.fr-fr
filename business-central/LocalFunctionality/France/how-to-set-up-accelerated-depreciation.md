@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2960be1df93b585a067f82dee20145cb696e3ae6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 470911542a479841e075d851006914aa1f8974fd
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-accelerated-depreciation"></a>Paramétrer l'amortissement accéléré
@@ -31,7 +31,7 @@ Pour utiliser la fonction de calcul de l'amortissement accéléré, vous devez c
 ## <a name="to-set-up-the-accounting-depreciation-book"></a>Pour configurer la loi d'amortissement comptable  
 
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Lois d'amortissement**, puis sélectionnez le lien approprié.  
-2.  Dans la fenêtre **Liste des lois d'amortissement**, sélectionnez l'action **Nouveau**.  
+2.  Sur la page **Liste de la loi d'amortissement**, sélectionnez l'action **Nouveau**.  
 3.  Sous le raccourci **Général**, renseignez les champs obligatoires comme indiqué dans le tableau ci-dessous.  
 
     |Champ|Désignation|  
@@ -51,7 +51,7 @@ Pour utiliser la fonction de calcul de l'amortissement accéléré, vous devez c
 ## <a name="to-set-up-the-tax-depreciation-book"></a>Pour configurer la loi d'amortissement fiscal  
 
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Lois d'amortissement**, puis sélectionnez le lien approprié.  
-2.  Dans la fenêtre **Liste des lois d'amortissement**, sélectionnez l'action **Nouveau**.  
+2.  Sur la page **Liste de la loi d'amortissement**, sélectionnez l'action **Nouveau**.  
 3.  Sous le raccourci **Général**, renseignez les champs obligatoires comme indiqué dans le tableau ci-dessous.  
 
     |Champ|Désignation|  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
-ms.openlocfilehash: bad4579c897d9f933ea42f7f3e13e40c6b29fab0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 27e225637982d3d5c7451704bf5397433fbca7e5
 ms.contentlocale: fr-fr
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="fiscal-periods-and-fiscal-years"></a>Périodes fiscales et exercices comptables
@@ -31,15 +31,15 @@ Vous ne pouvez rouvrir une période comptable clôturée que si elle fait partie
 
 Un exercice comptable peut être clôturé si tous les critères suivants sont remplis :  
 
-- Les dates comptabilisation dans la fenêtre **Paramètres utilisateur** et la fenêtre **Paramètres comptabilité** ne font pas partie de l'exercice que vous clôturez. Pour plus d'informations, voir Paramètres utilisateur et Paramètres comptabilité.  
+- Les dates comptabilisation sur la page **Paramètres utilisateur** et la page **Paramètres comptabilité** ne font pas partie de l'exercice que vous clôturez. Pour plus d'informations, voir Paramètres utilisateur et Paramètres comptabilité.  
 
-- L'exercice comptable a été clôturé à l'aide de la fonction **Clôturer exercice** dans la fenêtre **Périodes comptables**. Pour plus d'informations, voir [Clôture des exercices et des périodes](../../year-close-years-periods.md).  
+- L'exercice comptable a été clôturé à l'aide de la fonction **Clôturer exercice** sur la page **Périodes comptables**. Pour plus d'informations, voir [Clôture des exercices et des périodes](../../year-close-years-periods.md).  
 
 - Toutes les lignes feuille non validées pour l'exercice ont été validées ou supprimées.  
 
 - Toutes les écritures de clôture sont à jour.  
 
-Lorsque vous clôturez une période fiscale, la plus ancienne période fiscale ouverte est clôturée. Le champ **Début période validation** dans la fenêtre **Paramètres comptabilité** est mis à jour avec la date de début de la période ouverte suivante, si la date existante dans ce champ n'est pas déjà une date postérieure. Si le champ **Fin période validation** dans la fenêtre **Paramètres comptabilité** se situe dans la période clôturée, la valeur du champ **Fin période validation** est mise à jour avec la date de fin de la première période fiscale ouverte. Pour plus d'informations, voir Paramètres comptabilité.  
+Lorsque vous clôturez une période fiscale, la plus ancienne période fiscale ouverte est clôturée. Le champ **Début période validation** sur la page **Paramètres comptabilité** est mis à jour avec la date de début de la période ouverte suivante, si la date existante dans ce champ n'est pas déjà une date postérieure. Si le champ **Fin période validation** sur la page **Paramètres comptabilité** se situe dans la période clôturée, la valeur du champ **Fin période validation** est mise à jour avec la date de fin de la première période fiscale ouverte. Pour plus d'informations, voir Paramètres comptabilité.  
 
 À la fin de l'exercice, vous devez effectuer les opérations suivantes :  
 

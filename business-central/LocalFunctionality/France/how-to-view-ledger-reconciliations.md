@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c56d731ae5884b84a9865f859884fbb70dbc7e6f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2f1285edd9c60098a55774fcbf3f339dfc223a64
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="view-ledger-reconciliations"></a>Afficher des rapprochements comptables
@@ -28,7 +28,7 @@ La procédure suivante s'applique à afficher le rapprochement entre les écritu
 
 1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Écritures comptables**, puis sélectionnez le lien connexe dans **Écritures comptables**.  
 2.  Choisissez l'action **États**, choisissez l'action **France**, puis sélectionnez l'action **Rapprochement cpta. gén./client**.  
-3.  Dans la fenêtre **Rapprochement cpta. gén./client**, positionnez les filtres appropriés.  
+3.  Sur la page **Rapprochement cpta. gén./client**, positionnez les filtres appropriés.  
 
     > [!NOTE]  
     >  Vous devez spécifier un filtre date.  

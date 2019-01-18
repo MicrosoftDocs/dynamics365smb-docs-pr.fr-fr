@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d1fa0a3b26a3bf10c014e9af9645aff8644e0350
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a2b313bee90f53590b6baf8be33cd75925f794ab
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-payment-slips"></a>Créer bordereaux paiement
@@ -28,7 +28,7 @@ La procédure suivante décrit comment créer des bordereaux paiement pour les r
 
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Bordereaux paiement**, puis sélectionnez le lien approprié.  
 2.  Sélectionnez l'action **Nouveau**.  
-3.  Dans la fenêtre **Bordereau paiement**, sélectionnez un champ pour ouvrir la fenêtre **Liste des types de règlement**.  
+3.  Sur la page **Bordereau paiement**, sélectionnez un champ pour ouvrir la page **Liste des types de règlement**.  
 4.  Sélectionnez un type de règlement, puis choisissez le bouton **OK**.  
 5.  Sous le raccourci **Général**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
 
@@ -47,7 +47,7 @@ La procédure suivante décrit comment créer des bordereaux paiement pour les r
     |**N° compte**|Numéro d'identification unique pour le compte sur lequel l'écriture est validée.|  
 
 7.  Dans le champ **Code compte bancaire**, sélectionnez un nom bancaire dans la liste, puis choisissez **Avancé**.  
-8.  Éventuellement, pour SEPA, dans la fenêtre **Sélectionner – Liste des comptes fournisseur**, puis cliquez sur l'action **Modifier**.  
+8.  Éventuellement, pour SEPA, sur la page **Sélectionner – Liste des comptes fournisseur**, puis cliquez sur l'action **Modifier**.  
 
     Renseignez les champs suivants, si nécessaire :  
 
@@ -55,7 +55,7 @@ La procédure suivante décrit comment créer des bordereaux paiement pour les r
     - **Code SWIFT**  
     - **IBAN**  
 
-    Cliquez sur le bouton **OK** pour fermer la fenêtre.  
+    Cliquez sur le bouton **OK** pour fermer la page.  
 
 9. Éventuellement, pour SEPA, choisissez l'action **Relevé d'identité bancaire**. Sélectionnez le champ **Code pays/région banque**, puis choisissez **Avancé**. Assurez-vous que la case à cocher **SEPA autorisé** est sélectionnée. Assurez-vous également que les champs **IBAN** et **Code SWIFT** sont renseignés.  
 
@@ -76,11 +76,11 @@ La procédure suivante décrit comment créer des bordereaux paiement pour les r
     |**Filtre devise**|Code de la devise à inclure dans le traitement par lots.|  
 
 12. Sur le raccourci **Fournisseur**, sélectionnez les filtres appropriés.  
-13. Cliquez sur le bouton **OK**.  
+13. Choisissez le bouton **OK**.  
 
     Les lignes paiement sont automatiquement créées.  
 
-14. Dans la fenêtre **Bordereau paiement**, sous le raccourci **Validation**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
+14. Sur la page **Bordereau paiement**, sous le raccourci **Validation**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
@@ -92,7 +92,7 @@ La procédure suivante décrit comment créer des bordereaux paiement pour les r
 
 15. Éventuellement, pour SEPA, dans le champ **N° compte**, choisissez l'option **Avancé**.  
 
-    1. Dans la fenêtre **Liste des comptes bancaires**, sélectionnez l'action **Modifier**.  
+    1. Sur la page **Liste des comptes bancaires**, sélectionnez l'action **Modifier**.  
     2. Renseignez les champs suivants, si nécessaire :  
 
         - Raccourci **Général**  
@@ -115,10 +115,10 @@ Après avoir créé un bordereau de paiement, vous pouvez générer des fichiers
 
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Bordereaux paiement**, puis sélectionnez le lien approprié.  
 2.  Sélectionnez un bordereau paiement, puis cliquez sur **Modifier**.  
-3.  Dans la fenêtre **Bordereau paiement**, sélectionnez **Générer fichier**.  
+3.  Sur la page **Bordereau paiement**, sélectionnez **Générer fichier**.  
 4.  Cliquez sur le bouton **Oui**, puis sur le bouton **OK**.  
 
-    Le fichier de paiement est généré et exporté en fonction du type d'exportation spécifié dans la fenêtre **Étape règlement**.  
+    Le fichier de paiement est généré et exporté en fonction du type d'exportation spécifié sur la page **Étape règlement**.  
 
 5.  En cas d'erreur, consultez les erreurs répertoriées dans le récapitulatif **Erreurs exportation fichier** et prenez la mesure appropriée.  
 

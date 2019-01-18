@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7aca9027dfd0b234b4d45133295b948aaec3a320
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 10c4f4296f3f2772e362360d67f21655bf5c1319
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-payment-steps"></a>Paramétrer des étapes règlement
@@ -28,16 +28,16 @@ Pour utiliser la gestion des paiements, vous devez configurer les étapes pour l
 2.  Sélectionnez un type de règlement, puis cliquez sur **Étapes**.  
 3.  Dans le champ **Nom**, entrez un nom pour l'étape règlement. Vous pouvez entrer 50 caractères alphanumériques maximum.  
 4.  Choisissez l'action **Modifier**.  
-5.  Dans la fenêtre **Fiche étape règlement**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
+5.  Sur la page **Fiche étape règlement**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
 
     |**Champ**|**Description**|  
     |---------------------------------|---------------------------------------|  
-    |**Nom**|Nom de l'étape règlement entré dans la fenêtre **Étape règlement**.|  
+    |**Nom**|Nom de l'étape règlement entré sur la page **Étape règlement**.|  
     |**Statut précédent**|Statut précédent, à partir duquel l'étape a été exécutée pour la dernière fois. La valeur par défaut est 0. Si le statut précédent est le même que le statut suivant, il n'est pas modifié une fois exécuté. Par conséquent, cette étape règlement est facultative et peut être exécutée indéfiniment.|  
     |**Nom état précédent**|Nom du statut sélectionné dans le champ **Statut précédent**.|  
     |**Statut suivant**|Statut auquel cette étape règlement se termine.|  
     |**Nom état suivant**|Nom du statut sélectionné dans le champ **Statut suivant**. Ce champ ne peut pas être modifié.|  
-    |**Type action**|Type d'action à effectuer à cette étape. <br /><br /> **Comptabilité :** si vous spécifiez **Comptabilité**, vous devez définir des informations supplémentaires dans la fenêtre **Etape comptabilisation règlement**.<br /><br /> **État :** si vous spécifiez **État**, indiquez l'état dans le champ **N° déclaration** .<br /><br /> **Fichier :**<br /><br /> * Si vous spécifiez **Fichier**, vous spécifiez le type de fichier dans le champ **Type exportation** : **État** ou **XMLPort**.<br /><br /> * Pour les dossiers de virement SEPA, spécifiez **XMLport**, puis définissez le champ **N° exportation** sur 1000.<br /><br /> * Pour les dossiers de prélèvement SEPA, spécifiez **XMLport**, puis définissez le champ **N° exportation** sur 1010.|  
+    |**Type action**|Type d'action à effectuer à cette étape. <br /><br /> **Comptabilité :** si vous spécifiez **Comptabilité**, vous devez définir des informations supplémentaires sur la page **Etape comptabilisation règlement**.<br /><br /> **État :** si vous spécifiez **État**, indiquez l'état dans le champ **N° déclaration** .<br /><br /> **Fichier :**<br /><br /> * Si vous spécifiez **Fichier**, vous spécifiez le type de fichier dans le champ **Type exportation** : **État** ou **XMLPort**.<br /><br /> * Pour les dossiers de virement SEPA, spécifiez **XMLport**, puis définissez le champ **N° exportation** sur 1000.<br /><br /> * Pour les dossiers de prélèvement SEPA, spécifiez **XMLport**, puis définissez le champ **N° exportation** sur 1010.|  
     |**N° déclaration**|Numéro d'identification de l'état. Ce champ est disponible si le champ **Type action** est défini sur **État**.|  
     |**Type exportation**|Type d'exportation du fichier. Ce champ est disponible si le champ **Type action** est défini sur **Fichier**.<br /><br /> Pour obtenir des exemples, voir [Exporter les paiements](how-to-export-payments.md).|  
     |**N° exportation**|Code d'identification du type d'exportation sélectionné. Ce champ est disponible si le champ **Type action** est défini sur **Fichier**.|  
@@ -47,7 +47,7 @@ Pour utiliser la gestion des paiements, vous devez configurer les étapes pour l
     |**Code motif**|Code motif associé à l'étape règlement.<br /><br /> Ce champ est disponible si le champ **Type action** est défini sur **Comptabilité**.|  
     |**N° de souche en-tête**|Code souche de numéros à utiliser pour affecter des numéros à l'en-tête d'un nouveau bordereau de paiement.<br /><br /> Ce champ est disponible si le champ **Type action** est défini sur **Créer un document**.|  
     |**Correction**|Sélectionnez pour marquer les écritures paiement comme écritures de correction. Ce champ est disponible si le champ **Type action** est défini sur **Comptabilité**.|  
-    |**Réaliser TVA**|Sélectionnez pour indiquer que la TVA sur encaissement doit être contre-passée et la TVA déclarée pour cette étape règlement.<br /><br /> Ce champ est disponible si le champ **Contrepassation de TVA sur encaissement** dans la fenêtre **Types de règlement** est défini sur **En retard**.|  
+    |**Réaliser TVA**|Sélectionnez pour indiquer que la TVA sur encaissement doit être contre-passée et la TVA déclarée pour cette étape règlement.<br /><br /> Ce champ est disponible si le champ **Contrepassation de TVA sur encaissement** sur la page **Types de règlement** est défini sur **En retard**.|  
     |**Vérifier RIB en-tête**|Sélectionnez pour vérifier que la valeur de clé du RIB spécifiée sur l'ente du bordereau de paiement a été saisie correctement.|  
     |**Code acceptation <> Non**|Sélectionnez pour vérifier que le code acceptation de chaque ligne paiement n'est pas un numéro.|  
 
@@ -57,8 +57,8 @@ Si le type d'action de l'étape règlement est **Comptabilité**, vous devez dé
 
 ## <a name="to-set-up-ledger-information-for-a-payment-step"></a>Pour définir des informations de comptabilité lors d'une étape de paiement  
 
-1.  Dans la fenêtre **Fiche étape règlement** de l'étape règlement, choisissez l'action **Comptabilité**.  
-2.  Dans la fenêtre **Etape comptabilisation règlement**, sélectionnez l'action **Nouveau**.  
+1.  Sur la page **Fiche étape règlement** de l'étape règlement, choisissez l'action **Comptabilité**.  
+2.  Sur la page **Etape comptabilisation règlement**, sélectionnez l'action **Nouveau**.  
 3.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
     |**Champ**|**Description**|  

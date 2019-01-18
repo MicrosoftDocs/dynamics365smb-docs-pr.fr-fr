@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5ce479e420aa84ae66386959cc2f170c6d080081
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6539e80e801873b78c075cfb3b16886e3b8dea42
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-payment-classes"></a>Paramétrer des types de règlement
@@ -25,7 +25,7 @@ Pour utiliser le module Gestion des paiements, vous devez paramétrer des types 
 ## <a name="to-set-up-a-payment-class"></a>Pour paramétrer un type de règlement  
 
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres bordereau paiement**, puis sélectionnez le lien approprié.  
-2.  Dans la fenêtre **Type règlement**, sélectionnez l'action **Nouveau**.  
+2.  Sur la page **Type de règlement**, sélectionnez l'action **Nouveau**.  
 3.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
@@ -36,7 +36,7 @@ Pour utiliser le module Gestion des paiements, vous devez paramétrer des types 
     |**N° de souche en-tête**|Code souche de numéros pour l'en-tête du bordereau paiement.|  
     |**N° de souche lignes**|Code souche de numéros pour les lignes du bordereau paiement. Si vous laissez ce champ vide, le numéro de chaque ligne paiement est créé en se basant sur le numéro d'en-tête du bordereau paiement.|  
     |**Propositions**|Type de proposition de règlement qui peut être créé automatiquement sur un bordereau paiement.|  
-    |**Contrepassation de TVA sur encaissement**|Spécifiez la méthode pour gérer la TVA sur encaissement.<br /><br /> Si vous sélectionnez **Lettrage**, la TVA sera réalisée lors de la validation du lettrage de la facture et du paiement.<br /><br /> Si vous sélectionnez **En retard**, vous devez définir l'étape de règlement au cours de laquelle la TVA doit être réalisée, en sélectionnant le champ **Réaliser TVA** dans la fenêtre **Fiche étape règlement**. Pour plus d'informations, voir Réaliser TVA et Étape règlement.|  
+    |**Contrepassation de TVA sur encaissement**|Spécifiez la méthode pour gérer la TVA sur encaissement.<br /><br /> Si vous sélectionnez **Lettrage**, la TVA sera réalisée lors de la validation du lettrage de la facture et du paiement.<br /><br /> Si vous sélectionnez **En retard**, vous devez définir l'étape de règlement au cours de laquelle la TVA doit être réalisée, en sélectionnant le champ **Réaliser TVA** sur la page **Fiche étape règlement**. Pour plus d'informations, voir Réaliser TVA et Étape règlement.|  
     |**Type transfert SEPA**|Spécifiez le format d'exportation SEPA, **Virement** ou **Prélèvement**.|  
 
 4.  Cliquez sur le bouton **OK**.  

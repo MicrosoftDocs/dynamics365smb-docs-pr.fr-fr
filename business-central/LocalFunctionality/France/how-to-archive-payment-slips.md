@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d1258744cae6384bbee45fe79c321f49e2d44cdc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f29b4bed3e852fa2cf5b4c1d6e558a5e5116b5b8
 ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="archive-payment-slips"></a>Archiver les bordereaux de paiement
@@ -31,7 +31,7 @@ Vous pouvez archiver le bordereau paiement à l'aide des méthodes suivantes :
 
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Bordereaux paiement**, puis sélectionnez le lien approprié.  
 2.  Sélectionnez le bordereau paiement concerné, puis cliquez sur l'action **Modifier**.  
-3.  Dans la fenêtre **Bordereau paiement**, sélectionnez **Archiver**.  
+3.  Sur la page **Bordereau paiement**, sélectionnez **Archiver**.  
 4.  Cliquez sur le bouton **Oui** pour archiver le bordereau paiement.  
 
     > [!NOTE]  
@@ -40,13 +40,13 @@ Vous pouvez archiver le bordereau paiement à l'aide des méthodes suivantes :
 ## <a name="to-archive-a-batch-of-payment-slips"></a>Pour archiver un lot de bordereaux paiement  
 
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Archiver les bordereaux de paiement**, puis sélectionnez le lien approprié.  
-2.  Dans la fenêtre **Archiver les bordereaux de paiement**, sur le raccourci **En-tête bordereau**, sélectionnez les filtres appropriés.  
+2.  Sur la page **Archiver les bordereaux de paiement**, sur le raccourci **En-tête bordereau**, sélectionnez les filtres appropriés.  
 3.  Cliquez sur le bouton **OK**.  
 
 Les bordereaux paiement sont archivés.  
 
 > [!NOTE]  
->  Ce traitement par lots archive uniquement les bordereaux paiement dont la case **Archivage autorisé** est cochée dans la fenêtre **Statut règlement**. Pour plus d'informations, voir [Paramétrer des statuts règlement](how-to-set-up-payment-statuses.md).  
+>  Ce traitement par lots archive uniquement les bordereaux paiement dont la case **Archivage autorisé** est cochée sur la page **Statut règlement**. Pour plus d'informations, voir [Paramétrer des statuts règlement](how-to-set-up-payment-statuses.md).  
 
 ## <a name="see-also"></a>Voir aussi  
  [Gestion des paiements](payment-management.md)   
