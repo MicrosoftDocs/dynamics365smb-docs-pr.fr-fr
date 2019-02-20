@@ -1,6 +1,6 @@
 ---
 title: "Procédure de calcul de l'amortissement accéléré"
-description: "Dans Business Central, vous calculez l'amortissement périodique des immobilisations à l'aide du traitement par lots **Calculer amortissement**. La loi d'amortissement liée à l'immobilisation définit la méthode d'amortissement, la date de début de l'amortissement et le groupe comptabilisation immobilisation utilisé par le traitement par lots."
+description: "Dans Business Central, vous calculez l'amortissement périodique des immobilisations à l'aide du traitement par lots Calculer amortissement. La loi d'amortissement liée à l'immobilisation définit la méthode d'amortissement, la date de début de l'amortissement et le groupe comptabilisation immobilisation utilisé par le traitement par lots."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 399beadb0379b88340d9fea413fd6ea134e6122d
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: 462952864f99dee1dc732043e816ce796e5453e1
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="calculate-accelerated-depreciation"></a>Calculer l'amortissement accéléré

@@ -1,6 +1,6 @@
 ---
 title: "Procédure de clôture des comptes de gestion"
-description: "Avant d'exécuter un traitement par lots **Clôturer exercice comptable**, vous devez clôturer l'exercice fiscal."
+description: "Avant d'exécuter un traitement par lots Clôturer exercice comptable, vous devez clôturer l'exercice fiscal."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 60e9fdcf0c4d596ef39db40b3feba71af02de11a
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: d1457cd1af0530dc1138ca7c8194ac9cc6cb9fa3
 ms.contentlocale: fr-fr
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="close-income-statement-accounts"></a>Clôturer les comptes de gestion
