@@ -1,74 +1,73 @@
 ---
-title: "Procédure de paramétrage de l'amortissement accéléré"
-description: "Pour utiliser la fonction de calcul de l'amortissement accéléré, vous devez configurer les lois d'amortissement pour les immobilisations."
+title: Procédure de paramétrage de l'amortissement accéléré
+description: Pour utiliser la fonction de calcul de l'amortissement accéléré, vous devez configurer les lois d'amortissement pour les immobilisations.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 470911542a479841e075d851006914aa1f8974fd
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826674"
 ---
-# <a name="set-up-accelerated-depreciation"></a><span data-ttu-id="7c522-103">Paramétrer l'amortissement accéléré</span><span class="sxs-lookup"><span data-stu-id="7c522-103">Set Up Accelerated Depreciation</span></span>
-<span data-ttu-id="7c522-104">Pour utiliser la fonction de calcul de l'amortissement accéléré, vous devez configurer les lois d'amortissement suivantes pour les immobilisations :</span><span class="sxs-lookup"><span data-stu-id="7c522-104">To use the accelerated depreciation calculation, you must set up the following depreciation books for fixed assets:</span></span>  
+# <a name="set-up-accelerated-depreciation"></a><span data-ttu-id="4f277-103">Paramétrer l'amortissement accéléré</span><span class="sxs-lookup"><span data-stu-id="4f277-103">Set Up Accelerated Depreciation</span></span>
+<span data-ttu-id="4f277-104">Pour utiliser la fonction de calcul de l'amortissement accéléré, vous devez configurer les lois d'amortissement suivantes pour les immobilisations :</span><span class="sxs-lookup"><span data-stu-id="4f277-104">To use the accelerated depreciation calculation, you must set up the following depreciation books for fixed assets:</span></span>  
 
-- <span data-ttu-id="7c522-105">la loi d'amortissement comptable (intégrée à la comptabilité) ;</span><span class="sxs-lookup"><span data-stu-id="7c522-105">The accounting depreciation book (integrated with the general ledger).</span></span>  
-- <span data-ttu-id="7c522-106">la loi d'amortissement fiscal (non intégrée à la comptabilité).</span><span class="sxs-lookup"><span data-stu-id="7c522-106">The tax depreciation book (not integrated with the general ledger).</span></span>  
+- <span data-ttu-id="4f277-105">la loi d'amortissement comptable (intégrée à la comptabilité) ;</span><span class="sxs-lookup"><span data-stu-id="4f277-105">The accounting depreciation book (integrated with the general ledger).</span></span>  
+- <span data-ttu-id="4f277-106">la loi d'amortissement fiscal (non intégrée à la comptabilité).</span><span class="sxs-lookup"><span data-stu-id="4f277-106">The tax depreciation book (not integrated with the general ledger).</span></span>  
 
 > [!NOTE]  
->  <span data-ttu-id="7c522-107">Lorsque vous validez une acquisition, un amortissement ou une cession pour la loi d'amortissement comptable, la transaction est automatiquement dupliquée et validée dans la loi d'amortissement fiscal lorsque la feuille immobilisation est validée.</span><span class="sxs-lookup"><span data-stu-id="7c522-107">When you post an acquisition, depreciation, or disposal for the accounting depreciation book, the transaction is duplicated and posted in the tax depreciation book when the fixed asset journal is posted.</span></span>  
+>  <span data-ttu-id="4f277-107">Lorsque vous validez une acquisition, un amortissement ou une cession pour la loi d'amortissement comptable, la transaction est automatiquement dupliquée et validée dans la loi d'amortissement fiscal lorsque la feuille immobilisation est validée.</span><span class="sxs-lookup"><span data-stu-id="4f277-107">When you post an acquisition, depreciation, or disposal for the accounting depreciation book, the transaction is duplicated and posted in the tax depreciation book when the fixed asset journal is posted.</span></span>  
 
-## <a name="to-set-up-the-accounting-depreciation-book"></a><span data-ttu-id="7c522-108">Pour configurer la loi d'amortissement comptable</span><span class="sxs-lookup"><span data-stu-id="7c522-108">To set up the accounting depreciation book</span></span>  
+## <a name="to-set-up-the-accounting-depreciation-book"></a><span data-ttu-id="4f277-108">Pour configurer la loi d'amortissement comptable</span><span class="sxs-lookup"><span data-stu-id="4f277-108">To set up the accounting depreciation book</span></span>  
 
-1.  <span data-ttu-id="7c522-109">Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Lois d'amortissement**, puis sélectionnez le lien approprié.</span><span class="sxs-lookup"><span data-stu-id="7c522-109">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Books**, and then choose the relevant link.</span></span>  
-2.  <span data-ttu-id="7c522-110">Sur la page **Liste de la loi d'amortissement**, sélectionnez l'action **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="7c522-110">On the **Depreciation Book List** page, choose ¨the **New** action.</span></span>  
-3.  <span data-ttu-id="7c522-111">Sous le raccourci **Général**, renseignez les champs obligatoires comme indiqué dans le tableau ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="7c522-111">On the **General** FastTab, fill in the required fields as described in the following table.</span></span>  
+1.  <span data-ttu-id="4f277-109">Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Lois d'amortissement**, puis sélectionnez le lien approprié.</span><span class="sxs-lookup"><span data-stu-id="4f277-109">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Books**, and then choose the relevant link.</span></span>  
+2.  <span data-ttu-id="4f277-110">Sur la page **Liste de la loi d'amortissement**, sélectionnez l'action **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="4f277-110">On the **Depreciation Book List** page, choose ¨the **New** action.</span></span>  
+3.  <span data-ttu-id="4f277-111">Sous le raccourci **Général**, renseignez les champs obligatoires comme indiqué dans le tableau ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="4f277-111">On the **General** FastTab, fill in the required fields as described in the following table.</span></span>  
 
-    |<span data-ttu-id="7c522-112">Champ</span><span class="sxs-lookup"><span data-stu-id="7c522-112">Field</span></span>|<span data-ttu-id="7c522-113">Désignation</span><span class="sxs-lookup"><span data-stu-id="7c522-113">Description</span></span>|  
+    |<span data-ttu-id="4f277-112">Champ</span><span class="sxs-lookup"><span data-stu-id="4f277-112">Field</span></span>|<span data-ttu-id="4f277-113">Désignation</span><span class="sxs-lookup"><span data-stu-id="4f277-113">Description</span></span>|  
     |---------------------------------|---------------------------------------|  
-    |<span data-ttu-id="7c522-114">**Code**</span><span class="sxs-lookup"><span data-stu-id="7c522-114">**Code**</span></span>|<span data-ttu-id="7c522-115">Code d'identification unique de la loi d'amortissement comptable.</span><span class="sxs-lookup"><span data-stu-id="7c522-115">The unique identification code for the accounting depreciation book.</span></span> <span data-ttu-id="7c522-116">Vous pouvez entrer 10 caractères alphanumériques maximum.</span><span class="sxs-lookup"><span data-stu-id="7c522-116">You can enter a maximum of 10 alphanumeric characters.</span></span>|  
-    |<span data-ttu-id="7c522-117">**Description**</span><span class="sxs-lookup"><span data-stu-id="7c522-117">**Description**</span></span>|<span data-ttu-id="7c522-118">Description des lois d'amortissement.</span><span class="sxs-lookup"><span data-stu-id="7c522-118">The depreciation book description.</span></span>|  
+    |<span data-ttu-id="4f277-114">**Code**</span><span class="sxs-lookup"><span data-stu-id="4f277-114">**Code**</span></span>|<span data-ttu-id="4f277-115">Code d'identification unique de la loi d'amortissement comptable.</span><span class="sxs-lookup"><span data-stu-id="4f277-115">The unique identification code for the accounting depreciation book.</span></span> <span data-ttu-id="4f277-116">Vous pouvez entrer 10 caractères alphanumériques maximum.</span><span class="sxs-lookup"><span data-stu-id="4f277-116">You can enter a maximum of 10 alphanumeric characters.</span></span>|  
+    |<span data-ttu-id="4f277-117">**Description**</span><span class="sxs-lookup"><span data-stu-id="4f277-117">**Description**</span></span>|<span data-ttu-id="4f277-118">Description des lois d'amortissement.</span><span class="sxs-lookup"><span data-stu-id="4f277-118">The depreciation book description.</span></span>|  
 
     > [!IMPORTANT]  
-    >  <span data-ttu-id="7c522-119">Laissez le champ **Calcul dérogatoire** vide.</span><span class="sxs-lookup"><span data-stu-id="7c522-119">Leave the **Derogatory Calculation** field blank.</span></span>  
+    >  <span data-ttu-id="4f277-119">Laissez le champ **Calcul dérogatoire** vide.</span><span class="sxs-lookup"><span data-stu-id="4f277-119">Leave the **Derogatory Calculation** field blank.</span></span>  
 
-4.  <span data-ttu-id="7c522-120">Dans le raccourci **Intégration**, sélectionnez la case à cocher **Dérogatoire** pour intégrer l'amortissement accéléré dans la comptabilité.</span><span class="sxs-lookup"><span data-stu-id="7c522-120">On the **Integration** FastTab, select the **Derogatory** check box to integrate accelerated depreciation with the general ledger.</span></span>  
+4.  <span data-ttu-id="4f277-120">Dans le raccourci **Intégration**, sélectionnez la case à cocher **Dérogatoire** pour intégrer l'amortissement accéléré dans la comptabilité.</span><span class="sxs-lookup"><span data-stu-id="4f277-120">On the **Integration** FastTab, select the **Derogatory** check box to integrate accelerated depreciation with the general ledger.</span></span>  
 
-    <span data-ttu-id="7c522-121">Pour en savoir plus, voir [Configurer l'amortissement d'immobilisation](../../fa-how-setup-depreciation.md).</span><span class="sxs-lookup"><span data-stu-id="7c522-121">For more information, see [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md).</span></span>  
+    <span data-ttu-id="4f277-121">Pour en savoir plus, voir [Configurer l'amortissement d'immobilisation](../../fa-how-setup-depreciation.md).</span><span class="sxs-lookup"><span data-stu-id="4f277-121">For more information, see [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md).</span></span>  
 
-5.  <span data-ttu-id="7c522-122">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="7c522-122">Choose the **OK** button.</span></span>  
+5.  <span data-ttu-id="4f277-122">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="4f277-122">Choose the **OK** button.</span></span>  
 
-## <a name="to-set-up-the-tax-depreciation-book"></a><span data-ttu-id="7c522-123">Pour configurer la loi d'amortissement fiscal</span><span class="sxs-lookup"><span data-stu-id="7c522-123">To set up the tax depreciation book</span></span>  
+## <a name="to-set-up-the-tax-depreciation-book"></a><span data-ttu-id="4f277-123">Pour configurer la loi d'amortissement fiscal</span><span class="sxs-lookup"><span data-stu-id="4f277-123">To set up the tax depreciation book</span></span>  
 
-1.  <span data-ttu-id="7c522-124">Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Lois d'amortissement**, puis sélectionnez le lien approprié.</span><span class="sxs-lookup"><span data-stu-id="7c522-124">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Books**, and then choose the relevant link.</span></span>  
-2.  <span data-ttu-id="7c522-125">Sur la page **Liste de la loi d'amortissement**, sélectionnez l'action **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="7c522-125">On the **Depreciation Book List** page, choose the **New** action.</span></span>  
-3.  <span data-ttu-id="7c522-126">Sous le raccourci **Général**, renseignez les champs obligatoires comme indiqué dans le tableau ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="7c522-126">On the **General** FastTab, fill in the required fields as described in the following table.</span></span>  
+1.  <span data-ttu-id="4f277-124">Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Lois d'amortissement**, puis sélectionnez le lien approprié.</span><span class="sxs-lookup"><span data-stu-id="4f277-124">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Books**, and then choose the relevant link.</span></span>  
+2.  <span data-ttu-id="4f277-125">Sur la page **Liste de la loi d'amortissement**, sélectionnez l'action **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="4f277-125">On the **Depreciation Book List** page, choose the **New** action.</span></span>  
+3.  <span data-ttu-id="4f277-126">Sous le raccourci **Général**, renseignez les champs obligatoires comme indiqué dans le tableau ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="4f277-126">On the **General** FastTab, fill in the required fields as described in the following table.</span></span>  
 
-    |<span data-ttu-id="7c522-127">Champ</span><span class="sxs-lookup"><span data-stu-id="7c522-127">Field</span></span>|<span data-ttu-id="7c522-128">Désignation</span><span class="sxs-lookup"><span data-stu-id="7c522-128">Description</span></span>|  
+    |<span data-ttu-id="4f277-127">Champ</span><span class="sxs-lookup"><span data-stu-id="4f277-127">Field</span></span>|<span data-ttu-id="4f277-128">Désignation</span><span class="sxs-lookup"><span data-stu-id="4f277-128">Description</span></span>|  
     |---------------------------------|---------------------------------------|  
-    |<span data-ttu-id="7c522-129">**Code**</span><span class="sxs-lookup"><span data-stu-id="7c522-129">**Code**</span></span>|<span data-ttu-id="7c522-130">Code d'identification unique de la loi d'amortissement fiscal.</span><span class="sxs-lookup"><span data-stu-id="7c522-130">The unique identification code for the tax depreciation book.</span></span> <span data-ttu-id="7c522-131">Vous pouvez entrer 10 caractères alphanumériques maximum.</span><span class="sxs-lookup"><span data-stu-id="7c522-131">You can enter a maximum of 10 alphanumeric characters.</span></span>|  
-    |<span data-ttu-id="7c522-132">**Description**</span><span class="sxs-lookup"><span data-stu-id="7c522-132">**Description**</span></span>|<span data-ttu-id="7c522-133">Description des lois d'amortissement fiscal.</span><span class="sxs-lookup"><span data-stu-id="7c522-133">The tax depreciation book description.</span></span>|  
+    |<span data-ttu-id="4f277-129">**Code**</span><span class="sxs-lookup"><span data-stu-id="4f277-129">**Code**</span></span>|<span data-ttu-id="4f277-130">Code d'identification unique de la loi d'amortissement fiscal.</span><span class="sxs-lookup"><span data-stu-id="4f277-130">The unique identification code for the tax depreciation book.</span></span> <span data-ttu-id="4f277-131">Vous pouvez entrer 10 caractères alphanumériques maximum.</span><span class="sxs-lookup"><span data-stu-id="4f277-131">You can enter a maximum of 10 alphanumeric characters.</span></span>|  
+    |<span data-ttu-id="4f277-132">**Description**</span><span class="sxs-lookup"><span data-stu-id="4f277-132">**Description**</span></span>|<span data-ttu-id="4f277-133">Description des lois d'amortissement fiscal.</span><span class="sxs-lookup"><span data-stu-id="4f277-133">The tax depreciation book description.</span></span>|  
 
-4.  <span data-ttu-id="7c522-134">Dans le champ **Calcul dérogatoire**, sélectionnez une loi d'amortissement comptable pour indiquer qu'il s'agit d'une loi d'amortissement fiscal pour le calcul de l'amortissement dérogatoire.</span><span class="sxs-lookup"><span data-stu-id="7c522-134">In the **Derogatory Calculation** field, select the accounting depreciation book code to indicate that this is a tax depreciation book to calculate derogatory depreciation.</span></span>  
+4.  <span data-ttu-id="4f277-134">Dans le champ **Calcul dérogatoire**, sélectionnez une loi d'amortissement comptable pour indiquer qu'il s'agit d'une loi d'amortissement fiscal pour le calcul de l'amortissement dérogatoire.</span><span class="sxs-lookup"><span data-stu-id="4f277-134">In the **Derogatory Calculation** field, select the accounting depreciation book code to indicate that this is a tax depreciation book to calculate derogatory depreciation.</span></span>  
 
-    <span data-ttu-id="7c522-135">Pour en savoir plus, voir [Configurer l'amortissement d'immobilisation](../../fa-how-setup-depreciation.md).</span><span class="sxs-lookup"><span data-stu-id="7c522-135">For more information, see [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md).</span></span>  
+    <span data-ttu-id="4f277-135">Pour en savoir plus, voir [Configurer l'amortissement d'immobilisation](../../fa-how-setup-depreciation.md).</span><span class="sxs-lookup"><span data-stu-id="4f277-135">For more information, see [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md).</span></span>  
 
-5.  <span data-ttu-id="7c522-136">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="7c522-136">Choose the **OK** button.</span></span>  
+5.  <span data-ttu-id="4f277-136">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="4f277-136">Choose the **OK** button.</span></span>  
 
-<span data-ttu-id="7c522-137">Le champ **Utilisé avec la loi dérogatoire** dans la loi d'amortissement comptable est mis à jour avec le code de la loi d'amortissement fiscal.</span><span class="sxs-lookup"><span data-stu-id="7c522-137">The **Used with Derogatory Book** field in the accounting depreciation book is updated with the tax depreciation book code.</span></span>  
+<span data-ttu-id="4f277-137">Le champ **Utilisé avec la loi dérogatoire** dans la loi d'amortissement comptable est mis à jour avec le code de la loi d'amortissement fiscal.</span><span class="sxs-lookup"><span data-stu-id="4f277-137">The **Used with Derogatory Book** field in the accounting depreciation book is updated with the tax depreciation book code.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="7c522-138">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7c522-138">See Also</span></span>  
- <span data-ttu-id="7c522-139">[Amortissement accéléré](accelerated-depreciation.md) </span><span class="sxs-lookup"><span data-stu-id="7c522-139">[Accelerated Depreciation](accelerated-depreciation.md) </span></span>  
- <span data-ttu-id="7c522-140">[Calculer l'amortissement accéléré](how-to-calculate-accelerated-depreciation.md) </span><span class="sxs-lookup"><span data-stu-id="7c522-140">[Calculate Accelerated Depreciation](how-to-calculate-accelerated-depreciation.md) </span></span>  
-[<span data-ttu-id="7c522-141">Configurer un amortissement immobilisation</span><span class="sxs-lookup"><span data-stu-id="7c522-141">Set Up Fixed Asset Depreciation</span></span>](../../fa-how-setup-depreciation.md)
-
+## <a name="see-also"></a><span data-ttu-id="4f277-138">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="4f277-138">See Also</span></span>  
+ <span data-ttu-id="4f277-139">[Amortissement accéléré](accelerated-depreciation.md) </span><span class="sxs-lookup"><span data-stu-id="4f277-139">[Accelerated Depreciation](accelerated-depreciation.md) </span></span>  
+ <span data-ttu-id="4f277-140">[Calculer l'amortissement accéléré](how-to-calculate-accelerated-depreciation.md) </span><span class="sxs-lookup"><span data-stu-id="4f277-140">[Calculate Accelerated Depreciation](how-to-calculate-accelerated-depreciation.md) </span></span>  
+[<span data-ttu-id="4f277-141">Configurer un amortissement immobilisation</span><span class="sxs-lookup"><span data-stu-id="4f277-141">Set Up Fixed Asset Depreciation</span></span>](../../fa-how-setup-depreciation.md)
