@@ -1,23 +1,23 @@
 ---
-title: "Procédure de validation des bordereaux paiement"
-description: "Vous devez valider des bordereaux paiement afin de finaliser une transaction paiement et créer des données financières. Vous pouvez valider un bordereau paiement si le type d'action du bordereau paiement est défini sur Comptabilité."
+title: Procédure de validation des bordereaux paiement
+description: Vous devez valider des bordereaux paiement afin de finaliser une transaction paiement et créer des données financières. Vous pouvez valider un bordereau paiement si le type d'action du bordereau paiement est défini sur Comptabilité.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: c19e08f0b250635f35ab637d04f7ddff8c18c7d5
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826627"
 ---
 # <a name="post-payment-slips"></a>Valider des bordereaux paiement
 Vous devez valider des bordereaux paiement afin de finaliser une transaction paiement et créer des données financières. Vous pouvez valider un bordereau paiement si le **type d'action** du bordereau paiement est défini sur **Comptabilité**.  
@@ -42,4 +42,3 @@ Le bordereau paiement est validé.
  [Créer bordereaux paiement](how-to-create-payment-slips.md)   
  [Exporter ou importer les paramètres de configuration de la gestion des paiements](how-to-export-or-import-payment-management-setup-parameters.md)   
  [Archiver les bordereaux de paiement](how-to-archive-payment-slips.md)
-

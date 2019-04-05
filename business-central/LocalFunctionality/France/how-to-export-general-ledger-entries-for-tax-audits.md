@@ -1,23 +1,23 @@
 ---
-title: "Procédure d'exportation des écritures comptables pour les audits fiscaux"
-description: "Le fichier d'audit standard utilisé à des fins fiscales enregistre des informations commerciales clés (transactions et validations comptables) dans un fichier au format courant spécifié à des fins d'audit. En France, vous devez fournir au gouvernement ces informations dans un fichier d'audit standard à partir de janvier 2014. Cela s'applique aux sociétés pour les besoins d'audit de l'impôt sur les sociétés et de la TVA."
+title: Procédure d'exportation des écritures comptables pour les audits fiscaux
+description: Le fichier d'audit standard utilisé à des fins fiscales enregistre des informations commerciales clés (transactions et validations comptables) dans un fichier au format courant spécifié à des fins d'audit. En France, vous devez fournir au gouvernement ces informations dans un fichier d'audit standard à partir de janvier 2014. Cela s'applique aux sociétés pour les besoins d'audit de l'impôt sur les sociétés et de la TVA.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6cdb807efc68cc50644b81b9b3a87ba9957126a6
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826625"
 ---
 # <a name="export-general-ledger-entries-for-tax-audits"></a>Exporter des écritures comptables pour les audits fiscaux
 Le fichier d'audit standard utilisé à des fins fiscales enregistre des informations commerciales clés (transactions et validations comptables) dans un fichier au format courant spécifié à des fins d'audit. En France, vous devez fournir au gouvernement ces informations dans un fichier d'audit standard à partir de janvier 2014. Cela s'applique aux sociétés pour les besoins d'audit de l'impôt sur les sociétés et de la TVA.  
@@ -56,4 +56,3 @@ L'état aura le nom suivant : <taxpayername>FEC<YYYYMMDD>
 
 ## <a name="see-also"></a>Voir aussi  
  [Clôturer fiscalement des exercices](how-to-close-years.md)
-

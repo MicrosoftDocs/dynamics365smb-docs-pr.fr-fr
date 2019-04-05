@@ -1,23 +1,23 @@
 ---
-title: "Procédure de réouverture des périodes comptables"
-description: "Lorsqu'une seule période fiscale a été clôturée fiscalement, il peut être nécessaire de la rouvrir pour valider des écritures comptables."
+title: Procédure de réouverture des périodes comptables
+description: Lorsqu'une seule période fiscale a été clôturée fiscalement, il peut être nécessaire de la rouvrir pour valider des écritures comptables.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 029811a91ec72d7ea9e06d364d2fc772afafa6ae
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3e94731f1effad93c6752a71f7a4e97135c4e8a1
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826623"
 ---
 # <a name="reopen-accounting-periods"></a>Rouvrir des périodes comptables
 Lorsqu'une seule période fiscale a été clôturée fiscalement, il peut être nécessaire de la rouvrir pour valider des écritures comptables.  
@@ -40,4 +40,3 @@ Lorsque la période est rouverte, le champ **Clôturé fiscalement** est désact
  [Clôturer fiscalement des exercices](how-to-close-years.md)   
  [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md)   
  [Clôturer fiscalement des périodes comptables](how-to-fiscally-close-accounting-periods.md)
-

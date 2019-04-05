@@ -1,23 +1,23 @@
 ---
-title: "Procédure de clôture des comptes de gestion"
-description: "Avant d'exécuter un traitement par lots Clôturer exercice comptable, vous devez clôturer l'exercice fiscal."
+title: Procédure de clôture des comptes de gestion
+description: Avant d'exécuter un traitement par lots Clôturer exercice comptable, vous devez clôturer l'exercice fiscal.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: d1457cd1af0530dc1138ca7c8194ac9cc6cb9fa3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826631"
 ---
 # <a name="close-income-statement-accounts"></a>Clôturer les comptes de gestion
 Avant d'exécuter un traitement par lots **Clôturer exercice comptable**, vous devez clôturer l'exercice fiscal. Pour plus d'informations, voir [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md).  
@@ -37,4 +37,3 @@ Avant d'exécuter un traitement par lots **Clôturer exercice comptable**, vous 
 
 ## <a name="see-also"></a>Voir aussi  
  [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Procédure de clôture des exercices"
-description: "Lorsqu'un exercice comptable est terminé, vous devez clôturer les périodes qui le composent."
+title: Procédure de clôture des exercices
+description: Lorsqu'un exercice comptable est terminé, vous devez clôturer les périodes qui le composent.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 41ee296dd60f301526f9872d8cec58fd9d40d374
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9c2bc3081b0c673db90f5a4c677b660f8118ca6c
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826637"
 ---
 # <a name="close-years"></a>Clôturer fiscalement des exercices
 Lorsqu'un exercice comptable est terminé, vous devez clôturer les périodes qui le composent.  
@@ -47,4 +47,3 @@ Après avoir été clôturé fiscalement, un exercice comptable ne peut plus êt
  [Vue d'ensemble des processus de fin d'exercice](year-end-processes-overview.md)   
  [Valider l'écriture de clôture d'exercice](how-to-post-the-year-end-closing-entry.md)   
  [Clôture des exercices et des périodes](../../year-close-years-periods.md)
-

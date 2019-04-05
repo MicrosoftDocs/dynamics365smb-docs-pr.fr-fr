@@ -1,23 +1,22 @@
 ---
-title: "Fonctionnalité locale, France"
-description: "Les rubriques suivantes décrivent la fonctionnalité locale de la version française de Business Central."
+title: Fonctionnalité locale, France
+description: Les rubriques suivantes décrivent la fonctionnalité locale de la version française de Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/12/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 78cb55d0c53db5b0a8252ffae6316a537be25459
 ms.openlocfilehash: 275f243c5513e72b2fea642a7889936b0ee62fa2
-ms.contentlocale: fr-fr
-ms.lasthandoff: 10/15/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826658"
 ---
-
 # <a name="france-local-functionality"></a>Fonctionnalité locale, France
 Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à la version française de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
@@ -46,7 +45,7 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
 [Paramétrer l'amortissement accéléré](how-to-set-up-accelerated-depreciation.md)  
 [Configurer des adresses de paiement](how-to-set-up-payment-addresses.md)  
 [Paramétrer des statuts règlement](how-to-set-up-payment-statuses.md)  
-[Paramétrer {étapes règlement}](how-to-set-up-payment-steps.md)  
+[Paramétrer {des étapes règlement}](how-to-set-up-payment-steps.md)  
 [Définir des périodes de validation](how-to-specify-posting-periods.md)  
 [Délettrer des écritures comptables](how-to-unapply-general-ledger-entries.md)  
 [Afficher des rapprochements comptables](how-to-view-ledger-reconciliations.md)  
@@ -58,4 +57,3 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
 [Utilisation de [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)     
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
-

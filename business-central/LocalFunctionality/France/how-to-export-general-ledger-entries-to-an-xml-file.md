@@ -1,23 +1,23 @@
 ---
-title: "Procédure d'exportation des écritures comptables vers un fichier XML"
-description: "Pour l'archivage externe, et pour une période donnée, vous pouvez exporter des transactions financières vers un fichier XML."
+title: Procédure d'exportation des écritures comptables vers un fichier XML
+description: Pour l'archivage externe, et pour une période donnée, vous pouvez exporter des transactions financières vers un fichier XML.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5b5e9f9365fc6038f2795c28cd74ab4f852cf57d
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826670"
 ---
 # <a name="export-general-ledger-entries-to-an-xml-file"></a>Exporter des écritures comptables vers un fichier XML
 Pour l'archivage externe, et pour une période donnée, vous pouvez exporter des transactions financières vers un fichier XML. À la fin de l'exercice comptable, vous pouvez exporter les transactions comptables pour l'année clôturée en appliquant le filtre de date approprié et en exportant les transactions financières dans la période indiquée vers le fichier XML. Le fichier XML inclut toutes les informations de la transaction comptable, comme la date de validation du document, le type et le numéro du document, le type et le numéro de compte, le montant en crédit et en débit extraits de la page **Feuille comptabilité**.  
@@ -41,4 +41,3 @@ Vous pouvez enregistrer le fichier généré dans un emplacement spécifié, ou 
 
 ## <a name="see-also"></a>Voir aussi  
 [Imprimer des états de la comptabilité](how-to-print-general-ledger-reports.md)
-

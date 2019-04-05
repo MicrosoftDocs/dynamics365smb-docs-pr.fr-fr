@@ -1,23 +1,23 @@
 ---
-title: "Procédure d'impression des états comptables"
-description: "Les états de la comptabilité répondent aux normes de la comptabilité générale et ils contiennent des informations sur les écritures comptables, les écritures des clients, des fournisseurs et des banques."
+title: Procédure d'impression des états comptables
+description: Les états de la comptabilité répondent aux normes de la comptabilité générale et ils contiennent des informations sur les écritures comptables, les écritures des clients, des fournisseurs et des banques.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 5f8e29f3cd69e40e5e22d5e3c752ecead18c9222
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
-ms.openlocfilehash: 5ac214ce2eae2f0f5c1625cdd0e48ab368d074ff
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/16/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826649"
 ---
 # <a name="print-general-ledger-reports"></a>Imprimer des états de la comptabilité
 Les états de la comptabilité répondent aux normes de la comptabilité générale et ils contiennent des informations sur les écritures comptables, les écritures des clients, des fournisseurs et des banques.  
@@ -29,7 +29,7 @@ Les états de la comptabilité répondent aux normes de la comptabilité génér
 
     |État|Désignation|  
     |------------|---------------------------------------|  
-    |**Feuilles**|-   Affiche toutes les transactions comptables.<br />-   Affiche les sous-totaux des transactions par période.<br /><br /> Pour plus d'informations, voir Feuilles.|  
+    |**Feuilles**|-   Affiche toutes les transactions de la comptabilité.<br />-   Affiche les sous-totaux des transactions par période.<br /><br /> Pour plus d'informations, voir Feuilles.|  
     |**Journal général**|Affiche les sous-totaux de chaque code source par mois.<br /><br /> Pour plus d'informations, voir Journal général.|  
     |**Balance comptes généraux**|Affiche les balances en débit et en crédit à l'ouverture, les balances en débit et en crédit de la période et les balances en crédit et en débit finales pour tous les comptes généraux.<br /><br /> Pour plus d'informations, voir Balance comptes généraux.|  
     |**Grand livre comptes généraux**|-   Affiche les transactions comptables pour tous les comptes généraux.<br />-   Affiche les sous-totaux des transactions par compte général.<br /><br /> Pour plus d'informations, voir Grand livre comptes généraux.|  
@@ -52,4 +52,3 @@ Les états de la comptabilité répondent aux normes de la comptabilité génér
 
 ## <a name="see-also"></a>Voir aussi  
  [Exporter des écritures comptables vers un fichier XML](how-to-export-general-ledger-entries-to-an-xml-file.md)
-

@@ -1,23 +1,23 @@
 ---
 title: Vue d'ensemble des processus de fin d'exercice
-description: "Une clôture d'exercice dans Business Central implique trois étapes."
+description: Une clôture d'exercice dans Business Central implique trois étapes.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 9f811d3a1e7f640d805871ee6ab1e6121d8194da
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ca6c4b328cce12b1859e3cf3c1ff8e65ffc696e8
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826666"
 ---
 # <a name="year-end-processes-overview"></a>Vue d'ensemble des processus de fin d'exercice
 Une clôture d'exercice dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)] implique trois étapes :  
@@ -39,4 +39,3 @@ Après avoir clôturé fiscalement un exercice, vous ne pourrez plus rien compta
 ## <a name="see-also"></a>Voir aussi  
  [Périodes fiscales et exercices comptables](fiscal-periods-and-fiscal-years.md)   
  [Clôture des exercices et des périodes](../../year-close-years-periods.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Périodes fiscales et exercices comptables"
-description: "Un exercice comptable est généralement divisé en 12 périodes fiscales mensuelles. Dans Business Central, deux exercices comptables peuvent être ouverts en même temps."
+title: Périodes fiscales et exercices comptables
+description: Un exercice comptable est généralement divisé en 12 périodes fiscales mensuelles. Dans Business Central, deux exercices comptables peuvent être ouverts en même temps.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 27e225637982d3d5c7451704bf5397433fbca7e5
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826645"
 ---
 # <a name="fiscal-periods-and-fiscal-years"></a>Périodes fiscales et exercices comptables
 Un exercice comptable est généralement divisé en 12 périodes fiscales mensuelles. Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], deux exercices comptables peuvent être ouverts en même temps. Vous ne pouvez pas créer un troisième exercice comptable si deux exercices comptables sont ouverts.  
@@ -57,4 +57,3 @@ Lorsque vous clôturez une période fiscale, la plus ancienne période fiscale o
  [Rouvrir des périodes comptables](how-to-reopen-accounting-periods.md)   
  [Clôturer les comptes de gestion](how-to-close-income-statement-accounts.md)   
  [Fonctionnalité locale, France](france-local-functionality.md)
-

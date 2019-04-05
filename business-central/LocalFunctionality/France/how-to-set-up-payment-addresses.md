@@ -1,23 +1,23 @@
 ---
-title: "Procédure de paramétrage des adresses de règlement"
-description: "Pour utiliser le module Gestion des paiements, vous devez paramétrer les adresses de règlement qui sont utilisées pour les fournisseurs et clients au moment du règlement. L'adresse de règlement peut différer de l'adresse par défaut."
+title: Procédure de paramétrage des adresses de règlement
+description: Pour utiliser le module Gestion des paiements, vous devez paramétrer les adresses de règlement qui sont utilisées pour les fournisseurs et clients au moment du règlement. L'adresse de règlement peut différer de l'adresse par défaut.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: fe778b4125db66fb288f2a09b5e372fc8e3d065b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2cda50e9fc2e329d0c29ac987c400ad3f05c09c3
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826633"
 ---
 # <a name="set-up-payment-addresses"></a>Configurer des adresses de paiement
 Pour utiliser le module Gestion des paiements, vous devez paramétrer les adresses de règlement qui sont utilisées pour les fournisseurs et clients au moment du règlement. L'adresse de règlement peut différer de l'adresse par défaut.  
@@ -52,4 +52,3 @@ La procédure suivante décrit comment paramétrer une adresse de règlement pou
  [Valider des bordereaux paiement](how-to-post-payment-slips.md)   
  [Archiver les bordereaux de paiement](how-to-archive-payment-slips.md)   
  [Exporter ou importer les paramètres de configuration de la gestion des paiements](how-to-export-or-import-payment-management-setup-parameters.md)
-

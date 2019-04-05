@@ -1,23 +1,23 @@
 ---
-title: "Procédure d'ouverture d'un nouvel exercice comptable"
-description: "Avant de pouvoir effectuer une validation dans un exercice comptable, vous devez l'ouvrir et définir ses périodes comptables."
+title: Procédure d'ouverture d'un nouvel exercice comptable
+description: Avant de pouvoir effectuer une validation dans un exercice comptable, vous devez l'ouvrir et définir ses périodes comptables.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 0558e82e7ef880749c68aa84abce5076ca6cef04
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: daf9b5d3102421c877939c1576c6ed1590a7e447
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826636"
 ---
 # <a name="open-a-new-fiscal-year"></a>Ouvrir un nouvel exercice comptable
 Avant de pouvoir effectuer une validation dans un exercice comptable, vous devez l'ouvrir et définir ses périodes comptables.  
@@ -43,4 +43,3 @@ Après la dernière période de l'exercice comptable, une période comptable est
  [Valider l'écriture de clôture d'exercice](how-to-post-the-year-end-closing-entry.md)   
  [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md)   
  [Périodes fiscales et exercices comptables](fiscal-periods-and-fiscal-years.md)
-

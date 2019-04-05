@@ -1,23 +1,23 @@
 ---
-title: "Amortissement accéléré"
-description: "L'amortissement accéléré est calculé sur la base des différences entre la loi d'amortissement comptable et la loi d'amortissement fiscal, sur toute la durée de vie de l'immobilisation."
+title: Amortissement accéléré
+description: L'amortissement accéléré est calculé sur la base des différences entre la loi d'amortissement comptable et la loi d'amortissement fiscal, sur toute la durée de vie de l'immobilisation.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: fb0e1d7eb02c339126c3b9f4b6ab70721fc4e4d4
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9525b5c3c7ece18f17a3c64c6721b451667dc68b
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826615"
 ---
 # <a name="accelerated-depreciation"></a>Amortissement accéléré
 L'amortissement accéléré est calculé sur la base des différences entre la loi d'amortissement comptable et la loi d'amortissement fiscal, sur toute la durée de vie de l'immobilisation.  
@@ -64,4 +64,3 @@ Après avoir configuré la loi d'amortissement fiscal et la loi d'amortissement 
  [Configurer un amortissement immobilisation](../../fa-how-setup-depreciation.md)   
 [COMPTES D'IMMOBILISATIONS](../../fa-manage.md)  
  [Fonctionnalité locale, France](france-local-functionality.md)
-

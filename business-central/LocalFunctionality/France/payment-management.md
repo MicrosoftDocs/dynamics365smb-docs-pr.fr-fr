@@ -1,23 +1,23 @@
 ---
 title: Gestion des paiements
-description: "Vous pouvez gérer des lettres de change, des paiements électroniques et des paiements fournisseur à l'aide de la fonction de gestion des paiements."
+description: Vous pouvez gérer des lettres de change, des paiements électroniques et des paiements fournisseur à l'aide de la fonction de gestion des paiements.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: fa0f4a844cbb775de6309fb35c954d3a2fb95a6a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4ead5cd4e40e6087143d736079e8bf26efd18741
-ms.contentlocale: fr-fr
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826641"
 ---
 # <a name="payment-management"></a>Gestion des paiements
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] vous permet de gérer des lettres de change, des paiements électroniques et des paiements fournisseur à l'aide de la fonction de gestion des paiements.  
@@ -58,4 +58,3 @@ Vous pouvez séparer un bordereau paiement entièrement traité des bordereaux p
  [Archiver les bordereaux de paiement](how-to-archive-payment-slips.md)   
  [Exporter ou importer les paramètres de configuration de la gestion des paiements](how-to-export-or-import-payment-management-setup-parameters.md)   
  [Fonctionnalité locale, France](france-local-functionality.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Procédure de validation de l'écriture de clôture d'exercice"
-description: "Après avoir utilisé le traitement par lots Solder les comptes de gestion pour générer les écritures de clôture d'exercice, vous devez ouvrir la feuille spécifiée dans le traitement par lots, puis consulter et valider les écritures."
+title: Procédure de validation de l'écriture de clôture d'exercice
+description: Après avoir utilisé le traitement par lots Solder les comptes de gestion pour générer les écritures de clôture d'exercice, vous devez ouvrir la feuille spécifiée dans le traitement par lots, puis consulter et valider les écritures.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: c70d4994f3f301b2b618cd222cf3ede4e9e3f2e4
-ms.contentlocale: fr-fr
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826667"
 ---
 # <a name="post-the-year-end-closing-entry"></a>Valider l'écriture de clôture d'exercice
 Après avoir utilisé le traitement par lots **Solder les comptes de gestion** pour générer les écritures de clôture d'exercice, vous devez ouvrir la feuille spécifiée dans le traitement par lots, puis consulter et valider les écritures.  
@@ -37,4 +37,3 @@ Une fois validée, une entrée est validée dans chaque compte résultats, de fa
  [Vue d'ensemble des processus de fin d'exercice](year-end-processes-overview.md)   
  [Clôturer fiscalement des exercices](how-to-close-years.md)   
  [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Procédure de clôture fiscale des périodes comptables"
-description: "Lorsqu'une période fiscale est terminée, vous pouvez la clôturer fiscalement pour veiller à ce qu'aucune autre écriture comptable ne puisse être validée."
+title: Procédure de clôture fiscale des périodes comptables
+description: Lorsqu'une période fiscale est terminée, vous pouvez la clôturer fiscalement pour veiller à ce qu'aucune autre écriture comptable ne puisse être validée.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: b26fe2ebae082597520b430c2c275d0045e1c605
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826664"
 ---
 # <a name="fiscally-close-accounting-periods"></a>Clôturer fiscalement des périodes comptables
 Lorsqu'une période fiscale est terminée, vous pouvez la clôturer fiscalement pour veiller à ce qu'aucune autre écriture comptable ne puisse être validée.  
@@ -38,4 +38,3 @@ Lorsque la période est clôturée fiscalement, le champ Clôturé fiscalement e
  [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md)   
  [Rouvrir des périodes comptables](how-to-reopen-accounting-periods.md)   
  [Périodes fiscales et exercices comptables](fiscal-periods-and-fiscal-years.md)
-

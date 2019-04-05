@@ -1,23 +1,23 @@
 ---
-title: "Procédure de clôture fiscale des exercices"
-description: "Lorsqu'un exercice comptable est terminé, vous devez clôturer fiscalement les périodes qui le composent pour veiller à ce qu'aucune autre écriture comptable ne puisse être validée."
+title: Procédure de clôture fiscale des exercices
+description: Lorsqu'un exercice comptable est terminé, vous devez clôturer fiscalement les périodes qui le composent pour veiller à ce qu'aucune autre écriture comptable ne puisse être validée.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 44c3cb6c63cae2e528ef012650a2afad07c8c1ff
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
-ms.openlocfilehash: ce87bf4704a3f4f2d0643391556107dfd9e04bbb
-ms.contentlocale: fr-fr
-ms.lasthandoff: 04/16/2018
-
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826629"
 ---
 # <a name="fiscally-close-years"></a>Clôturer fiscalement des exercices
 Lorsqu'un exercice comptable est terminé, vous devez clôturer fiscalement les périodes qui le composent pour veiller à ce qu'aucune autre écriture comptable ne puisse être validée.  
@@ -44,4 +44,3 @@ Lorsque l'exercice comptable est clôturé fiscalement, le champ **Clôturé fis
  [Vue d'ensemble des processus de fin d'exercice](year-end-processes-overview.md)   
  [Valider l'écriture de clôture d'exercice](how-to-post-the-year-end-closing-entry.md)   
  [Clôture des exercices et des périodes](../../year-close-years-periods.md)
-

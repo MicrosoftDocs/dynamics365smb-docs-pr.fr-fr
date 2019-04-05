@@ -1,23 +1,23 @@
 ---
-title: "Procédure d'exportation ou d'importation des paramètres de configuration de la gestion des paiements"
-description: "Vous pouvez exporter ou importer les paramètres de configuration de la gestion des paiements vers un disque externe afin de pouvoir utiliser les mêmes paramètres pour une autre société présentant les mêmes exigences."
+title: Procédure d'exportation ou d'importation des paramètres de configuration de la gestion des paiements
+description: Vous pouvez exporter ou importer les paramètres de configuration de la gestion des paiements vers un disque externe afin de pouvoir utiliser les mêmes paramètres pour une autre société présentant les mêmes exigences.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 62074e92cf1bc5373c88c3c01a8c68f6cd6876a1
-ms.contentlocale: fr-fr
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826621"
 ---
 # <a name="export-or-import-payment-management-setup-parameters"></a>Exporter ou importer les paramètres de configuration de la gestion des paiements
 Vous pouvez exporter ou importer les paramètres de configuration de la gestion des paiements vers un disque externe afin de pouvoir utiliser les mêmes paramètres pour une autre société présentant les mêmes exigences.  
@@ -48,4 +48,3 @@ Vous pouvez sélectionner ces formats lorsque vous configurez le statut de règl
  [Configurer des adresses de paiement](how-to-set-up-payment-addresses.md)   
  [Créer bordereaux paiement](how-to-create-payment-slips.md)   
  [Archiver les bordereaux de paiement](how-to-archive-payment-slips.md)
-
