@@ -1,7 +1,7 @@
 ---
-title: "Procédure de suivi des colis | Microsoft Docs"
+title: Procédure de suivi des colis | Microsoft Docs
 description: Utilisez le service de suivi des transporteurs pour voir la progression d'une livraison.
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,28 +11,27 @@ ms.workload: na
 ms.search.keywords: rfq
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 7fa51c4c5bc5370df07e6277c7c7e6403d71f5e2
-ms.contentlocale: fr-fr
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "797491"
 ---
-# <a name="track-packages"></a><span data-ttu-id="10211-103">Suivre des colis</span><span class="sxs-lookup"><span data-stu-id="10211-103">Track Packages</span></span>
-<span data-ttu-id="10211-104">De nombreux transporteurs offrent des services sur Internet vous permettant de suivre les colis que vous avez confiés au transporteur.</span><span class="sxs-lookup"><span data-stu-id="10211-104">A number of shipping agents provide services on the Internet that allow you to track parcels you have handed over to the agent.</span></span> <span data-ttu-id="10211-105">Si vous utilisez certains de ces transporteurs, vous pouvez configurer certaines informations de base et utiliser la fonction de traçabilité automatique à partir des expéditions validées.</span><span class="sxs-lookup"><span data-stu-id="10211-105">If you use one or more of these shipping agents, you can set up certain basic information and use the automatic tracking feature from posted shipments.</span></span> <span data-ttu-id="10211-106">Pour plus d'informations, voir [Configurer des transporteurs](sales-how-to-set-up-shipping-agents.md).</span><span class="sxs-lookup"><span data-stu-id="10211-106">For more information, see [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md).</span></span>  
+# <a name="track-packages"></a><span data-ttu-id="2db55-103">Suivre des colis</span><span class="sxs-lookup"><span data-stu-id="2db55-103">Track Packages</span></span>
+<span data-ttu-id="2db55-104">De nombreux transporteurs offrent des services sur Internet vous permettant de suivre les colis que vous avez confiés au transporteur.</span><span class="sxs-lookup"><span data-stu-id="2db55-104">A number of shipping agents provide services on the Internet that allow you to track parcels you have handed over to the agent.</span></span> <span data-ttu-id="2db55-105">Si vous utilisez certains de ces transporteurs, vous pouvez configurer certaines informations de base et utiliser la fonction de traçabilité automatique à partir des expéditions validées.</span><span class="sxs-lookup"><span data-stu-id="2db55-105">If you use one or more of these shipping agents, you can set up certain basic information and use the automatic tracking feature from posted shipments.</span></span> <span data-ttu-id="2db55-106">Pour plus d'informations, voir [Configurer des transporteurs](sales-how-to-set-up-shipping-agents.md).</span><span class="sxs-lookup"><span data-stu-id="2db55-106">For more information, see [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md).</span></span>  
 
-## <a name="to-track-a-package"></a><span data-ttu-id="10211-107">Pour suivre un colis</span><span class="sxs-lookup"><span data-stu-id="10211-107">To track a package</span></span>
-1. <span data-ttu-id="10211-108">Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Expédition vente enregistrée**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="10211-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipment**, and then choose the related link.</span></span>
-2. <span data-ttu-id="10211-109">Ouvrez l'expédition appropriée.</span><span class="sxs-lookup"><span data-stu-id="10211-109">Open the relevant shipment.</span></span>
-3. <span data-ttu-id="10211-110">Dans le champ **N° récépissé**,</span><span class="sxs-lookup"><span data-stu-id="10211-110">In the **Package Tracking No.**</span></span> <span data-ttu-id="10211-111">entrez le numéro de récépissé que vous avez reçu du transporteur.</span><span class="sxs-lookup"><span data-stu-id="10211-111">field, enter the package number you have received from the shipping agent.</span></span>
-4. <span data-ttu-id="10211-112">Sélectionnez l'action **Suivre colis**.</span><span class="sxs-lookup"><span data-stu-id="10211-112">Choose the **Track Package** action.</span></span>
+## <a name="to-track-a-package"></a><span data-ttu-id="2db55-107">Pour suivre un colis</span><span class="sxs-lookup"><span data-stu-id="2db55-107">To track a package</span></span>
+1. <span data-ttu-id="2db55-108">Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Expédition vente enregistrée**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="2db55-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipment**, and then choose the related link.</span></span>
+2. <span data-ttu-id="2db55-109">Ouvrez l'expédition appropriée.</span><span class="sxs-lookup"><span data-stu-id="2db55-109">Open the relevant shipment.</span></span>
+3. <span data-ttu-id="2db55-110">Dans le champ **N° récépissé**,</span><span class="sxs-lookup"><span data-stu-id="2db55-110">In the **Package Tracking No.**</span></span> <span data-ttu-id="2db55-111">entrez le numéro de récépissé que vous avez reçu du transporteur.</span><span class="sxs-lookup"><span data-stu-id="2db55-111">field, enter the package number you have received from the shipping agent.</span></span>
+4. <span data-ttu-id="2db55-112">Sélectionnez l'action **Suivre colis**.</span><span class="sxs-lookup"><span data-stu-id="2db55-112">Choose the **Track Package** action.</span></span>
 
-<span data-ttu-id="10211-113">Votre navigateur par défaut ouvre la page de suivi du transporteur.</span><span class="sxs-lookup"><span data-stu-id="10211-113">Your default browser opens the shipping agent's tracking page.</span></span>
+<span data-ttu-id="2db55-113">Votre navigateur par défaut ouvre la page de suivi du transporteur.</span><span class="sxs-lookup"><span data-stu-id="2db55-113">Your default browser opens the shipping agent's tracking page.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="10211-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="10211-114">See Also</span></span>
-[<span data-ttu-id="10211-115">Configurer des transporteurs</span><span class="sxs-lookup"><span data-stu-id="10211-115">Set Up Shipping Agents</span></span>](sales-how-to-set-up-shipping-agents.md)  
-[<span data-ttu-id="10211-116">Ventes</span><span class="sxs-lookup"><span data-stu-id="10211-116">Sales</span></span>](sales-manage-sales.md)  
-[<span data-ttu-id="10211-117">Définition des ventes</span><span class="sxs-lookup"><span data-stu-id="10211-117">Setting Up Sales</span></span>](sales-setup-sales.md)  
-[<span data-ttu-id="10211-118">Envoyer des documents par e-mail</span><span class="sxs-lookup"><span data-stu-id="10211-118">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
-<span data-ttu-id="10211-119">[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="10211-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
-
+## <a name="see-also"></a><span data-ttu-id="2db55-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="2db55-114">See Also</span></span>
+[<span data-ttu-id="2db55-115">Configurer des transporteurs</span><span class="sxs-lookup"><span data-stu-id="2db55-115">Set Up Shipping Agents</span></span>](sales-how-to-set-up-shipping-agents.md)  
+[<span data-ttu-id="2db55-116">Ventes</span><span class="sxs-lookup"><span data-stu-id="2db55-116">Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="2db55-117">Définition des ventes</span><span class="sxs-lookup"><span data-stu-id="2db55-117">Setting Up Sales</span></span>](sales-setup-sales.md)  
+[<span data-ttu-id="2db55-118">Envoyer des documents par e-mail</span><span class="sxs-lookup"><span data-stu-id="2db55-118">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
+<span data-ttu-id="2db55-119">[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="2db55-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
