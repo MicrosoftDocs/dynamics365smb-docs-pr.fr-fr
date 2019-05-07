@@ -1,0 +1,1 @@
+<span data-ttu-id="94277-101">Client Dynamics NAV connecté à Business Central</span><span class="sxs-lookup"><span data-stu-id="94277-101">Dynamics NAV Client connected to Business Central</span></span>

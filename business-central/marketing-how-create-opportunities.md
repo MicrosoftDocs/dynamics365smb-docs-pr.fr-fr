@@ -10,39 +10,39 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: d4b5b39826da539f3c87f1ba0d9ad27662598665
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 50b61129a6684cda7a6cb20f4bfb3cf44dcad7cf
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "797241"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "936504"
 ---
-# <a name="create-sales-opportunities"></a><span data-ttu-id="576af-103">Créer des opportunités de vente</span><span class="sxs-lookup"><span data-stu-id="576af-103">Create Sales Opportunities</span></span>
-<span data-ttu-id="576af-104">Vous pouvez créer des opportunités pour les opportunités de vente à partir de vos contacts.</span><span class="sxs-lookup"><span data-stu-id="576af-104">You can create opportunities for the sales opportunities you have on your contacts.</span></span> <span data-ttu-id="576af-105">Toutes les opportunités doivent être affectées à un vendeur ou un acheteur et doivent avoir un contact.</span><span class="sxs-lookup"><span data-stu-id="576af-105">All opportunities must be assigned to a salesperson or purchaser and must have a contact.</span></span>
+# <a name="create-sales-opportunities"></a><span data-ttu-id="d0ac6-103">Créer des opportunités de vente</span><span class="sxs-lookup"><span data-stu-id="d0ac6-103">Create Sales Opportunities</span></span>
+<span data-ttu-id="d0ac6-104">Vous pouvez créer des opportunités pour les opportunités de vente à partir de vos contacts.</span><span class="sxs-lookup"><span data-stu-id="d0ac6-104">You can create opportunities for the sales opportunities you have on your contacts.</span></span> <span data-ttu-id="d0ac6-105">Toutes les opportunités doivent être affectées à un vendeur ou un acheteur et doivent avoir un contact.</span><span class="sxs-lookup"><span data-stu-id="d0ac6-105">All opportunities must be assigned to a salesperson or purchaser and must have a contact.</span></span>
 
-<span data-ttu-id="576af-106">Utilisez la page **Liste des opportunités** pour créer des opportunités.</span><span class="sxs-lookup"><span data-stu-id="576af-106">You can create opportunities from the **Opportunity List** page.</span></span> <span data-ttu-id="576af-107">Généralement, vous créerez plutôt des opportunités à partir du contact ou des vendeurs spécifiques.</span><span class="sxs-lookup"><span data-stu-id="576af-107">But you typically will create opportunities from the specific contact or salespeople.</span></span>
+<span data-ttu-id="d0ac6-106">Utilisez la page **Liste des opportunités** pour créer des opportunités.</span><span class="sxs-lookup"><span data-stu-id="d0ac6-106">You can create opportunities from the **Opportunity List** page.</span></span> <span data-ttu-id="d0ac6-107">Généralement, vous créerez plutôt des opportunités à partir du contact ou des vendeurs spécifiques.</span><span class="sxs-lookup"><span data-stu-id="d0ac6-107">But you typically will create opportunities from the specific contact or salespeople.</span></span>
 
-<span data-ttu-id="576af-108">Pour pouvoir créer des opportunités, vous devez configurer les cycles de vente opportunité.</span><span class="sxs-lookup"><span data-stu-id="576af-108">Before you can create opportunities, you must set up opportunity sales cycles.</span></span> <span data-ttu-id="576af-109">Pour plus d'informations reportez-vous à [Configurer des cycles et des étapes de vente opportunité](marketing-how-setup-opportunity-sales-cycles-stages.md).</span><span class="sxs-lookup"><span data-stu-id="576af-109">For more information see [Set Up Opportunity Sales Cycles and Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).</span></span>
+<span data-ttu-id="d0ac6-108">Pour pouvoir créer des opportunités, vous devez configurer les cycles de vente opportunité.</span><span class="sxs-lookup"><span data-stu-id="d0ac6-108">Before you can create opportunities, you must set up opportunity sales cycles.</span></span> <span data-ttu-id="d0ac6-109">Pour plus d'informations reportez-vous à [Configurer des cycles et des étapes de vente opportunité](marketing-how-setup-opportunity-sales-cycles-stages.md).</span><span class="sxs-lookup"><span data-stu-id="d0ac6-109">For more information see [Set Up Opportunity Sales Cycles and Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).</span></span>
 
-## <a name="to-create-an-opportunity-from-a-salesperson"></a><span data-ttu-id="576af-110">Pour créer une opportunité à partir d'un vendeur</span><span class="sxs-lookup"><span data-stu-id="576af-110">To create an opportunity from a salesperson</span></span>
-1. <span data-ttu-id="576af-111">Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Vendeurs**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="576af-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople**, and then choose the related link.</span></span>
-2. <span data-ttu-id="576af-112">Sélectionnez dans la liste le vendeur pour lequel vous souhaitez créer une opportunité.</span><span class="sxs-lookup"><span data-stu-id="576af-112">Select the salesperson from the list for whom you want to create an opportunity.</span></span>
-3. <span data-ttu-id="576af-113">Sélectionnez l'action **Opportunités**, puis sélectionnez **Liste**.</span><span class="sxs-lookup"><span data-stu-id="576af-113">Choose the **Opportunities** action, and then choose **List**.</span></span>
-4. <span data-ttu-id="576af-114">Sélectionnez **Nouveau**, puis renseignez les champs appropriés.</span><span class="sxs-lookup"><span data-stu-id="576af-114">Choose **New**, and then fill in the fields as relevant.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+## <a name="to-create-an-opportunity-from-a-salesperson"></a><span data-ttu-id="d0ac6-110">Pour créer une opportunité à partir d'un vendeur</span><span class="sxs-lookup"><span data-stu-id="d0ac6-110">To create an opportunity from a salesperson</span></span>
+1. <span data-ttu-id="d0ac6-111">Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Vendeurs**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="d0ac6-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople**, and then choose the related link.</span></span>
+2. <span data-ttu-id="d0ac6-112">Sélectionnez dans la liste le vendeur pour lequel vous souhaitez créer une opportunité.</span><span class="sxs-lookup"><span data-stu-id="d0ac6-112">Select the salesperson from the list for whom you want to create an opportunity.</span></span>
+3. <span data-ttu-id="d0ac6-113">Sélectionnez l'action **Opportunités**, puis sélectionnez **Liste**.</span><span class="sxs-lookup"><span data-stu-id="d0ac6-113">Choose the **Opportunities** action, and then choose **List**.</span></span>
+4. <span data-ttu-id="d0ac6-114">Sélectionnez **Nouveau**, puis renseignez les champs appropriés.</span><span class="sxs-lookup"><span data-stu-id="d0ac6-114">Choose **New**, and then fill in the fields as relevant.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 
 
-## <a name="to-create-an-opportunity-from-a-contact"></a><span data-ttu-id="576af-115">Pour créer une opportunité à partir d'un contact</span><span class="sxs-lookup"><span data-stu-id="576af-115">To create an opportunity from a contact</span></span>
-1. <span data-ttu-id="576af-116">Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Contacts**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="576af-116">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.</span></span>
-2. <span data-ttu-id="576af-117">Sélectionnez dans la liste le contact pour lequel vous souhaitez créer une opportunité.</span><span class="sxs-lookup"><span data-stu-id="576af-117">Select the contact from the list for whom you want to create an opportunity.</span></span>
-3. <span data-ttu-id="576af-118">Exécutez l'une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="576af-118">Do one of the following:</span></span>
-   * <span data-ttu-id="576af-119">Choisissez l'action **Créer opportunité**.</span><span class="sxs-lookup"><span data-stu-id="576af-119">Choose the **Create Opportunity** action.</span></span>
-   * <span data-ttu-id="576af-120">Sélectionnez l'action **Opportunités**, puis sélectionnez **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="576af-120">Choose the  **Opportunities** action, and then choose **New**.</span></span>
-4. <span data-ttu-id="576af-121">Renseignez les champs de votre choix.</span><span class="sxs-lookup"><span data-stu-id="576af-121">Fill in the relevant fields.</span></span>
+## <a name="to-create-an-opportunity-from-a-contact"></a><span data-ttu-id="d0ac6-115">Pour créer une opportunité à partir d'un contact</span><span class="sxs-lookup"><span data-stu-id="d0ac6-115">To create an opportunity from a contact</span></span>
+1. <span data-ttu-id="d0ac6-116">Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Contacts**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="d0ac6-116">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="d0ac6-117">Sélectionnez dans la liste le contact pour lequel vous souhaitez créer une opportunité.</span><span class="sxs-lookup"><span data-stu-id="d0ac6-117">Select the contact from the list for whom you want to create an opportunity.</span></span>
+3. <span data-ttu-id="d0ac6-118">Exécutez l'une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="d0ac6-118">Do one of the following:</span></span>
+   * <span data-ttu-id="d0ac6-119">Choisissez l'action **Créer opportunité**.</span><span class="sxs-lookup"><span data-stu-id="d0ac6-119">Choose the **Create Opportunity** action.</span></span>
+   * <span data-ttu-id="d0ac6-120">Sélectionnez l'action **Opportunités**, puis sélectionnez **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="d0ac6-120">Choose the  **Opportunities** action, and then choose **New**.</span></span>
+4. <span data-ttu-id="d0ac6-121">Renseignez les champs de votre choix.</span><span class="sxs-lookup"><span data-stu-id="d0ac6-121">Fill in the relevant fields.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="576af-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="576af-122">See Also</span></span>
-[<span data-ttu-id="576af-123">Ventes</span><span class="sxs-lookup"><span data-stu-id="576af-123">Sales</span></span>](sales-manage-sales.md)  
-[<span data-ttu-id="576af-124">Création et gestion des contacts</span><span class="sxs-lookup"><span data-stu-id="576af-124">Creating and Managing Contacts</span></span>](marketing-contacts.md)  
-[<span data-ttu-id="576af-125">Utilisation de Business Central</span><span class="sxs-lookup"><span data-stu-id="576af-125">Working with Business Central</span></span>](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="d0ac6-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d0ac6-122">See Also</span></span>
+[<span data-ttu-id="d0ac6-123">Ventes</span><span class="sxs-lookup"><span data-stu-id="d0ac6-123">Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="d0ac6-124">Création et gestion des contacts</span><span class="sxs-lookup"><span data-stu-id="d0ac6-124">Creating and Managing Contacts</span></span>](marketing-contacts.md)  
+[<span data-ttu-id="d0ac6-125">Utilisation de Business Central</span><span class="sxs-lookup"><span data-stu-id="d0ac6-125">Working with Business Central</span></span>](ui-work-product.md)
