@@ -1,57 +1,65 @@
 ---
 title: Fonctionnalité locale, France
 description: Les rubriques suivantes décrivent la fonctionnalité locale de la version française de Business Central.
-author: SorenGP
+author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/12/2018
-ms.author: sgroespe
-ms.openlocfilehash: 275f243c5513e72b2fea642a7889936b0ee62fa2
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.date: 04/01/2019
+ms.author: soalex
+ms.openlocfilehash: 7a0b47cf05eba5f639e8ac6fc944bcf251bb8726
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826658"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926315"
 ---
 # <a name="france-local-functionality"></a>Fonctionnalité locale, France
 Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à la version française de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
-## <a name="in-this-section"></a>Dans cette section  
-[Amortissement accéléré](accelerated-depreciation.md)  
-[Lettrer des écritures comptables](how-to-apply-general-ledger-entries.md)  
-[Archiver les bordereaux de paiement](how-to-archive-payment-slips.md)  
-[Calculer l'amortissement accéléré](how-to-calculate-accelerated-depreciation.md)  
-[Clôturer un exercice](how-to-close-years.md)
-[Clôturer les comptes de gestion](how-to-close-income-statement-accounts.md)  
-[Créer bordereaux paiement](how-to-create-payment-slips.md)  
-[Exporter des écritures comptables pour les audits fiscaux](how-to-export-general-ledger-entries-for-tax-audits.md)  
-[Exporter des écritures comptables vers un fichier XML](how-to-export-general-ledger-entries-to-an-xml-file.md)  
-[Importer ou exporter des paramètres pour votre configuration de gestion des règlements](how-to-export-or-import-payment-management-setup-parameters.md)
-[Exporter des règlements](how-to-export-payments.md)  
-[Clôturer fiscalement des périodes comptables](how-to-fiscally-close-accounting-periods.md)  
-[Clôturer fiscalement des exercices](how-to-fiscally-close-years.md)  
-[Périodes fiscales et exercices comptables](fiscal-periods-and-fiscal-years.md)  
-[Écritures comptables](general-ledger.md)  
-[Ouvrir un duplicata de nouvel exercice comptable](how-to-open-a-new-fiscal-year-duplicate.md)  
-[Gestion des paiements](payment-management.md)  
-[Valider des bordereaux paiement](how-to-post-payment-slips.md)  
-[Valider l'écriture de clôture d'exercice](how-to-post-the-year-end-closing-entry.md)  
-[Imprimer des états de la comptabilité](how-to-print-general-ledger-reports.md)  
-[Rouvrir des périodes comptables](how-to-reopen-accounting-periods.md)  
-[Paramétrer l'amortissement accéléré](how-to-set-up-accelerated-depreciation.md)  
-[Configurer des adresses de paiement](how-to-set-up-payment-addresses.md)  
-[Paramétrer des statuts règlement](how-to-set-up-payment-statuses.md)  
-[Paramétrer {des étapes règlement}](how-to-set-up-payment-steps.md)  
-[Définir des périodes de validation](how-to-specify-posting-periods.md)  
-[Délettrer des écritures comptables](how-to-unapply-general-ledger-entries.md)  
-[Afficher des rapprochements comptables](how-to-view-ledger-reconciliations.md)  
-[Gestion des paiements](payment-management.md)  
-[Configuration requise pour la déclaration d'échanges de biens](requirements-for-reporting-declaration-of-trade-in-goods.md)  
-[Vue d'ensemble des processus de fin d'exercice](year-end-processes-overview.md)
+## <a name="feature-availability"></a>Disponibilité des fonctionnalités
+
+* TVA et taxes
+    * [Exporter les écritures comptables pour les audits fiscaux](how-to-export-general-ledger-entries-for-tax-audits.md) **Disponible maintenant**
+    * [Exporter les écritures comptables vers un fichier XML](how-to-export-general-ledger-entries-to-an-xml-file.md) **Disponible maintenant**
+    * [Configuration requise pour la déclaration d'échanges de biens](requirements-for-reporting-declaration-of-trade-in-goods.md) **Disponible maintenant**
+
+* Banque et paiements
+    * [Configurer les adresses de paiement](how-to-set-up-payment-addresses.md) **Disponible maintenant**
+    * [Configurer les statuts de paiement](how-to-set-up-payment-statuses.md) **Disponible maintenant**
+    * [Configurer les étapes de paiement](how-to-set-up-payment-steps.md) **Disponible maintenant**
+    * [Configurer les classes de paiement](how-to-set-up-payment-classes.md) **Disponible maintenant**
+    * [Archiver les bordereaux de paiement](how-to-archive-payment-slips.md) **Disponible maintenant**
+    * [Créer des bordereaux de paiement](how-to-create-payment-slips.md) **Disponible maintenant**
+    * [Exporter des paiements](how-to-export-payments.md) **Disponible maintenant**
+    * [Exporter ou importer des paramètres de configuration de la gestion des paiements](how-to-export-or-import-payment-management-setup-parameters.md) **Disponible maintenant**
+    * [Gestion des paiements](payment-management.md) **Disponible maintenant**
+    * [Valider des bordereaux de paiement](how-to-post-payment-slips.md) **Disponible maintenant**
+
+* Finances principales
+    * [Lettrer les écritures comptables](how-to-apply-general-ledger-entries.md) **Disponible maintenant**
+    * [Délettrer les écritures comptables](how-to-unapply-general-ledger-entries.md) **Disponible maintenant**
+    * [Clôturer une année](how-to-close-years.md) **Disponible maintenant**
+    * [Clôturer les comptes de résultats](how-to-close-income-statement-accounts.md) **Disponible maintenant**
+    * [Clôturer fiscalement des périodes comptables](how-to-fiscally-close-accounting-periods.md) **Disponible maintenant**
+    * [Clôturer fiscalement les exercices](how-to-fiscally-close-years.md) **Disponible maintenant**
+    * [Périodes fiscales et exercices comptables](fiscal-periods-and-fiscal-years.md) **Disponible maintenant**
+    * [Écritures comptables](general-ledger.md) **Disponible maintenant**
+    * [Ouvrir un duplicata de nouvel exercice comptable](how-to-open-a-new-fiscal-year-duplicate.md) **Disponible maintenant**
+    * [Valider l'écriture de clôture d'exercice](how-to-post-the-year-end-closing-entry.md) **Disponible maintenant**
+    * [Vue d'ensemble des processus de fin d'exercice](year-end-processes-overview.md) **Disponible maintenant**
+    * [Imprimer les états comptables](how-to-print-general-ledger-reports.md) **Disponible maintenant**
+    * [Rouvrir les périodes comptables](how-to-reopen-accounting-periods.md) **Disponible maintenant**
+    * [Spécifier les périodes de validation](how-to-specify-posting-periods.md) **Disponible maintenant**
+    * [Afficher les rapprochements comptables](how-to-view-ledger-reconciliations.md) **Disponible maintenant**
+
+* COMPTES D'IMMOBILISATIONS
+    * [Configurer l'amortissement accéléré](how-to-set-up-accelerated-depreciation.md) **Disponible maintenant**
+    * [Amortissement accéléré](accelerated-depreciation.md) **Disponible maintenant**
+    * [Calculer l'amortissement accéléré](how-to-calculate-accelerated-depreciation.md) **Disponible maintenant**
 
 ## <a name="see-also"></a>Voir aussi
 [Utilisation de [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)     

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 27e225637982d3d5c7451704bf5397433fbca7e5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9a5a9abad659ba7cbfd044d31e9c91c42f96d732
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826645"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924280"
 ---
 # <a name="fiscal-periods-and-fiscal-years"></a>Périodes fiscales et exercices comptables
 Un exercice comptable est généralement divisé en 12 périodes fiscales mensuelles. Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], deux exercices comptables peuvent être ouverts en même temps. Vous ne pouvez pas créer un troisième exercice comptable si deux exercices comptables sont ouverts.  

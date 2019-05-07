@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/14/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5ccb9953c331e285770d72f560aad63e3f26bbfb
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 8a68df5eb6265291b6b01e251e36d92c4d8eef0c
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826672"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "927246"
 ---
 # <a name="apply-general-ledger-entries"></a>Lettrer des écritures comptables
 Vous lettrez les écritures comptables pour justifier les soldes des comptes d'actif et de passif. Par exemple, vous pouvez lettrer des transactions dans les comptes de lettre de change afin d'obtenir une image précise des lettres constituant le solde du compte.  
