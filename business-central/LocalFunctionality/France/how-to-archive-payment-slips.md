@@ -13,46 +13,46 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 6ba6331222ae97b4769e9755ca0d1919f23759c9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928551"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237424"
 ---
-# <a name="archive-payment-slips"></a><span data-ttu-id="22d55-103">Archiver les bordereaux de paiement</span><span class="sxs-lookup"><span data-stu-id="22d55-103">Archive Payment Slips</span></span>
-<span data-ttu-id="22d55-104">Lorsqu'un bordereau paiement a été entièrement traité, vous pouvez le séparer des bordereaux paiement actifs en l'archivant.</span><span class="sxs-lookup"><span data-stu-id="22d55-104">When a payment slip has been processed, you can separate it from the active payment slips by archiving it.</span></span>  
+# <a name="archive-payment-slips"></a><span data-ttu-id="e4242-103">Archiver les bordereaux de paiement</span><span class="sxs-lookup"><span data-stu-id="e4242-103">Archive Payment Slips</span></span>
+<span data-ttu-id="e4242-104">Lorsqu'un bordereau paiement a été entièrement traité, vous pouvez le séparer des bordereaux paiement actifs en l'archivant.</span><span class="sxs-lookup"><span data-stu-id="e4242-104">When a payment slip has been processed, you can separate it from the active payment slips by archiving it.</span></span>  
 
-<span data-ttu-id="22d55-105">Vous pouvez archiver le bordereau paiement à l'aide des méthodes suivantes :</span><span class="sxs-lookup"><span data-stu-id="22d55-105">You can archive the payment slip by using the following methods:</span></span>  
+<span data-ttu-id="e4242-105">Vous pouvez archiver le bordereau paiement à l'aide des méthodes suivantes :</span><span class="sxs-lookup"><span data-stu-id="e4242-105">You can archive the payment slip by using the following methods:</span></span>  
 
-- <span data-ttu-id="22d55-106">Manuellement pour des bordereaux paiement individuels.</span><span class="sxs-lookup"><span data-stu-id="22d55-106">Manually – for individual payment slips.</span></span>  
-- <span data-ttu-id="22d55-107">Automatiquement pour un lot de bordereaux paiement.</span><span class="sxs-lookup"><span data-stu-id="22d55-107">Automatically – for a batch of payment slips.</span></span>  
+- <span data-ttu-id="e4242-106">Manuellement pour des bordereaux paiement individuels.</span><span class="sxs-lookup"><span data-stu-id="e4242-106">Manually – for individual payment slips.</span></span>  
+- <span data-ttu-id="e4242-107">Automatiquement pour un lot de bordereaux paiement.</span><span class="sxs-lookup"><span data-stu-id="e4242-107">Automatically – for a batch of payment slips.</span></span>  
 
-## <a name="to-archive-a-payment-slip"></a><span data-ttu-id="22d55-108">Pour archiver un bordereau paiement</span><span class="sxs-lookup"><span data-stu-id="22d55-108">To archive a payment slip</span></span>  
+## <a name="to-archive-a-payment-slip"></a><span data-ttu-id="e4242-108">Pour archiver un bordereau paiement</span><span class="sxs-lookup"><span data-stu-id="e4242-108">To archive a payment slip</span></span>  
 
-1.  <span data-ttu-id="22d55-109">Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Bordereaux paiement**, puis sélectionnez le lien approprié.</span><span class="sxs-lookup"><span data-stu-id="22d55-109">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slips**, and then choose the relevant link.</span></span>  
-2.  <span data-ttu-id="22d55-110">Sélectionnez le bordereau paiement concerné, puis cliquez sur l'action **Modifier**.</span><span class="sxs-lookup"><span data-stu-id="22d55-110">Select the relevant payment slip, and then choose the **Edit** action.</span></span>  
-3.  <span data-ttu-id="22d55-111">Sur la page **Bordereau paiement**, sélectionnez **Archiver**.</span><span class="sxs-lookup"><span data-stu-id="22d55-111">On the **Payment Slip** page, choose the **Archive** action.</span></span>  
-4.  <span data-ttu-id="22d55-112">Cliquez sur le bouton **Oui** pour archiver le bordereau paiement.</span><span class="sxs-lookup"><span data-stu-id="22d55-112">Choose the **Yes** button to archive the payment slip.</span></span>  
+1.  <span data-ttu-id="e4242-109">Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Bordereaux paiement**, puis sélectionnez le lien approprié.</span><span class="sxs-lookup"><span data-stu-id="e4242-109">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slips**, and then choose the relevant link.</span></span>  
+2.  <span data-ttu-id="e4242-110">Sélectionnez le bordereau paiement concerné, puis cliquez sur l'action **Modifier**.</span><span class="sxs-lookup"><span data-stu-id="e4242-110">Select the relevant payment slip, and then choose the **Edit** action.</span></span>  
+3.  <span data-ttu-id="e4242-111">Sur la page **Bordereau paiement**, sélectionnez **Archiver**.</span><span class="sxs-lookup"><span data-stu-id="e4242-111">On the **Payment Slip** page, choose the **Archive** action.</span></span>  
+4.  <span data-ttu-id="e4242-112">Cliquez sur le bouton **Oui** pour archiver le bordereau paiement.</span><span class="sxs-lookup"><span data-stu-id="e4242-112">Choose the **Yes** button to archive the payment slip.</span></span>  
 
     > [!NOTE]  
-    >  <span data-ttu-id="22d55-113">Si le statut actuel du bordereau paiement n'autorise pas l'archivage, un message s'affiche.</span><span class="sxs-lookup"><span data-stu-id="22d55-113">If the current status of the payment slip does not allow archiving, a message is displayed.</span></span>  
+    >  <span data-ttu-id="e4242-113">Si le statut actuel du bordereau paiement n'autorise pas l'archivage, un message s'affiche.</span><span class="sxs-lookup"><span data-stu-id="e4242-113">If the current status of the payment slip does not allow archiving, a message is displayed.</span></span>  
 
-## <a name="to-archive-a-batch-of-payment-slips"></a><span data-ttu-id="22d55-114">Pour archiver un lot de bordereaux paiement</span><span class="sxs-lookup"><span data-stu-id="22d55-114">To archive a batch of payment slips</span></span>  
+## <a name="to-archive-a-batch-of-payment-slips"></a><span data-ttu-id="e4242-114">Pour archiver un lot de bordereaux paiement</span><span class="sxs-lookup"><span data-stu-id="e4242-114">To archive a batch of payment slips</span></span>  
 
-1.  <span data-ttu-id="22d55-115">Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Archiver les bordereaux de paiement**, puis sélectionnez le lien approprié.</span><span class="sxs-lookup"><span data-stu-id="22d55-115">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Archive Payment Slips**, and then choose the relevant link.</span></span>  
-2.  <span data-ttu-id="22d55-116">Sur la page **Archiver les bordereaux de paiement**, sur le raccourci **En-tête bordereau**, sélectionnez les filtres appropriés.</span><span class="sxs-lookup"><span data-stu-id="22d55-116">On the **Archive Payment Slips** page, on the **Payment Header** FastTab, select the appropriate filters.</span></span>  
-3.  <span data-ttu-id="22d55-117">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="22d55-117">Choose the **OK** button.</span></span>  
+1.  <span data-ttu-id="e4242-115">Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Archiver les bordereaux de paiement**, puis sélectionnez le lien approprié.</span><span class="sxs-lookup"><span data-stu-id="e4242-115">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Archive Payment Slips**, and then choose the relevant link.</span></span>  
+2.  <span data-ttu-id="e4242-116">Sur la page **Archiver les bordereaux de paiement**, sur le raccourci **En-tête bordereau**, sélectionnez les filtres appropriés.</span><span class="sxs-lookup"><span data-stu-id="e4242-116">On the **Archive Payment Slips** page, on the **Payment Header** FastTab, select the appropriate filters.</span></span>  
+3.  <span data-ttu-id="e4242-117">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="e4242-117">Choose the **OK** button.</span></span>  
 
-<span data-ttu-id="22d55-118">Les bordereaux paiement sont archivés.</span><span class="sxs-lookup"><span data-stu-id="22d55-118">The payment slips are archived.</span></span>  
+<span data-ttu-id="e4242-118">Les bordereaux paiement sont archivés.</span><span class="sxs-lookup"><span data-stu-id="e4242-118">The payment slips are archived.</span></span>  
 
 > [!NOTE]  
->  <span data-ttu-id="22d55-119">Ce traitement par lots archive uniquement les bordereaux paiement dont la case **Archivage autorisé** est cochée sur la page **Statut règlement**.</span><span class="sxs-lookup"><span data-stu-id="22d55-119">This batch job will only archive payment slips that have the **Archiving Authorized** check box selected on the **Payment Status** page.</span></span> <span data-ttu-id="22d55-120">Pour plus d'informations, voir [Paramétrer des statuts règlement](how-to-set-up-payment-statuses.md).</span><span class="sxs-lookup"><span data-stu-id="22d55-120">For more information, see [Set Up Payment Statuses](how-to-set-up-payment-statuses.md).</span></span>  
+>  <span data-ttu-id="e4242-119">Ce traitement par lots archive uniquement les bordereaux paiement dont la case **Archivage autorisé** est cochée sur la page **Statut règlement**.</span><span class="sxs-lookup"><span data-stu-id="e4242-119">This batch job will only archive payment slips that have the **Archiving Authorized** check box selected on the **Payment Status** page.</span></span> <span data-ttu-id="e4242-120">Pour plus d'informations, voir [Paramétrer des statuts règlement](how-to-set-up-payment-statuses.md).</span><span class="sxs-lookup"><span data-stu-id="e4242-120">For more information, see [Set Up Payment Statuses](how-to-set-up-payment-statuses.md).</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="22d55-121">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="22d55-121">See Also</span></span>  
- <span data-ttu-id="22d55-122">[Gestion des paiements](payment-management.md) </span><span class="sxs-lookup"><span data-stu-id="22d55-122">[Payment Management](payment-management.md) </span></span>  
- <span data-ttu-id="22d55-123">[Paramétrer des types de règlement](how-to-set-up-payment-classes.md) </span><span class="sxs-lookup"><span data-stu-id="22d55-123">[Set Up Payment Classes](how-to-set-up-payment-classes.md) </span></span>  
- <span data-ttu-id="22d55-124">[Paramétrer des statuts règlement](how-to-set-up-payment-statuses.md) </span><span class="sxs-lookup"><span data-stu-id="22d55-124">[Set Up Payment Statuses](how-to-set-up-payment-statuses.md) </span></span>  
- <span data-ttu-id="22d55-125">[Paramétrer des étapes règlement](how-to-set-up-payment-steps.md) </span><span class="sxs-lookup"><span data-stu-id="22d55-125">[Set Up Payment Steps](how-to-set-up-payment-steps.md) </span></span>  
- <span data-ttu-id="22d55-126">[Configurer des adresses de paiement](how-to-set-up-payment-addresses.md) </span><span class="sxs-lookup"><span data-stu-id="22d55-126">[Set Up Payment Addresses](how-to-set-up-payment-addresses.md) </span></span>  
- <span data-ttu-id="22d55-127">[Créer bordereaux paiement](how-to-create-payment-slips.md) </span><span class="sxs-lookup"><span data-stu-id="22d55-127">[Create Payment Slips](how-to-create-payment-slips.md) </span></span>  
- [<span data-ttu-id="22d55-128">Valider des bordereaux paiement</span><span class="sxs-lookup"><span data-stu-id="22d55-128">Post Payment Slips</span></span>](how-to-post-payment-slips.md)
+## <a name="see-also"></a><span data-ttu-id="e4242-121">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e4242-121">See Also</span></span>  
+ <span data-ttu-id="e4242-122">[Gestion des paiements](payment-management.md) </span><span class="sxs-lookup"><span data-stu-id="e4242-122">[Payment Management](payment-management.md) </span></span>  
+ <span data-ttu-id="e4242-123">[Paramétrer des types de règlement](how-to-set-up-payment-classes.md) </span><span class="sxs-lookup"><span data-stu-id="e4242-123">[Set Up Payment Classes](how-to-set-up-payment-classes.md) </span></span>  
+ <span data-ttu-id="e4242-124">[Paramétrer des statuts règlement](how-to-set-up-payment-statuses.md) </span><span class="sxs-lookup"><span data-stu-id="e4242-124">[Set Up Payment Statuses](how-to-set-up-payment-statuses.md) </span></span>  
+ <span data-ttu-id="e4242-125">[Paramétrer des étapes règlement](how-to-set-up-payment-steps.md) </span><span class="sxs-lookup"><span data-stu-id="e4242-125">[Set Up Payment Steps](how-to-set-up-payment-steps.md) </span></span>  
+ <span data-ttu-id="e4242-126">[Configurer des adresses de paiement](how-to-set-up-payment-addresses.md) </span><span class="sxs-lookup"><span data-stu-id="e4242-126">[Set Up Payment Addresses](how-to-set-up-payment-addresses.md) </span></span>  
+ <span data-ttu-id="e4242-127">[Créer bordereaux paiement](how-to-create-payment-slips.md) </span><span class="sxs-lookup"><span data-stu-id="e4242-127">[Create Payment Slips](how-to-create-payment-slips.md) </span></span>  
+ [<span data-ttu-id="e4242-128">Valider des bordereaux paiement</span><span class="sxs-lookup"><span data-stu-id="e4242-128">Post Payment Slips</span></span>](how-to-post-payment-slips.md)
