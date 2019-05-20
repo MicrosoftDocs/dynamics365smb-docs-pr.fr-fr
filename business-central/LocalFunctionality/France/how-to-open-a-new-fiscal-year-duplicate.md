@@ -4,26 +4,25 @@ description: Avant de pouvoir effectuer une validation dans un exercice comptabl
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/01/2017
 ms.author: sgroespe
 ms.openlocfilehash: 4cb4baef31246cdb961cd2c3b02e9ebe6030e570
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "929692"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237931"
 ---
 # <a name="open-a-new-fiscal-year"></a>Ouvrir un nouvel exercice comptable
 Avant de pouvoir effectuer une validation dans un exercice comptable, vous devez l'ouvrir et définir ses périodes comptables.  
 
 ## <a name="to-open-a-new-fiscal-year"></a>Pour ouvrir un nouvel exercice comptable  
-
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Périodes comptables**, puis sélectionnez le lien approprié.  
 2.  Choisissez l'action **Créer exercice**.  
 3.  Sur le raccourci **Options**, définissez la structure de l'exercice comptable. Celui-ci est généralement constitué de 12 périodes d'un mois chacune, mais vous pouvez également le diviser autrement.  

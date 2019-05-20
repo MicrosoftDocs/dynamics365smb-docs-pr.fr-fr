@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 97255eed953fb81e2a15829449015d390f9df10a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "913747"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237938"
 ---
 # <a name="specify-posting-periods"></a>Définir des périodes de validation
 En définissant des périodes de validation, vous limitez la période durant laquelle la validation est autorisée.  

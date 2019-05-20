@@ -4,20 +4,20 @@ description: Pour utiliser le module Gestion des paiements, vous devez paramétr
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/01/2017
 ms.author: sgroespe
 ms.openlocfilehash: a39e119ca29cb5292cbca440e6bfed09f4c98841
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919344"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237935"
 ---
 # <a name="set-up-payment-addresses"></a>Configurer des adresses de paiement
 Pour utiliser le module Gestion des paiements, vous devez paramétrer les adresses de règlement qui sont utilisées pour les fournisseurs et clients au moment du règlement. L'adresse de règlement peut différer de l'adresse par défaut.  
@@ -25,7 +25,6 @@ Pour utiliser le module Gestion des paiements, vous devez paramétrer les adress
 La procédure suivante décrit comment paramétrer une adresse de règlement pour un fournisseur, mais les mêmes étapes s'appliquent pour le paramétrage d'une adresse de règlement pour un client.  
 
 ## <a name="to-set-up-a-payment-address"></a>Pour paramétrer une adresse de règlement  
-
 1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Fournisseurs**, puis sélectionnez le lien approprié.  
 2.  Sélectionnez un fournisseur, puis cliquez sur **Modifier**.  
 3.  Choisissez l'option **Adresses de règlement**.  
