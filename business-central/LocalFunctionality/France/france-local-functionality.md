@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: soalex
-ms.openlocfilehash: 7a0b47cf05eba5f639e8ac6fc944bcf251bb8726
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e2273ceab8c6e46a0650dea1c4692d77c882a6d6
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237460"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594205"
 ---
 # <a name="france-local-functionality"></a>Fonctionnalité locale, France
 Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à la version française de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Disponibilité des fonctionnalités
 
-* TVA et taxes
+* TVA
     * [Exporter les écritures comptables pour les audits fiscaux](how-to-export-general-ledger-entries-for-tax-audits.md) **Disponible maintenant**
     * [Exporter les écritures comptables vers un fichier XML](how-to-export-general-ledger-entries-to-an-xml-file.md) **Disponible maintenant**
     * [Configuration requise pour la déclaration d'échanges de biens](requirements-for-reporting-declaration-of-trade-in-goods.md) **Disponible maintenant**
