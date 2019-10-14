@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7223557cc4e9146856905fbcb3fea539047f93a8
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e0f01ee320ba0a775597d0c9bd00d9eb53814eb8
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237942"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300208"
 ---
 # <a name="create-payment-slips"></a>Créer bordereaux paiement
 Vous pouvez créer des bordereaux paiement pour gérer les paiements fournisseur et client. Avant de créer des bordereaux paiement, vous devez paramétrer des types de règlement. Pour plus d'informations, voir [Paramétrer des types de règlement](how-to-set-up-payment-classes.md).  

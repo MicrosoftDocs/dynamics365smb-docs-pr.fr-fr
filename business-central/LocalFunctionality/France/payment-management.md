@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 57541006b09865d1c80fe7f42d1c0218d920af15
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5c1099d4f5b979e850a704e777425e9cb73c27a6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237900"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300198"
 ---
 # <a name="payment-management"></a>Gestion des paiements
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] vous permet de gérer des lettres de change, des paiements électroniques et des paiements fournisseur à l'aide de la fonction de gestion des paiements.  

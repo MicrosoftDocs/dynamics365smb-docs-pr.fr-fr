@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: e2273ceab8c6e46a0650dea1c4692d77c882a6d6
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.openlocfilehash: 301f4a5b45d8238738d3573338eef6574056d617
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594205"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301349"
 ---
 # <a name="france-local-functionality"></a>Fonctionnalité locale, France
 Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à la version française de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  

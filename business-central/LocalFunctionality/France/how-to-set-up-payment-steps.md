@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 91cd754e1bcf5a7be38c900d358fe9945b1022cb
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: f86a0416e2fb89222aa011665faeba246cdac047
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237943"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300200"
 ---
 # <a name="set-up-payment-steps"></a>Paramétrer des étapes règlement
 Pour utiliser la gestion des paiements, vous devez configurer les étapes pour les documents de règlement et définir des étapes règlement pour chaque statut de paiement. Par exemple, « Création de documents », « Documents créés » et « Création de paiements ». Pour plus d'informations, voir [Paramétrer des statuts règlement](how-to-set-up-payment-statuses.md).  

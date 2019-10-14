@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 40ce97883ebdd2995b9a0fb4141bc5b018c358e4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 0bcf2d4bacab0549bf81bd6d35231380c714166a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237948"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301339"
 ---
 # <a name="view-ledger-reconciliations"></a>Afficher des rapprochements comptables
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] comprend deux états qui peuvent vous aider à rapprocher les écritures comptables et les écritures comptables client et fournisseur. L'état imprime une page distincte pour chaque client ou fournisseur qui récapitule les montants des transactions comptables basées sur les paiements et les factures validées.  

@@ -4,20 +4,20 @@ description: L'amortissement accéléré est calculé sur la base des différenc
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 894a34843d4b814a91e38a67592015f7e76cc673
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 77a71b627434b75cdcc513d9d284e105e9a678e7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237488"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301353"
 ---
 # <a name="accelerated-depreciation"></a>Amortissement accéléré
 L'amortissement accéléré est calculé sur la base des différences entre la loi d'amortissement comptable et la loi d'amortissement fiscal, sur toute la durée de vie de l'immobilisation.  

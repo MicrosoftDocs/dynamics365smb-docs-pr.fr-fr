@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4610f19ba9cfd964215730d5e48bf7608e563eb7
-ms.sourcegitcommit: e8abfb78e13f3c29035087b09d7930f2950ab7a3
+ms.openlocfilehash: 33d728f6ce374da72a288a8b6c6597be01ca7652
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "1717629"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301351"
 ---
 # <a name="export-general-ledger-entries-for-tax-audits"></a>Exporter des écritures comptables pour les audits fiscaux
 En France, les entreprises doivent fournir des informations relatives à l'impôt sur les sociétés et à la TVA, telles que les transactions et les écritures comptables, pour les audits dans un format de fichier spécifié par les autorités fiscales. Dans [!INCLUDE[prodshort](../../includes/prodshort.md)], ces informations sont enregistrées dans un fichier d’audit standard conçu pour fournir des informations sur les types de comptes qui incluent des entrées comptabilisées.

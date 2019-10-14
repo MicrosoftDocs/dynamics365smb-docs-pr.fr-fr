@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d77fc76ac3f39c39837ac607927ca4243ea3bfd6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e059f7a9f433c4b0d82ca46f9818afc29b32fbb1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237423"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300204"
 ---
 # <a name="print-general-ledger-reports"></a>Imprimer des états de la comptabilité
 Les états de la comptabilité répondent aux normes de la comptabilité générale et ils contiennent des informations sur les écritures comptables, les écritures des clients, des fournisseurs et des banques.  
