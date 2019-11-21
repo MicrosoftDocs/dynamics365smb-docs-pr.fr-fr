@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 87a43838f03a9913ff2bee22906b2911e53844fe
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 174ce206a367d82020674d4597183609ebe61421
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300207"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554551"
 ---
 # <a name="fiscally-close-years"></a>Clôturer fiscalement des exercices
 Lorsqu'un exercice comptable est terminé, vous devez clôturer fiscalement les périodes qui le composent pour veiller à ce qu'aucune autre écriture comptable ne puisse être validée.  
@@ -31,7 +31,7 @@ Avant que la clôture fiscale ne soit autorisée, vous devez vérifier ce qui su
 ## <a name="to-fiscally-close-years"></a>Pour clôturer fiscalement des exercices  
 
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Périodes comptables**, puis sélectionnez le lien approprié.  
-2.  Sous l'onglet **Naviguer**, dans le groupe **Clôture fiscale**, choisissez la case à cocher **Clôturer l'exercice fiscalement**.  
+2.  Sélectionnez la case à cocher **Clôturer l'exercice fiscalement**.  
 
     Si plusieurs exercices comptables ne sont pas clôturés fiscalement, le plus ancien doit être clôturé. Un message s'affiche pour identifier l'exercice à clôturer. Il détaille également les conséquences de cette opération.  
 
