@@ -1,8 +1,6 @@
 ---
 title: Écritures comptables
 description: Une fonctionnalité d'écritures comptables spéciale existe pour la version française de Business Central.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9837797590942270f41065b44deeb11e5b0ac4e7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b7f4135b9732c1ea8e74eb3a56ce0edf10b9d553
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300211"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879274"
 ---
 # <a name="general-ledger"></a>Écritures comptables
 La fonctionnalité Comptabilité pour la France est décrite dans les rubriques ci-dessous.

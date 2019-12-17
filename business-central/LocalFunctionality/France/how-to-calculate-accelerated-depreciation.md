@@ -1,8 +1,6 @@
 ---
 title: Procédure de calcul de l'amortissement accéléré
 description: Dans Business Central, vous calculez l'amortissement périodique des immobilisations à l'aide du traitement par lots Calculer amortissement. La loi d'amortissement liée à l'immobilisation définit la méthode d'amortissement, la date de début de l'amortissement et le groupe comptabilisation immobilisation utilisé par le traitement par lots.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cf23cd3950c65709e884276326edf7020cd5ed71
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8f8155a499d75f59ddf5523e4fd3610dd8f3fb38
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301350"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879275"
 ---
 # <a name="calculate-accelerated-depreciation"></a>Calculer l'amortissement accéléré
 Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous calculez l'amortissement périodique des immobilisations à l'aide du traitement par lots **Calculer amortissement**. La loi d'amortissement liée à l'immobilisation définit la méthode d'amortissement, la date de début de l'amortissement et le groupe comptabilisation immobilisation utilisé par le traitement par lots.  
@@ -30,7 +28,7 @@ Les écritures sont transférées vers la feuille immobilisation lorsque vous s�
 
 ## <a name="to-calculate-accelerated-depreciation"></a>Pour calculer l'amortissement accéléré  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), saisissez **Calculer amortissement**, puis sélectionnez le lien approprié.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Calculer amortissement**, puis sélectionnez le lien approprié.  
 2.  Sur la page **Calculer amortissement**, sur le raccourci **Options**, renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
@@ -53,4 +51,4 @@ L'amortissement accéléré de l'immobilisation est calculé.
  [Amortissement accéléré](accelerated-depreciation.md)   
  [Paramétrer l'amortissement accéléré](how-to-set-up-accelerated-depreciation.md)   
  [Configurer un amortissement immobilisation](../../fa-how-setup-depreciation.md)  
- [COMPTES D'IMMOBILISATIONS](../../fa-manage.md)
+ [Immobilisations](../../fa-manage.md)

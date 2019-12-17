@@ -1,8 +1,6 @@
 ---
 title: Vue d'ensemble des processus de fin d'exercice
 description: Une clôture d'exercice dans Business Central implique trois étapes.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5c880037b384de3893c922381ff0485a9bb91205
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1e36e5f77124246e6ff00edfccb0701cd76412df
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300197"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878189"
 ---
 # <a name="year-end-processes-overview"></a>Vue d'ensemble des processus de fin d'exercice
 Une clôture d'exercice dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)] implique trois étapes :  

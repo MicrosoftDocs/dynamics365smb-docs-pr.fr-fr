@@ -1,8 +1,6 @@
 ---
 title: Procédure de clôture fiscale des périodes comptables
 description: Lorsqu'une période fiscale est terminée, vous pouvez la clôturer fiscalement pour veiller à ce qu'aucune autre écriture comptable ne puisse être validée.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 328832312914e0b4be1e82404bccd5520bd6811f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 64768e8387add1c87984a75600bfe537b67e3948
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301346"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878956"
 ---
 # <a name="fiscally-close-accounting-periods"></a>Clôturer fiscalement des périodes comptables
 Lorsqu'une période fiscale est terminée, vous pouvez la clôturer fiscalement pour veiller à ce qu'aucune autre écriture comptable ne puisse être validée.  
 
 ## <a name="to-fiscally-close-accounting-periods"></a>Pour clôturer fiscalement des périodes comptables  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Périodes comptables**, puis sélectionnez le lien approprié.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Périodes comptables**, puis sélectionnez le lien approprié.  
 2.  Sur la page **Périodes comptables**, sélectionnez l'action **Clôturer période fiscale**.  
 
     Si plusieurs périodes fiscales ne sont pas clôturées fiscalement, la plus ancienne doit être clôturée. Un message s'affiche pour identifier la période à clôturer. Il détaille également les conséquences de cette opération.  

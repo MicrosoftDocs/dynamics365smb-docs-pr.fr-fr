@@ -1,8 +1,6 @@
 ---
 title: Procédure d'affichage des rapprochements comptables
 description: Deux états peuvent vous aider à rapprocher les écritures comptables et les écritures comptables client et fournisseur.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0bcf2d4bacab0549bf81bd6d35231380c714166a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0c40155ec3d805f8987822aa5c774aba69a65043
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301339"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878190"
 ---
 # <a name="view-ledger-reconciliations"></a>Afficher des rapprochements comptables
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] comprend deux états qui peuvent vous aider à rapprocher les écritures comptables et les écritures comptables client et fournisseur. L'état imprime une page distincte pour chaque client ou fournisseur qui récapitule les montants des transactions comptables basées sur les paiements et les factures validées.  
@@ -26,7 +24,7 @@ La procédure suivante s'applique à afficher le rapprochement entre les écritu
 
 ## <a name="to-view-general-ledger-reconciliation-with-the-customer-ledger"></a>Pour afficher le rapprochement des écritures comptables avec les écritures comptables client  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Écritures comptables**, puis sélectionnez le lien connexe dans **Écritures comptables**.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Comptabilité**, puis sélectionnez le lien associé dans **Comptabilité**.  
 2.  Choisissez l'action **États**, choisissez l'action **France**, puis sélectionnez l'action **Rapprochement cpta. gén./client**.  
 3.  Sur la page **Rapprochement cpta. gén./client**, positionnez les filtres appropriés.  
 

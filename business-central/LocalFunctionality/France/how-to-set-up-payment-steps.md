@@ -1,8 +1,6 @@
 ---
 title: Comment paramétrer des étapes règlement
 description: Pour utiliser la gestion des paiements, vous devez configurer les étapes pour les documents de règlement et définir des étapes règlement pour chaque statut de paiement.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f86a0416e2fb89222aa011665faeba246cdac047
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e7e1e22c82a60e3ae3d4869321c53a5f936c5892
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300200"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878927"
 ---
 # <a name="set-up-payment-steps"></a>Paramétrer des étapes règlement
 Pour utiliser la gestion des paiements, vous devez configurer les étapes pour les documents de règlement et définir des étapes règlement pour chaque statut de paiement. Par exemple, « Création de documents », « Documents créés » et « Création de paiements ». Pour plus d'informations, voir [Paramétrer des statuts règlement](how-to-set-up-payment-statuses.md).  
 
 ## <a name="to-set-up-payment-steps"></a>Pour paramétrer des étapes règlement  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres bordereau paiement**, puis sélectionnez le lien approprié.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Paramètres bordereau paiement**, puis sélectionnez le lien approprié.  
 2.  Sélectionnez un type de règlement, puis cliquez sur **Étapes**.  
 3.  Dans le champ **Nom**, entrez un nom pour l'étape règlement. Vous pouvez entrer 50 caractères alphanumériques maximum.  
 4.  Choisissez l'action **Modifier**.  

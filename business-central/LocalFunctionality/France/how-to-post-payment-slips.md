@@ -1,8 +1,6 @@
 ---
 title: Procédure de validation des bordereaux paiement
 description: Vous devez valider des bordereaux paiement afin de finaliser une transaction paiement et créer des données financières. Vous pouvez valider un bordereau paiement si le type d'action du bordereau paiement est défini sur Comptabilité.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 83dbea31fc35adae825b1d8ee05a050626f742ad
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b8634e1fdbb4d7db37a36cb4ec1d6cb0b4bf1ae9
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300203"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878929"
 ---
 # <a name="post-payment-slips"></a>Valider des bordereaux paiement
 Vous devez valider des bordereaux paiement afin de finaliser une transaction paiement et créer des données financières. Vous pouvez valider un bordereau paiement si le **type d'action** du bordereau paiement est défini sur **Comptabilité**.  
@@ -26,7 +24,7 @@ Avant de publier un bordereau paiement, vous devez créer le bordereau paiement.
 
 ## <a name="to-post-a-payment-slip"></a>Pour valider un bordereau paiement  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Bordereaux paiement**, puis sélectionnez le lien approprié.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Bordereaux paiement**, puis sélectionnez le lien approprié.  
 2.  Sélectionnez un bordereau paiement, puis cliquez sur **Modifier**.  
 3.  Sur la page **Bordereau paiement**, sélectionnez **Valider**.  
 4.  Choisissez le bouton **OK**.  

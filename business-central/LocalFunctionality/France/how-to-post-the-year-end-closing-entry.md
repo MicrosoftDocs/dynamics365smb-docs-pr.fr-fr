@@ -1,8 +1,6 @@
 ---
 title: Procédure de validation de l'écriture de clôture d'exercice
 description: Après avoir utilisé le traitement par lots Solder les comptes de gestion pour générer les écritures de clôture d'exercice, vous devez ouvrir la feuille spécifiée dans le traitement par lots, puis consulter et valider les écritures.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0dfa88f844ad799a5ddeb22457fea8526afc03b0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 788e3cec4a045b4df99caae783c2c58682292efe
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301341"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878928"
 ---
 # <a name="post-the-year-end-closing-entry"></a>Valider l'écriture de clôture d'exercice
 Après avoir utilisé le traitement par lots **Solder les comptes de gestion** pour générer les écritures de clôture d'exercice, vous devez ouvrir la feuille spécifiée dans le traitement par lots, puis consulter et valider les écritures.  
 
 ## <a name="to-post-the-year-end-closing-entry"></a>Pour valider l'écriture de clôture d'exercice  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille comptabilité**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuille comptabilité**, puis sélectionnez le lien associé.  
 2.  Examinez les écritures.  
 3.  Sélectionnez l'action **Valider**.  
 4.  Sur la page de confirmation de la validation, cliquez sur le bouton **Oui**.  

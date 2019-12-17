@@ -1,8 +1,6 @@
 ---
 title: Détails de conception - Équilibrage la demande et de l'approvisionnement | Microsoft Docs
 description: Pour comprendre comment fonctionne le système de planification, il est nécessaire de comprendre les objectifs priorisés du système de planification, dont les plus importants sont de s'assurer que toute demande est satisfaite par suffisamment d'approvisionnement et n'importe quel approvisionnement atteint un but.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b8e4cb09e8b391f9818c9dabbc25d88eeca4aeac
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1dda414746c8661e5a9cee3eee5ce569cfa83e16
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303771"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882901"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Détails de conception : équilibrage de la demande et de l'approvisionnement
 Pour comprendre comment fonctionne le système de planification, il est nécessaire de comprendre les objectifs priorisés du système de planification, dont les plus importants sont de s'assurer que :  
@@ -106,7 +104,7 @@ L'équilibrage des numéros de série/lot ne tient pas compte de la [Zone gelée
 ### <a name="order-to-order-links-are-never-broken"></a>Les Liens ordre pour ordre ne sont jamais rompus  
 Lors de la planification d'un article commande-à-commande, l'approvisionnement lié ne doit pas être utilisé pour toute demande autre que ce à quoi il était prévu à l'origine. La demande liée ne doit pas être couverte par un autre approvisionnement aléatoire, même si, dans sa situation actuelle, il est disponible en termes de délai et de quantité. Par exemple, un ordre d'assemblage lié à une commande vente dans un scénario assembler pour commande ne peut pas être utilisé pour couvrir l'autre demande.  
 
-La demande et l'approvisionnement ordre pour ordre doivent être exactement équilibrés. Le système de planification assure l'approvisionnement en toutes circonstances sans tenir compte des paramètres de taille de commande, des modificateurs, ni des quantités dans le stock (autres que les quantités liées aux commandes). Pour le même motif, le système suggère de diminuer les approvisionnements excédentaires si la demande liée est réduite.  
+La demande et l'approvisionnement ordre pour ordre doivent être équilibrées exactement. Le système de planification assure l'approvisionnement en toutes circonstances sans tenir compte des paramètres de taille de commande, des modificateurs, ni des quantités dans le stock (autres que les quantités liées aux commandes). Pour le même motif, le système suggère de diminuer les approvisionnements excédentaires si la demande liée est réduite.  
 
 Cet équilibre affecte également le temps. L'horizon limité accordé par l'intervalle de planification n'est pas pris en compte ; l'approvisionnement sera replanifié si le délai de la demande a été modifié. Cependant, le seuil sera respecté et empêchera que des approvisionnements ordre pour ordre soient planifiés en sortie, sauf pour les approvisionnements internes d'un O.F. multi-niveau (O.F. projet).  
 
@@ -127,7 +125,7 @@ Le stock de sécurité est une quantité en stock mise de côté pour compenser 
 ### <a name="forecast-demand-is-reduced-by-sales-orders"></a>La demande de prévision est réduite par les commandes vente  
 La prévision de la demande exprime une future demande anticipée. Lorsqu'une demande réelle est saisie, généralement comme commandes vente pour les articles produits, elle consomme la prévision.  
 
-La prévision proprement dite n'est pas réellement réduite par les commandes vente ; elle reste la même. Cependant, les quantités prévues utilisées dans le calcul de planification sont réduites (par les quantités de commande vente) avant que la quantité restante, le cas échéant, soit saisie dans le profil du stock de demande. Lorsque le système de planification examine les vente réelles pendant une période, les commandes vente ouvertes et les écritures comptables article des ventes expédiées sont incluses, à moins qu'elles ne proviennent d'une commande ouverte.  
+La prévision proprement dite n'est pas réellement réduite par les commandes vente ; elle reste la même. Cependant, les quantités prévues utilisées dans le calcul de planification sont réduites (par les quantités de commande vente) avant que la quantité restante, le cas échéant, soit saisie dans le profil du stock de demande. Lorsque le système de planification examine les vente réelles pendant une période, les commandes vente ouvertes et les écritures comptables article des ventes expédiées sont incluses, à moins que elles ne proviennent d'une commande ouverte.  
 
 Un utilisateur doit définir une période de prévision valide. La date de la quantité prévue définit le début de la période, et la date de la prévision suivante définit la fin de la période.  
 
@@ -157,7 +155,7 @@ La demande et l'approvisionnement chargés contribuent à un profil pour le stoc
 9. Prévision (qui n'a pas déjà été consommée par d'autres commandes vente)  
 
 > [!NOTE]  
->  Les retours achat ne sont généralement pas impliqués dans la planification d'approvisionnement ; ils doivent toujours être réservés à partir du lot qui va être retourné. S'ils ne sont pas réservés, les retours achat jouent un rôle dans la disponibilité et sont classés en priorité élevée pour éviter que le système de planification suggère une commande approvisionnement uniquement pour servir un retour achat.  
+>  Les retours achat ne sont généralement pas impliqués dans la planification d'approvisionnement ; ils doivent toujours être réservés à partir du lot qui va être retourné. S'il ne sont pas réservés, les retours achat jouent un rôle dans la disponibilité et sont classés en priorité élevée pour éviter que le système de planification suggère une commande approvisionnement uniquement pour servir un retour achat.  
 
 ### <a name="priorities-on-the-supply-side"></a>Priorités du côté de l'approvisionnement  
 1. Déjà dans le stock : écriture comptable article (Flexibilité planification = Aucune)  

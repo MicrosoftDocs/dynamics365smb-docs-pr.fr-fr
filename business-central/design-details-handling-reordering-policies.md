@@ -1,8 +1,6 @@
 ---
 title: Détails de conception - Gestion des méthodes de réapprovisionnement | Microsoft Docs
 description: Aperçu des tâches pour définir une méthode de réapprovisionnement dans la planification des approvisionnements.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 53d9d0ff2d9d1f42bb7f9c05ed49aa4df20f2a92
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0708a78be4dbd70d8555b8c088fedd88d3fb5459
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307155"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880471"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Détails de conception : gestion des méthodes de réapprovisionnement
 Pour qu'un article participe à la planification des approvisionnements, une méthode de regroupement doit être définie. Les quatre méthodes de réapprovisionnement disponibles sont les suivantes :  
@@ -181,7 +179,7 @@ Dans ce scénario, un client modifie une commande vente de 70 à 40 pièces ent
 #### <a name="resulting-planning-lines"></a>Lignes planning résultantes  
  Une ligne planning (avertissement) est créée pour réduire l'achat de 30 pour passer de 90 à 60 pour conserver le stock prévisionnel à 100 conformément au niveau de dépassement de capacité.  
 
-![Planifier en fonction de niveau de dépassement de capacité](media/nav_app_supply_planning_2_overflow2.png "Planifier en fonction de niveau de dépassement de capacité")  
+![Planifier en fonction du niveau de dépassement de capacité](media/nav_app_supply_planning_2_overflow2.png "Planifier en fonction du niveau de dépassement de capacité")  
 
 > [!NOTE]  
 >  Sans la fonction Overflow, aucune alerte n'est créée si le niveau de stock prévisionnel est au-dessus du stock maximum. Cela pourrait entraîner un approvisionnement superflu de 30.
