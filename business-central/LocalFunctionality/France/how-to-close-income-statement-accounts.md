@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5c79042a22b22975dc674bf01387caebd1866976
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 8c89ff10496c2b9629f5d61f883650ca98414f89
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879272"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181204"
 ---
 # <a name="close-income-statement-accounts"></a>Clôturer les comptes de gestion
 Avant d'exécuter un traitement par lots **Clôturer exercice comptable**, vous devez clôturer l'exercice fiscal. Pour plus d'informations, voir [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md).  

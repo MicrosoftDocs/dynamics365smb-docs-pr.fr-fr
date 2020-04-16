@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a9c380b8bb963a65dec97bc8464f01876e97671b
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 8b509de77f8ff5025937ad2f193b0e63e431a430
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878191"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181185"
 ---
 # <a name="specify-posting-periods"></a>Définir des périodes de validation
 En définissant des périodes de validation, vous limitez la période durant laquelle la validation est autorisée.  
 
 ## <a name="to-specify-posting-periods"></a>Pour définir des périodes de validation  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
 2.  Sur la page **Paramètres comptabilité**, dans le champ **Début période validation**, spécifiez la date de début de la période de validation.  
 3.  Dans le champ **Fin période validation**, spécifiez la date de fin de la période de validation.  
 

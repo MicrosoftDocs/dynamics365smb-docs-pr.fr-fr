@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: b7f4135b9732c1ea8e74eb3a56ce0edf10b9d553
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 66fa37ffb93eb141db07c38d6827e19ee6730762
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879274"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181208"
 ---
 # <a name="general-ledger"></a>Écritures comptables
 La fonctionnalité Comptabilité pour la France est décrite dans les rubriques ci-dessous.

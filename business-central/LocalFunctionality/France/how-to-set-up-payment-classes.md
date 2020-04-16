@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c3f7cfe7b900552abcbb96cef8f92fea0319b516
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0808575e789208178fd4d7dc2cd9db2e83f6beae
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300201"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181188"
 ---
 # <a name="set-up-payment-classes"></a>Paramétrer des types de règlement
 Pour utiliser le module Gestion des paiements, vous devez paramétrer des types de règlement pour définir des types d'opération, tels que des lettres de change, des paiements électroniques ou des chèques.  
 
 ## <a name="to-set-up-a-payment-class"></a>Pour paramétrer un type de règlement  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres bordereau paiement**, puis sélectionnez le lien approprié.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Paramètres bordereau paiement**, puis sélectionnez le lien approprié.  
 2.  Sur la page **Type de règlement**, sélectionnez l'action **Nouveau**.  
 3.  Renseignez les champs comme indiqué dans le tableau suivant.  
 

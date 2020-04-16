@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 83bfcceb8148747eb0004f1aae07d2b5c77a028e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8f07175dbb03dd03dbdce6d1b55370e078b24483
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301342"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181194"
 ---
 # <a name="open-a-new-fiscal-year"></a>Ouvrir un nouvel exercice comptable
 Avant de pouvoir effectuer une validation dans un exercice comptable, vous devez l'ouvrir et définir ses périodes comptables.  
 
 ## <a name="to-open-a-new-fiscal-year"></a>Pour ouvrir un nouvel exercice comptable  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Périodes comptables**, puis sélectionnez le lien approprié.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Périodes comptables**, puis sélectionnez le lien approprié.  
 2.  Choisissez l'action **Créer exercice**.  
 3.  Sur le raccourci **Options**, définissez la structure de l'exercice comptable. Celui-ci est généralement constitué de 12 périodes d'un mois chacune, mais vous pouvez également le diviser autrement.  
 4.  Remplissez les champs.  

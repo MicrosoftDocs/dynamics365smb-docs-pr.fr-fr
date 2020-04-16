@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 815ab2198fd2238c3fe94a3f11e83c97d88f1c0c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bab065148bf0c9acea7b5121699c7d163065ce8e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301338"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181189"
 ---
 # <a name="set-up-payment-addresses"></a>Configurer des adresses de paiement
 Pour utiliser le module Gestion des paiements, vous devez paramétrer les adresses de règlement qui sont utilisées pour les fournisseurs et clients au moment du règlement. L'adresse de règlement peut différer de l'adresse par défaut.  
@@ -26,7 +26,7 @@ La procédure suivante décrit comment paramétrer une adresse de règlement pou
 
 ## <a name="to-set-up-a-payment-address"></a>Pour paramétrer une adresse de règlement  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Fournisseurs**, puis sélectionnez le lien approprié.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Fournisseurs**, puis sélectionnez le lien approprié.  
 2.  Sélectionnez un fournisseur, puis cliquez sur **Modifier**.  
 3.  Choisissez l'option **Adresses de règlement**.  
 4.  Renseignez les champs requis comme indiqué dans le tableau suivant.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e0f01ee320ba0a775597d0c9bd00d9eb53814eb8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 08c2cb777b1fc088c32cde434c40751284150b5a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300208"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181203"
 ---
 # <a name="create-payment-slips"></a>Créer bordereaux paiement
 Vous pouvez créer des bordereaux paiement pour gérer les paiements fournisseur et client. Avant de créer des bordereaux paiement, vous devez paramétrer des types de règlement. Pour plus d'informations, voir [Paramétrer des types de règlement](how-to-set-up-payment-classes.md).  
@@ -26,7 +26,7 @@ La procédure suivante décrit comment créer des bordereaux paiement pour les r
 
 ## <a name="to-create-a-payment-slip-for-vendors"></a>Pour créer un bordereau de paiement pour les fournisseurs  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Bordereaux paiement**, puis sélectionnez le lien approprié.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Bordereaux paiement**, puis sélectionnez le lien approprié.  
 2.  Sélectionnez l'action **Nouveau**.  
 3.  Sur la page **Bordereau paiement**, sélectionnez un champ pour ouvrir la page **Liste des types de règlement**.  
 4.  Sélectionnez un type de règlement, puis choisissez le bouton **OK**.  
@@ -113,7 +113,7 @@ Après avoir créé un bordereau de paiement, vous pouvez générer des fichiers
 
 ## <a name="to-create-a-payment-file"></a>Pour créer un fichier de paiement  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Bordereaux paiement**, puis sélectionnez le lien approprié.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Bordereaux paiement**, puis sélectionnez le lien approprié.  
 2.  Sélectionnez un bordereau paiement, puis cliquez sur **Modifier**.  
 3.  Sur la page **Bordereau paiement**, sélectionnez **Générer fichier**.  
 4.  Cliquez sur le bouton **Oui**, puis sur le bouton **OK**.  

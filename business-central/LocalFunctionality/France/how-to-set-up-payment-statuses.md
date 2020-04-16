@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2c56e2e0b45132796458c6971c3bcdfdbbe56020
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fc190abf295c75b7d224902bc7a103bdf03090cb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301336"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181187"
 ---
 # <a name="set-up-payment-statuses"></a>Paramétrer des statuts règlement
 Pour utiliser le module de gestion des paiements, vous devez paramétrer des statuts règlement pour définir les niveaux de progression des documents règlement. Vous devez définir un ensemble de statuts pour chaque type de règlement. Pour plus d'informations, voir [Paramétrer des types de règlement](how-to-set-up-payment-classes.md).  
 
 ## <a name="to-set-up-payment-statuses"></a>Pour paramétrer des statuts règlement  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres bordereau paiement**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Paramètres bordereau paiement**, puis sélectionnez le lien associé.  
 2.  Sélectionnez un type de règlement, puis cliquez sur **Statut**.  
 3.  Sur la page **Statut règlement**, sélectionnez l'action **Nouveau**.  
 4.  Renseignez les champs comme indiqué dans le tableau suivant.  

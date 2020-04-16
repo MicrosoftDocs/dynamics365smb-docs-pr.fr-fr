@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3245820274995405f2772e4799882e0459fe9013
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 08cc6465f1cd525eef2a68f21f273db4b6a8bfa3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300202"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181190"
 ---
 # <a name="set-up-accelerated-depreciation"></a>Paramétrer l'amortissement accéléré
 Pour utiliser la fonction de calcul de l'amortissement accéléré, vous devez configurer les lois d'amortissement suivantes pour les immobilisations :  
@@ -30,7 +30,7 @@ Pour utiliser la fonction de calcul de l'amortissement accéléré, vous devez c
 
 ## <a name="to-set-up-the-accounting-depreciation-book"></a>Pour configurer la loi d'amortissement comptable  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Lois d'amortissement**, puis sélectionnez le lien approprié.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Lois d'amortissement**, puis sélectionnez le lien approprié.  
 2.  Sur la page **Liste de la loi d'amortissement**, sélectionnez l'action **Nouveau**.  
 3.  Sous le raccourci **Général**, renseignez les champs obligatoires comme indiqué dans le tableau ci-dessous.  
 
@@ -50,7 +50,7 @@ Pour utiliser la fonction de calcul de l'amortissement accéléré, vous devez c
 
 ## <a name="to-set-up-the-tax-depreciation-book"></a>Pour configurer la loi d'amortissement fiscal  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), saisissez **Lois d'amortissement**, puis sélectionnez le lien approprié.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Lois d'amortissement**, puis sélectionnez le lien approprié.  
 2.  Sur la page **Liste de la loi d'amortissement**, sélectionnez l'action **Nouveau**.  
 3.  Sous le raccourci **Général**, renseignez les champs obligatoires comme indiqué dans le tableau ci-dessous.  
 
