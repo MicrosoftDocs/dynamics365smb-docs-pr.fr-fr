@@ -8,30 +8,30 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5c79042a22b22975dc674bf01387caebd1866976
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 8c89ff10496c2b9629f5d61f883650ca98414f89
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879272"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181204"
 ---
-# <a name="close-income-statement-accounts"></a><span data-ttu-id="7ecd6-103">Clôturer les comptes de gestion</span><span class="sxs-lookup"><span data-stu-id="7ecd6-103">Close Income Statement Accounts</span></span>
-<span data-ttu-id="7ecd6-104">Avant d'exécuter un traitement par lots **Clôturer exercice comptable**, vous devez clôturer l'exercice fiscal.</span><span class="sxs-lookup"><span data-stu-id="7ecd6-104">Before you can run the **Close Income Statement** batch job, you must close the fiscal year.</span></span> <span data-ttu-id="7ecd6-105">Pour plus d'informations, voir [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md).</span><span class="sxs-lookup"><span data-stu-id="7ecd6-105">For more information, see [Fiscally Close Years](how-to-fiscally-close-years.md).</span></span>  
+# <a name="close-income-statement-accounts"></a><span data-ttu-id="36dea-103">Clôturer les comptes de gestion</span><span class="sxs-lookup"><span data-stu-id="36dea-103">Close Income Statement Accounts</span></span>
+<span data-ttu-id="36dea-104">Avant d'exécuter un traitement par lots **Clôturer exercice comptable**, vous devez clôturer l'exercice fiscal.</span><span class="sxs-lookup"><span data-stu-id="36dea-104">Before you can run the **Close Income Statement** batch job, you must close the fiscal year.</span></span> <span data-ttu-id="36dea-105">Pour plus d'informations, voir [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md).</span><span class="sxs-lookup"><span data-stu-id="36dea-105">For more information, see [Fiscally Close Years](how-to-fiscally-close-years.md).</span></span>  
 
-## <a name="to-close-the-income-statement-accounts"></a><span data-ttu-id="7ecd6-106">Pour clôturer des comptes de gestion</span><span class="sxs-lookup"><span data-stu-id="7ecd6-106">To close the income statement accounts</span></span>  
+## <a name="to-close-the-income-statement-accounts"></a><span data-ttu-id="36dea-106">Pour clôturer des comptes de gestion</span><span class="sxs-lookup"><span data-stu-id="36dea-106">To close the income statement accounts</span></span>  
 
-1.  <span data-ttu-id="7ecd6-107">Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Clôturer les comptes de gestion**, puis sélectionnez le lien approprié.</span><span class="sxs-lookup"><span data-stu-id="7ecd6-107">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Close Income Statement**, and then choose the relevant link.</span></span>  
-2.  <span data-ttu-id="7ecd6-108">Sur la page **Clôturer exercice comptable**, sous le raccourci **Options**, indiquez les conditions du traitement par lots.</span><span class="sxs-lookup"><span data-stu-id="7ecd6-108">On the **Close Income Statement** page, on the **Options** FastTab, specify the conditions of the batch job.</span></span>  
-3.  <span data-ttu-id="7ecd6-109">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="7ecd6-109">Choose the **OK** button.</span></span>  
+1.  <span data-ttu-id="36dea-107">Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Clôturer les comptes de gestion**, puis sélectionnez le lien approprié.</span><span class="sxs-lookup"><span data-stu-id="36dea-107">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Close Income Statement**, and then choose the relevant link.</span></span>  
+2.  <span data-ttu-id="36dea-108">Sur la page **Clôturer exercice comptable**, sous le raccourci **Options**, indiquez les conditions du traitement par lots.</span><span class="sxs-lookup"><span data-stu-id="36dea-108">On the **Close Income Statement** page, on the **Options** FastTab, specify the conditions of the batch job.</span></span>  
+3.  <span data-ttu-id="36dea-109">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="36dea-109">Choose the **OK** button.</span></span>  
 
-    <span data-ttu-id="7ecd6-110">Lorsque le traitement par lots est terminé, vous devez clôturer les comptes.</span><span class="sxs-lookup"><span data-stu-id="7ecd6-110">When the batch job is finished, you must close the accounts.</span></span>  
+    <span data-ttu-id="36dea-110">Lorsque le traitement par lots est terminé, vous devez clôturer les comptes.</span><span class="sxs-lookup"><span data-stu-id="36dea-110">When the batch job is finished, you must close the accounts.</span></span>  
 
-4.  <span data-ttu-id="7ecd6-111">Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuilles comptabilité**, puis sélectionnez le lien approprié.</span><span class="sxs-lookup"><span data-stu-id="7ecd6-111">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journals**, and then choose the relevant link.</span></span>  
-5.  <span data-ttu-id="7ecd6-112">Sélectionnez la feuille comptabilité qui contient les écritures de clôture.</span><span class="sxs-lookup"><span data-stu-id="7ecd6-112">Select the general journal that contains the closing entries.</span></span>  
-6.  <span data-ttu-id="7ecd6-113">Saisissez une ligne avec une écriture contrepartie qui valide le revenu net dans le compte général en capitaux propres adéquat dans le bilan.</span><span class="sxs-lookup"><span data-stu-id="7ecd6-113">Enter one line with a balancing entry that posts the net income to the correct general ledger account under owners’ equity on the balance sheet.</span></span>  
-7.  <span data-ttu-id="7ecd6-114">Choisissez l'action **Valider** pour valider la feuille.</span><span class="sxs-lookup"><span data-stu-id="7ecd6-114">Choose the **Post** action to post the journal.</span></span>  
+4.  <span data-ttu-id="36dea-111">Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuilles comptabilité**, puis sélectionnez le lien approprié.</span><span class="sxs-lookup"><span data-stu-id="36dea-111">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journals**, and then choose the relevant link.</span></span>  
+5.  <span data-ttu-id="36dea-112">Sélectionnez la feuille comptabilité qui contient les écritures de clôture.</span><span class="sxs-lookup"><span data-stu-id="36dea-112">Select the general journal that contains the closing entries.</span></span>  
+6.  <span data-ttu-id="36dea-113">Saisissez une ligne avec une écriture contrepartie qui valide le revenu net dans le compte général en capitaux propres adéquat dans le bilan.</span><span class="sxs-lookup"><span data-stu-id="36dea-113">Enter one line with a balancing entry that posts the net income to the correct general ledger account under owners’ equity on the balance sheet.</span></span>  
+7.  <span data-ttu-id="36dea-114">Choisissez l'action **Valider** pour valider la feuille.</span><span class="sxs-lookup"><span data-stu-id="36dea-114">Choose the **Post** action to post the journal.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="7ecd6-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7ecd6-115">See Also</span></span>  
- [<span data-ttu-id="7ecd6-116">Clôturer fiscalement des exercices</span><span class="sxs-lookup"><span data-stu-id="7ecd6-116">Fiscally Close Years</span></span>](how-to-fiscally-close-years.md)
+## <a name="see-also"></a><span data-ttu-id="36dea-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="36dea-115">See Also</span></span>  
+ [<span data-ttu-id="36dea-116">Clôturer fiscalement des exercices</span><span class="sxs-lookup"><span data-stu-id="36dea-116">Fiscally Close Years</span></span>](how-to-fiscally-close-years.md)
