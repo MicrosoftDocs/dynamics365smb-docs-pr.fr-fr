@@ -12,34 +12,34 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8f07175dbb03dd03dbdce6d1b55370e078b24483
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 20cee4bda12b322d912b5c6cf5ff660a99f6d3a9
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181194"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677178"
 ---
-# <a name="open-a-new-fiscal-year"></a><span data-ttu-id="8837e-103">Ouvrir un nouvel exercice comptable</span><span class="sxs-lookup"><span data-stu-id="8837e-103">Open a New Fiscal Year</span></span>
-<span data-ttu-id="8837e-104">Avant de pouvoir effectuer une validation dans un exercice comptable, vous devez l'ouvrir et définir ses périodes comptables.</span><span class="sxs-lookup"><span data-stu-id="8837e-104">Before you can post in a fiscal year, you must open the fiscal year and define its accounting periods.</span></span>  
+# <a name="open-a-new-fiscal-year"></a><span data-ttu-id="4dc24-103">Ouvrir un nouvel exercice comptable</span><span class="sxs-lookup"><span data-stu-id="4dc24-103">Open a New Fiscal Year</span></span>
+<span data-ttu-id="4dc24-104">Avant de pouvoir effectuer une validation dans un exercice comptable, vous devez l'ouvrir et définir ses périodes comptables.</span><span class="sxs-lookup"><span data-stu-id="4dc24-104">Before you can post in a fiscal year, you must open the fiscal year and define its accounting periods.</span></span>  
 
-## <a name="to-open-a-new-fiscal-year"></a><span data-ttu-id="8837e-105">Pour ouvrir un nouvel exercice comptable</span><span class="sxs-lookup"><span data-stu-id="8837e-105">To open a new fiscal year</span></span>  
+## <a name="to-open-a-new-fiscal-year"></a><span data-ttu-id="4dc24-105">Pour ouvrir un nouvel exercice comptable</span><span class="sxs-lookup"><span data-stu-id="4dc24-105">To open a new fiscal year</span></span>  
 
-1.  <span data-ttu-id="8837e-106">Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Périodes comptables**, puis sélectionnez le lien approprié.</span><span class="sxs-lookup"><span data-stu-id="8837e-106">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the relevant link.</span></span>  
-2.  <span data-ttu-id="8837e-107">Choisissez l'action **Créer exercice**.</span><span class="sxs-lookup"><span data-stu-id="8837e-107">Choose the **Create Year** action.</span></span>  
-3.  <span data-ttu-id="8837e-108">Sur le raccourci **Options**, définissez la structure de l'exercice comptable.</span><span class="sxs-lookup"><span data-stu-id="8837e-108">On the **Options** FastTab, define the structure of the fiscal year.</span></span> <span data-ttu-id="8837e-109">Celui-ci est généralement constitué de 12 périodes d'un mois chacune, mais vous pouvez également le diviser autrement.</span><span class="sxs-lookup"><span data-stu-id="8837e-109">The fiscal year is usually 12 periods of one month each, but you can also divide it in other ways.</span></span>  
-4.  <span data-ttu-id="8837e-110">Remplissez les champs.</span><span class="sxs-lookup"><span data-stu-id="8837e-110">Fill in the fields.</span></span>  
-5.  <span data-ttu-id="8837e-111">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="8837e-111">Choose the **OK** button.</span></span>  
+1.  <span data-ttu-id="4dc24-106">Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Périodes comptables**, puis choisissez le lien approprié.</span><span class="sxs-lookup"><span data-stu-id="4dc24-106">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Accounting Periods**, and then choose the relevant link.</span></span>  
+2.  <span data-ttu-id="4dc24-107">Choisissez l'action **Créer exercice**.</span><span class="sxs-lookup"><span data-stu-id="4dc24-107">Choose the **Create Year** action.</span></span>  
+3.  <span data-ttu-id="4dc24-108">Sur le raccourci **Options**, définissez la structure de l'exercice comptable.</span><span class="sxs-lookup"><span data-stu-id="4dc24-108">On the **Options** FastTab, define the structure of the fiscal year.</span></span> <span data-ttu-id="4dc24-109">Celui-ci est généralement constitué de 12 périodes d'un mois chacune, mais vous pouvez également le diviser autrement.</span><span class="sxs-lookup"><span data-stu-id="4dc24-109">The fiscal year is usually 12 periods of one month each, but you can also divide it in other ways.</span></span>  
+4.  <span data-ttu-id="4dc24-110">Remplissez les champs.</span><span class="sxs-lookup"><span data-stu-id="4dc24-110">Fill in the fields.</span></span>  
+5.  <span data-ttu-id="4dc24-111">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="4dc24-111">Choose the **OK** button.</span></span>  
 
-<span data-ttu-id="8837e-112">Les périodes comptables sont créées et le résultat est affiché.</span><span class="sxs-lookup"><span data-stu-id="8837e-112">The accounting periods are created, and the result is shown.</span></span> <span data-ttu-id="8837e-113">Le champ **Date début** et le champ **Nom** sont renseignés avec le nom du mois figurant dans la date de début.</span><span class="sxs-lookup"><span data-stu-id="8837e-113">The **Starting Date** field and the **Name** field are filled in with the name of the month from the starting date.</span></span>  
+<span data-ttu-id="4dc24-112">Les périodes comptables sont créées et le résultat est affiché.</span><span class="sxs-lookup"><span data-stu-id="4dc24-112">The accounting periods are created, and the result is shown.</span></span> <span data-ttu-id="4dc24-113">Le champ **Date début** et le champ **Nom** sont renseignés avec le nom du mois figurant dans la date de début.</span><span class="sxs-lookup"><span data-stu-id="4dc24-113">The **Starting Date** field and the **Name** field are filled in with the name of the month from the starting date.</span></span>  
 
-<span data-ttu-id="8837e-114">Après la dernière période de l'exercice comptable, une période comptable est insérée et le champ **Nouvel exercice comptable** est sélectionné.</span><span class="sxs-lookup"><span data-stu-id="8837e-114">After the last period in the fiscal year, an accounting period is inserted with the **New Fiscal Year** field selected.</span></span>  
+<span data-ttu-id="4dc24-114">Après la dernière période de l'exercice comptable, une période comptable est insérée et le champ **Nouvel exercice comptable** est sélectionné.</span><span class="sxs-lookup"><span data-stu-id="4dc24-114">After the last period in the fiscal year, an accounting period is inserted with the **New Fiscal Year** field selected.</span></span>  
 
 > [!IMPORTANT]  
->  <span data-ttu-id="8837e-115">Conformément à la législation française, un maximum de deux exercices comptables peuvent être ouverts en même temps.</span><span class="sxs-lookup"><span data-stu-id="8837e-115">In concordance with French law no more than two open fiscal years are allowed.</span></span>  
+>  <span data-ttu-id="4dc24-115">Conformément à la législation française, un maximum de deux exercices comptables peuvent être ouverts en même temps.</span><span class="sxs-lookup"><span data-stu-id="4dc24-115">In concordance with French law no more than two open fiscal years are allowed.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="8837e-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8837e-116">See Also</span></span>  
- <span data-ttu-id="8837e-117">[Définir des périodes de validation](how-to-specify-posting-periods.md) </span><span class="sxs-lookup"><span data-stu-id="8837e-117">[Specify Posting Periods](how-to-specify-posting-periods.md) </span></span>  
- <span data-ttu-id="8837e-118">[Clôturer fiscalement des exercices](how-to-close-years.md) </span><span class="sxs-lookup"><span data-stu-id="8837e-118">[Close Years](how-to-close-years.md) </span></span>  
- <span data-ttu-id="8837e-119">[Valider l'écriture de clôture d'exercice](how-to-post-the-year-end-closing-entry.md) </span><span class="sxs-lookup"><span data-stu-id="8837e-119">[Post the Year-End Closing Entry](how-to-post-the-year-end-closing-entry.md) </span></span>  
- <span data-ttu-id="8837e-120">[Clôturer fiscalement des exercices](how-to-fiscally-close-years.md) </span><span class="sxs-lookup"><span data-stu-id="8837e-120">[Fiscally Close Years](how-to-fiscally-close-years.md) </span></span>  
- [<span data-ttu-id="8837e-121">Périodes fiscales et exercices comptables</span><span class="sxs-lookup"><span data-stu-id="8837e-121">Fiscal Periods and Fiscal Years</span></span>](fiscal-periods-and-fiscal-years.md)
+## <a name="see-also"></a><span data-ttu-id="4dc24-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="4dc24-116">See Also</span></span>  
+ <span data-ttu-id="4dc24-117">[Définir des périodes de validation](how-to-specify-posting-periods.md) </span><span class="sxs-lookup"><span data-stu-id="4dc24-117">[Specify Posting Periods](how-to-specify-posting-periods.md) </span></span>  
+ <span data-ttu-id="4dc24-118">[Clôturer fiscalement des exercices](how-to-close-years.md) </span><span class="sxs-lookup"><span data-stu-id="4dc24-118">[Close Years](how-to-close-years.md) </span></span>  
+ <span data-ttu-id="4dc24-119">[Valider l'écriture de clôture d'exercice](how-to-post-the-year-end-closing-entry.md) </span><span class="sxs-lookup"><span data-stu-id="4dc24-119">[Post the Year-End Closing Entry](how-to-post-the-year-end-closing-entry.md) </span></span>  
+ <span data-ttu-id="4dc24-120">[Clôturer fiscalement des exercices](how-to-fiscally-close-years.md) </span><span class="sxs-lookup"><span data-stu-id="4dc24-120">[Fiscally Close Years](how-to-fiscally-close-years.md) </span></span>  
+ [<span data-ttu-id="4dc24-121">Périodes fiscales et exercices comptables</span><span class="sxs-lookup"><span data-stu-id="4dc24-121">Fiscal Periods and Fiscal Years</span></span>](fiscal-periods-and-fiscal-years.md)
