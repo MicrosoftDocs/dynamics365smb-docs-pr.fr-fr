@@ -1,35 +1,37 @@
 ---
 title: Périodes fiscales et exercices comptables
 description: Un exercice comptable est généralement divisé en 12 périodes fiscales mensuelles. Dans Business Central, deux exercices comptables peuvent être ouverts en même temps.
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 4e7d9c504d245c6e9f87b0bcc3e2718068b6a95a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 07/15/2020
+ms.author: edupont
+ms.openlocfilehash: 8b3766aedd7a18a0b2522ff115c8fee00ec72d3f
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181210"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611687"
 ---
 # <a name="fiscal-periods-and-fiscal-years"></a>Périodes fiscales et exercices comptables
+
 Un exercice comptable est généralement divisé en 12 périodes fiscales mensuelles. Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], deux exercices comptables peuvent être ouverts en même temps. Vous ne pouvez pas créer un troisième exercice comptable si deux exercices comptables sont ouverts.  
 
 Pour clôturer un exercice comptable, vous devez clôturer les périodes comptables de cet exercice.  
 
 Vous ne pouvez rouvrir une période comptable clôturée que si elle fait partie d'un exercice comptable ouvert. Pour plus d'informations, voir [Clôture des exercices](how-to-close-years.md). Vous ne pouvez pas rouvrir un exercice comptable clôturé.  
 
-## <a name="closing-fiscal-periods-and-fiscal-years"></a>Clôture de périodes fiscales et d'exercices comptables  
+## <a name="closing-fiscal-periods-and-fiscal-years"></a>Clôture de périodes fiscales et d'exercices comptables
+
 À la fin d'un exercice comptable, vous devez clôturer les périodes comptables de cet exercice comptable. Cela garantit que des écritures comptables ne sont pas validées pour cette période. Pour plus d'informations, voir [Clôturer fiscalement des périodes comptables](how-to-fiscally-close-years.md).  
 
 Un exercice comptable peut être clôturé si tous les critères suivants sont remplis :  
 
-- Les dates comptabilisation sur la page **Paramètres utilisateur** et la page **Paramètres comptabilité** ne font pas partie de l'exercice que vous clôturez. Pour plus d'informations, voir Paramètres utilisateur et Paramètres comptabilité.  
+- Les dates comptabilisation sur la page **Paramètres utilisateur** et la page **Paramètres comptabilité** ne font pas partie de l'exercice que vous clôturez. Pour plus d'informations, consultez [Définir des périodes de validation](../../finance-how-specify-posting-periods.md) et [Description des écritures comptables et du plan comptable](../../finance-general-ledger.md).  
 
 - L'exercice comptable a été clôturé à l'aide de la fonction **Clôturer exercice** sur la page **Périodes comptables**. Pour plus d'informations, voir [Clôture des exercices et des périodes](../../year-close-years-periods.md).  
 
@@ -37,7 +39,7 @@ Un exercice comptable peut être clôturé si tous les critères suivants sont r
 
 - Toutes les écritures de clôture sont à jour.  
 
-Lorsque vous clôturez une période fiscale, la plus ancienne période fiscale ouverte est clôturée. Le champ **Début période validation** sur la page **Paramètres comptabilité** est mis à jour avec la date de début de la période ouverte suivante, si la date existante dans ce champ n'est pas déjà une date postérieure. Si le champ **Fin période validation** sur la page **Paramètres comptabilité** se situe dans la période clôturée, la valeur du champ **Fin période validation** est mise à jour avec la date de fin de la première période fiscale ouverte. Pour plus d'informations, voir Paramètres comptabilité.  
+Lorsque vous clôturez une période fiscale, la plus ancienne période fiscale ouverte est clôturée. Le champ **Début période validation** sur la page **Paramètres comptabilité** est mis à jour avec la date de début de la période ouverte suivante, si la date existante dans ce champ n'est pas déjà une date postérieure. Si le champ **Fin période validation** sur la page **Paramètres comptabilité** se situe dans la période clôturée, la valeur du champ **Fin période validation** est mise à jour avec la date de fin de la première période fiscale ouverte. Pour plus d'informations, voir [Description des écritures comptables et du plan comptable](../../finance-general-ledger.md).  
 
 À la fin de l'exercice, vous devez effectuer les opérations suivantes :  
 
@@ -46,12 +48,15 @@ Lorsque vous clôturez une période fiscale, la plus ancienne période fiscale o
 - valider l'écriture de clôture d'exercice et compenser les écritures comptables de fonds propres ;  
 - clôturer l'exercice comptable à l'aide de la fonction **Clôturer l'exercice fiscalement**.  
 
-## <a name="see-also"></a>Voir aussi  
- [Valider l'écriture de clôture d'exercice](how-to-post-the-year-end-closing-entry.md)   
- [Clôturer fiscalement des périodes comptables](how-to-fiscally-close-accounting-periods.md)   
- [Clôture des exercices et des périodes](../../year-close-years-periods.md)   
- [Valider l'écriture de clôture d'exercice](how-to-post-the-year-end-closing-entry.md)   
- [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md)   
- [Rouvrir des périodes comptables](how-to-reopen-accounting-periods.md)   
- [Clôturer les comptes de gestion](how-to-close-income-statement-accounts.md)   
- [Fonctionnalité locale, France](france-local-functionality.md)
+## <a name="see-also"></a>Voir aussi
+
+[Valider l'écriture de clôture d'exercice](how-to-post-the-year-end-closing-entry.md)  
+[Clôturer fiscalement des périodes comptables](how-to-fiscally-close-accounting-periods.md)  
+[Clôture des exercices et des périodes](../../year-close-years-periods.md)  
+[Valider l'écriture de clôture d'exercice](how-to-post-the-year-end-closing-entry.md)  
+[Clôturer fiscalement des exercices](how-to-fiscally-close-years.md)  
+[Rouvrir des périodes comptables](how-to-reopen-accounting-periods.md)  
+[Clôturer les comptes de gestion](how-to-close-income-statement-accounts.md)  
+[Définir des périodes de validation](../../finance-how-specify-posting-periods.md)  
+[Description des écritures comptables et du plan comptable](../../finance-general-ledger.md)  
+[Fonctionnalité locale, France](france-local-functionality.md)  

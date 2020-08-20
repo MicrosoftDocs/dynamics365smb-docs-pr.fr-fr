@@ -8,30 +8,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 26f94a4076b121731db4c8ab494b27981d980ed1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 90909cbc45eb95212ae201b2a77e497bcbb8516e
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181193"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676901"
 ---
-# <a name="post-the-year-end-closing-entry"></a>Valider l'écriture de clôture d'exercice
+# <a name="post-the-year-end-closing-entry-in-the-french-version"></a>Valider l'écriture de clôture d'exercice dans la version française
+
 Après avoir utilisé le traitement par lots **Solder les comptes de gestion** pour générer les écritures de clôture d'exercice, vous devez ouvrir la feuille spécifiée dans le traitement par lots, puis consulter et valider les écritures.  
 
 ## <a name="to-post-the-year-end-closing-entry"></a>Pour valider l'écriture de clôture d'exercice  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuille comptabilité**, puis sélectionnez le lien associé.  
-2.  Examinez les écritures.  
-3.  Sélectionnez l'action **Valider**.  
-4.  Sur la page de confirmation de la validation, cliquez sur le bouton **Oui**.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille comptabilité**, puis sélectionnez le lien associé.  
+2. Examinez les écritures.  
+3. Sélectionnez l'action **Valider**.  
+4. Sur la page de confirmation de la validation, cliquez sur le bouton **Oui**.  
 
 En cas de détection d'une erreur, un message d'erreur s'affiche. Si la validation réussit, le système supprime les entrées validées de la feuille.  
 
 Une fois validée, une entrée est validée dans chaque compte résultats, de façon à ce que son solde indique zéro et à ce que les résultats de l'exercice soient transférés vers le bilan.  
 
-## <a name="see-also"></a>Voir aussi  
- [Vue d'ensemble des processus de fin d'exercice](year-end-processes-overview.md)   
- [Clôturer fiscalement des exercices](how-to-close-years.md)   
- [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md)
+## <a name="see-also"></a>Voir aussi
+
+[Vue d'ensemble des processus de fin d'exercice](year-end-processes-overview.md)   
+[Clôturer fiscalement des exercices](how-to-close-years.md)   
+[Clôturer fiscalement des exercices](how-to-fiscally-close-years.md)

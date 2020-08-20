@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 15a06eeab3f6a942f5a9231d2d4530ebaef9042c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3ac37eb03a4076778a873573629cec89d6cf373f
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181201"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676850"
 ---
 # <a name="export-payments"></a>Exporter des paiements
 Le module Gestion des paiements vous permet d'exporter vos paiements par voie électronique via un fichier texte ou un XMLport.  
 
 ## <a name="to-export-payments"></a>Pour exporter des paiements  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Paramètres bordereau paiement**, puis sélectionnez le lien approprié.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres bordereau paiement**, puis choisissez le lien approprié.  
 2.  Sur la page **Types de règlement**, sélectionnez un type de règlement, puis sélectionnez l'action **Étapes**.  
 3.  Sur la page **Étape règlement**, renseignez le champ **Nom**.  
 4.  Choisissez l'action **Modifier** pour ouvrir.  

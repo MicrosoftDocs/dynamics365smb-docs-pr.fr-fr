@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5940e14b03c856ff09860713751f5ba88fb2b474
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: ed68c7d4e7cdcc46126582eb4ebcaa0feb6f2cf3
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181192"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676997"
 ---
 # <a name="post-payment-slips"></a>Valider des bordereaux paiement
 Vous devez valider des bordereaux paiement afin de finaliser une transaction paiement et créer des données financières. Vous pouvez valider un bordereau paiement si le **type d'action** du bordereau paiement est défini sur **Comptabilité**.  
@@ -24,7 +24,7 @@ Avant de publier un bordereau paiement, vous devez créer le bordereau paiement.
 
 ## <a name="to-post-a-payment-slip"></a>Pour valider un bordereau paiement  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Bordereaux paiement**, puis sélectionnez le lien approprié.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Bordereaux de paiement**, puis choisissez le lien approprié.  
 2.  Sélectionnez un bordereau paiement, puis cliquez sur **Modifier**.  
 3.  Sur la page **Bordereau paiement**, sélectionnez **Valider**.  
 4.  Choisissez le bouton **OK**.  

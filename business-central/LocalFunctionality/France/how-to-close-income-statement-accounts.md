@@ -1,6 +1,6 @@
 ---
 title: Procédure de clôture des comptes de gestion
-description: Avant d'exécuter un traitement par lots Clôturer exercice comptable, vous devez clôturer l'exercice fiscal.
+description: Avant d'exécuter le traitement par lots Clôturer les comptes de gestion, vous devez clôturer l'exercice fiscal.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,30 +8,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8c89ff10496c2b9629f5d61f883650ca98414f89
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b2264e3bdc6d48ea6e30ad58697ac50f8d267b9f
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181204"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676891"
 ---
-# <a name="close-income-statement-accounts"></a>Clôturer les comptes de gestion
-Avant d'exécuter un traitement par lots **Clôturer exercice comptable**, vous devez clôturer l'exercice fiscal. Pour plus d'informations, voir [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md).  
+# <a name="close-income-statement-accounts-in-the-french-version"></a>Clôturer les comptes de gestion dans la version française
+
+Avant d'exécuter le traitement par lots **Clôturer les comptes de gestion**, vous devez clôturer l'exercice fiscal. Pour plus d'informations, voir [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md).  
 
 ## <a name="to-close-the-income-statement-accounts"></a>Pour clôturer des comptes de gestion  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Clôturer les comptes de gestion**, puis sélectionnez le lien approprié.  
-2.  Sur la page **Clôturer exercice comptable**, sous le raccourci **Options**, indiquez les conditions du traitement par lots.  
-3.  Cliquez sur le bouton **OK**.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clôturer les comptes de gestion**, puis choisissez le lien approprié.  
+2. Sur la page **Clôturer exercice comptable**, sous le raccourci **Options**, indiquez les conditions du traitement par lots.  
+3. Cliquez sur le bouton **OK**.  
 
     Lorsque le traitement par lots est terminé, vous devez clôturer les comptes.  
 
-4.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuilles comptabilité**, puis sélectionnez le lien approprié.  
-5.  Sélectionnez la feuille comptabilité qui contient les écritures de clôture.  
-6.  Saisissez une ligne avec une écriture contrepartie qui valide le revenu net dans le compte général en capitaux propres adéquat dans le bilan.  
-7.  Choisissez l'action **Valider** pour valider la feuille.  
+4. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles comptabilité**, puis choisissez le lien approprié.  
+5. Sélectionnez la feuille comptabilité qui contient les écritures de clôture.  
+6. Saisissez une ligne avec une écriture contrepartie qui valide le revenu net dans le compte général en capitaux propres adéquat dans le bilan.  
+7. Choisissez l'action **Valider** pour valider la feuille.  
 
-## <a name="see-also"></a>Voir aussi  
- [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md)
+## <a name="see-also"></a>Voir aussi
+
+[Clôturer fiscalement des exercices](how-to-fiscally-close-years.md)

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ed31928da07bf4dd61a0ca46b6e7f8a34179c41a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: edce82516437b7aaa2c5d297a3459441acd9dd7a
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181191"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677232"
 ---
 # <a name="reopen-accounting-periods"></a>Rouvrir des périodes comptables
 Lorsqu'une seule période fiscale a été clôturée fiscalement, il peut être nécessaire de la rouvrir pour valider des écritures comptables.  
@@ -27,7 +27,7 @@ Lorsqu'une seule période fiscale a été clôturée fiscalement, il peut être 
 
 ## <a name="to-reopen-accounting-periods"></a>Pour rouvrir des périodes comptables  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Périodes comptables**, puis sélectionnez le lien approprié.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Périodes comptables**, puis choisissez le lien approprié.  
 2.  Sélectionnez l'action **Rouvrir période fiscale**.  
 
     Si plusieurs périodes fiscales sont clôturées fiscalement, la dernière doit être rouverte. Un message s'affiche pour identifier la période à rouvrir. Il détaille également les conséquences de cette opération.  

@@ -8,34 +8,36 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8b509de77f8ff5025937ad2f193b0e63e431a430
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: ece469301e87e0c1b7b7ca874fb21ea693bb8581
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181185"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676588"
 ---
-# <a name="specify-posting-periods"></a>Définir des périodes de validation
+# <a name="specify-posting-periods-in-the-french-version"></a>Définir les périodes de validation dans la version française
+
 En définissant des périodes de validation, vous limitez la période durant laquelle la validation est autorisée.  
 
 ## <a name="to-specify-posting-periods"></a>Pour définir des périodes de validation  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
-2.  Sur la page **Paramètres comptabilité**, dans le champ **Début période validation**, spécifiez la date de début de la période de validation.  
-3.  Dans le champ **Fin période validation**, spécifiez la date de fin de la période de validation.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
+2. Sur la page **Paramètres comptabilité**, dans le champ **Début période validation**, spécifiez la date de début de la période de validation.  
+3. Dans le champ **Fin période validation**, spécifiez la date de fin de la période de validation.  
 
     Les dates sont validées dans les plages de validation autorisées pour garantir leur appartenance aux exercices comptables ouverts. Pour plus d'informations, voir Plage de validation autorisée.  
 
-4.  Pour vérifier quelle est la plage de validation autorisée, choisissez l'action **Extraire plage de validation autorisée**.  
+4. Pour vérifier quelle est la plage de validation autorisée, choisissez l'action **Extraire plage de validation autorisée**.  
 
 Les dates définies ici s'appliquent à l'ensemble de la société, c'est-à-dire à tous les utilisateurs.  
 
 > [!NOTE]  
->  Vous pouvez définir différentes périodes de comptabilisation pour divers utilisateurs et appliquer une période de validation à un utilisateur sur la page **Paramètres utilisateur**.
+> Vous pouvez définir différentes périodes de comptabilisation pour divers utilisateurs et appliquer une période de validation à un utilisateur sur la page **Paramètres utilisateur**.
 
 Si vous entrez des dates ici, les dates entrées sur la page **Paramètres comptabilité** ne s'appliquent pas à ces utilisateurs.  
 
-## <a name="see-also"></a>Voir aussi  
- [Périodes fiscales et exercices comptables](fiscal-periods-and-fiscal-years.md)
+## <a name="see-also"></a>Voir aussi
+
+[Périodes fiscales et exercices comptables](fiscal-periods-and-fiscal-years.md)

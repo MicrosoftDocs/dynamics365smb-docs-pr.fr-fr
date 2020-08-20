@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2ebcf5f7999b2a36eb4680c5adf43d855d6003fa
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 701d09879c6ceaba5a125ee8814dff0975dbaacd
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181207"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677027"
 ---
 # <a name="archive-payment-slips"></a>Archiver les bordereaux de paiement
 Lorsqu'un bordereau paiement a été entièrement traité, vous pouvez le séparer des bordereaux paiement actifs en l'archivant.  
@@ -29,7 +29,7 @@ Vous pouvez archiver le bordereau paiement à l'aide des méthodes suivantes :
 
 ## <a name="to-archive-a-payment-slip"></a>Pour archiver un bordereau paiement  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Bordereaux paiement**, puis sélectionnez le lien approprié.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Bordereaux de paiement**, puis choisissez le lien approprié.  
 2.  Sélectionnez le bordereau paiement concerné, puis cliquez sur l'action **Modifier**.  
 3.  Sur la page **Bordereau paiement**, sélectionnez **Archiver**.  
 4.  Cliquez sur le bouton **Oui** pour archiver le bordereau paiement.  
@@ -39,7 +39,7 @@ Vous pouvez archiver le bordereau paiement à l'aide des méthodes suivantes :
 
 ## <a name="to-archive-a-batch-of-payment-slips"></a>Pour archiver un lot de bordereaux paiement  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Archiver les bordereaux de paiement**, puis sélectionnez le lien approprié.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Archiver les bordereaux de paiement**, puis choisissez le lien approprié.  
 2.  Sur la page **Archiver les bordereaux de paiement**, sur le raccourci **En-tête bordereau**, sélectionnez les filtres appropriés.  
 3.  Cliquez sur le bouton **OK**.  
 

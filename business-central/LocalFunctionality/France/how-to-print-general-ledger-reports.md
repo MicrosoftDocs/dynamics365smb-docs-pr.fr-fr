@@ -10,24 +10,24 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3ea28dfb93ff76cbb33bcd115112bcd724ec8645
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 893c653849ea906e4e23026d24d78276485a9246
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181195"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677262"
 ---
 # <a name="print-general-ledger-reports"></a>Imprimer des états de la comptabilité
 Les états de la comptabilité répondent aux normes de la comptabilité générale et ils contiennent des informations sur les écritures comptables, les écritures des clients, des fournisseurs et des banques.  
 
 ## <a name="to-print-general-ledger-reports"></a>Pour imprimer des états comptables  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Comptabilité**, puis sélectionnez le lien approprié.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Comptabilité**, puis choisissez le lien approprié.  
 2.  Choisissez l'action **États et analyse**, choisissez l'action **France**, puis choisissez l'un des états suivants.  
 
     |État|Désignation|  
     |------------|---------------------------------------|  
-    |**Feuilles**|-   Affiche toutes les transactions de la comptabilité.<br />-   Affiche les sous-totaux des transactions par période.<br /><br /> Pour plus d'informations, voir Feuilles.|  
+    |**Feuilles**|-   Affiche toutes les transactions comptables.<br />-   Affiche les sous-totaux des transactions par période.<br /><br /> Pour plus d'informations, voir Feuilles.|  
     |**Journal général**|Affiche les sous-totaux de chaque code source par mois.<br /><br /> Pour plus d'informations, voir Journal général.|  
     |**Balance comptes généraux**|Affiche les balances en débit et en crédit à l'ouverture, les balances en débit et en crédit de la période et les balances en crédit et en débit finales pour tous les comptes généraux.<br /><br /> Pour plus d'informations, voir Balance comptes généraux.|  
     |**Grand livre comptes généraux**|-   Affiche les transactions comptables pour tous les comptes généraux.<br />-   Affiche les sous-totaux des transactions par compte général.<br /><br /> Pour plus d'informations, voir Grand livre comptes généraux.|  

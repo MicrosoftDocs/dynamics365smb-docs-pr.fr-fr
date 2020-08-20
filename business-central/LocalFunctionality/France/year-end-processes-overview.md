@@ -8,21 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/15/2020
 ms.author: sgroespe
-ms.openlocfilehash: 649cc9db15d6c6031ef2652af53d5de8b3ad3ade
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 182cba3d74cb28f3a3b5ccfc74d82c4d159aab17
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181180"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611658"
 ---
 # <a name="year-end-processes-overview"></a>Vue d'ensemble des processus de fin d'exercice
+
 Une clôture d'exercice dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)] implique trois étapes :  
 
-1.  Clôture de l'exercice comptable. Pour plus d'informations, voir [Clôturer fiscalement des périodes comptables](how-to-fiscally-close-accounting-periods.md).  
-2.  Générer une écriture de clôture d'exercice via l'option **Clôturer exercice comptable** avec la compensation des écritures de compte de fonds propres. Pour plus d'informations, reportez-vous à [Validation de l'écriture de clôture d'exercice](how-to-post-the-year-end-closing-entry.md).  
-3.  Clôture de l'exercice comptable. Pour plus d'informations, voir [Clôturer fiscalement des périodes comptables](how-to-fiscally-close-accounting-periods.md).  
+1. Clôture de l'exercice comptable. Pour plus d'informations, voir [Clôturer fiscalement des périodes comptables](how-to-fiscally-close-accounting-periods.md).  
+2. Générer une écriture de clôture d'exercice via l'option **Clôturer exercice comptable** avec la compensation des écritures de compte de fonds propres. Pour plus d'informations, reportez-vous à [Validation de l'écriture de clôture d'exercice](how-to-post-the-year-end-closing-entry.md).  
+3. Clôture de l'exercice comptable. Pour plus d'informations, voir [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md).  
 
 Selon la norme française *NF Logiciel compatibilité informatisée*, le système doit refuser la création d'un troisième exercice comptable ouvert. Seuls deux exercices comptables peuvent donc être ouverts en même temps.  
 
@@ -34,6 +35,10 @@ Le système génère ensuite une écriture de clôture mais ne la valide pas aut
 
 Après avoir clôturé fiscalement un exercice, vous ne pourrez plus rien comptabiliser dans cet exercice.  
 
-## <a name="see-also"></a>Voir aussi  
- [Périodes fiscales et exercices comptables](fiscal-periods-and-fiscal-years.md)   
- [Clôture des exercices et des périodes](../../year-close-years-periods.md)
+## <a name="see-also"></a>Voir aussi
+
+[Clôturer fiscalement des périodes comptables](how-to-fiscally-close-accounting-periods.md)  
+[Validation de l'écriture de clôture d'exercice](how-to-post-the-year-end-closing-entry.md)  
+[Clôturer fiscalement des exercices](how-to-fiscally-close-years.md)  
+[Périodes fiscales et exercices comptables](fiscal-periods-and-fiscal-years.md)  
+[Clôture des exercices et des périodes](../../year-close-years-periods.md)  
