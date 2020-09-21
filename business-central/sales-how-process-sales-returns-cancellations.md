@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b0b3179e8931dbf4c647a7bf66ed1b9de45589ce
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 947bc883994d82cfb25f7d757d501d95e722916a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193586"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780909"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Traiter les retours ou annulations de ventes
 Si votre client souhaite retourner des articles ou obtenir un remboursement pour des articles, ou encore annuler des services, que vous lui avez vendus et pour lesquels vous avez reçu un paiement, vous devez créer et valider un avoir vente qui indique la modification demandée. Pour inclure les informations de facture vente correctes, vous pouvez créer l'avoir vente à partir de la facture vente enregistrée ou vous pouvez créer un avoir vente avec les informations copiées de la facture.
@@ -89,7 +89,7 @@ Les documents vente validés auxquels vous avez lettré l'avoir sont à présent
 3. Renseignez les champs dans le raccourci **Général** selon les besoins.
 4. Dans le raccourci **Lignes**, renseignez les lignes manuellement, ou copiez des informations d'autres documents pour renseigner les lignes automatiquement :
 
-    - utiliser la fonction **Extraire lignes document enreg. à contrepasser** pour copier une ou plusieurs lignes de document validées à partir d'un ou plusieurs documents validés. Cette fonction inverse toujours exactement les coûts à partir de la ligne de document validée. Cette fonction est décrite dans les étapes suivantes.    
+    - utiliser la fonction  **Extraire lignes document enreg. à contrepasser** pour copier une ou plusieurs lignes de document validées à partir d'un ou plusieurs documents validés. Cette fonction inverse toujours exactement les coûts à partir de la ligne de document validée. Cette fonction est décrite dans les étapes suivantes.    
     - Utilisez la fonction **Copier à partir du document** pour copier un document existant dans le retour. Cette fonction permet de copier l'ensemble du document. Il peut s'agir d'un document validé ou d'un document non encore validé. Cette fonction ne permet l'inversion de même coût que lorsque la case **Inversion de même coût obligatoire** est cochée sur la page **Paramètres ventes**.  
 
 5. Sélectionnez l'action **Afficher des lignes document validées à contrepasser**.
