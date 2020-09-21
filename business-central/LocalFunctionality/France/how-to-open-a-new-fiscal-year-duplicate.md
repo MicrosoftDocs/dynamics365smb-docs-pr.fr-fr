@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 20cee4bda12b322d912b5c6cf5ff660a99f6d3a9
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 0cd2971d42e1f0e896000d54373eed5039ba80e8
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677178"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778655"
 ---
 # <a name="open-a-new-fiscal-year"></a>Ouvrir un nouvel exercice comptable
 Avant de pouvoir effectuer une validation dans un exercice comptable, vous devez l'ouvrir et définir ses périodes comptables.  

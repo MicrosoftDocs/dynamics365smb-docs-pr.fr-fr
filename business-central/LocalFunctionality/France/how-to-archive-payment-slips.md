@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 701d09879c6ceaba5a125ee8814dff0975dbaacd
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: e7abf0f8cc91e00cf41142d35bc6beadf1ab059c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677027"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778676"
 ---
 # <a name="archive-payment-slips"></a>Archiver les bordereaux de paiement
 Lorsqu'un bordereau paiement a été entièrement traité, vous pouvez le séparer des bordereaux paiement actifs en l'archivant.  

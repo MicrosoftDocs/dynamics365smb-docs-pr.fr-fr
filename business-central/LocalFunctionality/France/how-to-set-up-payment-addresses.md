@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 57095fa25a9a86337fd3adc458444fd0b5136871
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 2e35a999e8c1fe74cf940004d9a7871fc1c0928d
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676938"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778644"
 ---
 # <a name="set-up-payment-addresses"></a>Configurer des adresses de paiement
 Pour utiliser le module Gestion des paiements, vous devez paramétrer les adresses de règlement qui sont utilisées pour les fournisseurs et clients au moment du règlement. L'adresse de règlement peut différer de l'adresse par défaut.  

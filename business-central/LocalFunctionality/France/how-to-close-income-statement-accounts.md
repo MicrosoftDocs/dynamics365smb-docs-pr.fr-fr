@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: b2264e3bdc6d48ea6e30ad58697ac50f8d267b9f
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 2875db6d0bb44f343c86501a3cbc251ce16810f8
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676891"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778670"
 ---
 # <a name="close-income-statement-accounts-in-the-french-version"></a>Clôturer les comptes de gestion dans la version française
 

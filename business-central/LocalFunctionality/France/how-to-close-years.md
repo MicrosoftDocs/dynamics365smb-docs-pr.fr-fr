@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e2f460e6d6efb778b15f9d6ea99749b4af0a0a83
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: b2a2db0afa689d6e63f398d1b406ac69ef00123c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676854"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778666"
 ---
 # <a name="close-years"></a>Clôturer fiscalement des exercices
 Lorsqu'un exercice comptable est terminé, vous devez clôturer les périodes qui le composent.  

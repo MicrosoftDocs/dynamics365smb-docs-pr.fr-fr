@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: edce82516437b7aaa2c5d297a3459441acd9dd7a
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 0335bc124b14e64aa90e994f3c29e24ecdfa2cb5
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677232"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778648"
 ---
 # <a name="reopen-accounting-periods"></a>Rouvrir des périodes comptables
 Lorsqu'une seule période fiscale a été clôturée fiscalement, il peut être nécessaire de la rouvrir pour valider des écritures comptables.  

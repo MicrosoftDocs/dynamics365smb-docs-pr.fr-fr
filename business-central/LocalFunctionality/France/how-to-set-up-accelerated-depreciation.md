@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1b9babe14bc6e0bd25ae9e71b7d072e911faacfa
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 5c763b868d929cb32e49f313ee852f5423715725
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676940"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779127"
 ---
 # <a name="set-up-accelerated-depreciation"></a>Paramétrer l'amortissement accéléré
 Pour utiliser la fonction de calcul de l'amortissement accéléré, vous devez configurer les lois d'amortissement suivantes pour les immobilisations :  

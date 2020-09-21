@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: 90909cbc45eb95212ae201b2a77e497bcbb8516e
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 225fee3039f90e81d350d2c3b8071e6a916c365e
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676901"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778650"
 ---
 # <a name="post-the-year-end-closing-entry-in-the-french-version"></a>Valider l'écriture de clôture d'exercice dans la version française
 

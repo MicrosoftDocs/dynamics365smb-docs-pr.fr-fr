@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 958c78d8db4ad100c78c09fdc005eee7a0580a5a
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 97c37032ccb18133fd812e4b1d6b600cd15dd0f3
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677176"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778658"
 ---
 # <a name="fiscally-close-accounting-periods"></a>Clôturer fiscalement des périodes comptables
 Lorsqu'une période fiscale est terminée, vous pouvez la clôturer fiscalement pour veiller à ce qu'aucune autre écriture comptable ne puisse être validée.  

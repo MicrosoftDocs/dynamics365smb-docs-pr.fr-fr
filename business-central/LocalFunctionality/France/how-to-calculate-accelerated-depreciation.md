@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: d88ebe782e1e7aa630300f8df0576f918228a861
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: d37046c9fa3e63de3c6782a928a4ad618f4b6410
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676995"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778674"
 ---
 # <a name="calculate-accelerated-depreciation"></a>Calculer l'amortissement accéléré
 Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous calculez l'amortissement périodique des immobilisations à l'aide du traitement par lots **Calculer amortissement**. La loi d'amortissement liée à l'immobilisation définit la méthode d'amortissement, la date de début de l'amortissement et le groupe comptabilisation immobilisation utilisé par le traitement par lots.  

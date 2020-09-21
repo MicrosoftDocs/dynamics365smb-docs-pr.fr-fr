@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: ece469301e87e0c1b7b7ca874fb21ea693bb8581
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 22f6a6c49f4790637dbf39fc3a5a2ef5ccc604e3
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676588"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778634"
 ---
 # <a name="specify-posting-periods-in-the-french-version"></a>Définir les périodes de validation dans la version française
 

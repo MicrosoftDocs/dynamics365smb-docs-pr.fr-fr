@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/15/2020
-ms.author: sgroespe
-ms.openlocfilehash: 182cba3d74cb28f3a3b5ccfc74d82c4d159aab17
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.author: edupont
+ms.openlocfilehash: 8f1816205e3a3bf1e28ed649bfcbcf712824ad8d
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611658"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778636"
 ---
 # <a name="year-end-processes-overview"></a>Vue d'ensemble des processus de fin d'exercice
 
