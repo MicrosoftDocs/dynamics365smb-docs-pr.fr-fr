@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4e5bf447751bb2cd7ca3580ae07018d62f9c87e2
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 28b181c589794c6845af236cbdef061ad5c4fd5f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617647"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920156"
 ---
 # <a name="general-ledger-in-france"></a>Comptabilité en France
 

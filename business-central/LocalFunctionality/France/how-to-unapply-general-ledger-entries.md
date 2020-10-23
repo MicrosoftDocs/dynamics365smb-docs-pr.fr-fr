@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c74ea817fd062540432949c80e1debf66a0a8098
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ac2bf5cd993c45e7c76ee0a5f1859580972e4137
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778626"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920108"
 ---
 # <a name="unapply-general-ledger-entries"></a>Délettrer des écritures comptables
 Vous pouvez délettrer des écritures comptables de manière très directe.  

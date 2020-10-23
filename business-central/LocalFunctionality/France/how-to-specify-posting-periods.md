@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 22f6a6c49f4790637dbf39fc3a5a2ef5ccc604e3
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8322f0c09c6b01c522ad96312106d005f3596561
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778634"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920112"
 ---
 # <a name="specify-posting-periods-in-the-french-version"></a>Définir les périodes de validation dans la version française
 

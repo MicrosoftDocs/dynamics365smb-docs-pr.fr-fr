@@ -1,6 +1,6 @@
 ---
 title: Créer des états Power BI Desktop pour afficher des données Business Central | Microsoft Docs
-description: Vous pouvez rendre vos données disponibles sous forme de source de données dans Power BI et créer des rapports puissants sur l'état de votre activité.
+description: Vous pouvez rendre vos données disponibles sous forme de source de données dans Power BI et créer des rapports puissants sur l’état de votre activité.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: c3ec3a511164d85dd01f827227e2cbcff76ce395
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: a19d2bbff275ea4401943b588a68cdd2e6740e12
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697721"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924802"
 ---
 # <a name="building-power-bi-reports-to-display-prodlong-data"></a>Créer des états Power BI pour afficher des données [!INCLUDE [prodlong](includes/prodlong.md)]
 
-Vous pouvez rendre vos données [!INCLUDE[prodlong](includes/prodlong.md)] disponibles sous forme de source de données dans Power BI Desktop et créer des rapports puissants sur l'état de votre activité.
+Vous pouvez rendre vos données [!INCLUDE[prodlong](includes/prodlong.md)] disponibles sous forme de source de données dans Power BI Desktop et créer des rapports puissants sur l’état de votre activité.
 
 Cet article aborde la prise en main de Power BI Desktop pour créer des états qui affichent des données [!INCLUDE[prodlong](includes/prodlong.md)].  Après avoir créé des états, vous pouvez les publier dans votre service Power BI ou les partager avec tous les utilisateurs de votre organisation. Une fois que ces états figurent dans le service Power BI, les utilisateurs configurés pour ce dernier peuvent alors afficher les états dans [!INCLUDE[prodlong](includes/prodlong.md)].
 
@@ -31,7 +31,7 @@ Cet article aborde la prise en main de Power BI Desktop pour créer des états q
 
 - Téléchargez [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 
-   Power BI Desktop est une application gratuite que vous installez sur votre ordinateur local. Pour plus d'informations, voir [Démarrage rapide : Se connecter aux données dans Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
+   Power BI Desktop est une application gratuite que vous installez sur votre ordinateur local. Pour plus d’informations, voir [Démarrage rapide : Se connecter aux données dans Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
 - Assurez-vous que les données souhaitées dans l’état sont publiées en tant que service Web.
     
@@ -75,11 +75,11 @@ La première tâche dans le cadre de la création d’états consiste à ajouter
     
 5. Choisissez **Connecter** pour continuer.
 
-    L'assistant Power BI affiche la liste des sociétés, des environnements et des sources de données Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ces sources de données représentent tous les services web que vous avez publiés à partir de [!INCLUDE [prodshort](includes/prodshort.md)].
+    L’assistant Power BI affiche la liste des sociétés, des environnements et des sources de données Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ces sources de données représentent tous les services web que vous avez publiés à partir de [!INCLUDE [prodshort](includes/prodshort.md)].
 6. Spécifiez les données à ajouter à votre modèle de données, puis sélectionnez le bouton **Charge**.
-7. Répétez les étapes précédentes pour ajouter des informations [!INCLUDE [prodshort](includes/prodshort.md)] supplémentaires, ou d'autres données, à votre modèle de données Power BI.
+7. Répétez les étapes précédentes pour ajouter des informations [!INCLUDE [prodshort](includes/prodshort.md)] supplémentaires, ou d’autres données, à votre modèle de données Power BI.
 
-Une fois les données chargées, elles s'affichent dans le volet de navigation à droite dans la page. À ce stade, vous êtes connecté(e) à vos données [!INCLUDE[prodshort](includes/prodshort.md)] et vous êtes prêt(e) à générer votre état Power BI.  
+Une fois les données chargées, elles s’affichent dans le volet de navigation à droite dans la page. À ce stade, vous êtes connecté(e) à vos données [!INCLUDE[prodshort](includes/prodshort.md)] et vous êtes prêt(e) à générer votre état Power BI.  
 
 > [!TIP]
 > Pour plus d’informations sur l’utilisation de Power BI Desktop, reportez-vous à [Mise en route avec Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
@@ -134,7 +134,7 @@ Il existe plusieurs façons de transmettre des états à vos collègues et à d�
 [Activation de vos données métier pour Power BI](admin-powerbi.md)  
 [Veille économique](bi.md)  
 [Mise en route](product-get-started.md)  
-[Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
+[Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finances](finance.md)  
 [Démarrage rapide : Se connecter aux données dans Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  

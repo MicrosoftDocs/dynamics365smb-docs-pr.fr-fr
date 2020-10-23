@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/15/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8b3766aedd7a18a0b2522ff115c8fee00ec72d3f
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: 968dfebf48671eac52d71aa7f6e8dc69ee90c4f6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611687"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920162"
 ---
 # <a name="fiscal-periods-and-fiscal-years"></a>Périodes fiscales et exercices comptables
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 285962e960573b09ff1e8787d4e7b66d3fc621d3
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c98a9bf55c0b1fa696b42fb47fe30298a80e8afd
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778660"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920136"
 ---
 # <a name="export-payments"></a>Exporter des paiements
 Le module Gestion des paiements vous permet d'exporter vos paiements par voie électronique via un fichier texte ou un XMLport.  

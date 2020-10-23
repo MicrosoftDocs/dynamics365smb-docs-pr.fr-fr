@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 48cace9f4391bfe40cb77c9871b92c19369859dc
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 52f7103048806c5245fb48d23ddd4dac8afdae21
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778646"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920126"
 ---
 # <a name="print-general-ledger-reports"></a>Imprimer des états de la comptabilité
 Les états de la comptabilité répondent aux normes de la comptabilité générale et ils contiennent des informations sur les écritures comptables, les écritures des clients, des fournisseurs et des banques.  
@@ -27,7 +27,7 @@ Les états de la comptabilité répondent aux normes de la comptabilité génér
 
     |État|Désignation|  
     |------------|---------------------------------------|  
-    |**Feuilles**|-   Affiche toutes les transactions de la comptabilité.<br />-   Affiche les sous-totaux des transactions par période.<br /><br /> Pour plus d'informations, voir Feuilles.|  
+    |**Feuilles**|-   Affiche toutes les transactions comptables.<br />-   Affiche les sous-totaux des transactions par période.<br /><br /> Pour plus d'informations, voir Feuilles.|  
     |**Journal général**|Affiche les sous-totaux de chaque code source par mois.<br /><br /> Pour plus d'informations, voir Journal général.|  
     |**Balance comptes généraux**|Affiche les balances en débit et en crédit à l'ouverture, les balances en débit et en crédit de la période et les balances en crédit et en débit finales pour tous les comptes généraux.<br /><br /> Pour plus d'informations, voir Balance comptes généraux.|  
     |**Grand livre comptes généraux**|-   Affiche les transactions comptables pour tous les comptes généraux.<br />-   Affiche les sous-totaux des transactions par compte général.<br /><br /> Pour plus d'informations, voir Grand livre comptes généraux.|  

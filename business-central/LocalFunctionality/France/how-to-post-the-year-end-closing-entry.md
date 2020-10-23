@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 225fee3039f90e81d350d2c3b8071e6a916c365e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cb4f2dee59676804cdd1439ff81cac69c2b47b37
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778650"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920122"
 ---
 # <a name="post-the-year-end-closing-entry-in-the-french-version"></a>Valider l'écriture de clôture d'exercice dans la version française
 

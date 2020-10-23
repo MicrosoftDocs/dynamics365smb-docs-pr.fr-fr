@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3f91d5700fd2ada05dea99ef5a5595227980b046
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 589a7079e919801c36788318e146d5d7d9b1d6f6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778653"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920128"
 ---
 # <a name="post-payment-slips"></a>Valider des bordereaux paiement
 Vous devez valider des bordereaux paiement afin de finaliser une transaction paiement et créer des données financières. Vous pouvez valider un bordereau paiement si le **type d'action** du bordereau paiement est défini sur **Comptabilité**.  

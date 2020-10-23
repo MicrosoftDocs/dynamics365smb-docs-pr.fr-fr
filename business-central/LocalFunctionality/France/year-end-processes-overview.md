@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/15/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8f1816205e3a3bf1e28ed649bfcbcf712824ad8d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 7eceeeaaf391e36725f77a5d23bd5cb4620c5eb3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778636"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920100"
 ---
 # <a name="year-end-processes-overview"></a>Vue d'ensemble des processus de fin d'exercice
 

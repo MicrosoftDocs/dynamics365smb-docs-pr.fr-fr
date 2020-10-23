@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/09/2020
+ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 344ad64d402931dc8cf6b0f0afc3b1747d258e9e
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: 2606a6af14ba3020a47b0605038b5cfbd9dc5458
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454211"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920158"
 ---
 # <a name="france-local-functionality"></a>Fonctionnalité locale, France
 

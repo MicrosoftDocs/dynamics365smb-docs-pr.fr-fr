@@ -1,6 +1,6 @@
 ---
 title: 'Procédure : mise à jour des coûts standard | Microsoft Docs'
-description: Vous devez régulièrement mettre à jour les coûts standard des composants et remonter les nouveaux coûts dans l'article parent.
+description: Vous devez régulièrement mettre à jour les coûts standard des composants et remonter les nouveaux coûts dans l’article parent.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,24 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5bbe6afc90cd89c7cd1a98b65a386404d90b5088
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8343a4169c127abdcee18a0a2e15cbc5f6b2b7c1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780934"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924102"
 ---
 # <a name="update-standard-costs"></a>Mise à jour des coûts standard
-Vous devez régulièrement mettre à jour les coûts standard des composants et remonter les nouveaux coûts dans l'article parent. Le processus comprend généralement les quatre étapes suivantes :  
+Vous devez régulièrement mettre à jour les coûts standard des composants et remonter les nouveaux coûts dans l’article parent. Le processus comprend généralement les quatre étapes suivantes :  
 
-1.  Mettre à jour les coûts aux niveaux des composants et de la capacité. Pour plus d'informations, voir le traitement par lots **Proposer coût standard article**.  
-2.  La consolidation et le calcul multi-niveau des coûts des composants et de capacité permettent de déterminer le coût de fabrication ou d'assemblage des articles.  
-3.  Appliquer les coûts standard entrés lorsque vous lancez les traitements par lots précédents. Les coûts standard n'entrent en vigueur que lorsqu'ils sont mis en œuvre. Pour plus d'informations, voir Appliquer nouv. coût standard.  
-4.  Appliquer les modifications pour mettre à jour le champ **Coût unitaire** de la fiche article et effectuer une réévaluation du stock. Pour plus d'informations, voir [Réévaluer le stock](inventory-how-revalue-inventory.md).  
+1.  Mettre à jour les coûts aux niveaux des composants et de la capacité. Pour plus d’informations, voir le traitement par lots **Proposer coût standard article**.  
+2.  La consolidation et le calcul multi-niveau des coûts des composants et de capacité permettent de déterminer le coût de fabrication ou d’assemblage des articles.  
+3.  Appliquer les coûts standard entrés lorsque vous lancez les traitements par lots précédents. Les coûts standard n’entrent en vigueur que lorsqu’ils sont mis en œuvre. Pour plus d’informations, voir Appliquer nouv. coût standard.  
+4.  Appliquer les modifications pour mettre à jour le champ **Coût unitaire** de la fiche article et effectuer une réévaluation du stock. Pour plus d’informations, voir [Réévaluer le stock](inventory-how-revalue-inventory.md).  
 
-Pour plus d'informations, voir [À propos du calcul des coûts standard](finance-about-calculating-standard-cost.md) .  
+Pour plus d’informations, voir [À propos du calcul des coûts standard](finance-about-calculating-standard-cost.md) .  
 ## <a name="to-update-standard-costs"></a>Pour mettre à jour des coûts standard  
 1.  Exécutez le traitement par lots **Ajuster coûts - Écr. article**.  
 2.  Exécutez le traitement par lots **Valider coûts ajustés**.  
