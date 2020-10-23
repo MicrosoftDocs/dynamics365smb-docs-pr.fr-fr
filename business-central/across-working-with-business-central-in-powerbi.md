@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 07/10/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: bdcbcb0fa82d799e29cfcdbb034e231635510656
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: 99628b761a3d5f79941a78c00a999a5b8131869e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697761"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927221"
 ---
 # <a name="working-with-prodshort-data-in-power-bi"></a>Utilisation avec les données [!INCLUDE [prodshort](includes/prodshort.md)] dans Power BI
 
@@ -90,7 +90,7 @@ Pour partager un état, dans une liste d’états ou dans un état ouvert, séle
 [Documentation Power BI](/power-bi/)  
 [Veille économique](bi.md)  
 [Mise en route](product-get-started.md)  
-[Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
+[Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] comme source de données Power Apps](across-how-use-financials-data-source-powerapps.md)  

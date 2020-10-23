@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 07/10/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 7f28e763cd2a72bda79c088c3a1268e3443f86dc
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: 28e332137346aae320b73c326bb3a41d3b7e7097
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697758"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927196"
 ---
 # <a name="working-with-power-bi-reports-in-prodshort"></a>Utilisation d’états Power BI dans [!INCLUDE [prodshort](includes/prodshort.md)]
 
@@ -59,7 +59,7 @@ Une fois connecté, vous pouvez sélectionner un état dans la partie Power BI s
 
 ## <a name="show-power-bi-reports-on-list-pages"></a>Afficher les états Power BI sur les pages de liste
 
-[!INCLUDE[prodlong](includes/prodlong.md)] comprend un Récapitulatif Power BI sur plusieurs pages de liste clé. Ce Récapitulatif fournit des informations supplémentaires sur les données de la liste. Lorsque vous vous déplacez entre les lignes de la liste, l'état est mis à jour et filtré pour l'écriture sélectionnée. Si vous ne voyez pas cette partie, dans la barre d’action, sélectionnez **Actions** > **Afficher** > **Afficher/Masquer les états Power BI**. Pour plus d’informations, consultez [Création d’états Power BI pour afficher les données de la liste dans [!INCLUDE[prodshort](includes/prodshort.md)]](across-how-use-powerbi-reports-factbox.md).
+[!INCLUDE[prodlong](includes/prodlong.md)] comprend un Récapitulatif Power BI sur plusieurs pages de liste clé. Ce Récapitulatif fournit des informations supplémentaires sur les données de la liste. Lorsque vous vous déplacez entre les lignes de la liste, l’état est mis à jour et filtré pour l’écriture sélectionnée. Si vous ne voyez pas cette partie, dans la barre d’action, sélectionnez **Actions** > **Afficher** > **Afficher/Masquer les états Power BI**. Pour plus d’informations, consultez [Création d’états Power BI pour afficher les données de la liste dans [!INCLUDE[prodshort](includes/prodshort.md)]](across-how-use-powerbi-reports-factbox.md).
 
 ## <a name="select-power-bi-reports"></a>Sélectionner les états Power BI
 
@@ -126,7 +126,7 @@ Ce message apparaît si l’état par défaut n’a pas pu être déployé sur v
 [Documentation Power BI](/power-bi/)  
 [Veille économique](bi.md)  
 [Mise en route](product-get-started.md)  
-[Importation des données métier à partir d'autres systèmes financiers](across-import-data-configuration-packages.md)  
+[Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] comme source de données Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] comme source de données Power Apps](across-how-use-financials-data-source-powerapps.md)  
