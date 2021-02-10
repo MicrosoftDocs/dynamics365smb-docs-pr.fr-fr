@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31432399981befb3b844c5d951b5b752e1152458
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5890fa0200a2661a68f6eae32246d562970e3c14
+ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912495"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4840252"
 ---
 # <a name="entering-data"></a>Saisie de données
 
@@ -24,7 +24,7 @@ Plusieurs fonctions générales vous permettent de saisir vos données de maniè
 Les exemples contenus dans cet article utilisent les données de démonstration.
 
 ## <a name="working-with-editable-fields"></a>Utilisation des champs modifiables
-Les champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)] peuvent contenir différentes données modifiables, telles que des montants de texte ou de devise. Les champs modifiables affichent généralement une zone de saisie dans laquelle vous pouvez taper ou choisir une valeur. Les champs non modifiables sont généralement affichés sur fond gris.   
+Les champs dans [!INCLUDE[prod_short](includes/prod_short.md)] peuvent contenir différentes données modifiables, telles que des montants de texte ou de devise. Les champs modifiables affichent généralement une zone de saisie dans laquelle vous pouvez taper ou choisir une valeur. Les champs non modifiables sont généralement affichés sur fond gris.   
 
 Certains champs modifiables fournissent un sélecteur pour vous aider à spécifier une valeur.  
 
@@ -44,7 +44,7 @@ Pour modifier la valeur d’un champ, vous devez d’abord définir le focus sur
 - Utilisez la touche de **tabulation**. L’action sélectionne la valeur entière.
 - Effectuez un clic gauche sur votre souris ou un périphérique d’entrée similaire. Cette action ne sélectionnera la valeur entière du champ que si le champ est dans une liste.  
 
-Lorsque vous interagissez avec des champs de l’interface utilisateur, [!INCLUDE[d365fin](includes/d365fin_md.md)] favorise généralement la sélection de la valeur entière du champ pour faciliter le remplacement de cette valeur.
+Lorsque vous interagissez avec des champs de l’interface utilisateur, [!INCLUDE[prod_short](includes/prod_short.md)] favorise généralement la sélection de la valeur entière du champ pour faciliter le remplacement de cette valeur.
 
 Lorsque toute la valeur du champ est sélectionnée :
 - Remplacez la valeur en tapant simplement pour spécifier une nouvelle valeur. Si le champ propose un sélecteur, vous pouvez l’activer à l’aide du raccourci clavier **Alt + flèche vers le bas**.
@@ -85,7 +85,7 @@ Vous trouverez ci-après les informations utiles concernant la fonction Saisie r
 - Elle est disponible pour tout champ modifiable.
 - Elle fonctionne également à travers les colonnes et les lignes.
 - Elle n’empêche pas d’accéder à d’autres articles d’une page, comme des actions. Ces articles restent accessibles en utilisant la touche Tab et la combinaison des touches Maj+Tab.  
-- Il n’est pas nécessaire que les raccourcis soient étendus pour que l’entrée rapide fonctionne. Si le champ suivant Saisie rapide se situe dans un raccourci réduit, ce raccourci développe automatiquement et se concentre sur le champ choisi. [!INCLUDE[d365fin](includes/d365fin_md.md)] se souviendra que le raccourci devrait être développé la prochaine fois que vous visiterez la page.  
+- Il n’est pas nécessaire que les raccourcis soient étendus pour que l’entrée rapide fonctionne. Si le champ suivant Saisie rapide se situe dans un raccourci réduit, ce raccourci développe automatiquement et se concentre sur le champ choisi. [!INCLUDE[prod_short](includes/prod_short.md)] se souviendra que le raccourci devrait être développé la prochaine fois que vous visiterez la page.  
 - La fonction Saisie rapide fonctionne peu importe si les champs sont obligatoires ou non. Ainsi, il est recommandé de veiller à ce que les champs obligatoires soient inclus dans la fonction Saisie rapide.
 - Par défaut, la plupart des champs sont automatiquement inclus dans la fonction Saisie rapide. Ainsi, à la base, il est fort probable que votre tâche exclura les champs de la fonction Saisie rapide.
 
@@ -120,7 +120,7 @@ Vous pouvez copier une ou plusieurs lignes d’une liste ou d’un seul champ su
 
 Dans une liste, pour copier le champ dans la même colonne de la ligne précédente, et le coller dans la ligne actuelle, il vous suffit d’appuyer sur F8.
 
-Pour plus d’informations, voir [FAQ sur l’opération Copier et coller](ui-copy-paste.md).
+Pour plus d’informations, voir [FAQ sur l’opération Copier et coller](faq-copy-paste.yml).
 
 ## <a name="filtering-line-items"></a>Filtrage des articles de ligne
 
@@ -162,7 +162,7 @@ Pour ouvrir la fiche ou le document en cours dans une nouvelle fenêtre, choisis
 > Si vous travaillez dans le navigateur Safari, un bloqueur de fenêtres publicitaires intempestives peut empêcher la nouvelle fenêtre de s’ouvrir. Si tel est le cas, spécifiez l’URL du produit en tant que site Web autorisé. Pour plus d’informations, voir [Modifier les préférences dans Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > La même chose peut se produire dans d’autres navigateurs, tels que Firefox. Pour plus d’informations, voir [Paramètres du bloqueur de fenêtres publicitaires intempestives dans Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Une autre façon d’effectuer plusieurs tâches simultanément consiste à ouvrir [!INCLUDE[d365fin](includes/d365fin_md.md)] sur deux ou plusieurs onglets du navigateur. Pour ce faire, vous devez créer un onglet, puis copier/coller l’URL de l’onglet initial dans le nouvel onglet. Cela crée une session.   
+Une autre façon d’effectuer plusieurs tâches simultanément consiste à ouvrir [!INCLUDE[prod_short](includes/prod_short.md)] sur deux ou plusieurs onglets du navigateur. Pour ce faire, vous devez créer un onglet, puis copier/coller l’URL de l’onglet initial dans le nouvel onglet. Cela crée une session.   
 
 > [!NOTE]
 > N’utilisez pas la fonction **Dupliquer** du navigateur pour créer l’onglet : cela peut entraîner des actions sur un onglet pour bloquer des actions sur d’autres onglets, car elles font partie de la même session.
@@ -294,4 +294,4 @@ Voilà quelques exemples.
 
 ## <a name="see-also"></a>Voir aussi  
  [Tri, recherche et filtrage de listes](ui-enter-criteria-filters.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

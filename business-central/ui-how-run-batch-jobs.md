@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: task, process
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: 7c9d67168308491daef838e91c5a1b84645b222a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 04ae13561f44d544d38b04e3a881a0e707b441b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920421"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760516"
 ---
 # <a name="run-batch-jobs-and-xmlports"></a>Exécuter des traitements par lots et des ports XML
 Un traitement par lots est une routine qui traite les données par lots, par exemple le traitement par lots **Ajuster taux de change**. Certains traitements par lots exécutent des activités périodiques de comptabilité, telles que la clôture des comptes de gestion à la fin d’un exercice comptable. De nombreux traitements par lots exécutent des calculs, telles que le calcul des intérêts de retard, l’ajustement du taux de change et le calcul des prix unitaires.
@@ -35,4 +35,4 @@ Vous pouvez planifier l’exécution d’un traitement par lot. Pour plus d’in
 ## <a name="see-also"></a>Voir aussi
 [Tri, recherche et filtrage de listes](ui-enter-criteria-filters.md)  
 [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

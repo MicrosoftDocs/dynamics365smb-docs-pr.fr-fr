@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1e162dadd88fd7db781e884d0cde395bcff6250c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a230560b897f92cb871e72edb3ccfa2f74884bd3
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910704"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817280"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Configurer les centres de charge et les postes de charge
 
@@ -68,11 +68,14 @@ La procédure suivante décrit essentiellement comment configurer un centre de c
     > [!NOTE]  
     > Si vous choisissez d’utiliser Jours, n’oubliez pas qu’1 jour = 24 heures et non 8 (heures de travail).
 
-13. Dans le champ **Capacité**, indiquez si le centre de charge a plusieurs postes ou personnes travaillant simultanément. Si votre installation de [!INCLUDE[d365fin](includes/d365fin_md.md)] n’inclut pas la fonctionnalité de poste de charge, la valeur de ce champ doit être **1**.  
+13. Dans le champ **Capacité**, indiquez si le centre de charge a plusieurs postes ou personnes travaillant simultanément. Si votre installation de [!INCLUDE[prod_short](includes/prod_short.md)] n’inclut pas la fonctionnalité de poste de charge, la valeur de ce champ doit être **1**.  
 14. Dans le champ **Rendement**, entrez le pourcentage de la production standard prévue qui est réalisé par le centre de charge. Si vous entrez **100**, cela signifie que la production réelle du centre de charge est identique à la production standard.  
 15. Activez la case à cocher **Calendrier consolidé** si vous utilisez également des postes de charge. Ainsi, les écritures calendrier sont générées à partir des calendriers de poste de charge.  
 16. Dans le champ **Code calendrier usine**, sélectionnez un calendrier usine. Pour plus d’informations, voir [Créer des calendriers usine](production-how-to-create-work-center-calendars.md).  
-17. Dans le champ **File d’attente**, spécifiez le délai fixe qui doit s’écouler avant que le travail attribué ne commence dans le centre de charge. Notez que la file d’attente ainsi définie est ajoutée aux autres éléments de temps non productifs, tels que le temps d’attente et le temps de transfert, définis sur les lignes gamme utilisant ce centre de charge.  
+17. Dans le champ **File d’attente**, spécifiez le délai fixe qui doit s’écouler avant que le travail attribué ne commence dans le centre de charge. 
+
+> [!NOTE]
+> Utilisez les files d’attente pour fournir un tampon entre le moment où un composant arrive sur une machine ou un centre de travail et le moment où l’opération démarre réellement. Par exemple, une pièce est livrée à un poste de charge à 10h00, mais il faut une heure pour la monter sur la machine de sorte que l’opération ne démarre pas avant 11h00. Pour tenir compte de cette heure, le temps d’attente serait d’une heure. La valeur du champ **File d’attente** sur une fiche poste de charge ou centre de charge spécifique plus la somme des valeurs des champs **Temps de préparation**, **Temps de fonctionnement**, **Temps d’attente** et **Temps de transfert** sur la ligne gamme article se combinent pour donner le délai de fabrication de l’article. Cela permet de fournir des temps de production globaux précis.  
 
 ## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Exemple - Plusieurs postes de charge sont affectés à un centre de charge
 
@@ -88,7 +91,7 @@ Lorsque les capacités des centres de charge n’ajoutent en rien à la capacit�
 
 Vous devez configurer les ressources de production que vous considérez comme critique et de l’accepter comme une charge limitée au lieu de la charge illimitée par défaut que d’autres ressources de production acceptent. Une capacité critique peut être un centre de charge ou un poste de charge que vous avez identifié comme étant un goulot d’étranglement et pour lequel vous souhaitez établir une charge limitée.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ne prend pas en charge le contrôle détaillé d’atelier. Il prévoit une utilisation des ressources faisable via une planification approximative, mais il ne crée ni ne met à jour automatiquement des plannings détaillés sur la base des priorités ou des règles d’optimisation.
+[!INCLUDE[prod_short](includes/prod_short.md)] ne prend pas en charge le contrôle détaillé d’atelier. Il prévoit une utilisation des ressources faisable via une planification approximative, mais il ne crée ni ne met à jour automatiquement des plannings détaillés sur la base des priorités ou des règles d’optimisation.
 
 Sur la page **Capacités critiques**, vous pouvez effectuer un paramétrage qui évite la surcharge de ressources spécifiques et permet de s’assurer qu’aucune capacité n’est laissée non affectée si elle peut augmenter le délai d’exécution d’un ordre de fabrication. Dans le champ **Seuil (% capacité totale)**, vous pouvez ajouter un seuil aux ressources afin de réduire la répartition des opérations. Cela permet au système de planifier la charge sur le dernier jour possible en dépassant légèrement le pourcentage de charge critique si ceci peut réduire le nombre d’opérations qui sont divisées.
 
@@ -111,4 +114,4 @@ Lors de la planification avec des ressources avec contraintes de capacité, le s
 [Planifié](production-planning.md)  
 [Stock](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

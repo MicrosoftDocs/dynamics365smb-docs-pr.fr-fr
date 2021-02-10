@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 59830cc2e9b90f9ee6c6fd61cb9715ce60208ad1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 30f29078c4ca32f934427d8b07715077a8175e6b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923194"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759691"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Rangement du résultat de fabrication ou d’assemblage
 Le mode de rangement de la production dépend du mode de configuration de l’entrepôt en tant qu’emplacement. Pour plus d’informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).  
@@ -77,4 +77,4 @@ Si vous devez juste validé le temps d’exécution ou de préparation de la der
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

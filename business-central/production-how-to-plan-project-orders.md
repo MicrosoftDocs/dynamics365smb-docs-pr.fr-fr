@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 09fea87bb1d8606390fe8c0ed5b2e3780dbc4978
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 87f113e1fedc759fc90443fb3d0a4eb0c1aa9233
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919187"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759216"
 ---
 # <a name="plan-project-orders"></a>Planifier les O.F. projets
 Cette tâche de planification est lancée à partir d’une commande vente et utilise la page **Planification commande vente**. Une fois que vous avez créé un O.F. projet, vous pouvez le planifier davantage à l’aide de la page **Planning commande**.  
@@ -47,4 +47,4 @@ La ligne d’en-tête de commande de la commande projet s’affiche avec toutes 
 [Achats](purchasing-manage-purchasing.md)  
 [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)   
 [Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

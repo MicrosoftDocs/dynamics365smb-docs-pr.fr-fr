@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 12/03/2020
 ms.author: edupont
-ms.openlocfilehash: 5ca69a35aac0ba61591dfdfd71d739726e2fb62f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fa2830aeb62fe6acea5f8e3879c678e9d8407fb4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910129"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760316"
 ---
 # <a name="posting-sales"></a>Validation des ventes
 
@@ -25,9 +25,10 @@ Dans le menu **Validation** sur un document vente, vous pouvez faire votre choix
 * **Valider et créer**
 * **Valider et envoyer**
 * **Aperçu compta.**
-* **Facture provisoire**
-* **Facture pro forma**
+* **Valider par lot**
 * **Impression test**
+
+> [REMARQUE!] Pour les commandes vente, vous pouvez également voir les options liées à la fonctionnalité de prépaiement. Pour plus d’informations, voir [Facturer les acomptes](finance-invoice-prepayments.md). 
 
 Lorsque vous avez renseigné toutes les lignes et entré toutes les informations de la commande de vente, vous pouvez la valider. Cela crée une expédition et une facture.
 
@@ -40,7 +41,7 @@ Pour chaque ligne commande vente, une écriture comptable article est créée da
 > [!IMPORTANT]  
 > Lorsque vous validez une commande, vous pouvez créer une expédition et une facture. Ceci peut être effectué de manière simultanée ou indépendante. Vous pouvez également créer une expédition partielle et une facture partielle en renseignant les champs **Qté à expédier** et **Qté à facturer** sur chaque ligne commande vente avant la validation. Notez que vous ne pouvez pas créer de facture pour un article qui n'est pas expédié. C'est-à-dire que, avant de pouvoir facturer, vous devez avoir validé une expédition, ou vous devez choisir de livrer et de facturer en même temps.
 
-Vous pouvez valider ou valider et envoyer. Si vous choisissez de valider et d'envoyer, un fichier PDF est généré que vous pouvez ensuite envoyer. Vous pouvez aussi choisir la fonction **Valider par lot**, qui vous permet de valider plusieurs commandes en même temps. Pour plus d'informations, voir [Valider plusieurs documents en même temps](ui-batch-posting.md).
+Vous pouvez valider ou valider et envoyer. Si vous choisissez de valider et d'envoyer, un fichier PDF est généré que vous pouvez ensuite envoyer. Vous pouvez aussi choisir la fonction **Valider par lot**, qui vous permet de valider plusieurs commandes en même temps. Pour plus d’informations, voir [Valider plusieurs documents en même temps](ui-batch-posting.md).
 
 ## <a name="viewing-ledger-entries"></a>Affichage des écritures comptables
 
@@ -62,4 +63,4 @@ Vous pouvez modifier certains champs dans les documents d'achat validés, tels q
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Corriger ou annuler des factures vente impayées](sales-how-correct-cancel-sales-invoice.md)  
 [Recherche de pages et d'informations avec Tell Me](ui-search.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

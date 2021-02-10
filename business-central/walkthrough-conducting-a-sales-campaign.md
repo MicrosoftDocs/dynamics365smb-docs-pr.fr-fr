@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6138bc80b96e55c559067abad2957044d2e7c87f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: babd447411d1ea6000fc67379eda132b3d3e94f3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914834"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760100"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Procédure pas à pas : mise en place d’une campagne de vente
-Une campagne désigne tout type d’activité impliquant plusieurs contacts. La sélection du public cible de votre campagne représente une étape importante de la configuration. Pour ce faire, dans [!INCLUDE[d365fin](includes/d365fin_md.md)], créez un segment ou un groupe de contacts à l’aide de filtres.  
+Une campagne désigne tout type d’activité impliquant plusieurs contacts. La sélection du public cible de votre campagne représente une étape importante de la configuration. Pour ce faire, dans [!INCLUDE[prod_short](includes/prod_short.md)], créez un segment ou un groupe de contacts à l’aide de filtres.  
 
  Les fonctionnalités du module Ventes & marketing permet de planifier soigneusement vos activités de marketing et de gérer les interactions avec les contacts et clients. Vous pouvez créer des campagnes et configurer des segments de contacts pour le publipostage et d’autres types d’interactions avec vos contacts et prospects.  
 
@@ -42,7 +42,7 @@ Une campagne désigne tout type d’activité impliquant plusieurs contacts. La 
 -   Membre de l’équipe marketing  
 
 ## <a name="prerequisites"></a>Conditions préalables  
- Avant d’exécuter cette procédure pas à pas, veuillez installer [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ Avant d’exécuter cette procédure pas à pas, veuillez installer [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="story"></a>Scénario  
  Le directeur marketing du département Ventes de CRONUS est responsable de la planification et de l’exécution des campagnes. Il prend les décisions relatives à la participation ou non de la société à des salons commerciaux et évalue l’évolution des campagnes.  
@@ -198,4 +198,4 @@ Une campagne désigne tout type d’activité impliquant plusieurs contacts. La 
 ## <a name="see-also"></a>Voir aussi  
 [Gestion des relations](marketing-relationship-management.md)  
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

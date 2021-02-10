@@ -1,5 +1,5 @@
 ---
-title: Procédure de création d’une prévision demande | Microsoft Docs
+title: 'Procédure : Créer une prévision de la demande'
 description: Vous pouvez créer des prévisions de vente et de production à l’aide de la page **Prévision demande**.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 63009574c6d569cfc0ac20a6f474a11e2f8d5cb9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c009a4d21cac95645edd7b94f22659f155fe6a34
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913270"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013691"
 ---
 # <a name="create-a-demand-forecast"></a>Créer une prévision de la demande
 Vous pouvez créer des prévisions de vente et de production à l’aide de la page **Prévision demande**.  
@@ -47,7 +47,41 @@ Comme la prévision composant sert à définir des options pour un article paren
  La période de prévision est valide de la date début jusqu’à la date de début de la prévision suivante. La page d’intervalle de temps offre plusieurs choix pour insérer la demande à une date spécifique dans une période. Il est donc recommandé de ne pas modifier l’étendue de la période de prévision à moins de déplacer toutes les écritures de prévision à la date début de cette période.  
 
 ## <a name="forecast-by-locations"></a>Prévision par magasin  
-Vous pouvez indiquer dans les paramètres production si vous souhaitez filtrer les prévisions en fonction du magasin lors du calcul d’une planification. Notez cependant que si les prévisions basées sur le magasin sont consultées isolément, il se peut que la prévision globale ne soit pas représentative.
+
+Cela peut être indiqué sur la page **Paramètres production** sur la manière dont vous voulez traiter les emplacements définis dans les prévisions lorsque vous calculez un plan. 
+
+### <a name="use-forecast-by-locations"></a>Prévision sur magasin
+
+Si vous choisissez le champ **Prévision sur magasin**, [!INCLUDE[prod_short](includes/prod_short.md)] respectera tous les codes magasin spécifiés pour chaque écriture de prévision de la demande et calculera la prévision restante pour chaque magasin.  
+
+Prenons cet exemple : votre entreprise achète et vend des articles dans deux magasins : EST et OUEST. Pour les deux magasins, vous avez configuré une politique de réorganisation de lot à lot. Vous créez une prévision pour les deux magasins :
+
+- 10 pièces pour le magasin EST
+- 4 pièces pour le magasin OUEST
+
+Ensuite, vous créez une commande client avec une quantité de 12 sur le magasin OUEST. Le système de planification vous suggérera de faire ce qui suit :
+
+- Reconstituez 10 pièces pour le magasin EST, en fonction des données des prévisions.  
+- Reconstituez 12 pièces pour le magasin OUEST, en fonction de la commande client. Les 4 pièces spécifiées dans la prévision sont entièrement consommées par la demande réelle de la commande client. Pour plus d’informations, reportez-vous à la section [La demande de prévision est réduite par les commandes vente](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
+
+> [!NOTE]  
+>  Si les prévisions basées sur le magasin sont consultées isolément, il se peut que la prévision globale ne soit pas représentative.
+
+### <a name="do-not-use-forecast-by-locations"></a>Ne pas utiliser Prévision sur magasin
+Si vous désactivez **Prévision sur magasin**, [!INCLUDE[prod_short](includes/prod_short.md)] ignorera tous les codes magasin spécifiés pour chaque écriture de prévision de la demande et agrègera les prévisions en une prévision pour les magasins vides.  
+
+Prenons cet exemple : votre entreprise achète et vend des articles dans deux magasins : EST et OUEST. Pour les deux magasins, vous avez configuré une politique de réorganisation de lot à lot. Vous créez une prévision pour les deux magasins :
+
+- 10 pièces pour le magasin EST
+- 4 pièces pour le magasin OUEST
+
+Ensuite, vous créez une commande client avec une quantité de 12 sur le magasin OUEST. Le système de planification vous suggérera de faire ce qui suit :
+
+- Reconstituez 12 pièces pour le magasin OUEST, en fonction de la commande client. 
+- Reconstituez 2 pièces pour le magasin vide. Les 10 et 4 pièces spécifiées dans la prévision sont partiellement consommées par la demande réelle de la commande client. [!INCLUDE[prod_short](includes/prod_short.md)] a ignoré les codes magasin spécifiés par l’utilisateur et utilise à la place un magasin vide.
+
+> [!NOTE]  
+>  Vous pouvez définir un filtre par emplacement, mais les résultats basés sur l’emplacement peuvent ne pas correspondre aux résultats de planification sans filtres.
 
 ## <a name="to-create-a-demand-forecast"></a>Pour créer une prévision de la demande
 
@@ -74,4 +108,4 @@ Vous pouvez indiquer dans les paramètres production si vous souhaitez filtrer l
 [Achats](purchasing-manage-purchasing.md)  
 [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)   
 [Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

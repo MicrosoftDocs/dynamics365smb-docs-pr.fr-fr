@@ -8,15 +8,15 @@ ms.custom: na
 ms.date: 10/01/2020
 ms.reviewer: na
 ms.topic: article
-ms.openlocfilehash: 5661396629572530b3c639f1e7dcbcbf832abb28
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 52e453f8a2d63fbfd8c7e3fa292a8d0a98fcaa3c
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917850"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817153"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Réponse aux demandes relatives aux données personnelles  
-Les sujets des données peuvent demander plusieurs types d’actions concernant leurs données personnelles. Par exemple, en vertu du Règlement général sur la protection des données (RGPD), les résidents de l’UE ont le droit de demander l’exportation, la suppression et la modification de leurs données personnelles. Cela est appelé *Demande du sujet des données*. Si vous avez classé la sensibilité de vos données et que vous êtes sûr qu’elles sont correctes, un administrateur peut répondre aux demandes en utilisant les options de l’onglet **Confidentialité des données** dans le tableau de bord **Responsable informatique**. Pour plus d’informations sur la classification des données et la classification de la sensibilité des données dans [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], voir [Classification des données](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) et [Classification de la sensibilité des données](admin-classifying-data-sensitivity.md).  
+Les sujets des données peuvent demander plusieurs types d’actions concernant leurs données personnelles. Par exemple, en vertu du Règlement général sur la protection des données (RGPD), les résidents de l’UE ont le droit de demander l’exportation, la suppression et la modification de leurs données personnelles. Cela est appelé *Demande du sujet des données*. Si vous avez classé la sensibilité de vos données et que vous êtes sûr qu’elles sont correctes, un administrateur peut répondre aux demandes en utilisant les options de l’onglet **Confidentialité des données** dans le tableau de bord **Responsable informatique**. Pour plus d’informations sur la classification des données et la classification de la sensibilité des données dans [!INCLUDE[prod_long](includes/prod_long.md)], voir [Classification des données](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) et [Classification de la sensibilité des données](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Types de demandes
 
@@ -35,13 +35,13 @@ Le tableau suivant donne des exemples des types de demandes auxquelles vous pouv
 Un sujet des données peut demander l’arrêt temporaire du traitement de ses données personnelles. Pour honorer ces demandes, vous pouvez marquer son enregistrement comme bloqué pour des raisons de confidentialité afin d’arrêter le traitement de ses données. Lorsqu’un enregistrement est marqué comme bloqué, vous ne pouvez pas créer des transactions qui utilisent cet enregistrement. Par exemple, vous ne pouvez pas créer une facture pour un client lorsque le client ou le vendeur est bloqué. Pour marquer un sujet des données comme bloqué, ouvrez la fiche correspondante, par exemple les fiches Client, Fournisseur ou Contact, puis activez la case à cocher **Confidentialité bloquée**. Vous devez peut-être choisir **Afficher plus** pour afficher le champ.  
 
 ## <a name="handling-data-subject-requests-while-in-trial"></a>Gestion des demandes de sujets de données dans une version d’évaluation
-Certains types de données personnelles font partie de votre compte Microsoft 365 et nécessitent un accès administratif pour les exporter, si vous recevez une demande de sujet de données d’un utilisateur concernant ce type de données personnelles dans le cadre du Règlement général sur la protection des données (RGPD). Le processus de gestion des demandes de sujets de données diffère selon le type d’abonné [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Certains types de données personnelles font partie de votre compte Microsoft 365 et nécessitent un accès administratif pour les exporter, si vous recevez une demande de sujet de données d’un utilisateur concernant ce type de données personnelles dans le cadre du Règlement général sur la protection des données (RGPD). Le processus de gestion des demandes de sujets de données diffère selon le type d’abonné [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Si vous disposez d’un abonnement payant pour [!INCLUDE[d365fin](includes/d365fin_md.md)], vous devez contacter l’administrateur abonné de votre organisation pour faire une demande de sujet de données. L’administrateur dispose des droits et outils d’administration pour traiter votre demande.  
+Si vous disposez d’un abonnement payant pour [!INCLUDE[prod_short](includes/prod_short.md)], vous devez contacter l’administrateur abonné de votre organisation pour faire une demande de sujet de données. L’administrateur dispose des droits et outils d’administration pour traiter votre demande.  
 
-Si vous vous êtes inscrit à [!INCLUDE[d365fin](includes/d365fin_md.md)] à partir de la page [Versions d’évaluation](https://trials.dynamics.com/), et si vous n’avez pas changé cette version d’évaluation via un abonnement payant par l’administrateur abonné de votre organisation, vous pouvez traiter votre propre demande de sujet de données dans la [page Confidentialité au travail et à l’école du portail Azure](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Vous pouvez exporter et télécharger vos données personnelles.
+Si vous vous êtes inscrit à [!INCLUDE[prod_short](includes/prod_short.md)] à partir de la page [Versions d’évaluation](https://trials.dynamics.com/), et si vous n’avez pas changé cette version d’évaluation via un abonnement payant par l’administrateur abonné de votre organisation, vous pouvez traiter votre propre demande de sujet de données dans la [page Confidentialité au travail et à l’école du portail Azure](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Vous pouvez exporter et télécharger vos données personnelles.
 
-Sur la page Confidentialité au travail et à l’école, vous pouvez également fermer votre compte. Toutefois, il est recommandé de vérifier que vous avez exporté et supprimé au préalable toutes les données, car la suppression de votre compte implique que vous n’avez plus accès à [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Sur la page Confidentialité au travail et à l’école, vous pouvez également fermer votre compte. Toutefois, il est recommandé de vérifier que vous avez exporté et supprimé au préalable toutes les données, car la suppression de votre compte implique que vous n’avez plus accès à [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Vous pouvez toujours marquer des personnes comme bloquées pour des raisons de confidentialité et exporter, modifier ou supprimer des transactions, comme expliqué ailleurs dans cet article.  
 

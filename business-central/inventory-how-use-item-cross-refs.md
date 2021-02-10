@@ -1,8 +1,6 @@
 ---
-title: Utiliser la table Référence externe article | Microsoft Docs
+title: Utiliser les références externes article
 description: Définissez des références entre les descriptions que vous et votre fournisseur utilisez pour un article afin que vous puissiez insérer la description d’article du fournisseur dans les documents achat.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item reference, cross reference, inventory
-ms.date: 10/01/2020
+ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 056897c799dd12755432637690446a0797c9f18c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7d670f6553a1bd70dcc3d97f90436f36c6627c56
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919437"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013791"
 ---
 # <a name="use-item-cross-references"></a>Utiliser les références externes article
 Si vous configurez une référence externe entre la désignation article que vous utilisez pour un article et la désignation que le fournisseur de cet article utilise, la désignation de l’article du fournisseur est automatiquement insérée sur les documents achat du fournisseur lorsque vous renseignez le **N° référence externe**. . La même fonctionnalité s’applique pour les numéros d’article client sur les documents vente.
@@ -25,7 +23,7 @@ Si vous configurez une référence externe entre la désignation article que vou
 Les procédures suivantes décrivent comment utiliser les références externes article côté achat. La procédure est identique côté achat.
 
 > [!NOTE]
-> Il est de plus en plus courant que les identificateurs d’articles, tels que les GTIN ou les GUID contiennent 30 caractères ou plus, ce qui est plus que la fonctionnalité actuelle des références croisées d’éléments peut gérer. Si vous devez utiliser des références contenant plus de 30 caractères, votre administrateur peut activer les fonctionnalité **Écrire des références d’articles plus longues** sur la page [Gestion des fonctionnalités](https://businesscentral.dynamics.com/?page=xzy) (le lien nécessite que vous ayez un client [!INCLUDE[d365fin](includes/d365fin_md.md)]). La façon dont vous utilisez les références ne change pas, mais les noms d’articles, tels que les pages et les boutons le seront. Par exemple, la page **Entrées de références croisées d’article** deviendra la page **Entrées de référence d’article**.
+> Il est de plus en plus courant que les identificateurs d’articles, tels que les GTIN ou les GUID contiennent 30 caractères ou plus, ce qui est plus que la fonctionnalité actuelle des références croisées d’éléments peut gérer. Si vous devez utiliser des références contenant plus de 30 caractères, votre administrateur peut activer les fonctionnalité **Écrire des références d’articles plus longues** sur la page [Gestion des fonctionnalités](https://businesscentral.dynamics.com/?page=2610) (le lien nécessite que vous ayez un client [!INCLUDE[prod_short](includes/prod_short.md)]). La façon dont vous utilisez les références ne change pas, mais les noms d’articles, tels que les pages et les boutons le seront. Par exemple, la page **Entrées de références croisées d’article** deviendra la page **Entrées de référence d’article**.
 
 ## <a name="to-set-up-an-item-cross-reference-to-a-vendors-item-description"></a>Pour configurer une référence externe article à la description d’un article fournisseur
 
@@ -49,4 +47,4 @@ Le champ **Description** de la ligne est remplacé par la description d’articl
 ## <a name="see-also"></a>Voir aussi
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
 [Stock](inventory-manage-inventory.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

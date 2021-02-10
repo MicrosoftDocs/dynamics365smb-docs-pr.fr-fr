@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 93d1fffed38ce57e76b6451be071700c1ce07b2c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 37fa84f9d0bb97f7e2b6fe94cc6180ef3eb83689
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925498"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024486"
 ---
 # <a name="save-and-personalize-list-views"></a>Enregistrer et personnaliser les vues de liste
 Lorsque vous avez défini un filtre sur une liste et que vous souhaitez conserver le filtre pour plus tard, vous pouvez l’enregistrer en tant que vue. Pour plus d’informations sur le filtrage des listes, voir [Définition de filtres sur les listes](ui-enter-criteria-filters.md#setting-filters-on-lists).
 
-Si des vues existent, le groupe **Vues** apparaît en haut du volet Filtre. Les vues sont des variations de la liste qui ont été préconfigurées avec les filtres. Vous pouvez définir et enregistrer autant de vues que vous le souhaitez dans une liste. Ces vues seront disponibles lors de la prochaine ouverture de la liste, depuis n’importe quel appareil ou navigateur.
+Si des vues existent, le groupe **Vues** apparaît en haut du volet Filtre. Les vues sont des variations de la liste qui ont été préconfigurées avec les filtres. Vous pouvez définir et enregistrer autant de vues que vous le souhaitez par liste. Les vues seront disponibles la prochaine fois que vous ouvrirez la liste, à partir de n’importe quel appareil ou navigateur.
 
 ## <a name="to-save-a-view"></a>Pour enregistrer une vue
 1. Ouvrez n’importe quelle page de liste.
@@ -34,6 +34,9 @@ Si des vues existent, le groupe **Vues** apparaît en haut du volet Filtre. Les 
 
 Si vous ne lui donnez pas de nom, il sera nommé **Tous (copier)**.
 
+> [!TIP]
+> Vous ne voyez pas l’icône ![Enregistrer la vue](media/save_view_icon.png "Enregistrer la vue") ? Pour plus d’informations, voir [Pourquoi n’ai-je pas d’icône Enregistrer](ui-views-faq.md#save).
+
 ## <a name="to-rename-or-remove-a-view"></a>Pour renommer ou supprimer une vue
 1. Pour la vue qui affiche actuellement la liste, choisissez l’icône ![Afficher plus d’options](media/show-more-options-icon.png "Afficher plus d’options") pour voir les options disponibles.
 2. Choisissez soit l’action **Renommer** ou **Supprimer**.
@@ -44,6 +47,6 @@ Si vous ne lui donnez pas de nom, il sera nommé **Tous (copier)**.
 ## <a name="see-also"></a>Voir aussi
 [FAQ sur les vues de liste](ui-views-faq.md)  
 [Personnaliser votre espace de travail](ui-personalization-user.md)    
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)    
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)  

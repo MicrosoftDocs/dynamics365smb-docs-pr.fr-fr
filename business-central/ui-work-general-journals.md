@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: journals, recurring, accrual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d0fba2dc1359da074ddf8fd21823803d49ba1234
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 18c36bf409b2bb5d4e67eeccfdf16193ec4dac62
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920696"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760093"
 ---
 # <a name="working-with-general-journals"></a>Utilisation de feuilles comptabilité
 
-La plupart des transactions financières sont validées en comptabilité via les documents commerciaux dédiés, tels que des factures achat et des commandes vente. Mais vous pouvez également traiter des activités commerciales comme l’achat, le paiement, à l’aide des feuilles périodiques pour valider les régularisations, ou le remboursement des frais d’un salarié en validant des lignes feuille dans les diverses feuilles de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+La plupart des transactions financières sont validées en comptabilité via les documents commerciaux dédiés, tels que des factures achat et des commandes vente. Mais vous pouvez également traiter des activités commerciales comme l’achat, le paiement, à l’aide des feuilles périodiques pour valider les régularisations, ou le remboursement des frais d’un salarié en validant des lignes feuille dans les diverses feuilles de [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 La plupart des feuilles sont basées sur la *Feuille comptabilité*, et vous pouvez traiter toutes les transactions sur la page **Feuille comptabilité**. Pour plus d’informations, reportez-vous à [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md).  
 
@@ -41,15 +41,15 @@ Il existe plusieurs modèles feuille. Chaque modèle feuille est représenté pa
 Pour chaque modèle feuille, vous pouvez configurer votre propre feuille personnelle sous forme de nom de feuille. Par exemple, vous pouvez définir votre propre nom de feuille pour la feuille paiement dotée de votre présentation et de vos paramètres personnels. Le conseil suivant est un exemple de la manière de personnaliser une feuille.
 
 > [!TIP]  
-> Si vous cochez la case **Suggérer le montant contrepartie** de la ligne pour votre nom feuille sur la page **Noms feuilles comptabilité**, le champ **Montant** dans, par exemple, les lignes feuille comptabilité pour le même numéro de document est automatiquement prérempli avec la valeur nécessaire à la contrepartie dans le document. Pour plus d’informations, voir [Laisser [!INCLUDE[d365fin](includes/d365fin_md.md)] suggérer des valeurs](ui-let-system-suggest-values.md).
+> Si vous cochez la case **Suggérer le montant contrepartie** de la ligne pour votre nom feuille sur la page **Noms feuilles comptabilité**, le champ **Montant** dans, par exemple, les lignes feuille comptabilité pour le même numéro de document est automatiquement prérempli avec la valeur nécessaire à la contrepartie dans le document. Pour plus d’informations, voir [Laisser [!INCLUDE[prod_short](includes/prod_short.md)] suggérer des valeurs](ui-let-system-suggest-values.md).
 
 > [!TIP]
 > Pour ajouter ou supprimer des champs dans des journaux, utilisez la bannière **Personnalisation**. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
 
 ### <a name="validating-general-journal-batches"></a>Validation Noms feuilles comptabilité
-Pour éviter les retards lors de la validation, vous pouvez activer une vérification des antécédents qui vous avertira en cas d’erreur dans la feuille financière sur laquelle vous travaillez et qui vous empêchera de valider la feuille. Sur la page **Noms feuilles comptabilités**, vous pouvez choisir **Vérification des erreurs d’arrière-plan** pour que [!INCLUDE[d365fin](includes/d365fin_md.md)] valide les feuilles financières, telles que les feuilles comptabilité ou règlements, pendant que vous les utilisez. 
+Pour éviter les retards lors de la validation, vous pouvez activer une vérification des antécédents qui vous avertira en cas d’erreur dans la feuille financière sur laquelle vous travaillez et qui vous empêchera de valider la feuille. Sur la page **Noms feuilles comptabilités**, vous pouvez choisir **Vérification des erreurs d’arrière-plan** pour que [!INCLUDE[prod_short](includes/prod_short.md)] valide les feuilles financières, telles que les feuilles comptabilité ou règlements, pendant que vous les utilisez. 
 
-Lorsque vous activez la validation, le Récapitulatif **Vérification de feuille** s’affiche à côté des lignes feuille et affiche les problèmes de la ligne actuelle et du lot entier. La validation se produit lorsque vous chargez une Feuille financière et lorsque vous choisissez une autre ligne feuille. La vignette **Nombre total d’erreurs** du Récapitulatif montre le nombre total de problèmes que [!INCLUDE[d365fin](includes/d365fin_md.md)] a trouvées, et vous pouvez le choisir pour ouvrir un aperçu des problèmes. 
+Lorsque vous activez la validation, le Récapitulatif **Vérification de feuille** s’affiche à côté des lignes feuille et affiche les problèmes de la ligne actuelle et du lot entier. La validation se produit lorsque vous chargez une Feuille financière et lorsque vous choisissez une autre ligne feuille. La vignette **Nombre total d’erreurs** du Récapitulatif montre le nombre total de problèmes que [!INCLUDE[prod_short](includes/prod_short.md)] a trouvées, et vous pouvez le choisir pour ouvrir un aperçu des problèmes. 
 
 Vous pouvez utiliser les actions **Afficher les lignes avec des problèmes** et **Afficher toutes les lignes** pour basculer entre les lignes feuille qui ont ou n’ont pas de problèmes. Le nouveau Récapitulatif **Détails de la ligne feuille** fournit un aperçu rapide et un accès aux données des lignes feuille, telles que le compte général, le client ou le fournisseur, ainsi que la configuration de la validation pour des comptes spécifiques.     
 
@@ -203,7 +203,7 @@ Les valeurs dans le champ **N° document** sont modifiées, le cas échéant, po
 [Contrepasser une validation feuille et annuler les réceptions/envois](finance-how-reverse-journal-posting.md)  
 [Répartition des coûts et du revenu](year-allocate-costs-income.md)  
 [Finances](finance.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Clôturer les écritures comptables article ouvertes qui résultent d’un lettrage fixe dans la feuille article](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
 [Réévaluer le stock dans la Feuille réévaluation](inventory-how-revalue-inventory.md)  
 [Comptabiliser, ajuster et reclasser le stock avec les feuilles](inventory-how-count-adjust-reclassify.md)  

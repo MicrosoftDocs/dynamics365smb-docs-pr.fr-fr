@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb9caf6fa4dbca9d51d66e329321fdecc6478ec0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cf7f261f945828b78db55cde0dda70d12b158127
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912070"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760341"
 ---
 # <a name="customize-pages-for-profiles"></a>Personnaliser les pages pour les profils
 Les utilisateurs peuvent personnaliser des pages qui constituent leur espace de travail en fonction de leurs propres préférences. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
@@ -29,7 +29,7 @@ La personnalisation de la page commence à partir de la page **Profils (rôles)*
 2. Sélectionnez la ligne du profil pour lequel vous souhaitez personnaliser des pages, puis sélectionnez l’action **Modifier**.
 3. Choisissez l’action **Personnaliser les pages**.
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)] ouvre un nouvel onglet de navigation pour le profil sélectionné avec la bannière **Personnalisation** activée. La bannière **Personnalisation** offre les mêmes fonctionnalités que la bannière **Personnalisation** disponible pour les utilisateurs.
+    [!INCLUDE[prod_short](includes/prod_short.md)] ouvre un nouvel onglet de navigation pour le profil sélectionné avec la bannière **Personnalisation** activée. La bannière **Personnalisation** offre les mêmes fonctionnalités que la bannière **Personnalisation** disponible pour les utilisateurs.
 
 4. Personnalisez les pages en fonction des besoins du rôle ou du service en question, comme le ferait un utilisateur lors de la personnalisation. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
 
@@ -70,4 +70,4 @@ La disposition sur les pages sélectionnées reflète désormais les modificatio
 [Gérer les profils](admin-users-profiles-roles.md)  
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

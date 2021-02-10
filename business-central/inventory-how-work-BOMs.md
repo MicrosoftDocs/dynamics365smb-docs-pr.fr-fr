@@ -1,21 +1,20 @@
 ---
-title: Utiliser les nomenclatures pour gérer les composants| Microsoft Docs
+title: Utiliser les nomenclatures pour gérer les composants
 description: Vous créez une nomenclature d’assemblage ou une nomenclature de production pour spécifier les composants ou ressources nécessaires pour assembler l’article que la nomenclature représente.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 01/05/2021
 ms.author: edupont
-ms.openlocfilehash: 4aa769c8a2b044f434a9643209eecb97f7f51f13
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c5d372c72d70c72f9c809fe6b3a05ed5b5528a8f
+ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919387"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "4838456"
 ---
 # <a name="work-with-bills-of-material"></a>Utiliser les nomenclatures
 Les nomenclatures d’assemblage permettent de structurer les articles parents qui doivent être assemblés ou produits par des ressources ou des postes de charge à partir des composants. Une nomenclature d’assemblage peut également être utilisée pour vendre un article parent sous la forme d’un kit constitué de ses composants.
@@ -89,11 +88,15 @@ Tous les champs de la ligne facture vente pour l’élément d’assemblage sont
 > Le rapport **Liste de prélèvement par ordre** est également modifié pour afficher uniquement les composants. Cela signifie qu’un magasinier qui choisit l’article parent, l’élément d’assemblage, ne le verra pas dans la liste de prélèvement. Pour plus d’informations, voir [Imprimer la liste de prélèvement](sales-how-print-picking-list.md).
 
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Pour calculer le coût standard d’un élément d’assemblage
+
 Vous calculez le coût unitaire d’un élément d’assemblage en regroupant le coût unitaire de chaque composant et ressource dans la nomenclature d’assemblage de l’article.
 
 Vous pouvez également calculer et mettre à jour le coût standard pour un ou plusieurs articles sur la page **Feuille coût standard**. Pour plus d’informations, voir [Mise à jour des coûts standard](finance-how-to-update-standard-costs.md).  
 
-Le coût unitaire d’une nomenclature d’assemblage équivaut toujours au total des coûts unitaires de ses composants, y compris ceux d’autres nomenclatures d’assemblage, et des ressources.
+Le coût unitaire d’une nomenclature d’assemblage équivaut toujours au total des coûts unitaires de ses composants, y compris ceux d’autres nomenclatures d’assemblage, et des ressources.  
+
+> [!NOTE]
+> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)]
 
 1. Dans le coin supérieur droit, sélectionnez l’icône **Page ou état pour la recherche**, entrez **Articles**, puis sélectionnez le lien connexe.
 2. Ouvrez la fiche d’un article d’assemblage. (Le champ **Nomenclature d’élément d’assemblage** sur la page **Articles** contient **Oui**.)
@@ -114,4 +117,4 @@ Les coûts des articles constituant la nomenclature d’assemblage sont copiés 
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
 [Voir la disponibilité des articles](inventory-how-availability-overview.md)     
 [Stock](inventory-manage-inventory.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

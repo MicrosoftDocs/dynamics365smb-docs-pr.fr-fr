@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a434de3479f4b100317230b93b06b922fa04692b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 68844bd869e2e0437ae53ad507e8d2c752c5496f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916600"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759416"
 ---
 # <a name="set-up-standard-routing-lines"></a>Configurer des lignes gamme standard
 
@@ -45,4 +45,4 @@ Lorsque vous imprimez la feuille de gamme, vous pouvez choisir d’inclure les �
 [Planifié](production-planning.md)  
 [Stock](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

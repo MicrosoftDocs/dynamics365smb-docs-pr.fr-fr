@@ -10,35 +10,37 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 44cbc7d42827b92f8983aa47b94d76760ddda8d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 32c3fedfbeea37a1be315d737ac9fe41b5c7c20a
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924254"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035430"
 ---
 # <a name="design-details-warehouse-setup"></a>Détails de conception : paramètres entrepôt
 
-La fonctionnalité d’entrepôt dans [!INCLUDE[d365fin](includes/d365fin_md.md)] contient différents niveaux de complexité, tels que définis par les autorisations de licence dans les granules proposés. Le niveau de complexité dans une solution entrepôt est en grande partie défini par le paramétrage des emplacements sur les fiches magasin, qui est lui-même contrôlé par licence afin que l’accès aux champs de configuration de l’emplacement soit défini par la licence. En outre, les objets applicatifs de la licence déterminent le document d’interface utilisateur à utiliser pour les activités entrepôt prises en charge.  
+La fonctionnalité d’entrepôt dans [!INCLUDE[prod_short](includes/prod_short.md)] contient différents niveaux de complexité, tels que définis par les autorisations de licence dans les granules proposés. Le niveau de complexité dans une solution entrepôt est en grande partie défini par le paramétrage des emplacements sur les fiches magasin, qui est lui-même contrôlé par licence afin que l’accès aux champs de configuration de l’emplacement soit défini par la licence. En outre, les objets applicatifs de la licence déterminent le document d’interface utilisateur à utiliser pour les activités entrepôt prises en charge.  
+<!--
+The following warehouse-related granules exist:  
 
-Les granules liés à l’entrepôt suivants existent :  
+- Basic Inventory (4010)  
+- Bin (4170)  
+- Put Away (4180)  
+- Warehouse Receipt (4190)  
+- Pick (4200)  
+- Warehouse Shipment (4210)  
+- Warehouse Management Systems (4620)  
+- Internal Picks and Put-aways (4630)  
+- Automated Data Capture System (4640)
+- Bin Setup (4660)  
 
-- Stock de base (4010)  
-- Emplacement (4170)  
-- Rangement (4180)  
-- Réception entrepôt (4190)  
-- Prélever (4200)  
-- Expédition entrepôt (4210)  
-- Systèmes de gestion d’entrepôt (4620)  
-- Prélèvements internes et rangements internes (4630)  
-- Système ADCS (4640)
-- Paramétrage emplacement (4660)  
+For more information about each granule, see [[!INCLUDE[prod_short](includes/prod_short.md)] Price Sheets](https://go.microsoft.com/fwlink/?LinkId=238341) (requires PartnerSource account). -->
 
-Pour plus d’informations sur chaque granule, voir [Feuilles de prix [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?LinkId=238341) (requiert un compte PartnerSource).  
+Le tableau suivant indique les granules requis pour définir les différents niveaux de complexité entrepôt, les documents de l’interface utilisateur qui prennent en charge chaque niveau, et les codes magasin qui reflètent ces niveaux dans la base de données de démonstration [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Le tableau suivant indique les granules requis pour définir les différents niveaux de complexité entrepôt, les documents de l’interface utilisateur qui prennent en charge chaque niveau, et les codes magasin qui reflètent ces niveaux dans la base de données de démonstration [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+[!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-|Niveau de complexité|Désignation|Document d’interface utilisateur|Magasin CRONUS|Granule minimum requis|  
+|Niveau de complexité|Description|Document d’interface utilisateur|Exemple d’emplacement|Granule minimum requis|  
 |----------------|-----------|-----------|---------------|---------------------------|  
 |1|Aucune activité entrepôt dédiée.<br /><br /> Validation recevoir/expédier à partir des commandes.|Commande|BLEU|Stock de base|  
 |2|Aucune activité entrepôt dédiée.<br /><br /> Validation recevoir/expédier à partir des commandes.<br /><br /> Code emplacement requis.|Commande, avec un code emplacement|ARGENTE|Stock de base/Emplacement|  
@@ -51,7 +53,7 @@ Pour des exemples d’utilisation des documents de l’interface utilisateur par
 
 ## <a name="bin-and-bin-content"></a>Emplacement et Contenu emplacement
 
-Un emplacement est un dispositif de stockage conçu pour contenir des éléments discrets. Il s’agit de la plus petite unité de conteneur dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Les quantités d’articles dans des emplacements sont appelées contenu de l’emplacement. Une recherche à partir du champ **Article** ou du champ **Code emplacement** dans n’importe quel document entrepôt affiche la disponibilité calculée de l’article dans l’emplacement.  
+Un emplacement est un dispositif de stockage conçu pour contenir des éléments discrets. Il s’agit de la plus petite unité de conteneur dans [!INCLUDE[prod_short](includes/prod_short.md)]. Les quantités d’articles dans des emplacements sont appelées contenu de l’emplacement. Une recherche à partir du champ **Article** ou du champ **Code emplacement** dans n’importe quel document entrepôt affiche la disponibilité calculée de l’article dans l’emplacement.  
 
 Le contenu d’un emplacement peut se voir affecter une propriété fixe, dédiée ou par défaut, pour définir la manière dont le contenu de l’emplacement peut être utilisé. Les emplacements sans aucune de ces propriétés sont appelés emplacements dynamiques.  
 

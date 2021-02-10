@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 447012a66e75e1acf03f2aff1ba6b6922164312f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0d13ffa03e4a123158e2f350ff9eab5e274741b5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918562"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760566"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Gérer les pièces jointes, les liens et les notes sur les fiches et les documents
 
@@ -29,7 +29,7 @@ Les pièces jointes, les liens et les notes restent attachés au fur et à mesur
 > Lorsque vous expédiez et facturez partiellement une commande vente ou une commande achat, le document joint ne sera annexé qu’à la facture finale de cette commande. De même, lorsque vous facturez à l’aide de la fonction Reports, le document joint est uniquement annexé aux entrées G/L pour le document, mais pas pour les écritures report.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Pour joindre un fichier à une facture achat
-Vous pouvez joindre tout type de fichier contenant du texte, des images ou des vidéos à une fiche ou à un document. Ceci est utile, par exemple, lorsque vous souhaitez stocker la facture d’un fournisseur sous forme de fichier PDF sur la facture achat correspondante dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Vous pouvez joindre tout type de fichier contenant du texte, des images ou des vidéos à une fiche ou à un document. Ceci est utile, par exemple, lorsque vous souhaitez stocker la facture d’un fournisseur sous forme de fichier PDF sur la facture achat correspondante dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
 > Les fichiers joints à la fonction Documents entrants ne sont pas inclus dans l’onglet **Pièces jointes**. Pour plus d’informations, voir [Documents entrants](across-income-documents.md).
@@ -95,6 +95,6 @@ La procédure suivante se base sur une commande vente. Les étapes sont similair
 La note est maintenant jointe à la commande client.
 
 ## <a name="see-also"></a>Voir aussi  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Documents entrants](across-income-documents.md)  
 [Configuration de notifications de workflow](across-setting-up-workflow-notifications.md)  

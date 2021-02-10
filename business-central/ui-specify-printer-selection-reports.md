@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5bc01e711be7d05205362536f4b44a5dbfc4aa2c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e088d13ead96111023df7781f0d6d1c1dcd58cfc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915992"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760291"
 ---
 # <a name="set-up-printers"></a>Paramétrage imprimantes
-Comme [!INCLUDE[prodshort](includes/prodshort.md)] est un service cloud, il ne peut pas atteindre les imprimantes locales connectées aux machines des utilisateurs. Cependant, il peut se connecter aux imprimantes cloud. Dans la version générique de [!INCLUDE[prodshort](includes/prodshort.md)], une imprimante cloud nommée **Imprimante par e-mail** est installée en tant qu’extension et prête à l’emploi après la configuration initiale.
+Comme [!INCLUDE[prod_short](includes/prod_short.md)] est un service cloud, il ne peut pas atteindre les imprimantes locales connectées aux machines des utilisateurs. Cependant, il peut se connecter aux imprimantes cloud. Dans la version générique de [!INCLUDE[prod_short](includes/prod_short.md)], une imprimante cloud nommée **Imprimante par e-mail** est installée en tant qu’extension et prête à l’emploi après la configuration initiale.
 
 Si aucune imprimante cloud n’est installée et configurée ou si une imprimante installée échoue, l’impression reprend par défaut les options d’impression du navigateur. Ceci est indiqué par cette valeur dans le champ **Imprimante** sur la page de demande d’état : *(aucune, gestion par le navigateur)*.
 
@@ -59,7 +59,7 @@ Vous devez prendre toutes les précautions de confidentialité nécessaires, not
 Sur la page **Sélections d’imprimantes**, vous pouvez configurer les états à imprimer sur des imprimantes spécifiques. Ceci est utile si vous utilisez différents états nécessitant différentes imprimantes en raison de leur placement dans la société ou de leurs capacités d’impression.
 
 > [!IMPORTANT]
-> Pour [!INCLUDE[prodshort](includes/prodshort.md)] sur site, la page **Sélections d’imprimantes** ne peut être utilisée que pour les imprimantes définies par les extensions d’imprimante. Elle ne peut pas être utilisée pour les imprimantes locales.
+> Pour [!INCLUDE[prod_short](includes/prod_short.md)] sur site, la page **Sélections d’imprimantes** ne peut être utilisée que pour les imprimantes définies par les extensions d’imprimante. Elle ne peut pas être utilisée pour les imprimantes locales.
 
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Sélections d’imprimantes**, puis sélectionnez le lien associé. Sinon, sur la page **Gestion des imprimantes**, sélectionnez une imprimante, puis l’action **Sélections d’imprimantes**.
 2. Choisissez l’action **Nouveau** pour ajouter une sélection d’imprimante pour un état spécifique.
@@ -88,6 +88,6 @@ Vous pouvez ou l’administrateur peut également utiliser la page **Sélections
 
 ## <a name="see-also"></a>Voir aussi
 [Impression d’un état](ui-work-report.md#PrintReport)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exécuter des traitements par lots](ui-how-run-batch-jobs.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  

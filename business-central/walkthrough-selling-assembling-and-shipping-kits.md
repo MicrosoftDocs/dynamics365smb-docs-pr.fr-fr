@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 097a1853b671afe582e40446c43cd628d807dfc0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 09819006540b6d88ecbc71c9db52a61da195a399
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918412"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035505"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procédure pas-à-pas : vente, assemblage et expédition de kits
 
@@ -37,7 +37,7 @@ Les articles d’assemblage sont caractérisés par leur système de réapprovis
 -   Création d’une nomenclature d’assemblage qui répertorie les composants d’assemblage et la ressource incluse dans l’article d’assemblage.  
 
 ### <a name="selling-customized-assembly-items"></a>Vente d’articles d’assemblage personnalisés  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] est flexible et permet d’entrer une quantité en stock et une quantité « assembler pour commande » sur la ligne commande vente. Cette section couvre les tâches suivantes :  
+[!INCLUDE[prod_short](includes/prod_short.md)] est flexible et permet d’entrer une quantité en stock et une quantité « assembler pour commande » sur la ligne commande vente. Cette section couvre les tâches suivantes :  
 
 -   Création d’une ligne commande vente purement « assembler pour commande » lorsque la quantité totale n’est pas disponible et doit être réunie avant la livraison.  
 -   Personnalisation des articles « assembler pour commande ».  
@@ -79,13 +79,16 @@ Cette procédure pas à pas présente les tâches effectuées par les rôles uti
 ## <a name="prerequisites"></a>Conditions préalables  
 Avant d’exécuter cette procédure pas à pas, veuillez suivre les instructions ci-dessous :  
 
--   Installez [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+-   Installez [!INCLUDE[prod_short](includes/prod_short.md)].  
 -   Devenez magasinier dans un magasin BLANC en procédant comme suit :  
 
 1.  Choisissez l’icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasiniers**, puis sélectionnez le lien associé.  
 2.  Choisissez le champ **ID utilisateur** et sélectionnez votre propre compte utilisateur sur la page **Utilisateurs**.  
 3.  Dans le champ **Code magasin**, entrez BLANC.  
 4.  Sélectionnez le champ **Par défaut**.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 Préparez le magasin BLANC pour l’assemblage en procédant comme suit :  
 

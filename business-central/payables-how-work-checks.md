@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 12cb799668430fe8eaaa47ebb2d93549539bb4eb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3ee126fae6e658700a6f83a37b4c4b77daa98a6e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916700"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759566"
 ---
 # <a name="make-check-payments"></a>Effectuer des paiements par chèque
 
-Vous pouvez émettre des chèques par voie électronique et manuelle dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ces deux méthodes utilisent la feuille paiement pour émettre des chèques aux fournisseurs. Vous pouvez également annuler des chèques et afficher les écritures comptables chèque.
+Vous pouvez émettre des chèques par voie électronique et manuelle dans [!INCLUDE[prod_short](includes/prod_short.md)]. Ces deux méthodes utilisent la feuille paiement pour émettre des chèques aux fournisseurs. Vous pouvez également annuler des chèques et afficher les écritures comptables chèque.
 
 La procédure suivante explique comment payer un fournisseur avec un chèque informatique en lettrant le paiement à la facture fournisseur appropriée, en imprimant le chèque et en validant le paiement comme payé. Il en résulte des écritures comptables fournisseur positives, lettrées aux écritures comptables banque négatives, et des chèques physiques qui seront traités dans la banque.
 
@@ -83,4 +83,4 @@ Si vous souhaitez examiner les chèques validés, par exemple pour vérifier plu
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Paramétrage des opérations bancaires](bank-setup-banking.md)  
 [Exporter un fichier Positive Pay](finance-how-positive-pay.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

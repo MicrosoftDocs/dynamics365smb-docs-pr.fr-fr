@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6df2078128cbcf9c4e5f59b7815f777d130543e5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6cdd00ab5f7372e79d2ab1ced6b77e9ed8343b95
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922693"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759341"
 ---
 # <a name="create-routings"></a>Créer des gammes
 
@@ -46,8 +46,8 @@ Pour pouvoir configurer une gamme, les éléments suivants doivent être en plac
 9. Dans le champ **Code lien gamme**, vous pouvez entrer un code permettant de lier le composant à une opération spécifique. Pour plus d’informations, reportez-vous à [Pour créer des liens gamme](production-how-to-create-routings.md#to-create-routing-links).
 10. Dans les champs **Temps d’exécution** et **Temps de préparation**, entrez les temps opératoires nécessaires pour exécuter l’opération.
 
-    > [!NOTE]
-    > Le temps de préparation est calculé par O.F., tandis que le temps d’exécution est calculé par article produit.  
+     > [!NOTE]
+     > Le temps de préparation est calculé par O.F., tandis que le temps d’exécution est calculé par article produit.  
 
 11. Dans le champ **Capacités simultanées** , indiquez combien d’unités de la ressource sélectionnée sont utilisées pour exécuter l’opération. Par exemple, deux personnes affectées à une opération de livraison diviseront par deux le temps d’exécution.  
 12. Poursuivez le remplissage des lignes pour toutes les opérations intervenant dans la production de l’article en question.  
@@ -129,4 +129,4 @@ La validité de la version est définie par le champ **Date début**.
 [Planifié](production-planning.md)  
 [Stock](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 353b2074edf80ddba705004e62a86e47943a4366
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b45b4c109d33773ead4e920d5692a615faa7a366
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916775"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759591"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Enregistrer les paiements et remboursements dans la feuille paiement
 
 Sur la page **Feuille paiement**, vous enregistrez les paiements effectués aux fournisseurs et les remboursements effectués aux clients. Lorsque vous validez une ligne feuille paiement, le montant payé est enregistré sur le compte bancaire système spécifié. Vous devez ensuite effectuer des actions pour procéder au transfert d’argent réel à partir du compte bancaire associé.  
 
-La feuille paiement est une feuille comptabilité qui est optimisée pour effectuer les paiements. Vous pouvez rapidement ajouter des lignes manuellement, vous pouvez laisser [!INCLUDE[d365fin](includes/d365fin_md.md)] proposer des paiements fournisseur, et vous pouvez lettrer le paiement dans les documents validés. Bien que vous effectuiez des paiements, vous entrez un montant positif dans le champ **Montant du document**. Selon le type de document de la ligne feuille, ce montant est ensuite converti en montant négatif dans les transactions sous-jacentes. Ainsi, il est plus rapide pour vous avez d’ajouter des lignes feuille manuellement. Si vous préférez saisir des montants négatifs, vous pouvez personnaliser la feuille paiement pour afficher le champ **Montant** à la place.  
+La feuille paiement est une feuille comptabilité qui est optimisée pour effectuer les paiements. Vous pouvez rapidement ajouter des lignes manuellement, vous pouvez laisser [!INCLUDE[prod_short](includes/prod_short.md)] proposer des paiements fournisseur, et vous pouvez lettrer le paiement dans les documents validés. Bien que vous effectuiez des paiements, vous entrez un montant positif dans le champ **Montant du document**. Selon le type de document de la ligne feuille, ce montant est ensuite converti en montant négatif dans les transactions sous-jacentes. Ainsi, il est plus rapide pour vous avez d’ajouter des lignes feuille manuellement. Si vous préférez saisir des montants négatifs, vous pouvez personnaliser la feuille paiement pour afficher le champ **Montant** à la place.  
 
 - Lettrer des paiements dans des factures ou des avoirs
 
@@ -56,4 +56,4 @@ La feuille paiement est une feuille comptabilité qui est optimisée pour effect
 [Exporter un fichier Positive Pay](finance-how-positive-pay.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
 [Personnaliser votre espace de travail](ui-personalization-user.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

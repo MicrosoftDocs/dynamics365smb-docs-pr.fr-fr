@@ -1,5 +1,5 @@
 ---
-title: 'Procédure : modifier le montant annuel du contrat service ou du devis contrat de service | Microsoft Docs'
+title: Modifier le montant annuel du contrat service ou du devis contrat
 description: Vous pouvez modifier le montant facturé annuellement sur des contrats de service ou des devis contrat de service.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: aecd53065e9567678a2d87c8d6bd21956c6251c1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 62a571ea35f70b26ac37aa23256d5af7b8e5320e
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925721"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013895"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Modifier le montant annuel du contrat service ou du devis contrat
 Vous pouvez modifier le montant annuel du contrat service ou du devis contrat afin de rectifier le montant qui sera facturé annuellement.  

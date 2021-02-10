@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 99c7410e31291213486d8843ba125359615c1477
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 87646a26a3cd962478fe36082b76c2843a620570
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911054"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035455"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Détails de conception : réservation, chaînage et message d’action
 Le système de réservation est complet et inclut les fonctionnalités étroitement liées et parallèles du Chaînage et des Messages d’action.  
@@ -29,10 +29,13 @@ Le système de réservation est complet et inclut les fonctionnalités étroitem
 
  Le système de réservation forme également la base structurelle du système de traçabilité. Pour plus d’informations, voir [Détails de conception : traçabilité](design-details-item-tracking.md).  
 
- Pour plus d’informations détaillées sur le fonctionnement du système de réservation, reportez-vous au livre blanc « table Écriture réservation » sur [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  
+ <!--For more detailed information about how the reservation system works, see the _Reservation Entry Table_ white paper on [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  -->
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="reservation"></a>Réservation  
- Une réservation est un lien ferme qui connecte une demande spécifique à un approvisionnement spécifique. Ce lien affecte directement la transaction d’inventaire ultérieure et garantit la bonne application des écritures article à des fins de coûts. Une réservation remplace le mode d’évaluation du stock par défaut d’un article. Pour plus d’informations, voir « Détails de conception : modes évaluation stock ».  
+ Une réservation est un lien ferme qui connecte une demande spécifique à un approvisionnement spécifique. Ce lien affecte directement la transaction d’inventaire ultérieure et garantit la bonne application des écritures article à des fins de coûts. Une réservation remplace le mode d’évaluation du stock par défaut d’un article. Pour plus d’informations, voir [Détails de conception : traçabilité](design-details-item-tracking.md).  
 
  La page **Réservation** est accessible à partir de toutes les lignes d’ordre à la fois des types demande et approvisionnement. Sur la page, l’utilisateur peut spécifier avec quelle écriture demande ou approvisionnement créer un lien réservation. La réservation comporte deux enregistrements qui partagent le même numéro de séquence. Un enregistrement contient un signe négatif et pointe vers la demande. L’autre enregistrement a un signe positif et pointe vers l’approvisionnement. Ces enregistrements sont stockés dans la table **Écriture réservation** avec la valeur d’état **Réservation**. L’utilisateur peut afficher toutes les réservations sur la page **Écritures réservation**.  
 
@@ -125,17 +128,17 @@ Le système de réservation est complet et inclut les fonctionnalités étroitem
 
 |Article 1|Name|« Composant »|
 |-|-|-|
-||Disponibilité|100 unités dans le magasin ROUGE<br /><br />- 30 unités de LOTA<br />- 70 unités de LOTB|  
+||Disponibilité|100 unités dans le magasin WEST<br /><br />- 30 unités de LOTA<br />- 70 unités de LOTB|  
 |Article 2|Name|« Article produit »|
 ||Nomenclature de production|1 quantité par « Composant »|  
-||demande|Vente de 100 unités au magasin BLEU|  
+||demande|Vente de 100 unités au magasin EAST|  
 ||Approvisionnement|Ordre de fabrication lancé (généré à l’aide de la fonction **Planification commande vente** pour la vente de 100 unités)|  
 
 Sur la page **Paramètres production**, le champ **Mag. composant par déf.** est défini sur **ROUGE**.
 
  Les écritures de chaînage suivantes existent dans la table **Écriture réservation**, en fonction des données de la table.  
 
- ![Écritures chaînage dans la table Écriture réservation](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
+ ![Premier exemple d’écritures chaînage dans la table Écriture réservation](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
 ### <a name="entry-numbers-8-and-9"></a>Numéros d’écriture 8 et 9  
  Pour le besoin composant de LOTA et de LOTB respectivement, des liens traçabilité commande sont créés entre la demande dans la table 5407, **Composant O.F.**, et l’approvisionnement dans la table 32, **Écriture comptable article**. Le champ **État de la réservation** contient **Traçabilité** pour indiquer que ces écritures sont des liens traçabilité commande dynamiques entre l’approvisionnement et la demande.  
@@ -146,14 +149,14 @@ Sur la page **Paramètres production**, le champ **Mag. composant par déf.** es
 ### <a name="entry-numbers-10"></a>Numéros d’écriture 10  
  Depuis la demande vente dans la table 37, **Ligne vente**, un lien de chaînage est créé avec l’approvisionnement dans la table 5406, **Ligne O.F.**. Le champ **État de la réservation** contient **Réservation**, et le champ **Lien** indique **Ordre pour ordre**. Ceci est dû au fait que l’ordre de fabrication émis a été généré spécifiquement pour la commande vente et doit rester lié contrairement aux liens de suivi de commande avec le statut de réservation **Traçabilité**, qui sont créés et modifiés de façon dynamique. Pour plus d’informations, voir la section « Réservations automatiques » de cette rubrique.  
 
- A ce stade dans ce scénario, les 100 unités de LOTA et LOTB sont transférées au magasin BLEU par un ordre de transfert.  
+ A ce stade dans ce scénario, les 100 unités de LOTA et LOTB sont transférées au magasin EAST par un ordre de transfert.  
 
 > [!NOTE]  
 >  Seule l’expédition de l’ordre de transfert est validée à ce stade, mais pas la réception.  
 
  À présent, les écritures de chaînage suivantes existent dans la table **Écriture réservation**.  
 
- ![Écritures chaînage dans la table Écriture réservation](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
+ ![Deuxième exemple d’écritures chaînage dans la table Écriture réservation](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
 ### <a name="entry-numbers-8-and-9"></a>Numéros d’écriture 8 et 9  
  Les écritures chaînage pour les deux lots du composant correspondant à la demande dans la table 5407 sont modifiées d’un statut de réservation **Traçabilité** à **Excédent**. La raison est que les approvisionnements qui ont été liés précédemment, dans la table 32, ont été utilisés par l’expédition de l’ordre de transfert.  
@@ -163,22 +166,22 @@ Sur la page **Paramètres production**, le champ **Mag. composant par déf.** es
 ### <a name="entry-numbers-12-to-16"></a>Numéros d’écriture 12 à 16  
  Dans la mesure où les deux lots du composant sont validés sur l’ordre de transfert comme réceptionnés mais non acceptés, toutes les écritures chaînage positives associées sont du type de réservation **Excédent**, indiquant qu’elles ne sont affectées à aucune demande. Pour chaque numéro de lot, une écriture est liée au tableau 5741, **Ligne transfert**, et une écriture est liée à l’écriture comptable article au magasin transit où les articles sont disponibles à présent.  
 
- A ce stade dans ce scénario, l’ordre de transfert des composants du magasin BLEU vers le magasin ROUGE est validé comme étant reçu.  
+ A ce stade dans ce scénario, l’ordre de transfert des composants du magasin EAST vers le magasin WEST est validé comme étant reçu.  
 
  À présent, les écritures de chaînage suivantes existent dans la table **Écriture réservation**.  
 
- ![Écritures chaînage dans la table Écriture réservation](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
+ ![Troisième exemple d’écritures chaînage dans la table Écriture réservation](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
 
- Les écritures chaînage sont similaires à présent au premier point dans ce scénario, avant la validation de l’ordre de transfert comme expédié uniquement, sauf que les écritures du composant ont à présent le statut de réservation **Excédent**. Ceci est dû au fait que le besoin de composant est toujours au magasin ROUGE, reflétant ainsi que le champ **Code magasin** de la ligne composant de l’ordre de fabrication. **ROUGE** tel que configuré dans le champ de configuration **Mag. composant par déf.**. L’approvisionnement qui a été affecté à cette demande auparavant a été transféré au magasin BLEU et ne peut pas être entièrementsuivi à moins que le besoin de composant de la ligne O.F. ne soit modifié sur magasin BLEU.  
+ Les écritures chaînage sont similaires à présent au premier point dans ce scénario, avant la validation de l’ordre de transfert comme expédié uniquement, sauf que les écritures du composant ont à présent le statut de réservation **Excédent**. Ceci est dû au fait que le besoin de composant est toujours au magasin WEST, reflétant ainsi que le champ **Code magasin** de la ligne composant de l’ordre de fabrication. **WEST** tel que configuré dans le champ de configuration **Mag. composant par déf.**. L’approvisionnement qui a été affecté à cette demande auparavant a été transféré au magasin EAST et ne peut pas être entièrement suivi à moins que le besoin de composant de la ligne O.F. ne soit modifié sur magasin EAST.  
 
- A ce stade dans ce scénario, le **Code magasin** de la ligne O.F. est défini sur **BLEU**. En outre, sur la page **Lignes traçabilité**, les 30 unités de LOTA et les 70 unités de LOTB sont affectées à la ligne O.F.  
+ À ce stade dans ce scénario, le **Code magasin** de la ligne O.F. est défini sur **EAST**. En outre, sur la page **Lignes traçabilité**, les 30 unités de LOTA et les 70 unités de LOTB sont affectées à la ligne O.F.  
 
  À présent, les écritures de chaînage suivantes existent dans la table **Écriture réservation**.  
 
- ![Écritures chaînage dans la table Écriture réservation](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
+ ![Quatrième exemple d’écritures chaînage dans la table Écriture réservation](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
 ### <a name="entry-numbers-21-and-22"></a>Numéros d’écriture 21 et 22  
- Comme le besoin composant a été modifié au magasin BLEU, et que l’approvisionnement est disponible comme écritures comptables article au magasin BLEU, toutes les écritures chaînage pour les deux numéros de lot sont à présent entièrement suivis, comme indiqué par le statut **Traçabilité**de la réservation.  
+ Comme le besoin composant a été modifié au magasin EAST, et que l’approvisionnement est disponible comme écritures comptables article au magasin EAST, toutes les écritures chaînage pour les deux numéros de lot sont à présent entièrement suivis, comme indiqué par le statut **Traçabilité** de la réservation.  
 
  Le champ **N° lot** est désormais renseigné dans l’écriture chaînage de la table 5407, car les numéros de lot ont été affectés aux lignes composant O.F.  
 

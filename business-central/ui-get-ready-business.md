@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 439280317792e4baedba18c5a4f05b8eab440921
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 188672083fabd15bc7c1758459fc1ebd7b65a409
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912176"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4816978"
 ---
 # <a name="getting-ready-for-doing-business"></a>Préparation aux activités commerciales
 
-Félicitations, vous venez de créer votre première société dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Félicitations, vous venez de créer votre première société dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Pour vous aider à vous préparer pour vos activités commerciales, vous pouvez visiter la page **Configuration assistée** dans laquelle vous pouvez lancer des guides de configuration assistée, des vidéos ou des rubriques d’aide pour les tâches de configuration sélectionnées. Pour accéder à la page, choisissez simplement l’icône ![Pignon pour ouvrir le menu Paramètres](media/ui-experience/settings_icon_small.png), puis l’action **Configuration assistée**.
 
@@ -27,7 +27,7 @@ Sinon, pour ouvrir la liste des guides de configuration assistée pour un rôle,
 
 Une fois que vous avez effectué la migration des données telles que les fournisseurs, les clients et les articles de votre système financier existant, vous êtes prêt à commencer. Mais en fonction de vos besoins, demandez-vous si les autres guides de configuration assistée peuvent vous aider.
 
-Si une zone n’est pas couverte par une configuration assistée, choisissez l’icône ![Pignon pour ouvrir le menu Paramètres](media/ui-experience/settings_icon_small.png), puis l’action **Paramètres avancés**. Dans **Paramètres avancés**, la section **Configuration manuelle** permet d’accéder aux pages de configuration où vous pouvez renseigner manuellement les champs de configuration pour toutes les zones. Pour plus d’informations, reportez-vous à [Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+Si une zone n’est pas couverte par une configuration assistée, choisissez l’icône ![Pignon pour ouvrir le menu Paramètres](media/ui-experience/settings_icon_small.png), puis l’action **Paramètres avancés**. Dans **Paramètres avancés**, la section **Configuration manuelle** permet d’accéder aux pages de configuration où vous pouvez renseigner manuellement les champs de configuration pour toutes les zones. Pour plus d’informations, reportez-vous à [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 > [!NOTE]  
 > La liste des guides de configuration assistée, des extensions et des services disponibles diffèrent selon l’expérience de l’utilisateur que vous choisissez pour votre société. L’expérience de type **Essential** donne accès à moins d’options que l’expérience **Premium**.
@@ -49,7 +49,7 @@ Utilisez les flèches pour réduire une partie de la page et faire de la place a
 
 ## <a name="company-information"></a>Informations société
 
-Sous **Paramètres de la société** vous pouvez afficher et modifier les informations de configuration sur la société actuelle. Un grand nombre de ces informations sont préremplies si vous avez exécuté la configuration assistée **Configurer la société** lors de votre inscription à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Si vous souhaitez modifier le logo de la société, les informations de contact, les paramètres bancaires, ou les informations fiscales, vous pouvez le faire à partir de cette page.  
+Sous **Paramètres de la société** vous pouvez afficher et modifier les informations de configuration sur la société actuelle. Un grand nombre de ces informations sont préremplies si vous avez exécuté la configuration assistée **Configurer la société** lors de votre inscription à [!INCLUDE[prod_short](includes/prod_short.md)]. Si vous souhaitez modifier le logo de la société, les informations de contact, les paramètres bancaires, ou les informations fiscales, vous pouvez le faire à partir de cette page.  
 
 ## <a name="adding-users-and-permissions"></a>Ajouter des utilisateurs et des autorisations
 
@@ -59,7 +59,7 @@ Une fois les utilisateurs créés dans Microsoft 365, ils peuvent être importé
 
 ## <a name="getting-help"></a>Obtenir de l’aide
 
-Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], des info-bulles vous guident dans l’utilisation des différents processus entreprise. Pour chaque info-bulles, choisissez le lien **En savoir plus** pour ouvrir l’aide de la page en question. Sur toutes les pages, utilisez Ctrl+F1 sur votre clavier pour ouvrir l’aide de la page en question. Le point d’interrogation dans le coin supérieur droit ouvre la page **Aide et support** et vous pouvez également accéder à l’aide sur le produit.
+Dans [!INCLUDE[prod_short](includes/prod_short.md)], des info-bulles vous guident dans l’utilisation des différents processus entreprise. Pour chaque info-bulles, choisissez le lien **En savoir plus** pour ouvrir l’aide de la page en question. Sur toutes les pages, utilisez Ctrl+F1 sur votre clavier pour ouvrir l’aide de la page en question. Le point d’interrogation dans le coin supérieur droit ouvre la page **Aide et support** et vous pouvez également accéder à l’aide sur le produit.
 
 ## <a name="next-steps"></a>Étapes suivantes
 
@@ -68,9 +68,9 @@ En fonction de la migration de vos données, vous pouvez maintenant passer à la
 ## <a name="see-also"></a>Voir aussi
 
 [Mise en route](product-get-started.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)  
-[Versions d’évaluation et abonnements [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](across-preview.md)  
+[Versions d’évaluation et abonnements [!INCLUDE[prod_long](includes/prod_long.md)]](across-preview.md)  
 [Ressources pour l’Aide et le support](product-help-and-support.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
