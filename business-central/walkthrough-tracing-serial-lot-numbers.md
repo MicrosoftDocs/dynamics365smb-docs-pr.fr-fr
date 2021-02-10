@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 90327ababa08d28baadcec26353f67c8736c62ee
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8fc5da8ca5dc69f93dfa81d4f581a7323ad01811
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925446"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756366"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Procédure pas à pas : suivi des numéros de série et des numéros de lot
 
@@ -50,7 +50,7 @@ Cette procédure pas à pas présente les tâches effectuées par les rôles uti
 
 Pour exécuter ce processus pas à pas, vous devez :  
 
-- La société [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+- La société [!INCLUDE[prod_short](includes/prod_short.md)].  
 - Pour créer des articles et plusieurs transactions commerciales en suivant [Préparation d’exemples de données](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).  
 
 ## <a name="story"></a>Scénario

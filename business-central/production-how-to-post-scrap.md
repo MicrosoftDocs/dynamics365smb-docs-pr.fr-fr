@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2cfc545e328da020ce8ecd4dc7a79e6303902636
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ed2cd341010ef8d90e037a9afaa240d755fc3d7a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916550"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759116"
 ---
 # <a name="post-scrap-manually"></a>Valider le rebut manuellement
 Si le traitement produit un rebut, vous pouvez entrer ce rebut dans la feuille production. 
@@ -36,4 +36,4 @@ Si le traitement produit un rebut, vous pouvez entrer ce rebut dans la feuille p
 [Planifié](production-planning.md)      
 [Stock](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

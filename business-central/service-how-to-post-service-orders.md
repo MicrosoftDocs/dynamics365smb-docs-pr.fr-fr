@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2e8dcdaa2cf275ff439257bc7146f90ab753f32f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 36a4bdea7967544ad19cb562077a8bdf498dc655
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915309"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757866"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Valider des commandes et des avoirs service
 Après avoir créé une commande service, fourni toutes les informations et apporté les éventuelles modifications, vous pouvez valider cette commande. Pour que vous puissiez valider une commande, celle-ci doit contenir au moins une ligne service et une ligne facture service avant. Si la commande contient plusieurs lignes service, toutes les lignes sont validées en même temps.  
@@ -85,7 +85,7 @@ La procédure suivante décrit comment valider les articles, les heures et/ou co
 Le service est validé comme étant consommé, entièrement ou partiellement, en fonction de la valeur renseignée dans le champ **Qté à consommer** et les écritures comptables correspondantes sont créées. En outre, les documents expédition service précédemment validés sont mis à jour, de façon chronologique, avec les quantités consommées. Les quantités appropriées sont mises à jour dans les lignes service de la commande.  
 
 ## <a name="to-post-shipments-from-service-orders"></a>Pour valider des expéditions à partir de commandes service  
-Après avoir spécifié les détails d’un service, vous pouvez ajuster et valider les quantités d’articles utilisées, le temps passé et les coûts exposés. Par conséquent, [!INCLUDE[d365fin](includes/d365fin_md.md)] apporte les modifications nécessaires afin de refléter le nouvel état du stock et le statut actuel du traitement de commande spécifique.  
+Après avoir spécifié les détails d’un service, vous pouvez ajuster et valider les quantités d’articles utilisées, le temps passé et les coûts exposés. Par conséquent, [!INCLUDE[prod_short](includes/prod_short.md)] apporte les modifications nécessaires afin de refléter le nouvel état du stock et le statut actuel du traitement de commande spécifique.  
 
 La procédure suivante explique comment valider l’expédition des articles ligne service dans les magasins qui ne sont pas configuré pour appeler une gestion d’entrepôt.  
 
@@ -97,7 +97,7 @@ La procédure suivante explique comment valider l’expédition des articles lig
 
 4. Sélectionnez l’action **Valider**. Sur la page qui apparaît, sélectionnez le bouton **Expédier**.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] crée les écritures comptables appropriées (dans les écritures comptables garantie, les écritures comptables article, les écritures comptables service ou la comptabilité). Il génère également le document expédition service validé et met à jour les champs appropriés sur les lignes service de la commande service.  
+[!INCLUDE[prod_short](includes/prod_short.md)] crée les écritures comptables appropriées (dans les écritures comptables garantie, les écritures comptables article, les écritures comptables service ou la comptabilité). Il génère également le document expédition service validé et met à jour les champs appropriés sur les lignes service de la commande service.  
 
 Si le magasin est configuré pour exiger la gestion d’entrepôt, l’expédition et le déplacement d’articles de ligne service s’exécutent de la même manière que pour d’autres documents origine. La seule différence est que les articles de la ligne service peuvent être consommés en externe ou en interne et nécessitent donc deux fonctions de lancement différentes.  
 

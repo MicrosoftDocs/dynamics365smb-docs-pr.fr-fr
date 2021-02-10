@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 37b999dd9000ac9833798f827f85bfd945878638
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6ffd2a12d399f0a05517d9e1031df3227aa7248a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926396"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758341"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Définir des règles pour le lettrage automatique des paiements
 
@@ -51,10 +51,10 @@ Outre les critères de correspondance, les remarques suivantes s'appliquent conc
 |**Correspondance N° doc./N° doc. ext.**|Spécifie si le texte de la ligne feuille rapprochement bancaire doit correspondre à la valeur du champ **N° document** ou du champ **N° document externe** sur l'écriture ouverte avant que la règle de lettrage soit utilisée pour lettrer automatiquement le paiement avec l'écriture ouverte.|
 |**Correspondance montant avec écart**|Spécifie combien d'écritures pour un client ou un fournisseur doivent correspondre au montant (écart de règlement compris) avant que la règle de lettrage soit utilisée pour lettrer automatiquement un paiement avec l'écriture ouverte.|
 
-Le tableau suivant montre les règles de lettrage de paiement définies dans la version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Le tableau suivant montre les règles de lettrage de paiement définies dans la version générique de [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!Important]
-> Les règles de lettrage de paiement peuvent être différentes dans votre implémentation de [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> Les règles de lettrage de paiement peuvent être différentes dans votre implémentation de [!INCLUDE[prod_short](includes/prod_short.md)].
 
 | Fiabilité correspondance | Priorité | Correspondance partie associée | Correspondance N° doc./N° doc. ext. | Correspondance montant avec écart |
 |------------------|----------|-----------------------|--------------------------------|--------------------------------|
@@ -89,4 +89,4 @@ Le tableau suivant montre les règles de lettrage de paiement définies dans la 
 [Rapprocher les paiements à l'aide de l'application automatique](receivables-how-reconcile-payments-auto-application.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

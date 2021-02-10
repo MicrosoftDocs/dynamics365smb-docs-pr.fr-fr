@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 29c97a2fbb8fab50d9d433f4c73d840846e32b95
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1b790743feb2c32bec1cdb45f69ac30c529e02ac
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925771"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757961"
 ---
 # <a name="allocate-resources"></a>Affecter des ressources
-Les personnes qui fournissent le service représentent l’élément clé de la gestion des services. Vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour affecter les personnes aux tâches de manière appropriée. Vous pouvez baser les affectations sur les zones de service dans lesquelles les personnes sont situées ou dans lesquelles le service se produit. En outre, vous pouvez regrouper les ressources lors de la réponse aux demandes de service. Pour plus d’informations, voir [Configurer l’affectation des ressources](service-how-setup-resource-allocation.md).
+Les personnes qui fournissent le service représentent l’élément clé de la gestion des services. Vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour affecter les personnes aux tâches de manière appropriée. Vous pouvez baser les affectations sur les zones de service dans lesquelles les personnes sont situées ou dans lesquelles le service se produit. En outre, vous pouvez regrouper les ressources lors de la réponse aux demandes de service. Pour plus d’informations, voir [Configurer l’affectation des ressources](service-how-setup-resource-allocation.md).
 
 Vous pouvez affecter des ressources, par exemple, des techniciens, à l’aide du **Tableau d’affectation** ou d’une commande service. Vous pouvez utiliser la disponibilité des ressources pour affecter des ressources à l’exécution des tâches service dans les commandes ou les devis.
 
@@ -138,7 +138,7 @@ Vous pouvez annuler des affectations de ressources pour des tâches service sans
 6. Cliquez sur **Oui** pour confirmer l’annulation.  
 
     > [!NOTE]  
-    > L’option **Réaffectation nécessaire** dans le champ **Statut** est automatiquement sélectionnée. Si le statut réparation de l’article de service de l’écriture est **Initial**, le programme le transforme en **Expertisé** (aucun service n’a été commencé). Si l’état réparation est **En cours**, il est modifié en **Service en partie réalisé**càd que la maintenance a été partiellement effectuée.
+    > L’option **Réaffectation nécessaire** dans le champ **Statut** est automatiquement sélectionnée. Si le statut réparation de l’article de service de l’écriture est **Initial**, le programme le transforme en **Expertisé** (aucun service n’a été commencé). Si l’état réparation est **En cours**, il est modifié en **Service en partie réalisé** càd que la maintenance a été partiellement effectuée.
 
 ## <a name="see-also"></a>Voir aussi
 [Configurer l’affectation des ressources](service-how-setup-resource-allocation.md)  

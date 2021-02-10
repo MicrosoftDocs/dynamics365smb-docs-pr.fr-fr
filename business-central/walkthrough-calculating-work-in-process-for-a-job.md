@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e3b0b01eb85cc6b24cc665e340da1d479517924a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 650f45093688825565eb664ebca7daaa3e972140
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914859"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756516"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Procédure pas à pas : calcul des travaux en cours pour un projet
 
@@ -38,7 +38,7 @@ Avec les projets, vous pouvez planifier l’utilisation des ressources de votre 
  Cette procédure pas à pas décrit les activités de Tricia, membre de l’équipe Projet.  
 
 ## <a name="prerequisites"></a>Conditions préalables  
- Avant de pouvoir exécuter les tâches de cette procédure pas à pas, [!INCLUDE[d365fin](includes/d365fin_md.md)] doit être installé sur votre ordinateur.  
+ Avant de pouvoir exécuter les tâches de cette procédure pas à pas, [!INCLUDE[prod_short](includes/prod_short.md)] doit être installé sur votre ordinateur.  
 
 ## <a name="story"></a>Scénario  
  Ce procédure pas à pas se concentre sur la société CRONUS International Ltd., entreprise de conception et de conseil, qui conçoit et équipe de nouvelles infrastructures (telles que des salles de conférence et des bureaux) avec du mobilier, des accessoires et des unités de stockage. La majeure partie du travail à CRONUS est orientée projets et Tricia, membre de l’équipe Projet, utilise les projets pour obtenir un aperçu des projets en cours acceptés par CRONUS, ainsi que des projets terminés. Certains des projets peuvent être très longs et durer plusieurs mois. Tricia peut utiliser un compte TEC pour enregistrer les travaux en cours et suivre les coûts tout au long du projet.  
@@ -156,11 +156,11 @@ Avec les projets, vous pouvez planifier l’utilisation des ressources de votre 
     >  Supposons que Tricia a calculé et validé les TEC d’un projet avec des dates incorrectes. En suivant la méthode vue précédemment, elle peut contrepasser les validations incorrectes, corriger les dates et revalider les TEC en comptabilité.  
 
 ## <a name="next-steps"></a>Étapes suivantes  
- Cette procédure pas-à-pas vous a montré comment calculer les TEC dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Avec des projets plus vastes, il peut être utile de transférer les coûts vers un compte TEC de manière périodique tandis que le projet est en cours d’achèvement. Cette procédure pas-à-pas vous a montré comment exclure des lignes tâche d’un calcul. Elle vous montre également à quel moment vous devriez avoir à recalculer. Enfin, cette procédure pas-à-pas montre comment valider les TEC en comptabilité. Un exemple de la manière de contrepasser une validation TEC en comptabilité est également inclus.  
+ Cette procédure pas-à-pas vous a montré comment calculer les TEC dans [!INCLUDE[prod_short](includes/prod_short.md)]. Avec des projets plus vastes, il peut être utile de transférer les coûts vers un compte TEC de manière périodique tandis que le projet est en cours d’achèvement. Cette procédure pas-à-pas vous a montré comment exclure des lignes tâche d’un calcul. Elle vous montre également à quel moment vous devriez avoir à recalculer. Enfin, cette procédure pas-à-pas montre comment valider les TEC en comptabilité. Un exemple de la manière de contrepasser une validation TEC en comptabilité est également inclus.  
 
 ## <a name="see-also"></a>Voir aussi  
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)  
  [Procédure pas à pas : gestion des projets](walkthrough-managing-projects-with-jobs.md)   
  [Comprendre les méthodes TEC](projects-understanding-wip.md)   
  [Surveillance de la progression et des performances](projects-how-monitor-progress-performance.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

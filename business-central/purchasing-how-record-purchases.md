@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4073ccccd36f6ec62804a5c1bd1881fb4d7a167d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 845b552141f5637893bb0f0041b3247bce023c5f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926796"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758491"
 ---
 # <a name="record-purchases"></a>Enregistrer des achats
 Vous créez une facture achat ou une commande achat pour enregistrer le coût d’achats et suivre les créances. Si vous devez contrôler un stock, les factures achat et les commandes achat sont également utilisées pour mettre à jour de manière dynamique les niveaux de stock afin que vous puissiez réduire vos coûts et fournir un meilleur service client. Le prix d’achat, notamment les frais de service, et les valeurs d’inventaire qui résultent de la validation des factures achat ou des commandes contribuent aux chiffres du profit et à d’autres KPI financiers sur votre Tableau de bord.
@@ -99,4 +99,4 @@ L’achat est désormais visible dans le stock, les écritures ressource et les 
 [Acheter des articles pour une vente](purchasing-how-purchase-products-sale.md)  
 [Enregistrer un nouveau fournisseur](purchasing-how-register-new-vendors.md)  
 [Préparer des livraisons directes](sales-how-drop-shipment.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

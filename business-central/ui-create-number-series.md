@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 75a841fd2d6bf8321f15bb0a6fe88d41bf152308
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b61f4fb5cdcee284b183a08c70224348c99530cd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912645"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757616"
 ---
 # <a name="create-number-series"></a>Création des souches de numéros
 Pour chaque société que vous configurez, vous devez affecter des codes d’identification uniques aux éléments tels que les comptes généraux, les comptes client et fournisseur, les factures et d’autres documents. La numérotation est importante, pas uniquement pour l’identification. Un système de numérotation bien conçu facilite la gestion et l’analyse de la société et permet de réduire les erreurs de saisie des données.
@@ -26,7 +26,7 @@ Pour chaque société que vous configurez, vous devez affecter des codes d’ide
 Si vous souhaitez autoriser des écarts dans certaines séries de nombres, commencez par consulter l’auditeur ou le responsable de la comptabilité pour vous assurer de respecter les exigences légales en vigueur dans votre pays/région. Pour plus d’informations, voir [Écarts dans les souches de numéros](ui-create-number-series.md#gaps-in-number-series).
 
 > [!NOTE]  
->   Il est recommandé d’utiliser les mêmes codes souche de numéros que ceux répertoriés sur la page **Liste de souches de numéros** de la société de démonstration CRONUS. Des codes tels que *P-INV+* ne vont pas vous paraître significatifs au premier abord, mais [!INCLUDE[d365fin](includes/d365fin_md.md)] dispose d’un certain nombre de paramètres par défaut en fonction de ces codes souche de numéros.
+>   Il est recommandé d’utiliser les mêmes codes souche de numéros que ceux répertoriés sur la page **Liste de souches de numéros** de la société de démonstration CRONUS. Des codes tels que *P-INV+* ne vont pas vous paraître significatifs au premier abord, mais [!INCLUDE[prod_short](includes/prod_short.md)] dispose d’un certain nombre de paramètres par défaut en fonction de ces codes souche de numéros.
 
 Vous créez un système de numérotation en définissant un ou plusieurs codes pour chaque type de données de base ou de document. Par exemple, vous pouvez définir un code pour la numérotation de clients, un code pour la numérotation des factures vente et un autre code pour la numérotation des documents dans les feuilles comptabilité. Une fois que vous avez défini un code, vous devez définir au moins une ligne souche de numéros. Celle-ci contient des informations telles que les premier et dernier numéros de la souche et la date de début. Vous pouvez définir plusieurs lignes souche de numéros par code souche de numéros, avec une date de début différente pour chaque ligne. Les souches sont utilisées de manière consécutive, chaque souche commençant à la date de début respective.
 
@@ -35,7 +35,7 @@ Vous devez généralement définir votre souche de numéros pour insérer automa
 Si vous voulez utiliser plusieurs codes souche de numéros pour un type de données de base (par exemple, si vous voulez utiliser différentes souches de numéros pour diverses catégories d’articles), vous pouvez utiliser des liens de souches de numéros.
 
 ## <a name="gaps-in-number-series"></a>Écarts dans les souches de numéros
-Tous les enregistrements que vous créez dans [!INCLUDE[d365fin](includes/d365fin_md.md)] ne sont pas des transactions financières qui doivent utiliser une numérotation séquentielle. Les fiches client, les devis, et les activités d’entrepôt sont des exemples d’enregistrements auxquels un numéro d’une série de numéros est attribué, mais qui ne sont pas soumis à l’audit financier et/ou peuvent être supprimés. Pour ces séries de numéros, vous pouvez cocher la case **Autoriser les écarts dans les numéros** sur la page **Lignes souche de n°**. Ce paramètre peut être également modifié après la création de la série de numéros. Pour plus d’informations, voir [Pour créer des souches de numéros](ui-create-number-series.md#to-create-a-new-number-series).
+Tous les enregistrements que vous créez dans [!INCLUDE[prod_short](includes/prod_short.md)] ne sont pas des transactions financières qui doivent utiliser une numérotation séquentielle. Les fiches client, les devis, et les activités d’entrepôt sont des exemples d’enregistrements auxquels un numéro d’une série de numéros est attribué, mais qui ne sont pas soumis à l’audit financier et/ou peuvent être supprimés. Pour ces séries de numéros, vous pouvez cocher la case **Autoriser les écarts dans les numéros** sur la page **Lignes souche de n°**. Ce paramètre peut être également modifié après la création de la série de numéros. Pour plus d’informations, voir [Pour créer des souches de numéros](ui-create-number-series.md#to-create-a-new-number-series).
 
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Comportement du champ N° sur des documents et des fiches
 Sur les documents de vente, d’achat et de transfert ainsi que sur toutes les fiches, le champ **N°** peut être renseigné automatiquement depuis une souche de numéros ou manuellement et peut être configuré pour être invisible.
@@ -85,5 +85,5 @@ Désormais, pour créer un élément nécessitant un numéro, vous pourrez utili
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
-[Configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

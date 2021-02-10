@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 16b167ae9412449e29a002b9d588109ddc75da28
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 25db2730cebefe224494561e6f5179cc3bfed56e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919012"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758666"
 ---
 # <a name="set-up-time-sheets"></a>Paramétrer des feuilles de temps
-Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les feuilles de temps gèrent l’enregistrement des heures sur une base hebdomadaire par incrément de sept jours. Elles permettent de suivre le temps consacré à des projets, et vous pouvez les utiliser pour enregistrer les heures ressource. Avant de pouvoir utiliser des feuilles de temps, vous devez les configurer.
+Dans [!INCLUDE[prod_short](includes/prod_short.md)], les feuilles de temps gèrent l’enregistrement des heures sur une base hebdomadaire par incrément de sept jours. Elles permettent de suivre le temps consacré à des projets, et vous pouvez les utiliser pour enregistrer les heures ressource. Avant de pouvoir utiliser des feuilles de temps, vous devez les configurer.
 
 Une fois l’utilisation des feuilles de temps au sein de votre organisation configurée, vous pouvez indiquer si et comment les feuilles de temps sont approuvées. Selon les besoins de votre organisation, vous pouvez désigner :
 
@@ -63,4 +63,4 @@ Lorsque vous créez des feuilles de temps, vous pouvez créer des feuilles de te
 [Finances](finance.md)  
 [Achats](purchasing-manage-purchasing.md)         
 [Ventes](sales-manage-sales.md)      
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

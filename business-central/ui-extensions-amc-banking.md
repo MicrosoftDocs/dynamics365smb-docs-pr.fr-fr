@@ -10,21 +10,21 @@ ms.workload: na
 ms. search.keywords: bank, format, data
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8eb45d8c65a09ac56617f84a41543c38a4518fa9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a2147240aac15b805a6f64473b5eb2febb38deac
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912395"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757566"
 ---
 # <a name="using-the-amc-banking-365-fundamentals-extension"></a>Utilisation de l’extension AMC Banking 365 Fundamentals
-L’extension AMC Banking 365 Fundamentals facilite et précise l’envoi des données à vos banques. L’extension connecte [!INCLUDE[d365fin](includes/d365fin_md.md)] au service AMC Banking 365 Fundamentals pour Microsoft Dynamics 365 Business Central, qui peut convertir les données bancaires de [!INCLUDE[d365fin](includes/d365fin_md.md)] dans des formats exigés par plus de 600 banques du monde entier. Par exemple, cela facilite le transfert des paiements et des crédits aux fournisseurs en entrant les paiements dans [!INCLUDE[d365fin](includes/d365fin_md.md)], puis en les téléchargeant dans votre banque. Les formats peuvent également faciliter les processus de rapprochement bancaire. Pour plus d’informations, voir [AMC Banking pour Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help).
+L’extension AMC Banking 365 Fundamentals facilite et précise l’envoi des données à vos banques. L’extension connecte [!INCLUDE[prod_short](includes/prod_short.md)] au service AMC Banking 365 Fundamentals pour Microsoft Dynamics 365 Business Central, qui peut convertir les données bancaires de [!INCLUDE[prod_short](includes/prod_short.md)] dans des formats exigés par plus de 600 banques du monde entier. Par exemple, cela facilite le transfert des paiements et des crédits aux fournisseurs en entrant les paiements dans [!INCLUDE[prod_short](includes/prod_short.md)], puis en les téléchargeant dans votre banque. Les formats peuvent également faciliter les processus de rapprochement bancaire. Pour plus d’informations, voir [AMC Banking pour Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help).
 
 > [!Note]
-> AMC Banking a créé des extensions supplémentaires qui fonctionnent avec [!INCLUDE[d365fin](includes/d365fin_md.md)]. Cette rubrique décrit uniquement l’extension Fundamental.
+> AMC Banking a créé des extensions supplémentaires qui fonctionnent avec [!INCLUDE[prod_short](includes/prod_short.md)]. Cette rubrique décrit uniquement l’extension Fundamental.
 
 ## <a name="using-our-demonstration-account"></a>Utilisation de notre compte de démonstration
-[!INCLUDE[d365fin](includes/d365fin_md.md)] est fourni avec un compte de démonstration qui vous permet d’essayer l’extension AMC Banking 365 Fundamentals. Nous fournissons les paramètres par défaut pour la connexion à AMC Banking, en spécifiant les comptes bancaires à partir desquels obtenir des données dans [!INCLUDE[d365fin](includes/d365fin_md.md)], plus quelques définitions d’échange de données. Vous pouvez afficher les paramètres de connexion sur la page **Configuration AMC Banking**. Pour les comptes bancaires, l’extension applique des valeurs dans les champs **Nom banque**, **N° msg. virement**, **Format importation relevé bancaire** et **Format exportation paiement** dans les fiches de compte bancaire.
+[!INCLUDE[prod_short](includes/prod_short.md)] est fourni avec un compte de démonstration qui vous permet d’essayer l’extension AMC Banking 365 Fundamentals. Nous fournissons les paramètres par défaut pour la connexion à AMC Banking, en spécifiant les comptes bancaires à partir desquels obtenir des données dans [!INCLUDE[prod_short](includes/prod_short.md)], plus quelques définitions d’échange de données. Vous pouvez afficher les paramètres de connexion sur la page **Configuration AMC Banking**. Pour les comptes bancaires, l’extension applique des valeurs dans les champs **Nom banque**, **N° msg. virement**, **Format importation relevé bancaire** et **Format exportation paiement** dans les fiches de compte bancaire.
 
 Nous fournissons les paramètres, mais, pour essayer l’extension, vous devez exécuter le guide de configuration assistée pour les appliquer. Pour exécuter le guide, sur la page **Configuration AMC Banking**, choisissez l’action **Configuration assistée**.
 
@@ -48,7 +48,7 @@ Pour chaque nouvel ensemble d’autorisations, accordez uniquement l’autorisat
 
 ### <a name="to-connect-the-extension-to-amc-banking"></a>Pour connecter l’extension à AMC Banking
 1. Obtenez un module et un plan de service pour AMC Banking. Pour ce faire, visitez la page [Licence AMC](https://license.amcbanking.com/register).
-2. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Configuration AMC Banking**, puis sélectionnez le lien associé.  
+2. Dans [!INCLUDE[prod_short](includes/prod_short.md)], choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Configuration AMC Banking**, puis sélectionnez le lien associé.  
 3. Sur la page **Configuration AMC Banking**, choisissez l’action **Configuration assistée**.
 4. Exécutez les étapes du guide de configuration assistée.
 
@@ -82,8 +82,8 @@ L’utilisation de cette extension consiste simplement à exporter des données 
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille rapprochement bancaire**, puis sélectionnez le lien associé.
 2. Choisir l’action **Importer les transactions bancaires**, puis choisissez le fichier converti.  
 
-   [!INCLUDE[d365fin](includes/d365fin_md.md)] va créer une nouvelle feuille rapprochement bancaire contenant les données du fichier. Pour plus d’informations, reportez-vous à [Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+   [!INCLUDE[prod_short](includes/prod_short.md)] va créer une nouvelle feuille rapprochement bancaire contenant les données du fichier. Pour plus d’informations, reportez-vous à [Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 ## <a name="see-also"></a>Voir aussi
-[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l’aide des extensions](ui-extensions.md)  
+[Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)  
 [Mise en route](product-get-started.md)

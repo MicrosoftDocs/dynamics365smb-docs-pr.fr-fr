@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e94bef3f127d52ca7ee5c7e31f0f126e57b44210
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3a02f54863bf7d0bf6e6e2db03e16e8bedd53c6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914809"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756416"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procédure pas à pas : configuration et facturation d’acomptes
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-Les acomptes sont des paiements qui sont facturés et validés dans une commande acompte vente ou achat avant la facturation finale. Vous pouvez demander un acompte avant de fabriquer les produits commandés ou le paiement avant d’envoyer les articles à un client. Vous utilisez la fonctionnalité d’acomptes dans [!INCLUDE[d365fin](includes/d365fin_md.md)] pour facturer et collecter les acomptes requis des clients ou régler des acomptes aux fournisseurs. Vous pouvez ainsi vous assurer que tous les paiements sont validés sur une facture.  
+Les acomptes sont des paiements qui sont facturés et validés dans une commande acompte vente ou achat avant la facturation finale. Vous pouvez demander un acompte avant de fabriquer les produits commandés ou le paiement avant d’envoyer les articles à un client. Vous utilisez la fonctionnalité d’acomptes dans [!INCLUDE[prod_short](includes/prod_short.md)] pour facturer et collecter les acomptes requis des clients ou régler des acomptes aux fournisseurs. Vous pouvez ainsi vous assurer que tous les paiements sont validés sur une facture.  
 
  Les conditions d’acompte peuvent être définies pour un client ou un fournisseur pour tous les articles ou pour une sélection d’articles. Lorsque vous avez effectué la configuration requise, vous pouvez générer des factures acompte à partir des commandes vente et achat pour le montant acompte calculé. Au besoin, vous pouvez modifier les montants par défaut dans la facture. Par exemple, vous pouvez également envoyer des factures acompte supplémentaires si des articles supplémentaires sont ajoutés à la commande.  
 
@@ -43,7 +43,7 @@ Les acomptes sont des paiements qui sont facturés et validés dans une commande
 -   administrateur Ventes (Arnie).  
 
 ## <a name="story"></a>Scénario  
- Phyllis est responsable de la comptabilité. Elle décide des clients qui doivent payer un acompte avant que les articles soient fabriqués ou expédiés. Phyllis configure [!INCLUDE[d365fin](includes/d365fin_md.md)] de façon à calculer automatiquement les acomptes.  
+ Phyllis est responsable de la comptabilité. Elle décide des clients qui doivent payer un acompte avant que les articles soient fabriqués ou expédiés. Phyllis configure [!INCLUDE[prod_short](includes/prod_short.md)] de façon à calculer automatiquement les acomptes.  
 
  Susan est préparatrice de commandes vente. Lorsque le client appelle pour passer une commande, elle entre la commande dans le système pendant que le client est au téléphone. Elle peut ainsi vérifier immédiatement les prix et les conditions de paiement avec le client et ajuster la commande pendant qu’elle négocie avec le client.  
 
@@ -102,7 +102,7 @@ Phyllis requiert que tous les clients soient facturés avec un acompte de 20 % 
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Pour spécifier un compte acomptes vente dans les paramètres comptabilisation  
 1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres comptabilisation**, puis sélectionnez le lien associé.  
-2.  Sélectionnez la ligne où le champ **Groupe compta. marché** est défini sur **EXPORTATION**, et où le champ **Groupe compta. produit**est défini sur **DÉTAIL**, puis sélectionnez l’action **Modifier**.  
+2.  Sélectionnez la ligne où le champ **Groupe compta. marché** est défini sur **EXPORTATION**, et où le champ **Groupe compta. produit** est défini sur **DÉTAIL**, puis sélectionnez l’action **Modifier**.  
 3.  Sur la page **Fiche paramètres comptabilisation**, dans le champ **Compte acomptes vente**, spécifiez le compte approprié.  
 4.  Cliquez sur le bouton **OK**.  
 
@@ -208,14 +208,14 @@ Arnie peut afficher l’historique pour vérifier que la facture vente a été c
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures vente enregistrées**, puis sélectionnez le lien associé.  
 
 ## <a name="next-steps"></a>Étapes suivantes  
-Cette procédure pas-à-pas vous a présenté les étapes de configuration de [!INCLUDE[d365fin](includes/d365fin_md.md)] pour la gestion des acomptes. Vous avez configuré des pourcentages d’acompte par défaut pour des clients et des articles et vous avez également utilisé différentes méthodes pour calculer les acomptes d’une commande. Vous avez essayé d’affecter un montant d’acompte total à la commande et vous avez enregistré le montant acompte calculé en tant que pourcentage de l’ensemble de la commande.  
+Cette procédure pas-à-pas vous a présenté les étapes de configuration de [!INCLUDE[prod_short](includes/prod_short.md)] pour la gestion des acomptes. Vous avez configuré des pourcentages d’acompte par défaut pour des clients et des articles et vous avez également utilisé différentes méthodes pour calculer les acomptes d’une commande. Vous avez essayé d’affecter un montant d’acompte total à la commande et vous avez enregistré le montant acompte calculé en tant que pourcentage de l’ensemble de la commande.  
 
 Vous avez également validé une facture acompte, créé une deuxième lorsque la commande est modifiée, et validé la facture finale pour le montant ouvert.  
 
-La fonctionnalité d’acompte de [!INCLUDE[d365fin](includes/d365fin_md.md)] facilite la configuration et la mise en place de règles d’acompte pour les clients et les articles. Elle vous permet également de valider tous les paiements d’une facture.  
+La fonctionnalité d’acompte de [!INCLUDE[prod_short](includes/prod_short.md)] facilite la configuration et la mise en place de règles d’acompte pour les clients et les articles. Elle vous permet également de valider tous les paiements d’une facture.  
 
 ## <a name="see-also"></a>Voir aussi  
 [Facturation d’acomptes](finance-invoice-prepayments.md)  
 [Finances](finance.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bbc7314c9f178385fbb882a4615950277b0c0d88
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 931ec0f9a329daa30ef3208d0fa4d695f173e9d5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915433"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759016"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Exécuter une planification complète et un calcul PDP ou MRP
 Les termes « exécution de la feuille planning » ou « exécution d’un calcul MRP » font référence au calcul de la planification de fabrication principale et aux besoins matière sur la base de la demande réelle et prévue. Le système de planification peut calculer la planification de production (PDP) ou la planification des besoins matière (MRP, Material Requirements Planning) à la demande ou calculer les deux simultanément.  
@@ -23,7 +23,7 @@ Les termes « exécution de la feuille planning » ou « exécution d’un ca
 -   Le calcul PDP est le calcul de la planification de production principale basé sur la demande réelle et la prévision de la demande. Le calcul PDP est utilisé pour les articles finis disposant de prévisions ou d’une ligne commande vente. Ces articles sont appelés « articles PDP » et identifiés de façon dynamique au début du calcul.  
 -   Le calcul MRP est le calcul des besoins matière basé sur la demande réelle de composants et la prévision de la demande au niveau du composant. Le calcul MRP n’est effectué que pour les articles qui ne sont pas des articles PDP. Le but du calcul MRP est de générer des plans formels en phases, par article, afin de fournir le bon article, au bon moment, au bon endroit, et dans la bonne quantité.  
 
-Les algorithmes de planification utilisés pour les calculs PDP et MRP sont identiques. Ces algorithmes ont trait à l’ajustement, à la réutilisation d’ordres de réapprovisionnement existant et à des messages d’action. Le processus du système de planification examine ce qui est ou sera nécessaire (demande) et ce qui est disponible ou attendu (approvisionnement). Lorsque ces quantités sont ajustées, [!INCLUDE[d365fin](includes/d365fin_md.md)] génère des messages d’action. Ces messages sont des suggestions de création d’un ordre, de modification d’un ordre (quantité ou date) ou d’annulation d’un ordre. Le terme « ordre » désigne les commandes achat, les ordres d’assemblage, les ordres de fabrication et les ordres de transfert.
+Les algorithmes de planification utilisés pour les calculs PDP et MRP sont identiques. Ces algorithmes ont trait à l’ajustement, à la réutilisation d’ordres de réapprovisionnement existant et à des messages d’action. Le processus du système de planification examine ce qui est ou sera nécessaire (demande) et ce qui est disponible ou attendu (approvisionnement). Lorsque ces quantités sont ajustées, [!INCLUDE[prod_short](includes/prod_short.md)] génère des messages d’action. Ces messages sont des suggestions de création d’un ordre, de modification d’un ordre (quantité ou date) ou d’annulation d’un ordre. Le terme « ordre » désigne les commandes achat, les ordres d’assemblage, les ordres de fabrication et les ordres de transfert.
 
 Les liens créés par le moteur de planification entre la demande et son approvisionnement associé peuvent être suivis sur la page **Chaînage**. Pour plus d’informations, voir [Suivre les relations entre l’offre et la demande](production-how-track-demand-supply.md).   
 
@@ -37,7 +37,7 @@ Les résultats d’une planification appropriée dépendent de la configuration 
     - **Modifications de paramètres de planification :** ces modifications sont celles apportées au stock de sécurité, au point de commande, à la gamme, à la nomenclature et au calcul de la fréquence de vérification ou du délai de fabrication.  
 -   **Extraire messages d’action :** cette fonction fait office d’outil de planification à court terme en émettant des messages d’action pour avertir l’utilisateur de toute modification introduite depuis le dernier calcul du planning régénératif ou du planning par écart.  
 
-Avec chaque méthode planifiée, [!INCLUDE[d365fin](includes/d365fin_md.md)] génère des écritures de feuille basées sur l’hypothèse d’une capacité infinie. La capacité du centre de charge et du poste de charge n’est pas prise en considération lors du développement de plannings.  
+Avec chaque méthode planifiée, [!INCLUDE[prod_short](includes/prod_short.md)] génère des écritures de feuille basées sur l’hypothèse d’une capacité infinie. La capacité du centre de charge et du poste de charge n’est pas prise en considération lors du développement de plannings.  
 
 > [!IMPORTANT]  
 >  La fonction Calculer planning régénératif est le processus le plus couramment utilisé. Toutefois, les fonctions Calculer planning et Exécuter messages d’action permettent d’exécuter le processus Calculer planning par écart.  
@@ -98,10 +98,10 @@ En réponse à tout déséquilibre entre l’approvisionnement et la demande, le
 |Message d’action|Désignation|  
 |--------------------|---------------------------------------|  
 |**Créer**|Si une demande ne peut pas être satisfaite par des messages d’action suggérant de **Modifier qté**, de **Replanifier** ou de **Replanifier et modifier qté** des ordres existants, le message d’action **Nouveau** est généré, suggérant un nouvel ordre. En outre, un message d’action **Nouveau** est généré s’il n’y a pas de commandes approvisionnement existantes dans le regroupement de l’article en question. Ce paramètre détermine le nombre de périodes en aval et en amont dans le profil de disponibilité lors de la recherche d’un ordre à replanifier.|  
-|**Modifier la quantité**|Quand une demande suivie pour des commandes approvisionnement fait l’objet d’une modification de quantité, le message d’action **Changer qté** est généré, indiquant que l’approvisionnement en question doit être modifié par rapport à la modification de la demande. En cas de nouvelle demande, [!INCLUDE[d365fin](includes/d365fin_md.md)] recherche la commande approvisionnement non réservée la plus proche dans le regroupement et émet un message de changement d’action pour cette commande.|  
+|**Modifier la quantité**|Quand une demande suivie pour des commandes approvisionnement fait l’objet d’une modification de quantité, le message d’action **Changer qté** est généré, indiquant que l’approvisionnement en question doit être modifié par rapport à la modification de la demande. En cas de nouvelle demande, [!INCLUDE[prod_short](includes/prod_short.md)] recherche la commande approvisionnement non réservée la plus proche dans le regroupement et émet un message de changement d’action pour cette commande.|  
 |**Replanifier**|Quand une commande approvisionnement ou une demande fait l’objet d’une modification de date entraînant un déséquilibre dans le réseau d’ordres, le message d’action **Replanifier** est généré. S’il y a une relation de un à un entre la demande et l’approvisionnement, un message d’action est généré, suggérant de déplacer la commande approvisionnement en conséquence. Si la commande approvisionnement couvre la demande liée à plusieurs commandes vente, la commande approvisionnement est replanifiée comme égale à celle à la date de la première demande.|  
 |**Replanifier & changer qté**|Si tant les dates que les quantités d’un ordre ont été modifiées, vous devez modifier les plannings en relation avec les deux circonstances. Le système de génération de messages d’action regroupe les deux actions dans un seul message, **Replan. et changer qté**, pour garantir le retour à l’équilibre du réseau d’ordres.|  
-|**Annuler**|Si une demande qui a été couverte sur la base d’une relation ordre pour ordre est supprimée, un message d’action est généré pour annuler la commande approvisionnement qui y est liée. Si la relation n’est pas une relation ordre pour ordre, un message d’action est généré pour modifier l’ordre afin de réduire l’approvisionnement. Si, en vertu d’autres facteurs, tels que des ajustements de stock, une commande d’approvisionnement n’est pas requise au moment de la génération des messages d’action par l’utilisateur, [!INCLUDE[d365fin](includes/d365fin_md.md)] suggère un message d’action **Annuler** dans la feuille de calcul.|  
+|**Annuler**|Si une demande qui a été couverte sur la base d’une relation ordre pour ordre est supprimée, un message d’action est généré pour annuler la commande approvisionnement qui y est liée. Si la relation n’est pas une relation ordre pour ordre, un message d’action est généré pour modifier l’ordre afin de réduire l’approvisionnement. Si, en vertu d’autres facteurs, tels que des ajustements de stock, une commande d’approvisionnement n’est pas requise au moment de la génération des messages d’action par l’utilisateur, [!INCLUDE[prod_short](includes/prod_short.md)] suggère un message d’action **Annuler** dans la feuille de calcul.|  
 
 ## <a name="see-also"></a>Voir aussi  
 [Planifié](production-planning.md)  
@@ -111,4 +111,4 @@ En réponse à tout déséquilibre entre l’approvisionnement et la demande, le
 [Achats](purchasing-manage-purchasing.md)  
 [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)   
 [Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

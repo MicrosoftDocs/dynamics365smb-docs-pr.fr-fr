@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d4b7f90ac533b3071a8c520eefacf98eddd1faba
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ad21fa7f0a18b3549bdab19c07e0065d5fb684dd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919112"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759166"
 ---
 # <a name="batch-post-production-consumption"></a>Valider par lots la consommation de la production
 Si le champ Méthode consommation indique **Manuelle**, vous devez valider les composants manuellement à l’aide d’une feuille consommation.
@@ -35,4 +35,4 @@ Vous pouvez également configurer le système pour valider automatiquement (*con
 [Planifié](production-planning.md)      
 [Stock](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: rfq
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6b0cf72609a180d271604dd276f840efbc6b1aa6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5136c675d50e4d9ac91f43755dfb44810701096d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910654"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758016"
 ---
 # <a name="track-packages"></a>Suivre des colis
 
@@ -36,4 +36,4 @@ Votre navigateur par défaut ouvre la page de suivi du transporteur.
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

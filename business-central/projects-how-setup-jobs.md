@@ -8,16 +8,16 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0309ea14145758b4ae07ee034679fa4a0ef497db
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6fe583e93261b58d13802eadef5f3d807045fa20
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915334"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758641"
 ---
 # <a name="set-up-jobs"></a>Configuration de projets
 
-En tant que chef de projet, vous pouvez définir des projets qui définissent chacun des projets que vous gérez dans [!INCLUDE[prodshort](includes/prodshort.md)]. Sur la page **Paramètres projets**, vous devez spécifier comment utiliser certaines fonctions de projet.
+En tant que chef de projet, vous pouvez définir des projets qui définissent chacun des projets que vous gérez dans [!INCLUDE[prod_short](includes/prod_short.md)]. Sur la page **Paramètres projets**, vous devez spécifier comment utiliser certaines fonctions de projet.
 
 Pour chaque projet, vous précisez ensuite les fiches projet individuelles avec des informations concernant les prix pour les articles, les ressources et les comptes généraux du projet, puis vous devez configurer des groupes comptabilisation du projet.
 
@@ -121,4 +121,4 @@ L’un des aspects des projets de planification est de décider quels comptes de
 [Finances](finance.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Ventes](sales-manage-sales.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

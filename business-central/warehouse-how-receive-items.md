@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f78a4e0220ac3c933a6b00300dee4b389c5ea4cc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9b58caa880dce813439a2ce4ab2b9da8dccddae5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911945"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756341"
 ---
 # <a name="receive-items"></a>Réceptionner des articles
 
@@ -123,7 +123,7 @@ Lorsque vous traitez une sur-réception, vous pouvez augmenter la valeur dans le
 2. Validez la réception comme vous le feriez pour toute autre réception.
 
 > [!NOTE]
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] n’inclut pas de fonctionnalité permettant d’initier automatiquement l’administration financière des sur-réceptions. Vous devez gérer cela manuellement en accord avec le fournisseur, qui peut par exemple vous envoyer une facture nouvelle ou mise à jour.
+> [!INCLUDE[prod_short](includes/prod_short.md)] n’inclut pas de fonctionnalité permettant d’initier automatiquement l’administration financière des sur-réceptions. Vous devez gérer cela manuellement en accord avec le fournisseur, qui peut par exemple vous envoyer une facture nouvelle ou mise à jour.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
 
@@ -134,4 +134,4 @@ Lorsque vous traitez une sur-réception, vous pouvez augmenter la valeur dans le
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)  
 [Gestion des assemblages](assembly-assemble-items.md)  
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

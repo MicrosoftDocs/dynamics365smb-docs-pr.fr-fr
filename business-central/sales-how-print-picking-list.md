@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c89cb40559a570605401108d7560f6b989e06773
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 47ae132d862d2c05bef4ea0d0af26688bdd16588
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926146"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758216"
 ---
 # <a name="print-the-picking-list"></a>Imprimer la liste des prélèvements
 Vous pouvez imprimer une liste des prélèvements des stocks directement à partir d'une commande client, d'une facture vente, ou d'autres documents qui déclenchent l'expédition des articles.
@@ -38,4 +38,4 @@ Vous pouvez également enregistrer la liste des prélèvements en tant que docum
 ## <a name="see-also"></a>Voir aussi  
 [Stock](inventory-manage-inventory.md)  
 [Prélèvement d'articles](warehouse-pick-items.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)   
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   

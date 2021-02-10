@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 50b2a25ca18773340e10b52529ba484843cad7f1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f978047720f6e67c58c7c845a15f957258aaca3c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910304"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757916"
 ---
 # <a name="set-up-service-contracts"></a>Configurer des contrats de service
 Avant de pouvoir utiliser les contrats, vous devez définir les éléments suivants : 
@@ -23,7 +23,7 @@ Avant de pouvoir utiliser les contrats, vous devez définir les éléments suiva
 * **Groupes contrats de service** : regroupent les contrats de service liés, quelle que soit la nature de cette relation.
 * **Groupes comptes contrat de service** : permettent de regrouper les comptes contrat de service pour les factures service créées pour les contrats de service. Vous affectez ces groupes aux contrats de service.  
 * **Modèles contrat** : définissent les présentations des contrats incluant les détails de contrat de service les plus couramment utilisés. Vous pouvez créer des devis contrat de service à l'aide de modèles. Lorsque vous créez un devis contrat, les champs contiennent automatiquement la valeur des champs du modèle.
-* **Modèles client** : permettent de créer des devis pour les contacts ou les clients potentiels qui ne sont pas enregistrés comme clients dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+* **Modèles client** : permettent de créer des devis pour les contacts ou les clients potentiels qui ne sont pas enregistrés comme clients dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="to-set-up-a-service-contract-group"></a>Pour configurer un groupe de contrats de service  
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Groupes contrats de service**, puis sélectionnez le lien associé.  

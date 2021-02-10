@@ -11,16 +11,16 @@ ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f658764eafa6f9aa35e33cf8098ca77799fb1e0c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 853a45dc32907c2d9b69f7b2e592dc164c20a094
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912470"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757366"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Utilisation de dates civiles et les heures
 
-[!INCLUDE[d365fin](includes/d365fin_long_md.md)] offre plusieurs méthodes principales de saisie des dates et des heures, y compris des fonctions puissantes qui accélèrent la saisie de données, ou vous permettent de saisir des expressions de calendrier complexes. Il existe différents emplacements tout au long de l’application où vous pouvez entrer des dates et des heures dans les champs. Par exemple, dans une commande client, vous pouvez également définir la date d’expédition. En filtrant les données de liste ou d’état, vous pouvez entrer des dates et des heures pour désigner uniquement les données que vous intéressent.
+[!INCLUDE[prod_short](includes/prod_long.md)] offre plusieurs méthodes principales de saisie des dates et des heures, y compris des fonctions puissantes qui accélèrent la saisie de données, ou vous permettent de saisir des expressions de calendrier complexes. Il existe différents emplacements tout au long de l’application où vous pouvez entrer des dates et des heures dans les champs. Par exemple, dans une commande client, vous pouvez également définir la date d’expédition. En filtrant les données de liste ou d’état, vous pouvez entrer des dates et des heures pour désigner uniquement les données que vous intéressent.
 
 ## <a name="check-your-region-and-language-settings"></a>Vérifiez les paramètres de zone et de langue
 La page **Mes paramètres** spécifie la **Région** et la **Langue** que vous utilisez dans l’application. Ces paramètres ont une incidence sur la manière dont vous saisissez des dates et des heures.
@@ -30,7 +30,7 @@ La page **Mes paramètres** spécifie la **Région** et la **Langue** que vous u
 -   Pour des modèles de date qui impliquent des mots, la langue des mots utilisée doit correspondre au paramètre **Langue**.
 
 > [!NOTE]
-> [!INCLUDE[d365fin](includes/d365fin_long_md.md)] utilise le système du calendrier grégorien.
+> [!INCLUDE[prod_short](includes/prod_long.md)] utilise le système du calendrier grégorien.
 
 <!--
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
@@ -217,7 +217,7 @@ You can also combine the various format types.
 |12 15 16&#124;12 01 16..05 31 17 | Entries posted either on December 15 2016 or on dates between and including December 01 2016 and May 31 2017. |
 |..12 14 16&#124;12 30 16.. | Entries posted on December 14 or earlier, or entries posted on December 30 or later - that is, all entries except those posted on dates between and including December 15 and 29. |
 
-Note that we have used the US date format MMDDYY here. As [!INCLUDE[d365fin](includes/d365fin_md.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
+Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
 ## Using Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
@@ -312,7 +312,7 @@ Tenez compte que les millisecondes sont interprétées comme des notations de d�
 
 Vous ne pouvez pas utiliser 24:00 pour dire minuit, ou utiliser une valeur supérieure à 24:00.
 
-Le mot pour « time » (heure) dans la langue utilisée par [!INCLUDE[d365fin](includes/d365fin_long_md.md)] est évalué sur l’heure actuelle sur votre ordinateur ou appareil mobile. Vous pouvez saisir n’importe quel partie du mot, en commençant au début, par exemple h ou HEU.
+Le mot pour « time » (heure) dans la langue utilisée par [!INCLUDE[prod_short](includes/prod_long.md)] est évalué sur l’heure actuelle sur votre ordinateur ou appareil mobile. Vous pouvez saisir n’importe quel partie du mot, en commençant au début, par exemple h ou HEU.
 
 ## <a name="entering-combined-dates-and-times"></a>Saisie de dates et d’heures combinées
 Lorsque vous saisissez les dates/heures, qui sont une date et heure combinées en un champ, vous devez saisir un espace entre la date et l’heure. La partie de la date ne peut contenir des espaces sous forme de séparateur de date officiel de vos paramètres de région. L’heure peut contenir des espaces autour de l’indicateur AM/PM.
@@ -366,6 +366,6 @@ Pour connaître l’unité de mesure utilisée pour un champ de durée, saisisse
 Par exemple, si l’unité est « heures », le chiffre 5 est converti en 5 h.
 
 ## <a name="see-also"></a>Voir aussi
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Calcul de la date des achats](purchasing-date-calculation-for-purchases.md)  
 [Saisir les critères pour les filtres](ui-enter-criteria-filters.md)  

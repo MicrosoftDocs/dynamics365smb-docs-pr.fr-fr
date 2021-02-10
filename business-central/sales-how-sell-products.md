@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: trade
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 30976629fbee935ccefb15fafa11e38527eb922c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f6d913681967bbe609a03d7d6a2736e9c86b4ce0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910629"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758166"
 ---
 # <a name="sell-products"></a>Vendre des produits
 
 Vous créez une commande vente ou une facture vente pour enregistrer votre accord avec un client pour vendre certains produits selon certaines conditions de livraison et de paiement.
 
 > [!NOTE]  
-> Utilisez des commandes vente si votre processus de vente requiert que vous expédiiez des parties d’une quantité de commande, par exemple, si la quantité totale est pas disponible d’un coup. Si vous utilisez des factures vente, alors [!INCLUDE [prodshort](includes/prodshort.md)] suppose que vous expédiez la quantité complète lorsque vous validez la facture. Si vous commercialisez des articles en les livrant directement du fournisseur au client, vous devez également utiliser les commandes vente. Pour plus d’informations, voir [Effectuer des livraisons directes](sales-how-drop-shipment.md). Pour tous les autres aspects, les commandes vente fonctionnent de la même manière que les factures vente. Pour plus d’informations, reportez-vous à [Facturer des ventes](sales-how-invoice-sales.md).
+> Utilisez des commandes vente si votre processus de vente requiert que vous expédiiez des parties d’une quantité de commande, par exemple, si la quantité totale est pas disponible d’un coup. Si vous utilisez des factures vente, alors [!INCLUDE [prod_short](includes/prod_short.md)] suppose que vous expédiez la quantité complète lorsque vous validez la facture. Si vous commercialisez des articles en les livrant directement du fournisseur au client, vous devez également utiliser les commandes vente. Pour plus d’informations, voir [Effectuer des livraisons directes](sales-how-drop-shipment.md). Pour tous les autres aspects, les commandes vente fonctionnent de la même manière que les factures vente. Pour plus d’informations, reportez-vous à [Facturer des ventes](sales-how-invoice-sales.md).
 
 Vous pouvez négocier avec le client en créant d’abord un devis, que vous pouvez convertir en commande vente lorsque vous êtes d’accord sur la vente. Pour plus d’informations, voir [Créer des devis](sales-how-make-offers.md).
 
@@ -132,4 +132,4 @@ Les écritures comptables article et client associés sont à présent créés d
 [Imprimer la liste des prélèvements](sales-how-print-picking-list.md)  
 [Stock](inventory-manage-inventory.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

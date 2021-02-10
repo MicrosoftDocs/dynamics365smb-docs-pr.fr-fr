@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a0d0e5f18acf9830fe77a87f9e1c8982da47c257
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 158a117202054524aa8014787c813f1cea70681a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913120"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757791"
 ---
 # <a name="service-posting"></a>Validation de service
 La fonctionnalité de validation de service vous permet de traiter vos documents efficacement et de maintenir une stratégie de service client fructueuse. Vous pouvez créer et mettre à jour des documents validés, et créer des écritures comptables dans le module Service et dans d’autres modules pour garantir une mise à jour correcte.  
@@ -26,7 +26,7 @@ La fonctionnalité de validation de service vous permet de traiter vos documents
 >  Dans un magasin qui n’est pas configuré pour appeler une gestion d’entrepôt, vous effectuez des actions de validation directement sur la page **Lignes service**. Dans les magasins qui impliquent une gestion d’entrepôt, les actions de validation décrites, à l’exception des actions Expédier et Consommer, sont effectuées indirectement au moyen de différentes fonctions d’expédition de l’entrepôt, selon la configuration. Pour plus d’informations, voir [Prélever des articles avec les prélèvements stock](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Expédition  
-La fonction Expédition vous permet d’enregistrer les articles et le temps appropriés entrés dans les lignes d’une commande service après que vous ayez exécuté le service. Une expédition enregistrée est crée et des mises à jour interviennent dans le module Stock, ainsi que d’autres modules dans [!INCLUDE[d365fin](includes/d365fin_md.md)] afin d’indiquer que les articles ont été prélevés sur le stock et envoyés au client. Plus particulièrement, des écritures comptables article, des écritures comptables valeur, des écritures comptables service sont générés ainsi que des écritures comptables garantie.  
+La fonction Expédition vous permet d’enregistrer les articles et le temps appropriés entrés dans les lignes d’une commande service après que vous ayez exécuté le service. Une expédition enregistrée est crée et des mises à jour interviennent dans le module Stock, ainsi que d’autres modules dans [!INCLUDE[prod_short](includes/prod_short.md)] afin d’indiquer que les articles ont été prélevés sur le stock et envoyés au client. Plus particulièrement, des écritures comptables article, des écritures comptables valeur, des écritures comptables service sont générés ainsi que des écritures comptables garantie.  
 
 Si le magasin est configuré pour exiger la gestion d’entrepôt, l’expédition et le déplacement d’articles de ligne service s’exécutent de la même manière que pour d’autres documents origine. La seule différence est que les articles de la ligne service peuvent être consommés en externe ou en interne et qui nécessitent deux fonctions de lancement différentes.
 

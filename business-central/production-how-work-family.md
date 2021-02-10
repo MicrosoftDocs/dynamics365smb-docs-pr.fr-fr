@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5b405d883d42af98a95066fc9e918a69d9ce99e6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f33ac3e581325eb714af67ee7040157a61e59fc7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921491"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758866"
 ---
 # <a name="work-with-production-families"></a>Utiliser les familles de production
 Une famille de production est un groupe d’articles distincts dont la relation repose sur la similitude de leur processus de fabrication. Si vous formez des familles de production, certains articles peuvent être fabriqués plusieurs fois au cours d’une production, ce qui optimise la consommation de matière.
@@ -44,4 +44,4 @@ Le regroupement d’éléments en familles de production permet de réduire la q
 [Planifié](production-planning.md)   
 [Stock](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

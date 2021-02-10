@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5e9609ae65cd2cd23abad5680e576c3c16d89493
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 150c5c552e314d17af15968ebcbe57d8e8bc3fc1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925996"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758116"
 ---
 # <a name="calculate-order-promising-dates"></a>Calculer des dates promesse livraison
 Une société doit pouvoir informer ses clients des dates de livraison de commande. La page **Lignes promesse de livraison** vous permet d’effectuer cette opération à partir d’une ligne commande vente.  
 
-À partir des dates de disponibilité connues et attendues d’un article, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule immédiatement les dates d’expédition et de livraison, qui peuvent être communiquées au client.  
+À partir des dates de disponibilité connues et attendues d’un article, [!INCLUDE[prod_short](includes/prod_short.md)] calcule immédiatement les dates d’expédition et de livraison, qui peuvent être communiquées au client.  
 
 Si vous spécifiez une date de livraison demandée sur une ligne commande vente, alors cette date est utilisée comme point de départ du calcul suivant :  
 
@@ -37,37 +37,37 @@ Si vous ne spécifiez aucune date livraison demandée sur une ligne de commande 
 ## <a name="about-order-promising"></a>À propos de la promesse de livraison
 La fonctionnalité de configuration des promesses livraison vous permet de promettre la livraison ou l’expédition d’une commande à une date donnée. La date à laquelle un article est disponible afin de le promettre ou de pouvoir le promettre est calculée, et des lignes commande sont créées pour les dates que vous acceptez. Cette fonctionnalité calcule la date la plus proche à laquelle un article est disponible pour la livraison ou l’expédition. Elle crée également des lignes demande, dans le cas où les articles doivent d’abord être achetés, pour les dates que vous acceptez.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] utilise deux concepts essentiels :  
+[!INCLUDE[prod_short](includes/prod_short.md)] utilise deux concepts essentiels :  
 
 - Disponible à la vente (DAV)  
 - Simulation de délai (SDD)  
 
 ### <a name="available-to-promise"></a>Disponible à la vente  
-La fonction Disponible à la vente (ATP) calcule les dates sur la base du système de réservation. Elle effectue une vérification de la disponibilité des quantités non réservées en stock vis-à-vis de la production, des achats, des transferts et des retours vente planifiés. En fonction de ces informations, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule automatiquement la date de livraison de la commande du client dans la mesure où les articles sont disponibles (en stock ou avec entrée planifiée).  
+La fonction Disponible à la vente (ATP) calcule les dates sur la base du système de réservation. Elle effectue une vérification de la disponibilité des quantités non réservées en stock vis-à-vis de la production, des achats, des transferts et des retours vente planifiés. En fonction de ces informations, [!INCLUDE[prod_short](includes/prod_short.md)] calcule automatiquement la date de livraison de la commande du client dans la mesure où les articles sont disponibles (en stock ou avec entrée planifiée).  
 
 ### <a name="capable-to-promise"></a>Simulation de délai  
-La fonction Simulation de délai (CTP) considère un scénario basé sur l’hypothèse, qui s’applique uniquement aux quantités d’articles qui ne sont pas en stock ou des commandes planifiées. En fonction de ce scénario, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule la date la plus proche à laquelle cet article sera disponible s’il doit être produit, acheté ou transféré.
+La fonction Simulation de délai (CTP) considère un scénario basé sur l’hypothèse, qui s’applique uniquement aux quantités d’articles qui ne sont pas en stock ou des commandes planifiées. En fonction de ce scénario, [!INCLUDE[prod_short](includes/prod_short.md)] calcule la date la plus proche à laquelle cet article sera disponible s’il doit être produit, acheté ou transféré.
 
 #### <a name="example"></a>Exemple :
 S’il y a une commande de 10 pièces, et que 6 pièces sont disponibles en stock ou dans des commandes planifiées, alors le calcul de simulation de délai est basé sur 4 pièces.
 
 ### <a name="calculations"></a>Calculs  
-Lorsque [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule la date de livraison du client, il effectue deux tâches :  
+Lorsque [!INCLUDE[prod_short](includes/prod_short.md)] calcule la date de livraison du client, il effectue deux tâches :  
 
 - Calcule la première date de livraison possible lorsque le client n’a pas demandé une date de livraison spécifique.  
 - Vérifie si la date de livraison demandée par le client ou confirmée au client est réaliste.  
 
-Si le client ne demande pas de date de livraison spécifique, la date d’expédition est configurée comme la date de travail, et la disponibilité est ensuite basée sur la date. Si l’article est en stock, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule à l’avance pour déterminer quand la commande peut être livrée. Ceci est accompli par les formules suivantes :  
+Si le client ne demande pas de date de livraison spécifique, la date d’expédition est configurée comme la date de travail, et la disponibilité est ensuite basée sur la date. Si l’article est en stock, [!INCLUDE[prod_short](includes/prod_short.md)] calcule à l’avance pour déterminer quand la commande peut être livrée. Ceci est accompli par les formules suivantes :  
 
 - Date d’expédition + Délai traitement entrepôt sortant = Date de livraison planifiée  
 - Date d’expédition planifiée + délai d’expédition = date livraison planifiée  
 
-Ensuite, [!INCLUDE[d365fin](includes/d365fin_md.md)] vérifie si la date de livraison calculée est réaliste en calculant en amont dans le temps, pour déterminer quand l’article doit être disponible pour respecter la date confirmée. Ceci est accompli par les formules suivantes :  
+Ensuite, [!INCLUDE[prod_short](includes/prod_short.md)] vérifie si la date de livraison calculée est réaliste en calculant en amont dans le temps, pour déterminer quand l’article doit être disponible pour respecter la date confirmée. Ceci est accompli par les formules suivantes :  
 
 - Date livraison planifiée - délai d’expédition = date expédition planifiée  
 - Date d’expédition planifiée - Délai traitement entrepôt sortant = Date de livraison  
 
-La date d’expédition est utilisée pour effectuer la vérification de disponibilité. Si l’article est disponible à cette date, [!INCLUDE[d365fin](includes/d365fin_md.md)] confirme que la livraison demandée/promise peut être respectée en configurant la date de livraison planifiée à la date de livraison demandée/confirmée. Si l’article n’est pas disponible, il renvoie une date vide et le préparateur de commandes peut alors utiliser la fonctionnalité CTP.  
+La date d’expédition est utilisée pour effectuer la vérification de disponibilité. Si l’article est disponible à cette date, [!INCLUDE[prod_short](includes/prod_short.md)] confirme que la livraison demandée/promise peut être respectée en configurant la date de livraison planifiée à la date de livraison demandée/confirmée. Si l’article n’est pas disponible, il renvoie une date vide et le préparateur de commandes peut alors utiliser la fonctionnalité CTP.  
 
 Sur la base des nouvelles dates et heures, toutes les dates liées sont calculées en fonction des formules répertoriées précédemment dans cette section. Le calcul CTP prend plus de temps, mais donne une date précise à laquelle le client peut attendre la livraison de l’article. Les dates qui sont calculées à partir de la SDD sont présentées dans les champs **Date livraison planifiée** et **Date d’expédition au plus tôt** sur la page **Lignes promesse de livraison**.  
 
@@ -144,4 +144,4 @@ Avant qu’un article puisse être inclus dans le calcul de la promesse de livra
 ## <a name="see-also"></a>Voir aussi  
 [Ventes](sales-manage-sales.md)  
 [Calcul de la date des achats](purchasing-date-calculation-for-purchases.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

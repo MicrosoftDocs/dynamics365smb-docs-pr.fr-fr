@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fbb343b77db3fed933d0c243d36b4707f979fe8f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 81f43ef3f021ef0d348eb14abdffdfda2b3d85fc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926595"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758391"
 ---
 # <a name="collect-outstanding-balances"></a>Collecte des soldes restants
 
@@ -38,7 +38,7 @@ Vous pouvez utiliser des relances pour rappeler aux clients les soldes échus. V
 
 ## <a name="reminders"></a>Relances
 
-Avant de pouvoir créer des relances, vous devez configurer des conditions relance et les affecter à vos clients. Chaque code condition relance prédéfinit des niveaux de relance. Chaque niveau de relance inclut des règles relatives à l’émission de la relance, par exemple, le nombre de jours après l’échéance de la facture ou la date de la relance précédente après lequel elle doit être émise. Le contenu de la page **Conditions intérêts de retard** détermine si les intérêts sont calculés dans la relance.  
+Avant de pouvoir créer des relances, vous devez configurer des conditions relance et les affecter à vos clients. Pour plus d’informations, voir [Configurer les conditions et niveaux de relance](finance-setup-reminders.md). [!INCLUDE [reminder-terms](includes/reminder-terms.md)] Le contenu de la page **Conditions intérêts de retard** détermine si les intérêts sont calculés dans la relance.  
 
 Vous pouvez exécuter périodiquement le traitement par lots **Création de relances** afin de créer des relances pour tous les clients ayant des soldes échus. Vous pouvez également créer manuellement une relance pour un client spécifique et demander à ce que les lignes soient calculées et renseignées automatiquement.  
 
@@ -47,58 +47,6 @@ Une fois que vous avez créé les relances, vous pouvez les modifier. Le texte a
 Une écriture comptable client pour laquelle le champ **En attente** est renseigné ne génèrera pas la création d’une relance. Néanmoins, si une relance est créée à partir d’une autre écriture, une écriture échue en attente d’approbation est incluse dans la relance. Les intérêts ne sont pas calculés sur les lignes avec ces écritures.
 
 Après avoir créé les relances et effectué toutes les modifications souhaitées, vous pouvez lancer les impressions test ou émettre les relances, en général par e-mail.
-
-### <a name="to-set-up-reminder-terms"></a>Pour configurer des conditions de relance
-
-Si des clients ont des impayés, vous devez décider quand et comment leur envoyer une relance. En outre, vous pouvez être amené à débiter leurs comptes d’intérêts ou de frais. Vous pouvez configurer autant de conditions relance que vous le souhaitez. Vous pouvez définir un nombre illimité de niveaux de relance pour chaque code de condition de relance.
-
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Conditions de relance**, puis sélectionnez le lien associé.  
-2. Renseignez les champs selon vos besoins.  
-3. Pour utiliser plusieurs combinaisons de conditions de relance, créez un code pour chacun d’eux.
-
-### <a name="to-set-up-reminder-levels"></a>Pour configurer des niveaux de relance
-
-La première fois qu’une relance est créée pour un client, le paramétrage utilisé est celui du niveau 1. Lorsque la relance est émise, le numéro du niveau est enregistré dans les écritures relance qui sont créées et associées à l’écriture comptable client spécifique. S’il est nécessaire de relancer le client, toutes les écritures comptables relance associées aux écritures comptables client ouvertes sont vérifiées afin de localiser le numéro de niveau le plus élevé. Les conditions du niveau suivant seront alors utilisées pour la nouvelle relance.
-
-Si vous créez plus de relances qu’il n’y a de niveaux relance, les conditions utilisées seront celles du niveau le plus élevé. Vous pouvez utiliser autant de relances que le champ **Nombre max. de relances** des conditions relance le permet.
-
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Conditions de relance**, puis sélectionnez le lien associé.  
-2. Sur la page **Conditions de relance**, cliquez sur la ligne comportant les conditions pour lesquelles configurer des niveaux, puis cliquez sur l’action **Niveaux**.  
-3. Renseignez les champs selon vos besoins.  
-
-    Pour chaque niveau de relance, vous pouvez spécifier des conditions particulières, qui peuvent inclure des frais supplémentaires en devise société (DS) et en devise étrangère. Vous pouvez créer plusieurs frais supplémentaires en devise pour chaque code de la page **Niveaux relance**.
-4. Sélectionnez l’action **Devises**.
-5. Sur la page **Devises niveau relance**, définissez un code de niveau pour chaque relance et le numéro du niveau de rappel correspondant, une devise et des frais supplémentaires.
-
-    > [!NOTE]  
-    > Lorsque vous créez une relance en devise, les conditions devise définies ici permettront de créer des relances. Si aucune condition devise n’a été définie, les conditions devise société définies sur la page **Niveaux relance** seront utilisées et converties dans la devise appropriée.
-
-    Pour chaque niveau relance, vous pouvez indiquer le texte à imprimer avant (**Texte début**) ou après (**Texte fin**) les écritures de la relance.
-
-6. Choisissez les actions **Texte de début** ou **Texte de fin** respectivement, puis renseignez la page **Texte relance**.
-7. Pour insérer automatiquement des valeurs correspondantes dans le texte de relance résultant, entrez les espaces réservés suivants dans le champ **Texte**.  
-
-|Paramètre substituable|Valeur|  
-|-----------------|-----------|  
-|%1|Contenu du champ **Date du document** de l’en-tête de relance|  
-|%2|Contenu du champ **Date d’échéance** de l’en-tête de relance|  
-|%3|Contenu du champ **Taux d’intérêt** dans les conditions d’intérêts de retard associées|  
-|%4|Contenu du champ **Montant ouvert** de l’en-tête de relance|  
-|%5|Contenu du champ **Montant intérêts** de l’en-tête de relance|  
-|%6|Contenu du champ **Frais supplémentaires** de l’en-tête de relance|  
-|%7|Montant total de la relance|  
-|%8|Contenu du champ **Niveau relance** de l’en-tête de relance|  
-|%9|Contenu du champ **Code devise** de l’en-tête de relance|  
-|%10|Contenu du champ **Date de validation** de l’en-tête de relance|  
-|%11|Nom de la société|  
-|%12|Contenu du champ **Frais supplémentaires par ligne** de l’en-tête de relance|  
-
-Par exemple, si vous saisissez **Vous devez %9 %7 dus au %2.**, la relance résultante contiendra le texte suivant : Vous devez **1 200,50 USD dus au 02/02/2014.**.
-
-> [!NOTE]
-> La date d’échéance est calculée selon la formule de date que vous saisissez. Pour plus d’informations, voir [Utilisation de formules date](ui-enter-date-ranges.md#using-date-formulas).
-
-Si vous avez configuré les conditions relance (avec des niveaux et du texte supplémentaires), saisissez l’un des codes sur chaque fiche client. Pour plus d’informations, reportez vous à [Enregistrer de nouveaux clients](sales-how-register-new-customers.md).
 
 ### <a name="to-create-a-reminder-automatically"></a>Pour créer automatiquement une relance
 
@@ -174,58 +122,16 @@ Lorsqu’un client n’effectue pas son paiement à la date d’échéance, des 
 > [!NOTE]  
 > Les factures d’intérêts permettent de calculer les intérêts et les intérêts de retard et d’en informer vos clients sans leur rappeler les paiements échus. Vous pouvez également calculer les intérêts sur les paiements échus lorsque vous créez des relances.  
 
+Pour pouvoir créer des factures d’intérêts, vous devez configurer des conditions. Pour plus d’informations, voir [Configurer les conditions intérêts de retard](finance-setup-finance-charges.md).  
+
 Vous pouvez créer manuellement une facture d’intérêts pour un client particulier et renseigner les lignes automatiquement. Vous pouvez également utiliser la tâche de fonction **Créer factures d’intérêts** pour créer des factures d’intérêts pour tous les clients ayant des soldes échus ou pour une sélection de clients ayant des soldes échus.  
 
 Une fois que vous avez créé les factures d’intérêts, vous pouvez les modifier. Le texte apparaissant au début et à la fin de chaque facture d’intérêts est déterminé par les conditions intérêts de retard de la colonne **Désignation** de chaque ligne. Si un montant calculé a été inséré automatiquement dans le texte de début ou de fin, ce texte ne sera pas ajusté si vous supprimez des lignes. Vous devez alors utiliser la fonction **Mise à jour du texte des intérêts de retard**.  
 
 Une fois que vous avez créé des factures d’intérêts et effectué toutes les modifications requises, vous pouvez effectuer des impressions test ou émettre des factures d’intérêts; en général par e-mail.
 
-### <a name="to-set-up-finance-charge-terms"></a>Pour configurer des conditions intérêts de retard
+### <a name="to-create-a-finance-charge-memo-manually"></a>Pour créer manuellement des factures d’intérêts
 
-Vous devez créer un code qui représente un calcul d’intérêts de retard. Vous pouvez ensuite entrer ce code dans le champ **Code condition intérêts** des fiches client ou fournisseur.
-
-Les intérêts de retard peuvent être calculés en utilisant la méthode du solde journalier moyen ou celle du solde échu.
-
-* Méthode du solde échu
-
-    La facture d’intérêts représente simplement un pourcentage du montant échu :  
-    *Méthode du solde échu* - *Frais financiers* = *Montant échu* x *(Taux d’intérêt / 100)*
-
-*   Méthode du solde journalier moyen
-
-    Le nombre de jours pendant lequel le paiement est en retard est pris en compte :  
-    *Méthode Solde journalier moyen* - *Frais financiers* = *Montant échu* x *(Jours échus/ Période d’intérêts)* x *(Taux d’intérêt/100)*
-
-En outre, chaque code de la table Conditions intérêts de retard est lié à une autre table, la table Texte intérêts de retard. Pour chaque ensemble de conditions, vous pouvez définir un texte début et un texte fin à inclure dans la facture d’intérêts.
-
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Conditions intérêts de retard**, puis sélectionnez le lien associé.  
-2. Renseignez les champs selon vos besoins.
-3. Pour utiliser plusieurs combinaisons de conditions intérêts de retard, créez un code pour chacun d’eux.
-
-    Pour chaque condition intérêts de retard, vous pouvez spécifier des conditions particulières, qui peuvent inclure des frais supplémentaires en devise société (DS) et en devise étrangère. Vous pouvez définir des frais supplémentaires en devise pour chaque code sur la page **Conditions intérêts de retard**.
-4. Sélectionnez l’action **Devises**.
-5. Sur la page **Devises condition intérêts**, définissez pour chaque condition un code devise et des frais supplémentaires.
-
-    > [!NOTE]  
-    > Lorsque vous créez des intérêts de retard en devise, les conditions intérêts devise définies ici serviront à créer des factures d’intérêts. Si aucune condition intérêts de retard en devise n’est définie, les conditions intérêts de retard en devise société définies sur la page **Conditions intérêts de retard** seront utilisées, puis converties dans la devise souhaitée.
-
-    Pour chaque condition intérêts, vous pouvez spécifier le texte à imprimer avant (**Texte début**) ou après (**Texte fin**) les écritures de la facture d’intérêts.  
-6. Choisissez les actions **Texte de début** ou **Texte de fin** respectivement, puis renseignez la page **Texte intérêts de retard**.
-7. Pour insérer automatiquement des valeurs correspondantes dans le texte facture d’intérêts résultant, entrez les espaces réservés suivants dans le champ **Texte**.
-
-|Paramètre substituable|Valeur|  
-|-----------------|-----------|  
-|%1|Contenu du champ **Date du document** de l’en-tête de facture d’intérêts|  
-|%2|Contenu du champ **Date d’échéance** de l’en-tête de facture d’intérêts|  
-|%3|Contenu du champ **Taux d’intérêt** dans les conditions d’intérêts de retard associées|  
-|%4|Contenu du champ **Montant ouvert** de l’en-tête de facture d’intérêts|  
-|%5|Contenu du champ **Montant intérêts** de l’en-tête de facture d’intérêts|  
-|%6|Contenu du champ **Frais supplémentaires** de l’en-tête de facture d’intérêts|  
-|%7|Montant total de la relance|  
-|%8|Contenu du champ **Code devise** de l’en-tête de facture d’intérêts|  
-|%9|Contenu du champ **Date comptabilisation** de l’en-tête de facture d’intérêts|  
-
-### <a name="to-create-a-finance-charge-memo-manually"></a>Pour créer manuellement des factures d’intérêts  
 Une facture d’intérêts ressemble à une facture. Vous pouvez renseigner un en-tête manuellement et faire renseigner les lignes, ou créer des factures d’intérêts automatiquement pour tous les clients.
 
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures d’intérêts**, puis sélectionnez le lien associé.  
@@ -286,6 +192,8 @@ Lorsque vous configurez des conditions d’intérêts de retard et les condition
 
 ## <a name="see-also"></a>Voir aussi
 
+[Configurer les conditions et niveaux de relance](finance-setup-reminders.md)  
+[Configurer les conditions intérêts de retard](finance-setup-finance-charges.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

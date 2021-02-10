@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8b29f96f37448c2ca6eb02330946171adb5f04b9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4b112bf05c1bbc6110ce3b5a439c81a96759d1bf
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925571"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756766"
 ---
 # <a name="personalize-your-workspace"></a>Personnaliser votre espace de travail
 Vous pouvez personnaliser votre espace de travail pour l’adapter à vos habitudes et préférences en modifiant les pages afin qu’elles n’affichent que les informations dont vous avez besoin, où vous avez en besoin. Les modifications de personnalisation que vous apportez n’affectent que ce que vous voyez, pas ce que voient les autres utilisateurs.
@@ -143,6 +143,6 @@ Pour vous aider à mieux comprendre la personnalisation, voici quelques points c
 
 ## <a name="see-also"></a>Voir aussi
 [Personnaliser les pages pour les profils](ui-personalization-manage.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)  

@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dff5ad97f8fa4b8fecf2906806d74283b46fd95d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dc96e0f21a85e98bc871cf90972d397f70e1eb44
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914909"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756692"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Recherche de pages avec l’explorateur de rôles
 Vous pouvez obtenir une vue d’ensemble de toutes les fonctionnalités métier disponibles pour votre rôle et pour d’autres rôles si vous allez encore plus loin. Dans la documentation suivante, cette présentation de la fonctionnalité est appelée *explorateur de rôles*.
 
-Chaque élément de l’explorateur de rôles est une action qui ouvre une page. Par conséquent, vous pouvez également utiliser l’explorateur de rôles pour naviguer dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Chaque élément de l’explorateur de rôles est une action qui ouvre une page. Par conséquent, vous pouvez également utiliser l’explorateur de rôles pour naviguer dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Vous pouvez ouvrir l’explorateur de rôles à partir du Tableau de bord, de toutes les pages de liste et de la fenêtre **de recherche**.
 
@@ -44,4 +44,4 @@ Les actions qui ouvrent des pages sont organisées sous des nœuds nommés d’a
 ## <a name="see-also"></a>Voir aussi
 [Recherche de pages et d’informations avec la fonction Tell Me](ui-search.md)  
 [Gérer les profils](admin-users-profiles-roles.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

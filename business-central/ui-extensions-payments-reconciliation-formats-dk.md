@@ -10,12 +10,12 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1afd60dc4c9c86b476c3c2c80974ce805b19a4ca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c8dd465213a9882a98c1ac1623d8a093f3eecb9a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912320"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757491"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Extension Paiements et rapprochements (DK)
 
@@ -53,7 +53,7 @@ Voici quelques étapes pour commencer.
 
 En outre, vous devez affecter les fournisseurs à un **Groupe compta. marché** et à un **Groupe compta. fournisseur** nationaux. Le paramètre de pays/région du fournisseur doit être le Danemark (DK). Pour plus d’informations, voir [Configuration de groupes comptabilisation](finance-posting-groups.md).  
 
-### <a name="to-allow-d365fin-to-export-payment-data"></a>Pour autoriser [!INCLUDE[d365fin](includes/d365fin_md.md)] à exporter des données de règlement
+### <a name="to-allow-prod_short-to-export-payment-data"></a>Pour autoriser [!INCLUDE[prod_short](includes/prod_short.md)] à exporter des données de règlement
 
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille paiement**, puis sélectionnez le lien associé.  
 2. Sur la page **Modifier feuille paiement**, choisissez le lot **Banque**.  
@@ -61,7 +61,7 @@ En outre, vous devez affecter les fournisseurs à un **Groupe compta. marché** 
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>Pour spécifier un mode de règlement pour un fournisseur
 
-Le tableau suivant affiche les combinaisons des modes de règlement FIK et virement GIRO pris en charge par [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Le tableau suivant affiche les combinaisons des modes de règlement FIK et virement GIRO pris en charge par [!INCLUDE[prod_short](includes/prod_short.md)].
 
 |Combinaison|Type 01 | Type 04 | Type 71 | Type 73 |
 |----|--------|---------|---------|---------|
@@ -87,7 +87,7 @@ Le tableau suivant affiche les combinaisons des modes de règlement FIK et virem
 4. Dans le champ **Référence paiement**, saisissez le numéro à 15 chiffres de la facture fournisseur.  
 
     > [!Tip]
-    > Il vous suffit d’ajouter les 11 derniers chiffres du numéro. [!INCLUDE[d365fin](includes/d365fin_md.md)] ajoutera quatre zéros au début du numéro.  
+    > Il vous suffit d’ajouter les 11 derniers chiffres du numéro. [!INCLUDE[prod_short](includes/prod_short.md)] ajoutera quatre zéros au début du numéro.  
 
 5. Validez la facture.
 
@@ -105,6 +105,6 @@ Le tableau suivant affiche les combinaisons des modes de règlement FIK et virem
 
 ## <a name="see-also"></a>Voir aussi
 
-[Personnalisation de Business Central pour [!INCLUDE[d365fin](includes/d365fin_md.md)] à l’aide d’extensions](ui-extensions.md)  
+[Personnalisation de Business Central pour [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide d’extensions](ui-extensions.md)  
 [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  

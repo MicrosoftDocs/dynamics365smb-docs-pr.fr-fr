@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 96ed7af85889c20f9792ce904d1ba30660bf1b76
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2fa0038745664c269d6d471c6d9373a9174df201
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919137"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759191"
 ---
 # <a name="post-capacities"></a>Valider les capacités
 La feuille capacité vous permet de valider les capacités consommées qui ne sont pas affectées à l’ordre de fabrication. Par exemple, les travaux de maintenance doivent être affectés à une capacité, mais non à un ordre de fabrication.  
@@ -41,4 +41,4 @@ La page **Écritures comptables capacité** affiche les écritures validées rel
 [Planifié](production-planning.md)      
 [Stock](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: resource, skill, service, zones
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cac2d270fec47d35749d3ccf1ce1e3a3f130d097
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 48d0f9f9e51a0da3f82abdb43e8c4bb6044a5f29
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910329"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757991"
 ---
 # <a name="set-up-resource-allocation"></a>Configurer l'affectation des ressources
-Pour assurer la bonne exécution d'une tâche service, il est important de trouver une ressource qualifiée. Vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] de manière à affecter facilement une ressource disposant des compétences appropriées pour le travail. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], ce processus est appelé _affectation de ressources_. Vous pouvez affecter des ressources en fonction de leur compétence, de leur disponibilité, ou selon qu'elles se trouvent dans la même zone service que le client. 
+Pour assurer la bonne exécution d'une tâche service, il est important de trouver une ressource qualifiée. Vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] de manière à affecter facilement une ressource disposant des compétences appropriées pour le travail. Dans [!INCLUDE[prod_short](includes/prod_short.md)], ce processus est appelé _affectation de ressources_. Vous pouvez affecter des ressources en fonction de leur compétence, de leur disponibilité, ou selon qu'elles se trouvent dans la même zone service que le client. 
 
 Pour utiliser l'affectation des ressources, vous devez définir :  
   
@@ -49,7 +49,7 @@ Pour utiliser l'affectation des ressources, vous devez définir :
     * Pour les ressources, sélectionnez l'action **Zones service**.  
 
 ## <a name="to-specify-what-to-show-when-a-resource-is-chosen"></a>Pour spécifier les éléments à afficher lorsqu'une ressource est sélectionnée
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres service**, puis sélectionnez le lien associé. 
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres Gestion des services**, puis sélectionnez le lien associé. 
 2. Dans le champ **Compétences ressources**, sélectionnez l'une des options décrites dans le tableau suivant.  
   
     |**Options**|**Description**|  

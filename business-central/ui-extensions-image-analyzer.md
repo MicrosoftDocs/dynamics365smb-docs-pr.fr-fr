@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4946eb43dd854f8f04b0c267a9ba1bc328cc62bb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3957936f7a95ce493443ed86c791ebceee6b56b9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915134"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757241"
 ---
 # <a name="the-image-analyzer-extension"></a>Extension d'analyseur Image
 
@@ -23,13 +23,13 @@ L'extension d'analyseur Image utilise les analyses d'image puissantes fournies p
 
 L'analyseur Image propose des attributs basés sur des balises trouvées par l'API Vision par ordinateur et un niveau de confiance. Par défaut, il propose des attributs uniquement s'il est sûr à au moins 80 % que l'attribut est correct. Vous pouvez définir un autre niveau de confiance, si nécessaire. Pour en savoir plus sur la manière dont les balises et le niveau de confiance sont déterminés, voir [API Vision par ordinateur](https://go.microsoft.com/fwlink/?linkid=851476).  
 
-L'analyseur Image est gratuit dans [!INCLUDE[d365fin](includes/d365fin_md.md)], mais il existe une limite au nombre d'articles que vous pouvez analyser pendant une période donnée. Par défaut, vous pouvez analyser 100 images par mois.
+L'analyseur Image est gratuit dans [!INCLUDE[prod_short](includes/prod_short.md)], mais il existe une limite au nombre d'articles que vous pouvez analyser pendant une période donnée. Par défaut, vous pouvez analyser 100 images par mois.
 
 Après avoir activé l'extension, l'analyseur Image fonctionne chaque fois que vous importez une image à un article ou à un contact. Vous pourrez consulter les attributs, le niveau de confiance et les détails immédiatement, et décider de gérer chaque attribut. Si vous avez importé des images avant d'activer l'extension d'analyseur Image, vous devez consulter la fiche article ou contact et choisir l'action **Analyser l'image**.  
 
 ## <a name="privacy-notice"></a>Déclaration de confidentialité
 
-Cette extension utilise l'API Vision par ordinateur de Microsoft Cognitive Services, qui peut avoir différents niveaux d'engagements en matière de conformité par rapport à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Lorsque vous activez l'extension Analyseur Image, les données client telles qu'une image de contact ou une image d'article sont envoyées à l'API Vision par ordinateur. En installant cette extension, vous acceptez que cet ensemble limité de données soit envoyé à l'API Vision par ordinateur. Notez que vous pouvez désactiver et désinstaller l'extension Analyseur Image à tout moment pour ne plus utiliser cette fonctionnalité. Pour plus d'informations, voir [Centre de gestion de la confidentialité Microsoft](https://go.microsoft.com/fwlink/?linkid=851463).
+Cette extension utilise l'API Vision par ordinateur de Microsoft Cognitive Services, qui peut avoir différents niveaux d'engagements en matière de conformité par rapport à [!INCLUDE[prod_short](includes/prod_short.md)]. Lorsque vous activez l'extension Analyseur Image, les données client telles qu'une image de contact ou une image d'article sont envoyées à l'API Vision par ordinateur. En installant cette extension, vous acceptez que cet ensemble limité de données soit envoyé à l'API Vision par ordinateur. Notez que vous pouvez désactiver et désinstaller l'extension Analyseur Image à tout moment pour ne plus utiliser cette fonctionnalité. Pour plus d'informations, voir [Centre de gestion de la confidentialité Microsoft](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Conditions requises
 
@@ -41,7 +41,7 @@ Certaines exigences s'appliquent aux images :
 
 ## <a name="to-enable-image-analyzer"></a>Pour activer l'analyseur Image
 
-L'extension d'analyseur Image est intégrée à [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous devez juste l'activer.
+L'extension d'analyseur Image est intégrée à [!INCLUDE[prod_short](includes/prod_short.md)]. Vous devez juste l'activer.
 
 > [!NOTE]  
 > Pour activer l'extension d'analyseur Image, vous devez être un administrateur. Assurez-vous que vous disposez de l'ensemble d'autorisations d'utilisateur **SUPER**.
@@ -102,5 +102,5 @@ Vous pouvez afficher le nombre d'analyses effectué, et le nombre restant, pour 
 ## <a name="see-also"></a>Voir aussi
 
 [Utiliser les attributs d'article](inventory-how-work-item-attributes.md)  
-[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)] à l'aide d'extensions](ui-extensions.md)  
+[Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l'aide d'extensions](ui-extensions.md)  
 [Mise en route](product-get-started.md)  

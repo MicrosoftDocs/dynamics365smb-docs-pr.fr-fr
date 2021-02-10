@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0b8c0acb51467d8320a6ebe91ee6dbf6827f8e85
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 404255e33d0fc689ee463b6fa0305bcd5cec0785
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915384"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758966"
 ---
 # <a name="subcontract-manufacturing"></a>Sous-traiter la production
 La sous-traitance des opérations sélectionnées au fournisseur est courante dans de nombreuses sociétés de production. La sous-traitance peut être occasionnelle ou faire partie intégrante des processus de production.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] fournit plusieurs outils pour gérer le travail de sous-traitance :  
+[!INCLUDE[prod_short](includes/prod_short.md)] fournit plusieurs outils pour gérer le travail de sous-traitance :  
 
 - Centre de charge avec fournisseur affecté : cette fonctionnalité permet de configurer un centre de charge associé à un fournisseur (sous-traitant). Il s’agit d’un centre de charge sous-traitant. Vous pouvez spécifier un centre de charge sous-traitant sur une opération de gamme, ce qui permet de traiter aisément l’activité sous-traitée. En outre, le coût de l’opération peut être indiqué au niveau de la gamme ou du centre de charge.  
 - Coût du centre de charge basé sur des unités de temps : cette fonctionnalité permet de spécifier si les coûts associés au centre de charge sont basés sur le temps de fabrication ou un coût unitaire. Bien que les sous-traitants utilisent généralement un coût unitaire pour facturer leurs services, l’application peut gérer les deux options (temps de fabrication et coût unitaire).  
@@ -95,4 +95,4 @@ Lorsque la commande achat est validée comme facturée, son coût direct est val
 [Planifié](production-planning.md)      
 [Stock](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: db613df030a739ac8899b3cea19e89f17dcfe53e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 82e28246f1a1c65c7bd702023d9c68c614383cc2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916569"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759141"
 ---
 # <a name="batch-post-output-and-run-times"></a>Valider par lots la production et les temps d’exécution
 La quantité produite représente l’avancée des travaux en prenant en compte la quantité achevée.  
@@ -46,4 +46,4 @@ Le temps d’exécution représente l’avancement des travaux en prenant en com
 [Planifié](production-planning.md)      
 [Stock](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

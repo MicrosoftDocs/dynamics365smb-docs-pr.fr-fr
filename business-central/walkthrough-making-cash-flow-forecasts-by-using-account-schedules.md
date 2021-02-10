@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 67a6e963800bf5f0ce8e1a293463d53b51470ee5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a210792a187bde0217917659f118c58a6a135df2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914784"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756536"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procédure pas-à-pas : créer des prévisions de trésorerie à l’aide de tableaux d’analyse
 Cette procédure pas-à-pas décrit le mode d’utilisation des tableaux d’analyse pour élaborer des prévisions de trésorerie. Les tableaux d’analyse procèdent aux calculs qui ne peuvent pas être effectués directement dans le plan comptable de trésorerie. Dans les tableaux d’analyse, vous pouvez configurer des sous-totaux pour les réceptions et les décaissements de trésorerie. Ces sous-totaux peuvent être inclus dans les nouveaux totaux pour élaborer des prévisions de trésorerie.  
@@ -32,7 +32,7 @@ Cette procédure pas à pas décrit les tâches suivantes :
 ### <a name="prerequisites"></a>Conditions préalables  
 Pour exécuter ce processus pas à pas, vous devez :  
 
-- Installer [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+- Installer [!INCLUDE[prod_short](includes/prod_short.md)].  
 - Les lignes de la feuille d’activité de trésorerie sont enregistrées.  
 
 ## <a name="roles"></a>Rôles  
@@ -89,4 +89,4 @@ Ken est désormais prêt à affecter la présentation de colonne au nom de table
 ## <a name="see-also"></a>Voir aussi  
  [Utilisation des tableaux d’analyse](bi-how-work-account-schedule.md)   
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

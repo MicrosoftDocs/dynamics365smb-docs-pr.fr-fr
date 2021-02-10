@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7f9fb4a2574c93c60f0bfbcaeeff86676393555d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 44a11933488ef6f7c6a8b007bdd9ae9049a5b3bc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926846"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758516"
 ---
 # <a name="purchase-items-for-a-sale"></a>Acheter des articles pour une vente
 Avec les commandes vente et les factures vente, vous pouvez utiliser des fonctions vous permettant de créer rapidement des documents achat pour des quantités d’articles manquantes requises par la vente. Vous pouvez utiliser deux fonctions distinctes selon le type document.
@@ -69,4 +69,4 @@ Pour créer une facture achat unique pour une ou plusieurs lignes d’un documen
 [Enregistrer des achats](purchasing-how-record-purchases.md)  
 [Facturer des ventes](sales-how-invoice-sales.md)  
 [Enregistrer un nouveau fournisseur](purchasing-how-register-new-vendors.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

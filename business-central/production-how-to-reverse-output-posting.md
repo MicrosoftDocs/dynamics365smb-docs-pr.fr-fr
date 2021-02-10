@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b33b0642d8cee6e26edeeece47c8fceb72c2bfa1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ed275469dd172af43ceb96b85d5ac0aa99e96a2f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921566"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759041"
 ---
 # <a name="reverse-output-posting"></a>Contrepasser la validation de production
 Il arrive qu’une validation de production doive être contrepassée. C’est le cas, par exemple, si une erreur de saisie de données a été commise et qu’une quantité de production incorrecte a été validée pour un ordre de fabrication.  
@@ -34,4 +34,4 @@ Les écritures de la feuille production sont validées dans les écritures artic
  [Planifié](production-planning.md)      
  [Stock](inventory-manage-inventory.md)  
  [Achats](purchasing-manage-purchasing.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

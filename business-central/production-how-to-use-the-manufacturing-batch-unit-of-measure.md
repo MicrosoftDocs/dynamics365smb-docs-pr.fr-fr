@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 91e77f25c111ffda32e94b82f23c7d56433e16cf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 75b46ba1f7133bcad85b94c67ca4a27368caa32e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921517"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758929"
 ---
 # <a name="work-with-manufacturing-batch-units-of-measure"></a>Utiliser les unités de lot de fabrication
 Si un article est stocké dans une unité mais produit dans une autre, un ordre de fabrication utilisant une unité de lot de fabrication est créé pour calculer la quantité correcte des composants durant le traitement par lots **Actualiser O.F.**. Une situation dans laquelle un article fabriqué est stocké en pièces mais produit en tonnes est un exemple d’un calcul d’unité de lot de fabrication.  
@@ -51,4 +51,4 @@ Sur le raccourci **Lignes**, choisissez l’action **Ligne**, puis l’action **
 [Planifié](production-planning.md)   
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

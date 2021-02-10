@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: df36e96ce30193344d8c8d92679c16ee9255e658
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8c3158874dc83d634ea09cac986820c615c3924d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918837"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758441"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Regroupement de bons de réception sur une seule facture
 
@@ -52,4 +52,4 @@ Répétez les étapes 1 à 3 pour tous les autres documents affectés, comme des
 
 [Achats](purchasing-manage-purchasing.md)  
 [Corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

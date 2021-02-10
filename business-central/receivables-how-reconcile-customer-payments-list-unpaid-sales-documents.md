@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 44d2031c41a8077e072255be60dd71ff98cd9e78
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 17468db82be1ad816bd77d12693e8720860d6df6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926501"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758411"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Rapprocher les paiements client à partir de la liste des documents vente échus
 Lorsque vos clients ont effectué des paiements sur votre compte bancaire électronique, vous devez lettrer chaque montant payé avec le document vente associé, puis valider le paiement pour mettre à jour les écritures client, comptables et banque. Selon les besoins de votre entreprise, vous pouvez être payé et enregistrer ce paiement de diverses manières : manuellement, automatiquement, et via des services de paiement.  
@@ -77,7 +77,7 @@ Les écritures de paiement sont validées dans les comptes général, bancaire, 
 
 Si un paiement avec la banque n’est pas représenté par une ligne sur la page **Enregistrement de paiement**, cela peut être parce que le document connexe n’a pas encore été validé. Dans ce cas, vous pouvez utiliser la fonction de recherche pour trouver rapidement le document et le valider pour traiter le paiement. Pour plus d’informations, voir [Pour rechercher un document vente spécifique qui n’est pas totalement facturé](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-find-a-specific-sales-document-that-is-not-fully-invoiced).  
 
-Si un paiement avec la banque n’est représenté par aucun document dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez ouvrir une ligne feuille comptabilité préremplie depuis la page **Enregistrement de paiement** pour valider le paiement directement dans le compte contrepartie sans lettrer le paiement avec un document. Sinon, vous pouvez enregistrer le paiement dans la feuille jusqu’à ce que l’origine du paiement soit résolue. Pour plus d’informations, reportez-vous à [Pour enregistrer ou valider un paiement sans document connexe](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
+Si un paiement avec la banque n’est représenté par aucun document dans [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez ouvrir une ligne feuille comptabilité préremplie depuis la page **Enregistrement de paiement** pour valider le paiement directement dans le compte contrepartie sans lettrer le paiement avec un document. Sinon, vous pouvez enregistrer le paiement dans la feuille jusqu’à ce que l’origine du paiement soit résolue. Pour plus d’informations, reportez-vous à [Pour enregistrer ou valider un paiement sans document connexe](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
 
 ## <a name="to-process-customer-payments-with-discounts-manually"></a>Pour traiter manuellement les paiements client avec remises
 Si vous avez convenu d’un escompte avec le client, les montants règlement peuvent être inférieurs aux montants facture si le paiement est effectué avant la date d’escompte convenue.  
@@ -166,10 +166,10 @@ La fonction de recherche effectue une recherche parmi les documents qui n’ont 
 
 Si un ou plusieurs documents correspondent aux critères de recherche, la page **Résultat de la recherche de documents** s’ouvre et affiche les lignes représentant ces documents. Chaque ligne contient un numéro de document, une description et un montant de manière à ce que vous puissiez facilement rechercher un document spécifique, par exemple à l’aide des informations de votre relevé bancaire.  
 
-Si un paiement avec la banque n’est représenté par aucun document dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez ouvrir une ligne feuille comptabilité préremplie depuis la page **Enregistrement de paiement** pour valider le paiement directement dans le compte contrepartie sans lettrer le paiement avec un document. Sinon, vous pouvez enregistrer le paiement dans la feuille jusqu’à ce que l’origine du paiement soit résolue.  
+Si un paiement avec la banque n’est représenté par aucun document dans [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez ouvrir une ligne feuille comptabilité préremplie depuis la page **Enregistrement de paiement** pour valider le paiement directement dans le compte contrepartie sans lettrer le paiement avec un document. Sinon, vous pouvez enregistrer le paiement dans la feuille jusqu’à ce que l’origine du paiement soit résolue.  
 
 ## <a name="to-record-or-post-a-payment-without-a-related-document"></a>Pour enregistrer ou valider un paiement sans document connexe
-Si un paiement avec la banque n’est représenté par aucun document dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez ouvrir une ligne feuille comptabilité préremplie depuis la page **Enregistrement de paiement** pour valider le paiement directement dans le compte contrepartie sans lettrer le paiement avec un document. Sinon, vous pouvez enregistrer le paiement dans la feuille jusqu’à ce que l’origine du paiement soit clarifiée.  
+Si un paiement avec la banque n’est représenté par aucun document dans [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez ouvrir une ligne feuille comptabilité préremplie depuis la page **Enregistrement de paiement** pour valider le paiement directement dans le compte contrepartie sans lettrer le paiement avec un document. Sinon, vous pouvez enregistrer le paiement dans la feuille jusqu’à ce que l’origine du paiement soit clarifiée.  
 
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Enregistrement de paiement**, puis sélectionnez le lien associé.  
 
@@ -186,4 +186,4 @@ Si vous laissez la ligne feuille non validée, elle s’ajoutera à la valeur du
 ## <a name="see-also"></a>Voir aussi
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

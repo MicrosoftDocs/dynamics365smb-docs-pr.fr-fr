@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project budget, forecast
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e8de8d35ee036d2819ba40b1fdf50b6d5ed2dab5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 56039fa07813f841e670b2019d7020953ea26742
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913170"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758716"
 ---
 # <a name="manage-job-budgets"></a>Gérer les budgets de projets
 Vous pouvez configurer un budget pour chaque projet. Le budget permet de planifier les ressources que vous affectez à un projet. Il peut s’agir d’un budget général avec peu d’écritures ou plus détaillé avec des écritures réparties par niveau d’activité. Vous pouvez alors comparer les montants budgétés avec l’activité réelle telle qu’elle a été enregistrée dans la feuille projet. En surveillant les différences entre l’activité réelle et celle budgétée, vous pouvez contrôler un projet en cours et améliorer la qualité des projets futurs en réduisant le risque de sous-estimation des coûts.
@@ -55,4 +55,4 @@ Pour plus d’informations sur l’enregistrement budgété par rapport aux prix
 [Finances](finance.md)  
 [Achats](purchasing-manage-purchasing.md)         
 [Ventes](sales-manage-sales.md)      
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
