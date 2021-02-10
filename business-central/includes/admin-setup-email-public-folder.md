@@ -4,12 +4,12 @@ ms.service: dynamics365-accountant
 ms.topic: include
 ms.date: 10/02/2020
 ms.author: edupont
-ms.openlocfilehash: a62a1a628f22ff47fa86a64a72f5b1834960dc72
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: 1b9f60eab5b0bcf812343e82389087ac5535301a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3931270"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749779"
 ---
 Avant de pouvoir configurer la connexion à la messagerie, vous devez préparer votre Exchange Online avec [dossiers publics](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019&preserve-view=true ). Vous pouvez le faire dans le [Centre d’administration Exchange](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019&preserve-view=true ), ou vous pouvez utiliser le [shell de gestion Exchange](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ).  
 
@@ -72,4 +72,4 @@ La liste suivante décrit les principales étapes avec des liens pour en savoir 
   Pour plus d’informations, voir [Gérer les règles de flux de messagerie dans Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) et [Actions des règles de flux de messagerie dans Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
 
 > [!NOTE]
-> Si vous apportez des modifications dans le shell de gestion Exchange, les modifications deviennent visibles dans le centre d’administration Exchange après un certain délai. De plus, les modifications apportées dans Exchange seront disponibles dans [!INCLUDE[prodshort](prodshort.md)] après un délai.
+> Si vous apportez des modifications dans le shell de gestion Exchange, les modifications deviennent visibles dans le centre d’administration Exchange après un certain délai. De plus, les modifications apportées dans Exchange seront disponibles dans [!INCLUDE[prod_short](prod_short.md)] après un délai.

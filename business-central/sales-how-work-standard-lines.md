@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 66a0e679a97bff7071a20197c804143cf11539d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 40af4b0010b46938a9ce53a12dd95f1b2a687cc9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910479"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748168"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Créer des lignes ventes et achat récurrentes
 Si vous devez souvent créer des lignes ventes et des lignes achat comportant des informations similaires, vous pouvez configurer des lignes standard que vous pouvez ensuite insérer dans les documents vente et achat, par exemple, pour les commandes de réapprovisionnement récurrentes.  
@@ -79,4 +79,4 @@ Les factures vente sont créées pour les clients ayant le code vente client sta
 ## <a name="see-also"></a>Voir aussi
 
 [Ventes](sales-manage-sales.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

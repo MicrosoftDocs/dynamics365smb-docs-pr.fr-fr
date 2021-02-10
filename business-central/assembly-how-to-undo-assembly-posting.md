@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9d483d104b0dee148dfc4a15bea6737d505730cc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d672b28dda7c586bd68412fbbb89fb8e33cba1b8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913862"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747314"
 ---
 # <a name="undo-assembly-posting"></a>Annuler la validation d’assemblage
 Vous pouvez parfois être amené à annuler un ordre d’assemblage validé, par exemple, si la commande a été validée avec des erreurs qui doivent être corrigées, ou parce qu’il n’aurait pas dû être validé en premier et doit être annulé.
@@ -60,4 +60,4 @@ Le champ **Contrepassé** de l’en\-tête d’ordre d’assemblage prend la val
 [Utiliser les nomenclatures](inventory-how-work-BOMs.md)  
 [Stock](inventory-manage-inventory.md)  
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

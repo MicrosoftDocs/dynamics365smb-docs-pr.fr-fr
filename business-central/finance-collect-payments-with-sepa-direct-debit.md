@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e7af0cc7e84ea94c12b6e7aa4988c081f135f52c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 08b28c30ba6ef1bf80d4562f198eeeb4aa07394c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913420"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747115"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Recouvrement de paiements par prélèvement automatique SEPA
 Avec le consentement de votre client, vous pouvez collecter les paiements directement à partir du compte bancaire du client en fonction du format SEPA.  
@@ -35,9 +35,9 @@ Avec le consentement de votre client, vous pouvez collecter les paiements direct
 Sur la page **Recouvrements prélèvement**, vous pouvez exporter des instructions vers votre banque électronique pour exécuter un recouvrement par prélèvement automatique depuis le compte bancaire du client vers votre compte bancaire selon le format de prélèvement SEPA.
 
 > [!NOTE]
-> La version globale de [!INCLUDE[d365fin](includes/d365fin_md.md)] prend en charge le format de prélèvement SEPA uniquement. La version de votre pays/région peut prendre en charge d’autres formats pour le paiement électronique. Reportez-vous à la section **Fonctionnalités locales** dans la table des matières.  
+> La version globale de [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge le format de prélèvement SEPA uniquement. La version de votre pays/région peut prendre en charge d’autres formats pour le paiement électronique. Reportez-vous à la section **Fonctionnalités locales** dans la table des matières.  
 
-Pour activer l’exportation de formats de fichiers bancaires qui ne sont pas pris en charge en natif dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez configurer une définition d’échange de données à l’aide de l’infrastructure d’échange de données. Pour plus d’informations, voir [Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md).  
+Pour activer l’exportation de formats de fichiers bancaires qui ne sont pas pris en charge en natif dans [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez configurer une définition d’échange de données à l’aide de l’infrastructure d’échange de données. Pour plus d’informations, voir [Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md).  
 
 Avant de pouvoir traiter les paiements client par voie électronique en exportant des instructions de prélèvement automatique dans le format de prélèvement automatique SEPA, vous devez exécuter les étapes de configuration suivantes :  
 

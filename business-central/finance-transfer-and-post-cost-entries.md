@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9063126f0b8bd1b9ef8deadcbeb0451b3009f10d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e70d34effb16c7fc4daa3bde19cf1fb0ac03902c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919462"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750304"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Transfert et validation des écritures de coûts
 Avant de définir des affectations de coûts, vous devez comprendre comment les écritures de coûts proviennent des sources suivantes :  
@@ -76,25 +76,25 @@ En comptabilité analytique, vous pouvez transférer les écritures comptables v
 |Mois|Toutes les écritures comptables du même mois calendaire sont transférées en une seul écriture vers le type de coût correspondant.|  
 
 > [!IMPORTANT]  
->  Si vous avez coché la case **Transférer automatiquement à partir de la compta** sur la page **Paramètres comptabilité analytique**, [!INCLUDE[d365fin](includes/d365fin_md.md)] met à jour la comptabilité analytique après chaque validation comptable. Les écritures combinées ne sont pas possibles.
+>  Si vous avez coché la case **Transférer automatiquement à partir de la compta** sur la page **Paramètres comptabilité analytique**, [!INCLUDE[prod_short](includes/prod_short.md)] met à jour la comptabilité analytique après chaque validation comptable. Les écritures combinées ne sont pas possibles.
 
 ## <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Résultats du transfert des écritures comptables vers les écritures de coûts
-Lors du transfert des écritures comptables vers les écritures de coûts, [!INCLUDE[d365fin](includes/d365fin_md.md)] crée des connexions dans les écritures dans les tables **Écriture comptable**, **Écriture de coûts** et **Registre de coûts** pour assurer le suivi des connexions entre les écritures de coûts et les écritures comptables.  
+Lors du transfert des écritures comptables vers les écritures de coûts, [!INCLUDE[prod_short](includes/prod_short.md)] crée des connexions dans les écritures dans les tables **Écriture comptable**, **Écriture de coûts** et **Registre de coûts** pour assurer le suivi des connexions entre les écritures de coûts et les écritures comptables.  
 
 ### <a name="general-ledger-entries"></a>Écritures comptables  
-Pour chaque écriture comptable transférée vers la comptabilité analytique, [!INCLUDE[d365fin](includes/d365fin_md.md)] renseigne le champ **N° écriture**  
+Pour chaque écriture comptable transférée vers la comptabilité analytique, [!INCLUDE[prod_short](includes/prod_short.md)] renseigne le champ **N° écriture**  
 
 ### <a name="cost-entries"></a>Écritures de coûts  
-Pour chaque écriture de coûts, [!INCLUDE[d365fin](includes/d365fin_md.md)] garde le numéro de l’écriture comptable correspondante dans le champ **N° séquence compta.** de la table **Écriture de coûts**.  
+Pour chaque écriture de coûts, [!INCLUDE[prod_short](includes/prod_short.md)] garde le numéro de l’écriture comptable correspondante dans le champ **N° séquence compta.** de la table **Écriture de coûts**.  
 
-Pour les écritures de coûts combinées, [!INCLUDE[d365fin](includes/d365fin_md.md)] garde le numéro de la dernière écriture comptable, à savoir l’écriture avec le numéro le plus élevé.  
+Pour les écritures de coûts combinées, [!INCLUDE[prod_short](includes/prod_short.md)] garde le numéro de la dernière écriture comptable, à savoir l’écriture avec le numéro le plus élevé.  
 
 Le champ **Compte général** de la table **Écriture de coûts** contient le numéro du compte général, d’où provient l’écriture de coûts.  
 
-Pour les écritures de coûts uniques, [!INCLUDE[d365fin](includes/d365fin_md.md)] transfère le texte de validation depuis l’écriture comptable vers le champ de texte **Description**. Pour les écritures combinées, le champ de texte indique que ces écritures sont transférées en tant qu’écritures combinées. Par exemple, pour une écriture combinée pour octobre 2013, le texte peut être **Écritures combinées, octobre 2013**.  
+Pour les écritures de coûts uniques, [!INCLUDE[prod_short](includes/prod_short.md)] transfère le texte de validation depuis l’écriture comptable vers le champ de texte **Description**. Pour les écritures combinées, le champ de texte indique que ces écritures sont transférées en tant qu’écritures combinées. Par exemple, pour une écriture combinée pour octobre 2013, le texte peut être **Écritures combinées, octobre 2013**.  
 
 ### <a name="cost-register"></a>Registre de coûts  
-Dans la table **Registre de coûts**, [!INCLUDE[d365fin](includes/d365fin_md.md)] crée une écriture à l’aide du transfert source depuis la comptabilité. L’écriture enregistre le premier et le dernier numéros des écritures comptables transférées, outre le premier et le dernier numéros des écritures de coûts créées.
+Dans la table **Registre de coûts**, [!INCLUDE[prod_short](includes/prod_short.md)] crée une écriture à l’aide du transfert source depuis la comptabilité. L’écriture enregistre le premier et le dernier numéros des écritures comptables transférées, outre le premier et le dernier numéros des écritures de coûts créées.
 
 ## <a name="see-also"></a>Voir aussi  
  [À propos de la comptabilité analytique](finance-about-cost-accounting.md)   

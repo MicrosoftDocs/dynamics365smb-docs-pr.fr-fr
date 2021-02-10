@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e6a9465f13e272d653ec9a0544618b243928af03
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5b10d8e8c8dd6142a4b9ed2c9604fd4e9c7e9c74
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923719"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746265"
 ---
 # <a name="set-up-units-of-measure"></a>Configuration d’unités
 
-Dans le cadre de la configuration de votre [!INCLUDE [prodshort](includes/prodshort.md)], vous définissez des unités générales sur la page **Unités**. Ensuite, lorsque vous enregistrez de nouveaux articles, vous spécifiez l’unité de base sur la **Fiche article**. Mais vous pouvez également ajouter des unités ultérieurement.  
+Dans le cadre de la configuration de votre [!INCLUDE [prod_short](includes/prod_short.md)], vous définissez des unités générales sur la page **Unités**. Ensuite, lorsque vous enregistrez de nouveaux articles, vous spécifiez l’unité de base sur la **Fiche article**. Mais vous pouvez également ajouter des unités ultérieurement.  
 
 Vous pouvez définir plusieurs unités pour un article afin que vous puissiez affecter des unités à l’article aux fins suivantes :
 
@@ -50,9 +50,9 @@ Lorsque vous enregistrez un nouvel article, vous pouvez choisir l’unité de ba
 5. Sélectionnez l’action **Nouveau**. Une nouvelle ligne vide est insérée.
 6. Dans le champ **Code**, entrez le nom de l’unité. Sinon, sélectionnez le champ pour choisir parmi les codes unité figurant dans la base de données.
 7. Dans le champ **Quantité par unité** entrez le nombre d’unités de l’unité de base que la nouvelle unité contient.
-8. Éventuellement, dans les champs **Hauteur**, **Largeur**, **Longueur** et **Poids**, spécifiez des informations précises sur la taille des unités de manière à ce que [!INCLUDE [prodshort](includes/prodshort.md)] puisse calculer le nombre d’unités article pouvant être placées dans un emplacement donné. Le champ **Cubage** est calculé automatiquement en fonction de la **Hauteur**, **Largeur** et **Longueur**.
+8. Éventuellement, dans les champs **Hauteur**, **Largeur**, **Longueur** et **Poids**, spécifiez des informations précises sur la taille des unités de manière à ce que [!INCLUDE [prod_short](includes/prod_short.md)] puisse calculer le nombre d’unités article pouvant être placées dans un emplacement donné. Le champ **Cubage** est calculé automatiquement en fonction de la **Hauteur**, **Largeur** et **Longueur**.
 
-    Si l’un de ces champs contient une valeur autre que 0, cette mesure est utilisée pendant tous les processus qui impliquent le placement d’articles dans un emplacement : rangement, mouvements, réceptions, expéditions, prélèvements et ajustements. [!INCLUDE [prodshort](includes/prodshort.md)] compare la somme de chaque mesure physique des articles rangés ajoutés à ceux qui se trouvent déjà dans l’emplacement à la taille maximum ou à l’autre mesure qui peut être logée dans un emplacement, en fonction de la capacité de l’emplacement sur la fiche magasin pour cet article. En d’autres termes, vous devez utiliser la même mesure unitaire pour chaque dimension dans toutes les unités article ; utilisez des kilogrammes ou des livres pour le poids, par exemple, mais soyez cohérent.
+    Si l’un de ces champs contient une valeur autre que 0, cette mesure est utilisée pendant tous les processus qui impliquent le placement d’articles dans un emplacement : rangement, mouvements, réceptions, expéditions, prélèvements et ajustements. [!INCLUDE [prod_short](includes/prod_short.md)] compare la somme de chaque mesure physique des articles rangés ajoutés à ceux qui se trouvent déjà dans l’emplacement à la taille maximum ou à l’autre mesure qui peut être logée dans un emplacement, en fonction de la capacité de l’emplacement sur la fiche magasin pour cet article. En d’autres termes, vous devez utiliser la même mesure unitaire pour chaque dimension dans toutes les unités article ; utilisez des kilogrammes ou des livres pour le poids, par exemple, mais soyez cohérent.
 9. Répétez les étapes 5 à 7 pour définir toutes les autres unités que vous souhaitez utiliser dans les différents processus de cet article.
 
     Dans le champ **Unité de base** situé au bas de la fenêtre, vous pouvez visualiser ou modifier l’unité de base de l’article. Vous pouvez également modifier l’unité de base dans le champ **Unité de base** de la fiche article. Sur la page **Unités article**, l’unité de base doit avoir la valeur **1** dans le champ **Qté par unité**.
@@ -86,4 +86,4 @@ Si vous utilisez habituellement d’autres unités que l’unité de base pour v
 [Gestion du stock](inventory-manage-inventory.md)  
 [Gestion des achats](purchasing-manage-purchasing.md)  
 [Gestion des ventes](sales-manage-sales.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

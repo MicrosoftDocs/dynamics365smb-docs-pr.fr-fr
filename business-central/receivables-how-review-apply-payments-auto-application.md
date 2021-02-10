@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 386947106aedd8d0a264d04bd28c064a0f43655f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bcb3ffbf7bab30b71cea7c2f1005124415ab2ae4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926421"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748517"
 ---
 # <a name="review-or-apply-payments-manually-after-automatic-application"></a>Réviser ou lettrer les paiements manuellement après un lettrage automatique
 Pour chaque ligne feuille représentant un paiement sur la page **Feuille rapprochement bancaire**, vous pouvez ouvrir la page **Lettrage paiement** pour afficher toutes les écritures ouvertes candidates au paiement et les informations détaillées pour chaque écriture sur la correspondance des données sur laquelle un lettrage de paiement est basé. Ici, vous pouvez appliquer les paiements manuellement ou réappliquer les paiements qui ont été automatiquement appliqués à une écriture incorrecte. Pour plus d’informations sur le lettrage automatique, voir [Rapprocher les paiements à l’aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]  
->   Lorsque le compte bancaire pour lequel vous rapprochez des paiements est configuré pour la devise locale, la page **Lettrage paiement** affiche toutes les écritures ouvertes dans la devise locale, y compris les écritures ouvertes pour les documents qui ont été initialement facturés en devise étrangère. Les paiements appliqués aux écritures avec devises converties peuvent donc être validés avec différents montants que celui qui figure sur le document d’origine en raison des taux de change potentiellement différents utilisés respectivement par la banque et [!INCLUDE[d365fin](includes/d365fin_md.md)].
+>   Lorsque le compte bancaire pour lequel vous rapprochez des paiements est configuré pour la devise locale, la page **Lettrage paiement** affiche toutes les écritures ouvertes dans la devise locale, y compris les écritures ouvertes pour les documents qui ont été initialement facturés en devise étrangère. Les paiements appliqués aux écritures avec devises converties peuvent donc être validés avec différents montants que celui qui figure sur le document d’origine en raison des taux de change potentiellement différents utilisés respectivement par la banque et [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Par conséquent, nous vous recommandons de rechercher les codes devise étrangère dans le champ **Code devise** de la page **Lettrage paiement** pour vérifier si les lettrages sont basés sur des devises converties. Pour rechercher le montant du document initial dans la devise étrangère et visualiser le taux de change utilisé, choisissez le champ **N° séquence lettrage**, puis, dans le menu contextuel, sélectionnez le bouton de vue détaillée pour ouvrir la page **Écritures comptables client** ou **Écritures comptables fournisseur**.
 
-Aucun ajustement profits et pertes requis en raison de conversions de devise n’est géré automatiquement par [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Aucun ajustement profits et pertes requis en raison de conversions de devise n’est géré automatiquement par [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]  
 >   Vous ne pouvez pas appliquer des écritures avec un signe différent du signe sur le paiement. Par exemple, pour clôturer un avoir négatif et sa facture positive liée, vous devez d’abord appliquer l’avoir à la facture, puis appliquer le paiement à la facture avec le montant ouvert réduit.
@@ -52,4 +52,4 @@ La page **Lettrage paiement** se ferme puis, dans la fenêtre **Feuille rapproch
 ## <a name="see-also"></a>Voir aussi
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

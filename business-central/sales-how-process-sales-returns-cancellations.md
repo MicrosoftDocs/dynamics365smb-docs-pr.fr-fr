@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cab1663aa1e584780f7544f0bd9b61c9038b5922
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 701743c385d3afe7e0d514fede60185ecdc7a558
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926110"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748390"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Traiter les retours ou annulations de ventes
 Si votre client souhaite retourner des articles ou obtenir un remboursement pour des articles, ou encore annuler des services, que vous lui avez vendus et pour lesquels vous avez reçu un paiement, vous devez créer et valider un avoir vente qui indique la modification demandée. Pour inclure les informations de facture vente correctes, vous pouvez créer l’avoir vente à partir de la facture vente enregistrée ou vous pouvez créer un avoir vente avec les informations copiées de la facture.
@@ -43,8 +43,8 @@ Vous pouvez affecter l’inversion de même coût automatiquement de deux façon
 
 |Fonction|Désignation|  
 |------------------|---------------------------------------|  
-|Fonction**Afficher des lignes document validées à contrepasser** sur la page **Retour vente**|Copie les lignes d’un ou plusieurs documents validés afin de les contrepasser dans le retour vente. Pour plus d’informations, voir la section [Pour créer un retour vente à partir d’un ou plusieurs documents vente validés](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents).|  
-|Fonction**Copier à partir du document** des pages **Avoir vente** et **Retour vente**|Copie l’en-tête et les lignes d’un document validé à contrepasser.<br /><br /> Requiert que la case à cocher **Coût retour identique obligatoire** soit sélectionnée sur la page **Paramètres ventes**.|
+|Fonction **Afficher des lignes document validées à contrepasser** sur la page **Retour vente**|Copie les lignes d’un ou plusieurs documents validés afin de les contrepasser dans le retour vente. Pour plus d’informations, voir la section [Pour créer un retour vente à partir d’un ou plusieurs documents vente validés](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents).|  
+|Fonction **Copier à partir du document** des pages **Avoir vente** et **Retour vente**|Copie l’en-tête et les lignes d’un document validé à contrepasser.<br /><br /> Requiert que la case à cocher **Coût retour identique obligatoire** soit sélectionnée sur la page **Paramètres ventes**.|
 
 Pour réaliser manuellement la contrepassation exacte, sélectionnez **Écriture article à lettrer** sur n’importe quelle ligne de document retour, puis sélectionnez le numéro de l’écriture vente initiale. Cela crée un lien entre l’avoir ou le retour vente et l’écriture vente initiale, et garantit que l’article est évalué sur le coût unitaire initial.
 
@@ -227,4 +227,4 @@ Vous pouvez également supprimer chacune des commandes retour vente manuellement
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Traiter les retours ou annulations d’achats](purchasing-how-process-purchase-returns-cancellations.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

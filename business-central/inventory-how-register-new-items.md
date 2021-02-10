@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 74eb66c4303acb452972f9ac3c7dda008e3c6502
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6e4bf13885ccd7888e1750f4351741150df7b7df
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923819"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746215"
 ---
 # <a name="register-new-items"></a>Enregistrer de nouveaux articles
 
@@ -25,7 +25,7 @@ Les fiches article contiennent les informations nécessaires à l’achat, le st
 
 La fiche article peut être de type **Stock**, **Service** ou **Hors stock** pour spécifier si l’article est une unité de stock physique, une unité de temps de travail ou une unité physique qui n’est pas suivie dans le stock. Pour plus d’informations sur les types, voir [À propos des types d’articles](inventory-about-item-types.md).
 
-Un article peut être structuré comme article parent avec les éléments enfants sous-jacents dans une nomenclature. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], une nomenclature peut être une nomenclature d’assemblage ou une nomenclature de production, selon son utilisation. Pour plus d’informations, reportez-vous à [Utiliser les nomenclatures](inventory-how-work-BOMs.md).
+Un article peut être structuré comme article parent avec les éléments enfants sous-jacents dans une nomenclature. Dans [!INCLUDE[prod_short](includes/prod_short.md)], une nomenclature peut être une nomenclature d’assemblage ou une nomenclature de production, selon son utilisation. Pour plus d’informations, reportez-vous à [Utiliser les nomenclatures](inventory-how-work-BOMs.md).
 
 Si vous achetez le même article chez plusieurs fournisseurs, vous pouvez lier ces fournisseurs à la fiche article. Les fournisseurs s’affichent alors sur la page **Catalogue fournisseur articles**, de sorte que vous pouvez facilement sélectionner un autre fournisseur.
 
@@ -96,7 +96,7 @@ Si vous avez enregistré une transaction pour un article, vous ne pouvez pas sup
 
 ## <a name="manage-inventory-in-warehouses"></a>Gérer le stock des entrepôts
 
-Lorsque vous enregistrez un nouvel article, vous verrez des champs liés à la gestion de l’entrepôt, en particulier sur le raccourci **Entrepôt**. Si votre organisation n’utilise pas les fonctionnalités de gestion d’entrepôt dans [!INCLUDE [prodshort](includes/prodshort.md)], vous pouvez alors ignorer ces champs.  
+Lorsque vous enregistrez un nouvel article, vous verrez des champs liés à la gestion de l’entrepôt, en particulier sur le raccourci **Entrepôt**. Si votre organisation n’utilise pas les fonctionnalités de gestion d’entrepôt dans [!INCLUDE [prod_short](includes/prod_short.md)], vous pouvez alors ignorer ces champs.  
 
 Si votre organisation configure ultérieurement la gestion de l’entrepôt, dans la plupart des cas, vous devez ensuite revenir à chaque article existant pour vous assurer qu’il contient les bonnes informations dans les différents champs, afin que les processus d’entrepôt puissent s’exécuter comme prévu. Ces informations peuvent inclure des champs, tels que **Code classe entrepôt** ou **Code modèle rangement**. Pour plus d’informations, reportez-vous à [Détails de conception : Paramètres entrepôt](design-details-warehouse-setup.md).  
 
@@ -110,4 +110,4 @@ Si votre organisation configure ultérieurement la gestion de l’entrepôt, dan
 [Configuration de groupes comptabilisation](finance-posting-groups.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Ventes](sales-manage-sales.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

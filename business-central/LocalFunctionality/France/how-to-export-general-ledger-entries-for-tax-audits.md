@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6d8776e333ae8f0a16b8488ebdc7f40d934881d0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ac8f85be155a93b74f6efcb72d3d309d19800837
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920140"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752427"
 ---
 # <a name="export-general-ledger-entries-for-tax-audits"></a>Exporter des écritures comptables pour les audits fiscaux
-En France, les entreprises doivent fournir des informations relatives à l'impôt sur les sociétés et à la TVA, telles que les transactions et les écritures comptables, pour les audits dans un format de fichier spécifié par les autorités fiscales. Dans [!INCLUDE[prodshort](../../includes/prodshort.md)], ces informations sont enregistrées dans un fichier d’audit standard conçu pour fournir des informations sur les types de comptes qui incluent des entrées comptabilisées.
+En France, les entreprises doivent fournir des informations relatives à l'impôt sur les sociétés et à la TVA, telles que les transactions et les écritures comptables, pour les audits dans un format de fichier spécifié par les autorités fiscales. Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], ces informations sont enregistrées dans un fichier d’audit standard conçu pour fournir des informations sur les types de comptes qui incluent des entrées comptabilisées.
 
-Vous pouvez inclure des soldes d'ouverture dans le fichier, mais il ne s'agit pas d'entrées comptabilisées réelles. [!INCLUDE[prodshort](../../includes/prodshort.md)] calcule le solde d'ouverture en utilisant des entrées de compte jusqu'à la date de début que vous spécifiez pour le fichier. Le calcul inclut également les écritures de clôture générées par la clôture de l’exercice précédent. Les soldes d'ouverture sont ensuite mappés aux champs obligatoires de l'état.  
+Vous pouvez inclure des soldes d'ouverture dans le fichier, mais il ne s'agit pas d'entrées comptabilisées réelles. [!INCLUDE[prod_short](../../includes/prod_short.md)] calcule le solde d'ouverture en utilisant des entrées de compte jusqu'à la date de début que vous spécifiez pour le fichier. Le calcul inclut également les écritures de clôture générées par la clôture de l’exercice précédent. Les soldes d'ouverture sont ensuite mappés aux champs obligatoires de l'état.  
 
 Si vous ne fermez pas votre exercice comptable ou n'exécutez pas l'action **Clôturer exercice** avant de générer l'état, le fichier inclura les soldes des comptes de gestion.  
 
@@ -49,7 +49,7 @@ Si vous ne fermez pas votre exercice comptable ou n'exécutez pas l'action **Cl�
 
 3.  Cliquez sur le bouton **OK** pour exporter le fichier.  
 
-Lorsque vous créez l'état, [!INCLUDE[prodshort](../../includes/prodshort.md)] trie les informations de l'état en fonction des champs **N°** et **Date création** de l'historique des transactions comptables.  
+Lorsque vous créez l'état, [!INCLUDE[prod_short](../../includes/prod_short.md)] trie les informations de l'état en fonction des champs **N°** et **Date création** de l'historique des transactions comptables.  
 
 L'état aura le nom suivant : <taxpayername>FEC<YYYYMMDD>  
 

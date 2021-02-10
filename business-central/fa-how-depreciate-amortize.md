@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8686b0d7f739b292f733239b7348428dbed56be3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3eb4cffd4e67c4cd375619ec8b36e17e6ee527b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920746"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749442"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Amortir des immobilisations
 L’amortissement permet de ventiler le coût des immobilisations, telles que les machines et le matériel, sur leur durée d’amortissement. Vous devez définir la méthode d’amortissement de chaque immobilisation.  
@@ -25,7 +25,7 @@ L’amortissement permet de ventiler le coût des immobilisations, telles que le
 * Automatiquement, via l’exécution du traitement par lots **Calculer amortissement**.  
 * Manuellement, à l’aide de la feuille validation immobilisation.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] peut calculer l’amortissement sur une base quotidienne, ce qui vous permet de calculer l’amortissement pour n’importe quelle période. Vous pouvez ainsi analyser les résultats d’exploitation en cours sur une période mensuelle, trimestrielle ou annuelle. Le calcul utilise une année standard de 360 jours et un mois standard de 30 jours. Pour en savoir plus, voir [Méthodes d’amortissement](fa-depreciation-methods.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] peut calculer l’amortissement sur une base quotidienne, ce qui vous permet de calculer l’amortissement pour n’importe quelle période. Vous pouvez ainsi analyser les résultats d’exploitation en cours sur une période mensuelle, trimestrielle ou annuelle. Le calcul utilise une année standard de 360 jours et un mois standard de 30 jours. Pour en savoir plus, voir [Méthodes d’amortissement](fa-depreciation-methods.md).  
 
 Lorsque plusieurs départements utilisent une immobilisation, vous pouvez affecter automatiquement un amortissement périodique à ces départements d’après une table de ventilation paramétrable.  
 
@@ -111,4 +111,4 @@ Les lignes copiées sont créées dans la feuille comptabilisation immobilisatio
 [Immobilisations](fa-manage.md)  
 [Paramétrage d’immobilisations](fa-setup.md)  
 [Finances](finance.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

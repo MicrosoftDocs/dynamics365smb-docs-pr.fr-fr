@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1078b9839920684c4be54e1753db5c87e1694912
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1bcbd23658ff2a74ae0ab88b6020e1d859f37355
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912695"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747717"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Ajouter un signet vers une page ou un état sur votre tableau de bord
 À l’aide de la nouvelle icône de signet, vous pouvez ajouter une action qui ouvre une page ou un état à partir du menu de navigation de votre tableau de bord. Cela vous permet d’accéder rapidement à votre contenu préféré ou à vos tâches professionnelles. Vous devez ajouter le signet à partir de la page ou de l’état cible, c’est-à-dire la page sur laquelle vous souhaitez que le lien du tableau de bord s’ouvre.
@@ -81,6 +81,6 @@ Lorsqu’une nouvelle action est ajoutée, tout texte traduit qui était disponi
 
 ## <a name="see-also"></a>Voir aussi
 [Personnaliser votre espace de travail](ui-personalization-user.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)  

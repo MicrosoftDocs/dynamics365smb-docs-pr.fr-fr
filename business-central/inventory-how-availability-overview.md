@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d34b34d5629779d7b87016fb9e83bf1d3f25fd82
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 40c5b81ec3cb4022e45358020b816cb9d368bb82
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914138"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746341"
 ---
 # <a name="view-the-availability-of-items"></a>Voir la disponibilité des articles
 Dans le contexte d'une tâche professionnelle, vous pouvez obtenir des informations avancées sur la disponibilité et l'emplacement d'un article, par exemple en discutant avec un client à propos d'une date de livraison.
@@ -28,10 +28,10 @@ Vous pouvez afficher la disponibilité de tous les articles par emplacement, et 
 
 Si vous utilisez la fonctionnalité entrepôt, la disponibilité varie selon les affectations au niveau de l'emplacement quand des activités entrepôt, par exemple des prélèvements et des mouvements défectueux, se produisent et quand le système de réservation de stock impose des restrictions à respecter. Un algorithme plutôt complexe vérifie que toutes les conditions sont remplies avant d'affecter des quantités aux prélèvements pour les flux sortants. Pour plus d'informations, voir [Détails de conception : disponibilité dans l'entrepôt](design-details-availability-in-the-warehouse.md).
 
-Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les chiffres de disponibilité sont généralement affichés dans deux champs de définition différents.
+Dans [!INCLUDE[prod_short](includes/prod_short.md)], les chiffres de disponibilité sont généralement affichés dans deux champs de définition différents.
 
 * Le champ **Quantité disponible**, dans certains emplacements nommés **Stock**, affiche la quantité réelle en fonction des écritures comptables articles validées.
-* Le champ **Stock prévisionnel** est calculé et affiche la quantité disponible plus les réceptions planifiées moins les besoins bruts. (Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les réceptions planifiées incluent des quantités sur des commandes achat et des ordres de transfert enlogement. Les besoins bruts incluent des quantités sur les commandes vente et les désenlogements transfert.)
+* Le champ **Stock prévisionnel** est calculé et affiche la quantité disponible plus les réceptions planifiées moins les besoins bruts. (Dans [!INCLUDE[prod_short](includes/prod_short.md)], les réceptions planifiées incluent des quantités sur des commandes achat et des ordres de transfert enlogement. Les besoins bruts incluent des quantités sur les commandes vente et les désenlogements transfert.)
 
 > [!TIP]  
 >   Le stock prévisionnel disponible s'avère particulièrement utile dans les pages **Disponibilité art. par période** et **Disponibilité article par événement**, car ils contiennent l'axe de date.  

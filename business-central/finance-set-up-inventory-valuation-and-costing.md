@@ -7,19 +7,19 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 524ed44ed305fc219ea15afc061994dbe3050503
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: edcaaaedde3bb42c0c0d69c3e71dd659f5475712
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910729"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750454"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Configuration de l’évaluation du stock
 
 Pour vous assurer que les coûts ajustés sont enregistrés correctement, vous devez configurer plusieurs champs et pages avant de commencer à effectuer des transactions article. En règle générale, les entreprises choisissent une méthode de calcul des coûts spécifique et l’appliquent aux articles en stock, par exemple, pour les aider à suivre la valeur des articles en stock.  
 
 > [!TIP]
-> Pour une introduction aux coûts en [!INCLUDE [prodshort](includes/prodshort.md)], voir [À propos de l’évaluation des coûts de stock](finance-learn-about-costing.md).
+> Pour une introduction aux coûts en [!INCLUDE [prod_short](includes/prod_short.md)], voir [À propos de l’évaluation des coûts de stock](finance-learn-about-costing.md).
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
 
@@ -33,7 +33,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 |Définir si le coût moyen doit être calculé uniquement par article ou par article pour chaque point de stock et pour chaque variante de l’article.|Champ **Type calcul coût moyen** sur la page **Paramètres stock**|  
 |Sélectionnez la période que l’application doit utiliser pour calculer le coût moyen pondéré des articles qui utilisent la méthode évaluation stock Moyen.|Champ **Période coût moyen** sur la page **Paramètres stock**|  
 |Définir des périodes inventaire pour contrôler la valeur du stock dans le temps en refusant d’accorder la validation de transactions lorsque les périodes inventaire sont clôturées.|[Utiliser les périodes inventaire](finance-how-to-work-with-inventory-periods.md)|  
-|S’assurer que les retours vente sont rapprochés des transactions sortantes afin de préserver la valeur du stock.|Champ**Coût retour identique obligatoire** sur la page **Ventes**|  
+|S’assurer que les retours vente sont rapprochés des transactions sortantes afin de préserver la valeur du stock.|Champ **Coût retour identique obligatoire** sur la page **Ventes**|  
 |S’assurer que les retours achat sont rapprochés des transactions entrantes afin de préserver la valeur du stock.|Champ **Coût retour identique obligatoire** sur la page **Achats**|
 |Configurer les règles d’arrondi à appliquer lors de l’ajustement ou de la proposition des prix article et lors de l’ajustement ou de la proposition des coûts standard.|Page **Mode arrondi**|  
 

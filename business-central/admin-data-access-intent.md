@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 98105cb3e3634169b31a850f20a65a3854b006b4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6d79f5b2851df85ea9f19faeeb941eccfd1b397b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911554"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752824"
 ---
 # <a name="managing-database-access-intent"></a>Gestion de l’accès intentionnel à la base de données 
 
@@ -23,13 +23,13 @@ En tant que superutilisateur ou administrateur, vous pouvez modifier l’accès 
 
 ## <a name="overview"></a>Aperçu
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] peut être configuré pour utiliser des répliques en lecture seule de la base de données principale (en lecture-écriture). L’utilisation de répliques de la base de données réduit la charge sur la base de données principale. Dans certains cas, cela améliore également les performances lors de l’affichage des données dans le client. Les répliques sont avantageuses pour les objets tels que les états, les requêtes et les pages API, qui permettent uniquement d’afficher les données, et non de les modifier.
+[!INCLUDE[prod_short](includes/prod_short.md)] peut être configuré pour utiliser des répliques en lecture seule de la base de données principale (en lecture-écriture). L’utilisation de répliques de la base de données réduit la charge sur la base de données principale. Dans certains cas, cela améliore également les performances lors de l’affichage des données dans le client. Les répliques sont avantageuses pour les objets tels que les états, les requêtes et les pages API, qui permettent uniquement d’afficher les données, et non de les modifier.
 
 Lors de l’exécution des objets, l’accès intentionnel à la base de données détermine s’il faut utiliser une réplique en lecture seule, en cas de disponibilité, ou la base de données principale. Les états, les pages API et les requêtes sont développés avec un accès intentionnel à la base de données prédéfini (voir [Propriété DatabaseAccessIntent](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataaccessintent-property)).
 
 La page **Liste d’accès intentionnels à la base de données** vous permet de remplacer l’accès intentionnel à la base de données prédéfini pour les objets lors de leur exécution.
 
-En termes de base de données, cette fonction est communément appelée *échelle horizontale en lecture*. Pour en savoir plus sur l’échelle horizontale en lecture et l’accès intentionnel aux données dans [!INCLUDE[prodshort](includes/prodshort.md)], consultez [Utilisation de l’échelle horizontale en lecture pour de meilleures performances](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) dans l’aide [!INCLUDE[prodshort](includes/prodshort.md)] sur Developer and Administration.
+En termes de base de données, cette fonction est communément appelée *échelle horizontale en lecture*. Pour en savoir plus sur l’échelle horizontale en lecture et l’accès intentionnel aux données dans [!INCLUDE[prod_short](includes/prod_short.md)], consultez [Utilisation de l’échelle horizontale en lecture pour de meilleures performances](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) dans l’aide [!INCLUDE[prod_short](includes/prod_short.md)] sur Developer and Administration.
 
 ## <a name="to-change-the-database-access-intent"></a>Pour modifier l’accès intentionnel à la base de données
 
@@ -55,7 +55,7 @@ En termes de base de données, cette fonction est communément appelée *échell
 ## <a name="see-also"></a>Voir aussi
 [Fonctionnalités d’entreprise](across-business-functionality.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Mise en route](product-get-started.md)    
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

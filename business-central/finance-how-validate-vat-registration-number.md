@@ -1,25 +1,25 @@
 ---
-title: Valider un numéro d’identification intracommunautaire | Microsoft Docs
-description: Valider un numéro d’identification intracommunautaire
-author: andregu
+title: Valider des numéros d’identification intracommunautaire
+description: Laissez Business Central utiliser le service VIES pour valider automatiquement les numéros d’immatriculation à la TVA.
+author: kielkenny
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2020
 ms.author: andregu
-ms.openlocfilehash: 130449368e5b96e3c9e6cb6274dcd6e06f568114
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 80e955e96a64c5a0bd91d0a72297b32d67ff4ab6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916975"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750555"
 ---
-# <a name="validate-a-vat-registration-number"></a>Valider un numéro d’identification intracommunautaire
+# <a name="validate-vat-registration-numbers"></a>Valider des numéros d’identification intracommunautaire
 
 Il est important que les numéros d’identification TVA des clients, fournisseurs et contacts soient valides. Par exemple, les sociétés modifient parfois leur statut d’assujettissement à la TVA, et dans certains pays, les autorités fiscales peuvent vous demander de fournir des états, tels que l’état Liste des ventes UE, qui répertorient les numéros d’identification TVA à utiliser lorsque vous faites des affaires.
 
-La Commission européenne fournit le service VIES de validation des numéros TVA sur son site Web, qui est public et gratuit. [!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet de supprimer cette étape et d’utiliser le service VIES pour valider et suivre les numéros de TVA des clients, fournisseurs et contacts directement à partir des fiches client, fournisseur et contact. Le service de [!INCLUDE[d365fin](includes/d365fin_md.md)] s’appelle **Services validation N° id. intracomm. Union européenne**. Il est disponible sur la page **Connexions au service**, et vous pouvez commencer à l’utiliser immédiatement. La connexion au service est gratuite, et l’inscription n’est pas obligatoire.
+La Commission européenne fournit le service VIES de validation des numéros TVA sur son site Web, qui est public et gratuit. [!INCLUDE[prod_short](includes/prod_short.md)] vous permet de supprimer cette étape et d’utiliser le service VIES pour valider et suivre les numéros de TVA des clients, fournisseurs et contacts directement à partir des fiches client, fournisseur et contact. Le service de [!INCLUDE[prod_short](includes/prod_short.md)] s’appelle **Services validation N° id. intracomm. Union européenne**. Il est disponible sur la page **Connexions au service**, et vous pouvez commencer à l’utiliser immédiatement. La connexion au service est gratuite, et l’inscription n’est pas obligatoire.
 
 ## <a name="to-verify-vat-registration-numbers"></a>Pour vérifier les numéros d’identification TVA
 

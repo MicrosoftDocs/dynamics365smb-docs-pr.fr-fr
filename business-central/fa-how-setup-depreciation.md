@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a08c4dbdb54343f1ec2a66064508496517617555
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c9eea613db52d327caa1c3d5449864900fc867d1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921904"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749268"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Configurer un amortissement immobilisation
  Vous pouvez utiliser plusieurs méthodes d’amortissement pour préparer les états financiers et les déclarations de revenus. De nombreuses sociétés de grande taille utilisent la méthode de l’amortissement linéaire dans leurs états financiers car elle permet généralement la déclaration des bénéfices supérieurs. Aux fins de l’impôt sur le revenu, cependant, de nombreuses entreprises utilisent une méthode d’amortissement accélérée, comme l’amortissement dégressif. Vous définissez la méthode d’amortissement d’un actif avec le champ **Méthode d’amortissement** sur la page **Fiche immobilisation**. Pour plus d’informations sur les fonctions des différentes méthodes, consultez [Méthodes d’amortissement](fa-depreciation-methods.md).
@@ -60,7 +60,7 @@ Si vous voulez associer une loi d’amortissement à plusieurs immobilisations, 
 7. Cliquez sur le bouton **OK**.
 
 ## <a name="to-set-up-depreciation-posting-types"></a>Pour configurer les types de validation amortissement
-Pour chaque loi d’amortissement, vous devez définir la manière dont vous souhaitez que [!INCLUDE[d365fin](includes/d365fin_md.md)] gère les différents types de validation. Par exemple, vous devez indiquer s’il s’agit d’un débit ou d’un crédit et si le type de validation doit être inclus dans la base d’amortissement.  
+Pour chaque loi d’amortissement, vous devez définir la manière dont vous souhaitez que [!INCLUDE[prod_short](includes/prod_short.md)] gère les différents types de validation. Par exemple, vous devez indiquer s’il s’agit d’un débit ou d’un crédit et si le type de validation doit être inclus dans la base d’amortissement.  
 
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Lois d’amortissement**, puis choisissez le lien associé.  
 2. Sélectionnez la loi d’amortissement que vous souhaitez configurer, puis sélectionnez l’action **Type paramètre compta. immo.**.
@@ -84,4 +84,4 @@ Pour chaque loi d’amortissement, vous définissez une configuration par défau
 [Immobilisations](fa-manage.md)  
 [Finances](finance.md)  
 [Mise en route](product-get-started.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

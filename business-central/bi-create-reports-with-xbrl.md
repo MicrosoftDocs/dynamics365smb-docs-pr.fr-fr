@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 183a127ff9584723c52159397c75d1f17765d81f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ba177ba40a11048a19cd401b18b8e4a5a7198d87
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917675"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752279"
 ---
 # <a name="create-reports-with-xbrl"></a>Création d’états avec XBRL
 XBRL, qui signifie eXtensible Business Reporting Language, est basé sur le langage XML et est utilisé pour marquer des données financières et permettre aux sociétés de traiter et de partager leurs données de manière efficace et précise. L’initiative XBRL permet la génération d’états financiers généraux par de nombreux éditeurs de logiciels ERP et organisations comptables internationales. L’objectif de cette initiative et de fournir un standard pour la génération d’états d’informations financières uniformes pour les banques, les investisseurs et les autorités gouvernementales. Les rapports commerciaux générés de cette manière peuvent inclure :  
@@ -27,14 +27,14 @@ XBRL, qui signifie eXtensible Business Reporting Language, est basé sur le lang
  • des informations non financières ;  
  • des informations de classement de règlementation, tels que les états financiers annuels et trimestriels.  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)] permet aux sociétés d’implémenter des données en XBRL, et de bénéficier de la flexibilité et de l’automatisation que ce langage offre en matière de collecte et de partage des données.  
+ [!INCLUDE[prod_short](includes/prod_short.md)] permet aux sociétés d’implémenter des données en XBRL, et de bénéficier de la flexibilité et de l’automatisation que ce langage offre en matière de collecte et de partage des données.  
 
 ## <a name="extensible-business-reporting-language"></a>Langage XBRL (eXtensible Business Reporting Language)
-Le langage XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) est basé sur le langage XML pour la génération d’états financiers. Le langage XBRL offre une norme pour la génération de documents financiers de toute sorte. Cette uniformisation de l’information financière profite à tous les acteurs du secteur, comme les sociétés privées et publiques, les experts comptables, les organismes de réglementation, les analystes, les investisseurs, les acteurs des marchés financiers et les sociétés de prêt, ainsi que les professions tierces telles que les développeurs de logiciel et les personnes chargées du traitement des données.  
+Le langage XBRL (e **X** tensible **B** usiness **R** eporting **L** anguage) est basé sur le langage XML pour la génération d’états financiers. Le langage XBRL offre une norme pour la génération de documents financiers de toute sorte. Cette uniformisation de l’information financière profite à tous les acteurs du secteur, comme les sociétés privées et publiques, les experts comptables, les organismes de réglementation, les analystes, les investisseurs, les acteurs des marchés financiers et les sociétés de prêt, ainsi que les professions tierces telles que les développeurs de logiciel et les personnes chargées du traitement des données.  
 
 Les taxonomies sont tenues à jour par le site www.xbrl.org. Pour télécharger des taxonomies ou pour obtenir plus d’informations, reportez-vous au site Web de XBRL.  
 
-Par exemple, une personne souhaitant obtenir des informations financières à votre sujet peut vous fournir une taxonomie (au format XML) contenant un ou plusieurs schémas, chacun comportant un certain nombre de lignes à renseigner. Ces lignes correspondent aux données financières requises par l’expéditeur. Vous devez importer cette taxonomie dans l’application, puis remplir les schémas en saisissant les comptes correspondant à chaque ligne et le type de période à utiliser, par exemple solde période ou solde au. Dans certains cas, vous devez saisir une constante, comme le nombre d’employés. Vous pouvez alors renvoyer le document instancié (au format XML) à la personne qui vous a demandé les informations. Ainsi, pour les demandes d’informations récurrentes, et à moins que la taxonomie n’ait été modifiée, vous pouvez simplement exporter sur demande de nouveaux documents instanciés correspondant à de nouvelles périodes.  
+Par exemple, une personne souhaitant obtenir des informations financières à votre sujet peut vous fournir une taxonomie (au format XML) contenant un ou plusieurs schémas, chacun comportant un certain nombre de lignes à renseigner. Ces lignes correspondent aux données financières requises par l’expéditeur. Vous devez importer cette taxonomie, puis remplir les schémas en saisissant les comptes correspondant à chaque ligne et le type de cadre à utiliser, par exemple solde période ou solde au. Dans certains cas, vous devez saisir une constante, comme le nombre d’employés. Vous pouvez alors renvoyer le document instancié (au format XML) au demandeur. Ainsi, pour les demandes d’informations récurrentes, et à moins que la taxonomie n’ait été modifiée, vous pouvez simplement exporter sur demande de nouveaux documents instanciés correspondant à de nouvelles périodes.  
 
 ## <a name="xbrl-is-comprised-of-the-following-components"></a>Le langage XBRL se présente de la manière suivante :  
 La **spécification** XBRL explique le principe du langage XBRL, et indique comment créer des documents instanciés XBRL et des taxonomies XBRL. La spécification XBRL présente le langage XBRL en termes techniques et est destinée à des spécialistes.  
@@ -74,11 +74,14 @@ Pour configurer les lignes XBRL, mappez les données de taxonomie aux données 
 6.  Pour configurer le mappage des comptes généraux du plan comptable aux lignes XBRL, sélectionnez l’action **Lignes corresp. cpta. gén**.  
 7.  Pour ajouter des notes à l’état financier, sélectionnez l’action **Notes**.  
 
-> [!NOTE]  
->  Pour pouvoir exporter des données incluant des descriptions et des remarques, vous devez sélectionner les types origine correspondants dans le champ **Type origine**.  
+   > [!TIP]
+   > Pour exclure des lignes de l’exportation, choisissez **NON APPLICABLE** comme type de source.
 
-> [!NOTE]  
->  Vous pouvez indiquer le type ligne **NON APPLICABLE** aux lignes inutiles, afin qu’elles ne soient pas exportées.
+   > [!NOTE]  
+   > Vous ne pouvez exporter que les données correspondant à la sélection dans le champ **Type de Source**. Cela comprend des descriptions et des notes.  
+
+   > [!NOTE]  
+   > Les taxonomies peuvent contenir des éléments non compatibles avec [!INCLUDE[prod_short](includes/prod_short.md)]. Si un élément n’est pas pris en charge, le champ **Type de Source** affichera **Non applicable** et le champ **Description** affichera un message d’erreur, tel que **Type inattendu : « type spécifique non reconnu »**. Si vous devez exporter l’élément, choisissez un type de source correspondant. En règle générale, il s’agit d’une constante ou d’une description. Cela vous permettra d’entrer et d’exporter des données, cependant, ces éléments peuvent avoir des règles de validation qui ne peuvent pas être vérifiées avant l’exportation.
 
  ## <a name="to-import-an-xbrl-taxonomy"></a>Pour importer une taxonomie XBRL  
 Lorsque vous utilisez la fonctionnalité XBRL, la première étape consiste à importer la taxonomie correspondante dans la base de données de votre société. Une taxonomie est composée d’un ou de plusieurs schémas, et de liens ressources. Une fois l’import des schémas et des liens ressources effectué, et une fois les liens ressources appliqués aux schémas, vous pouvez configurer les lignes et associer les comptes généraux du plan comptable aux lignes taxonomie appropriées.  
@@ -110,4 +113,4 @@ Lorsqu’une taxonomie est modifiée, vous devez mettre à jour la taxonomie act
 ## <a name="see-also"></a>Voir aussi
 [Finances](finance.md)    
 [Veille économique](bi.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

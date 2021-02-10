@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b2ee2dcba364f7b89bae49c3f15f098c51d2c5a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 407bf7cd60416a178e9ec8a5d0b154a7583e87e1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913545"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754841"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Créer des flux de travail à partir de modèles de flux de travail
 Pour gagner du temps lors de la création de workflows, vous pouvez créer des workflows à partir de modèles de workflow existants.  
 
- Les modèles de workflow sont des workflows non modifiables qui existent dans la version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Les codes des modèles de workflow ajoutés par Microsoft ont le préfixe « MS- ».  
+ Les modèles de workflow sont des workflows non modifiables qui existent dans la version générique de [!INCLUDE[prod_short](includes/prod_short.md)]. Les codes des modèles de workflow ajoutés par Microsoft ont le préfixe « MS- ».  
 
- Un autre moyen rapide de créer un workflow consiste à importer un workflow existant qui est stocké dans un fichier en dehors de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d’informations, voir [Exporter et importer des flux de travail](across-how-to-export-and-import-workflows.md).  
+ Un autre moyen rapide de créer un workflow consiste à importer un workflow existant qui est stocké dans un fichier en dehors de [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Exporter et importer des flux de travail](across-how-to-export-and-import-workflows.md).  
 
 Sur la page **Workflow**, créez un workflow en répertoriant les étapes concernées sur les lignes. Chaque étape comprend un événement de workflow modéré par des conditions d’événement, et une réponse de workflow modérée par des options de réponse. Définissez les étapes de workflow en renseignez les champs des lignes de workflow à partir de listes fixes de valeurs d’événement et de réponse qui sont les scénarios pris en charge par le code d’application. Pour plus d’informations, voir [Créer des flux de travail](across-how-to-create-workflows.md).  
 

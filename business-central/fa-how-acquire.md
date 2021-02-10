@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 953be4038a65917e10bca1921d9ff4f80f584b28
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d92b4d5ad8b473f517af9fba5e1097e2452d1446
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920771"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749467"
 ---
 # <a name="acquire-fixed-assets"></a>Acquérir des immobilisations
 Pour chaque immobilisation, vous devez créer une fiche contenant des informations la concernant. Vous pouvez configurer des bâtiments ou un équipement de production en tant qu'actif principal avec une liste de composants et vous pouvez les regrouper de différentes façons, comme par catégorie, département ou emplacement. Une loi d'amortissement doit être configurée et assignée à chaque immobilisation avant que vous puissiez l'acquérir.
@@ -48,7 +48,7 @@ Lorsque vous sélectionnez **Terminer**, le champ **Valeur comptable** de la pag
 ## <a name="to-set-up-a-component-list-for-a-main-asset"></a>Pour configurer une liste de composants pour une immobilisation principale
 Vous pouvez regrouper les immobilisations en immobilisations principales divisées en composants. Par exemple, si vous disposez d'une machine de production composée de différentes pièces, vous pouvez regrouper ces pièces de cette manière.  
 
-Vous devez définir à la fois l'immobilisation principale et ses composants en tant que fiches immobilisation individuelles. Une fois la liste de composants créée, [!INCLUDE[d365fin](includes/d365fin_md.md)] renseigne automatiquement les champs **Immo. principale/Composant** et **Composant immo. principale** sur les fiches immobilisation.
+Vous devez définir à la fois l'immobilisation principale et ses composants en tant que fiches immobilisation individuelles. Une fois la liste de composants créée, [!INCLUDE[prod_short](includes/prod_short.md)] renseigne automatiquement les champs **Immo. principale/Composant** et **Composant immo. principale** sur les fiches immobilisation.
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Immobilisations**, puis sélectionnez le lien associé.
 2. Sélectionnez l'immobilisation principale, puis l'action **Composants immo. principale**.
@@ -70,7 +70,7 @@ La procédure suivante décrit comment acquérir manuellement une immobilisation
 4. Sélectionnez l'action **Valider**.  
 
 > [!TIP]  
->   Si vous renseignez le champ **N° assurance** dans la feuille validation immobilisation lorsque vous validez un coût d'acquisition, [!INCLUDE[d365fin](includes/d365fin_md.md)] valide également le coût d'acquisition de l'immobilisation dans les écritures assurance. Pour en savoir plus, voir [Assurer des immobilisations](fa-how-insure.md).
+>   Si vous renseignez le champ **N° assurance** dans la feuille validation immobilisation lorsque vous validez un coût d'acquisition, [!INCLUDE[prod_short](includes/prod_short.md)] valide également le coût d'acquisition de l'immobilisation dans les écritures assurance. Pour en savoir plus, voir [Assurer des immobilisations](fa-how-insure.md).
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Pour annuler la validation du coût d'une acquisition pour une immobilisation
 Si vous faites une erreur lors de la validation d'un coût d'acquisition, vous pouvez supprimer l'écriture à l'aide du traitement par lots **Annuler écritures immo**, puis valider l'écriture d'acquisition correcte. Les écritures erronées sont transférées vers la page **Erreur écritures comptables immo.**.
@@ -103,4 +103,4 @@ Vous pouvez valider la valeur résiduelle avec le coût d'acquisition à partir 
 [Paramétrage d'immobilisations](fa-setup.md)  
 [Finances](finance.md)  
 [Mise en route](product-get-started.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

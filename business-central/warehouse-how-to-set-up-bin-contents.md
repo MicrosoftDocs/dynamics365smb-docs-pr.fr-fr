@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9cd37ecbadda34238d9fb7e74ef26f1bb218073a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cc805db942ce9ebf178b49468129a83bb20a325e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923144"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756041"
 ---
 # <a name="create-bin-contents"></a>Créer le contenu d’un emplacement
 
@@ -33,7 +33,7 @@ Sélectionnez le champ **Fixe** si nécessaire. Si l’emplacement doit être ut
 
 Si vous utilisez un prélèvement et un rangement suggérés et que vous avez saisi, via la fiche article, les dimensions exactes des unités de mesure de chaque article,la quantité maximale que vous avez saisie sur la page **Contenu emplacement** est comparée aux capacités physiques de l’emplacement. Les quantités minimales et maximales sont alors utilisées lors du calcul du réapprovisionnement de l’emplacement et des rangements proposés.  
 
-Si vous sélectionnez le champ **Fixe**, vous associez l’article à l’emplacement de manière statique, ce qui signifie que [!INCLUDE[d365fin](includes/d365fin_md.md)] essaie de placer cet article dans l’emplacement si l’espace libre est suffisant et conserve l’enregistrement qui associe l’article de manière statique à l’emplacement, même lorsque la quantité à l’emplacement est égale à 0. Il est possible de placer d’autres articles dans l’emplacement, même si un article a été associé à cet emplacement.  
+Si vous sélectionnez le champ **Fixe**, vous associez l’article à l’emplacement de manière statique, ce qui signifie que [!INCLUDE[prod_short](includes/prod_short.md)] essaie de placer cet article dans l’emplacement si l’espace libre est suffisant et conserve l’enregistrement qui associe l’article de manière statique à l’emplacement, même lorsque la quantité à l’emplacement est égale à 0. Il est possible de placer d’autres articles dans l’emplacement, même si un article a été associé à cet emplacement.  
 
 > [!NOTE]  
 > Vous pouvez configurer simultanément plusieurs contenus emplacement sur la page **Feuille création contenu emplacement**.  
@@ -65,4 +65,4 @@ Dans cette feuille, vous pouvez utiliser des lignes contenu de l’emplacement p
 [Gestion des assemblages](assembly-assemble-items.md)  
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
 [Détails de conception : paramètres entrepôt](design-details-warehouse-setup.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

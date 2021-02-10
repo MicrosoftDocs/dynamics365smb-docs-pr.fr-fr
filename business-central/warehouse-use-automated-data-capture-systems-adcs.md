@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: barcode
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5fe40d26a9128b9f689c5ec4502af929d0af04c2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4d35c0774fc777fd5b45983f03e6204daed0a3af
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925346"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755716"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Utilisation des systèmes de saisie automatisée (ADCS)
 
 > [!NOTE]
-> La solution ADCS offre un moyen pour [!INCLUDE[d365fin](includes/d365fin_md.md)] de communiquer avec des appareils portables via des services Web. Vous devez travailler avec un partenaire Microsoft qui peut fournir le lien entre le service Web et l’appareil portable spécifique. 
+> La solution ADCS offre un moyen pour [!INCLUDE[prod_short](includes/prod_short.md)] de communiquer avec des appareils portables via des services Web. Vous devez travailler avec un partenaire Microsoft qui peut fournir le lien entre le service Web et l’appareil portable spécifique. 
 
 Vous pouvez utiliser votre système de saisie automatisée pour enregistrer le mouvement des articles de l’entrepôt et certaines activités de la feuille, notamment les ajustements de quantité de la feuille article entrepôt et les inventaires. ADCS implique généralement la numérisation des codes à barres.
 
@@ -28,7 +28,7 @@ Pour utiliser votre système de saisie automatisée, vous devez attribuer un ide
 
 En fonction des besoins de votre entrepôt, définissez la quantité d’informations affichées sur le terminal de saisie portable lors de la configuration des écrans pour un terminal de saisie portable donné. Voici des exemples d’informations que vous pouvez afficher :  
 
-- Données des tables dans [!INCLUDE[d365fin](includes/d365fin_md.md)], par exemple la liste des documents prélèvement à partir desquels l’utilisateur peut effectuer une sélection.  
+- Données des tables dans [!INCLUDE[prod_short](includes/prod_short.md)], par exemple la liste des documents prélèvement à partir desquels l’utilisateur peut effectuer une sélection.  
 - Trier les informations.  
 - Messages affichant les confirmations ou erreurs sur les activités effectuées et enregistrées par l’utilisateur de périphérique mobile.
 
@@ -121,4 +121,4 @@ Après avoir créé un écran, vous devez créer des fonctions et associer une f
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

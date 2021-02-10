@@ -10,36 +10,36 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c2b663208a1bed8522ea532efdb2dee0d519b646
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 94fe9b960b61e4607bf285cd1e9ee8f1af1be916
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912520"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747788"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Attribuer des autorisations aux utilisateurs et aux groupes
 
-Le système de sécurité de [!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet de contrôler les objets auxquels un utilisateur peut accéder dans chaque base de données ou environnement. Vous pouvez spécifier pour chaque utilisateur s’il peut lire, modifier ou entrer des données dans les objets de base de données sélectionnés. Pour des informations détaillées, voir [Sécurité des données](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) dans l’aide sur Developer and IT-Pro pour [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Le système de sécurité de [!INCLUDE[prod_short](includes/prod_short.md)] vous permet de contrôler les objets auxquels un utilisateur peut accéder dans chaque base de données ou environnement. Vous pouvez spécifier pour chaque utilisateur s’il peut lire, modifier ou entrer des données dans les objets de base de données sélectionnés. Pour des informations détaillées, voir [Sécurité des données](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) dans l’aide sur Developer and IT-Pro pour [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Avant d’attribuer des autorisations à des utilisateurs et à des groupes d’utilisateurs, vous devez définir ceux qui peuvent se connecter en créant des utilisateurs en fonction de la licence définie dans le Centre d’administration Microsoft 365. Pour plus d’informations, voir [Créer des utilisateurs conformément aux licences](ui-how-users-permissions.md).
 
-Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], il existe deux niveaux d’autorisations pour les objets de base de données :
+Dans [!INCLUDE[prod_short](includes/prod_short.md)], il existe deux niveaux d’autorisations pour les objets de base de données :
 
 - les autorisations globales en fonction de la licence, également appelées « droit » ;
-- les autorisations plus détaillées attribuées de l’intérieur [!INCLUDE[d365fin](includes/d365fin_md.md)].
+- les autorisations plus détaillées attribuées de l’intérieur [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Pour faciliter la gestion des autorisations pour plusieurs utilisateurs, vous pouvez les organiser en groupes d’utilisateurs et ainsi affecter ou modifier un ensemble d’autorisations pour plusieurs utilisateurs en une seule action. Pour plus d’informations, voir [Pour gérer les autorisations via les groupes d’utilisateurs](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
 > [!NOTE]
 > Une autre méthode permettant de définir les fonctionnalités auxquelles un utilisateur a accès consiste à définir le champ **Expérience** sur la page **Informations société**. Pour plus d’informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).
 >
-> Vous pouvez également définir ce que les utilisateurs voient dans l’interface utilisateur et la manière dont ils interagissent avec les fonctionnalités autorisées par le biais de pages. Pour ce faire, vous devez utiliser des profils, que vous attribuez à différents types d’utilisateurs en fonction de leur poste ou service. Pour en savoir plus, reportez-vous à [Gérer les profils](admin-users-profiles-roles.md) et [Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
+> Vous pouvez également définir ce que les utilisateurs voient dans l’interface utilisateur et la manière dont ils interagissent avec les fonctionnalités autorisées par le biais de pages. Pour ce faire, vous devez utiliser des profils, que vous attribuez à différents types d’utilisateurs en fonction de leur poste ou service. Pour en savoir plus, reportez-vous à [Gérer les profils](admin-users-profiles-roles.md) et [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md).
 
 ## <a name="to-assign-permission-sets-to-users"></a>Pour affecter des ensembles d’autorisations à des utilisateurs
 
-Un ensemble d’autorisations est une collection d’autorisations pour des objets de base de données spécifiques. Tous les utilisateurs doivent être affectés à une ou plusieurs séries d’autorisations avant de pouvoir accéder à [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Un ensemble d’autorisations est une collection d’autorisations pour des objets de base de données spécifiques. Tous les utilisateurs doivent être affectés à une ou plusieurs séries d’autorisations avant de pouvoir accéder à [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Une solution [!INCLUDE[d365fin](includes/d365fin_md.md)] contient souvent plusieurs ensembles d’autorisations prédéfinis qui sont ajoutés par Microsoft ou par votre fournisseur de solutions. Vous pouvez également ajouter de nouveaux ensembles d’autorisations personnalisés pour répondre aux besoins de votre organisation. Pour plus d’informations, voir [Pour créer ou modifier des ensembles d’autorisations](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
+Une solution [!INCLUDE[prod_short](includes/prod_short.md)] contient souvent plusieurs ensembles d’autorisations prédéfinis qui sont ajoutés par Microsoft ou par votre fournisseur de solutions. Vous pouvez également ajouter de nouveaux ensembles d’autorisations personnalisés pour répondre aux besoins de votre organisation. Pour plus d’informations, voir [Pour créer ou modifier des ensembles d’autorisations](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
 
 > [!NOTE]
 > Si vous ne souhaitez pas limiter l’accès d’un utilisateur plus que ce qui est déjà défini par la licence, vous pouvez attribuer à l’utilisateur un ensemble d’autorisations spéciales appelé SUPER. Cet ensemble d’autorisations garantit que l’utilisateur peut accéder à tous les objets spécifiés dans la licence.
@@ -97,7 +97,7 @@ Tous les ensembles d’autorisations qui sont affectés à l’utilisateur sont 
 Les ensembles d’autorisations fonctionnent comme des conteneurs d’autorisations, de sorte que vous puissiez gérer facilement plusieurs autorisations en un enregistrement.
 
 > [!NOTE]  
-> Une solution [!INCLUDE[d365fin](includes/d365fin_md.md)] contient souvent plusieurs ensembles d’autorisations prédéfinis qui sont ajoutés par Microsoft ou par votre fournisseur de logiciels. Ces ensembles d’autorisations sont de type **Système** ou **Extension**. Vous ne pouvez pas créer ou modifier ces types d’ensembles d’autorisations ou les autorisations qu’ils contiennent. Cependant, vous pouvez les copier pour définir vos propres ensembles d’autorisations et autorisations.
+> Une solution [!INCLUDE[prod_short](includes/prod_short.md)] contient souvent plusieurs ensembles d’autorisations prédéfinis qui sont ajoutés par Microsoft ou par votre fournisseur de logiciels. Ces ensembles d’autorisations sont de type **Système** ou **Extension**. Vous ne pouvez pas créer ou modifier ces types d’ensembles d’autorisations ou les autorisations qu’ils contiennent. Cependant, vous pouvez les copier pour définir vos propres ensembles d’autorisations et autorisations.
 >
 > Les ensembles d’autorisations que les utilisateurs créent, nouveaux ou copies, sont de type **Défini par l’utilisateur** et peuvent être modifiés.
 
@@ -122,7 +122,7 @@ Le nouvel ensemble d’autorisations, contenant toutes les autorisations de l’
 
 ### <a name="to-export-and-import-a-permission-set"></a>Pour exporter et importer un ensemble d’autorisations
 
-Pour configurer rapidement des autorisations, vous pouvez importer des ensembles d’autorisations que vous avez exportés d’un autre locataire [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Pour configurer rapidement des autorisations, vous pouvez importer des ensembles d’autorisations que vous avez exportés d’un autre locataire [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Dans les environnements multi-locataires, un ensemble d’autorisations sera importé dans un locataire spécifique, c’est-à-dire que la portée de l’importation est "Locataire".
 
@@ -162,7 +162,7 @@ Dans chacun des cinq champs de types d’accès, **Lecture**, **Insertion**, **M
 ### <a name="example---indirect-permission"></a>Exemple- Autorisation indirecte
 
 L’autorisation indirecte vous permet d’utiliser un objet uniquement au travers d’un autre objet.
-Par exemple, un utilisateur peut être autorisé à exécuter le codeunit 80 (Ventes-Valider). Le codeunit Ventes-Valider effectue de nombreuses tâches, parmi lesquelles modifier la table 37 (Ligne vente). Lorsque l’utilisateur valide un document vente, le codeunit Ventes-Valider, [!INCLUDE[d365fin](includes/d365fin_md.md)] vérifie si l’utilisateur est autorisé à modifier la table Ligne vente. S’il n’est pas autorisé à le faire, le codeunit ne peut pas effectuer ses tâches et l’utilisateur reçoit un message d’erreur. S’il est autorisé à le faire, le codeunit s’exécute.
+Par exemple, un utilisateur peut être autorisé à exécuter le codeunit 80 (Ventes-Valider). Le codeunit Ventes-Valider effectue de nombreuses tâches, parmi lesquelles modifier la table 37 (Ligne vente). Lorsque l’utilisateur valide un document vente, le codeunit Ventes-Valider, [!INCLUDE[prod_short](includes/prod_short.md)] vérifie si l’utilisateur est autorisé à modifier la table Ligne vente. S’il n’est pas autorisé à le faire, le codeunit ne peut pas effectuer ses tâches et l’utilisateur reçoit un message d’erreur. S’il est autorisé à le faire, le codeunit s’exécute.
 
 L’utilisateur n’a toutefois pas besoin d’avoir entièrement accès à la table Ligne vente pour exécuter le codeunit. Si une autorisation indirecte a été accordée à l’utilisateur pour la table Ligne vente, alors le codeunit Ventes-Valider s’exécute. Lorsqu’une autorisation indirecte est accordée à un utilisateur, celui-ci peut uniquement modifier la table Ligne vente en exécutant le codeunit Ventes-Valider ou un autre objet autorisé à modifier la table Ligne vente. L’utilisateur peut uniquement modifier la table Ligne vente lorsqu’il procède à partir des modules pris en charge. L’utilisateur ne peut pas exécuter cette fonctionnalité par inadvertance ou par malveillance en suivant d’autres méthodes.
 
@@ -176,14 +176,14 @@ L’utilisateur n’a toutefois pas besoin d’avoir entièrement accès à la t
 6. Sur la page **Autorisations**, choisissez l’action **Enregistrer autorisations**, puis sélectionnez l’action **Démarrer**.
 
     Cette opération démarre processus d’enregistrement qui capture toutes vos actions dans l’interface utilisateur.
-7. Accédez aux différentes pages et activités dans [!INCLUDE[d365fin](includes/d365fin_md.md)] auxquelles vous voulez que les utilisateurs avec cet ensemble d’autorisations puissent accéder. Vous devez exécuter les tâches pour lesquelles vous souhaitez enregistrer des autorisations.
+7. Accédez aux différentes pages et activités dans [!INCLUDE[prod_short](includes/prod_short.md)] auxquelles vous voulez que les utilisateurs avec cet ensemble d’autorisations puissent accéder. Vous devez exécuter les tâches pour lesquelles vous souhaitez enregistrer des autorisations.
 8. Lorsque vous souhaitez terminer l’enregistrement, revenez sur la page **Autorisations** et choisissez l’option **Arrêter**.
 9. Cliquez sur le bouton **Oui** pour ajouter les autorisations enregistrées au nouvel ensemble d’autorisations.
 10. Pour chaque objet de la liste enregistrée, indiquez si les utilisateurs peuvent insérer, modifier ou supprimer des enregistrements dans les tables enregistrées.
 
 ## <a name="security-filters---to-limit-a-users-access-to-specific-records-in-a-table"></a>Filtres de sécurité : pour limiter l’accès d’un utilisateur à des enregistrements spécifiques dans une table
 
-Pour la sécurité au niveau des enregistrements dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous utilisez des filtres de sécurité pour limiter l’accès d’un l’utilisateur aux données dans une table. Vous créez des filtres de sécurité sur les données de la table. Un filtre de sécurité décrit un ensemble d’enregistrements dans une table auxquels un utilisateur a l’autorisation d’accéder. Vous pouvez indiquer, par exemple, qu’un utilisateur peut uniquement lire les enregistrements qui contiennent des informations relatives à un client particulier. Cela signifie que l’utilisateur ne peut pas accéder aux enregistrements qui contiennent des informations sur d’autres clients. Pour plus d’informations, voir [Utilisation des filtres de sécurité](/dynamics365/business-central/dev-itpro/security/security-filters) dans l’aide sur Developer and IT Pro.
+Pour la sécurité au niveau des enregistrements dans [!INCLUDE[prod_short](includes/prod_short.md)], vous utilisez des filtres de sécurité pour limiter l’accès d’un l’utilisateur aux données dans une table. Vous créez des filtres de sécurité sur les données de la table. Un filtre de sécurité décrit un ensemble d’enregistrements dans une table auxquels un utilisateur a l’autorisation d’accéder. Vous pouvez indiquer, par exemple, qu’un utilisateur peut uniquement lire les enregistrements qui contiennent des informations relatives à un client particulier. Cela signifie que l’utilisateur ne peut pas accéder aux enregistrements qui contiennent des informations sur d’autres clients. Pour plus d’informations, voir [Utilisation des filtres de sécurité](/dynamics365/business-central/dev-itpro/security/security-filters) dans l’aide sur Developer and IT Pro.
 
 ## <a name="to-manage-permissions-through-user-groups"></a>Pour gérer les autorisations via des groupes d’utilisateurs
 
@@ -245,12 +245,20 @@ Les administrateurs peuvent définir les périodes de temps pendant lesquelles l
 3. Dans le champ **ID utilisateur**, entrez l’ID d’un utilisateur, ou cliquez sur le champ pour visualiser tous les utilisateurs Windows actuels dans le système.
 4. Renseignez les champs selon vos besoins.
 
+
+## <a name="viewing-permission-changes-telemetry"></a>Affichage de la télémétrie des modifications d’autorisation 
+
+Vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour envoyer les modifications apportées à l’autorisation à une ressource Application Insights dans Microsoft Azure. Ensuite, à l’aide d’Azure Monitor, vous créez des états et configurez des alertes sur les données collectées. Pour plus d’informations, voir les articles suivants dans l’aide [!INCLUDE[prod_short](includes/prod_short.md)] dédiée aux développeurs et professionnels de l’informatique.
+
+- [Surveillance et analyse de la télémétrie - Activation d’Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
+- [Analyse de la télémétrie de surveillance des champs](/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace)
+
 ## <a name="see-also"></a>Voir aussi
 
 [Créer des utilisateurs en fonction des licences](ui-how-users-permissions.md)  
 [Gérer les profils](admin-users-profiles-roles.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)  
-[Personnalisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
+[Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Administration](admin-setup-and-administration.md)  
 [Ajouter des utilisateurs à Microsoft 365 pour les entreprises](https://aka.ms/CreateOffice365Users)  

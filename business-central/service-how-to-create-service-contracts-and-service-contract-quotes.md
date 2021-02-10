@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4a4f4cf4c27ff995be3d0caac25c6ab849a13eec
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 60cbb65da2de80ad19bb30e3023a4b3a801244ab
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925696"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747967"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Utiliser des contrats de service et des devis contrat de service
 Vous pouvez créer un contrat de service manuellement ou à partir d’un devis contrat de service. Vous pouvez utiliser un devis contrat de service en tant qu’étape préliminaire d’un contrat de service, dans laquelle votre société fait une offre au client et qui nécessite d’obtenir l’approbation du client pour pouvoir être convertie en contrat de service. Les procédures de création d’un contrat de service ou d’un devis contrat de service sont identiques.  
@@ -194,7 +194,7 @@ Vous pouvez annuler un contrat de service lorsqu’il a expiré ou qu’il a ét
 6. S’il existe des factures, des avoirs ou des écritures prépayées ouvertes non validées pour le contrat, un message de confirmation apparaît. Dans la zone de message, choisissez **Non** pour revenir au contrat et valider les documents, ou **Oui** pour poursuivre l’annulation du contrat.  
 
 ## <a name="filing-a-service-contract-or-contract-quote"></a>Remplir un contrat de service ou un devis contrat  
-Vous pouvez archiver à tout moment des contrats de service et des devis contrat pour enregistrer et archiver une copie du contrat ou du devis contrat. [!INCLUDE[d365fin](includes/d365fin_md.md)] archive automatiquement les contrats de service lorsque vous convertissez les devis contrat en contrats de service ou que vous annulez des contrats de service. Vous pouvez archiver un contrat ou un devis vous-même en choisissant l’action **Archiver contrat** sur les pages **Contrats de service** ou **Devis contrat de service**. Vous pouvez consulter vos contrats ou devis archivés en recherchant **Contrats archivés**.
+Vous pouvez archiver à tout moment des contrats de service et des devis contrat pour enregistrer et archiver une copie du contrat ou du devis contrat. [!INCLUDE[prod_short](includes/prod_short.md)] archive automatiquement les contrats de service lorsque vous convertissez les devis contrat en contrats de service ou que vous annulez des contrats de service. Vous pouvez archiver un contrat ou un devis vous-même en choisissant l’action **Archiver contrat** sur les pages **Contrats de service** ou **Devis contrat de service**. Vous pouvez consulter vos contrats ou devis archivés en recherchant **Contrats archivés**.
 
 ## <a name="see-also"></a>Voir aussi  
 [Configurer des contrats de service](service-how-setup-service-contracts.md)  

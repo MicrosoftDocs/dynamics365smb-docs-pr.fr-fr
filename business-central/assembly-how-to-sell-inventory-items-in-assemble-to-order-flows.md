@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 170f98f5bf876f6b090a1980e345b40809cea545
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fb2487f2c8300fa73c2251b978e8deebc50ed404
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927046"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747340"
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Vente d’articles en stock dans des flux à assembler pour commande
 Si le champ **Stratégie d’assemblage** de la fiche article d’un élément d’assemblage indique **Assembler pour commande**, le processus par défaut de commande vente considère que l’article n’est pas en stock et doit être assemblé pour cette commande vente spécifique. Par conséquent, un ordre d’assemblage lié est automatiquement créé lorsque vous ajoutez l’article à une ligne commande vente. Pour plus d’informations, reportez-vous à [Vente d’articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md). Toutefois, si une partie de la quantité sur commande vente est déjà disponible en stock, alors vous pouvez diminuer la quantité d’ordre d’assemblage en changeant le champ **Quantité à assembler pour commande** de la ligne commande vente.  
@@ -54,4 +54,4 @@ Dans cette procédure, vous remplacez les quantités à assembler pour commande 
 [Utiliser les nomenclatures](inventory-how-work-BOMs.md)  
 [Stock](inventory-manage-inventory.md)  
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

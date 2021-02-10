@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cfb7c0186f7ed81687ad3f4d667b3f71d77af424
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 659478fb593f16c4c0a8dd746ccdd61211bc7ecb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922516"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752724"
 ---
 # <a name="prepare-a-configuration-package"></a>Préparer un package configuration
 
@@ -63,7 +63,7 @@ Vous pouvez importer un package de configuration qui a été exporté d’une ba
 5. Sélectionnez l’action **Extraire tables**. La page de traitement par lots **Extraire tables package** s’ouvre.  
 6. Choisissez le champ **Sélectionner des tables**. La page **Sélection de config.** s’ouvre.  
 7. Choisissez l’action **Sélectionner tout** pour ajouter toutes les tables au package, ou activez la case à cocher **Sélectionné** pour chaque table dans la liste à ajouter.
-8. Cliquez sur le bouton **OK**. Le nombre de tables que vous avez sélectionnées s’affiche dans le champ **Sélectionner des tables**. Spécifiez les options supplémentaires, puis cliquez sur le bouton **OK**. Les tables [!INCLUDE[d365fin](includes/d365fin_md.md)] sont ajoutées aux lignes de la page **Package config.**.  
+8. Cliquez sur le bouton **OK**. Le nombre de tables que vous avez sélectionnées s’affiche dans le champ **Sélectionner des tables**. Spécifiez les options supplémentaires, puis cliquez sur le bouton **OK**. Les tables [!INCLUDE[prod_short](includes/prod_short.md)] sont ajoutées aux lignes de la page **Package config.**.  
 
     > [!NOTE]  
     >  Vous pouvez également le faire dans la feuille configuration. Sélectionnez les tables que vous souhaitez inclure dans le package, puis choisissez l’action **Affecter package**.
@@ -151,7 +151,7 @@ Lors de la création d’un package configuration pour une solution, vous pouvez
 2. Dans la feuille configuration, identifiez les tables dont vous souhaitez afficher ou personnaliser les données.  
 
     > [!NOTE]  
-    >  Assurez-vous que chaque table dispose d’un ID page qui lui est affecté. Pour les tables [!INCLUDE[d365fin](includes/d365fin_md.md)] standard, cette valeur est automatiquement insérée. Pour les tables personnalisées, vous devez fournir l’ID.
+    >  Assurez-vous que chaque table dispose d’un ID page qui lui est affecté. Pour les tables [!INCLUDE[prod_short](includes/prod_short.md)] standard, cette valeur est automatiquement insérée. Pour les tables personnalisées, vous devez fournir l’ID.
 
 3. Choisissez l’action **Données base de données**. La page de la page associée s’ouvre.
 4. Révisez les informations disponibles. Modifiez-les selon vos besoins en supprimant les enregistrements qui ne sont pas appropriés ou en ajoutant de nouveaux enregistrements.  
@@ -174,3 +174,4 @@ Une fois que vous avez contrôlé et testé toutes vos informations de paramétr
 [Configurer une société](admin-set-up-company-configuration.md)  
 [Configuration d’une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)  
+[Analyse de la télémétrie de suivi des packages de configuration](/dynamics365smb-devitpro/dev-itpro/administration/telemetry-configuration-package-trace)  

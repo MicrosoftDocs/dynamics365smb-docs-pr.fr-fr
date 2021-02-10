@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1b0c74145034d71445bde5ae9374029eb9895107
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 37b684c1f8bda394f777e43904b77b5f7747ce36
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925971"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748342"
 ---
 # <a name="set-up-salespeople"></a>Configurer des vendeurs
 Beaucoup de sociétés souhaitent suivre les performances individuelles d’un collaborateur afin d’avoir une base de calcul pour les commissions et les bonus. Reportez-vous, par exemple, à l’état **Commissions vendeur**. Une société peut également souhaiter affecter un vendeur à chacun de ses contacts.
@@ -33,4 +33,4 @@ Vous pouvez utiliser les vendeurs dans la gestion des relations et les divers tr
 ## <a name="see-also"></a>Voir aussi
 [Définition des ventes](sales-setup-sales.md)  
 [Ventes](sales-manage-sales.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

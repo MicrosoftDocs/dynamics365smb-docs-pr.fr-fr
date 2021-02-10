@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4d92b4fc380dfaaf5b4fe2705367dff359eae6e5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7a5230f26b3e0db8896125d1a8dbf2d8ff322777
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926971"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751154"
 ---
 # <a name="setting-up-fixed-assets"></a>Paramétrage d’immobilisations
 Avant de pouvoir utiliser les immobilisations, vous devez définir les éléments suivants :  
@@ -45,4 +45,4 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [COMPTES D’IMMOBILISATIONS](fa-manage.md)  
 [Finances](finance.md)  
 [Mise en route](product-get-started.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 83bb0691baada420d8360736b613d1fbb33690e4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a9a44faea1f92159930124992c9c070880d0c9eb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922066"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751304"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Détails de conception : flux de désenlogement
 
@@ -37,7 +37,7 @@ En outre, les documents origine internes suivants existent qui fonctionnent comm
 
  Les processus et les documents de l’interface utilisateur dans les flux de désenlogement sont différents pour les configurations d’entrepôt de base et avancées. La principale différence est que les activités sont effectuées par commande dans les configurations d’entrepôt de base, et qu’elles sont regroupées pour plusieurs commandes dans les configurations d’entrepôt avancées. Pour plus d’informations sur les différents niveaux de complexité entrepôt, consultez [Détails de conception : vue d’ensemble d’entrepôt](design-details-warehouse-setup.md).  
 
- Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les processus sortants de prélèvement et d’expédition peuvent être effectués de quatre manières, à l’aide de différentes fonctionnalités en fonction du niveau de complexité de l’entrepôt.  
+ Dans [!INCLUDE[prod_short](includes/prod_short.md)], les processus sortants de prélèvement et d’expédition peuvent être effectués de quatre manières, à l’aide de différentes fonctionnalités en fonction du niveau de complexité de l’entrepôt.  
 
 |Méthode|Processus sortant|Emplacements|Prélèvements|Livraisons|Niveau de complexité (Voir [Détails de conception : paramètres entrepôt](design-details-warehouse-setup.md))|  
 |------|----------------|----|-----|---------|-------------------------------------------------------------------------------------|  

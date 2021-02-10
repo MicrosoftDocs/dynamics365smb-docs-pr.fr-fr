@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4b5293ace8fe0fc59b0e1f499574355397fb2d84
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1ae0386c4fc2e3ac216d4228c94e7447a808cf50
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923219"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756116"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Planifier des mouvements entrepôt dans la feuille
 Planifiez les mouvements de la feuille à l’aide de la fonction réapprovisionnement emplacement ou en planifiant manuellement les lignes à créer en tant qu’instructions mouvement.  
@@ -26,7 +26,7 @@ Au fur et à mesure que l’entrepôt expédie des articles aux clients, les emp
 1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille mouvement**, puis choisissez le lien associé.  
 2.  Choisissez l’action **Calculer réappro. emplacement**.  
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)] crée des lignes indiquant précisément le mode de déplacement des articles des emplacements les moins bien classés vers les emplacements les mieux classés.  
+    [!INCLUDE[prod_short](includes/prod_short.md)] crée des lignes indiquant précisément le mode de déplacement des articles des emplacements les moins bien classés vers les emplacements les mieux classés.  
 
     > [!NOTE]  
     >  Un mouvement est proposé selon FEFO lorsque vous activez la fonction **Créer mouvement** si les conditions suivantes sont réunies pour un article :  
@@ -58,7 +58,7 @@ Vous pouvez également utiliser la feuille mouvements pour planifier d’autres 
     >   
     >  -   L’article a une date de péremption.  
     > -   La case à cocher **Prélèvement selon FEFO** sur la fiche magasin doit être cochée.  
-    > -   La case à cocher **Emplacement obligatoire** de la fiche magasin est activée.  
+    > -   La case à cocher **Emplacement obligatoire** de la fiche magasin est cochée.  
     > -   Les champs **De zone** et **D’emplacement** sont vides.  
 
 5.  Complétez certaines des lignes extraites de manière à indiquer les changements à apporter. Pour chaque article à déplacer, vous devez renseigner les champs **N° article**, **Du code emplacement**, **Vers code emplacement** et **Quantité**.  
@@ -71,4 +71,4 @@ Vous pouvez également utiliser la feuille mouvements pour planifier d’autres 
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

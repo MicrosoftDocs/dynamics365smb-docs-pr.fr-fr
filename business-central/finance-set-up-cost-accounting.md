@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d39d30891d822c25b0ce4aaec84bbbbc714ae311
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 194e9acb40233e23470aee6e61f6cabc503cea72
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910754"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746640"
 ---
 # <a name="setting-up-cost-accounting"></a>Paramétrage du contrôle de gestion
 Avant d’utiliser la comptabilité analytique, vous devez effectuer des tâches de paramétrage.
@@ -87,8 +87,8 @@ Une relation n:1 existe entre les comptes généraux et les types de coûts. Plu
 Un type de coût risque de ne pas afficher une relation avec les comptes généraux si une des conditions suivantes est vraie :  
 
 * Les comptes pour la comptabilité opérationnelle, notamment les intérêts et l’amortissement, prennent uniquement les coûts provenant de la comptabilité opérationnelle.  
-* Les types de coûts, notamment 9901, 9902 et 9903, dans la base de données [!INCLUDE[d365fin](includes/d365fin_md.md)] servent de comptes de crédit et de débit pour les affectations.  
-* Le compte 9920 dans la base de données [!INCLUDE[d365fin](includes/d365fin_md.md)] indique les régularisations réelles qui font état de la différence entre les coûts et les frais provenant de la comptabilité.
+* Les types de coûts, notamment 9901, 9902 et 9903, dans la base de données [!INCLUDE[prod_short](includes/prod_short.md)] servent de comptes de crédit et de débit pour les affectations.  
+* Le compte 9920 dans la base de données [!INCLUDE[prod_short](includes/prod_short.md)] indique les régularisations réelles qui font état de la différence entre les coûts et les frais provenant de la comptabilité.
 
 ## <a name="setting-up-cost-centers"></a>Configuration des centres de coûts
 Les centres de coûts sont les départements responsables des coûts et des revenus. Le plan des centres de coûts est semblable aux informations sur l’axe analytique pour la comptabilité. Vous pouvez configurer le plan des centres de coûts comme suit :  
@@ -157,7 +157,7 @@ Vous pouvez configurer et gérer les coûts associés, soit sur la page **Fiche 
 >  Si vous avez saisi des définitions dans les champs **Total De/À** pour les coûts associés **Fin total** avant d’exécuter la fonction d’indentation, vous devez les saisir à nouveau. La fonction remplace les valeurs dans tous les champs **Fin total**.
 
 ## <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Définition des centres de coûts et des coûts associés pour le plan comptable
-Vous pouvez transférer automatiquement les écritures de dépenses et de revenus à partir de la comptabilité générale vers la comptabilité analytique, que ce soit pour la validation comptable ou avec un traitement par lots. Lors du transfert, [!INCLUDE[d365fin](includes/d365fin_md.md)] transfère uniquement les écritures déjà liées à un centre de coûts ou aux coûts associés. Pour préparer un transfert pertinent, assurez-vous que les centres de coûts et les coûts associés sont définis correctement.  
+Vous pouvez transférer automatiquement les écritures de dépenses et de revenus à partir de la comptabilité générale vers la comptabilité analytique, que ce soit pour la validation comptable ou avec un traitement par lots. Lors du transfert, [!INCLUDE[prod_short](includes/prod_short.md)] transfère uniquement les écritures déjà liées à un centre de coûts ou aux coûts associés. Pour préparer un transfert pertinent, assurez-vous que les centres de coûts et les coûts associés sont définis correctement.  
 
 ### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Définition des sections analytiques par défaut pour des comptes généraux  
 Pour chaque compte général, vous pouvez définir des sections analytiques par défaut dans la table **Affectation analytique**. L’exemple suivant décrit la configuration requise pour avoir un centre de coût DÉPARTEMENT sans jamais avoir de coûts associés PROJET lors de la validation d’un compte général.  
@@ -182,4 +182,4 @@ Pour chaque compte général, vous pouvez définir des sections analytiques par 
 [Comptabilité pour les coûts](finance-manage-cost-accounting.md)  
 [Transfert et validation des écritures de coûts](finance-transfer-and-post-cost-entries.md)   
 [Définition et répartition des coûts](finance-define-and-allocate-costs.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

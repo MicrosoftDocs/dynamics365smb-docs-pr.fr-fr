@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 42a8fd05fe74276c5b570253b67be20189201071
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6b86bf4be6a925913e3e2a0a70cf2066e8956681
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922141"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751554"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Détails de conception : flux d’enlogement
 Le flux entrant dans un entrepôt commence à l’arrivée des articles dans l’entrepôt du magasin de la société, qu’ils proviennent de sources externes ou d’un autre magasin de la société. Un salarié enregistre les articles, généralement en numérisant un code barre. Depuis le quai de réception, des activités entrepôt sont effectuées à différents niveaux de complexité pour amener les articles dans la zone de stockage.  
@@ -35,7 +35,7 @@ Les deux derniers représentent les flux entrants dans l’entrepôt en provenan
 
 Les processus et les documents de l’interface utilisateur dans les flux d’enlogement sont différents pour les configurations d’entrepôt de base et avancées. La principale différence est que les activités sont effectuées par commande dans les configurations d’entrepôt de base, et qu’elles sont regroupées pour plusieurs commandes dans les configurations d’entrepôt avancées. Pour plus d’informations sur les différents niveaux de complexité entrepôt, consultez [Détails de conception : vue d’ensemble d’entrepôt](design-details-warehouse-setup.md).  
 
-Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les processus entrants de réception et de rangement peuvent être effectués de quatre manières, à l’aide de différentes fonctionnalités en fonction du niveau de complexité de l’entrepôt.  
+Dans [!INCLUDE[prod_short](includes/prod_short.md)], les processus entrants de réception et de rangement peuvent être effectués de quatre manières, à l’aide de différentes fonctionnalités en fonction du niveau de complexité de l’entrepôt.  
 
 |Méthode|Processus entrant|Emplacements|Bons de réception|Rangements|Niveau de complexité (Voir [Détails de conception : paramètres entrepôt](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  

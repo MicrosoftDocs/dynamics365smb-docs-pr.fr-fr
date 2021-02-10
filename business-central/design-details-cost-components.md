@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 470c8231eeb471de344542087c7ade68c91f55bc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d8e2d00e82f2ed5342e3c06dfaf54d8d6a88e941
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920921"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751748"
 ---
 # <a name="design-details-cost-components"></a>Détails de conception : composants des coûts
 Les composants de coût sont différents types de coûts qui constituent la valeur d'une entrée de stock ou d'une sortie.  
@@ -44,4 +44,4 @@ Les composants de coût sont différents types de coûts qui constituent la vale
  [Détails de conception : évaluation stock](design-details-inventory-costing.md)   
  [Détails de conception : Ecart](design-details-variance.md) [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

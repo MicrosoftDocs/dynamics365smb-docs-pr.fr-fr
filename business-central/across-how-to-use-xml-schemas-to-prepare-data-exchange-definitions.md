@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d2e600f3b2da20540e224cb1405a50adc4a31f25
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 78aa941b8b886ed37dbed0d83a35d13b0e427421
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924952"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754616"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Utiliser des schémas XML pour préparer des définitions d’échange de données
 
-Pour activer l’importation/exportation des données dans des fichiers XML à travers l’infrastructure d’échange de données de [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez utiliser des schémas XML pour définir les éléments de données à échanger avec [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vous effectuez ce travail sur la page **Visionneuse de schéma XML** en chargeant le fichier de schéma XML, en sélectionnant les éléments de données appropriés, puis en initialisant une définition d’échange de données.  
+Pour activer l’importation/exportation des données dans des fichiers XML à travers l’infrastructure d’échange de données de [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez utiliser des schémas XML pour définir les éléments de données à échanger avec [!INCLUDE[prod_short](includes/prod_short.md)]. Vous effectuez ce travail sur la page **Visionneuse de schéma XML** en chargeant le fichier de schéma XML, en sélectionnant les éléments de données appropriés, puis en initialisant une définition d’échange de données.  
 
- Lorsque vous avez défini quels éléments de données inclure selon le schéma XML, vous pouvez utiliser l’action **Générer définition d’échange de données** pour initialiser une définition d’échange de données basée sur les éléments de données sélectionnés, que vous complétez dans l’infrastructure d’échange de données. Cela crée un enregistrement sur la page **Définitions échange comptabilité** où vous continuez en définissant quels éléments de la liste des fichiers correspondent à quels champs dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d’informations, voir [Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md).  
+ Lorsque vous avez défini quels éléments de données inclure selon le schéma XML, vous pouvez utiliser l’action **Générer définition d’échange de données** pour initialiser une définition d’échange de données basée sur les éléments de données sélectionnés, que vous complétez dans l’infrastructure d’échange de données. Cela crée un enregistrement sur la page **Définitions échange comptabilité** où vous continuez en définissant quels éléments de la liste des fichiers correspondent à quels champs dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md).  
 
  Cette rubrique contient les procédures suivantes :  
 
@@ -103,7 +103,7 @@ Pour activer l’importation/exportation des données dans des fichiers XML à 
 
 4. Sur la page **Visionneuse de schéma XML**, sélectionnez l’action **Générer définition d’échange de données**.  
 
- Une définition d’échange de données est créée sur la page **Définitions échange comptabilité**, que vous pouvez renseigner en indiquant quels éléments du fichier correspondent à quels champs de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d’informations, voir [Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md).  
+ Une définition d’échange de données est créée sur la page **Définitions échange comptabilité**, que vous pouvez renseigner en indiquant quels éléments du fichier correspondent à quels champs de [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md).  
 
 > [!NOTE]  
 > Vous pouvez également utiliser la fonction **Extraire structure de fichiers** de la page **Définitions échange comptabilité**, qui utilise la fonctionnalité de la page **Visionneuse de schéma XML** pour préremplir le raccourci **Définitions colonne**.  

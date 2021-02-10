@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 2606a6af14ba3020a47b0605038b5cfbd9dc5458
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2cca7ea4b1677846052b8a10cb7eba91d2e4432c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920158"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749649"
 ---
 # <a name="france-local-functionality"></a>Fonctionnalité locale, France
 
-Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à la version française de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à la version française de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## <a name="feature-availability"></a>Disponibilité des fonctionnalités
 
@@ -64,7 +64,7 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
 
 ## <a name="see-also"></a>Voir aussi
 
-[Utilisation de [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilité par pays/région et langues prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  

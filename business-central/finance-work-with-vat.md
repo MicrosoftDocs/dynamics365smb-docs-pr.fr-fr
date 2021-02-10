@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 5b24fe2373e8f6fd71008a5d155e985d2aaa460f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bce25a87849a65d0307e6475716891396167697c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924077"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746615"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Utiliser la TVA sur les ventes et les achats
-Si votre pays ou région vous demande de calculer la TVA sur les transactions de vente et d’achat afin de pouvoir déclarer les montants à une administration fiscale, vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour calculer automatiquement la TVA sur les documents vente et achat. Pour plus d’informations, voir [Configuration des méthodes de calcul et de validation de la taxe sur la valeur ajoutée](finance-setup-vat.md).
+Si votre pays ou région vous demande de calculer la TVA sur les transactions de vente et d’achat afin de pouvoir déclarer les montants à une administration fiscale, vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour calculer automatiquement la TVA sur les documents vente et achat. Pour plus d’informations, voir [Configuration des méthodes de calcul et de validation de la taxe sur la valeur ajoutée](finance-setup-vat.md).
 
 Il existe, cependant, certaines tâches associées à la TVA que vous pouvez effectuer manuellement. Par exemple, vous devrez peut-être corriger un montant validé si vous découvrez qu’un fournisseur utilise un mode d’arrondi différent.
 
@@ -26,7 +26,7 @@ Il existe, cependant, certaines tâches associées à la TVA que vous pouvez eff
 Vous pouvez calculer et afficher des montants de TVA dans des documents achat et vente de façon différente, en fonction du type de client ou de fournisseur avec lequel vous traitez. Vous pouvez également remplacer le montant de TVA calculé pour qu’il corresponde au montant de TVA calculé par le fournisseur sur une transaction donnée.  
 
 ### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Prix unitaire et montant ligne incluant/excluant la TVA sur les documents vente  
-Lorsque vous sélectionnez un numéro d’article dans le champ **N°** d’un document vente, [!INCLUDE[d365fin](includes/d365fin_md.md)] renseigne le champ **Prix unitaire**. Le prix unitaire provient de la fiche **Article** ou des prix article autorisés pour l’article et le client. [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule le **Montant ligne** lorsque vous entrez une quantité pour la ligne.  
+Lorsque vous sélectionnez un numéro d’article dans le champ **N°** d’un document vente, [!INCLUDE[prod_short](includes/prod_short.md)] renseigne le champ **Prix unitaire**. Le prix unitaire provient de la fiche **Article** ou des prix article autorisés pour l’article et le client. [!INCLUDE[prod_short](includes/prod_short.md)] calcule le **Montant ligne** lorsque vous entrez une quantité pour la ligne.  
 
 Si vous vendez au détail à des consommateurs, vous souhaitez peut-être que les documents vente incluent la TTC. Pour ce faire, activez la case à cocher **Prix TTC** du document.  
 
@@ -69,7 +69,7 @@ La section suivante explique comment activer les modifications manuelles de la T
 > Le montant de TVA total de la facture et l’identifiant TVA s’affichent dans les lignes. Vous pouvez ajuster les montants manuellement dans le champ **Montant TVA** des lignes correspondant à chaque identifiant TVA. Lorsque vous modifiez la valeur du champ **Montant TVA**, l’application vérifie que vous n’avez pas modifié la TVA d’une valeur supérieure à celle du montant spécifié comme différence maximale autorisée. Si le montant se situe en dehors de la plage **Différence TVA max. autorisée**, un avertissement s’affiche, indiquant la différence maximale autorisée. Vous ne pouvez pas poursuivre tant que le montant n’est pas ajusté conformément aux paramètres acceptables. Cliquez sur **OK** , puis entrez un autre **Montant TVA** s’inscrivant dans la plage autorisée. Si la différence TVA est inférieure ou égale à la différence maximale autorisée, la TVA est répartie de façon proportionnelle entre les lignes document ayant le même identifiant TVA.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>Calcul manuel de la TVA à l’aide de feuilles  
-Vous pouvez également ajuster les montants TVA dans les feuilles comptabilité, vente et achat. Par exemple, vous devrez peut-être le faire lorsque vous entrez une facture fournisseur dans votre feuille et qu’il y a une différence entre le montant de TVA calculé par [!INCLUDE[d365fin](includes/d365fin_md.md)] et le montant de TVA figurant sur la facture que vous avez reçue du fournisseur.  
+Vous pouvez également ajuster les montants TVA dans les feuilles comptabilité, vente et achat. Par exemple, vous devrez peut-être le faire lorsque vous entrez une facture fournisseur dans votre feuille et qu’il y a une différence entre le montant de TVA calculé par [!INCLUDE[prod_short](includes/prod_short.md)] et le montant de TVA figurant sur la facture que vous avez reçue du fournisseur.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Pour configurer le système pour la saisie manuelle de la TVA dans les feuilles comptabilité
 Vous devez suivre les étapes suivantes avant de saisir manuellement la TVA dans une feuille comptabilité.  
@@ -82,10 +82,10 @@ Vous devez suivre les étapes suivantes avant de saisir manuellement la TVA dans
 
 1. Sur la page **Paramètres achats**, activez la case à cocher **Autoriser différence TVA**.  
 2. Répétez l’étape 1 pour la page **Paramètres ventes**.
-3. Après avoir effectué la configuration décrite ci-avant, vous pouvez ajuster la valeur du champ **Montant TVA** de la ligne feuille comptabilité ou du champ **Montant TVA contrepartie** de la ligne feuille achat ou vente. [!INCLUDE[d365fin](includes/d365fin_md.md)] vérifie que la différence n’est pas supérieure à la valeur maximale spécifiée.  
+3. Après avoir effectué la configuration décrite ci-avant, vous pouvez ajuster la valeur du champ **Montant TVA** de la ligne feuille comptabilité ou du champ **Montant TVA contrepartie** de la ligne feuille achat ou vente. [!INCLUDE[prod_short](includes/prod_short.md)] vérifie que la différence n’est pas supérieure à la valeur maximale spécifiée.  
 
     > [!NOTE]  
-    > Si la différence est supérieure, un avertissement s’affiche, indiquant la différence maximale autorisée. Pour continuer, vous devez ajuster le montant. Sélectionnez **OK**, puis entrez un montant compris dans la plage autorisée. Si la différence de TVA est inférieure ou égale à la valeur maximale autorisée, [!INCLUDE[d365fin](includes/d365fin_md.md)] affiche la différence dans le champ **Différence TVA**.  
+    > Si la différence est supérieure, un avertissement s’affiche, indiquant la différence maximale autorisée. Pour continuer, vous devez ajuster le montant. Sélectionnez **OK**, puis entrez un montant compris dans la plage autorisée. Si la différence de TVA est inférieure ou égale à la valeur maximale autorisée, [!INCLUDE[prod_short](includes/prod_short.md)] affiche la différence dans le champ **Différence TVA**.  
 
 ## <a name="posting-import-vat-with-purchase-invoices"></a>Validation de la TVA à l’importation dans les factures achat
 Au lieu d’utiliser des feuilles comptabilité pour valider une facture TVA importation, vous pouvez utiliser une facture achat.  
@@ -95,7 +95,7 @@ Au lieu d’utiliser des feuilles comptabilité pour valider une facture TVA imp
 2. Créez un **Groupe compta. produit** pour la TVA importation et paramétrez un **Gpe compta. produit TVA défaut** (TVA importation) pour le **Groupe compta. produit** lié.  
 3. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Plan comptable**, puis sélectionnez le lien associé.  
 4. Sélectionnez le compte général de TVA à l’importation, puis sélectionnez l’action **Modifier**.  
-5. Sur le raccourci **Validation**, sélectionnez la configuration **Groupe compta. produit** pour importer la TVA. [!INCLUDE[d365fin](includes/d365fin_md.md)] renseigne automatiquement le champ **Groupe compta. produit TVA**.  
+5. Sur le raccourci **Validation**, sélectionnez la configuration **Groupe compta. produit** pour importer la TVA. [!INCLUDE[prod_short](includes/prod_short.md)] renseigne automatiquement le champ **Groupe compta. produit TVA**.  
 6. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres comptabilisation**, puis sélectionnez le lien associé.  
 7. Créez une combinaison de **Groupe comptabilisation marché** pour l’administration fiscale et de **Groupe compta. produit** pour la TVA d’importation. Pour cette nouvelle combinaison, dans le champ **Compte achat**, sélectionnez le compte général de la TVA à l’importation.  
 
@@ -139,7 +139,7 @@ Lorsque vous vendez des biens à un client dans un autre pays/une autre région 
     >  Sinon, vous pouvez imprimer un certificat à partir de la page **Certificat d’approvisionnement**.  
 
 4. Pour inclure des informations des lignes dans le document expédition sur le certificat d’approvisionnement, sélectionnez la case à cocher **Imprimer détails de ligne**.  
-5. Activez la case à cocher **Créer des certificats d’approvisionnement s’ils n’ont pas encore été créés** pour que [!INCLUDE[d365fin](includes/d365fin_md.md)] crée des certificats pour les expéditions validées qui n’en ont pas au moment de l’exécution. Lorsque vous activez la case à cocher, de nouveaux certificats sont créés pour toutes les expéditions validées qui n’ont pas de certificats compris dans la plage sélectionnée.  
+5. Activez la case à cocher **Créer des certificats d’approvisionnement s’ils n’ont pas encore été créés** pour que [!INCLUDE[prod_short](includes/prod_short.md)] crée des certificats pour les expéditions validées qui n’en ont pas au moment de l’exécution. Lorsque vous activez la case à cocher, de nouveaux certificats sont créés pour toutes les expéditions validées qui n’ont pas de certificats compris dans la plage sélectionnée.  
 6. Par défaut, les paramètres de filtrage concernent le document d’expédition que vous avez sélectionné. Renseignez les informations de filtre pour sélectionner un certificat d’approvisionnement spécifique à imprimer.  
 7. Dans la page **Certificat d’approvisionnement**, sélectionnez l’action **Imprimer** pour imprimer l’état ou l’action **Aperçu** pour l’afficher à l’écran.  
 
@@ -155,7 +155,7 @@ Lorsque vous vendez des biens à un client dans un autre pays/une autre région 
 
    Si le client a retourné le certificat d’approvisionnement signé, choisissez **Reçu**. Le champ **Date de réception** est mis à jour. Par défaut, la date de réception est configurée sur la date de travail actuelle.  
 
-   Vous pouvez modifier la date pour tenir compte de la date à laquelle vous avez reçu le certificat d’approvisionnement signé du client. Vous pouvez également ajouter un lien vers le certificat signé à l’aide des liaisons standard de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+   Vous pouvez modifier la date pour tenir compte de la date à laquelle vous avez reçu le certificat d’approvisionnement signé du client. Vous pouvez également ajouter un lien vers le certificat signé à l’aide des liaisons standard de [!INCLUDE[prod_short](includes/prod_short.md)].  
 
    Si le client ne retourne pas le certificat d’approvisionnement signé, choisissez **Non reçu**. Vous devez envoyer au client une nouvelle facture qui inclut la TVA, parce que la facture initiale ne sera pas acceptée par l’administration fiscale.  
 
@@ -169,7 +169,7 @@ Pour afficher un groupe de certificats, vous commencez à partir de la page **Ce
 
    Si le client a retourné le certificat d’approvisionnement signé, choisissez **Reçu**. Le champ **Date de réception** est mis à jour. Par défaut, la date de réception est configurée sur la date de travail actuelle.  
 
-   Vous pouvez modifier la date pour tenir compte de la date à laquelle vous avez reçu le certificat d’approvisionnement signé. Vous pouvez également ajouter un lien vers le certificat signé à l’aide des liaisons de document standard de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+   Vous pouvez modifier la date pour tenir compte de la date à laquelle vous avez reçu le certificat d’approvisionnement signé. Vous pouvez également ajouter un lien vers le certificat signé à l’aide des liaisons de document standard de [!INCLUDE[prod_short](includes/prod_short.md)].  
 
     > [!NOTE]  
     >  Vous ne pouvez pas créer un nouveau certificat d’approvisionnement sur la page **Certificat d’approvisionnement** lorsque vous y accédez à l’aide de cette procédure. Pour créer un certificat pour une expédition qui n’a pas été configurée pour en exiger, ouvrez l’expédition vente validée et utilisez l’une des deux procédures décrites ci-dessus :  

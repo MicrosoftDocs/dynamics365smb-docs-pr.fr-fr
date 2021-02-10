@@ -1,5 +1,5 @@
 ---
-title: Faire l’inventaire avec la fonctionnalité basée sur un document | Microsoft Docs
+title: Faire l’inventaire avec la fonctionnalité basée sur un document
 description: Décrit comment effectuer l’inventaire à l’aide des pages Commande de stock physique et Enregistrement de stock physique.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,23 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 10/01/2020
+ms.date: 10/20/2020
 ms.author: edupont
-ms.openlocfilehash: ff2bd25a76da32ad680bc94cff8801ca5328ad00
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3403d0536b195517f6924a803342b4301e39591a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923844"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750179"
 ---
 # <a name="count-inventory-using-documents"></a>Faire l’inventaire à l’aide de documents
+
 Vous pouvez effectuer l’inventaire d’un stock physique de vos articles à l’aide des documents Commande de stock physique et Enregistrement de stock physique. La page **Commande de stock physique** est utilisée pour organiser le projet d’inventaire complet, par exemple un par magasin. La page **Enregistrement de stock physique** est utilisée pour communiquer et capturer le nombre réel d’articles. Vous pouvez créer plusieurs enregistrements pour une commande, par exemple, pour répartir les groupes d’articles vers différents employés.
 
-L’état **Enregistrement de stock physique** peut être imprimé depuis chaque enregistrement et contient des champs de quantité vides pour saisir l’inventaire. Quand un utilisateur a terminé l’inventaire et quand les quantités sont saisies sur la page **Enregistrement de stock physique**, sélectionnez l’action **Terminer**. Cela transfère les quantités vers les lignes concernées sur la page **Enregistrement de stock physique**. La fonctionnalité s’assure qu’aucun inventaire d’articles ne peut être enregistré à deux reprises.      
+L’état **Enregistrement de stock physique** peut être imprimé depuis chaque enregistrement et contient des champs de quantité vides pour saisir l’inventaire. Quand un utilisateur a terminé l’inventaire et quand les quantités sont saisies sur la page **Enregistrement de stock physique**, sélectionnez l’action **Terminer**. Cela transfère les quantités vers les lignes concernées sur la page **Enregistrement de stock physique**. La fonctionnalité s’assure qu’aucun inventaire d’articles ne peut être enregistré à deux reprises.  
 
 > [!NOTE]
-> Cette procédure décrit comment effectuer un inventaire à l’aide de documents, une méthode qui offre un plus grand contrôle et prend en charge la répartition de l’inventaire vers plusieurs employés. Vous pouvez également effectuer la tâche à l’aide de feuilles, les pages **Feuilles inventaire** et **Feuilles inventaire entrepôt**. Pour plus d’informations, voir [Inventaire, ajustement et reclassement du stock avec les journaux](inventory-how-count-adjust-reclassify.md).<br /><br />
-> Notez que si vous utilisez la fonctionnalité Emplacements ou Zones, vous ne pouvez pas utiliser les commandes de stock physique. À la place, utilisez la page **Feuille inventaire entrepôt** la page pour faire l’inventaire de vos écritures d’entrepôt avant de les synchroniser avec les écritures comptables d’article.
+> Cet article décrit comment effectuer un inventaire à l’aide de documents, une méthode qui offre un plus grand contrôle et prend en charge la répartition de l’inventaire vers plusieurs employés. Vous pouvez également effectuer la tâche à l’aide de feuilles, les pages **Feuilles inventaire** et **Feuilles inventaire entrepôt**. Pour plus d’informations, voir [Inventaire, ajustement et reclassement du stock avec les journaux](inventory-how-count-adjust-reclassify.md).<br /><br />
+> Notez que si vous utilisez la fonctionnalité Zones, vous ne pouvez pas utiliser les commandes de stock physique. À la place, utilisez la page **Feuille inventaire entrepôt** la page pour faire l’inventaire de vos écritures d’entrepôt avant de les synchroniser avec les écritures comptables d’article.
 
 Réaliser l’inventaire à l’aide de documents se produit comme suit :
 
@@ -46,11 +47,11 @@ Pour créer les lignes de commande de stock physique, vous utilisez généraleme
 6. Définissez les filtres, par exemple, pour inclure uniquement un sous-ensemble d’articles à comptabiliser avec le premier enregistrement.
 
     > [!TIP]
-    > Pour planifier l’exécution de l’inventaire par plusieurs employés, il est recommandé de définir différents filtres à chaque utilisation de l’action **Calculer les lignes** pour ne remplir que la commande avec le sous-ensemble d’articles de l’inventaire qu’un utilisateur enregistrera. Ainsi, en générant plusieurs enregistrements de stock physique par plusieurs employés, vous réduisez le risque de comptabilisation de doublons d’articles. Pour plus d’informations, voir la section « Pour créer un enregistrement de stock physique ».
+    > Pour planifier l’exécution de l’inventaire par plusieurs employés, il est recommandé de définir différents filtres à chaque utilisation de l’action **Calculer les lignes** pour ne remplir que la commande avec le sous-ensemble d’articles de l’inventaire qu’un utilisateur enregistrera. Ainsi, en générant plusieurs enregistrements de stock physique par plusieurs employés, vous réduisez le risque de comptabilisation de doublons d’articles. Pour plus d’informations, voir la section [Pour créer un enregistrement de stock physique](#to-create-a-physical-inventory-recording).
 
-7.  Cliquez sur le bouton **OK**.
+7. Cliquez sur le bouton **OK**.
 
-Une ligne pour chaque article qui existe sur l’emplacement sélectionné et conformément aux filtres et options définis est insérée sur la commande. Pour les articles configurés pour le suivi des articles, la case à cocher **Utiliser le suivi des articles** est sélectionnée et les informations relatives à la quantité prévue des numéros de lot et de série est disponible en sélectionnant l’action **Lignes**, puis **Lignes de suivi des articles**. Pour plus d’informations, reportez-vous à la section « Gérer le suivi des articles lors de la réalisation de l’inventaire ».
+Une ligne pour chaque article qui existe sur l’emplacement sélectionné et conformément aux filtres et options définis est insérée sur la commande. Pour les articles configurés pour le suivi des articles, la case à cocher **Utiliser le suivi des articles** est sélectionnée et les informations relatives à la quantité prévue des numéros de lot et de série est disponible en sélectionnant l’action **Lignes**, puis **Lignes de suivi des articles**. Pour plus d’informations, reportez-vous à la section [Gérer le suivi des articles lors de la réalisation de l’inventaire](#handling-item-tracking-when-counting-inventory).
 
 Vous pouvez désormais commencer en créant un ou plusieurs enregistrements, qui correspondent aux instructions données aux employés en charge du décompte réel.  
 
@@ -72,22 +73,23 @@ En cas de décompte manuel, vous pouvez imprimer une liste, l’état **Enregist
 5. Sélectionnez l’action **Enregistrements** pour ouvrir la page **Liste des enregistrements de stock physique**.
 6. Ouvrez l’enregistrement approprié.
 7. Sur le raccourci **Général**, complétez les champs, comme nécessaire.
-8. Pour les articles qui utilisent le suivi des articles, créez une ligne supplémentaire pour chaque numéro de lot ou code de numéro de série en sélectionnant l’action **Fonctions**, puis l’action **Copier la ligne**. Pour plus d’informations, reportez-vous à la section « Gérer le suivi des articles lors de la réalisation de l’inventaire ».    
+8. Pour les articles qui utilisent le suivi des articles, créez une ligne supplémentaire pour chaque numéro de lot ou code de numéro de série en sélectionnant l’action **Fonctions**, puis l’action **Copier la ligne**. Pour plus d’informations, reportez-vous à la section [Gérer le suivi des articles lors de la réalisation de l’inventaire](#handling-item-tracking-when-counting-inventory).  
 9. Choisissez l’action **Imprimer** pour préparer le document physique que les employés utiliseront pour écrire les quantités comptabilisées.
 
 ## <a name="to-finish-a-physical-inventory-recording"></a>Pour finaliser un enregistrement de stock physique
+
 Lorsque les employés ont comptabilisé les quantités en stock, vous devez préparer leur enregistrement dans le système.
 
 1. Sur la page **Liste des enregistrements de stock physique**, sélectionnez l’enregistrement de stock physique que vous souhaitez terminer, puis sélectionnez l’action **Modifier**.
 2. Sur le raccourci **Lignes**, renseignez la quantité comptabilisée réellement dans le champ **Quantité** pour chaque ligne.
-3. Pour les articles avec des numéros de série ou de lot (la case **Utiliser le suivi des articles** est cochée), saisissez les quantités comptabilisées sur les lignes dédiées pour la question respective aux numéros de lot et de série de l’article. Pour plus d’informations, reportez-vous à la section « Gérer le suivi des articles lors de la réalisation de l’inventaire ».
+3. Pour les articles avec des numéros de série ou de lot (la case **Utiliser le suivi des articles** est cochée), saisissez les quantités comptabilisées sur les lignes dédiées pour la question respective aux numéros de lot et de série de l’article. Pour plus d’informations, reportez-vous à la section [Gérer le suivi des articles lors de la réalisation de l’inventaire](#handling-item-tracking-when-counting-inventory).
 4. Sélectionnez la case à cocher **Enregistrée** sur chaque ligne.
 5. Une fois que vous avez saisi toutes les données pour un enregistrement de stock physique, sélectionnez l’action **Terminer**. Vous observerez que toutes les lignes doivent avoir la case **Enregistrée** sélectionnée.
 
 > [!NOTE]
 > Lorsque vous avez terminé un enregistrement de stock physique, chaque ligne est transférée vers la ligne sur la commande de stock physique associée qui correspond exactement. Pour correspondre, les valeurs des champs **N° article**, **Code variante**, **Code magasin** et **Code emplacement** doivent être identiques sur l’enregistrement et les lignes de commande.<br /><br />
 > Si aucune ligne de commande de stock physique correspondante n’existe, et si la case **Autoriser l’enregistrement sans commande** est cochée, une nouvelle ligne est insérée automatiquement et la case **Enregistré sans commande** sur la ligne de commande de stock physique concernée est sélectionnée. Sinon, un message d’erreur s’affiche et le processus est annulé.<br /><br />
-> Si plusieurs lignes d’enregistrement de stock physique correspondent à une ligne de commande de stock physique, un message s’affiche et le processus est annulé. Si, pour une raison ou une autre, deux lignes de stock physique identiques arrivent sur la commande de stock physique, vous pouvez utiliser une fonction pour résoudre le problème. Pour plus d’informations, reportez-vous à la rubrique « Rechercher des lignes de commande de stock physique ».
+> Si plusieurs lignes d’enregistrement de stock physique correspondent à une ligne de commande de stock physique, un message s’affiche et le processus est annulé. Si, pour une raison ou une autre, deux lignes de stock physique identiques arrivent sur la commande de stock physique, vous pouvez utiliser une fonction pour résoudre le problème. Pour plus d’informations, reportez-vous à la rubrique [Rechercher des lignes de commande de stock physique](#to-find-duplicate-physical-inventory-order-lines).
 
 ## <a name="to-complete-a-physical-inventory-order"></a>Pour finaliser une commande de stock physique
 Lorsque vous avez terminé un enregistrement de stock physique, le champ **Quantité enregistrée (base)** sur la commande de stock physique associée est mis à jour avec les valeurs comptabilisées (enregistrées) et la case à cocher **Lors de l’enregistrement** est sélectionnée. Si une valeur comptabilisée diffère de la valeur prévue, cette différence s’affiche respectivement dans les champs **Qté positive (de base)** et **Qté négative (de base)**.
@@ -184,10 +186,11 @@ Un article suivi est enregistré en stock avec la série de numéro « LOT ».
 Sur la page **Commande de stock physique**, le champ **Qté négative (de base)** contiendra *8*. Pour la ligne de commande en question, la page **Liste traçabilité stock physique** contiendra les quantités positives ou négatives pour les numéros de lot individuels.
 
 ## <a name="see-also"></a>Voir aussi
+
 [Comptabiliser, ajuster et reclasser le stock avec les feuilles](inventory-how-count-adjust-reclassify.md)  
 [Utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md)  
 [Stock](inventory-manage-inventory.md)  
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)    
 [Ventes](sales-manage-sales.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

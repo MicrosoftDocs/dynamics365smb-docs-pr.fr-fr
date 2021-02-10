@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: de32dea618259d8a7ecde20e47f6f258f12f525a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 21f4dc7f2f0fa6602f02720fc441d1007d0f6bfe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913195"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747992"
 ---
 # <a name="work-on-service-tasks"></a>Travailler sur des tâches service
 Après avoir créé une commande ou devis service, enregistré des lignes article de service, et affecté des ressources aux articles de service de la commande ou du devis, vous pouvez commencer la réparation et la maintenance des articles de service.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inclut une page **Tâches service** qui offre un aperçu de tous les articles de service nécessitant une attention particulière. Considérez-le comme votre tableau de bord de service : où vous pouvez consulter les commandes en attente, recherchez et enregistrez les pièces de rechange et mettez votre stock à jour.  
+[!INCLUDE[prod_short](includes/prod_short.md)] inclut une page **Tâches service** qui offre un aperçu de tous les articles de service nécessitant une attention particulière. Considérez-le comme votre tableau de bord de service : où vous pouvez consulter les commandes en attente, recherchez et enregistrez les pièces de rechange et mettez votre stock à jour.  
 
-Pour assurer le suivi des modifications et obtenir une vue graphique de vos activités de service, utilisez les outils de statistiques de [!INCLUDE[d365fin](includes/d365fin_md.md)] pour obtenir des diagrammes et analyses rapides générés automatiquement.  
+Pour assurer le suivi des modifications et obtenir une vue graphique de vos activités de service, utilisez les outils de statistiques de [!INCLUDE[prod_short](includes/prod_short.md)] pour obtenir des diagrammes et analyses rapides générés automatiquement.  
 
 ## <a name="to-work-on-a-service-task"></a>Pour travailler sur une tâche service  
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Tâches service**, puis sélectionnez le lien associé.

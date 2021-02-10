@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: fe12cf42dd2f7b763c5a2940e70f6db4617e1005
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e0ce2d6c5a2d524cf150bc6e3b50f243fe42b4d9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919516"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750329"
 ---
 # <a name="set-up-value-added-tax"></a>Configuration de la TVA
 
-Les clients et les entreprises payent la TVA lorsqu’ils achètent des biens ou des services. Le montant de la TVA à payer peut varier en fonction de plusieurs facteurs. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous configurez la TVA pour spécifier les taux à utiliser pour calculer les montants de taxe sur la base des éléments suivants :
+Les clients et les entreprises payent la TVA lorsqu’ils achètent des biens ou des services. Le montant de la TVA à payer peut varier en fonction de plusieurs facteurs. Dans [!INCLUDE[prod_short](includes/prod_short.md)], vous configurez la TVA pour spécifier les taux à utiliser pour calculer les montants de taxe sur la base des éléments suivants :
 
 * À qui vous vendez  
 * À qui vous achetez  
@@ -35,17 +35,17 @@ Si vous souhaitez configurer vous-même les calculs de TVA, ou en savoir plus su
 
 ## <a name="to-use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>Pour utiliser le guide de configuration assistée Paramètres TVA pour configurer la TVA (recommandé)
 
-Il est recommandé d’utiliser le guide de configuration assistée Paramètres TVA pour configurer la TVA dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Il est recommandé d’utiliser le guide de configuration assistée Paramètres TVA pour configurer la TVA dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Pour démarrer le guide de configuration assistée, procédez comme suit :
 
 1. Choisissez l’icône d’![ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration assistée**.  
 2. Choisissez **Configuration TVA** et finalisez la procédure.
-3. Une fois la configuration assistée terminée, visitez la page **Paramètres comptabilisation TVA** et vérifiez si vous devez renseigner d’autres champs en fonction des exigences locales de votre version de [!INCLUDE [prodshort](includes/prodshort.md)]. Pour plus d’informations, voir [Fonctionnalité locale dans Business Central](about-localization.md).  
+3. Une fois la configuration assistée terminée, visitez la page **Paramètres comptabilisation TVA** et vérifiez si vous devez renseigner d’autres champs en fonction des exigences locales de votre version de [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Fonctionnalité locale dans Business Central](about-localization.md).  
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Pour configurer les numéros d’identification intracommunautaire pour votre pays ou région
 
-Pour garantir que les personnes entrent des numéros d’identification intracommunautaire valides, vous pouvez définir des formats pour les numéros d’identification intracommunautaire utilisés dans des pays ou des régions dans lesquels vous travaillez. [!INCLUDE[d365fin](includes/d365fin_md.md)] affichera un message d’erreur lorsque un employé fait une erreur ou utilise un format incorrect pour le pays ou la région.
+Pour garantir que les personnes entrent des numéros d’identification intracommunautaire valides, vous pouvez définir des formats pour les numéros d’identification intracommunautaire utilisés dans des pays ou des régions dans lesquels vous travaillez. [!INCLUDE[prod_short](includes/prod_short.md)] affichera un message d’erreur lorsque un employé fait une erreur ou utilise un format incorrect pour le pays ou la région.
 
 Pour configurer des numéros d’identification intracommunautaire, procédez comme suit :
 
@@ -70,7 +70,7 @@ Pour configurer un groupe comptabilisation marché TVA, procédez comme suit :
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Groupe compta. marché TVA**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins.
 
-Paramétrez les groupes comptabilisation marché TVA par défaut en les liant à des groupes comptabilisation marché. [!INCLUDE[d365fin](includes/d365fin_md.md)] affecte automatiquement le groupe comptabilisation marché TVA lorsque vous affectez le groupe comptabilisation marché à un client, un fournisseur ou un compte général.
+Paramétrez les groupes comptabilisation marché TVA par défaut en les liant à des groupes comptabilisation marché. [!INCLUDE[prod_short](includes/prod_short.md)] affecte automatiquement le groupe comptabilisation marché TVA lorsque vous affectez le groupe comptabilisation marché à un client, un fournisseur ou un compte général.
 
 ## <a name="to-set-up-vat-product-posting-groups"></a>Pour paramétrer des groupes comptabilisation produit TVA
 Les groupes comptabilisation produit TVA représentent les articles et les ressources que vous achetez ou vendez et déterminent la manière de calculer et de valider la TVA en fonction du type d’article ou de ressource acheté ou vendu.  
@@ -82,7 +82,7 @@ Pour configurer un groupe comptabilisation marché TVA, procédez comme suit :
 2. Renseignez les champs selon vos besoins.
 
 ## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>Pour regrouper des groupes comptabilisation TVA dans les paramètres comptabilisation TVA
-[!INCLUDE[d365fin](includes/d365fin_md.md)] calcule les montants de TVA sur les ventes et les achats en fonction des paramètres comptabilisation TVA, qui sont des combinaisons de groupes comptabilisation marché et produit TVA. Pour chaque combinaison, vous pouvez spécifier le pourcentage de TVA, le mode calcul TVA et les comptes généraux pour la validation de la TVA pour les achats, les ventes, ainsi que les taxes déductibles. Vous pouvez également indiquer si la TVA doit être recalculée lorsqu’un escompte est appliqué ou reçu.  
+[!INCLUDE[prod_short](includes/prod_short.md)] calcule les montants de TVA sur les ventes et les achats en fonction des paramètres comptabilisation TVA, qui sont des combinaisons de groupes comptabilisation marché et produit TVA. Pour chaque combinaison, vous pouvez spécifier le pourcentage de TVA, le mode calcul TVA et les comptes généraux pour la validation de la TVA pour les achats, les ventes, ainsi que les taxes déductibles. Vous pouvez également indiquer si la TVA doit être recalculée lorsqu’un escompte est appliqué ou reçu.  
 
 Définissez autant de combinaisons que nécessaire. Si vous voulez regrouper des combinaisons de paramètres comptabilisation TVA avec des attributs similaires, vous pouvez définir un **Identifiant TVA** pour chaque groupe et affecter l’identifiant aux membres du groupe.
 
@@ -92,7 +92,7 @@ Pour regrouper des paramètres comptabilisation TVA, procédez comme suit :
 2. Renseignez les champs selon vos besoins.
 
 ## <a name="to-assign-vat-posting-groups-by-default-to-multiple-entities"></a>Pour affecter des groupes comptabilisation TVA par défaut à plusieurs entités
-Si vous souhaitez appliquer les mêmes groupes comptabilisation TVA à plusieurs entités, vous pouvez configurer [!INCLUDE[d365fin](includes/d365fin_md.md)] pour le faire par défaut. Plusieurs méthodes sont disponibles :
+Si vous souhaitez appliquer les mêmes groupes comptabilisation TVA à plusieurs entités, vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour le faire par défaut. Plusieurs méthodes sont disponibles :
 
 * Vous pouvez affecter des groupes comptabilisation marché aux groupes comptabilisation marché généraux ou aux modèles client ou fournisseur
 * Vous pouvez affecter des groupes comptabilisation produit TVA aux groupes comptabilisation produit généraux  
@@ -128,7 +128,7 @@ Si nécessaire, vous pouvez également spécifier comment convertir les clauses 
 
 Lorsque des taux de TVA non standard sont utilisés dans différents types de documents, tels que des factures ou des avoirs, les entreprises sont généralement tenues d’inclure un texte d’exonération (clause de TVA) indiquant les raisons pour lesquelles un taux de TVA réduit ou nul a été calculé. Vous pouvez définir différentes clauses de TVA à inclure dans les documents commerciaux en fonction du type de document, telles que facture ou avoir. Pour ce faire, accédez à la page **Clauses TVA par type doc.**.
 
-Vous pouvez modifier ou supprimer une clause TVA, et les modifications que vous apportez seront visibles dans un état généré. Toutefois, [!INCLUDE[d365fin](includes/d365fin_md.md)] ne crée pas d’historique des modifications. Sur l’état, les désignations des clauses TVA sont imprimées et affichées pour toutes les lignes de l’état à côté du montant de la TVA et du montant de base de la TVA. Si aucune clause TVA n’a été définie pour les lignes du document vente, la totalité de la section est omise lors de l’impression de l’état.
+Vous pouvez modifier ou supprimer une clause TVA, et les modifications que vous apportez seront visibles dans un état généré. Toutefois, [!INCLUDE[prod_short](includes/prod_short.md)] ne crée pas d’historique des modifications. Sur l’état, les désignations des clauses TVA sont imprimées et affichées pour toutes les lignes de l’état à côté du montant de la TVA et du montant de base de la TVA. Si aucune clause TVA n’a été définie pour les lignes du document vente, la totalité de la section est omise lors de l’impression de l’état.
 
 ### <a name="to-set-up-vat-clauses"></a>Pour configurer des clauses TVA
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clauses TVA**, puis sélectionnez le lien associé.  
@@ -169,7 +169,7 @@ Certaines sociétés doivent utiliser une TVA déductible dans leurs échanges a
 > Cette règle s’applique aux échanges avec des sociétés enregistrées comme assujetties à la TVA dans un autre pays/régions de l’UE. Si vous commercez directement avec des clients dans d’autres pays/régions de l’UE, nous vous recommandons de prendre contact avec votre administration fiscale afin d’obtenir des informations sur les règles applicables en matière de TVA.  
 
 > [!TIP]  
-> Vous pouvez vérifier qu’une société est enregistrée comme assujettie à la TVA dans un autre pays de l’UE en utilisant le service de validation des numéros d’identification de TVA de l’UE. Le service est disponible gratuitement dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d’informations, voir la section _Vérifier les numéros d’identification TVA_ dans cette rubrique.
+> Vous pouvez vérifier qu’une société est enregistrée comme assujettie à la TVA dans un autre pays de l’UE en utilisant le service de validation des numéros d’identification de TVA de l’UE. Le service est disponible gratuitement dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir la section _Vérifier les numéros d’identification TVA_ dans cette rubrique.
 
 ### <a name="sales-to-eu-countries-or-regions"></a>Ventes dans des pays/régions de l’UE
 La TVA n’est pas calculée sur les ventes à des sociétés assujetties à la TVA situées dans d’autres pays/régions de l’UE. Vous devez déclarer la valeur de ces ventes séparément dans votre déclaration de TVA.  

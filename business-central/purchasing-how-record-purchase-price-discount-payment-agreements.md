@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8027465189507ce9ad78ebadea9dcc086e512ea4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4fbc36a1dbe9970932718336d21b7ea7c4dc2a71
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926821"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748768"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Enregistrer les prix d’achat spéciaux et les remises
 Vous devez définir les différents accords de prix et de remise qui s’appliquent lors d’achats effectués auprès de plusieurs fournisseurs de sorte que les valeurs et règles convenues s’appliquent aux documents achat créés à l’intention des fournisseurs.
 
-Lorsque vous avez enregistré des prix spéciaux et des remises de ligne pour les ventes et les achats, [!INCLUDE[d365fin](includes/d365fin_md.md)] s’assure que votre marge pour l’article est toujours optimale en calculant automatiquement le meilleur prix dans les documents achat et vente, sur le projet et les lignes feuille article. Pour plus d’informations, voir [Calcul du meilleur prix](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
+Lorsque vous avez enregistré des prix spéciaux et des remises de ligne pour les ventes et les achats, [!INCLUDE[prod_short](includes/prod_short.md)] s’assure que votre marge pour l’article est toujours optimale en calculant automatiquement le meilleur prix dans les documents achat et vente, sur le projet et les lignes feuille article. Pour plus d’informations, voir [Calcul du meilleur prix](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
 
 En ce qui concerne les prix, un prix d’achat spécial peut être inséré sur les lignes achat s’il existe une certaine combinaison de fournisseur, d’article, de quantité minimum, d’unité de mesure ou de date de début/date de fin.
 
@@ -94,30 +94,30 @@ Si vous avez défini des conditions pour les remises facture avec des fournisseu
 
  Vous pouvez définir des conditions pour les remises facture en devise société pour les fournisseurs nationaux et en devise pour les fournisseurs étrangers.  
 
- Vous avez la possibilité de choisir si [!INCLUDE[d365fin](includes/d365fin_md.md)] doit calculer automatiquement les montants de facture pour les devis, les commandes ouvertes, les commandes, les factures ou les avoirs.  
+ Vous avez la possibilité de choisir si [!INCLUDE[prod_short](includes/prod_short.md)] doit calculer automatiquement les montants de facture pour les devis, les commandes ouvertes, les commandes, les factures ou les avoirs.  
 
 > [!TIP]  
 >  Avant de saisir ces informations dans le programme, il est conseillé de préparer la structure de la remise à utiliser. Ainsi, vous pouvez visualiser plus facilement les fournisseurs pouvant être liés à la même page de remise facture. Plus le nombre de page à configurer est faible, plus vous pouvez saisir rapidement les informations de base.
 
 ## <a name="best-price-calculation"></a>Calcul du meilleur prix
-Lorsque vous avez enregistré des prix spéciaux et des remises de ligne pour les ventes et les achats, [!INCLUDE[d365fin](includes/d365fin_md.md)] s’assure que votre marge pour l’article est toujours optimale en calculant automatiquement le meilleur prix dans les documents achat et vente, sur le projet et les lignes feuille article.
+Lorsque vous avez enregistré des prix spéciaux et des remises de ligne pour les ventes et les achats, [!INCLUDE[prod_short](includes/prod_short.md)] s’assure que votre marge pour l’article est toujours optimale en calculant automatiquement le meilleur prix dans les documents achat et vente, sur le projet et les lignes feuille article.
 
-Le meilleur prix est le prix le plus bas autorisé associé à la remise de ligne la plus élevée autorisée à une date donnée. [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule automatiquement cette valeur lorsqu’il insère le prix unitaire et le pourcentage de remise de ligne pour des articles dans le nouveau document et les lignes feuille.
+Le meilleur prix est le prix le plus bas autorisé associé à la remise de ligne la plus élevée autorisée à une date donnée. [!INCLUDE[prod_short](includes/prod_short.md)] calcule automatiquement cette valeur lorsqu’il insère le prix unitaire et le pourcentage de remise de ligne pour des articles dans le nouveau document et les lignes feuille.
 
 > [!NOTE]  
 >   Voici une description du calcul du meilleur prix pour la vente. Le calcul est le même pour les achats.
 
-1. [!INCLUDE[d365fin](includes/d365fin_md.md)] vérifie la combinaison client facturé et article, et calcule le prix unitaire applicable et le pourcentage remise de ligne à l’aide des critères suivants :
+1. [!INCLUDE[prod_short](includes/prod_short.md)] vérifie la combinaison client facturé et article, et calcule le prix unitaire applicable et le pourcentage remise de ligne à l’aide des critères suivants :
 
     - Ce client a-t-il un accord pour des prix ou des remises ou appartient-il à un groupe bénéficiant d’un tel accord ?
     - L’article ou le groupe remises article est-il sur la ligne incluse dans l’un ou l’autre de ces accords prix/remise ?
     - La date de commande (ou la date de validation pour la facture et l’avoir) est-elle comprise entre les dates de début et de fin de l’accord prix/remise ?
-    - Un code unité est-il spécifié ? Si c’est le cas, [!INCLUDE[d365fin](includes/d365fin_md.md)] recherche des prix/remises possédant le même code unité, et des prix/remises sans code unité.
+    - Un code unité est-il spécifié ? Si c’est le cas, [!INCLUDE[prod_short](includes/prod_short.md)] recherche des prix/remises possédant le même code unité, et des prix/remises sans code unité.
 
-2. [!INCLUDE[d365fin](includes/d365fin_md.md)] vérifie si des accords prix/remise s’appliquent à des informations sur le document ou la ligne feuille, puis insère le prix unitaire applicable et le pourcentage remise de ligne, à l’aide des critères suivants :
+2. [!INCLUDE[prod_short](includes/prod_short.md)] vérifie si des accords prix/remise s’appliquent à des informations sur le document ou la ligne feuille, puis insère le prix unitaire applicable et le pourcentage remise de ligne, à l’aide des critères suivants :
 
     - Existe-t-il une quantité minimum à respecter dans l’accord de prix/remises ?
-    - Existe-t-il une exigence en matière de devise à respecter dans l’accord de prix/remises ? Si c’est le cas, le prix le plus bas et la remise de ligne la plus élevée pour cette devise sont insérés, même si la devise société permettrait d’offrir un meilleur prix. S’il n’existe aucun accord de prix/remise dans le code devise indiqué, [!INCLUDE[d365fin](includes/d365fin_md.md)] insère le prix le plus bas et la remise de ligne la plus élevée en DS.
+    - Existe-t-il une exigence en matière de devise à respecter dans l’accord de prix/remises ? Si c’est le cas, le prix le plus bas et la remise de ligne la plus élevée pour cette devise sont insérés, même si la devise société permettrait d’offrir un meilleur prix. S’il n’existe aucun accord de prix/remise dans le code devise indiqué, [!INCLUDE[prod_short](includes/prod_short.md)] insère le prix le plus bas et la remise de ligne la plus élevée en DS.
 
 Si aucun prix spécial ne peut être calculé pour l’article de la ligne, alors soit le coût unitaire direct, soit le prix unitaire à partir de la fiche article est inséré.
 
@@ -126,4 +126,4 @@ Si aucun prix spécial ne peut être calculé pour l’article de la ligne, alor
 ## <a name="see-also"></a>Voir aussi
 [Définition des achats](purchasing-setup-purchasing.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

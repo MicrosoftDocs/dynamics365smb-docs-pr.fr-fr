@@ -1,6 +1,6 @@
 ---
 title: 'Procédure : valider les coûts ajustés dans la comptabilité | Microsoft Docs'
-description: Décrit comment gérer les biens physiques que vous commercialisez, par exemple, la gestion du stock de votre entrepôt.
+description: À la fin de la période comptable (mensuelle, annuelle, etc.), une série de tâches de contrôle des coûts et d’audit doivent être effectuées pour déclarer une valeur en stock correcte et équilibrée au département Finances. Outre les tâches habituelles de validation qui transfèrent les écritures valeur de chaque article vers les comptes généraux appropriés, l’auditeur ou le contrôleur responsable de cette tâche critique a accès à plusieurs états et fonctions de suivi, ainsi qu’à un outil de rapprochement.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4e760818349cf59a9c85d0a0d22b72baefd99af6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ad6c8d2084c2bffb38f1c98855e837b9ba13e8fe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919487"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746815"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Rapprocher les coûts ajustés avec la comptabilité
 Lorsque vous validez des mouvements de stock, tels que des expéditions vente, des factures achat ou des ajustements de stock, les coûts article modifiés sont enregistrés dans les écritures valeur. Pour refléter ces modifications de la valeur stock dans vos livres financiers, les coûts stocks sont automatiquement validés dans les comptes stock associés dans les écritures comptables. Pour chaque mouvement stock que vous validez, les valeurs appropriées sont validées dans le compte stocks, le compte ajustement et le compte validation stock dans la comptabilité.
@@ -69,9 +69,21 @@ Les colonnes suivantes affichent les totaux pour les mêmes types de compte, cal
 
 Choisissez le montant dans l’un des champs de Total pour afficher les écritures état stock utilisées pour calculer les totaux. Pour les totaux en stock, les écritures état stock sont les sommes des écritures valeur pour les articles. Pour les totaux généraux, les écritures état stock sont les sommes des écritures comptables.
 
+## <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Génération des coûts et rapprochement en comptabilité
+D’autres rapports, des fonctions de traçage et un outil de rapprochement spécial sont à la disposition de l’auditeur ou du contrôleur chargé de rendre compte d’une valeur d’inventaire correcte et équilibrée au service financier.
+
+Le tableau suivant décrit les valeurs.    
+
+|**Pour**|**Voir**|  
+|------------|-------------|  
+|Afficher la valeur en stock des articles sélectionnés, y compris les informations sur les quantités et les valeurs des augmentations et des diminutions sur une période donnée.|**État Évaluation du stock**|  
+|Afficher la valeur en stock des ordres de fabrication sélectionnés dans votre stock d’en-cours, telle que les quantités et valeurs de consommation, d’utilisation des capacités et de production dans les ordres de fabrication en cours.|**Évaluation du stock - État des travaux en cours**|  
+|Afficher la valeur en stock des articles sélectionnés, y compris leur coût réel et prévu à la date spécifiée.|**Éval. stock - Composante coût**|  
+|Utiliser un état pour analyser les raisons des écarts de coûts ou pour obtenir un aperçu du coût des marchandises vendues (CMV).|État **Analyse des coûts**|  
+
 ## <a name="see-also"></a>Voir aussi  
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Ventes](sales-manage-sales.md)    
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)

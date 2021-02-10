@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d1b9a1af6edde26e9c966bb25bc6d237a510d00
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1fc20ebadc9d516d45c74d963be7b26cfd2b8d4d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921691"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749754"
 ---
 # <a name="setting-up-relationship-management"></a>Paramétrage de la Gestion des relations
 
@@ -40,7 +40,7 @@ Les valeurs héritées des champs sont prioritaires sur les valeurs par défaut 
 <!--You can also setup a default salutation that application automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, application will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
 
 ## <a name="automatically-recording-interactions"></a>Enregistrement automatique des interactions
-[!INCLUDE[d365fin](includes/d365fin_md.md)] peut enregistrer automatiquement les documents achat et vente en tant qu’interactions (par exemple, commandes, factures, bons de réception, etc.) ou en tant qu’e-mails, appels téléphoniques et bordereaux d’envoi.
+[!INCLUDE[prod_short](includes/prod_short.md)] peut enregistrer automatiquement les documents achat et vente en tant qu’interactions (par exemple, commandes, factures, bons de réception, etc.) ou en tant qu’e-mails, appels téléphoniques et bordereaux d’envoi.
 
 Pour plus d’informations, reportez-vous à [Enregistrer automatiquement les interactions avec les contacts](marketing-auto-record-interactions.md).
 
@@ -59,4 +59,4 @@ Vous pouvez configurer l’application pour qu’elle recherche automatiquement 
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion de contacts](marketing-contacts.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

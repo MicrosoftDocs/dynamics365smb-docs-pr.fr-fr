@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: dimension
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 98916c0843d84c76529e7b6f475ba207b2590a08
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 40f6a55adc0c2ade279638b43136475d81cb2c58
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911179"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751679"
 ---
 # <a name="dimension-set-entries-overview"></a>Aperçu des écritures de l’ensemble de dimensions
-Cette rubrique décrit comment les écritures de l’ensemble de dimensions sont stockées et validées dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Cette rubrique décrit comment les écritures de l’ensemble de dimensions sont stockées et validées dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="dimension-sets"></a>Ensembles de dimensions  
 Un ensemble de dimensions est une combinaison unique de sections analytiques. Il est stocké comme des écritures de l’ensemble de dimensions dans la base de données. Chaque écriture de l’ensemble de dimensions représente une section analytique unique. L’ensemble de dimensions est identifié par un ID courant, qui est affecté à chaque écriture correspondante qui appartient à l’ensemble de dimensions.  

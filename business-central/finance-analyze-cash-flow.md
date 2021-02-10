@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 26df3104e99d9e6f647331c48b5a03f8f87c81a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3f7e9c33e5dab3de6461fcda5732168f0e6e89b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913495"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751029"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analyse de la trésorerie dans votre société
 Les graphiques du tableau de bord Comptable offrent des analyses qui peuvent vous aider à prendre des décisions judicieuses sur les opérations à effectuer avec votre trésorerie.  
@@ -53,5 +53,5 @@ Si vous souhaitez vérifier la prévision, outre les écritures de prévision, v
 
 ## <a name="see-also"></a>Voir aussi
 [Configuration de Finance](finance-setup-finance.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Configuration d’une analyse de trésorerie](finance-setup-cash-flow-analyses.md)  

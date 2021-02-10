@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fef4421cafa8d0f7fd18d24ab7a78a814702513e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c753e38566971c044da3337f0f35f1609bd489c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918987"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748867"
 ---
 # <a name="use-resources-for-jobs"></a>Utiliser des ressources pour des projets
 Vous devez enregistrer l’utilisation des ressources dans la feuille projet pour suivre les coûts et les prix, ainsi que les types de travaux associés aux projets. Pour en savoir plus, consultez [Enregistrer l’utilisation pour les projets](projects-how-record-job-usage.md).
@@ -73,4 +73,4 @@ Si vous avez déjà configuré des prix secondaires pour certaines ressources, v
 [Finances](finance.md)  
 [Achats](purchasing-manage-purchasing.md)         
 [Ventes](sales-manage-sales.md)     
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

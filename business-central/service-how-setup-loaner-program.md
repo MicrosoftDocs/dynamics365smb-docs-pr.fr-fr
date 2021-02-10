@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: d167d55196f651ea3b6286ba969829042fabefaf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f09db27d711e7fa2cd8c2d6679ce5cd21ab11b94
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925871"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747942"
 ---
 # <a name="set-up-a-loaner-program"></a>Configuration d’un programme d’articles de prêt
-Vous devez parfois fournir un article de prêt à un client afin qu’il puisse s’en servir quand une équipe du service clientèle effectue une réparation. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez configurer un programme d’articles de prêt, prêter des articles à vos clients et suivre les réceptions lorsque les clients retournent les articles. En outre, vous pouvez ajouter des commentaires sur les articles de prêt de deux manières :  
+Vous devez parfois fournir un article de prêt à un client afin qu’il puisse s’en servir quand une équipe du service clientèle effectue une réparation. Dans [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez configurer un programme d’articles de prêt, prêter des articles à vos clients et suivre les réceptions lorsque les clients retournent les articles. En outre, vous pouvez ajouter des commentaires sur les articles de prêt de deux manières :  
   
 * entrer une note ou un commentaire sur l’article de prêt ;  
 * entrer une note sur un article de service concernant le besoin d’un article de prêt.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 20dd616b52c1d6752d8aeeeb7c95e9d4f814b9a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 51f60e938ddb8ffd53b37b5664cf6e1ba8ba396f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920946"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751779"
 ---
 # <a name="design-details-cost-adjustment"></a>Détails de conception : ajustement des coûts
 
@@ -38,7 +38,7 @@ Les coûts de stock doivent être ajustés avant que les écritures valeur assoc
 
 La tâche de détecter si l'ajustement des coûts doit se produire est surtout effectuée par la routine Item Jnl.-Post Line, tandis que la tâche de calculer et générer des écritures d'ajustement des coûts est effectuée par le traitement par lots **Ajuster coûts - Écr. article**.  
 
-Pour pouvoir transférer les coûts, le mécanisme de détection de détermine quelles sources ont changé en termes de coûts et vers quelle destination ces coûts doivent être transférés. Les trois fonctions de détection suivantes sont disponibles dans [!INCLUDE[d365fin](includes/d365fin_md.md)] :  
+Pour pouvoir transférer les coûts, le mécanisme de détection de détermine quelles sources ont changé en termes de coûts et vers quelle destination ces coûts doivent être transférés. Les trois fonctions de détection suivantes sont disponibles dans [!INCLUDE[prod_short](includes/prod_short.md)] :  
 
 * Écriture lettrage article  
 * Point d'entrée d'ajustement de coût moyen  
@@ -62,7 +62,7 @@ Cette fonction de détection est utilisée pour les articles qui utilisent le mo
 
 Cette fonction de détection est utilisée pour les scénarios de conversion, la production et l'assemblage. La fonction opère comme suit :  
 
-* L'ajustement des coûts est détecté en marquant la commande chaque fois que des matières/ressources sont validées comme étant consommées/utilisées pour la commande.  
+* L’ajustement des coûts est détecté en marquant la commande chaque fois que des matières/ressources sont validées comme étant consommées/utilisées pour la commande.  
 * Les coûts sont transférés en appliquant les coûts des matières/ressources aux écritures de production liées à la même commande.  
 
 La fonction Niveau de commande est utilisée pour détecter les ajustements dans la validation d'assemblage. Le graphique suivant montre la structure d'écriture d'ajustement :  
@@ -82,7 +82,7 @@ C'est une bonne pratique d'exécuter l'ajustement des coûts automatiquement lor
 
 Comme il est important de mettre le coût unitaire d'un article à jour, il est recommandé d'exécuter le traitement par lots pour **Ajuster coûts - Écr. article** aussi souvent que possible, en dehors des heures de travail. Sinon, utilisez l'ajustement automatique des coûts. Cela garantit que le coût unitaire est mis à jour quotidiennement pour les articles.  
 
-Que l'exécution de l'ajustement des coûts soit manuel ou automatique, le processus d'ajustement et ses conséquences sont les mêmes. [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule la valeur de la transaction entrante et affecte également ce coût à toutes les transactions sortantes, telles que les ventes ou les consommations, qui ont été lettrées sur la transaction entrante. L'ajustement des coûts crée des écritures valeur qui contiennent des montants d'ajustement et des montants qui compensent l'arrondi.  
+Que l'exécution de l'ajustement des coûts soit manuel ou automatique, le processus d'ajustement et ses conséquences sont les mêmes. [!INCLUDE[prod_short](includes/prod_short.md)] calcule la valeur de la transaction entrante et affecte également ce coût à toutes les transactions sortantes, telles que les ventes ou les consommations, qui ont été lettrées sur la transaction entrante. L'ajustement des coûts crée des écritures valeur qui contiennent des montants d'ajustement et des montants qui compensent l'arrondi.  
 
 Les nouvelles écritures valeur ajustement et arrondi ont la date comptabilisation de la facture associée. Les exceptions sont si les écritures valeur tombent dans une période comptable ou une période inventaire clôturée ou si la date comptabilisation est antérieure à la date du champ **Début période validation** sur la page **Paramètres comptabilité**. Si cela se produit, le traitement par lots affecte la date comptabilisation comme la première date de la période ouverte suivante.  
 
@@ -188,4 +188,4 @@ Si vous avez défini l'ajustement automatique des coûts pour l'appliquer aux va
 [Détails de conception : validation d'ordre de fabrication](design-details-production-order-posting.md)  
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
 [Finances](finance.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 233785c6d118ef9c23fef56ec113e008226c1a17
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 302552a32e2c6322c156a22095c926dee40b4cf7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916117"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746590"
 ---
 # <a name="set-up-invoice-rounding"></a>Configuration de la fonction arrondi facture
 Si vous devez arrondir des montants de factures lorsque vous créez des factures, vous pouvez utiliser la fonction d’arrondi automatique. Lorsqu’une facture est arrondie, une ligne supplémentaire contenant le montant arrondi est ajoutée et validée avec les autres lignes facture.
@@ -37,7 +37,7 @@ Pour utiliser la fonction d’arrondi automatique de facture, vous devez configu
 
 ### <a name="to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Pour configurer des comptes généraux afin d’autoriser les différences d’arrondi dans les factures  
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Plan comptable**, puis sélectionnez le lien associé.  
-2. Sur la page **Plan comptable**, configurez le compte et nommez-le, par exemple **Arrondi facture**. [!INCLUDE[d365fin](includes/d365fin_md.md)] utilise le nom de ce compte comme texte pour les factures arrondies.  
+2. Sur la page **Plan comptable**, configurez le compte et nommez-le, par exemple **Arrondi facture**. [!INCLUDE[prod_short](includes/prod_short.md)] utilise le nom de ce compte comme texte pour les factures arrondies.  
 3. Selon que vous utilisez la TVA ou la taxe de vente, dans les champs **Groupe compta. produit TVA** ou **Groupe compta. produit TVA**, choisissez un groupe comptabilisation pour les montants arrondis. Vous pouvez aussi paramétrer un nouveau code groupe à utiliser pour les arrondis facture.
 4. Laissez les champs **Type compta. TVA** et **Groupe compta. marché TVA** ou **Groupe compta. marché TVA** vides. <!-- Why do we say to leave these blank, when there are a lot of other fields we also leave blank but don't mention? -->  
 

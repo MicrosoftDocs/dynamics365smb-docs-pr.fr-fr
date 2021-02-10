@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: forecast
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 75b7363ca6ee2c940f245fea4d62cf83611c43dc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5388ec2846a7560a6aa09db8e584702180ad247c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915609"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749342"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Gérer les budgets pour les immobilisations
 Vous pouvez paramétrer des immobilisations budgétées. Cela vous permet par exemple d’inclure dans des états des acquisitions et des ventes anticipées.  
@@ -62,4 +62,4 @@ Vous pouvez utiliser l’état **Immo. - Valeur projetée** pour calculer l’am
 [Paramétrage d’immobilisations](fa-setup.md)  
 [Finances](finance.md)  
 [Mise en route](product-get-started.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

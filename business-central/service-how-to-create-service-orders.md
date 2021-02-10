@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4f2f9602cb050639651a17ea6728eb40762f1ea6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f99a41a60b446f0f225d6112e07f37ded0dd2a78
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918687"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748042"
 ---
 # <a name="create-service-orders"></a>Créer commande service
 Utilisez la page **Commande service** pour créer des documents dans lesquels vous saisissez des informations sur un service, tel que réparation et maintenance, pour des articles de service à la demande du client.  
@@ -52,7 +52,7 @@ Vous pouvez créer automatiquement des commandes service pour la maintenance des
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Pour convertir les devis service en commandes service
 Lorsqu’un client accepte un devis service, vous le convertissez en commande service. Le devis est effacé et une commande service avec la même description que le devis service est crée. La date et le délai de réponse de la commande service sont recalculés et est affecté à cette dernière le statut **Suspendu**. L’état réparation des articles de service de la commande est modifié en **Initial**.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] recherche les écritures affectation de tous les articles de service du devis service qui présentent le statut **Actif**. S’il en trouve, leur état d’affectation passe à **Réaffectation nécessaire**. Lorsque vous réaffectez les articles de service de la commande service, le statut des écritures affectation enregistrées pour le devis passe à **Terminé**.   
+[!INCLUDE[prod_short](includes/prod_short.md)] recherche les écritures affectation de tous les articles de service du devis service qui présentent le statut **Actif**. S’il en trouve, leur état d’affectation passe à **Réaffectation nécessaire**. Lorsque vous réaffectez les articles de service de la commande service, le statut des écritures affectation enregistrées pour le devis passe à **Terminé**.   
 
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Devis contrat de service**, puis sélectionnez le lien associé.  
 2. Choisissez le devis service à convertir en commande service.  

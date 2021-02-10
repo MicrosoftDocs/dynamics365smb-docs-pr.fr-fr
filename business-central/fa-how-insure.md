@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: policy, coverage
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 38e983f1491d4836db6a2d3f294d29e1b03c53d9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2ffddd60158a328916b891f0730c1f25684b04a1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920671"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749392"
 ---
 # <a name="insure-fixed-assets"></a>Assurer les immobilisations
 Une police d’assurance pour une immobilisation est représentée par une fiche assurance. Vous pouvez attribuer une immobilisation ou plusieurs immobilisations à une police d’assurance.
@@ -70,7 +70,7 @@ Vous pouvez utiliser le traitement par lots **Réévaluer assurance** pour mettr
 5. Ouvrez la feuille assurance pertinente, examinez les valeurs créées, puis validez-les sur les écritures couverture assurance.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Pour surveiller la couverture assurance
-[!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des rapports dédiés et des pages de statistiques à utiliser pour analyser les polices d’assurance et si vos immobilisations sont sur- ou sous-assurées.  
+[!INCLUDE[prod_short](includes/prod_short.md)] fournit des rapports dédiés et des pages de statistiques à utiliser pour analyser les polices d’assurance et si vos immobilisations sont sur- ou sous-assurées.  
 
 ### <a name="overview-of-insurance-policies"></a>Aperçu des polices d’assurance
 Pour obtenir un aperçu de vos polices d’assurance, afficher un aperçu ou imprimer l’état **Assurances - Liste**. L’état indique toutes les polices et les champs les plus importants des fiches assurance.  
@@ -118,4 +118,4 @@ L’immobilisation sera détachée de la police d’assurance incorrecte, sur la
 [Immobilisations](fa-manage.md)  
 [Paramétrage d’immobilisations](fa-setup.md)  
 [Finances](finance.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

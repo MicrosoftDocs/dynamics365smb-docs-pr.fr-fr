@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1d65156d46749e7d06bb746899cee4aa439a1e93
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3f3a90142081ad0bc3096bdde1830924c2998d68
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917275"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751229"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Détails de conception : rapprochement de comptabilité
 Lorsque vous validez des mouvements de stock, tels que des expéditions vente, des productions ou des ajustements négatifs, les modifications de quantité et de valeur des stocks sont enregistrées respectivement dans les écritures comptables article et les écritures valeur. L’étape suivante de ce processus consiste à valider les valeurs de stocks dans les comptes stocks de la comptabilité.  
@@ -123,4 +123,4 @@ Pour plus d’informations sur les relations entre les types de compte et les di
 [Détails de conception : ajustement des coûts](design-details-cost-adjustment.md)
 [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
 [Finances](finance.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

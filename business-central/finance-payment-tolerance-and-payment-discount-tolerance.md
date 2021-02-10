@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 823403fc34ad57cb170fc39bd9533b53c4008950
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 50e37e54d840c82cbcbfc92ab8f5fc009642a6b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910879"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750529"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilisation des écarts de règlement et des écarts d’escompte
 Vous pouvez configurer un écart de règlement de manière à fermer une facture lorsque le paiement ne couvre pas entièrement le montant de la facture. Par exemple, les écarts de règlement concernent généralement de petits montants qui coûteraient plus cher à corriger qu’à accepter. Vous pouvez configurer un écart de règlement pour accorder un escompte après expiration de la date d’escompte.  
@@ -58,14 +58,14 @@ Pour configurer l’écart, vous devez configurer plusieurs comptes écart, spé
 11. Sur la page **Modifier écart de règlement**, renseignez les champs **% écart de règlement** et **Montant écart règlement max.**, puis cliquez sur le bouton **OK**.
 
 > [!IMPORTANT]  
->  Vous n’avez configuré l’écart que pour la devise société. Si vous souhaitez que [!INCLUDE[d365fin](includes/d365fin_md.md)] gère l’écart pour les paiements, les avoirs et les remboursements en devise étrangère, vous devez exécuter le traitement par lots **Modifier écart de règlement** avec une valeur dans le champ **Code devise**.  
+>  Vous n’avez configuré l’écart que pour la devise société. Si vous souhaitez que [!INCLUDE[prod_short](includes/prod_short.md)] gère l’écart pour les paiements, les avoirs et les remboursements en devise étrangère, vous devez exécuter le traitement par lots **Modifier écart de règlement** avec une valeur dans le champ **Code devise**.  
 
 > [!NOTE]  
 >  Si vous souhaitez recevoir une alerte écart règlement chaque fois que vous validez un lettrage dans l’écart, vous devez activer l’alerte écart règlement. Pour plus d’informations, voir [Pour activer ou désactiver l’alerte d’écart de règlement](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
 >  Pour désactiver l’écart pour un client ou un fournisseur, vous devez bloquer les écarts sur la fiche client ou fournisseur correspondante. Pour plus d’informations, voir [Pour bloquer l’écart règlement pour des clients](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
->  Lorsque vous configurez un écart, [!INCLUDE[d365fin](includes/d365fin_md.md)] vérifie s’il existe des écritures ouvertes et calcule l’écart pour ces écritures.
+>  Lorsque vous configurez un écart, [!INCLUDE[prod_short](includes/prod_short.md)] vérifie s’il existe des écritures ouvertes et calcule l’écart pour ces écritures.
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Pour activer ou désactiver les alertes d’écart de règlement
 L’alerte écart règlement apparaît lorsque vous validez un lettrage dont le solde se situe dans l’écart autorisé. Vous pouvez alors choisir comment valider et journaliser le solde.    
@@ -208,7 +208,7 @@ Montant ouvert par
 
 Règles d’application normales  
 
-![Règles sur les écarts de règlement multiples 1](media/multiplePmtTolRules(Pre1503).gif "Règles sur les écarts de règlement multiples 1")  
+:::image type="content" source="media/multiplePmtTolRules(Pre1503).gif" alt-text="Règles sur les écarts de règlement multiples 1a":::
 
 (1) Si le règlement intervient dans l’une de ces plages de dates, toutes les écritures lettrage peuvent être clôturées avec ou sans écart.  
 
@@ -219,7 +219,7 @@ Montant ouvert par
 
 Règles d’application normales  
 
-![Règles sur les écarts de règlement multiples 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Règles sur les écarts de règlement multiples 2")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1-2).gif" alt-text="Règles sur les écarts de règlement multiples 2":::
 
 (1) Si le règlement intervient dans l’une de ces plages de dates, toutes les écritures lettrage peuvent être clôturées avec ou sans écart.  
 
@@ -230,7 +230,7 @@ Montant ouvert par
 
 Règles d’application normales  
 
-![Règles sur les écarts de règlement multiples 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Règles sur les écarts de règlement multiples 3")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1).gif" alt-text="Règles sur les écarts de règlement multiples 3":::
 
 (1) Si le règlement intervient dans l’une de ces plages de dates, toutes les écritures lettrage peuvent être clôturées avec ou sans écart.  
 
@@ -241,7 +241,7 @@ Montant ouvert par
 
 Règles d’application normales  
 
-![Règles sur les écarts de règlement multiples 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Règles sur les écarts de règlement multiples 4")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv2).gif" alt-text="Règles sur les écarts de règlement multiples 4":::
 
 (1) Si le règlement intervient dans l’une de ces plages de dates, toutes les écritures lettrage peuvent être clôturées avec ou sans écart.  
 
@@ -252,7 +252,7 @@ Montant ouvert par
 
 Règles d’application normales  
 
-![Règles sur les écarts de règlement multiples 5](media/multiplePmtTolRules(Post0122).gif "Règles sur les écarts de règlement multiples 5")  
+:::image type="content" source="media/multiplePmtTolRules(Post0122).gif" alt-text="Règles sur les écarts de règlement multiples 5":::
 
 (1) Si le règlement intervient dans l’une de ces plages de dates, toutes les écritures lettrage peuvent être clôturées avec ou sans écart.  
 
@@ -262,4 +262,4 @@ Règles d’application normales
 [Finances](finance.md)  
 [Configuration de Finance](finance-setup-finance.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

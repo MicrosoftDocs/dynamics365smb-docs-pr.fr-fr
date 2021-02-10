@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/06/2020
+ms.date: 11/03/2020
 ms.author: edupont
-ms.openlocfilehash: 97904add0f97be5a93bec5e53b45179fadfddffb
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: cb9586e207f3eda516d11dd4f184351ff66ca4b2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968332"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749954"
 ---
 # <a name="work-with-responsibility-centers"></a>Utiliser les centres de gestion
 
@@ -53,7 +53,7 @@ Pour configurer cela, vous devez affecter des centres de gestion à des utilisat
 5. Dans le champ **Filtre centre gestion service**, indiquez le centre de gestion dans lequel l’utilisateur aura des tâches liées à la gestion des services.  
 
 > [!NOTE]  
-> Les utilisateurs peuvent visualiser toutes les écritures comptables et tous les documents validés ; ils ne sont pas limités à ceux de leur centre de gestion.
+> Les utilisateurs peuvent afficher uniquement les documents publiés liés à leur propre centre de responsabilité. Cependant, ils peuvent afficher toutes les écritures comptables et accéder à d’autres documents validés à partir des écritures comptables.
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -62,4 +62,4 @@ Pour configurer cela, vous devez affecter des centres de gestion à des utilisat
 [Stock](inventory-manage-inventory.md)[Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

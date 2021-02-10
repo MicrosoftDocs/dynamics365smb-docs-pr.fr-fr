@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5858ce15a9b8ff1c5042df21dd8572a2ddff3139
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 722e69389413dc06db4f2b7fd2f8447d9033d030
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919714"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753291"
 ---
 # <a name="create-incoming-document-records"></a>Créer des enregistrements document entrant
 Sur la page **Documents entrants**, vous pouvez utiliser différentes fonctions pour examiner les reçus de dépenses, gérer les tâches ROC et convertir les fichiers document entrants, manuellement ou automatiquement, en documents ou lignes feuille appropriés. Les fichiers externes peuvent être joints à n’importe quelle étape du processus, notamment en ce qui concerne les documents validés et au fournisseur, au client qui en résulte, et dans les écritures comptables.
 
-Pour enregistrer un document externe dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous devez d’abord créer ou terminer un enregistrement de document externe. Vous pouvez effectuer cette opération manuellement ou prendre une photo du document externe puis créer l’enregistrement document entrant avec le fichier image joint.
+Pour enregistrer un document externe dans [!INCLUDE[prod_short](includes/prod_short.md)], vous devez d’abord créer ou terminer un enregistrement de document externe. Vous pouvez effectuer cette opération manuellement ou prendre une photo du document externe puis créer l’enregistrement document entrant avec le fichier image joint.
 
 Avant d’utiliser la fonctionnalité Documents entrants, vous devez exécuter la configuration requise. Pour plus d’informations, voir [Configurer des documents entrants](across-how-setup-income-documents.md).
 
@@ -36,7 +36,7 @@ Si vous approuvez l’enregistrement document entrant, la case à cocher **Lanc�
 
 ## <a name="to-create-an-incoming-document-record-by-taking-a-photo"></a>Pour créer un enregistrement de document entrant en prenant une photo
 > [!NOTE]  
->   La procédure suivante s’applique uniquement aux clients disposant de tablettes et de téléphones équipés de [!INCLUDE[d365fin](includes/d365fin_md.md)].
+>   La procédure suivante s’applique uniquement aux clients disposant de tablettes et de téléphones équipés de [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Dans la barre d’application, sélectionnez la mosaïque **Créer le document entrant à partir de l’appareil photo**, puis passez à l’étape 4.
 2. Sinon, dans la barre d’application, cliquez sur le bouton Options, choisissez **Documents entrants**, puis **Tous**.
@@ -47,7 +47,7 @@ Si vous approuvez l’enregistrement document entrant, la case à cocher **Lanc�
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Pour joindre une image à un enregistrement de document entrant en prenant une photo
 > [!NOTE]  
->   La procédure suivante s’applique uniquement aux clients disposant de tablettes et de téléphones équipés de [!INCLUDE[d365fin](includes/d365fin_md.md)].
+>   La procédure suivante s’applique uniquement aux clients disposant de tablettes et de téléphones équipés de [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Dans la barre d’application, cliquez sur le bouton Options, choisissez **Documents entrants**, puis **Tous**.
 2. Ouvrez la fiche de l’enregistrement de document entrant existant.
@@ -69,4 +69,4 @@ Si vous approuvez l’enregistrement document entrant, la case à cocher **Lanc�
 [Traiter les documents entrants](across-process-income-documents.md)  
 [Documents entrants](across-income-documents.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

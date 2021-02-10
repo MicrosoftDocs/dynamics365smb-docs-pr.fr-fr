@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8f4bd2978652366ecd18109377f4ebeeebfbb4a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8b45c9095674b6bb633717f3985557ef7e6a681b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922341"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745915"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Préparer la migration des données client avec des modèles
 
@@ -28,7 +28,7 @@ Généralement, vous pouvez créer des modèles de données pour les tables de d
 - **Article**  
 - **Fournisseur**  
 
-Vous pouvez toutefois créer une structure de modèle et l’appliquer à une table dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Vous pouvez toutefois créer une structure de modèle et l’appliquer à une table dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!TIP]  
 > Vous pouvez également utiliser des modèles de données pour les opérations quotidiennes de manière à créer des enregistrements basés sur des modèles. Ces modèles de données ne fonctionnent qu’avec les tables de données principales prises en charge. Pour plus d’informations, reportez vous, par exemple, à [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).  
@@ -87,7 +87,7 @@ L’ID table, le nom de la table, et les lignes du modèle de données existant 
 3. Dans le champ **Valeur par défaut**, entrez une valeur appropriée. Dans certains cas, vous pouvez utiliser une valeur qui n’est pas une valeur disponible dans la base de données. Dans ce cas, vous pouvez cocher la case **Ignorer vérification relation** pour permettre le lettrage de données sans erreur.
 
     > [!TIP]  
-    > Dans la mesure où le champ **Valeur par défaut** ne permet pas de rechercher les options de champ [!INCLUDE[d365fin](includes/d365fin_md.md)] correspondantes, vous copiez et collez la valeur requise de la page associée vers le modèle.
+    > Dans la mesure où le champ **Valeur par défaut** ne permet pas de rechercher les options de champ [!INCLUDE[prod_short](includes/prod_short.md)] correspondantes, vous copiez et collez la valeur requise de la page associée vers le modèle.
 
 4. Activez la case à cocher **Obligatoire** si les utilisateurs doivent renseigner le champ en question.
 
@@ -98,7 +98,7 @@ L’ID table, le nom de la table, et les lignes du modèle de données existant 
 
 ## <a name="to-export-to-a-template-in-excel"></a>Pour effectuer une exportation vers un modèle dans Excel
 
-Vous pouvez rapidement créer un classeur Excel qui servira de modèle basé sur la structure d’une table de données de base existante. Vous pouvez alors utiliser ce modèle pour rassembler les données du client sous un format cohérent afin de les importer ultérieurement dans [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Vous pouvez rapidement créer un classeur Excel qui servira de modèle basé sur la structure d’une table de données de base existante. Vous pouvez alors utiliser ce modèle pour rassembler les données du client sous un format cohérent afin de les importer ultérieurement dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille configuration**, puis choisissez le lien associé.
 2. Ajoutez une table dans la liste ou sélectionnez une table existante. Pour plus d’informations, voir [Gérer la configuration de la société dans une feuille](admin-how-to-manage-company-configuration-in-a-worksheet.md).
@@ -122,7 +122,7 @@ Lorsque vous appliquez des données à partir d’un modèle dans Excel dans une
 Tous les enregistrements dont les données sont appliquées de cette manière sont complets, car ils sont composés des données saisies par un utilisateur dans Excel et les valeurs par défaut spécifiées par le modèle de configuration.
 
 > [!NOTE]
-> Si les données des tables du package de configuration contiennent des dates, par exemple, des dates comptabilisation sur les factures, les dates sont prises en compte dans le fuseau horaire spécifié dans [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
+> Si les données des tables du package de configuration contiennent des dates, par exemple, des dates comptabilisation sur les factures, les dates sont prises en compte dans le fuseau horaire spécifié dans [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Pour créer un enregistrement à partir d’un modèle de configuration
 
@@ -140,7 +140,7 @@ Les étapes suivantes illustrent la création d’une fiche article d’un modè
 
 ## <a name="to-use-a-configuration-template-on-a-record"></a>Pour utiliser un modèle de configuration sur un enregistrement
 
-Vous pouvez appliquer un modèle de données à un enregistrement qui figure dans [!INCLUDE[d365fin](includes/d365fin_md.md)] et utiliser cette technique pour modifier un enregistrement. Lorsque vous suivez cette procédure, vous remplacez toutefois les valeurs qui se trouvent dans l’enregistrement par celles du modèle. Vous devez par conséquent rester vigilant lorsque vous appliquez un modèle à des enregistrements existants.
+Vous pouvez appliquer un modèle de données à un enregistrement qui figure dans [!INCLUDE[prod_short](includes/prod_short.md)] et utiliser cette technique pour modifier un enregistrement. Lorsque vous suivez cette procédure, vous remplacez toutefois les valeurs qui se trouvent dans l’enregistrement par celles du modèle. Vous devez par conséquent rester vigilant lorsque vous appliquez un modèle à des enregistrements existants.
 
 > [!WARNING]  
 > La fonction **Appliquer modèle** remplace les données existantes d’un enregistrement. Si cette fonction est utilisée pour le transfert des données de base, elle remplace les données importées lors de la création d’enregistrements.

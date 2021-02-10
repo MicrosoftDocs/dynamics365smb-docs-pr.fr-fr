@@ -6,20 +6,23 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 05e5078253d63fac61039d26cc0d700e96c7d21a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f0d713f57345c312ddbfe6b5462f2623b1088dfc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911279"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753866"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Gérer le stockage en supprimant des documents ou en compressant des données
 
 Un rôle central, par exemple un administrateur d’application, doit régulièrement gérer les documents accumulés au fil du temps en les supprimant ou en les compressant.  
 
+> [!TIP]
+> Pour plus d’informations sur les autres moyens de réduire la quantité de données stockées dans une base de données, voir [Réduction des données stockées dans les bases de données Business Central](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) dans l’aide dédiée à l’équipe IT et aux développeurs.
+
 ## <a name="delete-documents"></a>Supprimer documents
 
-Dans certains cas, vous pouvez souhaiter supprimer des commandes achat facturées qui n’ont pas été supprimées. [!INCLUDE[d365fin](includes/d365fin_md.md)] vérifie que vous avez entièrement facturé les commandes achat supprimées. Vous ne pouvez pas supprimer de commandes qui n’ont pas été entièrement facturées et reçues.  
+Dans certains cas, vous pouvez souhaiter supprimer des commandes achat facturées qui n’ont pas été supprimées. [!INCLUDE[prod_short](includes/prod_short.md)] vérifie que vous avez entièrement facturé les commandes achat supprimées. Vous ne pouvez pas supprimer de commandes qui n’ont pas été entièrement facturées et reçues.  
 
 Les retours sont généralement supprimés après leur facturation. Lorsque vous validez une facture, elle est transférée vers la page **Avoir achat enregistré**. Si vous avez activé la case à cocher **Expédition retour sur avoir** sur la page **Paramètres achats**, la facture est transférée vers la page **Expédition retour enregistrée**. Vous pouvez supprimer les documents à l’aide du traitement par lots **Supprimer les retours achat facturés**. Avant de procéder à la suppression, le traitement par lots vérifie que les retours achat ont été entièrement livrés et facturés.  
 
@@ -31,13 +34,13 @@ Le programme ne supprime pas la commande service automatiquement cependant, si l
 
 ## <a name="compress-data-with-date-compression"></a>Compresser les données avec la compression selon la date
 
-Vous pouvez compresser les données dans [!INCLUDE [prodshort](includes/prodshort.md)] afin d’économiser de l’espace dans la base de données, qui dans [!INCLUDE [prodshort](includes/prodshort.md)] en ligne peut même vous faire économiser de l’argent. La compression est basée sur les dates et s’effectue en combinant plusieurs anciennes écritures en une nouvelle écriture. Vous pouvez uniquement compresser des écritures d’exercices comptables clôturés, et seulement les écritures comptables fournisseur dont le champ **Ouvert** indique *Non*.  
+Vous pouvez compresser les données dans [!INCLUDE [prod_short](includes/prod_short.md)] afin d’économiser de l’espace dans la base de données, qui dans [!INCLUDE [prod_short](includes/prod_short.md)] en ligne peut même vous faire économiser de l’argent. La compression est basée sur les dates et s’effectue en combinant plusieurs anciennes écritures en une nouvelle écriture. Vous pouvez uniquement compresser des écritures d’exercices comptables clôturés, et seulement les écritures comptables fournisseur dont le champ **Ouvert** indique *Non*.  
 
 Par exemple, les écritures comptables fournisseur d’exercices précédents peuvent être compressées de façon à ce qu’il ne reste qu’une écriture créditrice et une écriture débitrice par compte et par mois. Le montant de la nouvelle écriture est la somme de toutes les écritures compressées. La date affectée est la date de début de la période qui est compressée, par exemple le premier jour du mois (si les écritures sont compressées par mois). Après la compression, vous pouvez encore afficher le solde période de chaque compte de l’exercice précédent.
 
 Le nombre d’écritures qui résultent d’un traitement par lots de compression dépend du nombre filtres que vous définissez, des champs qui sont combinés et de la durée de la période que vous choisissez. Il y aura toujours au moins une écriture. Lorsque le traitement par lots est terminé, le résultat s’affiche dans la page **Historique des compressions**.
 
-Vous pouvez compresser les types de données suivants dans [!INCLUDE [prodshort](includes/prodshort.md)] à l’aide de traitements par lots :
+Vous pouvez compresser les types de données suivants dans [!INCLUDE [prod_short](includes/prod_short.md)] à l’aide de traitements par lots :
 
 * Écritures comptables compte bancaire
 
@@ -47,6 +50,9 @@ Vous pouvez compresser les types de données suivants dans [!INCLUDE [prodshort]
   Après la compression, le contenu des champs suivants sera toujours conservé : **Date comptabilisation**, **N° fournisseur**, **Type de document**, **Code devise**, **Groupe comptabilisation**, **Montant**, **Montant ouvert**, **Montant initial DS**, **Montant ouvert DS**, **Montant DS**, **Achat DS**, **Remises facture DS**, **Escompte accordé DS** et **Escompte ouvert possible**.
 
   Avec l’option **Conserver champs**, vous pouvez également conserver la valeur de ces champs supplémentaires : **N° document**, **N° fournisseur**, **Code acheteur**, **Code axe principal 1** et **Code axe principal 2**.
+
+> [!NOTE]
+> Après avoir exécuté la compression des dates, tous les comptes du grand livre sont verrouillés. Par exemple, vous ne pouvez pas désappliquer les écritures du fournisseur ou du grand livre bancaire pour les comptes au cours de la période pour laquelle les dates sont compressées.
 
 <!--* General ledger entries
 * Customer ledger entries-->

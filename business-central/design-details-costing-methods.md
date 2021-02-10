@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 55af47a23a36630f373b314690d0e09afe2d1c90
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0a9b8b1fc46f953fb545f5c2f14e4b0479897ef1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927021"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751704"
 ---
 # <a name="design-details-costing-methods"></a>Détails de conception : modes évaluation stock
 
@@ -24,7 +24,7 @@ Le mode évaluation stock détermine si une valeur réelle ou budgétée est cap
 > [!NOTE]
 > Vous ne pouvez pas modifier le mode évaluation stock d’un article si des écritures comptables article existent pour l’article. Pour plus d’informations, voir [Détails de conception : Modifier le mode évaluation stock des articles](design-details-changing-costing-methods.md).
 
-Les méthodes suivantes sont prises en charge dans [!INCLUDE[d365fin](includes/d365fin_md.md)] :  
+Les méthodes suivantes sont prises en charge dans [!INCLUDE[prod_short](includes/prod_short.md)] :  
 
 | Mode évaluation du stock | Description | Quand utiliser |
 |--|--|--|
@@ -163,4 +163,4 @@ Les méthodes suivantes sont prises en charge dans [!INCLUDE[d365fin](includes/d
  [Détails de conception : lettrage article](design-details-item-application.md)  
  [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

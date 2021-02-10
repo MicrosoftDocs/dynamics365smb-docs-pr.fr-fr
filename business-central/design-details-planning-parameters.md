@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: planning, design
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d7eddf4c988c6edc3ae1a0dbfd045fa7b4f5b4b4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b041eb6c573c9f50b09eb741ee2ceead154f8161
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921991"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751279"
 ---
 # <a name="design-details-planning-parameters"></a>Détails de conception : paramètres de planification
-Cette rubrique décrit les différents paramètres de planification que vous pouvez utiliser dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Cette rubrique décrit les différents paramètres de planification que vous pouvez utiliser dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 La façon dont le système de planification contrôle l’approvisionnement d’article est déterminée par divers paramètres de la fiche article ou du point de stock, et des paramètres dans la configuration de la production. Le tableau suivant montre comment ces paramètres sont utilisés pour la planification.  
 

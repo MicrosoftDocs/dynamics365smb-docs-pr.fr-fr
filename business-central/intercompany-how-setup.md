@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2020
+ms.date: 12/15/2020
 ms.author: edupont
-ms.openlocfilehash: 2f85488cd3e3a764d1fd0c60e4d314d4729f03d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 81e19144e309e98c7887f264ac914202690977cc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915484"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750129"
 ---
 # <a name="set-up-intercompany"></a>Configuration des fonctionnalités intersociétés
+
 Pour envoyer une transaction (ligne feuille vente) à partir d’une société et créer automatiquement la transaction correspondante (ligne feuille achat) dans la société partenaire, les sociétés concernées doivent s’accorder sur un plan de compte et un ensemble d’axes analytiques communs à utiliser pour les transactions intersociétés. Le plan de compte intersociété peut être, par exemple, une version simplifiée du plan de compte de la société mère. Chaque société associe son plan de compte au plan de compte intersociété partagé, ainsi que ses axes analytiques aux axes analytiques intersociétés.  
 
 Vous devez également configurer un code partenaire Intersociétés pour chaque société partenaire, ce qui est convenu par toutes les sociétés, puis les affecter respectivement aux fichiers client et fournisseur en renseignant le champ **Code Partenaire Intersociétés**.  
@@ -36,7 +37,7 @@ Si vous créez des transactions de vente intersociétés incluant des ressources
 3. Sur la page **Partenaire Intersociétés**, renseignez les champs comme nécessaire.
 
 > [!NOTE]
-> Dans [!INCLUDE[d365fin](includes/d365fin_md.md)] en ligne, vous ne pouvez pas utiliser les emplacements de fichiers pour transférer des transactions à vos partenaires, car [!INCLUDE[d365fin](includes/d365fin_md.md)] n’a pas accès à votre réseau local. Par conséquent, si vous choisissez **Emplacement du fichier** dans le champ **Type de transfert**, le champ **Chemin du dossier** n’est pas disponible. Au lieu de cela, le fichier sera téléchargé dans le dossier Téléchargements de votre ordinateur. Vous envoyez ensuite le fichier à une personne de l’entreprise partenaire, par exemple par e-mail. Pour un processus plus direct, nous vous recommandons de choisir **E-mail** plutôt.
+> Dans [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, vous ne pouvez pas utiliser les emplacements de fichiers pour transférer des transactions à vos partenaires, car [!INCLUDE[prod_short](includes/prod_short.md)] n’a pas accès à votre réseau local. Par conséquent, si vous choisissez **Emplacement du fichier** dans le champ **Type de transfert**, le champ **Chemin du dossier** n’est pas disponible. Au lieu de cela, le fichier sera téléchargé dans le dossier Téléchargements de votre ordinateur. Vous envoyez ensuite le fichier à une personne de l’entreprise partenaire, par exemple par e-mail. Pour un processus plus direct, nous vous recommandons de choisir **E-mail** plutôt.
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Pour paramétrer des fournisseurs et des clients intersociétés
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Fournisseurs**, puis sélectionnez le lien associé.
@@ -90,7 +91,11 @@ Ensuite, si vous indiquez un compte général dans le champ **N° compte contrep
 3. Répétez l’étape 2 pour chaque compte que vous entrez souvent dans le champ **N° compte contrepartie** d’une ligne dans la feuille ou le document intersociétés.
 
 ## <a name="to-set-up-intercompany-dimensions"></a>Pour configurer des comptabilisations intersociétés
+
 Si vos partenaires intersociétés et vous souhaitez pouvoir échanger des transactions auxquelles des axes analytiques sont liés, vous devrez vous entendre sur les axes analytiques que vous allez tous utiliser. Par exemple, la société mère du groupe génère une version simplifiée de ses propres axes analytiques, l’exporte dans un fichier XML et la distribue à chaque société du groupe. Chaque filiale importe ensuite ce fichier XML sur la page **Axes analytiques intersociétés** et associe les axes analytiques intersociétés à ceux figurant dans sa propre page **Axes analytiques**.  
+
+> [!NOTE]
+> Chaque entreprise dans [!INCLUDE [prod_short](includes/prod_short.md)] doit mapper les axes analytiques aux axes analytiques intersociétés pour les documents sortants et mapper les axes analytiques intersociétés à leurs propres axes analytiques pour les documents entrants. Cette cartographie permet d’assurer la cohérence entre les entreprises. Pour plus d’informations, consultez la section [Pour mapper les axes analytiques intersociétés aux axes analytiques de votre entreprise](#to-map-intercompany-dimensions-to-your-companys-dimensions).
 
 Si votre société est la société parent et contient l’ensemble de définition des axes analytiques intersociétés qui serviront de référence commune au groupe, suivez la procédure [Définir les axes analytiques intersociétés](intercompany-how-setup.md#to-define-the-intercompany-dimensions).
 
@@ -113,9 +118,11 @@ Lorsqu’un fichier existe pour la définition du plan comptable intersociété,
 Les lignes des pages **Axes analytiques intersociétés** et **Sections analytiques intersociétés** sont importées.  
 
 ### <a name="to-map-intercompany-dimensions-to-your-companys-dimensions"></a>Pour associer les axes analytiques intersociétés aux axes de votre société
-Après avoir défini ou importé les axes analytiques que vos partenaires intersociétés et vous avez décidé d’utiliser, vous devez associer chaque axe analytique intersociétés à l’un des axes de votre société, et vice versa. Sur la page **Axes analytiques intersociétés**, indiquez comment les axes analytiques intersociétés des transactions entrantes doivent être convertis en axes à partir de la liste des axes analytiques de votre société. Sur la page **Axe analytique**, précisez comment vos axes analytiques doivent être convertis en axes intersociétés dans les transactions sortantes.
+Après avoir défini ou importé les axes analytiques que vos partenaires intersociétés et vous avez décidé d’utiliser, vous devez associer chaque axe analytique intersociétés à l’un des axes de votre société, et vice versa. Sur la page **Axes analytiques intersociétés**, indiquez comment les axes analytiques intersociétés des *transactions entrantes* doivent être convertis en axes à partir de la liste des axes analytiques de votre société. Sur la page **Axes analytiques**, précisez comment vos axes analytiques doivent être convertis en axes intersociétés dans les *transactions sortantes*.
 
-Si certains axes analytiques intersociété possèdent le même code que les axes analytiques correspondants de la liste des axes analytiques de votre société, vous pouvez demander à l’application d’associer automatiquement ces comptes.
+Si certains axes analytiques intersociété possèdent le même code que les axes analytiques correspondants de la liste des axes analytiques de votre société, vous pouvez demander à l’application d’associer automatiquement ces comptes.  
+
+Dans les étapes suivantes, vous devez d’abord mapper les axes analytiques intersociétés aux axes analytiques des documents entrants sur la page **Axes analytiques intersociétés**. Ensuite, vous mappez les axes analytiques aux axes analytiques intersociétés pour les documents sortants sur la page **Axes analytiques**.
 
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Axes analytiques intersociétés**, puis sélectionnez le lien associé.
 2. Sur la page **Axes analytiques intersociétés**, sélectionnez les lignes à associer automatiquement, puis choisissez l’action **Faire correspondre à l’axe analytique ayant le même code**.
@@ -133,8 +140,9 @@ Si certains axes analytiques intersociété possèdent le même code que les axe
 10. Sur la page **Sections analytiques**, renseignez le champ **Code section analytique axe IC à faire correspondre**.
 
 ## <a name="see-also"></a>Voir aussi
+
 [Gestion des transactions intersociétés](intercompany-manage.md)  
 [Finances](finance.md)  
 [Configuration de Finance](finance-setup-finance.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

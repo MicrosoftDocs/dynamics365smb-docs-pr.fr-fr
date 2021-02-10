@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 401f471fe8af79c2373547a7ec6f51dc6366bd78
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e64ee514f8b837f2c9e1114511122bcf6e160a64
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923043"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746565"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Configuration d’une analyse de trésorerie
 Si vous souhaitez de l’aide pour décider quelles opérations effectuer avec votre trésorerie, consultez les graphiques dans le tableau de bord Comptable :  
@@ -61,7 +61,7 @@ Pour les configurer, recherchez **comptes de trésorerie**, choisissez le lien, 
 ## <a name="set-up-cash-flow-forecasts"></a>Configurer les prévisions de trésorerie
 Le graphique **Prévision de trésorerie** utilise les comptes de trésorerie, les paramétrages de trésorerie et les prévisions de trésorerie. Certains comptes sont fournis, cependant, vous pouvez définir les vôtres à l’aide d’un guide de configuration assistée. Le guide vous aide à spécifier des éléments, tels que la fréquence de mise à jour des prévisions, les comptes sur lesquels les baser, les informations concernant l’échéance de paiement des taxes et s’il convient d’utiliser [Azure AI](https://azure.microsoft.com/overview/ai-platform/).  
 
-Les prévisions de trésorerie peuvent utiliser Azure AI pour prévoir les documents futurs. Le résultat est une prévision plus complète. La connexion à Azure AI est déjà configurée pour vous. Vous devez juste l’activer. Lorsque vous vous connectez à [!INCLUDE[d365fin](includes/d365fin_md.md)], une notification s’affiche dans une barre bleue et inclut un lien vers le paramétrage par défaut de trésorerie. La notification s’affiche une seule fois. Si vous la fermez, mais décidez d’activer Azure AI, vous pouvez utiliser le guide de configuration assistée ou un processus manuel.  
+Les prévisions de trésorerie peuvent utiliser Azure AI pour prévoir les documents futurs. Le résultat est une prévision plus complète. La connexion à Azure AI est déjà configurée pour vous. Vous devez juste l’activer. Lorsque vous vous connectez à [!INCLUDE[prod_short](includes/prod_short.md)], une notification s’affiche dans une barre bleue et inclut un lien vers le paramétrage par défaut de trésorerie. La notification s’affiche une seule fois. Si vous la fermez, mais décidez d’activer Azure AI, vous pouvez utiliser le guide de configuration assistée ou un processus manuel.  
 
 > [!NOTE]  
 >   Sinon, vous pouvez utiliser votre propre service Web prévisionnel. Pour plus d’informations, voir [Créer et utiliser votre propre service Web prévisionnel pour des prévisions de trésorerie](#AnchorText).  
@@ -84,7 +84,7 @@ Pour utiliser une procédure manuelle :
 >   Tenez compte de la durée des périodes utilisée par le service lors de ses calculs. Plus vous fournissez de données, plus les prévisions seront précises. En outre, soyez prudent en ce qui concerne les grands écarts entre les périodes. Cela aura également un impact sur les prévisions. Si Azure AI ne trouve pas suffisamment de données ou si les données varient considérablement, le service ne fera pas de prévisions.  
 
 ## <a name="design-details"></a>Détails de conception
-Les abonnements à [!INCLUDE[d365fin](includes/d365fin_md.md)] fournissent un accès à plusieurs services web prévisionnels dans toutes les régions où [!INCLUDE[d365fin](includes/d365fin_md.md)] est disponible. Pour en savoir plus, consultez le guide des licences Microsoft Dynamics 365 Business Central. Le guide est téléchargeable sur le site Internet [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/). 
+Les abonnements à [!INCLUDE[prod_short](includes/prod_short.md)] fournissent un accès à plusieurs services web prévisionnels dans toutes les régions où [!INCLUDE[prod_short](includes/prod_short.md)] est disponible. Pour en savoir plus, consultez le guide des licences Microsoft Dynamics 365 Business Central. Le guide est téléchargeable sur le site Internet [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/). 
 
 Ces services web sont sans état. Autrement dit, ils utilisent des données uniquement pour calculer des prévisions à la demande. Ils ne stockent pas de données.
 
@@ -99,21 +99,21 @@ Champs **Date d’échéance** et **Montant DS** sur la page **Écritures compta
 - Le type de document est « Facture » ou « Avoir ».
 - La date d’échéance se situe entre la date calculée sur la base des valeurs dans les champs **Périodes historiques** et **Type de période** sur la page **Paramètres trésorerie** et la date de travail.
 
-Avant d’utiliser le service web prédictif, [!INCLUDE[d365fin](includes/d365fin_md.md)] comprime les transactions par **Date d’échéance** sur la base de la valeur dans le champ **Type de période** sur la page **Paramètres trésorerie**.
+Avant d’utiliser le service web prédictif, [!INCLUDE[prod_short](includes/prod_short.md)] comprime les transactions par **Date d’échéance** sur la base de la valeur dans le champ **Type de période** sur la page **Paramètres trésorerie**.
 
 #### <a name="payables"></a>Dettes :
 Champs **Date d’échéance** et **Montant DS** sur la page **Écritures comptables fournisseur**, où :
 - Le type de document est « Facture » ou « Avoir ».
 - La date d’échéance se situe entre la date calculée sur la base des valeurs dans les champs **Périodes historiques** et **Type de période** sur la page **Paramètres trésorerie** et la date de travail.
 
-Avant d’utiliser le service web prédictif, [!INCLUDE[d365fin](includes/d365fin_md.md)] comprime les transactions par **Date d’échéance** sur la base de la valeur dans le champ **Type de période** sur la page **Paramètres trésorerie**.
+Avant d’utiliser le service web prédictif, [!INCLUDE[prod_short](includes/prod_short.md)] comprime les transactions par **Date d’échéance** sur la base de la valeur dans le champ **Type de période** sur la page **Paramètres trésorerie**.
 
 #### <a name="tax"></a>Taxes :
 Champs **Date document** et **Montant** sur la page **Écritures comptables TVA (taxe)**, où :
 - Le type de document est « vente ».
 - La date document se situe entre la date calculée sur la base des valeurs dans les champs **Périodes historiques** et **Type de période** sur la page **Paramètres trésorerie** et la date de travail.
 
-Avant d’utiliser le service web prédictif, [!INCLUDE[d365fin](includes/d365fin_md.md)] comprime les transactions par **Date document** sur la base de la valeur dans le champ **Type de période** sur la page **Paramètres trésorerie**.
+Avant d’utiliser le service web prédictif, [!INCLUDE[prod_short](includes/prod_short.md)] comprime les transactions par **Date document** sur la base de la valeur dans le champ **Type de période** sur la page **Paramètres trésorerie**.
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts"></a><a name="AnchorText"> </a>Créer et utiliser votre propre service Web prévisionnel pour des prévisions de trésorerie
 Vous pouvez aussi utiliser votre propre service Web prévisionnel basé sur un modèle public intitulé **Modèle de prévision pour Microsoft Business Central**. Ce modèle prévisionnel est disponible en ligne dans la galerie Azure AI. Pour utiliser le modèle, procédez comme suit :  
@@ -131,4 +131,4 @@ Vous pouvez aussi utiliser votre propre service Web prévisionnel basé sur un m
 ## <a name="see-also"></a>Voir aussi
 [Analyse de la trésorerie dans votre société](finance-analyze-cash-flow.md)  
 [Configuration de Finance](finance-setup-finance.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

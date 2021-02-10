@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 056cb7d0aec55ae939c09adb47477343908c2e6c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 169e1947cb3e2ca962dc0937c5901c8c92ca936a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924977"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754641"
 ---
 # <a name="track-document-lines"></a>Suivre des lignes document
 Vous pouvez afficher les documents associés aux lignes commande vente et aux lignes commande achat, notamment à partir des lignes commande archivées. Les documents associés que vous pouvez suivre comprennent les devis, les expéditions, les réceptions et les commandes ouvertes. Cela vous aide à identifier les documents utilisés pour traiter les commandes.  
@@ -34,4 +34,4 @@ La procédure suivante décrit comment effectuer le suivi à partir d'une ligne 
 ## <a name="see-also"></a>Voir aussi
 [Ventes](sales-manage-sales.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

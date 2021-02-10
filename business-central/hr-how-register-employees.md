@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 75c3c6a59e951052f59f4100688ace92af16b50f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ca86db44d578fab16af1d9a07e3d62db8dfe581c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922968"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750229"
 ---
 # <a name="register-employees"></a>Enregistrer les employés
 Pour utiliser la fonctionnalité Ressources humaines, vous devez d’abord enregistrer chaque salarié en créant une fiche contenant les informations de base et connexes.
@@ -59,5 +59,5 @@ Vous pouvez utiliser des adresses secondaires pour conserver un historique des d
 ## <a name="see-also"></a>Voir aussi
 [Enregistrer et rembourser les frais des employés](finance-how-record-reimburse-employee-expenses.md)  
 [Finances](finance.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)

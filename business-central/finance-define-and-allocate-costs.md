@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6e620772e5e83777d0ef48cc2b86bfbdc372daf8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 802706f3b501b7c0bdc7959573d5a7c830a7bf90
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913320"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747065"
 ---
 # <a name="defining-and-allocating-costs"></a>Définition et répartition des coûts
 Les affectations de coûts déplacent les coûts et les revenus entre les types de coûts, les centres de coûts et les coûts associés. Vous pouvez définir autant d’affectations que nécessaire. Chaque affectation comporte les éléments suivants :  
@@ -78,7 +78,7 @@ Le mode de ventilation statique dépend d’une valeur définie, par exemple, le
 Cette rubrique décrit comment définir trois nouveaux coûts associés pour la cibles d’affectation pour le centre de coûts PROD de la source d’affectation à l’aide d’un ratio de ventilation prédéfini, comme 5:2:4. Les trois coûts associés cibles sont ACCESSO, PEINTURE et ACCESSOIRES.  
 
 > [!NOTE]  
->  L’exemple utilise les données de démonstration dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+>  L’exemple utilise les données de démonstration dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Pour définir le centre de coûts PROD de la source d’affectation sur le raccourci Général  
 
@@ -109,13 +109,13 @@ Cette rubrique décrit comment définir trois nouveaux coûts associés pour la 
 15. Sur la troisième ligne, dans le champ **Part**, saisissez le ratio d’affectation **4**.  
 
 > [!IMPORTANT]  
->  [!INCLUDE[d365fin](includes/d365fin_md.md)] calcule automatiquement le champ **Pour cent** à l’aide d’un pourcentage qui dépend de ces trois ratios d’affectation saisis dans le champ **Part** pour chacune des trois lignes.
+>  [!INCLUDE[prod_short](includes/prod_short.md)] calcule automatiquement le champ **Pour cent** à l’aide d’un pourcentage qui dépend de ces trois ratios d’affectation saisis dans le champ **Part** pour chacune des trois lignes.
 
 ## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold"></a>Scénario 2 : Définition des ventilations dynamique sur la base des articles vendus
 Cette rubrique explique comment définir les affectations à l’aide du mode de ventilation dynamique. Dans l’exemple, vous modifiez la ventilation dynamique des coûts pour que le centre de coûts VENTES prenne en charge le nouveau ÉQUIPEMENT IT de coûts associés. Les packages ÉQUIPEMENT IT ont des numéros d’articles dont la plage s’échelonne entre 8904-W et 8924-W. Vous pouvez utiliser les chiffres de ventes de l’exercice précédent pour en calculer la part. La ventilation est validée en fonction du type de coût 9903.  
 
 > [!NOTE]  
->  L’exemple utilise les données de démonstration dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+>  L’exemple utilise les données de démonstration dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Pour définir les ventilations dynamique en fonction des articles vendus de l’exercice précédent  
 
@@ -135,7 +135,7 @@ Cette rubrique explique comment définir les affectations à l’aide du mode de
 14. Choisissez l’action **Calculer la clé de ventilation** pour calculer la part.  
 
 > [!IMPORTANT]  
->  [!INCLUDE[d365fin](includes/d365fin_md.md)] utilise les chiffres de ventes des exercices précédents pour calculer une part de 1596,50 DS avec 100 % alloués pour les packages ÉQUIPEMENT IT. Cela signifie que tous les articles vendus au cours de l’exercice précédent seront affectés au ÉQUIPEMENT IT des coûts associés.
+>  [!INCLUDE[prod_short](includes/prod_short.md)] utilise les chiffres de ventes des exercices précédents pour calculer une part de 1596,50 DS avec 100 % alloués pour les packages ÉQUIPEMENT IT. Cela signifie que tous les articles vendus au cours de l’exercice précédent seront affectés au ÉQUIPEMENT IT des coûts associés.
 
 ## <a name="see-also"></a>Voir aussi  
  [Paramétrage du contrôle de gestion](finance-set-up-cost-accounting.md)   

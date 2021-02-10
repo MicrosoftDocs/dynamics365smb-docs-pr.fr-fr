@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f630d7d15568183d16b90fce19530ab324f76567
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fbe48dafa2393f22418771bdb321f47c5dd71f3a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920104"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749645"
 ---
 # <a name="payment-management"></a>Gestion des paiements
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] vous permet de gérer des lettres de change, des paiements électroniques et des paiements fournisseur à l'aide de la fonction de gestion des paiements.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] vous permet de gérer des lettres de change, des paiements électroniques et des paiements fournisseur à l'aide de la fonction de gestion des paiements.  
 
 Vous pouvez gérer les paiements fournisseur et client à l'aide des bordereaux paiement. Avant de créer un bordereau paiement, vous devez définir les paramétrages suivants :  
 

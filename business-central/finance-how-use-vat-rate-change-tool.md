@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
 ms.date: 10/01/2020
 ms.author: andregu
-ms.openlocfilehash: 7d75cb42b064f8541a1142ef149c9641baa6f69a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9d01d332457d85c0450cdf98c79778b18eba304e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923919"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746790"
 ---
 # <a name="managing-vat-rate-changes"></a>Gérer les changements de taux TVA
 
-Les taux TVA peuvent changer en fonction de la législation locale. Tout changement de TVA a un impact sur vos données [!INCLUDE[d365fin](includes/d365fin_md.md)] si le taux TVA est abaissé, augmenté ou supprimé. La TVA est liée à de nombreuses entités dans [!INCLUDE[d365fin](includes/d365fin_md.md)], telles que les clients, les fournisseurs, les articles, les ressources, les frais annexes et les comptes généraux. Les modifications des taux TVA se produisent généralement à une date spécifique, à partir de laquelle vous devrez modifier la configuration de la TVA, les groupes comptabilisation, etc. pour vous assurer que les nouvelles commandes vente et les commandes achat sont créés avec le nouveau taux TVA.
+Les taux TVA peuvent changer en fonction de la législation locale. Tout changement de TVA a un impact sur vos données [!INCLUDE[prod_short](includes/prod_short.md)] si le taux TVA est abaissé, augmenté ou supprimé. La TVA est liée à de nombreuses entités dans [!INCLUDE[prod_short](includes/prod_short.md)], telles que les clients, les fournisseurs, les articles, les ressources, les frais annexes et les comptes généraux. Les modifications des taux TVA se produisent généralement à une date spécifique, à partir de laquelle vous devrez modifier la configuration de la TVA, les groupes comptabilisation, etc. pour vous assurer que les nouvelles commandes vente et les commandes achat sont créés avec le nouveau taux TVA.
 
 ## <a name="changing-vat-rates"></a>Modification des taux TVA
 

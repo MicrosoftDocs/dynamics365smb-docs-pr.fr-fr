@@ -7,16 +7,16 @@ ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 16be03cec9799817646bcc04f842b2f5d3519caa
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ca0ca5f756d0d7423c92ca25034038fa1fb05727
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922291"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745982"
 ---
 # <a name="manage-profiles"></a>Gérer les profils
 
-Tous les utilisateurs de [!INCLUDE[d365fin](includes/d365fin_md.md)] se voient attribuer un profil reflétant leur rôle professionnel, le département dans lequel ils travaillent ou une autre catégorisation. Les profils permettent aux administrateurs de définir et de gérer de manière centralisée ce que différents types d’utilisateurs peuvent voir et faire dans l’interface utilisateur afin de pouvoir effectuer leurs tâches de manière efficace.
+Tous les utilisateurs de [!INCLUDE[prod_short](includes/prod_short.md)] se voient attribuer un profil reflétant leur rôle professionnel, le département dans lequel ils travaillent ou une autre catégorisation. Les profils permettent aux administrateurs de définir et de gérer de manière centralisée ce que différents types d’utilisateurs peuvent voir et faire dans l’interface utilisateur afin de pouvoir effectuer leurs tâches de manière efficace.
 
 > [!NOTE]
 > L’utilisation professionnelle classique d’un profil est un rôle. Un profil est donc nommé *Profil (rôle)* dans l’interface utilisateur.
@@ -81,14 +81,14 @@ Lorsqu’un profil est créé, vous pouvez sélectionner différentes cases à c
     - **Afficher dans l’explorateur de rôles** pour spécifier si les actions sur les fonctionnalités métier incluses dans le profil sont affichées dans la vue étendue de l’explorateur de rôles, une vue d’ensemble des fonctionnalités. Pour en savoir plus, consultez [Recherche de pages avec l’explorateur de rôles](ui-role-explorer.md).
 
 ## <a name="to-export-profiles"></a>Pour exporter des profils
-Vous pouvez exporter des profils depuis [!INCLUDE[d365fin](includes/d365fin_md.md)], par exemple pour les réutiliser dans un autre abonné. Les profils sont exportés dans un fichier zip contenant les fichiers .al pouvant être réutilisés pour développer des extensions. Pour plus d’informations, voir [Utilisation du client pour créer des profils et des personnalisations de page](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+Vous pouvez exporter des profils depuis [!INCLUDE[prod_short](includes/prod_short.md)], par exemple pour les réutiliser dans un autre abonné. Les profils sont exportés dans un fichier zip contenant les fichiers .al pouvant être réutilisés pour développer des extensions. Pour plus d’informations, voir [Utilisation du client pour créer des profils et des personnalisations de page](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
 * Sur la page **Profils (rôles)**, choisissez l’action **Exporter des profils**.
 
 Un fichier zip contenant les fichiers .al pour tous les profils est exporté.
 
 ## <a name="to-import-profiles"></a>Pour importer des profils
-Vous pouvez importer des profils ayant été exportés depuis [!INCLUDE[d365fin](includes/d365fin_md.md)]. La procédure d’importation est plus ou moins l’inverse de la procédure d’exportation de profils. Pour en savoir plus, consultez [Pour exporter des profils](admin-users-profiles-roles.md#to-export-profiles).
+Vous pouvez importer des profils ayant été exportés depuis [!INCLUDE[prod_short](includes/prod_short.md)]. La procédure d’importation est plus ou moins l’inverse de la procédure d’exportation de profils. Pour en savoir plus, consultez [Pour exporter des profils](admin-users-profiles-roles.md#to-export-profiles).
 
 1. Sur la page **Profils (rôles)**, choisissez l’action **Importer des profils**.
 2. Suivez les étapes de l’assistant **Importer des profils**.
@@ -127,7 +127,7 @@ Vous pouvez supprimer les personnalisations qu’un ou plusieurs utilisateurs on
     La page **Personnalisations des pages utilisateur** répertorie toutes les pages qui ont été personnalisées et l’utilisateur à qui elles appartiennent.
 
     > [!Note]
-    > Une coche dans le champ **Personnalisation héritée** indique si la personnalisation a été effectuée dans une ancienne version de [!INCLUDE[d365fin](includes/d365fin_md.md)], qui a traité la personnalisation de manière différente. Les utilisateurs qui essaient de personnaliser ces pages sont empêchés de le faire, à moins qu’ils ne choisissent de déverrouiller la page. Pour plus d’informations, voir [Pourquoi la personnalisation d’une page est bloquée](ui-personalization-locked.md).
+    > Une coche dans le champ **Personnalisation héritée** indique si la personnalisation a été effectuée dans une ancienne version de [!INCLUDE[prod_short](includes/prod_short.md)], qui a traité la personnalisation de manière différente. Les utilisateurs qui essaient de personnaliser ces pages sont empêchés de le faire, à moins qu’ils ne choisissent de déverrouiller la page. Pour plus d’informations, voir [Pourquoi la personnalisation d’une page est bloquée](ui-personalization-locked.md).
 
 2. Sélectionnez la ligne de la personnalisation de la page à supprimer, puis sélectionnez l’action **Supprimer**.
 
@@ -137,9 +137,9 @@ Vous pouvez également supprimer toutes les personnalisations de page individuel
 
 ## <a name="managing-user-sessions"></a>Gestion des sessions utilisateur
 
-En tant qu’administrateur de [!INCLUDE[prodshort](includes/prodshort.md)] en ligne, vous pouvez gérer les sessions utilisateur dans le centre d’administration. Pour plus d’informations, voir [Gérer les sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) dans le contenu d’administration.  
+En tant qu’administrateur de [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, vous pouvez gérer les sessions utilisateur dans le centre d’administration. Pour plus d’informations, voir [Gérer les sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) dans le contenu d’administration.  
 
-Pour [!INCLUDE[prodshort](includes/prodshort.md)] sur site, vous pouvez gérer des sessions à l’aide de SQL Server Management Studio, par exemple. Pour plus d’informations, voir [Documentation technique SQL Server](/sql/sql-server).  
+Pour [!INCLUDE[prod_short](includes/prod_short.md)] sur site, vous pouvez gérer des sessions à l’aide de SQL Server Management Studio, par exemple. Pour plus d’informations, voir [Documentation technique SQL Server](/sql/sql-server).  
 
 ## <a name="see-also"></a>Voir aussi  
 [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md)  

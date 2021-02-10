@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 42bd650cd3452be8c209e2ff12d1f5c06d6c4f21
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b9371127ca692ae636f93e44b202608684acaedb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913612"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746491"
 ---
 # <a name="manage-employee-absence"></a>Gérer les absences des salariés
 Pour gérer l’absence d’un salarié, vous devez l’enregistrer sur la page **Saisie des absences**. Elle peut alors être affichée de différentes façons à des fins d’analyse ou de génération d’état.
@@ -71,5 +71,5 @@ Vous pouvez enregistrer les absences des salariés quotidiennement ou à un autr
 ## <a name="see-also"></a>Voir aussi
 [Gérer les ressources humaines](hr-manage-human-resources.md)  
 [Finances](finance.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifier les fonctionnalités affichées](ui-experiences.md)

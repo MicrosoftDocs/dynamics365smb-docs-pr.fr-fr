@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f294fdce544de36992c3b6793ee397dfc271a319
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 66f74554ee2619935b2b27ace6b4812602747139
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917900"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752699"
 ---
 # <a name="configure-new-companies"></a>Configurer de nouvelles sociétés
 Pour configurer une nouvelle société dans votre implémentation de la solution, vous suivez habituellement trois phases. Dans la première phase, vous importez le package configuration, un fichier .rapidstart avec les informations de configuration. Dans la deuxième phase, vous modifiez les informations de configuration, puis vous les appliquez à votre nouvelle société. Dans la phase finale, vous vérifiez et corrigez les erreurs.  
@@ -31,7 +31,7 @@ Avant d’importer un package de configuration, il est judicieux de vérifier qu
 * L’utilisateur qui importe le package de configuration dispose des autorisations effectives d’insertion et de modification sur toutes les tables que le package va mettre à jour. Pour plus d’informations, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md). 
 
 ## <a name="to-import-a-configuration-package"></a>Pour importer un package configuration  
-1. Ouvrez la nouvelle société dans la base de données [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+1. Ouvrez la nouvelle société dans la base de données [!INCLUDE[prod_short](includes/prod_short.md)].  
 2. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Packages configuration**, puis sélectionnez le lien associé.  
 3. Sélectionnez l’action **Importer package**.  
 4. Accédez à l’emplacement où vous avez enregistré le fichier du package de configuration .rapidstart, puis sélectionnez le bouton **Ouvrir**.  

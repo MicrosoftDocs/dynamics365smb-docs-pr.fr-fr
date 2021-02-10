@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3dafae41b015df7b3b87657014a901128d34b7c9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0db0e2e6705a7d2fd1907227996d8c258dcbc554
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915884"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754791"
 ---
 # <a name="create-workflows"></a>Créer des workflows
 Vous pouvez créer des workflows qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du workflow, précédées ou suivies des tâches de l’utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du flux de travail.  
 
 Sur la page **Workflow**, créez un workflow en répertoriant les étapes concernées sur les lignes. Chaque étape comprend un événement de workflow modéré par des conditions d’événement, et une réponse de workflow avec des options de réponse. Définissez les étapes de workflow en renseignez les champs des lignes de workflow à partir de listes fixes de valeurs d’événement et de réponse qui sont les scénarios pris en charge par le code d’application.  
 
-Lorsque vous créez des workflows, vous pouvez copier les étapes à partir de workflows existants ou de modèles de workflow. Les modèles de workflow représentent des workflows non modifiables qui existent dans la version générique de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le code des modèles de workflow ajoutés par Microsoft a le préfixe « MS- », comme dans « MS-PIW ». Pour plus d’informations, reportez-vous à la rubrique [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md).  
+Lorsque vous créez des workflows, vous pouvez copier les étapes à partir de workflows existants ou de modèles de workflow. Les modèles de workflow représentent des workflows non modifiables qui existent dans la version générique de [!INCLUDE[prod_short](includes/prod_short.md)]. Le code des modèles de workflow ajoutés par Microsoft a le préfixe « MS- », comme dans « MS-PIW ». Pour plus d’informations, reportez-vous à la rubrique [Créer des flux de travail à partir de modèles de flux de travail](across-how-to-create-workflows-from-workflow-templates.md).  
 
 Si votre scénario d’entreprise requiert des événements ou réponses de workflow qui ne sont pas pris en charge, un partenaire Microsoft doit les implémenter en personnalisant le code de l’application.  
 
@@ -59,8 +59,8 @@ Si votre scénario d’entreprise requiert des événements ou réponses de work
         |**Notifier l’expéditeur**|Indiquez si le demandeur de l’approbation est notifié au lieu du destinataire de la demande d’approbation. Si vous activez la case à cocher, le champ **ID utilisateur du destinataire** est désactivé, car le demandeur de l’approbation, c’est-à-dire l’expéditeur, est notifié à la place. Le nom de la réponse du flux de travail est modifié en conséquence, en **Créer une notification pour &lt;Expéditeur&gt;**. Si la case à cocher n’est pas activée, le nom de la réponse du flux de travail est **Créer une notification pour &lt;Utilisateur&gt;**.
         |**Code utilisateur du destinataire**|Spécifiez l’utilisateur auquel la notification doit être envoyée. Remarque : cette option n’est disponible que pour les réponses de workflow avec un espace réservé pour un utilisateur spécifique. Pour les réponses de workflow sans espaces réservés pour les utilisateurs, le destinataire de la notification est généralement défini par le paramètres utilisateur d’approbation.|  
         |**Type écriture notification**|Spécifie si la notification de flux de travail est déclenchée par une modification d’enregistrement, une demande d’approbation ou des données échues transmises.|
-        |**Page cible du lien**|Spécifiez une autre page dans [!INCLUDE[d365fin](includes/d365fin_md.md)] que le lien de la notification ouvre au lieu de la page par défaut.<br /><br />Notez que la page doit avoir la même table source que l’enregistrement impliqué.|  
-        |**Lien personnalisé**|Spécifiez l’URL d’un lien qui est ajouté à la notification en complément du lien vers une page dans [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+        |**Page cible du lien**|Spécifiez une autre page dans [!INCLUDE[prod_short](includes/prod_short.md)] que le lien de la notification ouvre au lieu de la page par défaut.<br /><br />Notez que la page doit avoir la même table source que l’enregistrement impliqué.|  
+        |**Lien personnalisé**|Spécifiez l’URL d’un lien qui est ajouté à la notification en complément du lien vers une page dans [!INCLUDE[prod_short](includes/prod_short.md)].|  
     2.  Pour spécifier des options pour une réponse de workflow impliquant la création d’une demande d’approbation, renseignez les champs comme indiqué dans le tableau suivant.  
 
         |Champ|Désignation|  

@@ -12,18 +12,18 @@ ms.workload: na
 ms.search.keywords: policy, coverage
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e7396b4acfbed7199e1364287cfb7e8dcbe57c19
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c5c9af3a076647380e2f6bed8ef7d0a55c3d8efe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924227"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749292"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Configurer une assurance immobilisation
 Pour gérer la couverture d’assurance des immobilisations, vous devez tout d’abord configurer certaines informations générales d’assurance ainsi qu’une fiche assurance par police.
 
 ## <a name="to-set-up-general-insurance-information"></a>Pour définir des informations générales relatives aux assurances
-Pour utiliser les fonctions d’assurance dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous devez définir certaines informations générales relatives aux assurances.  
+Pour utiliser les fonctions d’assurance dans [!INCLUDE[prod_short](includes/prod_short.md)], vous devez définir certaines informations générales relatives aux assurances.  
 
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres immobilisations**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -42,7 +42,7 @@ Vous pouvez rassembler des informations sur chaque police d’assurance dans la 
 3. Renseignez les champs selon vos besoins.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Pour définir des modèles feuille assurance
-[!INCLUDE[d365fin](includes/d365fin_md.md)] crée automatiquement un modèle feuille assurance la première fois que vous ouvrez la page **Feuille assurance**. Vous pouvez cependant définir d’autres modèles feuille. Pour plus d’informations, voir [Utilisation des feuilles comptabilité](ui-work-general-journals.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] crée automatiquement un modèle feuille assurance la première fois que vous ouvrez la page **Feuille assurance**. Vous pouvez cependant définir d’autres modèles feuille. Pour plus d’informations, voir [Utilisation des feuilles comptabilité](ui-work-general-journals.md).  
 
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles feuille assurance**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins.
@@ -62,4 +62,4 @@ Vous pouvez définir des feuilles dans un modèle feuille assurance. Les valeurs
 [Immobilisations](fa-manage.md)  
 [Finances](finance.md)  
 [Mise en route](product-get-started.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

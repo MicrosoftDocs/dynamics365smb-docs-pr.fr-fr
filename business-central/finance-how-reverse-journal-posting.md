@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: reimbursement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9a8a7967bdb0947fbfb0b86cc073fc4f96ea0595
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c5e14b19b2e8be97a683dfbb9fb7a46e2c825b4e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920583"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750804"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Inversion d’une validation feuille et annuler les réceptions/envois
 Pour annuler une validation feuille erronée, sélectionnez l’écriture et créez une écriture inverse (écritures identiques aux écritures originales mais avec le signe opposé) portant les mêmes numéro de document et date comptabilisation que l’écriture d’origine. Une fois l’écriture contrepassée, créez l’écriture correcte.
@@ -84,4 +84,4 @@ La procédure d’annulation d’une expédition retour validée d’articles ou
 [Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
 [Finances](finance.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

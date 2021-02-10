@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7a5ad9eeb2dc42f1cb6fe7640bda721a6f511a75
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d733b8000d5ea476d32a96bcccdceebc32e0f43c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927658"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750979"
 ---
 # <a name="set-up-company-consolidation"></a>Configurer la consolidation de la société
 
@@ -33,7 +33,7 @@ En fonction de la complexité de vos entreprises, il existe deux façons de conf
 Si votre consolidation est simple, car vous détenez en totalité les centres de profit à consolider, le guide de configuration assistée **Consolidation de la société** vous aide à effectuer les étapes suivantes :
 
 * Choisissez si vous souhaitez créer une société consolidée, ou consolider les données dans une société que vous avez déjà créée pour la consolidation. La société ne doit pas contenir de transactions.
-* Affichez un aperçu des résultats. [!INCLUDE[d365fin](includes/d365fin_md.md)] vérifie que les données de base et les transactions peuvent être transférées avec succès vers la société consolidée.
+* Affichez un aperçu des résultats. [!INCLUDE[prod_short](includes/prod_short.md)] vérifie que les données de base et les transactions peuvent être transférées avec succès vers la société consolidée.
 
 Pour utiliser le guide de configuration assistée, procédez comme suit :
 
@@ -70,7 +70,7 @@ La liste suivante illustre les principaux aspects de la société consolidée.
 
 ### <a name="add-business-units"></a><a name="busunit"></a>Ajouter des centres de profit
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] vous permet de créer une liste de centres de profit à consolider, de vérifier les données comptables avant leur consolidation, d’importer des fichiers et de générer des états de consolidation.  
+[!INCLUDE[prod_short](includes/prod_short.md)] vous permet de créer une liste de centres de profit à consolider, de vérifier les données comptables avant leur consolidation, d’importer des fichiers et de générer des états de consolidation.  
 
 1. Connectez-vous à la société consolidée.
 2. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Centres de profit**, puis sélectionnez le lien associé.  
@@ -88,7 +88,7 @@ Le plan comptable d’une société qui sera consolidée doit spécifier des com
 
 Si le plan comptable du centre de profit diffère de celui de la société consolidée, vous devez préparer les comptes généraux pour la consolidation. Vous pouvez spécifier les comptes sur lesquels valider les débits et crédits et la méthode à utiliser pour convertir des devises dans la société consolidée. Par exemple, cela est utile si vous exécutez souvent l’état.
 
-1. Dans [!INCLUDE [prodshort](includes/prodshort.md)] de chaque centre de profit, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Plan comptable**, puis sélectionnez le lien associé.  
+1. Dans [!INCLUDE [prod_short](includes/prod_short.md)] de chaque centre de profit, choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Plan comptable**, puis sélectionnez le lien associé.  
 2. Ouvrez la fiche du compte, puis renseignez les champs du raccourci **Consolidation**. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Indiquer des taux de change pour les consolidations
@@ -136,5 +136,5 @@ Si vous détenez une société en partie, vous pouvez ajouter un pourcentage de 
 
 [Consolidation des données financières de plusieurs sociétés](finance-consolidated-company-reporting.md)  
 [Gestion des transactions intersociétés](intercompany-manage.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exportation de vos données métier vers Excel](about-export-data.md)

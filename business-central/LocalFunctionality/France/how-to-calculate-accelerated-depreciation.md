@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2a837ede1d85c4b3dd7e1fe1eb4acb5418426272
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0388dc70fdf542d70981005a83cdeb2059ced30d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920150"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749647"
 ---
 # <a name="calculate-accelerated-depreciation"></a>Calculer l'amortissement accéléré
-Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous calculez l'amortissement périodique des immobilisations à l'aide du traitement par lots **Calculer amortissement**. La loi d'amortissement liée à l'immobilisation définit la méthode d'amortissement, la date de début de l'amortissement et le groupe comptabilisation immobilisation utilisé par le traitement par lots.  
+Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], vous calculez l'amortissement périodique des immobilisations à l'aide du traitement par lots **Calculer amortissement**. La loi d'amortissement liée à l'immobilisation définit la méthode d'amortissement, la date de début de l'amortissement et le groupe comptabilisation immobilisation utilisé par le traitement par lots.  
 
 Si une loi d'amortissement d'immobilisation est intégrée dans la comptabilité, elle est appelée *loi d'amortissement comptable*. Si une loi d'amortissement d'immobilisation n'est pas intégrée dans la comptabilité, elle est appelée *loi d'amortissement fiscal*.  
 

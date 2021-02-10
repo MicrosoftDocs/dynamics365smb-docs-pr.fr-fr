@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8343a4169c127abdcee18a0a2e15cbc5f6b2b7c1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: faa5b0f7ffc30d0f575f9b6e61d925f9606b4581
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924102"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750654"
 ---
 # <a name="update-standard-costs"></a>Mise à jour des coûts standard
 Vous devez régulièrement mettre à jour les coûts standard des composants et remonter les nouveaux coûts dans l’article parent. Le processus comprend généralement les quatre étapes suivantes :  
@@ -46,4 +46,4 @@ Pour plus d’informations, voir [À propos du calcul des coûts standard](finan
  [À propos du calcul des coûts standard](finance-about-calculating-standard-cost.md)   
  [Gestion des coûts ajustés](finance-manage-inventory-costs.md)   
  [Détails de conception : modes évaluation stock](design-details-costing-methods.md) [Finance](finance.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

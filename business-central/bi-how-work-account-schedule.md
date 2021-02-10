@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 23a90d6529da231194b80f75e570e106d66a99c6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 58bc5001400a1a6ed03f5780a71b2f1ab96c43bc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922191"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752154"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Préparer la génération d’états financiers avec des tableaux d’analyse et des catégories de compte
 
@@ -23,7 +23,7 @@ Utilisez les tableaux d’analyse pour obtenir un aperçu des données financiè
 
 Vous accédez à ces deux états, par exemple, avec l’action **Relevés financiers** dans les tableaux de bord Gestionnaire d’activité et Comptable.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] fournit des exemples de tableaux d’analyse que vous pouvez utiliser immédiatement, vous pouvez sinon configurer vos propres lignes et colonnes pour spécifier les chiffres à comparer. Par exemple, vous pouvez créer des tableaux d’analyse pour calculer les marges bénéficiaires dans des axes tels que les départements ou les groupes de clients. Vous pouvez créer autant d’états financiers personnalisés que vous le souhaitez.  
+[!INCLUDE[prod_short](includes/prod_short.md)] fournit des exemples de tableaux d’analyse que vous pouvez utiliser immédiatement, vous pouvez sinon configurer vos propres lignes et colonnes pour spécifier les chiffres à comparer. Par exemple, vous pouvez créer des tableaux d’analyse pour calculer les marges bénéficiaires dans des axes tels que les départements ou les groupes de clients. Vous pouvez créer autant d’états financiers personnalisés que vous le souhaitez.  
 
 La configuration de tableaux d’analyse exige une compréhension des données financières du plan comptable. Par exemple, vous pouvez afficher les écritures comptables en tant que pourcentages des écritures budget. Cela suppose que les budgets sont créés. Pour plus d’informations, voir [Créer des budgets comptabilité](finance-how-create-budgets.md).
 
@@ -50,7 +50,7 @@ Vous pouvez utiliser les catégories de compte général pour modifier la prése
 
 Vous pouvez utiliser des tableaux d’analyse pour analyser les chiffres des comptes généraux ou pour comparer les écritures comptables et les écritures comptables budget. Par exemple, vous pouvez afficher les écritures comptables en tant que pourcentages des écritures budget.
 
-Les tableaux d’analyse dans la version standard de [!INCLUDE[d365fin](includes/d365fin_md.md)] sont la base des états financiers standard, qui ne sont peut-être pas adaptés aux besoins de votre entreprise. Pour créer rapidement vos propres états financiers, vous pouvez commencer par copier un tableau d’analyse existant. Reportez-vous à l’étape 3 ci-dessous.
+Les tableaux d’analyse dans la version standard de [!INCLUDE[prod_short](includes/prod_short.md)] sont la base des états financiers standard, qui ne sont peut-être pas adaptés aux besoins de votre entreprise. Pour créer rapidement vos propres états financiers, vous pouvez commencer par copier un tableau d’analyse existant. Reportez-vous à l’étape 3 ci-dessous.
 
 La page **Aperçu tableau d’analyse** vous permet de consulter l’état financier défini par le tableau d’analyse. Dans l’exemple suivant, il est important de comprendre que ce que vous créez en tant que lignes et colonnes de tableau d’analyse peut uniquement être vu et validé sur la page **Aperçu tableau d’analyse**, que vous ouvrez à partir d’un tableau d’analyse en choisissant l’action **Aperçu**. La page **Tableau d’analyse** elle-même est uniquement une zone de configuration.  
 
@@ -121,7 +121,7 @@ Votre tableau d’analyse peut comparer les résultats de différentes périodes
 
 Une période comptable ne doit pas correspondre au calendrier, mais chaque exercice doit avoir le même nombre de périodes comptables, même si chaque période peut varier.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] utilise la formule de période pour calculer le montant de la période de comparaison en fonction de la période représentée dans le filtre date du formulaire de sélection de l’état. La période de comparaison est basée sur la période de la date de début du filtre de date. Les abréviations utilisées pour les spécifications de période sont les suivantes :
+[!INCLUDE[prod_short](includes/prod_short.md)] utilise la formule de période pour calculer le montant de la période de comparaison en fonction de la période représentée dans le filtre date du formulaire de sélection de l’état. La période de comparaison est basée sur la période de la date de début du filtre de date. Les abréviations utilisées pour les spécifications de période sont les suivantes :
 
 | Abréviation | Description                                                                           |
 | ------------ | ------------------------------------------------------------------------------------- |
@@ -142,7 +142,7 @@ Exemples de formule :
 | \-1EC\[1..FP\]  | Du début de l’exercice comptable précédent à la fin de la période de l’exercice comptable précédent, les deux périodes incluses |
 | \-1EC\[FP..DP\] | De la fin de la période de l’exercice comptable précédent à la dernière période de l’exercice comptable précédent, les deux périodes incluses   |
 
-Pour effectuer des calculs basés par périodes, vous devez entrer une formule dans le champ **Formule date comparaison** à la place. Par exemple, si le champ est défini sur -1A, [!INCLUDE [prodshort](includes/prodshort.md)] procède à une comparaison à la même période 1 an avant.
+Pour effectuer des calculs basés par périodes, vous devez entrer une formule dans le champ **Formule date comparaison** à la place. Par exemple, si le champ est défini sur -1A, [!INCLUDE [prod_short](includes/prod_short.md)] procède à une comparaison à la même période 1 an avant.
 
 > [!NOTE]
 > Il n’est pas toujours transparent de déterminer les périodes à comparer, car vous pouvez définir un filtre date sur un état qui couvre des dates différentes des périodes comptables représentées dans les données du plan comptable. Par exemple, vous créez un tableau d’analyse dans lequel vous souhaitez comparer cette période avec la même période l’année précédente. Vous définissez le champ **Formule date comparaison** sur *-1EC*. Ensuite, vous exécutez l’état le 28 février et définissez le filtre date sur Janvier et février. Par conséquent, le tableau d’analyse compare les mois de janvier et février de cette année au mois de janvier de l’année précédente, qui est la seule période comptable terminée des deux pour l’année précédente.  
@@ -157,4 +157,4 @@ Pour plus d’informations sur les formules de date, voir [Utilisation de dates 
 [Finances](finance.md)  
 [Configuration de Finance](finance-setup-finance.md)  
 [Comptabilité et plan comptable](finance-general-ledger.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

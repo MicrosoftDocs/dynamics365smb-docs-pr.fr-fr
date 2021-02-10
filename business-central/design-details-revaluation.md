@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43a62271bab9401bfea21663c72b6363884c2ef4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5ece03828aad360b03a4c2cc4e0b47a6f603e8dc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911004"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751204"
 ---
 # <a name="design-details-revaluation"></a>Détails de conception : réévaluation
 Vous pouvez réévaluer le stock en fonction de la base d’évaluation reflétant le plus précisément la valeur de stock. Vous pouvez également antidater une réévaluation, afin que le coût des biens vendus (COGS) soit correctement mis à jour pour les articles qui ont déjà été vendus. Les articles utilisant le mode évaluation stock standard qui n’ont pas été entièrement facturés peuvent également être réévalués.  
 
-Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], la flexibilité suivante est prise en charge sur la réévaluation :  
+Dans [!INCLUDE[prod_short](includes/prod_short.md)], la flexibilité suivante est prise en charge sur la réévaluation :  
 
 -   La quantité réévaluable peut être calculée pour n’importe quelle date, également dans le passé.  
 -   Pour les articles utilisant le mode évaluation stock standard, les écritures coût prévu sont incluses dans la réévaluation.  
@@ -82,13 +82,13 @@ La date d’évaluation est définie sur la date de la validation de la consomma
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |15/01/20|Coût direct|01/01/20|150,00|2|2|  
 |01/02/20|Coût direct|01/02/20|-150,00|2|2|  
-|15/02/20|Coût direct|15/02/20|150.00|3|3|  
+|15/02/20|Coût direct|15/02/20|150,00|3|3|  
 
 ## <a name="expected-cost-in-revaluation"></a>Coût prévu de la réévaluation  
-La quantité XE réévaluable « Revaluable Quantity » XE « Quantity;Revaluable » est calculée comme la somme de la quantité XE "quantity" pour les écritures d’article XE « Invoice »/« Item Ledger » entièrement facturées avec une date de comptabilisation égale ou antérieure à la date de réévaluation. Cela signifie que lorsque certains articles sont reçus/livrés mais pas facturés, leur valeur de stock ne peut pas être une « valeur de stock » XE calculée. Les articles utilisant le mode évaluation stock standard ne sont pas limités à cet égard. « Valeur » XE  
+La quantité réévaluable est calculée comme la somme de la quantité des écritures comptables article entièrement facturées avec une date comptabilisation égale ou antérieure à la date de réévaluation. Cela signifie que lorsque certains articles sont reçus/livrés mais pas facturés, leur valeur de stock ne peut pas être calculée. Les articles utilisant le mode évaluation stock standard ne sont pas limités à cet égard.  
 
 > [!NOTE]  
->  Le stock en-cours est un autre type de coût prévu qui peut être réévalué, dans le cadre de certaines règles. Pour plus d’informations, voir la section « Réévaluation du stock en-cours » de cette rubrique.  
+>  Le stock en-cours est un autre type de coût prévu qui peut être réévalué, dans le cadre de certaines règles. Pour plus d’informations, voir [Réévaluation du stock en-cours](design-details-revaluation.md#wip-inventory-revaluation).  
 
 Lors du calcul de la quantité réévaluable pour les articles utilisant le mode d’évaluation Standard, les écritures comptables article n’ayant pas été complètement facturées sont incluses dans le calcul. Les écritures sont ensuite réévaluées lorsque vous validez la réévaluation. Lorsque vous facturez l’écriture réévaluée, les écritures valeur suivantes sont créées :  
 
@@ -116,7 +116,7 @@ Le tableau suivant montre les écritures valeur résultantes.
 |3.b.|15/01/20|Réévaluation|20/01/20|-150,00|0.00|1|4|  
 |3.c.|15/01/20|Ecart|15/01/20|0.00|450,00|1|5|  
 
-## <a name="determining-if-an-inventory-decrease-is-affected-by-revaluation"></a>Déterminer si une sortie de stock est liée à la réévaluation  
+## <a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a>Déterminer si une sortie de stock est liée à la réévaluation  
 La date de la validation ou de la réévaluation est utilisée pour déterminer si une sortie de stock est affectée par une réévaluation.  
 
 Le tableau suivant montre les critères utilisés pour un article qui n’utilise pas le mode évaluation stock moyen.  
@@ -163,13 +163,13 @@ Le tableau suivant montre les écritures valeur résultantes.
 ## <a name="wip-inventory-revaluation"></a>Réévaluation du stock en-cours  
 La réévaluation du stock en-cours implique de réévaluer les composants qui sont enregistrés en tant que membres du stock en-cours au moment de la réévaluation.  
 
-Pour cela, il est important d’établir des conventions sur le moment où un article est considéré comme une partie du stock TEC d’un point de vue financier. Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], les conventions disponibles sont les suivantes :  
+Pour cela, il est important d’établir des conventions sur le moment où un article est considéré comme une partie du stock TEC d’un point de vue financier. Dans [!INCLUDE[prod_short](includes/prod_short.md)], les conventions disponibles sont les suivantes :  
 
 -   Un composant acheté fait partie du stock de matières premières dès la validation d’un achat comme étant facturé.  
 -   Un composant acheté/semi-fini fait partie du stock en-cours dès la validation de sa consommation par rapport à un ordre de fabrication.  
 -   Un composant acheté/semi-fini reste dans le stock en-cours jusqu’au moment où un ordre de fabrication (article fabriqué) est facturé.  
 
-La manière dont la date d’évaluation de l’écriture valeur de la consommation est définie suit les mêmes règles que pour le stock hors TEC. Pour plus d’informations, reportez-vous à la section « Déterminer si une sortie de stock est liée à la réévaluation » de cette rubrique.  
+La manière dont la date d’évaluation de l’écriture valeur de la consommation est définie suit les mêmes règles que pour le stock hors TEC. Pour plus d’informations, reportez-vous à la section [Déterminer si une sortie de stock est liée à la réévaluation](design-details-revaluation.md#determining-whether-an-inventory-decrease-is-affected-by-revaluation).  
 
 Stock TEC peut être réévalué tant que la date de réévaluation n’est pas ultérieure à la date comptabilisation des écritures comptables article correspondantes de type Consommations et tant que l’ordre de fabrication correspondant n’a pas encore été facturé.  
 
@@ -181,4 +181,4 @@ Stock TEC peut être réévalué tant que la date de réévaluation n’est pas 
  [Détails de conception : modes évaluation stock](design-details-costing-methods.md)   
  [Détails de conception : Évaluation du stock](design-details-inventory-valuation.md) [Gestion des coûts ajustés](finance-manage-inventory-costs.md)  
  [Finances](finance.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

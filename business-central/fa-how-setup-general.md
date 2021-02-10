@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4c75ec6637999e11d9741974ed844222401e4298
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9dabf51c3961690b9faa19ee58a809013427ad47
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920646"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749243"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Configurer des informations générales pour les immobilisations
 Avant de pouvoir gérer les immobilisations, vous devez configurer les comptes généraux par défaut, les clés de ventilation, les modèles feuille et les lots pour la validation et le reclassement des immobilisations. Vous pouvez classer les immobilisations par catégorie, telles que Corporelles et Incorporelles.
@@ -51,7 +51,7 @@ Les clés de ventilation s’appliquent à des classes d’immobilisations et no
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Pour configurer les modèles feuille immobilisation
 Un modèle est une présentation de feuille prédéfinie. Le modèle affiche des informations sur les codes suivi, les états et les souches de numéros. Pour plus d’informations, voir [Utilisation des feuilles comptabilité](ui-work-general-journals.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] crée automatiquement un modèle feuille immobilisation la première fois que vous ouvrez la page **Feuille immobilisation**. Vous pouvez cependant définir d’autres modèles feuille.  
+[!INCLUDE[prod_short](includes/prod_short.md)] crée automatiquement un modèle feuille immobilisation la première fois que vous ouvrez la page **Feuille immobilisation**. Vous pouvez cependant définir d’autres modèles feuille.  
 
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles feuille immo.**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins.
@@ -64,7 +64,7 @@ Vous pouvez définir plusieurs feuilles, c’est-à-dire des feuilles individuel
 3. Sur la page **Lots feuille immo.**, renseignez les champs selon vos besoins.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Pour configurer des modèles feuille reclassement immobilisation
-Vous pouvez utiliser les feuilles reclassement dédiées lorsque vous devez transférer, fractionner ou regrouper des immobilisations. [!INCLUDE[d365fin](includes/d365fin_md.md)] crée automatiquement un modèle feuille reclassement immobilisation la première fois que vous ouvrez la page **Feuille reclass. immo**. Vous pouvez paramétrer d’autres modèles feuille reclassement. Pour en savoir plus, consultez [Utiliser des feuilles comptabilité](ui-work-general-journals.md).  
+Vous pouvez utiliser les feuilles reclassement dédiées lorsque vous devez transférer, fractionner ou regrouper des immobilisations. [!INCLUDE[prod_short](includes/prod_short.md)] crée automatiquement un modèle feuille reclassement immobilisation la première fois que vous ouvrez la page **Feuille reclass. immo**. Vous pouvez paramétrer d’autres modèles feuille reclassement. Pour en savoir plus, consultez [Utiliser des feuilles comptabilité](ui-work-general-journals.md).  
 
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles feuille reclass. immo**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins.
@@ -95,7 +95,7 @@ Les codes emplacement immobilisation permettent d’enregistrer l’emplacement 
 2. Saisissez les codes et les noms des emplacements immobilisation que vous souhaitez créer.
 
 ## <a name="to-register-opening-entries"></a>Pour enregistrer des écritures ouvertes
-Si vous utilisez les immobilisations dans [!INCLUDE[d365fin](includes/d365fin_md.md)] pour la première fois, vous devez d’abord paramétrer le module de comptabilité avant de définir des immobilisations. La manière de procéder est différente si les immobilisations sont intégrées en comptabilité.  
+Si vous utilisez les immobilisations dans [!INCLUDE[prod_short](includes/prod_short.md)] pour la première fois, vous devez d’abord paramétrer le module de comptabilité avant de définir des immobilisations. La manière de procéder est différente si les immobilisations sont intégrées en comptabilité.  
 
  La procédure suivante est utilisée si les transactions immobilisation doivent être validées en comptabilité.  
 
@@ -110,7 +110,7 @@ Si vous utilisez les immobilisations dans [!INCLUDE[d365fin](includes/d365fin_md
 7. Dans la feuille immobilisation, entrez les lignes suivantes pour chaque immobilisation :
    * Ligne avec le coût d’acquisition.
    * Une ligne avec l’amortissement cumulé jusqu’à la fin de l’exercice comptable précédent.
-   * Une ligne avec l’amortissement cumulé du début de l’exercice comptable en cours jusqu’à la date à laquelle [!INCLUDE[d365fin](includes/d365fin_md.md)] est défini pour démarrer le calcul de l’amortissement.
+   * Une ligne avec l’amortissement cumulé du début de l’exercice comptable en cours jusqu’à la date à laquelle [!INCLUDE[prod_short](includes/prod_short.md)] est défini pour démarrer le calcul de l’amortissement.
 
     Si vous disposez d’autres soldes ouverts, vous pouvez également les saisir maintenant, (dépréciation, réévaluation, par exemple).  
 8. Une fois que vous avez saisi et validé les lignes feuille pour chaque immobilisation, activez l’intégration en comptabilité dans les lois d’amortissement.
@@ -122,4 +122,4 @@ Si les immobilisations ne sont pas intégrées en comptabilité, omettez les ét
 [Immobilisations](fa-manage.md)  
 [Finances](finance.md)  
 [Mise en route](product-get-started.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: reconcile
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d5610e86ea06b6edd2ef0ae4cb7c1473dd096e9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7eb749c17ea9f17b3ef7c7c29c5dc9037fcbaf9c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924352"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752329"
 ---
 # <a name="reconciling-bank-accounts"></a>Rapprochement de comptes bancaires
 
@@ -26,7 +26,7 @@ Vous pouvez effectuer la tâche sur la page **Rapprochement bancaire**, où vous
 > [!NOTE]  
 > Dans les versions nord-américaines, vous pouvez également effectuer le rapprochement bancaire sur la page **Feuille rapprochement bancaire**, qui est mieux adaptée pour les chèques et les acomptes, mais ne prend pas en charge l’importation de fichiers de relevé bancaire. Pour utiliser cette page à la place de la page **Rapprochement bancaire**, désélectionnez le champ **Rapprochement bancaire avec correspondance auto.** sur la page **Paramètres comptabilité**. Pour plus d’informations, voir [Rapprocher des comptes bancaires](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) sous Fonctionnalité locale, États-Unis.
 
-Avant de pouvoir gérer vos comptes bancaires dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous devez configurer chaque compte bancaire en tant que fiche compte bancaire. En outre, vous devez configurer les services électroniques que vous pouvez utiliser pour l’importation de relevés bancaires et l’exportation de fichiers de paiement. Pour plus d’informations, reportez-vous à [Paramétrage des opérations bancaires](bank-setup-banking.md).
+Avant de pouvoir gérer vos comptes bancaires dans [!INCLUDE[prod_short](includes/prod_short.md)], vous devez configurer chaque compte bancaire en tant que fiche compte bancaire. En outre, vous devez configurer les services électroniques que vous pouvez utiliser pour l’importation de relevés bancaires et l’exportation de fichiers de paiement. Pour plus d’informations, reportez-vous à [Paramétrage des opérations bancaires](bank-setup-banking.md).
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
 
@@ -48,5 +48,5 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Transfert de fonds à la banque](bank-how-transfer-bank-funds.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)

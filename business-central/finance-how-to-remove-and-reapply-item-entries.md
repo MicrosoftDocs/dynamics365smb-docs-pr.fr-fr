@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f90f17fa962bc8a18ea3ba1c30b01af52463ede4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 006681473227ccf371c66708e5855da1bf868ddc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915584"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750678"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Supprimer et relettrer des écritures comptables article
 Sur la page **Feuille lettrage**, vous pouvez visualiser et modifier manuellement certaines écritures lettrage article qui sont créées automatiquement lors des mouvements de stock.  
@@ -36,7 +36,7 @@ Si vous ne pouvez pas utiliser un document pour un relettrage, par exemple si vo
 > Il est important de se rappeler les considérations suivantes lorsque vous travaillez sur la feuille lettrage :
     - Vous ne devez pas laisser des écritures lettrage non lettrées pendant de longues périodes, car d’autres utilisateurs ne peuvent pas traiter les articles jusqu’à ce que vous relettriez les écritures lettrage ou clôturiez la page **Feuille lettrage**. Les utilisateurs qui essaient d’exécuter des actions qui concernent une écriture lettrage manuellement délettrée reçoivent le message d’erreur suivant : « Il est impossible d’effectuer cette opération car les écritures de l’article XXX ne sont pas lettrées dans la feuille lettrage par l’utilisateur XXX. »
     - Vous devez relettrer uniquement les écritures comptables article en dehors des heures de travail afin d’éviter les conflits avec d’autres utilisateurs qui valident des transactions portant sur les mêmes articles.
-    - Lorsque vous fermez la feuille lettrage, [!INCLUDE[d365fin](includes/d365fin_md.md)] effectue un contrôle pour s’assurer que toutes les entrées sont lettrées. Par exemple, si vous supprimez un lettrage de quantité mais ne créez pas de nouveau lettrage et, ce faisant, fermez la feuille lettrage, un nouveau lettrage est créé. Cela permet de ne pas toucher au coût. Cependant, si vous supprimez un lettrage fixe, un nouveau lettrage fixe n’est pas créé automatiquement lorsque vous fermez la feuille. Vous devez le faire manuellement en créant un lettrage dans la feuille.
+    - Lorsque vous fermez la feuille lettrage, [!INCLUDE[prod_short](includes/prod_short.md)] effectue un contrôle pour s’assurer que toutes les entrées sont lettrées. Par exemple, si vous supprimez un lettrage de quantité mais ne créez pas de nouveau lettrage et, ce faisant, fermez la feuille lettrage, un nouveau lettrage est créé. Cela permet de ne pas toucher au coût. Cependant, si vous supprimez un lettrage fixe, un nouveau lettrage fixe n’est pas créé automatiquement lorsque vous fermez la feuille. Vous devez le faire manuellement en créant un lettrage dans la feuille.
     - Vous pouvez supprimer des lettrages de plusieurs écritures à la fois dans la feuille lettrage. Toutefois, comme le lettrage d’écritures affecte l’ensemble des écritures qui sont disponibles pour le lettrage, vous ne pouvez pas créer un lettrage pour plusieurs écritures à la fois.
     - La feuille lettrage ne peut pas effectuer de lettrage dans la situation suivante : si la quantité en stock est insuffisante pour le lettrage, la feuille lettrage ne peut pas effectuer un lettrage lorsque vous tentez de lettrer une écriture de sortie de stock sans informations de traçabilité sur une écriture d’entrée de stock avec des informations traçabilité.
 
@@ -77,4 +77,4 @@ Si vous ne pouvez pas utiliser un document pour un relettrage, par exemple si vo
  [Traiter les retours ou annulations d’achats](purchasing-how-process-purchase-returns-cancellations.md)  
  [Gestion des coûts ajustés](finance-manage-inventory-costs.md)   
  [Détails de conception : lettrage article](design-details-item-application.md)  
- [Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
