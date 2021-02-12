@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dd07d7d25bea1e49ffa4927a717088663c5d48da
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d6b59df9677216cfcc3fd7e60ec92b1a17890763
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911029"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035730"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Détails de conception : flux d’entrepôt internes
 Circulation des articles entre les emplacements dans les centres d’une société lors du prélèvement des composants, du rangement des articles finis pour les ordres d’assemblage ou de fabrication et les mouvements ad-hoc, tels que les réapprovisionnements emplacement, sans relation avec les documents origine. La portée et la nature des activités impliquées varient entre l’entreposage de base et l’entreposage avancé.  
@@ -90,7 +90,7 @@ Circulation des articles entre les emplacements dans les centres d’une sociét
 ## <a name="flushing-production-components-in-the-warehouse"></a>Consommation des composants de production dans l’entrepôt  
  Si cela est paramétré dans la fiche article, les composants prélevés avec des prélèvements entrepôt sont validés comme étant consommés par l’ordre de fabrication lorsque le prélèvement entrepôt est enregistré. En utilisant la méthode **Prélèvement + Aval** et la méthode de consommation **Prélèvement + Amont**, l’enregistrement de prélèvement déclenche la validation des consommations associées lorsque la première opération commence ou lorsque la dernière opération finit, respectivement.  
 
- Considérez le scénario suivant basé sur la base de données de démonstration [!INCLUDE[d365fin](includes/d365fin_md.md)], magasin BLANC.  
+ Considérez le scénario suivant basé sur la base de données de démonstration [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  Il existe un ordre de fabrication pour 15 pièces de l’article LS-100. Certains articles sur la liste des composants doivent être consommés manuellement dans une feuille consommation et d’autres articles de la liste peuvent être prélevés et consommés automatiquement à l’aide de la méthode de consommation **Prélèvement + Amont**.  
 

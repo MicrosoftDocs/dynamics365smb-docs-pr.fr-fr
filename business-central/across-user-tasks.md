@@ -1,6 +1,6 @@
 ---
-title: Affectation et gestion des tâches | Microsoft Docs
-description: Découvrez comment affecter des tâches à des utilisateurs, y compris votre comptable, dans Business Central
+title: Affectation et gestion des tâches
+description: Découvrez comment attribuer des tâches aux utilisateurs, y compris votre comptable, dans Business Central, et comment vous choisissez et effectuez des tâches.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c76751726f5cd680fafc0887fc57a1464d0ac3ca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dd8b774f8dea2762df177ae141730cce8285480e
+ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922616"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5068381"
 ---
 # <a name="define-user-tasks"></a>Définir les tâches utilisateur
 
-Dans [!INCLUDE[d365fin](includes/d365fin_md.md)], vous pouvez créer des tâches pour vous rappeler le travail à faire. Vous pouvez créer des tâches pour vous-même, mais vous pouvez également affecter des tâches à d’autres personne ou avoir une tâche affectée à vous-même par une autre personne de votre organisation.  
+Dans [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez créer des tâches pour vous rappeler le travail à faire. Vous pouvez créer des tâches pour vous-même, mais vous pouvez également affecter des tâches à d’autres personne ou avoir une tâche affectée à vous-même par une autre personne de votre organisation.  
 
 ## <a name="managing-user-tasks"></a>Gestion des tâches utilisateur
 
-La page **Tâches utilisateur** affiche toutes les tâches, et vous pouvez facilement créer et affecter de nouvelles tâches. Lorsque vous créez une tâche, vous pouvez spécifier la date de début et la date d’échéance, et vous pouvez ajouter un lien vers la page ou l’état dans [!INCLUDE[d365fin](includes/d365fin_md.md)] où l’utilisateur doit effectuer le travail.  
+La page **Tâches utilisateur** affiche toutes les tâches, et vous pouvez facilement créer et affecter de nouvelles tâches. Lorsque vous créez une tâche, vous pouvez spécifier la date de début et la date d’échéance, et vous pouvez ajouter un lien vers la page ou l’état dans [!INCLUDE[prod_short](includes/prod_short.md)] où l’utilisateur doit effectuer le travail.  
 
 Par exemple, vous pouvez créer une tâche pour vous-même ou un collège pour afficher toutes les factures vente enregistrées. Dans ce cas, vous liez la tâche à la page 143, **Factures vente enregistrées**. Dans la capture d’écran suivante, quelqu’un crée une tâche pour MeganB pour consulter les factures vente enregistrées.  
 
@@ -47,4 +47,4 @@ Si vous souhaitez supprimer des tâches en bloc ou individuellement, vous pouvez
 ## <a name="see-also"></a>Voir aussi
 
 [Recherche d’une page ou d’un état](ui-search.md)  
-[Expériences de comptable dans [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-accounting.md)  
+[Expériences de comptable dans [!INCLUDE[prod_short](includes/prod_short.md)]](finance-accounting.md)  

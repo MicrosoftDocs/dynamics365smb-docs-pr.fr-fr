@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b01235241ccdcb837063f786157349ed7094e81e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7ec1276600ab84a43363708e037fccb5b2ca0cf2
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918462"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035630"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Procédure pas à pas : planification manuelle des approvisionnements
 
@@ -38,10 +38,10 @@ Cette procédure pas à pas présente le processus de planification des commande
 -   préparateur de commandes vente ;  
 
 ## <a name="prerequisites"></a>Conditions préalables  
- Avant de commencer cette procédure pas à pas, vous devez installer la [!INCLUDE[d365fin](includes/d365fin_md.md)]. Les modifications suivantes doivent être apportées à la base de données :  
+ Avant de commencer cette procédure pas à pas, vous devez installer la [!INCLUDE[prod_short](includes/prod_short.md)]. Les modifications suivantes doivent être apportées à la base de données :  
 
 -   Supprimez toute commande vente existante de bicyclettes.  
--   Créez une commande vente pour 10 bicyclettes pour le magasin BLUE.  
+-   Créez une commande vente pour 10 bicyclettes pour le magasin EAST.  
 -   Supprimez tous les ordres de fabrication planifiés et planifiés fermes. Ne supprimez pas les ordres démarrés dont les écritures ont déjà été validées.  
 
  En règle générale, utilisez les données suggérées dans cette procédure pas à pas car elles incluent les enregistrements nécessaires.  
@@ -148,7 +148,7 @@ La page **Planification commande** est accessible de plusieurs endroits différe
 4.  Cliquez sur le bouton **OK** pour réserver les dix articles disponibles.  
 
     > [!NOTE]  
-    >  Dans la ligne demande, l’achat proposé a été remplacé par un transfert à partir du magasin GREEN. La fonction **Créer commandes** crée un ordre de transfert du magasin GREEN vers le magasin demandé. Le champ **Articles de substitution** fonctionne de la même manière.  
+    >  Dans la ligne demande, l’achat proposé a été remplacé par un transfert à partir du magasin PRINCIPAL. La fonction **Créer commandes** crée un ordre de transfert du magasin PRINCIPAL vers le magasin demandé. Le champ **Articles de substitution** fonctionne de la même manière.  
 
 5.  Sélectionnez l’action **Créer commandes**. La page **Créer des commandes approvisionnement** s’ouvre.  
 6.  Sur le raccourci **Planning commande** dans le champ **Créer commandes pour**, sélectionnez l’option **La commande active**.  
