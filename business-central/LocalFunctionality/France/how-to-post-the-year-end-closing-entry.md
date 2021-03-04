@@ -37,3 +37,6 @@ Une fois validée, une entrée est validée dans chaque compte résultats, de fa
 [Vue d'ensemble des processus de fin d'exercice](year-end-processes-overview.md)   
 [Clôturer fiscalement des exercices](how-to-close-years.md)   
 [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

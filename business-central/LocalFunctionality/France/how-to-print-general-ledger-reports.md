@@ -50,3 +50,6 @@ Les états de la comptabilité répondent aux normes de la comptabilité génér
 
 ## <a name="see-also"></a>Voir aussi  
  [Exporter des écritures comptables vers un fichier XML](how-to-export-general-ledger-entries-to-an-xml-file.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

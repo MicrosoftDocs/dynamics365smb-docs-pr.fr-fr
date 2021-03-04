@@ -37,3 +37,6 @@ Vous pouvez voir les montants crédit et débit pour chaque client, et vous pouv
 
 ## <a name="see-also"></a>Voir aussi  
 [Fonctionnalité locale, France](france-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

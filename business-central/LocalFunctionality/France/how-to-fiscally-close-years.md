@@ -42,3 +42,6 @@ Lorsque l'exercice comptable est clôturé fiscalement, le champ **Clôturé fis
  [Vue d'ensemble des processus de fin d'exercice](year-end-processes-overview.md)   
  [Valider l'écriture de clôture d'exercice](how-to-post-the-year-end-closing-entry.md)   
  [Clôture des exercices et des périodes](../../year-close-years-periods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

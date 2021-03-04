@@ -71,3 +71,6 @@ Le champ **Utilisé avec la loi dérogatoire** dans la loi d'amortissement compt
  [Amortissement accéléré](accelerated-depreciation.md)   
  [Calculer l'amortissement accéléré](how-to-calculate-accelerated-depreciation.md)   
 [Configurer un amortissement immobilisation](../../fa-how-setup-depreciation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

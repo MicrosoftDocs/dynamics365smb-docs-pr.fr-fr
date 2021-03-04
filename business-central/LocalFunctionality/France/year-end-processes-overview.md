@@ -42,3 +42,6 @@ Après avoir clôturé fiscalement un exercice, vous ne pourrez plus rien compta
 [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md)  
 [Périodes fiscales et exercices comptables](fiscal-periods-and-fiscal-years.md)  
 [Clôture des exercices et des périodes](../../year-close-years-periods.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Les champs suivants sont requis pour la déclaration d'échanges de biens :
 
 ## <a name="see-also"></a>Voir aussi  
 [Fonctionnalité locale, France](france-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Lorsque la période est clôturée fiscalement, le champ Clôturé fiscalement e
  [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md)   
  [Rouvrir des périodes comptables](how-to-reopen-accounting-periods.md)   
  [Périodes fiscales et exercices comptables](fiscal-periods-and-fiscal-years.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

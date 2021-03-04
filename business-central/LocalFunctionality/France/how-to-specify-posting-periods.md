@@ -41,3 +41,6 @@ Si vous entrez des dates ici, les dates entrées sur la page **Paramètres compt
 ## <a name="see-also"></a>Voir aussi
 
 [Périodes fiscales et exercices comptables](fiscal-periods-and-fiscal-years.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

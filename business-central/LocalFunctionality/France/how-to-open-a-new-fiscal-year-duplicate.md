@@ -43,3 +43,6 @@ Après la dernière période de l'exercice comptable, une période comptable est
  [Valider l'écriture de clôture d'exercice](how-to-post-the-year-end-closing-entry.md)   
  [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md)   
  [Périodes fiscales et exercices comptables](fiscal-periods-and-fiscal-years.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

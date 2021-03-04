@@ -41,3 +41,6 @@ Vous pouvez enregistrer le fichier généré dans un emplacement spécifié, ou 
 
 ## <a name="see-also"></a>Voir aussi  
 [Imprimer des états de la comptabilité](how-to-print-general-ledger-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

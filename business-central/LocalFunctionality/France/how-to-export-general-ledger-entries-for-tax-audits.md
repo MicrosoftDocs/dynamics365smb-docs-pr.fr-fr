@@ -55,3 +55,6 @@ L'état aura le nom suivant : <taxpayername>FEC<YYYYMMDD>
 
 ## <a name="see-also"></a>Voir aussi  
  [Clôturer fiscalement des exercices](how-to-close-years.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

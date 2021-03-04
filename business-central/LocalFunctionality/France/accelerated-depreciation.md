@@ -64,3 +64,6 @@ Après avoir configuré la loi d'amortissement fiscal et la loi d'amortissement 
  [Configurer un amortissement immobilisation](../../fa-how-setup-depreciation.md)   
 [COMPTES D'IMMOBILISATIONS](../../fa-manage.md)  
  [Fonctionnalité locale, France](france-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

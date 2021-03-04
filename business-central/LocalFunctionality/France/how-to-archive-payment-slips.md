@@ -56,3 +56,6 @@ Les bordereaux paiement sont archivés.
  [Configurer des adresses de paiement](how-to-set-up-payment-addresses.md)   
  [Créer bordereaux paiement](how-to-create-payment-slips.md)   
  [Valider des bordereaux paiement](how-to-post-payment-slips.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

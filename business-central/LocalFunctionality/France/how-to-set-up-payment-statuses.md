@@ -50,3 +50,6 @@ Pour utiliser le module de gestion des paiements, vous devez paramétrer des sta
  [Valider des bordereaux paiement](how-to-post-payment-slips.md)   
  [Archiver les bordereaux de paiement](how-to-archive-payment-slips.md)   
  [Exporter ou importer les paramètres de configuration de la gestion des paiements](how-to-export-or-import-payment-management-setup-parameters.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

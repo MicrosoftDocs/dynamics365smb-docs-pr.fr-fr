@@ -37,3 +37,6 @@ Avant d'exécuter le traitement par lots **Clôturer les comptes de gestion**, v
 ## <a name="see-also"></a>Voir aussi
 
 [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

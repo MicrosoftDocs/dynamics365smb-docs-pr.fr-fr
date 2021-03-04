@@ -58,3 +58,6 @@ Vous pouvez séparer un bordereau paiement entièrement traité des bordereaux p
  [Archiver les bordereaux de paiement](how-to-archive-payment-slips.md)   
  [Exporter ou importer les paramètres de configuration de la gestion des paiements](how-to-export-or-import-payment-management-setup-parameters.md)   
  [Fonctionnalité locale, France](france-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

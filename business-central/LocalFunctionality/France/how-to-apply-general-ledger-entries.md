@@ -36,3 +36,6 @@ Le lettrage est effectué en définissant les champ **Lettre** et **Date de la l
 ## <a name="see-also"></a>Voir aussi  
 [Délettrer des écritures comptables](how-to-unapply-general-ledger-entries.md)  
 [Lettrer les paiements fournisseur manuellement](../../payables-how-apply-purchase-transactions-manually.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

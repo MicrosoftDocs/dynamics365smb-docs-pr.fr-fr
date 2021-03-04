@@ -32,3 +32,6 @@ La fonctionnalité Comptabilité pour la France est décrite dans les rubriques 
 
 [Fonctionnalité locale, France](france-local-functionality.md)  
 [Familiarisation avec les écritures comptables et les COA](../../finance-general-ledger.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Pour utiliser le module Gestion des paiements, vous devez paramétrer des types 
  [Créer bordereaux paiement](how-to-create-payment-slips.md)   
  [Valider des bordereaux paiement](how-to-post-payment-slips.md)   
  [Archiver les bordereaux de paiement](how-to-archive-payment-slips.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

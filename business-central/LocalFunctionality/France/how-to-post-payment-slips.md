@@ -40,3 +40,6 @@ Le bordereau paiement est validé.
  [Créer bordereaux paiement](how-to-create-payment-slips.md)   
  [Exporter ou importer les paramètres de configuration de la gestion des paiements](how-to-export-or-import-payment-management-setup-parameters.md)   
  [Archiver les bordereaux de paiement](how-to-archive-payment-slips.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

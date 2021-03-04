@@ -40,3 +40,6 @@ Lorsque la période est rouverte, le champ **Clôturé fiscalement** est désact
  [Clôturer fiscalement des exercices](how-to-close-years.md)   
  [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md)   
  [Clôturer fiscalement des périodes comptables](how-to-fiscally-close-accounting-periods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

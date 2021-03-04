@@ -31,3 +31,6 @@ Vous pouvez délettrer des écritures comptables de manière très directe.
 
 ## <a name="see-also"></a>Voir aussi  
 [Lettrer des écritures comptables](how-to-apply-general-ledger-entries.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

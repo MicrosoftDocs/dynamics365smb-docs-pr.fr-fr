@@ -48,3 +48,6 @@ Vous pouvez sélectionner ces formats lorsque vous configurez le statut de règl
  [Configurer des adresses de paiement](how-to-set-up-payment-addresses.md)   
  [Créer bordereaux paiement](how-to-create-payment-slips.md)   
  [Archiver les bordereaux de paiement](how-to-archive-payment-slips.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

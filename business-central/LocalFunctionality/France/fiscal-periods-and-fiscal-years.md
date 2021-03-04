@@ -60,3 +60,6 @@ Lorsque vous clôturez une période fiscale, la plus ancienne période fiscale o
 [Définir des périodes de validation](../../finance-how-specify-posting-periods.md)  
 [Description des écritures comptables et du plan comptable](../../finance-general-ledger.md)  
 [Fonctionnalité locale, France](france-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ La prochaine fois que vous effectuerez un paiement basé sur cette étape de rè
 ## <a name="see-also"></a>Voir aussi  
  [Paramétrer des types de règlement](how-to-set-up-payment-classes.md)   
  [Paramétrer des étapes règlement](how-to-set-up-payment-steps.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

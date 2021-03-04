@@ -52,3 +52,6 @@ L'amortissement accéléré de l'immobilisation est calculé.
  [Paramétrer l'amortissement accéléré](how-to-set-up-accelerated-depreciation.md)   
  [Configurer un amortissement immobilisation](../../fa-how-setup-depreciation.md)  
  [Immobilisations](../../fa-manage.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
