@@ -3,19 +3,19 @@ title: 'Procédure : créer des devis service | Microsoft Docs'
 description: Utilisez la page **Devis service** pour créer des documents dans lesquels vous saisissez des informations sur un service, tel que réparation et maintenance, pour des articles de service à la demande du client. Vous pouvez utiliser un devis service comme brouillon d’une commande service, et convertir le devis en commande.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 41cb742ac256e124a273ac202a1c7f112a69795d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 92c93b2e0b876920f1c259d31b4d839a5b2ecbc0
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918637"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388798"
 ---
 # <a name="create-service-quotes"></a>Pour créer des devis service
 Vous pouvez considérer les devis service comme la base des commandes service. En réalité, ils sont quasiment identiques. Tous deux contiennent des informations, telles que l’identité du client, le type de commande, l’article nécessitant une maintenance, les informations de facturation et d’expédition et les informations sur la tâche de service réelle.

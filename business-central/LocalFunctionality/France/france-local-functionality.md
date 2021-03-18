@@ -3,19 +3,19 @@ title: Fonctionnalité locale, France
 description: Les rubriques suivantes décrivent la fonctionnalité locale de la version française de Business Central.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 2cca7ea4b1677846052b8a10cb7eba91d2e4432c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5e7fd8b064d17a7d101f3b88d498a82b71b09d19
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749649"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380321"
 ---
 # <a name="france-local-functionality"></a>Fonctionnalité locale, France
 

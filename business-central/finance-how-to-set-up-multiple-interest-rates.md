@@ -3,19 +3,19 @@ title: Comment paramétrer plusieurs taux d’intérêt
 description: Vous pouvez calculer les intérêts avec plusieurs taux d’intérêts pour une période donnée. Le calcul des intérêts ressemble à tous les intérêts financiers, avec une variation uniquement du taux d’intérêt pour une période donnée.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 484174bf02377081d9220f9dd4f0b47fdc547c34
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 96098ca669dd5001f334cf464d8e3a37de5dbf03
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915534"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387273"
 ---
 # <a name="set-up-multiple-interest-rates"></a>Paramétrer plusieurs taux d’intérêt
 Plusieurs taux d’intérêt multiples sont utilisés pour différentes périodes pour les paiements retardés dans les transactions commerciales. Par exemple, un gouvernement définit l’intérêt maximum à prélever pour un consommateur. Ce taux d’intérêt peut être modifié deux fois par an le 1er janvier et le 1er juillet inclus. Le taux d’intérêt entre les sociétés (B2B) est accepté par les parties et il n’existe aucune limite à ce groupe de clients. Le taux annoncé est généralement quatre fois supérieur aux intérêts bancaires normaux.

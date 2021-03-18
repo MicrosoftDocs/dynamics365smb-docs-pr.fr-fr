@@ -3,19 +3,19 @@ title: Comptabilité en France
 description: Une fonctionnalité d'écritures comptables spéciale existe pour la version française de Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 28b181c589794c6845af236cbdef061ad5c4fd5f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 28f0d6649d5a6c1e8af851d151af43cd4cbb728f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920156"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380317"
 ---
 # <a name="general-ledger-in-france"></a>Comptabilité en France
 

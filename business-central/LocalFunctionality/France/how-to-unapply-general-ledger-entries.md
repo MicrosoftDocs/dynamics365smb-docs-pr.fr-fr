@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ac2bf5cd993c45e7c76ee0a5f1859580972e4137
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 003bc8f694652e15ced1e5aa0b49a141dafb7553
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920108"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381666"
 ---
 # <a name="unapply-general-ledger-entries"></a>Délettrer des écritures comptables
 Vous pouvez délettrer des écritures comptables de manière très directe.  

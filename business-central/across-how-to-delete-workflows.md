@@ -3,19 +3,19 @@ title: 'Procédure : supprimer des workflows | Microsoft Docs'
 description: Si vous êtes certain qu’un workflow n’est plus utilisé, vous pouvez le supprimer. Toutes les instances d’étape de workflow définies dans le workflow doivent avoir le statut **Terminé**.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d9b1990e1379b958aaa3723b4e5a984d066d0b2e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e665eaa03f52083b8e68424ec64468194a10f2cf
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915834"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384473"
 ---
 # <a name="delete-workflows"></a>Supprimer des workflows
 Si vous êtes certain qu’un workflow n’est plus utilisé, vous pouvez le supprimer. Toutes les instances d’étape de workflow définies dans le workflow doivent avoir le statut **Terminé**.  
