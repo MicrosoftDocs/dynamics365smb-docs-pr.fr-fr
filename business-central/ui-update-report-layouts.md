@@ -3,19 +3,19 @@ title: Mise à jour d’une présentation d’état | Microsoft Docs
 description: Vous pouvez être amené à mettre à jour une présentation d’état personnalisée qui est utilisée dans un état. Cela est nécessaire si une modification de conception a été apportée à l’ensemble de données de l’état, par exemple, si un champ utilisé dans la présentation a été supprimé de l’ensemble de données de l’état.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: de9f82e0de16649b9481018213fa048313d4fb96
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b2221929482fa0650d245b63a0fa056cf3b7bb4e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925471"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391948"
 ---
 # <a name="update-custom-report-layouts"></a>Mettre à jour les présentations d’état personnalisées
 À l’occasion, vous pouvez être amené à mettre à jour une présentation d’état personnalisée qui est utilisée dans un état. Cela est nécessaire si une modification de conception a été apportée à l’ensemble de données de l’état, par exemple, si un champ utilisé dans la présentation a été supprimé de l’ensemble de données de l’état. Si une présentation de rapport requiert une mise à jour, vous obtiendrez un message d’erreur lorsque vous tentez de visualiser, d’imprimer ou d’enregistrer le rapport.  
