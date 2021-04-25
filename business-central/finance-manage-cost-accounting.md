@@ -8,34 +8,34 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 41c4a56ca390a53a8eabc6af6f5aaa4a3f6cc16d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6505633f7535ed2b9f36d6670d4fdc1d6a6c4172
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391823"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788176"
 ---
-# <a name="accounting-for-costs"></a><span data-ttu-id="37ad9-104">Comptabilité pour les coûts</span><span class="sxs-lookup"><span data-stu-id="37ad9-104">Accounting for Costs</span></span>
-<span data-ttu-id="37ad9-105">La comptabilité analytique vous permet de cerner les coûts liés à l’exploitation d’un activité.</span><span class="sxs-lookup"><span data-stu-id="37ad9-105">Cost accounting is used to help you understand the costs of running a business.</span></span> <span data-ttu-id="37ad9-106">Pour vous familiariser avec la comptabilité analytique, reportez-vous aux rubriques suivantes.</span><span class="sxs-lookup"><span data-stu-id="37ad9-106">To get started with cost accounting, see the following topics.</span></span>  
+# <a name="accounting-for-costs"></a><span data-ttu-id="f21fd-104">Comptabilité pour les coûts</span><span class="sxs-lookup"><span data-stu-id="f21fd-104">Accounting for Costs</span></span>
+<span data-ttu-id="f21fd-105">La comptabilité analytique vous permet de cerner les coûts liés à l’exploitation d’un activité.</span><span class="sxs-lookup"><span data-stu-id="f21fd-105">Cost accounting is used to help you understand the costs of running a business.</span></span> <span data-ttu-id="f21fd-106">Pour vous familiariser avec la comptabilité analytique, reportez-vous aux rubriques suivantes.</span><span class="sxs-lookup"><span data-stu-id="f21fd-106">To get started with cost accounting, see the following topics.</span></span>  
 
-|<span data-ttu-id="37ad9-107">Pour</span><span class="sxs-lookup"><span data-stu-id="37ad9-107">To</span></span>|<span data-ttu-id="37ad9-108">Voir</span><span class="sxs-lookup"><span data-stu-id="37ad9-108">See</span></span>|  
+|<span data-ttu-id="f21fd-107">Pour</span><span class="sxs-lookup"><span data-stu-id="f21fd-107">To</span></span>|<span data-ttu-id="f21fd-108">Voir</span><span class="sxs-lookup"><span data-stu-id="f21fd-108">See</span></span>|  
 |--------|---------|  
-|<span data-ttu-id="37ad9-109">Familiarisez-vous avec la terminologie utilisée en comptabilité analytique.</span><span class="sxs-lookup"><span data-stu-id="37ad9-109">Understand the terminology that is used in cost accounting.</span></span>|[<span data-ttu-id="37ad9-110">Terminologie en comptabilité analytique</span><span class="sxs-lookup"><span data-stu-id="37ad9-110">Terminology in Cost Accounting</span></span>](finance-terminology-in-cost-accounting.md)|  
-|<span data-ttu-id="37ad9-111">Maîtrisez les principes de la comptabilité analytique.</span><span class="sxs-lookup"><span data-stu-id="37ad9-111">Get an overall understanding of cost accounting.</span></span>|[<span data-ttu-id="37ad9-112">À propos de la comptabilité analytique</span><span class="sxs-lookup"><span data-stu-id="37ad9-112">About Cost Accounting</span></span>](finance-about-cost-accounting.md)|  
-|<span data-ttu-id="37ad9-113">Configurez le système de comptabilité analytique.</span><span class="sxs-lookup"><span data-stu-id="37ad9-113">Configure the cost accounting system.</span></span>|[<span data-ttu-id="37ad9-114">Paramétrage du contrôle de gestion</span><span class="sxs-lookup"><span data-stu-id="37ad9-114">Setting Up Cost Accounting</span></span>](finance-set-up-cost-accounting.md)|  
-|<span data-ttu-id="37ad9-115">Transférez des écritures comptables vers les écritures de coûts.</span><span class="sxs-lookup"><span data-stu-id="37ad9-115">Transfer general ledger entries to cost entries.</span></span>|[<span data-ttu-id="37ad9-116">Transfert et validation des écritures de coûts</span><span class="sxs-lookup"><span data-stu-id="37ad9-116">Transferring and Posting Cost Entries</span></span>](finance-transfer-and-post-cost-entries.md)|  
-|<span data-ttu-id="37ad9-117">Affecter des coûts.</span><span class="sxs-lookup"><span data-stu-id="37ad9-117">Allocate costs.</span></span>|[<span data-ttu-id="37ad9-118">Définition et répartition des coûts</span><span class="sxs-lookup"><span data-stu-id="37ad9-118">Defining and Allocating Costs</span></span>](finance-define-and-allocate-costs.md)|  
-|<span data-ttu-id="37ad9-119">Découvrez les processus de création des budgets de coûts.</span><span class="sxs-lookup"><span data-stu-id="37ad9-119">Learn the processes in creating cost budgets.</span></span>|[<span data-ttu-id="37ad9-120">Création des budgets des coûts</span><span class="sxs-lookup"><span data-stu-id="37ad9-120">Creating Cost Budgets</span></span>](finance-create-cost-budgets.md)|
-|<span data-ttu-id="37ad9-121">Annulez des écritures de coûts à partir du registre du budget des coûts.</span><span class="sxs-lookup"><span data-stu-id="37ad9-121">Cancel cost budget entries from the cost budget register.</span></span>|[<span data-ttu-id="37ad9-122">Suppression des écritures budget des coûts</span><span class="sxs-lookup"><span data-stu-id="37ad9-122">Deleting Cost Budget Entries</span></span>](finance-how-to-delete-cost-budget-entries.md)|
+|<span data-ttu-id="f21fd-109">Familiarisez-vous avec la terminologie utilisée en comptabilité analytique.</span><span class="sxs-lookup"><span data-stu-id="f21fd-109">Understand the terminology that is used in cost accounting.</span></span>|[<span data-ttu-id="f21fd-110">Terminologie en comptabilité analytique</span><span class="sxs-lookup"><span data-stu-id="f21fd-110">Terminology in Cost Accounting</span></span>](finance-terminology-in-cost-accounting.md)|  
+|<span data-ttu-id="f21fd-111">Maîtrisez les principes de la comptabilité analytique.</span><span class="sxs-lookup"><span data-stu-id="f21fd-111">Get an overall understanding of cost accounting.</span></span>|[<span data-ttu-id="f21fd-112">À propos de la comptabilité analytique</span><span class="sxs-lookup"><span data-stu-id="f21fd-112">About Cost Accounting</span></span>](finance-about-cost-accounting.md)|  
+|<span data-ttu-id="f21fd-113">Configurez le système de comptabilité analytique.</span><span class="sxs-lookup"><span data-stu-id="f21fd-113">Configure the cost accounting system.</span></span>|[<span data-ttu-id="f21fd-114">Paramétrage du contrôle de gestion</span><span class="sxs-lookup"><span data-stu-id="f21fd-114">Setting Up Cost Accounting</span></span>](finance-set-up-cost-accounting.md)|  
+|<span data-ttu-id="f21fd-115">Transférez des écritures comptables vers les écritures de coûts.</span><span class="sxs-lookup"><span data-stu-id="f21fd-115">Transfer general ledger entries to cost entries.</span></span>|[<span data-ttu-id="f21fd-116">Transfert et validation des écritures de coûts</span><span class="sxs-lookup"><span data-stu-id="f21fd-116">Transferring and Posting Cost Entries</span></span>](finance-transfer-and-post-cost-entries.md)|  
+|<span data-ttu-id="f21fd-117">Affecter des coûts.</span><span class="sxs-lookup"><span data-stu-id="f21fd-117">Allocate costs.</span></span>|[<span data-ttu-id="f21fd-118">Définition et répartition des coûts</span><span class="sxs-lookup"><span data-stu-id="f21fd-118">Defining and Allocating Costs</span></span>](finance-define-and-allocate-costs.md)|  
+|<span data-ttu-id="f21fd-119">Découvrez les processus de création des budgets de coûts.</span><span class="sxs-lookup"><span data-stu-id="f21fd-119">Learn the processes in creating cost budgets.</span></span>|[<span data-ttu-id="f21fd-120">Création des budgets des coûts</span><span class="sxs-lookup"><span data-stu-id="f21fd-120">Creating Cost Budgets</span></span>](finance-create-cost-budgets.md)|
+|<span data-ttu-id="f21fd-121">Annulez des écritures de coûts à partir du registre du budget des coûts.</span><span class="sxs-lookup"><span data-stu-id="f21fd-121">Cancel cost budget entries from the cost budget register.</span></span>|[<span data-ttu-id="f21fd-122">Suppression des écritures budget des coûts</span><span class="sxs-lookup"><span data-stu-id="f21fd-122">Deleting Cost Budget Entries</span></span>](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a><span data-ttu-id="37ad9-123">Voir la formation associée sur [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)</span><span class="sxs-lookup"><span data-stu-id="37ad9-123">See Related Training at [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)</span></span>
+## <a name="see-related-training-at-microsoft-learn"></a><span data-ttu-id="f21fd-123">Voir la formation associée sur [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)</span><span class="sxs-lookup"><span data-stu-id="f21fd-123">See Related Training at [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="37ad9-124">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="37ad9-124">See Also</span></span>  
-[<span data-ttu-id="37ad9-125">Finances</span><span class="sxs-lookup"><span data-stu-id="37ad9-125">Finance</span></span>](finance.md)  
-[<span data-ttu-id="37ad9-126">Gestion des coûts ajustés</span><span class="sxs-lookup"><span data-stu-id="37ad9-126">Managing Inventory Costs</span></span>](finance-manage-inventory-costs.md)  
-<span data-ttu-id="37ad9-127">[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="37ad9-127">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="f21fd-124">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f21fd-124">See Also</span></span>  
+[<span data-ttu-id="f21fd-125">Finances</span><span class="sxs-lookup"><span data-stu-id="f21fd-125">Finance</span></span>](finance.md)  
+[<span data-ttu-id="f21fd-126">Gestion des coûts ajustés</span><span class="sxs-lookup"><span data-stu-id="f21fd-126">Managing Inventory Costs</span></span>](finance-manage-inventory-costs.md)  
+<span data-ttu-id="f21fd-127">[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="f21fd-127">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

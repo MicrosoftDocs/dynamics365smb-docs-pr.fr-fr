@@ -10,36 +10,36 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f4028a7c081bf73c23c57bcb4707d678b4e47d6
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3fe164e6e71756ee56990610bc6c6cb0557ad2c3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393073"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785847"
 ---
-# <a name="revalue-inventory"></a><span data-ttu-id="90042-103">Réévaluer le stock</span><span class="sxs-lookup"><span data-stu-id="90042-103">Revalue Inventory</span></span>
-<span data-ttu-id="90042-104">Pour réévaluer ou amortir un article ou une écriture comptable article spécifique, vous devez utiliser la feuille réévaluation.</span><span class="sxs-lookup"><span data-stu-id="90042-104">If you want to appreciate or depreciate an item or a specific item ledger entry, you must use the revaluation journal.</span></span>
+# <a name="revalue-inventory"></a><span data-ttu-id="10eb5-103">Réévaluer le stock</span><span class="sxs-lookup"><span data-stu-id="10eb5-103">Revalue Inventory</span></span>
+<span data-ttu-id="10eb5-104">Pour réévaluer ou amortir un article ou une écriture comptable article spécifique, vous devez utiliser la feuille réévaluation.</span><span class="sxs-lookup"><span data-stu-id="10eb5-104">If you want to appreciate or depreciate an item or a specific item ledger entry, you must use the revaluation journal.</span></span>
 
-## <a name="to-revalue-inventory"></a><span data-ttu-id="90042-105">Pour réévaluer le stock</span><span class="sxs-lookup"><span data-stu-id="90042-105">To revalue inventory</span></span>
-1. <span data-ttu-id="90042-106">Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille réévaluation**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="90042-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Revaluation Journal**, and then choose the related link.</span></span>
-2. <span data-ttu-id="90042-107">Choisissez l’action **Calculer valeur stock**.</span><span class="sxs-lookup"><span data-stu-id="90042-107">Choose the **Calculate Inventory Value** action.</span></span>
-3. <span data-ttu-id="90042-108">Sur la page **Calculer valeur stock**, renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="90042-108">On the **Calculate Inventory Value** page, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. <span data-ttu-id="90042-109">Choisissez le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="90042-109">Choose the **OK** button.</span></span>
-5. <span data-ttu-id="90042-110">Sur chaque ligne de la page **Feuille réévaluation**, indiquez le nouveau coût unitaire dans le champ **Coût unitaire (réévalué)**.</span><span class="sxs-lookup"><span data-stu-id="90042-110">On each line on the **Revaluation Journal** page, in the **Unit Cost (Revalued)** field, enter the new unit cost.</span></span> <span data-ttu-id="90042-111">Vous pouvez aussi indiquer le nouveau montant total dans le champ **Valeur stock (réévaluée)**.</span><span class="sxs-lookup"><span data-stu-id="90042-111">Alternatively, enter the new total amount in the **Inventory Value (Revalued)** field.</span></span>
+## <a name="to-revalue-inventory"></a><span data-ttu-id="10eb5-105">Pour réévaluer le stock</span><span class="sxs-lookup"><span data-stu-id="10eb5-105">To revalue inventory</span></span>
+1. <span data-ttu-id="10eb5-106">Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille réévaluation**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="10eb5-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Revaluation Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="10eb5-107">Choisissez l’action **Calculer valeur stock**.</span><span class="sxs-lookup"><span data-stu-id="10eb5-107">Choose the **Calculate Inventory Value** action.</span></span>
+3. <span data-ttu-id="10eb5-108">Sur la page **Calculer valeur stock**, renseignez les champs selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="10eb5-108">On the **Calculate Inventory Value** page, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. <span data-ttu-id="10eb5-109">Choisissez le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="10eb5-109">Choose the **OK** button.</span></span>
+5. <span data-ttu-id="10eb5-110">Sur chaque ligne de la page **Feuille réévaluation**, indiquez le nouveau coût unitaire dans le champ **Coût unitaire (réévalué)**.</span><span class="sxs-lookup"><span data-stu-id="10eb5-110">On each line on the **Revaluation Journal** page, in the **Unit Cost (Revalued)** field, enter the new unit cost.</span></span> <span data-ttu-id="10eb5-111">Vous pouvez aussi indiquer le nouveau montant total dans le champ **Valeur stock (réévaluée)**.</span><span class="sxs-lookup"><span data-stu-id="10eb5-111">Alternatively, enter the new total amount in the **Inventory Value (Revalued)** field.</span></span>
 
-    <span data-ttu-id="90042-112">Les champs appropriés sont automatiquement mis à jour.</span><span class="sxs-lookup"><span data-stu-id="90042-112">The relevant fields are automatically updated.</span></span> <span data-ttu-id="90042-113">Remarque : le champ **Montant** affiche la modification réelle de la valeur du stock pour l’écriture comptable article sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="90042-113">Note that the **Amount** field shows the actual change in inventory value for the selected item ledger entry.</span></span> <span data-ttu-id="90042-114">Il calcule la différence entre les champs **Valeur stock (calculée)** et **Valeur stock (réévaluée)**.</span><span class="sxs-lookup"><span data-stu-id="90042-114">It calculates the difference between the **Inventory Value (Calculated)** field and the **Inventory Value (Revalued)** field.</span></span>
-6. <span data-ttu-id="90042-115">Lorsque vous avez renseigné toutes les lignes de la feuille réévaluation, choisissez l’action **Valider**.</span><span class="sxs-lookup"><span data-stu-id="90042-115">When you have completed all lines in the revaluation journal, choose the **Post** action.</span></span>
+    <span data-ttu-id="10eb5-112">Les champs appropriés sont automatiquement mis à jour.</span><span class="sxs-lookup"><span data-stu-id="10eb5-112">The relevant fields are automatically updated.</span></span> <span data-ttu-id="10eb5-113">Remarque : le champ **Montant** affiche la modification réelle de la valeur du stock pour l’écriture comptable article sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="10eb5-113">Note that the **Amount** field shows the actual change in inventory value for the selected item ledger entry.</span></span> <span data-ttu-id="10eb5-114">Il calcule la différence entre les champs **Valeur stock (calculée)** et **Valeur stock (réévaluée)**.</span><span class="sxs-lookup"><span data-stu-id="10eb5-114">It calculates the difference between the **Inventory Value (Calculated)** field and the **Inventory Value (Revalued)** field.</span></span>
+6. <span data-ttu-id="10eb5-115">Lorsque vous avez renseigné toutes les lignes de la feuille réévaluation, choisissez l’action **Valider**.</span><span class="sxs-lookup"><span data-stu-id="10eb5-115">When you have completed all lines in the revaluation journal, choose the **Post** action.</span></span>
 
-<span data-ttu-id="90042-116">Les nouvelles écritures valeur sont alors créées pour refléter les réévaluations que vous avez validées.</span><span class="sxs-lookup"><span data-stu-id="90042-116">New value entries are now created to reflect the revaluations that you have posted.</span></span> <span data-ttu-id="90042-117">Vous pouvez visualiser les nouvelles valeurs dans les fiches article concernées.</span><span class="sxs-lookup"><span data-stu-id="90042-117">You can see the new values on the respective item cards.</span></span>
+<span data-ttu-id="10eb5-116">Les nouvelles écritures valeur sont alors créées pour refléter les réévaluations que vous avez validées.</span><span class="sxs-lookup"><span data-stu-id="10eb5-116">New value entries are now created to reflect the revaluations that you have posted.</span></span> <span data-ttu-id="10eb5-117">Vous pouvez visualiser les nouvelles valeurs dans les fiches article concernées.</span><span class="sxs-lookup"><span data-stu-id="10eb5-117">You can see the new values on the respective item cards.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="90042-118">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="90042-118">See Also</span></span>
-[<span data-ttu-id="90042-119">Détails de conception : réévaluation</span><span class="sxs-lookup"><span data-stu-id="90042-119">Design Details: Revaluation</span></span>](design-details-revaluation.md)  
-[<span data-ttu-id="90042-120">Stock</span><span class="sxs-lookup"><span data-stu-id="90042-120">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="90042-121">Ventes</span><span class="sxs-lookup"><span data-stu-id="90042-121">Sales</span></span>](sales-manage-sales.md)  
-[<span data-ttu-id="90042-122">Achats</span><span class="sxs-lookup"><span data-stu-id="90042-122">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-<span data-ttu-id="90042-123">[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="90042-123">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="10eb5-118">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="10eb5-118">See Also</span></span>
+[<span data-ttu-id="10eb5-119">Détails de conception : réévaluation</span><span class="sxs-lookup"><span data-stu-id="10eb5-119">Design Details: Revaluation</span></span>](design-details-revaluation.md)  
+[<span data-ttu-id="10eb5-120">Stock</span><span class="sxs-lookup"><span data-stu-id="10eb5-120">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="10eb5-121">Ventes</span><span class="sxs-lookup"><span data-stu-id="10eb5-121">Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="10eb5-122">Achats</span><span class="sxs-lookup"><span data-stu-id="10eb5-122">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="10eb5-123">[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="10eb5-123">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
