@@ -10,66 +10,66 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 868915ebe6a41153d59550f74a955a3ce00b4b15
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 2ccecd22db33e3ce734dd5a5d280f45d22bb2751
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882129"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074561"
 ---
-# <a name="install-the-prod_short-app-for-microsoft-teams"></a><span data-ttu-id="bef62-103">Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="bef62-103">Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams</span></span>
+# <a name="install-the-prod_short-app-for-microsoft-teams"></a><span data-ttu-id="07b6f-103">Installer l’application [!INCLUDE [prod_short](includes/prod_short.md)] pour Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="07b6f-103">Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams</span></span>
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-<span data-ttu-id="bef62-104">Dans cet article, vous apprendrez à installer l’appplication [!INCLUDE [prod_short](includes/prod_short.md)] pour [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams).</span><span class="sxs-lookup"><span data-stu-id="bef62-104">In this article, you learn how to install the [!INCLUDE [prod_short](includes/prod_short.md)] App for [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams).</span></span> <span data-ttu-id="bef62-105">L’application est disponible sur le marché Teams et vous pouvez l’utiliser avec l’application web, de bureau ou mobile Teams.</span><span class="sxs-lookup"><span data-stu-id="bef62-105">The app is available on the Teams marketplace, and you can use it with the Teams web, desktop, or mobile app.</span></span>
+<span data-ttu-id="07b6f-104">Dans cet article, vous apprendrez à installer l’appplication [!INCLUDE [prod_short](includes/prod_short.md)] pour [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams).</span><span class="sxs-lookup"><span data-stu-id="07b6f-104">In this article, you learn how to install the [!INCLUDE [prod_short](includes/prod_short.md)] App for [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams).</span></span> <span data-ttu-id="07b6f-105">L’application est disponible sur le marché Teams et vous pouvez l’utiliser avec l’application web, de bureau ou mobile Teams.</span><span class="sxs-lookup"><span data-stu-id="07b6f-105">The app is available on the Teams marketplace, and you can use it with the Teams web, desktop, or mobile app.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="bef62-106">Conditions préalables</span><span class="sxs-lookup"><span data-stu-id="bef62-106">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="07b6f-106">Conditions préalables</span><span class="sxs-lookup"><span data-stu-id="07b6f-106">Prerequisites</span></span>
 
-- <span data-ttu-id="bef62-107">Un compte d'utilisateur [!INCLUDE [prod_short](includes/prod_short.md)] Online est requis pour l'application [!INCLUDE [prod_short](includes/prod_short.md)] pour Teams.</span><span class="sxs-lookup"><span data-stu-id="bef62-107">A [!INCLUDE [prod_short](includes/prod_short.md)] online user account is required for [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams.</span></span>
+- <span data-ttu-id="07b6f-107">Un compte d'utilisateur [!INCLUDE [prod_short](includes/prod_short.md)] Online est requis pour l'application [!INCLUDE [prod_short](includes/prod_short.md)] pour Teams.</span><span class="sxs-lookup"><span data-stu-id="07b6f-107">A [!INCLUDE [prod_short](includes/prod_short.md)] online user account is required for [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams.</span></span>
 
-    <span data-ttu-id="bef62-108">Si vous n’êtes pas certain de disposer d’un compte ou si vous ne connaissez pas vos informations d’identification pour vous connecter, contactez l’administrateur de votre société pour vous aider à commencer.</span><span class="sxs-lookup"><span data-stu-id="bef62-108">If you’re not sure whether you have an account, or if you don’t know your credentials for signing in, contact your company administrator to help you get started.</span></span>
+    <span data-ttu-id="07b6f-108">Si vous n’êtes pas certain de disposer d’un compte ou si vous ne connaissez pas vos informations d’identification pour vous connecter, contactez l’administrateur de votre société pour vous aider à commencer.</span><span class="sxs-lookup"><span data-stu-id="07b6f-108">If you’re not sure whether you have an account, or if you don’t know your credentials for signing in, contact your company administrator to help you get started.</span></span>
 
-- <span data-ttu-id="bef62-109">Accédez à l’application de bureau Teams ou à Teams dans le navigateur.</span><span class="sxs-lookup"><span data-stu-id="bef62-109">Access to the Teams desktop app or Teams in the browser.</span></span> <span data-ttu-id="bef62-110">Vous ne pouvez pas installer le [!INCLUDE [prod_short](includes/prod_short.md)] en utilisant l’application mobile Teams.</span><span class="sxs-lookup"><span data-stu-id="bef62-110">You can't install the [!INCLUDE [prod_short](includes/prod_short.md)] by using Teams mobile app.</span></span>
+- <span data-ttu-id="07b6f-109">Accédez à l’application de bureau Teams ou à Teams dans le navigateur.</span><span class="sxs-lookup"><span data-stu-id="07b6f-109">Access to the Teams desktop app or Teams in the browser.</span></span> <span data-ttu-id="07b6f-110">Vous ne pouvez pas installer le [!INCLUDE [prod_short](includes/prod_short.md)] en utilisant l’application mobile Teams.</span><span class="sxs-lookup"><span data-stu-id="07b6f-110">You can't install the [!INCLUDE [prod_short](includes/prod_short.md)] by using Teams mobile app.</span></span>
 
-- <span data-ttu-id="bef62-111">Les stratégies de votre organisation doivent vous permettre d’installer des applications dans Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="bef62-111">Your organization's policies allow you to install apps in Microsoft Teams.</span></span>
+- <span data-ttu-id="07b6f-111">Les stratégies de votre organisation doivent vous permettre d’installer des applications dans Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="07b6f-111">Your organization's policies allow you to install apps in Microsoft Teams.</span></span>
 
-## <a name="add-the-business-central-app-to-teams"></a><span data-ttu-id="bef62-112">Ajouter l’application Business Central à Teams</span><span class="sxs-lookup"><span data-stu-id="bef62-112">Add the Business Central app to Teams</span></span>
+## <a name="add-the-business-central-app-to-teams"></a><span data-ttu-id="07b6f-112">Ajouter l’application Business Central à Teams</span><span class="sxs-lookup"><span data-stu-id="07b6f-112">Add the Business Central app to Teams</span></span>
 
-<span data-ttu-id="bef62-113">Il existe deux façons d’installer l’application Business Central :</span><span class="sxs-lookup"><span data-stu-id="bef62-113">There are two ways to install the Business Central app:</span></span>
+<span data-ttu-id="07b6f-113">Il existe deux façons d’installer l’application Business Central :</span><span class="sxs-lookup"><span data-stu-id="07b6f-113">There are two ways to install the Business Central app:</span></span>
 
-<span data-ttu-id="bef62-114">**Option 1**</span><span class="sxs-lookup"><span data-stu-id="bef62-114">**Option 1**</span></span>
+<span data-ttu-id="07b6f-114">**Option 1**</span><span class="sxs-lookup"><span data-stu-id="07b6f-114">**Option 1**</span></span>
 
-<span data-ttu-id="bef62-115">Cette option est le moyen le plus rapide d’installer l’application.</span><span class="sxs-lookup"><span data-stu-id="bef62-115">This option is the quickest way to install the app.</span></span>
+<span data-ttu-id="07b6f-115">Cette option est le moyen le plus rapide d’installer l’application.</span><span class="sxs-lookup"><span data-stu-id="07b6f-115">This option is the quickest way to install the app.</span></span>
 
-1. <span data-ttu-id="bef62-116">Sélectionnez ce lien : [https://teams.microsoft.com/l/app/84c2de91-84e8-4bbf-b15d-9ef33245ad29](https://teams.microsoft.com/l/app/84c2de91-84e8-4bbf-b15d-9ef33245ad29).</span><span class="sxs-lookup"><span data-stu-id="bef62-116">Select this link: [https://teams.microsoft.com/l/app/84c2de91-84e8-4bbf-b15d-9ef33245ad29](https://teams.microsoft.com/l/app/84c2de91-84e8-4bbf-b15d-9ef33245ad29).</span></span>
+1. <span data-ttu-id="07b6f-116">Sélectionnez ce lien : [https://teams.microsoft.com/l/app/84c2de91-84e8-4bbf-b15d-9ef33245ad29](https://teams.microsoft.com/l/app/84c2de91-84e8-4bbf-b15d-9ef33245ad29).</span><span class="sxs-lookup"><span data-stu-id="07b6f-116">Select this link: [https://teams.microsoft.com/l/app/84c2de91-84e8-4bbf-b15d-9ef33245ad29](https://teams.microsoft.com/l/app/84c2de91-84e8-4bbf-b15d-9ef33245ad29).</span></span>
 
-2. <span data-ttu-id="bef62-117">Attendez que l’application Business Central apparaisse.</span><span class="sxs-lookup"><span data-stu-id="bef62-117">Wait for the Business Central app to appear.</span></span>
+2. <span data-ttu-id="07b6f-117">Attendez que l’application Business Central apparaisse.</span><span class="sxs-lookup"><span data-stu-id="07b6f-117">Wait for the Business Central app to appear.</span></span>
 
     ![Installer l’application Business Central dans Teams](media/teams-install-app.png)
 
-3. <span data-ttu-id="bef62-119">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="bef62-119">Select **Add**.</span></span>
+3. <span data-ttu-id="07b6f-119">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="07b6f-119">Select **Add**.</span></span>
 
-<span data-ttu-id="bef62-120">**Option 2**</span><span class="sxs-lookup"><span data-stu-id="bef62-120">**Option 2**</span></span>
+<span data-ttu-id="07b6f-120">**Option 2**</span><span class="sxs-lookup"><span data-stu-id="07b6f-120">**Option 2**</span></span>
 
-1. <span data-ttu-id="bef62-121">Ouvrez et connectez-vous à Teams.</span><span class="sxs-lookup"><span data-stu-id="bef62-121">Open and sign in to Teams.</span></span>
-2. <span data-ttu-id="bef62-122">Dans la partie gauche, sélectionnez **Applications**.</span><span class="sxs-lookup"><span data-stu-id="bef62-122">In the left side, select **Apps**.</span></span>
-3. <span data-ttu-id="bef62-123">Recherchez **Business Central**.</span><span class="sxs-lookup"><span data-stu-id="bef62-123">Search for **Business Central**.</span></span>
-4. <span data-ttu-id="bef62-124">Sélectionnez l’application lorsque vous la trouvez.</span><span class="sxs-lookup"><span data-stu-id="bef62-124">Select the app when you find it.</span></span>
-5. <span data-ttu-id="bef62-125">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="bef62-125">Select **Add**.</span></span>
+1. <span data-ttu-id="07b6f-121">Ouvrez et connectez-vous à Teams.</span><span class="sxs-lookup"><span data-stu-id="07b6f-121">Open and sign in to Teams.</span></span>
+2. <span data-ttu-id="07b6f-122">Dans la partie gauche, sélectionnez **Applications**.</span><span class="sxs-lookup"><span data-stu-id="07b6f-122">In the left side, select **Apps**.</span></span>
+3. <span data-ttu-id="07b6f-123">Recherchez **Business Central**.</span><span class="sxs-lookup"><span data-stu-id="07b6f-123">Search for **Business Central**.</span></span>
+4. <span data-ttu-id="07b6f-124">Sélectionnez l’application lorsque vous la trouvez.</span><span class="sxs-lookup"><span data-stu-id="07b6f-124">Select the app when you find it.</span></span>
+5. <span data-ttu-id="07b6f-125">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="07b6f-125">Select **Add**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="bef62-126">Avec l'une ou l'autre option, vous pouvez être invité à vous connecter à [!INCLUDE [prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="bef62-126">With either option, You may be asked to sign in to [!INCLUDE [prod_short](includes/prod_short.md)].</span></span> <span data-ttu-id="bef62-127">Sélectionnez le lien **connexion** et suivez les instructions pour saisir le nom de connexion et le mot de passe pour [!INCLUDE [prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="bef62-127">Select the **sign in** link, and follow the instructions to enter sign-in name and password for [!INCLUDE [prod_short](includes/prod_short.md)].</span></span>
+> <span data-ttu-id="07b6f-126">Avec l'une ou l'autre option, vous pouvez être invité à vous connecter à [!INCLUDE [prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="07b6f-126">With either option, You may be asked to sign in to [!INCLUDE [prod_short](includes/prod_short.md)].</span></span> <span data-ttu-id="07b6f-127">Sélectionnez le lien **connexion** et suivez les instructions pour saisir le nom de connexion et le mot de passe pour [!INCLUDE [prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="07b6f-127">Select the **sign in** link, and follow the instructions to enter sign-in name and password for [!INCLUDE [prod_short](includes/prod_short.md)].</span></span>
 
-## <a name="next-step"></a><span data-ttu-id="bef62-128">Étape suivante</span><span class="sxs-lookup"><span data-stu-id="bef62-128">Next step</span></span>
+## <a name="next-step"></a><span data-ttu-id="07b6f-128">Étape suivante</span><span class="sxs-lookup"><span data-stu-id="07b6f-128">Next step</span></span>
 
-<span data-ttu-id="bef62-129">Vous êtes maintenant prêt à utiliser l’application dans Teams pour partager des données Business Central.</span><span class="sxs-lookup"><span data-stu-id="bef62-129">You're now ready to use the app in Teams to share Business Central data.</span></span> <span data-ttu-id="bef62-130">Pour plus d’informations, voir [Utilisation des données Business Central dans Microsoft Teams](across-working-with-teams.md).</span><span class="sxs-lookup"><span data-stu-id="bef62-130">For more information, see [Working with Business Central Data in Microsoft Teams](across-working-with-teams.md).</span></span>
+<span data-ttu-id="07b6f-129">Vous êtes maintenant prêt à utiliser l’application dans Teams pour rechercher des contacts ou partager des enregistrements Business Central.</span><span class="sxs-lookup"><span data-stu-id="07b6f-129">You're now ready to use the app in Teams to search for contacts or share Business Central records.</span></span> <span data-ttu-id="07b6f-130">Pour plus d’informations, consultez [Recherche de clients, de fournisseurs et d’autres contacts dans Microsoft Teams](across-search-contacts-teams.md) ou [Partager des enregistrements dans Microsoft Teams](across-working-with-teams.md).</span><span class="sxs-lookup"><span data-stu-id="07b6f-130">For more information, see [Searching for Customers, Vendors, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md) or [Share Records in Microsoft Teams](across-working-with-teams.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="bef62-131">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="bef62-131">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="07b6f-131">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="07b6f-131">See Also</span></span>
 
-[<span data-ttu-id="bef62-132">Vue d’ensemble de l’intégration de Business Central et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="bef62-132">Business Central and Microsoft Teams Integration Overview</span></span>](across-teams-overview.md)  
-[<span data-ttu-id="bef62-133">FAQ Teams</span><span class="sxs-lookup"><span data-stu-id="bef62-133">Teams FAQ</span></span>](teams-faq.md)  
-[<span data-ttu-id="bef62-134">Résolution des incidents dans Teams</span><span class="sxs-lookup"><span data-stu-id="bef62-134">Troubleshooting Teams</span></span>](admin-teams-troubleshooting.md)  
-[<span data-ttu-id="bef62-135">Développement pour l’intégration de Teams</span><span class="sxs-lookup"><span data-stu-id="bef62-135">Developing for Teams Integration</span></span>](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
+[<span data-ttu-id="07b6f-132">Vue d’ensemble de l’intégration de Business Central et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="07b6f-132">Business Central and Microsoft Teams Integration Overview</span></span>](across-teams-overview.md)  
+[<span data-ttu-id="07b6f-133">FAQ Teams</span><span class="sxs-lookup"><span data-stu-id="07b6f-133">Teams FAQ</span></span>](teams-faq.md)  
+[<span data-ttu-id="07b6f-134">Résolution des incidents dans Teams</span><span class="sxs-lookup"><span data-stu-id="07b6f-134">Troubleshooting Teams</span></span>](admin-teams-troubleshooting.md)  
+[<span data-ttu-id="07b6f-135">Développement pour l’intégration de Teams</span><span class="sxs-lookup"><span data-stu-id="07b6f-135">Developing for Teams Integration</span></span>](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
