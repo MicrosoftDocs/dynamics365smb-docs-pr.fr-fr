@@ -1,6 +1,6 @@
 ---
 title: Fonctionnalité locale, France
-description: Les rubriques suivantes décrivent la fonctionnalité locale de la version française de Business Central.
+description: Les rubriques suivantes décrivent la fonctionnalité locale de la version française de Business Central.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.author: soalex
-ms.openlocfilehash: 06a4024f9e11643b1e1c7e020ad42bb074475635
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5a95c3c25bfae479894eb1a73d4cb0c42bf00af7
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784655"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323556"
 ---
 # <a name="france-local-functionality"></a>Fonctionnalité locale, France
 
@@ -26,7 +26,7 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
 * TVA
     * [Exporter les écritures comptables pour les audits fiscaux](how-to-export-general-ledger-entries-for-tax-audits.md) **Disponible maintenant**
     * [Exporter les écritures comptables vers un fichier XML](how-to-export-general-ledger-entries-to-an-xml-file.md) **Disponible maintenant**
-    * [Configuration requise pour la déclaration d'échanges de biens](requirements-for-reporting-declaration-of-trade-in-goods.md) **Disponible maintenant**
+    * [Configuration requise pour la déclaration d’échanges de biens](requirements-for-reporting-declaration-of-trade-in-goods.md) **Disponible maintenant**
 
 * Banque et paiements
     * [Configurer les adresses de paiement](how-to-set-up-payment-addresses.md) **Disponible maintenant**
@@ -50,17 +50,17 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
     * [Périodes fiscales et exercices comptables](fiscal-periods-and-fiscal-years.md) **Disponible maintenant**
     * [Écritures comptables](general-ledger.md) **Disponible maintenant**
     * [Ouvrir un duplicata de nouvel exercice comptable](how-to-open-a-new-fiscal-year-duplicate.md) **Disponible maintenant**
-    * [Valider l'écriture de clôture d'exercice](how-to-post-the-year-end-closing-entry.md) **Disponible maintenant**
-    * [Vue d'ensemble des processus de fin d'exercice](year-end-processes-overview.md) **Disponible maintenant**
+    * [Valider l’écriture de clôture d’exercice](how-to-post-the-year-end-closing-entry.md) **Disponible maintenant**
+    * [Vue d’ensemble des processus de fin d’exercice](year-end-processes-overview.md) **Disponible maintenant**
     * [Imprimer les états comptables](how-to-print-general-ledger-reports.md) **Disponible maintenant**
     * [Rouvrir les périodes comptables](how-to-reopen-accounting-periods.md) **Disponible maintenant**
     * [Spécifier les périodes de validation](how-to-specify-posting-periods.md) **Disponible maintenant**
     * [Afficher les rapprochements comptables](how-to-view-ledger-reconciliations.md) **Disponible maintenant**
 
-* COMPTES D'IMMOBILISATIONS
-    * [Configurer l'amortissement accéléré](how-to-set-up-accelerated-depreciation.md) **Disponible maintenant**
+* COMPTES D’IMMOBILISATIONS
+    * [Configurer l’amortissement accéléré](how-to-set-up-accelerated-depreciation.md) **Disponible maintenant**
     * [Amortissement accéléré](accelerated-depreciation.md) **Disponible maintenant**
-    * [Calculer l'amortissement accéléré](how-to-calculate-accelerated-depreciation.md) **Disponible maintenant**
+    * [Calculer l’amortissement accéléré](how-to-calculate-accelerated-depreciation.md) **Disponible maintenant**
 
 ## <a name="see-also"></a>Voir aussi
 
