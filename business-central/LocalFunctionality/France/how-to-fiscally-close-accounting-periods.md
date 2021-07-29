@@ -1,6 +1,6 @@
 ---
 title: Procédure de clôture fiscale des périodes comptables
-description: Lorsqu'une période fiscale est terminée, vous pouvez la clôturer fiscalement pour veiller à ce qu'aucune autre écriture comptable ne puisse être validée.
+description: Lorsqu’une période fiscale est terminée, vous pouvez la clôturer fiscalement pour veiller à ce qu’aucune autre écriture comptable ne puisse être validée.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1333f65c5a7265b890becd87adc4736f2c79abb8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 78ae88dec98b1704799dd2da968fe234c2ecc9f0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782231"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443226"
 ---
 # <a name="fiscally-close-accounting-periods"></a>Clôturer fiscalement des périodes comptables
-Lorsqu'une période fiscale est terminée, vous pouvez la clôturer fiscalement pour veiller à ce qu'aucune autre écriture comptable ne puisse être validée.  
+Lorsqu’une période fiscale est terminée, vous pouvez la clôturer fiscalement pour veiller à ce qu’aucune autre écriture comptable ne puisse être validée.  
 
 ## <a name="to-fiscally-close-accounting-periods"></a>Pour clôturer fiscalement des périodes comptables  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Périodes comptables**, puis choisissez le lien approprié.  
-2.  Sur la page **Périodes comptables**, sélectionnez l'action **Clôturer période fiscale**.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Périodes comptables**, puis choisissez le lien pertinent.  
+2.  Sur la page **Périodes comptables**, sélectionnez l’action **Clôturer période fiscale**.  
 
-    Si plusieurs périodes fiscales ne sont pas clôturées fiscalement, la plus ancienne doit être clôturée. Un message s'affiche pour identifier la période à clôturer. Il détaille également les conséquences de cette opération.  
+    Si plusieurs périodes fiscales ne sont pas clôturées fiscalement, la plus ancienne doit être clôturée. Un message s’affiche pour identifier la période à clôturer. Il détaille également les conséquences de cette opération.  
 
 3.  Pour clôturer fiscalement la période, cliquez sur le bouton **Oui**.  
 
