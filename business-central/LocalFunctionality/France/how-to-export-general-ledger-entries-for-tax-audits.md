@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: f5fe129eaee8d205e7ac7285da64866405497cf9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ccb9ee9c0ce616837b21e2e1397d1a8490365353
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443234"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588044"
 ---
 # <a name="export-general-ledger-entries-for-tax-audits-in-the-french-version"></a>Exporter les écritures comptables pour les contrôles fiscaux en version française
 En France, les entreprises doivent fournir des informations relatives à l’impôt sur les sociétés et à la TVA, telles que les transactions et les écritures comptables, pour les audits dans un format de fichier spécifié par les autorités fiscales. Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], ces informations sont enregistrées dans un fichier d’audit standard conçu pour fournir des informations sur les types de comptes qui incluent des entrées comptabilisées.
@@ -51,9 +51,10 @@ Si vous ne fermez pas votre exercice comptable ou n’exécutez pas l’action *
 
 Lorsque vous créez l’état, [!INCLUDE[prod_short](../../includes/prod_short.md)] trie les informations de l’état en fonction des champs **N°** et **Date création** de l’historique des transactions comptables.  
 
-L’état aura le nom suivant : <taxpayername>FEC<YYYYMMDD>  
+L’état aura le nom suivant : `<taxpayername>FEC<YYYYMMDD>`  
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-also"></a>Voir aussi
+
  [Clôturer fiscalement des exercices](how-to-close-years.md)
 
 
