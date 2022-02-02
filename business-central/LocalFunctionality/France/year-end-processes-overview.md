@@ -3,19 +3,19 @@ title: Vue d’ensemble des processus de fin d’exercice [FR]
 description: Il s’agit d’un aperçu des processus impliqués dans l’écriture de clôture de fin d’exercice dans Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: b7ecc2754f3e70af2449d30cdea5ebc029536ed4
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: b32afdd21a7c25b855ee012421b83ddb655b6ddb
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321744"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011010"
 ---
 # <a name="year-end-processes-overview-in-the-french-version"></a>Vue d’ensemble des processus de fin d’année dans la version française
 
