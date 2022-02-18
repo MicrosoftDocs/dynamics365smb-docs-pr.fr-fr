@@ -1,5 +1,5 @@
 ---
-title: Procédure de lettrage des écritures comptables [FR]
+title: Lettrer des écritures comptables [FR]
 description: Vous lettrez les écritures comptables pour justifier les soldes des comptes d’actif et de passif.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 16, 10842
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 763702f79ce33d71725cb674126f8ea0b40f82a5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8a3d2d1987e59de83862637892cb9d60b67d8386
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440066"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115052"
 ---
 # <a name="apply-general-ledger-entries-in-the-french-version"></a>Appliquer les écritures comptables dans la version française
 Vous lettrez les écritures comptables pour justifier les soldes des comptes d’actif et de passif. Par exemple, vous pouvez lettrer des transactions dans les comptes de lettre de change afin d’obtenir une image précise des lettres constituant le solde du compte.  

@@ -1,8 +1,6 @@
 ---
 title: Amortissement accéléré [FR]
 description: La rubrique suivante explique comment utiliser la méthode d’amortissement accéléré pour valider les montants de taxe supplémentaires si elles remplissent les critères spécifiés.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 1a82a9f1c94845c41e5cecee031597d5935a6c8b
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0512d5f579c7997911f01a720224b625fe68f40f
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323558"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115058"
 ---
 # <a name="accelerated-depreciation-in-the-finnish-version"></a>Amortissement accéléré dans la version finlandaise
 L’amortissement accéléré est calculé sur la base des différences entre la loi d’amortissement comptable et la loi d’amortissement fiscal, sur toute la durée de vie de l’immobilisation.  
