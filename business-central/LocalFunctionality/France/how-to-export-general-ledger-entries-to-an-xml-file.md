@@ -1,30 +1,30 @@
 ---
-title: Procédure d'exportation des écritures comptables vers un fichier XML
-description: Pour l'archivage externe, et pour une période donnée, vous pouvez exporter des transactions financières vers un fichier XML.
+title: Procédure d’exportation des écritures comptables vers un fichier XML
+description: Pour l’archivage externe, et pour une période donnée, vous pouvez exporter des transactions financières vers un fichier XML.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ceefcd39d3f70ba4dc28d07cf4d62a5fa205bde3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 853b5322410e58a963d499f5358bb8cea20a015e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181199"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443230"
 ---
 # <a name="export-general-ledger-entries-to-an-xml-file"></a>Exporter des écritures comptables vers un fichier XML
-Pour l'archivage externe, et pour une période donnée, vous pouvez exporter des transactions financières vers un fichier XML. À la fin de l'exercice comptable, vous pouvez exporter les transactions comptables pour l'année clôturée en appliquant le filtre de date approprié et en exportant les transactions financières dans la période indiquée vers le fichier XML. Le fichier XML inclut toutes les informations de la transaction comptable, comme la date de validation du document, le type et le numéro du document, le type et le numéro de compte, le montant en crédit et en débit extraits de la page **Feuille comptabilité**.  
+Pour l’archivage externe, et pour une période donnée, vous pouvez exporter des transactions financières vers un fichier XML. À la fin de l’exercice comptable, vous pouvez exporter les transactions comptables pour l’année clôturée en appliquant le filtre de date approprié et en exportant les transactions financières dans la période indiquée vers le fichier XML. Le fichier XML inclut toutes les informations de la transaction comptable, comme la date de validation du document, le type et le numéro du document, le type et le numéro de compte, le montant en crédit et en débit extraits de la page **Feuille comptabilité**.  
 
 ## <a name="to-export-general-ledger-entries-to-an-xml-file"></a>Pour exporter des écritures comptables vers un fichier XML  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Exporter écritures comptables vers un fichier XML**, puis sélectionnez le lien approprié.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Exporter écritures comptables au format XML**, puis choisissez le lien approprié.  
 2.  Sur la page **Exporter écritures comptables vers un fichier XML**, sur le raccourci **Options**, renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
@@ -37,7 +37,10 @@ Pour l'archivage externe, et pour une période donnée, vous pouvez exporter des
 Vous pouvez enregistrer le fichier généré dans un emplacement spécifié, ou vous pouvez ouvrir le fichier.  
 
 > [!WARNING]  
->  Si vous avez défini les dates de début et de fin pour inclure l'exercice comptable complet, le processus peut prendre quelques minutes.  
+>  Si vous avez défini les dates de début et de fin pour inclure l’exercice comptable complet, le processus peut prendre quelques minutes.  
 
 ## <a name="see-also"></a>Voir aussi  
 [Imprimer des états de la comptabilité](how-to-print-general-ledger-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

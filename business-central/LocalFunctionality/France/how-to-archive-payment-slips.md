@@ -1,52 +1,52 @@
 ---
-title: Procédure d'archivage des bordereaux paiement
-description: Lorsqu'un bordereau paiement a été entièrement traité, vous pouvez le séparer des bordereaux paiement actifs en l'archivant.
+title: Procédure d’archivage des bordereaux paiement
+description: Lorsqu’un bordereau paiement a été entièrement traité, vous pouvez le séparer des bordereaux paiement actifs en l’archivant.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2ebcf5f7999b2a36eb4680c5adf43d855d6003fa
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: ddca9baf3bce61dc5f6664431b54bead982b01f3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181207"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440064"
 ---
 # <a name="archive-payment-slips"></a>Archiver les bordereaux de paiement
-Lorsqu'un bordereau paiement a été entièrement traité, vous pouvez le séparer des bordereaux paiement actifs en l'archivant.  
+Lorsqu’un bordereau paiement a été entièrement traité, vous pouvez le séparer des bordereaux paiement actifs en l’archivant.  
 
-Vous pouvez archiver le bordereau paiement à l'aide des méthodes suivantes :  
+Vous pouvez archiver le bordereau paiement à l’aide des méthodes suivantes :  
 
 - Manuellement pour des bordereaux paiement individuels.  
 - Automatiquement pour un lot de bordereaux paiement.  
 
 ## <a name="to-archive-a-payment-slip"></a>Pour archiver un bordereau paiement  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Bordereaux paiement**, puis sélectionnez le lien approprié.  
-2.  Sélectionnez le bordereau paiement concerné, puis cliquez sur l'action **Modifier**.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Bordereaux de paiement**, puis sélectionnez le lien pertinent.  
+2.  Sélectionnez le bordereau paiement concerné, puis cliquez sur l’action **Modifier**.  
 3.  Sur la page **Bordereau paiement**, sélectionnez **Archiver**.  
 4.  Cliquez sur le bouton **Oui** pour archiver le bordereau paiement.  
 
     > [!NOTE]  
-    >  Si le statut actuel du bordereau paiement n'autorise pas l'archivage, un message s'affiche.  
+    >  Si le statut actuel du bordereau paiement n’autorise pas l’archivage, un message s’affiche.  
 
 ## <a name="to-archive-a-batch-of-payment-slips"></a>Pour archiver un lot de bordereaux paiement  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Archiver les bordereaux de paiement**, puis sélectionnez le lien approprié.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Archiver les bordereaux de paiement**, puis sélectionnez le lien pertinent.  
 2.  Sur la page **Archiver les bordereaux de paiement**, sur le raccourci **En-tête bordereau**, sélectionnez les filtres appropriés.  
 3.  Cliquez sur le bouton **OK**.  
 
 Les bordereaux paiement sont archivés.  
 
 > [!NOTE]  
->  Ce traitement par lots archive uniquement les bordereaux paiement dont la case **Archivage autorisé** est cochée sur la page **Statut règlement**. Pour plus d'informations, voir [Paramétrer des statuts règlement](how-to-set-up-payment-statuses.md).  
+>  Ce traitement par lots archive uniquement les bordereaux paiement dont la case **Archivage autorisé** est cochée sur la page **Statut règlement**. Pour plus d’informations, voir [Paramétrer des statuts règlement](how-to-set-up-payment-statuses.md).  
 
 ## <a name="see-also"></a>Voir aussi  
  [Gestion des paiements](payment-management.md)   
@@ -56,3 +56,6 @@ Les bordereaux paiement sont archivés.
  [Configurer des adresses de paiement](how-to-set-up-payment-addresses.md)   
  [Créer bordereaux paiement](how-to-create-payment-slips.md)   
  [Valider des bordereaux paiement](how-to-post-payment-slips.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
