@@ -2,7 +2,6 @@
 title: 'Procédure : définition des périodes de validation [FR]'
 description: En définissant des périodes de validation, vous limitez la période durant laquelle la validation est autorisée.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: c3b3b4f88dbe8d14beb9a1891dc4c790c1fdf711
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 51f66552dedb4c1f38b127072a5d7a2875abc7b7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435895"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147992"
 ---
 # <a name="specify-posting-periods-in-the-french-version"></a>Définir les périodes de validation dans la version française
 

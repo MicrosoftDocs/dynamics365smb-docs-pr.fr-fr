@@ -2,20 +2,20 @@
 title: Gestion des paiements [FR]
 description: Vous pouvez gérer des lettres de change, des paiements électroniques et des paiements fournisseur à l’aide de la fonction de gestion des paiements dans la version française de Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 10868, 10870, 10860, 10861, 10864, 10865, 10866, 10871, 10872, 10873, 10874, 10877, 10878, 10879, 10869, 10867, 10882, 10880
 ms.date: 07/07/2021
 ms.author: edupont
-ms.openlocfilehash: a182b7e1327f70b2585c59e08e28ced2e9a2e491
-ms.sourcegitcommit: 2b05661d7e09487398da2e55e30ebbd9173e3298
+ms.openlocfilehash: 0a87dd6aac4b4a3c5c3b15df6c63c370249c010f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6434568"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147994"
 ---
 # <a name="payment-management-in-the-french-version"></a>Gestion des paiements dans la version française
 

@@ -1,10 +1,7 @@
 ---
-title: Procédure de clôture des exercices [FR]
+title: Clôturer fiscalement des exercices [FR]
 description: Lorsqu’un exercice comptable est terminé, vous devez clôturer les périodes qui le composent avec la fonctionnalité Périodes comptables.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 3b386e7f7f742740419a5b418a3ca734fe22186b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7eae84d7cd574d12ced210f0c674a582d3c83c5b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440058"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149288"
 ---
 # <a name="close-years-in-the-french-version"></a>Clôturer les exercices dans la version française
 Lorsqu’un exercice comptable est terminé, vous devez clôturer les périodes qui le composent.  

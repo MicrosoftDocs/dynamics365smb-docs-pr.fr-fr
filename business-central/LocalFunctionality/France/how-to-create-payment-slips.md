@@ -1,23 +1,21 @@
 ---
-title: Procédure de création des bordereaux paiement
-description: Vous pouvez créer des bordereaux paiement pour gérer les paiements fournisseur et client. Avant de créer des bordereaux paiement, vous devez paramétrer des types de règlement.
-services: project-madeira
-documentationcenter: ''
+title: Créer bordereaux paiement [FR]
+description: Vous pouvez créer des bordereaux de paiement pour gérer les paiements des fournisseurs et des clients dans la version française de Business Central. Avant de créer des bordereaux paiement, vous devez paramétrer des types de règlement.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 10868, 10870, 10860, 10861, 10864, 10865, 10866, 10871, 10872, 10873, 10874, 10877, 10878, 10879, 10869, 10867, 10882, 10880
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b628bd59a9723738616879882a9b5befcbc5c559
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f1a0b5a0c825da6595e9545e8e283d05db3d0cfe
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439226"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147386"
 ---
 # <a name="create-payment-slips"></a>Créer bordereaux paiement
 Vous pouvez créer des bordereaux paiement pour gérer les paiements fournisseur et client. Avant de créer des bordereaux paiement, vous devez paramétrer des types de règlement. Pour plus d’informations, voir [Paramétrer des types de règlement](how-to-set-up-payment-classes.md).  

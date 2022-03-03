@@ -1,76 +1,60 @@
 ---
-title: Procédure de paramétrage de l’amortissement accéléré
+title: Paramétrer l’amortissement accéléré
 description: Pour utiliser la fonction de calcul de l’amortissement accéléré, vous devez configurer les lois d’amortissement pour les immobilisations.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
-ms.service: dynamics365-business-central
+author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.form: 5610, 5611
+ms.date: 02/14/2022
 ms.author: edupont
-ms.openlocfilehash: d4a2b1dea2d2604e65c66b4d351b8283108effbe
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 0e8b0039c4d12c3f9973a0a84115fd5b46562315
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442661"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147382"
 ---
 # <a name="set-up-accelerated-depreciation"></a>Paramétrer l’amortissement accéléré
+
 Pour utiliser la fonction de calcul de l’amortissement accéléré, vous devez configurer les lois d’amortissement suivantes pour les immobilisations :  
 
 - la loi d’amortissement comptable (intégrée à la comptabilité) ;  
 - la loi d’amortissement fiscal (non intégrée à la comptabilité).  
 
 > [!NOTE]  
->  Lorsque vous validez une acquisition, un amortissement ou une cession pour la loi d’amortissement comptable, la transaction est automatiquement dupliquée et validée dans la loi d’amortissement fiscal lorsque la feuille immobilisation est validée.  
+> Lorsque vous validez une acquisition, un amortissement ou une cession pour la loi d’amortissement comptable, la transaction est automatiquement dupliquée et validée dans la loi d’amortissement fiscal lorsque la feuille immobilisation est validée.  
 
-## <a name="to-set-up-the-accounting-depreciation-book"></a>Pour configurer la loi d’amortissement comptable  
+L’écart entre la loi d’amortissement comptable et la loi d’amortissement fiscal est géré via les paramètres du raccourci **Intégration** sur la fiche loi d’amortissement comme indiqué dans le tableau suivant.  
 
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Lois d’amortissement**, puis choisissez le lien pertinent.  
-2.  Sur la page **Liste de la loi d’amortissement**, sélectionnez l’action **Nouveau**.  
-3.  Sous le raccourci **Général**, renseignez les champs obligatoires comme indiqué dans le tableau ci-dessous.  
+|Objet de la loi d’amortissement  |Valeur du champ Dérogatoire  |
+|---------|---------|
+|Amortissement comptable  | Activé       |
+|Amortissement fiscal     | Désactivé |
 
-    |Champ|Désignation|  
-    |---------------------------------|---------------------------------------|  
-    |**Code**|Code d’identification unique de la loi d’amortissement comptable. Vous pouvez entrer 10 caractères alphanumériques maximum.|  
-    |**Description**|Description des lois d’amortissement.|  
+Le champ **Dérogatoire** indique si vous voulez que les écritures dérogatoires validées sur cette loi d’amortissement soient validées en comptabilité et sur les écritures comptables immobilisation. Si vous avez activé ce champ, vous devez utiliser la feuille comptabilisation immobilisation pour valider les écritures dérogatoires.
 
-    > [!IMPORTANT]  
-    >  Laissez le champ **Calcul dérogatoire** vide.  
+Vous spécifiez les comptes généraux qui doivent être utilisés sur la page **Fiche groupe compta. immo.**. Sur la page **Loi d’amortissement**, vous spécifiez le groupe comptabilisation qui doit être utilisé.
 
-4.  Dans le raccourci **Intégration**, sélectionnez la case à cocher **Dérogatoire** pour intégrer l’amortissement accéléré dans la comptabilité.  
+Si vous n’activez pas ce champ, vous devez utiliser la feuille immobilisation pour valider les écritures dérogatoires qui ne seront validées que dans la table Ecriture immobilisation.
 
-    Pour en savoir plus, voir [Configurer l’amortissement d’immobilisation](../../fa-how-setup-depreciation.md).  
+Pour la loi d’amortissement fiscal, sur le raccourci **Général**, vous spécifiez ensuite la loi d’amortissement comptable pertinente dans le **Calcul dérogatoire** qui calculera l’amortissement dérogatoire. Le champ **Utilisé avec la loi dérogatoire** dans la loi d’amortissement comptable est mis à jour avec le code de la loi d’amortissement fiscal.  
 
-5.  Cliquez sur le bouton **OK**.  
+## <a name="derogatory-calculation"></a>Calcul dérogatoire
 
-## <a name="to-set-up-the-tax-depreciation-book"></a>Pour configurer la loi d’amortissement fiscal  
+Le champ **Calcul dérogatoire** d’une loi d’amortissement comptable spécifie si cette loi est utilisée comme loi d’amortissement fiscal pour le calcul de l’amortissement dérogatoire. Le code spécifié pour la loi d’amortissement comptable établit un paramétrage dérogatoire.
 
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Lois d’amortissement**, puis choisissez le lien pertinent.  
-2.  Sur la page **Liste de la loi d’amortissement**, sélectionnez l’action **Nouveau**.  
-3.  Sous le raccourci **Général**, renseignez les champs obligatoires comme indiqué dans le tableau ci-dessous.  
+Étant donné que seules les écritures immobilisation sont validées dans la loi d’amortissement fiscal, les cases à cocher sous l’onglet **Intégration** ne peuvent pas être activées.
 
-    |Champ|Désignation|  
-    |---------------------------------|---------------------------------------|  
-    |**Code**|Code d’identification unique de la loi d’amortissement fiscal. Vous pouvez entrer 10 caractères alphanumériques maximum.|  
-    |**Description**|Description des lois d’amortissement fiscal.|  
+Lorsque le champ est vide, [!INCLUDE[prod_short](../../includes/prod_short.md)] utilise la loi d’amortissement de manière standard. S’il ne l’est pas, le système calcule l’amortissement dérogatoire.
 
-4.  Dans le champ **Calcul dérogatoire**, sélectionnez une loi d’amortissement comptable pour indiquer qu’il s’agit d’une loi d’amortissement fiscal pour le calcul de l’amortissement dérogatoire.  
+## <a name="see-also"></a>Voir aussi
 
-    Pour en savoir plus, voir [Configurer l’amortissement d’immobilisation](../../fa-how-setup-depreciation.md).  
-
-5.  Cliquez sur le bouton **OK**.  
-
-Le champ **Utilisé avec la loi dérogatoire** dans la loi d’amortissement comptable est mis à jour avec le code de la loi d’amortissement fiscal.  
-
-## <a name="see-also"></a>Voir aussi  
- [Amortissement accéléré](accelerated-depreciation.md)   
- [Calculer l’amortissement accéléré](how-to-calculate-accelerated-depreciation.md)   
-[Configurer un amortissement immobilisation](../../fa-how-setup-depreciation.md)
+[Amortissement accéléré](accelerated-depreciation.md)  
+[Calculer l'amortissement accéléré](how-to-calculate-accelerated-depreciation.md)  
+[Configurer un amortissement immobilisation](../../fa-how-setup-depreciation.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

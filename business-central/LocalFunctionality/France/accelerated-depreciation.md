@@ -1,23 +1,24 @@
 ---
 title: Amortissement accéléré [FR]
-description: La rubrique suivante explique comment utiliser la méthode d’amortissement accéléré pour valider les montants de taxe supplémentaires si elles remplissent les critères spécifiés.
+description: La rubrique suivante explique comment utiliser la méthode d’amortissement accéléré pour valider les montants de taxe supplémentaires si elles remplissent les critères spécifiés dans la version française.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 5610, 5611, 5612
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 0512d5f579c7997911f01a720224b625fe68f40f
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: 3384829d9053fceca2c7c447dc0b48ee04d77325
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115058"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149292"
 ---
-# <a name="accelerated-depreciation-in-the-finnish-version"></a>Amortissement accéléré dans la version finlandaise
+# <a name="accelerated-depreciation-in-the-french-version"></a>Amortissement accéléré dans la version française
+
 L’amortissement accéléré est calculé sur la base des différences entre la loi d’amortissement comptable et la loi d’amortissement fiscal, sur toute la durée de vie de l’immobilisation.  
 
 Les immobilisations qui ont un amortissement fiscal plus élevé et un amortissement comptable plus faible sont amorties à l’aide de la méthode d’amortissement accéléré, comme l’autorisent les administrations fiscales.  
@@ -46,11 +47,11 @@ Deux comptes doivent être configurés pour les montants dérogatoires :
 
 - Montants d’amortissement accéléré positifs (augmentation de l’amortissement accéléré) :  
 
-    - Compte dérogatoire  
-    - Compte frais dérogatoire  
-    - Montants d’amortissement accéléré négatifs (réduction de l’amortissement accéléré) :  
-    - Compte dérogatoire sur cession  
-    - Compte de contrepartie dérogatoire sur cession  
+  - Compte dérogatoire  
+  - Compte frais dérogatoire  
+  - Montants d’amortissement accéléré négatifs (réduction de l’amortissement accéléré) :  
+  - Compte dérogatoire sur cession  
+  - Compte de contrepartie dérogatoire sur cession  
 
 Si vous validez une acquisition, un amortissement ou une cession pour la loi d’amortissement comptable, la transaction est automatiquement dupliquée et validée dans la loi d’amortissement fiscal lorsque la feuille est validée.  
 
