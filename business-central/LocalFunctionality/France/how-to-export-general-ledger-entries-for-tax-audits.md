@@ -2,7 +2,6 @@
 title: Exporter des écritures comptables pour les audits fiscaux [FR]
 description: Cette rubrique explique comment préparer des fichiers d’audit pour se conformer à la réglementation fiscale spécifique en France.
 author: sorenfriisalexandersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ccb9ee9c0ce616837b21e2e1397d1a8490365353
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: adda546867c5c4edc88ef3d714aef8f02fe76073
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588044"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132260"
 ---
 # <a name="export-general-ledger-entries-for-tax-audits-in-the-french-version"></a>Exporter les écritures comptables pour les contrôles fiscaux en version française
 En France, les entreprises doivent fournir des informations relatives à l’impôt sur les sociétés et à la TVA, telles que les transactions et les écritures comptables, pour les audits dans un format de fichier spécifié par les autorités fiscales. Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], ces informations sont enregistrées dans un fichier d’audit standard conçu pour fournir des informations sur les types de comptes qui incluent des entrées comptabilisées.

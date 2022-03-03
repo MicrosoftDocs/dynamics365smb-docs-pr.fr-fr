@@ -2,7 +2,6 @@
 title: Procédure d’affichage des rapprochements comptables
 description: Deux états peuvent vous aider à rapprocher les écritures comptables et les écritures comptables client et fournisseur.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b022181881105410f103f999722bd906b75c2378
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7dab4d64041bce2fd06c6042f385c53b01e0afcb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435891"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135550"
 ---
 # <a name="view-ledger-reconciliations"></a>Afficher des rapprochements comptables
 [!INCLUDE[prod_short](../../includes/prod_short.md)] comprend deux états qui peuvent vous aider à rapprocher les écritures comptables et les écritures comptables client et fournisseur. L’état imprime une page distincte pour chaque client ou fournisseur qui récapitule les montants des transactions comptables basées sur les paiements et les factures validées.  

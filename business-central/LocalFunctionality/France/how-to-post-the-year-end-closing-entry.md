@@ -2,7 +2,6 @@
 title: Procédure de validation de l’écriture de clôture d’exercice [FR]
 description: Cet article vous explique comment valider les écritures de clôture de fin d’année après avoir utilisé le traitement par lots Clôturer le compte de résultat.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: fa7172636d134e3b9f0dc394a69f7ad1b3d20184
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 20731919c6f44316514726e5d48822a5a9664d56
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443506"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136696"
 ---
 # <a name="post-the-year-end-closing-entry-in-the-french-version"></a>Valider l’écriture de clôture d’exercice dans la version française
 

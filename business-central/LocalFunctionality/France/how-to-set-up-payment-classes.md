@@ -2,20 +2,20 @@
 title: Paramétrer des types de règlement [FR]
 description: Pour utiliser le module Gestion des paiements dans la version française, vous devez paramétrer des types de règlement pour définir des types d’opération, tels que des lettres de change, des paiements électroniques ou des chèques.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 10868, 10870, 10860, 10861, 10864, 10865, 10866, 10871, 10872, 10873, 10874, 10877, 10878, 10879, 10869, 10867, 10882, 10880
 ms.date: 07/07/2021
 ms.author: edupont
-ms.openlocfilehash: 6d68e5c09165435b77215eced2c744e34f5627bb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 0b950b31d2f349c5e7b2fee4a6dc424e95b3c515
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435897"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132252"
 ---
 # <a name="set-up-payment-classes"></a>Paramétrer des types de règlement
 

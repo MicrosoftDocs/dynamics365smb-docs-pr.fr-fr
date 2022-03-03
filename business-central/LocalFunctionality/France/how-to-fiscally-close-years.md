@@ -2,7 +2,6 @@
 title: Procédure de clôture fiscale des exercices
 description: Lorsqu’un exercice comptable est terminé, vous devez clôturer fiscalement les périodes qui le composent pour veiller à ce qu’aucune autre écriture comptable ne puisse être validée.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7b4b1c74bea7c3396ea5331e777d30a22ba9df9f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9ce5b7a372e7d22332e88e651868b4b179a335b5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443174"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132263"
 ---
 # <a name="fiscally-close-years"></a>Clôturer fiscalement des exercices
 Lorsqu’un exercice comptable est terminé, vous devez clôturer fiscalement les périodes qui le composent pour veiller à ce qu’aucune autre écriture comptable ne puisse être validée.  

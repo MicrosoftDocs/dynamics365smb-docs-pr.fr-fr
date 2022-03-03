@@ -1,21 +1,21 @@
 ---
 title: Procédure de calcul de l’amortissement accéléré [FR]
 description: Dans Business Central, vous calculez l’amortissement périodique des immobilisations à l’aide du traitement par lots Calculer amortissement.
-author: SorenGP
-ms.service: dynamics365-business-central
+author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 5610, 5611
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 33e8babe14e9d5539d6090d79d5f7229c855778a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6f7febe7685f004c0ec5aa834930c292df4dca54
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440062"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139008"
 ---
 # <a name="calculate-accelerated-depreciation-in-the-french-version"></a>Calculer l’amortissement accéléré dans la version française
 Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], vous calculez l’amortissement périodique des immobilisations à l’aide du traitement par lots **Calculer amortissement**. La loi d’amortissement liée à l’immobilisation définit la méthode d’amortissement, la date de début de l’amortissement et le groupe comptabilisation immobilisation utilisé par le traitement par lots.  

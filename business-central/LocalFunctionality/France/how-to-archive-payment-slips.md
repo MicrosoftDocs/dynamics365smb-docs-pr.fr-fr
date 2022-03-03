@@ -1,25 +1,24 @@
 ---
-title: Procédure d’archivage des bordereaux paiement
-description: Lorsqu’un bordereau paiement a été entièrement traité, vous pouvez le séparer des bordereaux paiement actifs en l’archivant.
-services: project-madeira
-documentationcenter: ''
+title: Archiver les bordereaux de paiement [FR]
+description: Lorsqu’un bordereau paiement a été entièrement traité, vous pouvez le séparer des bordereaux paiement actifs en l’archivant dans la version française de Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 10868, 10870, 10860, 10861, 10864, 10865, 10866, 10871, 10872, 10873, 10874, 10877, 10878, 10879, 10869, 10867, 10882, 10880
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ddca9baf3bce61dc5f6664431b54bead982b01f3
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 561e068fed3727f115222d21ce6da1a6c839e685
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440064"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131103"
 ---
-# <a name="archive-payment-slips"></a>Archiver les bordereaux de paiement
+# <a name="archive-payment-slips-in-the-french-version"></a>Archiver les bordereaux de paiement dans la version française
+
 Lorsqu’un bordereau paiement a été entièrement traité, vous pouvez le séparer des bordereaux paiement actifs en l’archivant.  
 
 Vous pouvez archiver le bordereau paiement à l’aide des méthodes suivantes :  

@@ -4,7 +4,6 @@ description: Le module Gestion des paiements vous permet d’exporter vos paieme
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 291f06e7608571a52deb294f9fcc5b8e47b40123
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7592bc1b93e96a0622e94c20063fbd5259c7def7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443228"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138995"
 ---
 # <a name="export-payments"></a>Exporter des paiements
 Le module Gestion des paiements vous permet d’exporter vos paiements par voie électronique via un fichier texte ou un XMLport.  

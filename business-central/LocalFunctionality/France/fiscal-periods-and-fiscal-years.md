@@ -2,7 +2,6 @@
 title: Périodes fiscales et exercices comptables (FR)
 description: Un exercice comptable est généralement divisé en 12 périodes fiscales mensuelles. Dans la version française de Business Central, deux exercices peuvent être ouverts en même temps.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ac57cbcd66a911e134a5cdbe8262014b8809196d
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: 174cab32c045adee14209c5176ac8e42a3398ece
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115440"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132265"
 ---
 # <a name="fiscal-periods-and-fiscal-years-in-the-french-version"></a>Périodes fiscales et années fiscales dans la version française
 

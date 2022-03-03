@@ -1,10 +1,7 @@
 ---
-title: Procédure de réouverture des périodes comptables
-description: Lorsqu’une seule période fiscale a été clôturée fiscalement, il peut être nécessaire de la rouvrir pour valider des écritures comptables.
-services: project-madeira
-documentationcenter: ''
+title: Rouvrir des périodes comptables [FR]
+description: Lorsqu’une seule période fiscale a été clôturée fiscalement, il peut être nécessaire de la rouvrir pour valider des écritures comptables dans la version française de Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bda676864a795a69256fb58ffe1cd6ca382cc583
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4bf24ead6d3fb56483908d89f70dd134ae29e378
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442663"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132254"
 ---
 # <a name="reopen-accounting-periods"></a>Rouvrir des périodes comptables
 Lorsqu’une seule période fiscale a été clôturée fiscalement, il peut être nécessaire de la rouvrir pour valider des écritures comptables.  
