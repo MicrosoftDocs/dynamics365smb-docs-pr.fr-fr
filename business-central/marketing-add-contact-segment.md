@@ -4,25 +4,26 @@ description: Après avoir créé un segment, vous pouvez y ajouter des contacts,
 services: project-madeira
 documentationcenter: ''
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 975a6e769bbba3a32451fc1e9fda54da9cad401b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 13059ffb8701428e8a4c72b49e57fb3c87257cac
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135210"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392923"
 ---
 # <a name="add-contacts-to-segments"></a>Ajouter des contacts à des segments
 Lorsque vous avez créé un segment et saisi les informations de base le concernant, vous pouvez être amené à ajouter des contacts au segment. Pour ce faire, vous pouvez renseigner manuellement les lignes de la page **Segment** ou utiliser l’action **Ajouter contacts** (plus simple et plus rapide).
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Pour ajouter un contact à un segment
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Segments**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Segments**, puis sélectionnez le lien associé.  
 2. Sélectionnez le segment, puis sélectionnez l’action **Ajouter contacts**. La page de traitement par lots **Ajouter contacts** s’affiche.
 3. Dans la section **Contact**, définissez les filtres spécifiant les informations en fonction desquelles vous souhaitez sélectionner des contacts.
 

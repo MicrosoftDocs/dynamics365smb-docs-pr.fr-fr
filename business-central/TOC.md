@@ -24,13 +24,27 @@
 
 ### Détails de conception
 #### [Vue d’ensemble des détails de conception d’application](design-details-application-design.md)
+#### Détails de conception : planification de l’approvisionnement
+##### [Vue d’ensemble de la planification des approvisionnements](design-details-supply-planning.md)
+##### [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)  
+##### [Détails de conception : réservation, chaînage et message d’action](design-details-reservation-order-tracking-and-action-messaging.md)  
+##### [Détails de conception : équilibrage de la demande et de l’approvisionnement](design-details-balancing-demand-and-supply.md)  
+##### [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)  
+##### [Détails de conception : paramètres de planification](design-details-planning-parameters.md)  
+##### [Détails de conception : tableau d’affectation de planification](design-details-planning-assignment-table.md)  
+##### [Détails de conception : demande à un magasin vide.](design-details-demand-at-blank-location.md)  
+##### [Détails de conception : transferts de planification](design-details-transfers-in-planning.md)
 #### Détails de conception : coûts ajustés
-##### [Détails de conception de l’évaluation stock](design-details-inventory-costing.md)
+##### [Vue d’ensemble des coûts](design-details-inventory-costing.md)
 ##### [Détails de conception : modes évaluation stock](design-details-costing-methods.md)  
 ##### [Détails de conception : Modifier le mode évaluation stock pour les articles](design-details-changing-costing-methods.md)
 ##### [Détails de conception : lettrage article](design-details-item-application.md)  
 ##### [Détails de conception : problème de lettrage article connu](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Détails de conception : ajustement des coûts](design-details-cost-adjustment.md)  
+##### Détails de conception : date comptabilisation de l’écriture valeur d’ajustement
+###### [Détails de conception : date comptabilisation de l’écriture valeur d’ajustement](design-details-inventory-adjustment-value-entry-posting-date.md)  
+###### [Message d’erreur : « La date comptabilisation n’est pas incluse dans la plage de dates comptabilisation autorisées »](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+###### [Date comptabilisation sur l’écriture valeur d’ajustement par rapport à l’écriture source](design-details-inventory-adjustment-value-entry-source-entry.md)  
 ##### [Détails de conception : validation du coût prévu](design-details-expected-cost-posting.md)  
 ##### [Détails de conception : coût moyen](design-details-average-cost.md)  
 ##### [Détails de conception : écart](design-details-variance.md)  
@@ -44,26 +58,8 @@
 ##### [Détails de conception : comptes de la comptabilité](design-details-accounts-in-the-general-ledger.md)
 ##### [Détails de conception : évaluation du stock](design-details-inventory-valuation.md)  
 ##### [Détails de conception : réévaluation](design-details-revaluation.md)
-#### Détails de conception : date comptabilisation de l’écriture valeur d’ajustement
-##### [Vue d’ensemble de la date comptabilisation de l’écriture valeur d’ajustement](design-details-inventory-adjustment-value-entry-posting-date.md)  
-##### [Message d’erreur : « La date comptabilisation n’est pas incluse dans la plage de dates comptabilisation autorisées »](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
-##### [Date comptabilisation sur l’écriture valeur d’ajustement par rapport à l’écriture source](design-details-inventory-adjustment-value-entry-source-entry.md)
-#### Détails de conception : écritures d’ensemble de dimensions
-##### [Détails de conception : aperçu des écritures de l′ensemble de dimensions](design-details-dimension-set-entries-overview.md)
-##### [Détails de conception : recherche des croisements analytiques](design-details-searching-for-dimension-combinations.md)
-##### [Détails de conception : structure de la table](design-details-table-structure.md)
-#### Détails de conception : planification de l’approvisionnement
-##### [Détails de conception de la planification de l’approvisionnement](design-details-supply-planning.md)
-##### [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)  
-##### [Détails de conception : réservation, chaînage et message d’action](design-details-reservation-order-tracking-and-action-messaging.md)  
-##### [Détails de conception : équilibrage de la demande et de l’approvisionnement](design-details-balancing-demand-and-supply.md)  
-##### [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)  
-##### [Détails de conception : paramètres de planification](design-details-planning-parameters.md)  
-##### [Détails de conception : tableau d’affectation de planification](design-details-planning-assignment-table.md)  
-##### [Détails de conception : demande à un magasin vide.](design-details-demand-at-blank-location.md)  
-##### [Détails de conception : transferts de planification](design-details-transfers-in-planning.md)
 #### Détails de conception : gestion d’entrepôt
-##### [Détails de conception de Warehouse Management](design-details-warehouse-management.md)
+##### [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 ##### [Détails de conception : vue d’ensemble d’entrepôt](design-details-warehouse-overview.md)  
 ##### [Détails de conception : paramètres entrepôt](design-details-warehouse-setup.md)  
 ##### [Détails de conception : flux d’enlogement](design-details-inbound-warehouse-flow.md)  
@@ -72,7 +68,7 @@
 ##### [Détails de conception : flux de désenlogement](design-details-outbound-warehouse-flow.md)  
 ##### [Détails de conception : intégration avec le stock](design-details-integration-with-inventory.md)
 #### Détails de conception : traçabilité
-##### [Détails de conception de la traçabilité](design-details-item-tracking.md)
+##### [Vue d’ensemble de la traçabilité](design-details-item-tracking.md)
 ##### [Détails de conception : création de traçabilité](design-details-item-tracking-design.md)  
 ##### [Détails de conception : structure de validation de traçabilité](design-details-item-tracking-posting-structure.md)  
 ##### [Détails de conception : comparaison entre écritures traçabilité actives et historiques](design-details-active-versus-historic-item-tracking-entries.md)  
@@ -82,10 +78,14 @@
 ##### [Détails de conception : traçabilité et réservations](design-details-item-tracking-and-reservations.md)  
 ##### [Détails de conception : traçabilité dans l’entrepôt](design-details-item-tracking-in-the-warehouse.md)
 #### Détails de conception : Ligne validation de feuille comptabilité
-##### [Détails de conception de la ligne validation de feuille comptabilité](design-details-general-journal-post-line.md)
+##### [Ligne validation de feuille comptabilité](design-details-general-journal-post-line.md)
 ##### [Aperçu de la ligne validation de feuille comptabilité](design-details-general-journal-post-line-overview.md)  
 ##### [Détails de conception : Structure de l’interface de validation](design-details-posting-interface-structure.md)  
 ##### [Détails de conception : Structure du moteur de validation](design-details-posting-engine-structure.md)  
+#### Détails de conception : écritures d’ensemble de dimensions
+##### [Détails de conception : aperçu des écritures de l′ensemble de dimensions](design-details-dimension-set-entries-overview.md)  
+##### [Détails de conception : recherche des croisements analytiques](design-details-searching-for-dimension-combinations.md)  
+##### [Détails de conception : structure de la table](design-details-table-structure.md)  
 
 ## Évaluations
 ### [Versions d’évaluation et abonnements](across-preview.md)
@@ -483,7 +483,6 @@
 #### [Rapprocher des paiements clients avec la Feuille règlement ou les Écritures comptables client](receivables-how-apply-sales-transactions-manually.md)
 #### [Collecte des soldes restants](receivables-collect-outstanding-balances.md)
 #### [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)
-#### [Envoyer des rappels de soldes impayés](receivables-send-reminders.md)
 #### [Bloquer des clients](receivables-how-block-customers.md)
 #### [Utilisation des écarts de règlement et des écarts d’escompte](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Extension Prévisions de retard de paiement](ui-extensions-late-payment-prediction.md)
@@ -685,7 +684,7 @@
 ### [États de projet](project-reports.md)
 ### [Créer des projets](projects-how-create-jobs.md)
 ### [Utiliser des ressources pour des projets](projects-how-use-resources.md)
-### [Utiliser des feuilles de temps](projects-how-use-time-sheets.md)
+### [Utiliser des feuilles de temps pour des projets](projects-how-use-time-sheets.md)
 ### [Gérer les budgets de projets](projects-how-manage-budgets.md)
 ### [Enregistrer l’utilisation pour les projets](projects-how-record-job-usage.md)
 ### [Gérer les fournitures pour un projet](projects-how-manage-project-supplies.md)
@@ -704,7 +703,6 @@
 ### [Amortir des immobilisations](fa-how-depreciate-amortize.md)
 ### [Céder ou annuler des immobilisations](fa-how-dispose-retire.md)
 ### [Gérer les budgets pour les immobilisations](fa-how-manage-budgets.md)
-### [Dépannage des écritures comptables immobilisation](fa-troubleshooting-fa-ledger-entries.md)
 
 ## Gestion des relations
 ### [Vue d’ensemble de la gestion des relations](marketing-relationship-management.md)
@@ -1266,14 +1264,13 @@
 ##### [Types d’identification taxe du Mexique](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [Nouveau calcul TVA](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Facturation électronique
-##### [Facturation électronique (MX)](LocalFunctionality/Mexico/electronic-invoicing.md)
-##### [Paramétrer services web PAC](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
-##### [Paramétrer les facturation électronique (MX)](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
-##### [Générer les factures électroniques (MX)](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
-##### [Bons de livraison bordereau d’expédition (Carta de Porte) et ordres de transfert (MX)](LocalFunctionality/Mexico/packing-slips-transfer-orders.md)
-#### Général
+##### [Facturation électronique](LocalFunctionality/Mexico/electronic-invoicing.md)
+##### [Paramétrer les facturation électronique](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
+##### [Générer les factures électroniques](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
 ##### [Réglementations de comptabilité électroniques au Mexique](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
 ##### [Effectuer des paiements électroniques](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
+#### Général
+##### [Paramétrer services web PAC](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Imprimer des états dépannage](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
 ##### [Créer des acomptes](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 
@@ -1606,120 +1603,6 @@
 ##### [Imprimer des états dépannage](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Soumettre des alertes de réglementation](submit-regulatory-alerts.md)
 
-<!--Reporting landing page-->
-# Business Intelligence et génération d’état 
-
-## [Aperçu](reports-bi-reporting.md)
-
-## Utiliser les rapports dans le travail quotidien
-### [Aperçu](reports-use-reports.md)
-### [Exécution d’états](ui-work-report.md)
-### [Ajout d’un signet à un état](ui-bookmarks.md)
-### [Analyse des données de rapport avec Excel](report-analyze-excel.md)
-<!--### [Using the report inbox] (missing.md)-->
-### [Impression d’états](ui-specify-printer-selection-reports.md#default)
-### [Planification d’états](ui-work-report.md#ScheduleReport)
-### [Gestion des paramètres d’états enregistrés](reports-saving-reusing-settings.md)
-### [Modification de la disposition de rapport par défaut](ui-how-change-layout-currently-used-report.md)
-
-## États prédéfinis
-### [Présentation du rapport](reports-available-reports.md)
-### Finances
-#### [Analyses financières](bi.md)
-#### [Analyser les états financiers avec Excel](finance-analyze-excel.md)
-#### [États financiers clés](finance-reports.md)
-#### [États de comptabilité client](receivables-reports.md)
-#### [États de comptabilité fournisseur](payables-reports.md)
-#### [Analyse des flux de trésorerie](finance-setup-cash-flow-analyses.md)
-#### [Consolider des données financières de plusieurs sociétés](finance-consolidated-company-reporting.md)
-
-### Ventes
-#### [États vente](sales-reports.md)
-#### [Statut de la commande cadre vente](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
-#### [Suivi des colis](sales-how-track-packages.md)
-#### [Afficher des lignes de Commande cadre vente non validées et validées](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
-
-### Achats
-#### [États des achats](purchase-reports.md)
-#### [Visualiser des écritures comptables achat](ui-post-purchases.md#viewing-ledger-entries)
-
-### Stock et entrepôt
-#### [États de stock et d’entrepôt](inventory-wms-reports.md)
-#### [Disponibilité article](inventory-how-availability-overview.md)
-#### [Effectuer le suivi des articles avec les numéros lot, de série et paquet](inventory-how-work-item-tracking.md)
-#### [Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md)
-#### [Vérifier le rapprochement de l’écriture inventaire et de la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
-#### [Afficher les articles transbordés dans une expédition ou une feuille prélèvement](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
-
-### Dossier
-#### [États de projet](project-reports.md)
-#### [Visualiser les estimations d’utilisation de projet](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
-#### [Surveiller la progression et les performances](projects-how-monitor-progress-performance.md)
-
-### COMPTES D’IMMOBILISATIONS
-#### [États sur les immobilisations](fa-reports.md)
-#### [Surveillance des coûts de maintenance](fa-how-maintain.md#to-monitor-maintenance-costs)
-#### [Surveillance des couvertures d’assurance](fa-how-insure.md#to-monitor-insurance-coverage)
-#### [Afficher les valeurs comptables d’amortissement modifiées](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
-#### [Afficher des écritures comptables cession](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
-#### [Visualiser des valeurs de cession prévues](fa-how-manage-budgets.md#to-view-projected-disposal-values)
-
-### Gestion des assemblages
-#### [États sur la gestion nomenclature d’assemblage](assembly-reports.md)
-#### [Afficher la structure de la nomenclature (BOM)](inventory-how-work-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
-
-### Production
-#### [États de production](production-reports.md)
-#### [Affichage de la Charge centre de charge et des postes de charge](production-how-to-view-the-load-on-work-centers.md)
-#### [Affichage des écritures comptables centre de charge](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
-
-### Gestion des services
-#### [Affichage des statistiques service](service-service-statistics.md)
-#### [Vue d’ensemble des commandes service](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Vue d’ensemble des Devis service](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Vue d’ensemble des documents service enregistrés](service-service-posting.md#to-view-information-about-a-posted-service-document)
-
-## Analyse de données ad hoc
-### [Aperçu](reports-adhoc-analysis.md)
-### [Tri, recherche et filtrage](ui-enter-criteria-filters.md)
-### [FAQ sur la recherche et le filtrage](ui-search-filter-faq.yml)
-### [Analyse des données de page dans Excel](across-work-with-excel.md)
-### [Analyse des données d’état avec Excel](ui-work-report.md#saving-a-report-to-a-file)
-### [Analyses financières](bi.md)
-
-## Analyses intégrées 
-### [Aperçu](reports-built-in-analytics.md)
-### [Informations intelligentes](about-intelligent-cloud.md)
-### [Utiliser les rapports Power BI](across-working-with-powerbi.md)
-### [Analyses financières](bi.md)
-### [Analyser les états financiers avec Excel](finance-analyze-excel.md)
-### [Consolider des données financières de plusieurs sociétés](finance-consolidated-company-reporting.md)
-### [Signaler l’utilisation de la télémétrie](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
-
-
-## Analyser les données dans Business Intelligence Tools
-### [Aperçu](reports-external-analysis.md)
-### [Utilisation de Power BI avec Business Central](admin-powerbi.md)
-### [Analyser les états financiers avec Excel](finance-analyze-excel.md)
-### [Extraction de données vers des entrepôts de données ou des lacs de données](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
-### [Lecture des données avec l’API Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
-## Élaboration de rapports
-### [Aperçu](reports-develop-reports.md)
-### Élaboration de dispositions d’état
-#### [Types de disposition (Word et RDLC)](ui-manage-report-layouts.md)
-#### [Créer une disposition](ui-how-create-custom-report-layout.md)
-#### [Utilisation des polices dans les dispositions](ui-fonts.md)  
-#### [Utilisation des dispositions Word](ui-how-add-fields-word-report-layout.md)
-#### [Importer/exporter une disposition](ui-how-import-and-export-report-layout.md)
-#### [Mettre à jour une disposition](ui-update-report-layouts.md)
-#### [Modifier la disposition par défaut](ui-how-change-layout-currently-used-report.md)
-### Élaboration de jeux de données d’état
-#### [Guide de développement de rapports](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
-#### [Guide de réglage des performances des rapports](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
-
-
-<!--Security landing page-->
 # Sécurité, confidentialité, conformité
 ## Sécurité et protection
 ### [Vue d’ensemble de la sécurité et de la protection (en anglais uniquement)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

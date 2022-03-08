@@ -1,26 +1,27 @@
 ---
-title: Créer des factures d’acompte
-description: Traitez les situations où votre fournisseur ou vous-même exigez un acompte. Utilisez les pourcentages par défaut pour chaque ligne vente ou achat, ou ajustez le montant en fonction si nécessaire.
+title: 'Procédure : créer des factures d’acompte | Microsoft Docs'
+description: Découvrez comment gérer les situations où votre fournisseur ou vous-même exigez un acompte.
 author: edupont04
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 42, 50, 9305, 9307
-ms.date: 12/02/2021
+ms.search.keywords: ''
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c1374929790c27bd84733e506866a1e54cea9ffd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5f227cc73531111ae15f69d6fba5ac541e28560c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136061"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746865"
 ---
 # <a name="create-prepayment-invoices"></a>Créer des factures d’acompte
 
 Si vous demandez à vos clients de soumettre le paiement avant de leur expédier une commande, vous pouvez utiliser la fonctionnalité d’acompte. Il en va de même si votre fournisseur vous demande de soumettre un paiement avant de vous expédier une commande.  
 
-Vous pouvez lancer le traitement de l’acompte lorsque vous créez une commande vente ou achat. Si vous avez un pourcentage acompte par défaut pour un article donné sur la commande ou pour le client ou fournisseur, celui-ci sera automatiquement inclus dans la facture acompte résultante. Vous pouvez également spécifier un pourcentage acompte pour l’ensemble du document.
+Vous pouvez lancer le traitement de l’acompte lorsque vous créez une commande vente ou achat. Si vous avez un pourcentage acompte par défaut pour ce client ou fournisseur, celui-ci sera automatiquement inclus dans la facture acompte résultante. Vous pouvez également spécifier un pourcentage acompte pour l’ensemble du document.
 
 Après avoir créé une commande vente ou achat, vous pouvez créer une facture acompte. Vous pouvez utiliser les pourcentages par défaut pour chaque ligne vente ou achat, ou ajuster le montant en fonction si nécessaire. Par exemple, vous pouvez spécifier un montant total pour la facture entière.  
 
@@ -28,7 +29,7 @@ La procédure suivante décrit comment facturer un acompte pour une commande ven
 
 ## <a name="to-create-a-prepayment-invoice"></a>Pour créer une facture acompte
 
-1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Créez une commande vente pour le client approprié. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).  
 
     Sur le raccourci **Acompte**, le champ **% acompte** spécifie le pourcentage à utiliser pour calculer le montant acompte. Si un pourcentage d’acompte par défaut figure sur la fiche client, le champ est renseigné automatiquement. Vous pouvez modifier le pourcentage. <!--This percentage is applied to lines where the item on that line does not already specify a prepayment percentage. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.-->  
@@ -45,9 +46,6 @@ La procédure suivante décrit comment facturer un acompte pour une commande ven
 3. Renseignez les lignes vente.  
 
     Si vous avez spécifié un pourcentage acompte par défaut soit pour le client, soit sur le raccourci **Acompte** sur ce document, cette valeur est copiée sur chaque ligne. Vous pouvez modifier le contenu du champ **% acompte** sur la ligne.  
-
-    > [!TIP]
-    > Si vous ne voyez pas le champ **% acompte**, vous pouvez l’ajouter via la personnalisation.  Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
 
 4. Pour visualiser le montant d’acompte total, choisissez l’action **Statistiques**.
 
@@ -74,8 +72,4 @@ Vous pouvez émettre des factures acompte supplémentaires pour la commande. Pou
 [Facturation d’acomptes](finance-invoice-prepayments.md)  
 [Procédure pas à pas : configuration et facturation d’acomptes](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finances](finance.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Personnaliser votre espace de travail](ui-personalization-user.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

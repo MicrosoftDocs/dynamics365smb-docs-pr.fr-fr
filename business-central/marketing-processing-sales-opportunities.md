@@ -1,22 +1,23 @@
 ---
-title: Traitement des opportunités de vente dans les cycles de vente
-description: Cette rubrique décrit les différentes manières dont vous pouvez traiter les opportunités de vente dans les cycles de vente et déplacer une opportunité à travers les étapes d’un cycle de vente.
+title: Traitement des opportunités de vente dans les cycles de vente| Microsoft Docs
+description: Vous pouvez afficher, clôturer, ou supprimer des opportunités de vente, et vous pouvez également créer des devis et des commandes vente pour des opportunités, et déplacer une opportunité à travers les étapes d’un cycle de vente.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/22/2021
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 7bd357f10509040afb8b64ec19fecda4e8769dfe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f58ea5c536ce8f1da0782cbebe6d1ef028bee137
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142002"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383924"
 ---
 # <a name="process-sales-opportunities"></a>Traiter des opportunités de vente
 Une fois que vous avez créé une opportunité, il existe plusieurs fonctionnalités permettant de gérer l’opportunité et de la faire avancer jusqu’à l’achèvement.
@@ -26,9 +27,9 @@ Les opportunités de vente existantes sont disponibles sur la page **Liste des o
 
 | Pour afficher les opportunités pour | Alors |
 | --- | --- |
-| Tous les vendeurs et contacts |Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Liste des opportunités**, puis choisissez le lien associé. |
-| Un vendeur spécifique |Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Vendeurs**, puis sélectionnez le lien associé. Sélectionnez le vendeur, sélectionnez l’action **Opportunités**, puis l’action **Liste**. |
-| Un contact spécifique |Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Contacts**, puis sélectionnez le lien associé. Sélectionnez le contact dans la liste, puis sélectionnez l’action **Opportunités**. |
+| Tous les vendeurs et contacts |Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Liste des opportunités**, puis sélectionnez le lien associé. |
+| Un vendeur spécifique |Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Vendeurs**, puis sélectionnez le lien associé. Sélectionnez le vendeur, sélectionnez l’action **Opportunités**, puis l’action **Liste**. |
+| Un contact spécifique |Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Contacts**, puis sélectionnez le lien associé. Sélectionnez le contact dans la liste, puis sélectionnez l’action **Opportunités**. |
 
 Chacune de ces tâches ouvre la page **Liste des opportunités**.
 
@@ -43,8 +44,7 @@ Vous pouvez clôturer des opportunités lorsque les négociations sont terminée
    Dans le champ **Code fin opportunité**, vous pouvez choisir l’un des codes fin opportunité existants ou en ajouter un nouveau. Pour ajouter un nouveau code, dans la liste déroulante, sélectionnez **Sélectionner dans la liste complète**, puis sélectionnez **Nouveau**. Dans la nouvelle ligne vierge, renseignez les champs **Code**, **Type** et **Désignation**, puis cliquez le bouton **OK**.
 
 ## <a name="to-create-quotes-for-opportunities"></a>Pour créer des devis pour des opportunités
-> [!NOTE]
-> Vous ne pouvez créer des devis de vente qu′à partir d′opportunités dont le type de contact est Société.
+Vous pouvez créer des devis pour les contacts qui ne sont pas enregistrés en tant que clients.
 
 1. Sur la page **Liste des opportunités**, sélectionnez l’opportunité, puis sélectionner l’action **Créer devis**. La page **Devis** s’affiche.
 2. Renseignez les champs de votre choix.
@@ -65,7 +65,7 @@ Pour supprimer des opportunités clôturées à partir de la page **Liste des op
 
 Pour supprimer des opportunités clôturées à l’aide du traitement par lots **Supprimer les opportunités clôturées**, procédez comme suit :
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Supprimer les opportunités**, puis choisissez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Supprimer les opportunités**, puis sélectionnez le lien associé.
 2. Dans la section **Opportunité**, configurez les filtres qui spécifient les opportunités clôturées à supprimer.
 3. Cliquez sur le bouton **OK**.
 

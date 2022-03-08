@@ -2,7 +2,8 @@
 title: Vue d’ensemble Architecture et composant d’intégration Power BI pour Business Central| Microsoft Docs
 description: En savoir plus sur les différents aspects de l′intégration Power BI avec Business Central.
 author: jswymer
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -10,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b4f48182e6d4356e9621dc5a041945700f5d7599
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b1328b618761a33d3dc0856c7623bd986008d283
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143924"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437440"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Vue d’ensemble Architecture et composant d’intégration Power BI pour [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -47,9 +48,7 @@ Le tableau suivant décrit les fonctionnalités disponibles.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] s’intègre à Power BI via un connecteur utilisant OData. La source de données pour les états Power BI est exposée comme les pages API et les services Web OData.
 
-:::image type="content" source="./media/power-bi-architecture.png" alt-text="Texte de remplacement de l’image." lightbox="./media/power-bi-architecture.png":::
-
-À partir de février 2022, les états Power BI pour [!INCLUDE[prod_short](includes/prod_short.md)] Online proviennent d’une réplique de base de données secondaire en lecture seule. La réplique de la base de données fait partie de la capacité [échelle horizontale en lecture](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) dans [!INCLUDE[prod_short](includes/prod_short.md)] Online. Cette configuration libère la base de données principale pour les transactions, ce qui améliore les performances du système. La connexion à la réplique de la base de données en lecture seule fait partie intégrante du connecteur Business Central Online et ne nécessite aucune configuration supplémentaire de votre part. Tous les nouveaux rapports se connecteront par défaut au réplica de base de données en lecture seule. Les anciens rapports utiliseront toujours la base de données principale. Pour plus d’informations, voir [Plan de la 2e vague de lancement 2021 pour Business Central](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
+![Architecture Power BI pour l’intégration avec Business Central.](./media/power-bi-architecture.png)
 
 ## <a name="general-flow"></a>Flux général
 

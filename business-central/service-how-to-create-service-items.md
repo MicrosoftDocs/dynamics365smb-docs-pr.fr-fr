@@ -1,20 +1,21 @@
 ---
-title: 'Procédure : créer des articles de service'
-description: Découvrez les différentes manières de créer des articles de service dans Business Central, par exemple dans une commande de service ou lors de l’expédition d’articles.
+title: 'Procédure : créer des articles de service | Microsoft Docs'
+description: Lorsque vous recevez en maintenance un article non enregistré, vous pouvez l’enregistrer en tant qu’article de service.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 74af60caaf286b9993402228b050e3717fb847a6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5d77fd11748d4e537914a1209d6b2a9e66a6ee0e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136904"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390348"
 ---
 # <a name="create-service-items"></a>Créer des articles de service
 Dans [!INCLUDE[prod_short](includes/prod_short.md)], le terme « article de service » fait référence à un équipement ou un article nécessitant une maintenance. Lorsque vous créez une commande service, vous spécifiez les articles nécessitant une maintenance. Dans la commande, vous pouvez lier un article de service à un article en stock ou à un groupe articles de service.    
@@ -22,13 +23,13 @@ Dans [!INCLUDE[prod_short](includes/prod_short.md)], le terme « article de ser
 Lorsque vous recevez un article nécessitant une maintenance, vous pouvez l’enregistrer en tant qu’article de service. Plusieurs méthodes sont possibles. Par exemple, vous pouvez créer un article de service sur la page **Articles de service**, ou dans le cadre d’un autre traitement, par exemple en utilisant une commande service.   
 
 ## <a name="to-create-a-service-item"></a>Pour créer un article de service  
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles de service**, puis choisissez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles de service**, puis sélectionnez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-service-items-within-a-service-order"></a>Pour créer des articles de service dans des commandes service  
 Lorsque vous recevez des articles que vous souhaitez enregistrer comme articles de service, vous pouvez les créer en tant que tels sur la page **Commande service** ou **Devis service**.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes service**, puis choisissez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes service**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Choisissez l’action **Créer article de service**.  
 
@@ -39,7 +40,7 @@ Si vous expédiez des articles en validant les commandes vente ou les factures v
 
 La procédure suivante explique comment créer des articles de service lorsque vous expédiez des articles de commandes vente.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Ouvrez la commande vente appropriée.  
 3. Sélectionnez l’action **Valider** ou **Valider et imprimer**.  
 4. Choisissez l’action **Expédier** ou **Livrer et facturer**.  
@@ -51,7 +52,7 @@ La procédure suivante explique comment créer des articles de service lorsque v
 >  Si un article est une nomenclature que vous n’avez pas éclatée, un article de service est créé à partir des mêmes conditions (groupe articles de service et numéro de série).  
 
 ## <a name="to-insert-a-starting-fee-for-a-service-item"></a>Pour insérer des frais forfaitaires pour un article service
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Tâches service**, puis choisissez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Tâches service**, puis sélectionnez le lien associé.
 2. Sélectionnez l’action **Feuille activité article**.
 3. Choisissez la ligne service, puis sélectionnez **Actions**, **Fonctions**, puis l’action **Insérer frais forfaitaires**.  
 

@@ -2,19 +2,20 @@
 title: Utilisation du Hub Entreprise
 description: Offre des informations sur l’extension du Hub Entreprise que vous pouvez utiliser pour gérer votre travail dans plusieurs entreprises dans Business Central.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 71efcfc54da6462525d4900c4879e984b59f27e3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cfd44c40b36c83c8a48b6691bfb50134e7295e56
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138309"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377372"
 ---
 # <a name="the-company-hub-for-business-central-extension"></a>Hub Entreprise pour l’extension Business Central
 

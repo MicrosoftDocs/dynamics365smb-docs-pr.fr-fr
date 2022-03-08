@@ -1,36 +1,31 @@
 ---
-title: Comptabilité en France
+title: Écritures comptables
 description: Une fonctionnalité d'écritures comptables spéciale existe pour la version française de Business Central.
-author: edupont04
-ms.topic: conceptual
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
+ms.service: dynamics365-financials
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: f30fb7397316a8bd7aff77d56071ba85414044de
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 07/01/2017
+ms.author: sgroespe
+ms.openlocfilehash: 059ad16bbd7885dddfab9919c3787710be8063c7
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147388"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237341"
 ---
-# <a name="general-ledger-in-france"></a>Comptabilité en France
-
+# <a name="general-ledger"></a>Écritures comptables
 La fonctionnalité Comptabilité pour la France est décrite dans les rubriques ci-dessous.
 
+## <a name="in-this-section"></a>Dans cette section
 [Lettrer des écritures comptables](how-to-apply-general-ledger-entries.md)  
 [Délettrer des écritures comptables](how-to-unapply-general-ledger-entries.md)  
 [Imprimer des états de la comptabilité](how-to-print-general-ledger-reports.md)  
 [Exporter des écritures comptables vers un fichier XML](how-to-export-general-ledger-entries-to-an-xml-file.md)  
 [Afficher des rapprochements comptables](how-to-view-ledger-reconciliations.md)  
 [Exporter des écritures comptables pour les audits fiscaux](how-to-export-general-ledger-entries-for-tax-audits.md)  
-
-## <a name="see-also"></a>Voir aussi
-
-[Fonctionnalité locale, France](france-local-functionality.md)  
-[Familiarisation avec les écritures comptables et les COA](../../finance-general-ledger.md)  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

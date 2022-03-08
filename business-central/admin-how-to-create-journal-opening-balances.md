@@ -1,24 +1,25 @@
 ---
-title: Créer des soldes ouverts feuille
-description: Les traitements par lots qui sont livrés pour aider au transfert des soldes de compte hérité vers une société nouvellement configurée. Vous pouvez facilement transférer ces données avec des validations de feuille.
+title: Procédure de création des soldes ouverts feuille | Microsoft Docs
+description: Business Central inclut plusieurs traitements par lots qui sont livrés pour aider au transfert des soldes de compte hérité vers une société nouvellement configurée. Vous pouvez facilement transférer ces données avec des validations de feuille.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/24/2022
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: de528dd08911b49f7bf09dc541615da93fd190cc
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a2c2dc42ad600d4e3d05f4f3bdc1e5cbe2947812
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145034"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915760"
 ---
 # <a name="create-journal-opening-balances"></a>Créer des soldes ouverts feuille
 
-[!INCLUDE[prod_short](includes/prod_short.md)] inclut plusieurs traitements par lots qui sont livrés pour aider au transfert des soldes de compte hérité vers une société nouvellement configurée. Vous pouvez facilement transférer ces données avec le journal comptes clients, le journal comptes fournisseurs, la feuille article ou la feuille comptabilisation.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] inclut plusieurs traitements par lots qui sont livrés pour aider au transfert des soldes de compte hérité vers une société nouvellement configurée. Vous pouvez facilement transférer ces données avec le journal comptes clients, le journal comptes fournisseurs, la feuille article ou la feuille comptabilisation.
 
 La première étape consiste à créer un package configuration incluant les tables de paramétrage pour ces feuilles. La procédure suivante est basée sur l’hypothèse que cette étape est terminée. Pour plus d’informations, voir [Configurer une société](admin-set-up-company-configuration.md). Cette procédure explique les étapes suivantes, comme le lettrage du package qui est fourni par un partenaire.  
 
@@ -43,16 +44,10 @@ Avant de commencer, vérifiez que vous utilisez la page Tableau de bord Administ
 10. Répétez les étapes pour importer et valider les autres soldes ouverts.  
 
 > [!TIP]
-> Vous pouvez utiliser les mêmes traitements par lots pour ajouter des soldes d’ouverture chaque fois que vous enregistrez un nouveau client ou fournisseur avec lequel vous avez déjà traité mais qui n’est pas enregistré dans [!INCLUDE [prod_short](includes/prod_short.md)]. Recherchez simplement la tâche appropriée, puis choisissez le lien approprié.
-
-> [!IMPORTANT]
-> Notamment pour les soldes d’ouverture des comptes bancaires, ne suivez pas les étapes de cet article pour valider directement sur les comptes généraux associés aux comptes bancaires concernés. Pour plus d’informations, reportez vous à [Configuration de comptes bancaires](bank-how-setup-bank-accounts.md).  
+> Vous pouvez utiliser les mêmes traitements par lots pour ajouter des soldes d’ouverture chaque fois que vous enregistrez un nouveau client ou fournisseur avec lequel vous avez déjà traité mais qui n’est pas enregistré dans [!INCLUDE [prodshort](includes/prodshort.md)]. Recherchez simplement la tâche appropriée, puis choisissez le lien approprié.
 
 ## <a name="see-also"></a>Voir aussi
 
 [Appliquer des configurations aux nouvelles sociétés](admin-apply-configuration-to-new-companies.md)  
 [Configuration d’une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,20 +1,22 @@
 ---
-title: Afficher une impression test avant la validation des documents vente ou achat
+title: Examiner une impression test avant la validation des documents vente ou achat | Microsoft Docs
 description: Avant de valider un document, par exemple, une commande ou un avoir, vous pouvez l’imprimer et le passer en revue pour vérifier les erreurs possibles susceptibles de bloquer la validation.
+services: project-madeira
+documentationcenter: ''
 author: SusanneWindfeldPedersen
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: 1f7154c438437aacb3788c91ad9c17bba8673477
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: cab7487290a945a8b105afe89c73322eba42668e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335343"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393823"
 ---
 # <a name="view-test-reports-before-posting"></a>Afficher des états de test avant la validation
 Lorsque vous êtes prêt à valider un document (commande, facture ou avoir, par exemple), vous pouvez vérifier le document pour vous assurer qu’aucun problème ne risque de bloquer la validation.
@@ -23,7 +25,7 @@ Lorsque vous êtes prêt à valider un document (commande, facture ou avoir, par
 >   La procédure suivante permet de tester un document achat avant validation. Il s’agit de la même fonctionnalité pour les documents vente.
 
 ## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>Pour réaliser une impression test avant de valider une facture achat
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures achat**, puis sélectionnez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures achat**, puis sélectionnez le lien associé.
 2. Ouvrez la facture achat à tester.
 3. Sélectionnez l’option **Impression test**.  
 

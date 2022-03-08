@@ -2,19 +2,20 @@
 title: Comment convertir des magasins existants en magasins entrepôt | Microsoft Docs
 description: Vous pouvez activer un emplacement de manière à ce qu’il utilise les zones et emplacements, et qu’il devienne l’entrepôt.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d8c87884b359c02815187ab6b5c994ebccce119f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6f8b27c4b0abc4221bd081df8474876577e476e6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140110"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911852"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Convertir des magasins existants en magasins entrepôt
 Vous pouvez activer un emplacement de manière à ce qu’il utilise les zones et emplacements, et qu’il devienne l’entrepôt.  
@@ -27,7 +28,7 @@ Vous pouvez créer des zones et des emplacements avant ou après la conversion. 
 >  Pour supprimer toutes les quantités négatives et les éventuels documents entrepôt ouverts avant de convertir le magasin à des fins de gestion d’entrepôt, exécutez un état pour identifier les articles dont la quantité est négative et les documents entrepôt ouverts pour le magasin. Pour plus d’informations, reportez\-vous à la rubrique Vérifiez l’inventaire négatif.  
 
 ## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>Activation d’un emplacement existant en tant qu’entrepôt  
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Création entrepôt**, puis cliquez sur le lien associé.  
+1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Création entrepôt**, puis sélectionnez le lien associé.  
 2.  Dans le champ **Code magasin**, indiquez le magasin que vous souhaitez activer pour un traitement d’entrepôt.  
 3.  Dans le champ **Code empl. ajustement**, indiquez à quel emplacement du magasin les écritures entrepôt non synchronisées sont enregistrées. Pour plus d’informations, voir [Pour synchroniser les écritures entrepôt ajustées avec les écritures comptables article associées](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).  
 
@@ -47,7 +48,4 @@ Vous pouvez créer des zones et des emplacements avant ou après la conversion. 
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

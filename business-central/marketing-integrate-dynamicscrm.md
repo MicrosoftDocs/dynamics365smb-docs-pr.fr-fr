@@ -1,24 +1,24 @@
 ---
-title: Gérer les clients à l’aide de Dynamics 365 Sales (contient une vidéo) | Microsoft Docs
-description: Vous pouvez utiliser Dynamics 365 Sales depuis Business Central avec une intégration et une synchronisation parfaites dans le processus allant du prospect à l’encaissement.
+title: Gérer les clients à l’aide de Dynamics 365 Sales | Microsoft Docs
+description: Vous pouvez utiliser Dynamics 365 Sales depuis Business Central pour mapper les données et avoir une intégration et une synchronisation parfaites dans le processus allant du prospect à l’encaissement.
 documentationcenter: ''
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.search.forms: 9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7a77ae97b8198e2a50c911e1be27ea76c20b9570
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f7e4e4c98a334fcd38d488f721eb99e6edcd77c1
+ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140841"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "5985361"
 ---
-# <a name="using-dynamics-365-sales-from-business-central"></a>Utilisation de Dynamics 365 Sales depuis Business Central
+# <a name="using-dynamics-365-sales-from-business-central"></a>Utilisation de Dynamics 365 Sales depuis Business Central
 Si vous utilisez Dynamics 365 Sales for Customer Engagement, bénéficiez de l’intégration parfaite dans le processus allant du prospect à l’encaissement à l’aide de [!INCLUDE[prod_short](includes/prod_short.md)] pour les activités principales, telles que le traitement des commandes, la gestion des stocks et de vos finances.
 
 Avant de pouvoir utiliser les fonctionnalités d’intégration, votre administrateur système doit configurer la connexion et définir les utilisateurs de [!INCLUDE[crm_md](includes/crm_md.md)]. Pour plus d’informations, reportez-vous à la rubrique [Intégration à Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
@@ -115,7 +115,7 @@ Dans l′expérience de tarification actuelle, [!INCLUDE[prod_short](includes/pr
     1. Couplez les articles pour lesquels les prix sont fixés par le groupe prix client.
     2. Sur la page **Groupes prix client**, couplez le groupe prix client en choisissant **Connexe**, puis **Dynamics 365 Sales**, **Couplage**, puis **Configurer le couplage**. Le couplage crée une liste de prix active dans [!INCLUDE[prod_short](includes/prod_short.md)] avec le même nom que le groupe prix client dans [!INCLUDE[crm_md](includes/crm_md.md)] et synchronise automatiquement tous les articles pour lesquels le groupe prix client définit le prix.
 
-:::image type="content" source="media/customer-price-group.png" alt-text="Page Groupe prix client.":::
+:::image type="content" source="media/customer-price-group.png" alt-text="Page Groupe prix client":::
 
 #### <a name="new-experience"></a>[Nouvelle expérience](#tab/new-experience/)  
 
@@ -131,7 +131,7 @@ La nouvelle expérience de tarification synchronise les listes de prix qui répo
 
 Pour synchroniser les listes de prix, sur la page **Liste prix vente**, choisissez **Connexe**, **Dynamics 365 Sales**, **Couplage**, puis **Configurer le couplage**. 
 
-:::image type="content" source="media/sales-price-list.png" alt-text="Page Liste prix vente.":::
+:::image type="content" source="media/sales-price-list.png" alt-text="Page Liste prix vente":::
 
 ---
 

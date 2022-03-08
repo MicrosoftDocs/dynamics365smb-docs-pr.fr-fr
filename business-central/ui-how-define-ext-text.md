@@ -1,20 +1,20 @@
 ---
-title: Ajouter du texte étendu
+title: Ajouter des lignes supplémentaires pour définir les descriptions étendues
 description: Vous pouvez ajouter des lignes supplémentaires pour étendre le texte standard qui décrit un article, un compte général et d’autres données.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 391, 30
-ms.date: 06/24/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 25c0701151e3250adb62f781f83e8483178f73e5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b54c8c82a17cb5e1a25beca1115571733fddc2f4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138283"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784689"
 ---
 # <a name="add-extended-text"></a>Ajouter du texte étendu
 

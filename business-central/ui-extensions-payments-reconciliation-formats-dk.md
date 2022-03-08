@@ -1,20 +1,21 @@
 ---
-title: Extension Paiements et rapprochements (DK)
+title: Utilisation de l’extension Paiements et rapprochements (DK) | Microsoft Docs
 description: Cette extension facilite l’exportation de fichiers préformatés pour répondre aux exigences bancaires pour les soumissions électroniques.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 06/24/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 6ba51935ba71c3caa6a74f2fc7a69b06d8731422
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c8dd465213a9882a98c1ac1623d8a093f3eecb9a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129915"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757491"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Extension Paiements et rapprochements (DK)
 
@@ -54,7 +55,7 @@ En outre, vous devez affecter les fournisseurs à un **Groupe compta. marché** 
 
 ### <a name="to-allow-prod_short-to-export-payment-data"></a>Pour autoriser [!INCLUDE[prod_short](includes/prod_short.md)] à exporter des données de règlement
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille paiement**, puis choisissez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille paiement**, puis sélectionnez le lien associé.  
 2. Sur la page **Modifier feuille paiement**, choisissez le lot **Banque**.  
 3. Sélectionnez la case à cocher **Autoriser exportation paiement**.  
 
@@ -68,19 +69,19 @@ Le tableau suivant affiche les combinaisons des modes de règlement FIK et virem
 |Autorise les messages au destinataire ? | Oui |Non |Non | Oui |
 |Contient le numéro de référence du paiement ? | Non | Oui, 16 chiffres. | Oui, 15 chiffres. | Non|
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Fournisseurs**, puis choisissez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Fournisseurs**, puis sélectionnez le lien associé.  
 2. Ouvrez la fiche, développez l’onglet **Paiements**, dans le champ **Mode de règlement** sélectionnez le mode de règlement.  
 3. Selon votre sélection, vous devez renseigner d’autres champs. Voir la table ci-dessus pour une description des combinaisons.  
 
 ### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>Pour spécifier le format à utiliser pour un compte bancaire
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Comptes bancaires**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Compte bancaire**, puis sélectionnez le lien associé.  
 2. Ouvrez la fiche pour le compte bancaire.  
 3. Dans le champ **Format exportation paiement**, choisissez le format de votre fichier d’exportation.  
 
 ## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>Choisir les informations de paiement FIK ou Giro pour les factures fournisseur
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures achat**, puis sélectionnez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures achat**, puis sélectionnez le lien associé.
 2. Sélectionnez le fournisseur Rappelez-vous, il doit s’agir d’un fournisseur danois avec une adresse au Danemark.
 3. Créez une facture. Les champs **Mode de règlement** et **Numéro fournisseur** sont renseignés selon les paramètres de la fiche fournisseur. Vous pouvez les modifier.
 4. Dans le champ **Référence paiement**, saisissez le numéro à 15 chiffres de la facture fournisseur.  
@@ -92,7 +93,7 @@ Le tableau suivant affiche les combinaisons des modes de règlement FIK et virem
 
 ## <a name="to-use-the-extension-to-export-payment-data"></a>Pour utiliser l’extension d’exportation des données de paiement
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles paiement**, puis choisissez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles paiement**, puis sélectionnez le lien associé.  
 2. Choisissez l’action **Proposer des feuilles de paiement fournisseur**.  
 
     > [!Tip]
@@ -104,9 +105,6 @@ Le tableau suivant affiche les combinaisons des modes de règlement FIK et virem
 
 ## <a name="see-also"></a>Voir aussi
 
-[Personnalisation de Business Central pour [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide d’extensions](ui-extensions.md)  
+[Personnalisation de Business Central pour [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide d’extensions](ui-extensions.md)  
 [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Utilisation de feuilles comptabilité](ui-work-general-journals.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

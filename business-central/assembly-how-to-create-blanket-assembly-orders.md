@@ -2,19 +2,20 @@
 title: 'Procédure : créer des ordres d’assemblage permanents | Microsoft Docs'
 description: Créez des commandes vente en cours pour les éléments d’assemblage personnalisés avant d’effectuer régulièrement les commandes vente réelles en fonction du contrat commande ouverte.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e565a07bf148043de47eab5cba4df5c76beceb5a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 84232aadd133527d06ff0bf2b65490d5dfe8d651
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146929"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917700"
 ---
 # <a name="create-blanket-assembly-orders"></a>Création d’ordres d’assemblage permanents
 Vous pouvez utiliser la gestion nomenclature d’assemblage pour personnaliser un élément d’assemblage sur la demande d’un client au cours du processus de vente. Pour plus d’informations, reportez-vous à [Vente d’articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -25,7 +26,7 @@ Vous pouvez utiliser la gestion nomenclature d’assemblage pour personnaliser u
 >  Comme toutes les commandes ouvertes, les quantités des ordres d’assemblage ouverts sont uniquement des prévisions et ne sont pas opérationnelles avant d’être converties en ordres d’assemblage réels. Par conséquent, la fonctionnalité commande, comme le calcul de disponibilité, la réservation et la traçabilité des articles, n’est pas active sur les ordres d’assemblage ouverts.  
 
 ## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>Pour créer un ordre d’assemblage ouvert pour un article à assembler pour commande  
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes cadres vente**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes cadres vente**, puis sélectionnez le lien associé.  
 2. Créez une commande vente ouverte avec une ligne pour un élément d’assemblage. Pour plus de détails, reportez-vous à la rubrique [Créer des commandes ouvertes vente](sales-how-to-create-blanket-sales-orders.md).  
 3. Dans le champ **Qté vers Assembler pour commande** de la ligne d’ordre d’assemblage ouvert, saisissez la quantité entière.
 
@@ -45,7 +46,4 @@ L’ordre d’assemblage ouvert associé et toutes les personnalisations sont li
 [Utiliser les nomenclatures](inventory-how-work-BOMs.md)  
 [Stock](inventory-manage-inventory.md)  
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

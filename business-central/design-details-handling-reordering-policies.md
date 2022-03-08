@@ -1,20 +1,21 @@
 ---
-title: 'Détails de conception : gestion des méthodes de réapprovisionnement'
-description: Cet article donne un aperçu des tâches impliquées dans la gestion des stratégies de réapprovisionnement et la définition de la stratégie de réapprovisionnement dans la planification des approvisionnements.
+title: Détails de conception - Gestion des méthodes de réapprovisionnement | Microsoft Docs
+description: Aperçu des tâches pour définir une méthode de réapprovisionnement dans la planification des approvisionnements.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 705948d59e5ecf724f0dcaa1546485914c16fe23
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: dbe63d653120eb9e6450af401558414cf2057b1d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142444"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922241"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Détails de conception : gestion des méthodes de réapprovisionnement
 Pour qu’un article participe à la planification des approvisionnements, une méthode de regroupement doit être définie. Les quatre méthodes de réapprovisionnement disponibles sont les suivantes :  
@@ -66,7 +67,7 @@ La prochaine séquence décrit la manière dont le niveau de stock prévisionnel
 
 Voici une illustration graphique de ce principe :  
 
-![Déterminer le niveau de stock prévisionnel.](media/nav_app_supply_planning_2_projected_inventory.png "Déterminer le niveau de stock prévisionnel")  
+![Déterminer le niveau de stock prévisionnel](media/nav_app_supply_planning_2_projected_inventory.png "Déterminer le niveau de stock prévisionnel")  
 
 1. L’approvisionnement **Sa** de 4 (fixe) clôture la demande **Da** de 3.  
 2. CloseDemand : créez une relance de baisse de -3 (pas affiché).  
@@ -93,7 +94,7 @@ Pour les méthodes de réapprovisionnement qui utilisent un point de commande, v
 
 Le concept d’intervalle de planification reflète le processus manuel de vérifier le niveau de stock de manière fréquente plutôt que pour chaque transaction. L’utilisateur doit définir la fréquence (l’intervalle de planification). Par exemple, l’utilisateur regroupe les besoins article d’un fournisseur pour passer une commande hebdomadaire.  
 
-![Exemple d’intervalle de planification dans la planification.](media/nav_app_supply_planning_2_reorder_cycle.png "Exemple d’intervalle de planification dans la planification")  
+![Exemple d’intervalle de planification dans la planification](media/nav_app_supply_planning_2_reorder_cycle.png "Exemple d’intervalle de planification dans la planification")  
 
 L’intervalle de planification est généralement utilisé pour éviter un effet cascade. Par exemple, une ligne équilibrée de demande et d’approvisionnement dans laquelle une demande antérieure est annulée ou une nouvelle demande est créée. Le résultat est que chaque commande approvisionnement (sauf la dernière) est replanifiée.
 
@@ -102,7 +103,7 @@ Lors de l’utilisation des méthodes Qté maximum et Qté fixe de commande, le 
 
 *Attention : le stock prévisionnel [xx] est supérieur au niveau de dépassement de capacité [xx] à la date d’échéance [xx].*  
 
-![Niveau de dépassement de capacité.](media/supplyplanning_2_overflow1_new.png "Niveau de dépassement de capacité")  
+![Niveau de dépassement de capacité](media/supplyplanning_2_overflow1_new.png "Niveau de dépassement de capacité")  
 
 ###  <a name="calculating-the-overflow-level"></a>Calcul du niveau de dépassement de capacité  
 Le niveau de dépassement de capacité est calculé de différentes manières en fonction de la configuration de planification.  
@@ -178,7 +179,7 @@ Dans ce scénario, un client modifie une commande vente de 70 à 40 pièces ent
 #### <a name="resulting-planning-lines"></a>Lignes planning résultantes  
  Une ligne planning (avertissement) est créée pour réduire l’achat de 30 pour passer de 90 à 60 pour conserver le stock prévisionnel à 100 conformément au niveau de dépassement de capacité.  
 
-![Planifier en fonction du niveau de dépassement de capacité.](media/nav_app_supply_planning_2_overflow2.png "Planifier en fonction du niveau de dépassement de capacité")  
+![Planifier en fonction du niveau de dépassement de capacité](media/nav_app_supply_planning_2_overflow2.png "Planifier en fonction du niveau de dépassement de capacité")  
 
 > [!NOTE]  
 >  Sans la fonction Overflow, aucune alerte n’est créée si le niveau de stock prévisionnel est au-dessus du stock maximum. Cela pourrait entraîner un approvisionnement superflu de 30.
@@ -192,7 +193,7 @@ Le point de commande exprime la demande anticipée lors du délai de l’article
 
  Dans la figure suivante, l’approvisionnement D représente une commande d’urgence pour ajuster le stock négatif.  
 
- ![Suggestion de planification d’urgence pour éviter un stock négatif.](media/nav_app_supply_planning_2_negative_inventory.png "Suggestion de planification d’urgence pour éviter un stock négatif")  
+ ![Suggestion de planification d’urgence pour éviter un stock négatif](media/nav_app_supply_planning_2_negative_inventory.png "Suggestion de planification d’urgence pour éviter un stock négatif")  
 
 1.  L’approvisionnement **A**, stock prévisionnel initial, est inférieur au point de commande.  
 2.  Un approvisionnement planifié en aval est créé (**C**).  
@@ -295,6 +296,3 @@ Avec cette méthode, il est également possible de définir un stock de sécurit
 [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)   
 [Détails de conception : équilibrage de la demande et de l’approvisionnement](design-details-balancing-demand-and-supply.md)   
 [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

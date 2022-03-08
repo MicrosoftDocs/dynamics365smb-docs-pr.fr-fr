@@ -3,19 +3,20 @@ metadata:
   title: FAQ relative aux applications mobiles
   description: Consultez les réponses aux questions fréquemment posées sur l’utilisation de Business Central sur votre téléphone ou votre tablette.
   author: edupont04
-  ms.topic: faq
+  ms.service: dynamics365-business-central
+  ms.topic: conceptual
   ms.devlang: na
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: phone, tablet
   ms.date: 10/25/2021
   ms.author: edupont
-  ms.openlocfilehash: 2511135e9e0aebb3a813c5fede167d10b46f045a
-  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+  ms.openlocfilehash: f0d31833373014ac5f1f089537bf03091540e223
+  ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
   ms.translationtype: HT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "8140318"
+  ms.lasthandoff: 11/04/2021
+  ms.locfileid: "7752529"
 title: FAQ relative aux applications mobiles
 summary: "Cet article répond aux questions que nos utilisateurs expérimentés posent souvent à propos des applications mobiles pour [!INCLUDE [prod_short](includes/prod_short.md)].  \n"
 sections:
@@ -79,7 +80,7 @@ sections:
 
       | Mise au point automatique sur le premier champ modifiable d’une page | Non disponible. | Non disponible. | Page `Customer Card`.<BR /><BR />Dans le navigateur, le focus sera automatiquement sur le premier champ modifiable (tel que le champ `Name`), vous permettant de modifier la valeur immédiatement.<BR /><BR />Dans les applications pour tablettes et téléphones, ce champ ne sera pas mis au point ; au lieu de cela, vous devrez d’abord sélectionner manuellement le champ afin d’apporter des modifications.|
   - question: >
-      Est-ce la même expérience sur les tablettes et les téléphones ?
+      Est-ce la même expérience sur les tables et les téléphones ?
     answer: "Presque, mais pas tout à fait. Voir la liste dans la section [Est-ce la même expérience dans les applications que dans le navigateur ?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-).  \n"
   - question: >
       Puis-je connecter l’application à notre solution sur site ?

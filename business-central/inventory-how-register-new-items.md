@@ -1,21 +1,21 @@
 ---
-title: Créer des fiches article pour des biens ou des services (contient une vidéo)
+title: Créer des fiches article pour des biens ou des services
 description: Vous créez des fiches article pour les services que vous vendez en heures et pour les marchandises physiques, comme les éléments d’assemblage, les produits finis que vous vendez de votre stock.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
-ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: a2d64fe3a04109246540a463597dbf49684b8913
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 34a7c73cd82d63a2ca5b549e7d1cedf582a32465
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148589"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587708"
 ---
 # <a name="register-new-items"></a>Enregistrer de nouveaux articles
 

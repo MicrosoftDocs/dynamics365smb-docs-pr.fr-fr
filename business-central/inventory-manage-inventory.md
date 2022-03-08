@@ -1,24 +1,24 @@
 ---
-title: Gestion du stock
-description: Cette rubrique décrit comment gérer les produits physiques que vous échangez en créant une fiche d’article d’inventaire.
+title: Gestion de l’inventaire| Microsoft Docs
+description: Décrit comment gérer les biens physiques que vous commercialisez, par exemple, la gestion du stock de votre entrepôt.
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.search.forms: 5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782
-ms.date: 06/16/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c2479b23ba429d80137d5bbba6200c2e45a0f943
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fa97eb12cc7343c1cfb659736ed6ad6b43d0633
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148486"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755466"
 ---
-# <a name="manage-inventory"></a>Gestion du stock
-
+# <a name="inventory"></a>STOCKS ET EN-COURS
 Pour chaque produit physique que vous commercialisez, vous devez créer une fiche article de type **Stock**. Les articles que vous proposez aux clients, mais que vous n’avez pas en stock, peuvent être enregistrés comme articles de catalogue. Vous pouvez ensuite les convertir en articles stockés, le cas échéant. Vous pouvez augmenter ou diminuer la quantité d’un article en stock en validant directement les écritures comptables de l’article, par exemple, après un inventaire ou si vous n’enregistrez pas les achats.
 
 Les entrées et les sorties de stock sont également évidemment enregistrées lorsque vous validez des documents achat et vente, respectivement. Pour plus d’informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md), [Vendre des produits](sales-how-sell-products.md) et [Facturer des ventes](sales-how-invoice-sales.md). Les transferts entre magasins modifient les quantités en stock dans tous les entrepôts de votre société.   
@@ -51,10 +51,10 @@ Le tableau suivant présente les tâches associées.
 |Afficher la disponibilité des articles par emplacement, par période, par événement de vente ou d’achat, ou encore en fonction de leur utilisation dans les nomenclatures d’assemblage ou de production.|[Voir la disponibilité des articles](inventory-how-availability-overview.md)|
 |Transférer des articles en stock entre des magasins avec des ordres de transfert pour gérer les activités entrepôt ou avec la feuille reclassement.|[Transfert de stock entre des magasins](inventory-how-transfer-between-locations.md)|
 |Réserver des articles en stock ou entrants pour les commandes vente, les commandes achat, les commandes service, les ordres d’assemblage ou les ordres de fabrication.|[Réserver des articles](inventory-how-to-reserve-items.md)|
-|Configurez la traçabilité afin de pouvoir suivre les numéros de série des articles, par exemple pour suivre les articles en cas de rappel.|[Configuration du suivi des articles avec les numéros lot, de série et paquet](inventory-how-setup-item-tracking.md)|
-|Attribuez des numéros de série ou des numéros lot à tout document ou ligne feuille sortant ou entrant.|[Utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md)|
+|Configurer la désignation propre à un fournisseur ou à un client pour un article, afin de pouvoir insérer facilement leur désignation de l’article dans les documents commerciaux.|[Utiliser les références externes article](inventory-how-use-item-cross-refs.md)|
+|Affecter des numéros de série ou de lot à n’importe quel document ou ligne feuille entrant ou sortant, par exemple pour suivre les articles dans le cas d’un rappel.|[Utiliser les numéros de lot et de série](inventory-how-work-item-tracking.md)|
+|Configurer la désignation d’un article propre à un fournisseur ou à un client sur votre fiche article, afin de pouvoir insérer rapidement leur désignation de l’article dans les documents commerciaux.|[Utiliser les références externes article](inventory-how-use-item-cross-refs.md)|
 |Rechercher où un numéro de série ou de lot a été utilisé dans sa chaîne d’approvisionnement, par exemple dans les situations de rappel.|[Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md)|
-|Configurer la désignation d’un article propre à un fournisseur ou à un client sur votre fiche article, afin de pouvoir insérer rapidement leur désignation de l’article dans les documents commerciaux.|[Utiliser références article](inventory-how-use-item-cross-refs.md)|
 |Bloquez des article pour la saisie dans des lignes de vente ou d’achat, ou pour la validation dans n’importe quelle transaction.|[Bloquer les articles](inventory-how-block-items.md)|
 |Gérer les opérations commerciales dans les bureaux de vente, les départements d’achat ou les bureaux de planification d’usine pour plusieurs magasins.|[Utiliser les centres de gestion](inventory-responsibility-centers.md)|
 |Utilisez des ressources avec des compétences spécifiques pour divers services et éléments de service.|[Configurer l’affectation des ressources](service-how-setup-resource-allocation.md)|
@@ -68,6 +68,3 @@ Le tableau suivant présente les tâches associées.
 [Fonctionnalités marché](ui-across-business-areas.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Configurer des adresses de paiement [FR]
+title: Procédure de paramétrage des adresses de règlement [FR]
 description: Pour utiliser le module Gestion des paiements, vous devez paramétrer les adresses de règlement qui sont utilisées pour les fournisseurs et clients au moment du règlement.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 10868, 10870, 10860, 10861, 10864, 10865, 10866, 10871, 10872, 10873, 10874, 10877, 10878, 10879, 10869, 10867, 10882, 10880
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: b2ef327db613dcd839f3d35ec90537abe0c85a82
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b3c4ad047f819b7d678813561146ebeaa4b96763
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147990"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442658"
 ---
 # <a name="set-up-payment-addresses-in-the-french-version"></a>Configurer des adresses de paiement dans la version française
 

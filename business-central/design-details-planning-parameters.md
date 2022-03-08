@@ -1,23 +1,24 @@
 ---
-title: Détails de conception - Paramètres de planification
-description: Cette rubrique décrit les différents paramètres de planification que vous pouvez utiliser et comment ils affectent le système de planification.
+title: Détails de conception - Paramètres de planification | Microsoft Docs
+description: Cette rubrique décrit les différents paramètres de planification que vous pouvez utiliser dans Business Central.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 07/21/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d6598583ad118961fc15c7257e5207c3024e20e7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d7eddf4c988c6edc3ae1a0dbfd045fa7b4f5b4b4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131976"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921991"
 ---
 # <a name="design-details-planning-parameters"></a>Détails de conception : paramètres de planification
-Cette rubrique décrit les différents paramètres de planification que vous pouvez utiliser dans [!INCLUDE[prod_short](includes/prod_short.md)].  
+Cette rubrique décrit les différents paramètres de planification que vous pouvez utiliser dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 La façon dont le système de planification contrôle l’approvisionnement d’article est déterminée par divers paramètres de la fiche article ou du point de stock, et des paramètres dans la configuration de la production. Le tableau suivant montre comment ces paramètres sont utilisés pour la planification.  
 
@@ -81,25 +82,25 @@ Pour obtenir un programme d’approvisionnement rationnel, un gestionnaire régl
 
 Le temps de la période de replanification, de la période tampon, ainsi que de la période de groupement de lots est basée sur une date d’approvisionnement. L’intervalle de planification est basé sur la date de début de la planification, comme l’indique la figure suivante.  
 
-![Éléments d’intervalle de planification.](media/supply_planning_5_time_bucket_elements.png "Éléments d’intervalle de planification")  
+![Éléments d’intervalle de planification](media/supply_planning_5_time_bucket_elements.png "Éléments d’intervalle de planification")  
 
 Dans les exemples suivants, les flèches noires représentent l’approvisionnement existant (vers le haut) et la demande (vers le bas). Les flèches rouge, verte et orange sont des suggestions de planification.  
 
 **Exemple 1** : la date modifiée est en dehors de la période de replanification, ce qui entraîne l’annulation de l’approvisionnement existant. Un nouvel approvisionnement est proposé pour répondre à la demande dans la période de groupement de lots.  
 
-![Période de replanification et période de groupement de lots.](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Période de replanification et période de groupement de lots")  
+![Période de replanification et période de groupement de lots](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Période de replanification et période de groupement de lots")  
 
 **Exemple 2** : la date modifiée se trouve dans la période de replanification, ce qui entraîne la replanification de l’approvisionnement existant. Un nouvel approvisionnement est proposé pour répondre à la demande hors de la période de groupement de lots.  
 
-![Période de replanification, période de groupement de lots et replanification.](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Période de replanification, période de groupement de lots et replanification")  
+![Période de replanification, période de groupement de lots et replanification](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Période de replanification, période de groupement de lots et replanification")  
 
 **Exemple 3** : il existe une demande pour la période tampon et la quantité d’approvisionnement dans la période de groupement de lots correspond à la quantité d’approvisionnement. La demande suivante n’est pas couverte et un nouvel approvisionnement est proposé.  
 
-![Période tampon et période de groupement de lots.](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Période tampon et période de groupement de lots")  
+![Période tampon et période de groupement de lots](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Période tampon et période de groupement de lots")  
 
 **Exemple 4** : il existe une demande pour la période tampon et l’approvisionnement reste à la même date. Toutefois, la quantité d’approvisionnement actif n’est pas suffisante pour répondre à la demande dans la période de groupement de lots, donc une action de modification de quantité pour la commande approvisionnement existante est suggérée.  
 
-![Période tampon, période de groupement de lots et Modifier la quantité.](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Période tampon, période de groupement de lots et Modifier la quantité")  
+![Période tampon, période de groupement de lots et Modifier la quantité](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Période tampon, période de groupement de lots et Modifier la quantité")  
 
 **Valeurs par défaut :** la valeur par défaut du champ **Intervalle de planification** et des trois champs de période de réapprovisionnement est vide. Pour tous les champs, sauf le champ **Période tampon**, cela signifie 0D (zéro jours). Si le champ **Période tampon** est vide, la valeur globale du champ **Période tampon par défaut** de la page **Paramètres production** sera utilisée.  
 
@@ -113,32 +114,9 @@ L’option **Mode de lancement** définit les commandes supplémentaires qui ser
 
 Si l’option **Fabrication sur stock** est utilisée, les commandes se rapportent uniquement à l’article en question.  
 
-Si l’option **Fabrication à la commande** est utilisée, le système de planification analyse la nomenclature de l’article et crée des propositions commande liées supplémentaires pour les articles de niveau inférieur qui sont également définis comme Fabrication à la commande. Cela se poursuit tant que il existe des articles make-to-order dans les structures de nomenclature décroissantes.
-
-## <a name="use-low-level-codes-to-manage-derived-demand"></a>Utiliser des codes plus bas niveau pour gérer la demande dérivée
-
-Utilisez des codes plus bas niveau pour faire progresser la demande dérivée de composants jusqu’aux niveaux inférieurs de la nomenclature. Pour une explication plus détaillée, voir [Priorité d’article / Code plus bas niveau](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
-
-Vous pouvez affecter un code plus bas niveau à chaque partie de la structure du produit ou de la nomenclature envisagée. Le plus haut niveau d’assemblage est noté niveau 0 (article fini). Plus le numéro du code plus bas niveau est élevé, plus l’article est placé bas dans la hiérarchie. Par exemple, les produits finis ont le code de plus bas niveau 0 et les pièces utilisées lors de l’assemblage de ces articles ont les codes de plus bas niveau 1, 2, 3, etc. Le résultat est le planning des composants coordonné aux besoins de tous les numéros de pièces de plus haut niveau. Lorsque vous calculez une planification, la nomenclature est éclatée dans la feuille planning et les besoins bruts du niveau 0 sont transmis aux niveaux de planification comme besoins bruts du niveau de planification suivant.
-
-Sélectionnez le champ **Code plus bas niv. dyn.** pour spécifier s’il faut affecter et calculer immédiatement les codes plus bas niveau de chaque composant dans la structure produit. Si vous possédez une grande quantité de données, cette fonction peut avoir des effets négatifs sur les performances du programme, par exemple lors d’un ajustement automatique des coûts. Vous remarquerez que cette fonction n’est pas rétroactive ; il est donc préférable d’envisager l’utilisation de cette fonction au préalable.
-
-Au lieu d’utiliser le calcul automatique exécuté de façon dynamique si le champ est activé, vous pouvez lancer le traitement par lots **Calculer code plus bas niveau** accessible à partir du menu **Production** en choisissant **Conception du produit**, **Calculer code plus bas niveau**.
-
-> [!IMPORTANT]
-> Si vous n'activez pas le champ **Code plus bas niv. dyn.**, vous devez exécuter le traitement par lots **Calculer code plus bas niveau** avant de calculer un programme d'approvisionnement (traitement par lots **Calculer planning**).  
-
-> [!NOTE]
-> Même si le champ **Code plus bas niv. dyn.** est activé, les codes plus bas niveau des composants ne sont pas modifiés dynamiquement si une nomenclature parent est supprimée ou définie comme non certifiée. Il peut en résulter une difficulté à ajouter de nouveaux éléments à la fin de la structure du produit car il se peut que celle-ci dépasse le nombre maximal de codes plus bas niveau. Toutefois, pour les structures de produit volumineuses atteignant la limite de codes plus bas niveau, il est recommandé de lancer le traitement par lots **Calculer code plus bas niveau** régulièrement pour gérer la structure.  
-
-### <a name="optimize-low-level-code-calculation"></a>Optimiser le calcul du code bas niveau
-
-Sélectionnez le champ **Optimiser le calcul du code bas niveau** pour spécifier que vous souhaitez utiliser la nouvelle méthode plus rapide de calcul du code bas niveau. Notez que le nouveau calcul est effectué différemment et que son utilisation risque d’interrompre des extensions qui reposent sur la méthode existante. La nouvelle méthode de calcul va remplacer la méthode actuelle dans une version ultérieure.
+Si l’option **Fabrication à la commande** est utilisée, le système de planification analyse la nomenclature de l’article et crée des propositions commande liées supplémentaires pour les articles de niveau inférieur qui sont également définis comme Fabrication à la commande. Cela se poursuit tant que il existe des articles make-to-order dans les structures de nomenclature décroissantes.  
 
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)   
 [Détails de conception : équilibrage de la demande et de l’approvisionnement](design-details-balancing-demand-and-supply.md)   
 [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
