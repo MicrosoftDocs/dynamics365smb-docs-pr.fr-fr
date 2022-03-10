@@ -1,55 +1,61 @@
 ---
-title: Comment créer des emplacements | Microsoft Docs
-description: La méthode la plus efficace pour créer les emplacements de votre entrepôt consiste à générer des groupes d’emplacements identiques dans la feuille de création d’emplacements, mais vous pouvez également créer vos emplacements séparément.
+title: Créer emplacements
+description: Générez des groupes d’emplacements similaires dans la feuille de calcul prévue à cet effet, créez des emplacements individuellement sur la carte de localisation ou automatiquement sur la feuille de calcul de création des emplacements.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 7368, 7369, 7370, 7371, 7372, 7373
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: ea28885b7f7ff41b7ef1250e692895543ca46042
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ffd6bd12a1655cc330370df2c9d2c64a2d89e0af
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385673"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144384"
 ---
 # <a name="create-bins"></a>Créer emplacements
+
 La méthode la plus efficace pour créer les emplacements de votre entrepôt consiste à générer des groupes d’emplacements identiques dans la feuille de création d’emplacements, mais vous pouvez également créer vos emplacements séparément à partir de la fiche magasin. Vous pouvez également utiliser une fonction de la page **Feuille création emplacement** pour créer des emplacements automatiquement.  
 
-## <a name="to-create-a-bin-from-the-location-card"></a>Pour créer un emplacement à partir de la fiche magasin  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasins**, puis sélectionnez le lien associé.  
+## <a name="to-create-a-bin-from-the-location-card"></a>Pour créer un emplacement à partir de la fiche magasin
+
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.  
 2.  Sélectionnez le magasin à partir duquel vous souhaitez créer un emplacement, puis choisissez l’action **Emplacements**.  
 3. Sélectionnez l’action **Nouveau**.
 4. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="the-dedicated-field"></a>Le champ Réservé
+
 Le champ **Réservé** sur la page **Emplacements** indique que les quantités de l’emplacement sont protégées des prélèvements d’autres demandes. Toutefois, les quantités des magasins réservés peuvent encore être réservées. Par conséquent, les quantités figurant dans des magasins réservés sont incluses dans le champ **Quantité totale disponible** de la page **Réservation**.
 
 La réservation d’un emplacement fournit la même fonctionnalité dans l’entreposage de base permettant d’utiliser les types emplacement, disponible uniquement dans l’entreposage avancé. Pour plus d’informations, voir [Configurer des types d’emplacement](warehouse-how-to-set-up-bin-types.md).
 
-**Par exemple :** un centre de charge est configuré avec un code emplacement dans le champ **Code empl. des consommations**. Les lignes composant O.F. présentant ce code emplacement nécessitent que les composants consommés en aval soient stockés dans cet emplacement. Toutefois, jusqu’à la consommation des composants de cet emplacement, d’autres demandes de composant peuvent y effectuer un prélèvement ou une consommation, car elles sont encore considérées comme du contenu emplacement disponible. Pour vous assurer que le contenu de l’emplacement est uniquement disponible à une demande de composant qui utilise cet emplacement des consommations, vous devez sélectionner le champ **Réservé** sur la ligne de ce code emplacement.
+### <a name="example"></a>Exemple :
+
+Un centre de charge est configuré avec un code emplacement dans le champ **Code empl. des consommations**. Les lignes composant O.F. présentant ce code emplacement nécessitent que les composants consommés en aval soient stockés dans cet emplacement. Toutefois, jusqu’à la consommation des composants de cet emplacement, d’autres demandes de composant peuvent y effectuer un prélèvement ou une consommation, car elles sont encore considérées comme du contenu emplacement disponible. Pour vous assurer que le contenu de l’emplacement est uniquement disponible à une demande de composant qui utilise cet emplacement des consommations, vous devez sélectionner le champ **Réservé** sur la ligne de ce code emplacement.
 
 > [!Caution]
 > Des articles dans des magasins réservés ne sont pas protégés lorsqu’ils sont prélevés et consommés comme composants d’assemblage ou de production sur la page **Prélvmt invent**. Pour plus d’informations, consultez [Prélever pour la fabrication ou l’assemblage dans les configurations de stockage de base](warehouse-how-to-pick-for-production.md).
 
-## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Pour créer séparément des emplacements dans la feuille de création d’emplacements  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille création emplacement**, puis choisissez le lien associé.  
+## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Pour créer séparément des emplacements dans la feuille de création d’emplacements
+
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille création emplacement**, et choisissez le lien associé.  
 2.  Sur chaque ligne, renseignez les champs requis pour nommer et caractériser les emplacements que vous créez.  
 3.  Choisissez l’action **Créer emplacements**.  
 
-## <a name="to-make-bins-automatically-in-the-bin-creation-worksheet"></a>Pour créer des emplacements automatiquement dans la feuille de création d’emplacements  
+## <a name="to-make-bins-automatically-in-the-bin-creation-worksheet"></a>Pour créer des emplacements automatiquement dans la feuille de création d’emplacements
+
 Avant de commencer à créer automatiquement des emplacements dans la feuille, déterminez les types d’emplacement essentiels à vos opérations, ainsi que la circulation des articles la plus pratique dans la structure physique de votre entrepôt.  
 
 > [!NOTE]  
->  Dès que vous utilisez un emplacement, vous ne pouvez pas le supprimer sauf s’il est vide. En revanche, si vous souhaitez utiliser un autre système d’attribution de nom d’emplacement, vous pouvez utiliser la feuille reclassement pour déplacer effectivement vos articles vers un nouveau système d’emplacements. Cependant, ce processus est manuel et prend du temps ; il est donc préférable de configurer correctement vos emplacements dès le début.  
+> Dès que vous utilisez un emplacement, vous ne pouvez pas le supprimer sauf s’il est vide. En revanche, si vous souhaitez utiliser un autre système d’attribution de nom d’emplacement, vous pouvez utiliser la feuille reclassement pour déplacer effectivement vos articles vers un nouveau système d’emplacements. Cependant, ce processus est manuel et prend du temps ; il est donc préférable de configurer correctement vos emplacements dès le début.  
 
 Pour travailler avec la page **Feuille création emplacement**, vous devez être défini comme magasinier à l’endroit où les emplacements existent. Pour plus d’informations, voir [Configurer des employés d’entrepôt](warehouse-how-to-set-up-warehouse-employees.md).    
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille création emplacement**, puis choisissez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille création emplacement**, et choisissez le lien associé.  
 2.  Choisissez l’action **Calculer emplacements**.
 3. Sur la page **Calculer emplacements**, sous **Code modèle emplacement**, sélectionnez le modèle emplacement à utiliser comme modèle pour les emplacements que vous créez.
 4.  Saisissez une description pour les emplacements que vous êtes en train de créer.  
@@ -70,7 +76,8 @@ Pour travailler avec la page **Feuille création emplacement**, vous devez être
 
 Répétez l’opération pour un autre ensemble d’emplacements jusqu’à ce que vous ayez créé tous les emplacements de votre entrepôt.  
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-also"></a>Voir aussi
+
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)  
 [STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     

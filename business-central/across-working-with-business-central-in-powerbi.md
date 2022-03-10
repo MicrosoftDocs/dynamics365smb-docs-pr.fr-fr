@@ -2,7 +2,6 @@
 title: Utiliser les données Business Central dans Power BI| Microsoft Docs
 description: Obtenir des informations, des informations décisionnelles et des indicateurs de performance clés à partir de vos données Business Central à l’aide de Power BI.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ed744d6aba6394f567c9b297943c0061cb0c0751
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d8cd59f77230fe7d7593510f0abfc24bf9c29a2a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786906"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142574"
 ---
 # <a name="working-with-prod_short-data-in-power-bi"></a>Utilisation avec les données [!INCLUDE [prod_short](includes/prod_short.md)] dans Power BI
 
@@ -96,7 +95,7 @@ Pour partager un état, dans une liste d’états ou dans un état ouvert, séle
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] comme source de données Power Apps](across-how-use-financials-data-source-powerapps.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] dans Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

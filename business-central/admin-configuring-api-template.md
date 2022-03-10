@@ -1,25 +1,24 @@
 ---
-title: Configuration des modèles d’API | Microsoft Docs
+title: Configuration des modèles d’API
 description: Décrit la procédure à suivre pour configurer des modèles d’API pour Dynamics 365 Business Central.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
-ms.date: 10/01/2020
+ms.search.form: 5469
+ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: e90fe0282af79f36fde145e22ae28818c4575bce
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 63793ca9907d0b2c58df7f82dae88783ba0fcbc7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754066"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136348"
 ---
 # <a name="configuring-api-templates"></a>Configuration des modèles d’API
+
 La bibliothèque d’API de [!INCLUDE[prod_short_md](includes/prod_short.md)] fournit une représentation simplifiée des entités sous-jacentes. Toutes les propriétés de l’application ne sont pas exposées via l’API associée. La page **Paramètres API** permet de définir des modèles qui sont utilisés pour remplir les propriétés vides d’une entité lorsque vous créez une action POST via l’API. 
 
 Par exemple, si un modèle de configuration est défini pour l’entité article, lorsqu’un nouvel enregistrement d’article est créé via l’API de l’article, les propriétés du nouvel article qui ne sont pas définies dans l’appel de l’API sont remplies à partir du modèle sélectionné. Si, par exemple, aucune valeur n’est définie pour le champ **Groupe compta. produit** via l’API, mais une valeur est définie dans le modèle sélectionné, la valeur du groupe comptabilisation définie dans le modèle est appliquée au nouvel article. 
@@ -31,7 +30,7 @@ Pour utiliser les modèles avec la bibliothèque d’API, vous devez d’abord c
 
 Pour affecter un modèle à une API, vous devez effectuer les actions suivantes.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration API**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Configuration API**, puis choisissez le lien associé.
 2. Choisissez **Nouveau**, puis la valeur **Ordre** pour l’enregistrement.  
 Si plusieurs modèles sont sélectionnés pour une API (ID page), les modèles sont appliqués dans l’ordre défini dans la colonne **Ordre**.   
 Lorsque chaque modèle est appliqué, les valeurs de champ définies dans le modèle sont uniquement appliquées aux champs sans valeur déjà définie, soit explicitement dans l’API ou dans un modèle précédemment appliqué dans l’ordre. 
@@ -49,3 +48,5 @@ Le modèle défini est appliqué à un nouvel enregistrement créé via l’API 
 [Points de terminaison des API](/dynamics-nav/endpoints-apis-for-dynamics)  
 [Configuration d’une société avec RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

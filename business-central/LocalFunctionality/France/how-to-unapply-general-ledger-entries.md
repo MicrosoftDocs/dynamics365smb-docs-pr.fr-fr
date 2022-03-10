@@ -4,7 +4,6 @@ description: Cet article explique comment délettrer l’application des écritu
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: ee61bf296c650e12e2b69ac173a1d57237d9cb9b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d0f3d41a8bc36f081a9bf23693852a19dc565c4f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435893"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134468"
 ---
 # <a name="unapply-general-ledger-entries-in-the-french-version"></a>Délettrer les écritures comptables dans la version française
 Vous pouvez délettrer des écritures comptables de manière très directe.  

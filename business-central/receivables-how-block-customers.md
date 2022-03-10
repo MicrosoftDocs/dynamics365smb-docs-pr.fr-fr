@@ -2,7 +2,6 @@
 title: Comment bloquer les ventes de clients
 description: Si nécessaire, vous pouvez empêcher qu’un client soit ajouté aux documents de vente et d’autres transactions de vente.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1caf2fb0586cf704e5fc1354b3b4a0be096dc709
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fb69308a913f12a1433d2b37680f0ece1e93d3b9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781737"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140682"
 ---
 # <a name="block-customers"></a>Bloquer des clients
 Vous pouvez bloquer un client, par exemple à cause de son insolvabilité, afin que le client ne puisse pas être ajouté aux documents vente ou afin d’empêcher que d’autres transactions soient validées pour ce client.
@@ -32,7 +31,7 @@ Le tableau suivant décrit les options pour bloquer des clients.
 |**Tous**|Ce client n’est autorisé à effectuer aucune transaction, pas même un paiement.|  
 
 ## <a name="to-block-a-customer"></a>Pour bloquer un client  
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.
 2. Sélectionnez un client, puis cliquez sur **Modifier**.
 3. Dans le champ **Bloqué**, choisissez ce que vous souhaitez bloquer, comme décrit dans le tableau ci-dessus.
 

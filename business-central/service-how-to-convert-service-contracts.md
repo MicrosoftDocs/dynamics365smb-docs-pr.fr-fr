@@ -1,21 +1,20 @@
 ---
-title: Comment convertir les contrats de service | Microsoft Docs
-description: Étant donné que l’outil de modification du taux de TVA ne peut pas convertir les contrats de service, ces derniers doivent être convertis manuellement. Cette rubrique décrit plusieurs autres méthodes pour convertir les contrats de service.
+title: Comment convertir les contrats de service
+description: Cette rubrique décrit plusieurs autres méthodes pour convertir les contrats de service qui incluent les montants de TVA.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 62a284d536c9ffe51302062d264647fd818f9a6b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 715f532745b74b0fb49e8dff10a355fda71a0271
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925746"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134846"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Convertir les contrats de service incluant des montants TVA
 Étant donné que l’outil de modification du taux de TVA ne peut pas convertir les contrats de service, ces derniers doivent être convertis manuellement. Cette rubrique décrit plusieurs autres méthodes pour convertir les contrats de service.  
@@ -29,7 +28,7 @@ ms.locfileid: "3925746"
 >  Pour cet exemple, vous devez modifier la date de travail sur 01.01.2017.  
 
 ### <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>Pour corriger une facture pour un contrat de service prépayé  
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Gestion des contrats**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Gestion de contrats**, puis sélectionnez le lien associé.  
 2. Sous l’onglet **Listes**, choisissez **Contrats de service**.  
 3. Créez un modèle contrat de service prépayé. Saisissez une date de début **01.01.2017** et une année pour la période de facturation du client **20000**.  
 4. Pour signer le contrat, sélectionnez l’action **Signer le contrat**.  
@@ -68,3 +67,6 @@ La procédure suivante décrit comment créer un avoir à l’aide du traitement
 [Finances](finance.md)  
 [Déclarer la TVA aux autorités fiscales](finance-how-report-vat.md)  
 [Utiliser la TVA sur les ventes et les achats](finance-work-with-vat.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

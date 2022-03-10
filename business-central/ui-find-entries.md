@@ -1,21 +1,21 @@
 ---
-title: Recherche d’écritures | Microsoft Docs
+title: Recherche d’écritures
 description: Cet article décrit comment accéder aux documents et écritures liés
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2020
+ms.search.form: 344, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 870cd32dc2408236ed8997e1f939c00d1bf519e4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b77a8508d921f885276d3e0b7956d7785b7f29cb
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927660"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8322979"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Recherche d’écritures associées pour les documents validés 
 
@@ -41,7 +41,7 @@ La page **Rechercher des écritures** comprend tous les documents et écritures 
 <!--
  There are two ways to open this page:
 
-- Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then choose the related link.
+- Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then choose the related link.
 
     With this way, the **Find Entries** page might be empty, and you'll have to start searching for entries from scratch.
     
@@ -67,12 +67,15 @@ Vous pouvez rechercher des écritures en fonction des informations relatives au 
 Après avoir effectué une sélection, entrez les informations de recherche pertinentes dans les champs d’en haut. Utilisez les info-bulles sur les champs pour vous aider. Lorsque vous avez terminé, choisissez **Rechercher** pour lancer la recherche. Si vous modifiez l’un des filtres, vous devez cliquer sur **Rechercher** à nouveau.
 
 > [!TIP]
-> Pour quelques exemples d’utilisation de **Rechercher des écritures**, voir [Tracer des articles – suivis des articles](inventory-how-to-trace-item-tracked-items.md) et [Procédure pas à pas : Traçage des n° de série-lot](walkthrough-tracing-serial-lot-numbers.md).
+> Pour consulter quelques exemples d’utilisation de **Recherche des écritures**, voir [Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md) <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Voir aussi
 
-[Utilisation de Business Central](ui-work-product.md)  
+[Utilisation de Business Central](ui-work-product.md)  
 [Ajouter une action de page à votre Tableau de bord](ui-bookmarks.md)  
 [Tracer des articles - Articles suivis](inventory-how-to-trace-item-tracked-items.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

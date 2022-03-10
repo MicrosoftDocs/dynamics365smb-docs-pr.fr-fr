@@ -1,8 +1,7 @@
 ---
-title: 'Procédure pas à pas : calcul des travaux en cours pour un projet | Microsoft Docs'
-description: Avec les projets, vous pouvez planifier l’utilisation des ressources de votre société et suivre les différents coûts pour un projet spécifique. Les projets impliquent la consommation d’heures salarié, d’heures machines, d’articles en stock et d’autres types d’activité devant être suivis au fur et à mesure de l’avancée du projet.
+title: 'Procédure pas à pas : calcul des travaux en cours pour un projet'
+description: Les projets impliquent la consommation d’heures salarié, d’heures machines, d’articles en stock et d’autres types d’activité devant être suivis au fur et à mesure de l’avancée du projet.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,16 +9,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4fc4bf753788156143e482a89699e53a10fb52b4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0ee0720c6fe8f7b64e99344fc277a5c42a0243b9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772203"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148147"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Procédure pas à pas : calcul des travaux en cours pour un projet
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Avec les projets, vous pouvez planifier l’utilisation des ressources de votre société et suivre les différents coûts pour un projet spécifique. Les projets impliquent la consommation d’heures salarié, d’heures machines, d’articles en stock et d’autres types d’activité devant être suivis au fur et à mesure de l’avancée du projet. Si celui-ci couvre une longue période, il se peut que vous souhaitiez transférer les coûts correspondants vers un compte Travaux en cours (TEC) dans le bilan au cours de projet. Vous pouvez ensuite reconnaître les coûts et ventes dans vos comptes de gestion, le cas échéant.  
 
@@ -52,7 +51,7 @@ Avec les projets, vous pouvez planifier l’utilisation des ressources de votre 
 
 |Champ|Désignation|  
 |-------------------------------------|---------------------------------------|  
-|**<blank>**|Laissez le champ vierge si la tâche projet fait partie d’un groupe de tâches.|  
+|**\<blank\>**|Laissez le champ vierge si la tâche projet fait partie d’un groupe de tâches.|  
 |**Total**|Définit la plage ou le groupe de tâches incluses dans le calcul des TEC et de la réception. Au sein du groupe, n’importe quelle tâche projet dont le **Type tâche projet** est réglé sur **Validation** est incluse dans le total TEC, à moins que le champ **Total - TEC** soit paramétré sur **Exclu**.|  
 |**Exclu**|S’applique uniquement à une tâche dont le **Type tâche projet** est défini sur **Validation**. La tâche n’est pas incluse lors du calcul des TEC et de la réception.|  
 
@@ -60,7 +59,7 @@ Avec les projets, vous pouvez planifier l’utilisation des ressources de votre 
 
 ### <a name="to-calculate-wip"></a>Pour calculer les TEC :  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Projets**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.  
 2.  Dans la liste **Projets**, sélectionnez le projet **Deerfield**, puis choisissez l’action **Modifier**. La fiche projet s’ouvre en mode édition.  
 
      Les TEC peuvent être calculés en fonction de la méthode sélectionnée dans ce champ : Valeur de coût, Valeur des ventes, Coût des ventes, Pourcentage avancement ou Fin de contrat. Dans cet exemple, CRONUS utilise la méthode Valeur de coût.  
@@ -92,7 +91,7 @@ Avec les projets, vous pouvez planifier l’utilisation des ressources de votre 
 
 ### <a name="to-review-wip-warnings"></a>Pour étudier les avertissements TEC  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Cockpit TEC**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Cockpit TEC**, puis choisissez le lien associé.  
 2.  Sélectionnez le projet **Deerfield**, puis l’action **Afficher des avertissements**.  
 3.  Sur la page **Avertissements TEC projet**, examinez l’avertissement associé au projet.  
 

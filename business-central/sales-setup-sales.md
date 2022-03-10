@@ -1,28 +1,28 @@
 ---
-title: Aperçu des tâches de configuration des processus de vente | Microsoft Docs
-description: Décrit les tâches permettant de configurer des règles et des valeurs pour définir vos stratégies et vos processus de vente.
+title: Aperçu des tâches de configuration des processus de vente
+description: Présentation des tâches requises pour configurer les règles et les valeurs qui définissent vos politiques et processus de vente, y compris la configuration générale et la configuration des ventes liées aux finances.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 10/01/2020
+ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 2a7964b255f78fa599ab58f66cb9425befaa038d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 63aeff6e2b549807fd843260e4f273b7e4013ddd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393323"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140656"
 ---
 # <a name="setting-up-sales"></a>Définition des ventes.
 Avant de pouvoir gérer les processus de vente, vous devez configurer les règles et valeurs qui définissent les stratégies de vente de la société.
 
-Vous devez définir la configuration générale, notamment les documents vente requis et le mode de validation des valeurs correspondantes. Celle-ci a généralement lieu une seule fois au cours de la phase initiale de l’implémentation.
+Vous devez définir la configuration générale sur la page **Paramètres ventes**, telle que les documents de vente requis, la manière dont leurs valeurs sont enregistrées et le type de lignes à créer par défaut. Celle-ci a généralement lieu une seule fois au cours de la phase initiale de l’implémentation.
 
-Une série de tâches distincte en relation avec l’enregistrement de nouveaux clients consiste à enregistrer les prix spéciaux ou les accords de remise établis avec chaque client.
+Une série de tâches distincte en relation avec l’enregistrement de nouveaux clients consiste à enregistrer les prix spéciaux ou les accords de remise établis avec chaque client. Pour plus d’informations, reportez-vous à [Enregistrer les prix de vente spéciaux et les remises](sales-how-record-sales-price-discount-payment-agreements.md).
 
 La configuration des ventes en relation avec les finances, comme les modes de règlement et les devises, sont traitées dans la section Paramètres financiers. Pour plus d’informations, reportez-vous à [Configuration de Finance](finance-setup-finance.md).
 

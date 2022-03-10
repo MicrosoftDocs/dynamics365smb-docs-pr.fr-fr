@@ -2,7 +2,6 @@
 title: Utiliser les états Power BI dans Business Central| Microsoft Docs
 description: Obtenir des informations, des informations décisionnelles et des indicateurs de performance clés à partir de vos données Business Central avec Power BI.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7f2e2fe9719d25e13a33cf1943e7a054a70edffd
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 54271ce12ed5b71266511a85ab7a10516092be36
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935360"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147163"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Utilisation d’états Power BI dans [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -27,7 +26,7 @@ Les états Power BI vous donnent un aperçu de votre [!INCLUDE[prod_short](inclu
 
 [!INCLUDE [prod_short](includes/prod_short.md)] utilise le service Power BI. Les états à afficher dans [!INCLUDE [prod_short](includes/prod_short.md)] sont stockés dans un service Power BI. Dans [!INCLUDE [prod_short](includes/prod_short.md)], vous pouvez changer l’état affiché dans la partie Power BI vers tout état Power BI disponible dans votre service Power BI. La première fois que vous vous connectez à [!INCLUDE [prod_short](includes/prod_short.md)], et jusqu’à ce que vous vous connectiez à un service Power BI, les pièces restent vides, comme indiqué ici :
 
-![Partie Power BI dans Business Central](./media/power-bi-part.png)
+![Partie Power BI dans Business Central.](./media/power-bi-part.png)
 
 ## <a name="get-started"></a>Démarrer
 
@@ -47,7 +46,7 @@ Avant de pouvoir utiliser Power BI avec [!INCLUDE[prod_short](includes/prod_shor
 Lorsque vous vous connectez pour la première fois [!INCLUDE [prod_short](includes/prod_short.md)], vous verrez peut-être une partie Power BI vide (comme indiqué dans la figure précédente) sur différentes pages. La première chose à faire est de vous connecter à votre compte Power BI. Une fois connecté, vous pouvez voir les états. Vous ne devez effectuer cette étape qu’une seule fois.
 
 1. Sélectionnez le lien **Prise en main de Power BI** dans la partie **États Power BI**.
-2. La configuration assistée **Configuration des états Power BI dans Business Central** démarre. Sélectionnez **Suivant** continuer.
+2. La configuration assistée **Configuration des états Power BI dans Business Central** démarre. Sélectionnez **Suivant** continuer.
 3. Sur la page **Vérifier votre licence Power BI**. Exécutez l’une des étapes suivantes :
 
     - Si vous ne vous êtes pas encore inscrit à Power BI, sélectionnez [Accéder à la page d′accueil Power BI](https://powerbi.microsoft.com). Créez un compte, puis revenez sur [!INCLUDE[prod_short](includes/prod_short.md)] et terminez la configuration.
@@ -78,7 +77,7 @@ Pour savoir comment créer des états pour les pages de liste, voir [Création d
 
 Une partie Power BI sur une page peut afficher n’importe quel état Power BI à votre disposition. Pour basculer vers un autre état, choisissez l’action **Sélectionner un état** depuis la liste déroulante des commandes en haut de la partie.  
 
-La page **Sélection des états Power BI** affiche une liste de tous les états Power BI auxquels vous avez accès. Cette liste est extraite de votre espace de travail Power BI. Sélectionnez la zone **Activer** pour chaque état que vous souhaitez afficher sur la page d’accueil, puis choisissez **OK**. Vous serez redirigé(e) vers la page et le dernier état que vous avez activé apparaîtra. A l’aide de la liste déroulante des commandes, utilisez les commandes **Précédent** et **Suivant** pour naviguer entre les états.  
+La page **Sélection des états Power BI** affiche une liste de tous les états Power BI auxquels vous avez accès. Cette liste est extraite de n’importe lequel de vos propres espaces de travail ou des espaces de travail qui ont été partagés avec vous dans le service Power BI. Sélectionnez la zone **Activer** pour chaque état que vous souhaitez afficher sur la page d’accueil, puis choisissez **OK**. Vous serez redirigé(e) vers la page et le dernier état que vous avez activé apparaîtra. A l’aide de la liste déroulante des commandes, utilisez les commandes **Précédent** et **Suivant** pour naviguer entre les états.  
 
 ### <a name="get-more-reports"></a>Obtenez plus de rapports
 

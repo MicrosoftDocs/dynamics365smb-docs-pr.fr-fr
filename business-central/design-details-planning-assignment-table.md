@@ -1,21 +1,20 @@
 ---
-title: Détails de conception - tableau d’affectation de planification | Microsoft Docs
-description: Cette rubrique donne un aperçu de ce qui se produit lorsque vous modifiez la planification d’un article.
+title: 'Détails de conception : tableau d’affectation de planification'
+description: Cette rubrique donne un aperçu de ce qui se passe lorsqu’un changement dans les modèles de demande ou d’approvisionnement nécessite que vous calculiez la façon dont vous planifiez un article.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 621e747cbdf4b7ba19ad900c4c91eb3edfd8480f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 878f301db5b7b887201fd2e803fd299dc3894dbf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770887"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146591"
 ---
 # <a name="design-details-planning-assignment-table"></a>Détails de conception : tableau d’affectation de planification
 Tous les articles doivent être planifiés. Cependant, il n’existe aucune raison de calculer une planification pour un article à moins qu’il n’y ait eu une modification de la configuration de l’offre ou de la demande depuis la dernière fois qu’un plan a été calculé.  

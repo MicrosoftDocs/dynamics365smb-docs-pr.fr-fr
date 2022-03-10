@@ -1,25 +1,24 @@
 ---
-title: Prélèvement et expédition dans les configurations de stockage de base | Microsoft Docs
-description: Dans Business Central, les processus sortants de prélèvement et d’expédition peuvent être effectués de quatre manières, à l’aide de différentes fonctionnalités en fonction du niveau de complexité de l’entrepôt.
-author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+title: Prélèvement et expédition dans les configurations d’entrepôt de base
+description: Dans Business Central, les processus sortants de prélèvement et d’expédition peuvent être effectués de quatre manières, en fonction du niveau de complexité de l’entrepôt.
+author: jill-kotel-andersson
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: f3815e0e928041ca9fcef09b1c7410e45ebb57a1
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: 99271ea5f97bed9faca795f19a863977f8b0e6e4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035755"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148095"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procédure pas à pas : Prélèvement et expédition dans les configurations de stockage de base
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)] -->
 
 Dans [!INCLUDE[prod_short](includes/prod_short.md)], les processus sortants de prélèvement et d’expédition peuvent être effectués de quatre manières, à l’aide de différentes fonctionnalités en fonction du niveau de complexité de l’entrepôt.  
 
@@ -34,23 +33,17 @@ Pour plus d’informations, reportez\-vous à [Détails de conception : flux de
 
 La procédure pas à pas suivante illustre la méthode B dans la table précédente.  
 
-> [!NOTE]
-> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
-
 ## <a name="about-this-walkthrough"></a>À propos de cette procédure pas à pas
 
 Pour les configurations de stockage de base, lorsqu’un magasin est défini pour exiger un traitement des prélèvements mais pas un traitement des expéditions, vous utilisez la page **Prélèvement stock** pour enregistrer et valider les informations de prélèvement et d’expédition pour vos documents origine sortants. Le document origine sortant peut être une commande vente, un retour achat, un désenlogement transfert ou un ordre de fabrication avec un besoin de composants.  
 
 Cette procédure pas à pas présente les tâches suivantes :  
 
-- Configuration du magasin ARGENT pour les prélèvements stock.  
-- Créez une commande vent pour le client 10000 pour 30 haut-parleurs.  
+- Configuration du magasin SUD pour les prélèvements stock.  
+- Créez une commande vent pour le client 10000 pour 30 lampes Amsterdam.  
 - Lancement de la commande vente pour l’activité entrepôt.  
 - Créez un prélèvement stock sur la base d’un document origine lancé.  
 - Enregistrement d’un mouvement entrepôt de l’entrepôt et en même temps validation de l’expédition vente pour la commande vente d’origine.  
-
-> [!NOTE]
-> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="roles"></a>Rôles
 
@@ -60,43 +53,54 @@ Cette procédure pas à pas présente les tâches effectuées par les rôles uti
 - Préparateur de commandes  
 - Magasinier  
 
-## <a name="prerequisites"></a>Conditions préalables
+<!-- ## Prerequisites
 
-Pour exécuter ce processus pas à pas, vous devez :  
+To complete this walkthrough, you will need:  
 
-- Pour [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, une société basée sur l’option **Évaluation avancée - exemples de données complètes** dans un environnement sandbox. Pour [!INCLUDE[prod_short](includes/prod_short.md)] sur site, CRONUS International Ltd. installé.  
-- Pour devenir magasinier dans un magasin ARGENT, procédez comme suit :  
+- For [!INCLUDE[prod_short](includes/prod_short.md)] online, a company based on the **Advanced Evaluation - Complete Sample Data** option in a sandbox environment. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, CRONUS installed.
+ -->
 
-  1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasiniers**, puis sélectionnez le lien associé.  
-  2. Choisissez le champ **ID utilisateur** et sélectionnez votre propre compte utilisateur sur la page **Utilisateurs**.  
-  3. Dans le champ **Code magasin**, entrez ARGENT.  
-  4. Sélectionnez le champ **Par défaut**.  
+## <a name="story"></a>Scénario
 
-- Rend l’article LS-81 disponible dans le magasin ARGENT en suivant cette procédure :  
+Ellen, la gestionnaire d’entrepôt de CRONUS, configure l’entrepôt SUD pour le prélèvement de base dans lequel les magasiniers traitent les commandes sortantes individuellement. Susan, préparatrice de commandes, crée une commande vente pour 30 unités de l’article 1928-S à livrer au client 10000 depuis l’entrepôt SUD. Jean, le magasinier, doit s’assurer que l’expédition est préparée et livrée au client. Jean gère toutes les tâches impliquées sur la page **Prélèvement stock**, qui indique automatiquement les endroits où 1928-S est stocké.
 
-  1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles article**, puis sélectionnez le lien associé.  
+[!INCLUDE[set_up_location.md](includes/set_up_location.md)]
+
+### <a name="setting-up-the-bin-codes"></a>Configuration des codes emplacement
+Une fois que vous avez configuré le magasin, vous devez ajouter deux emplacements.
+
+#### <a name="to-setup-the-bin-codes"></a>Pour configurer les codes emplacement
+
+1. Sélectionnez l’action **Emplacements**.
+2. Créez deux emplacements, avec les codes *S-01-0001* et *S-01-0002*.
+
+### <a name="making-yourself-a-warehouse-employee-at-location-south"></a>Ajout en tant que magasinier au magasin SUD
+
+Pour utiliser cette fonctionnalité, vous devez vous ajouter au magasin en tant que magasinier. 
+
+#### <a name="to-make-yourself-a-warehouse-employee"></a>Pour vous ajouter en tant que magasinier
+
+  1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me pour la première fois.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Employés entrepôt**, puis sélectionnez le lien associé.  
+  2. Choisissez le champ **ID utilisateur** et sélectionnez votre propre compte utilisateur sur la page **Magasiniers**.
+  3. Dans le champ **Code magasin**, entrez SUD.  
+  4. Sélectionnez le champ **Par défaut**, puis cliquez sur le bouton **Oui**.  
+
+### <a name="making-item-1928-s-available"></a>Rendre l’article 1928-S disponible
+
+Pour rend l’article 1928-S disponible dans le magasin SUD, suivez cette procédure :  
+
+  1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me pour la deuxième fois.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles article**, puis choisissez le lien associé.  
   2. Ouvrez la feuille par défaut, puis créez deux lignes feuille article avec les informations de date de travail suivantes (23 janvier).  
 
         |Type écriture|Numéro d’article|Code magasin|Code emplacement|Quantité|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Positif (ajust.)|LS-81|ARGENT|S-01-0001|20|  
-        |Positif (ajust.)|LS-81|ARGENT|S-01-0002|20|  
+        |Positif (ajust.)|1928-S|SUD|S-01-0001|20|  
+        |Positif (ajust.)|1928-S|SUD|S-01-0002|20|  
 
-  3. Choisissez l’action **Valider**, puis cliquez sur le bouton **Oui**.  
+        Par défaut, le champ **Code emplacement** des lignes vente est masqué, vous devez donc l’afficher. Pour cela, vous devez personnaliser la page. Pour plus d’informations, consultez [Commencer à personnaliser une page au moyen de la bannière Personnalisation](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-## <a name="story"></a>Scénario
-
-Ellen, la gestionnaire d’entrepôt de CRONUS, configure l’entrepôt ARGENT pour le prélèvement de base dans lequel les magasiniers traitent les commandes sortantes individuellement. Susan, préparatrice de commandes, crée une commande vente pour 30 unités de l’article LS-81 à livrer au client 10000 depuis l’entrepôt ARGENT. Jean, le magasinier, doit s’assurer que l’expédition est préparée et livrée au client. Jean gère toutes les tâches impliquées sur la page **Prélèvement stock**, qui indique automatiquement les endroits où LS-81 est stocké.  
-
-## <a name="setting-up-the-location"></a>Configuration du magasin
-
-La configuration de la page **Fiche magasin** définit les flux d’entrepôt de la société.  
-
-### <a name="to-set-up-the-location"></a>Pour configurer le magasin
-
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasins**, puis sélectionnez le lien associé.  
-2. Ouvrez la fiche magasin ARGENT.  
-3. Sur le raccourci **Entrepôt**, cochez la case **Prélèvement requis**.  
+  3. Choisissez **Actions**, puis **Validation**, puis **Valider**.  
+  4. Sélectionnez le bouton **Oui**.  
 
 ## <a name="creating-the-sales-order"></a>Création de la commande vente
 
@@ -104,13 +108,13 @@ Les commandes vente sont le type de document d’origine sortant le plus répand
 
 ### <a name="to-create-the-sales-order"></a>Pour créer la commande vente
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me pour la troisième fois.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
 3. Créez une commande vente pour le client 10000 à la date de travail (23 janvier) comportant la ligne commande vente suivante.  
 
     |Article ;|Code magasin|Quantité|  
     |----|-------------|--------|  
-    |LS_81|ARGENT|30|  
+    |1928-S|SUD|30|  
 
      Informez l’entrepôt que la commande vente est prête pour l’activité entrepôt lorsque la livraison sera faire.  
 
@@ -124,7 +128,7 @@ Sur la page **Prélèvement stock**, vous pouvez gérer toutes les activités en
 
 ### <a name="to-pick-and-ship-items"></a>Pour prélever et expédier des articles
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Prélèvements stock**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me pour la quatrième fois.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Prélèvements stock**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
 
     Assurez-vous que le champ **N°** du raccourci **Général** est rempli.
@@ -137,7 +141,7 @@ Sur la page **Prélèvement stock**, vous pouvez gérer toutes les activités en
     Sinon, dans le champ **Qté à traiter**, saisissez respectivement 10 et 20 sur les deux lignes prélèvement stock.  
 6. Choisissez l’action **Valider**, sélectionnez **Expédier**, puis cliquez sur le bouton **OK**.  
 
-    Les 30 haut-parleurs sont à présent enregistrés comme prélevés depuis les emplacements S-01-0001 et S-01-0002, et une écriture comptable article négative est créée pour refléter l’expédition vente validée.  
+    Les 30 lampes Amsterdam sont à présent enregistrées comme prélevées depuis les emplacements S-01-0001 et S-01-0002, et une écriture comptable article négative est créée pour refléter l’expédition vente validée.  
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -150,3 +154,6 @@ Sur la page **Prélèvement stock**, vous pouvez gérer toutes les activités en
 [Détails de conception : flux de désenlogement](design-details-outbound-warehouse-flow.md)  
 [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

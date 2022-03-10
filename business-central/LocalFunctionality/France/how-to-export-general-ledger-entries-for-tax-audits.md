@@ -1,58 +1,60 @@
 ---
-title: Procédure d'exportation des écritures comptables pour les audits fiscaux
-description: Le fichier d'audit standard utilisé à des fins fiscales enregistre des informations commerciales clés (transactions et validations comptables) dans un fichier au format courant spécifié à des fins d'audit. En France, vous devez fournir au gouvernement ces informations dans un fichier d'audit standard à partir de janvier 2014. Cela s'applique aux sociétés pour les besoins d'audit de l'impôt sur les sociétés et de la TVA.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+title: Exporter des écritures comptables pour les audits fiscaux [FR]
+description: Cette rubrique explique comment préparer des fichiers d’audit pour se conformer à la réglementation fiscale spécifique en France.
+author: sorenfriisalexandersen
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 492f43297a622f955d0de63ac920e0d4111e1066
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: adda546867c5c4edc88ef3d714aef8f02fe76073
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237456"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132260"
 ---
-# <a name="export-general-ledger-entries-for-tax-audits"></a>Exporter des écritures comptables pour les audits fiscaux
-Le fichier d'audit standard utilisé à des fins fiscales enregistre des informations commerciales clés (transactions et validations comptables) dans un fichier au format courant spécifié à des fins d'audit. En France, vous devez fournir au gouvernement ces informations dans un fichier d'audit standard à partir de janvier 2014. Cela s'applique aux sociétés pour les besoins d'audit de l'impôt sur les sociétés et de la TVA.  
+# <a name="export-general-ledger-entries-for-tax-audits-in-the-french-version"></a>Exporter les écritures comptables pour les contrôles fiscaux en version française
+En France, les entreprises doivent fournir des informations relatives à l’impôt sur les sociétés et à la TVA, telles que les transactions et les écritures comptables, pour les audits dans un format de fichier spécifié par les autorités fiscales. Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], ces informations sont enregistrées dans un fichier d’audit standard conçu pour fournir des informations sur les types de comptes qui incluent des entrées comptabilisées.
 
-En général, l'état est conçu pour fournir des informations sur les types de compte contenant des écritures validées.  
+Vous pouvez inclure des soldes d’ouverture dans le fichier, mais il ne s’agit pas d’entrées comptabilisées réelles. [!INCLUDE[prod_short](../../includes/prod_short.md)] calcule le solde d’ouverture en utilisant des entrées de compte jusqu’à la date de début que vous spécifiez pour le fichier. Le calcul inclut également les écritures de clôture générées par la clôture de l’exercice précédent. Les soldes d’ouverture sont ensuite mappés aux champs obligatoires de l’état.  
 
-Vous pouvez choisir d'inclure les soldes d'ouverture dans le fichier, mais ce ne sont pas les écritures réelles qui sont validées dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Le système calcule le solde d'ouverture à l'aide des écritures d'un compte donné jusqu'à la date de début spécifiée pour le fichier. Les écritures de clôture générées par le processus de clôture de l'exercice précédent sont également incluses dans le calcul. Les soldes d'ouverture sont ensuite mappés dans les champs requis de l'état.  
-
-Si vous ne fermez pas votre exercice comptable ou n'exécutez pas l'action **Clôturer exercice** avant de générer l'état, les comptes de gestion présentent toujours des soldes, qui sont déclarés dans le fichier.  
+Si vous ne fermez pas votre exercice comptable ou n’exécutez pas l’action **Clôturer exercice** avant de générer l’état, le fichier inclura les soldes des comptes de gestion.  
 
 > [!NOTE]  
->  Les soldes d'ouverture sont uniquement inclus dans l'état pour les comptes présentant un solde différent de zéro. Vous pouvez identifier les soldes d'ouverture à l'aide des valeurs suivantes des champs :  
+>  Les soldes d’ouverture sont inclus dans l’état uniquement pour les comptes présentant un solde différent de zéro. Pour identifier les soldes d’ouverture, regardez les valeurs suivantes dans les champs ci-dessous :  
 >   
->  -   JournalCode = 0  
+>  -  JournalCode = 0  
 > -   JournalLib = BALANCE OUVERTURE  
 > -   EcritureNum = 0  
 > -   EcritureLib = Comptes commençant par le préfixe BAL OUV  
-> -   ValidDate = Date de début spécifiée sur la page de demande de l'état  
+> -   ValidDate = Date de début spécifiée sur la page de demande de l’état  
+
+> [!NOTE]  
+>  Avant d’exporter des écritures comptables, assurez-vous que vous avez marqué les comptes généraux à détailler lors de l’exportation des soldes d’ouverture. C’est généralement une exigence pour les comptes généraux de banque, de client et de fournisseur. L’opération s’effectue en cochant la case dans le champ **Solde détaillé** sur la page **Carte de compte général**.
+>   
 
 ## <a name="to-export-general-ledger-entries-to-a-text-file-for-a-tax-audit"></a>Pour exporter des écritures comptables ver un fichier texte pour un audit fiscal  
-
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Exporter écritures comptables - Audit fiscal**, puis sélectionnez le lien approprié.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Exporter écritures comptables - Audit fiscal**, puis choisissez le lien approprié.  
 2.  Sur la page **Exporter écritures comptables - Audit fiscal**, sur le raccourci **Options**, renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
-    |**Date début**|Entrez la date à utiliser comme date de début de la période couverte par l'audit.|  
-    |**Date fin**|Entrez la date à utiliser comme date de fin de la période couverte par l'audit.|  
-    |**Inclure soldes d'ouverture**|Indiquez si vous souhaitez inclure les soldes d'ouverture dans le fichier d'audit. Les soldes sont calculés à partir de la date précédent la première date de la période couverte par l'état.|  
+    |**Date début**|Entrez la date à utiliser comme date de début de la période couverte par l’audit.|  
+    |**Date fin**|Entrez la date à utiliser comme date de fin de la période couverte par l’audit.|  
+    |**Inclure soldes d’ouverture**|Indiquez si vous souhaitez inclure les soldes d’ouverture dans le fichier d’audit. Les soldes sont calculés à partir de la date précédent la première date de la période couverte par l’état.|  
 
 3.  Cliquez sur le bouton **OK** pour exporter le fichier.  
 
-Lorsque vous créez l'état, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] trie les informations de l'état en fonction des champs **N°** et **Date création** de l'historique des transactions comptables.  
+Lorsque vous créez l’état, [!INCLUDE[prod_short](../../includes/prod_short.md)] trie les informations de l’état en fonction des champs **N°** et **Date création** de l’historique des transactions comptables.  
 
-L'état aura le nom suivant : <taxpayername>FEC<YYYYMMDD>  
+L’état aura le nom suivant : `<taxpayername>FEC<YYYYMMDD>`  
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-also"></a>Voir aussi
+
  [Clôturer fiscalement des exercices](how-to-close-years.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

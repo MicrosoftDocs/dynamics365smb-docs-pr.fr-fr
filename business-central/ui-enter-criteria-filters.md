@@ -1,21 +1,21 @@
 ---
-title: Tri, recherche et filtrage de listes | Microsoft Docs
+title: Tri, recherche et filtrage de listes
 description: Travaillez efficacement dans les listes en parcourant toutes vos données, en triant les colonnes, et en affinant les résultats en utilisant des symboles de filtre et des raccourcis clavier.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a3d42fccebafdfa80346f04b43a0e3dd29f467d8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9f5eda0056c4c449a46f9f04064c3f2764087007
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770637"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335006"
 ---
 # <a name="sorting-searching-and-filtering"></a>Tri, recherche et filtrage
 
@@ -24,7 +24,7 @@ Il existe quelques fonctions que vous pouvez utiliser pour vous aider à analyse
 Pour les états et les XMLports, comme sur des listes, vous pouvez définir des filtres pour délimiter les données à inclure dans l’état ou le XMLport, mais vous ne pouvez pas trier et rechercher.
 
 > [!TIP]
-> En affichant vos données en tant que vignettes, vous pouvez rechercher et utiliser le filtrage. Pour utiliser l’ensemble complet de puissantes fonctions de tri, de recherche et de filtrage, choisissez l’icône ![Afficher sous forme de liste](media/ui_show_as_list_icon.png "Afficher sous forme de liste") pour afficher les enregistrements sous forme de liste.
+> En affichant vos données en tant que vignettes, vous pouvez rechercher et utiliser le filtrage. Pour utiliser l’ensemble complet de puissantes fonctions de tri, de recherche et de filtrage, choisissez l’icône ![Afficher sous forme de liste.](media/ui_show_as_list_icon.png "Afficher sous forme de liste") pour afficher les enregistrements sous forme de liste.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -45,7 +45,7 @@ Pour trier une liste, vous pouvez soit :
 ## <a name="searching"></a>Recherche
 
 <!--## Searching by using the Quick Filter -->
-En haut de chaque page de liste, il existe une action ![Rechercher dans une liste](media/ui-search/search-list.png "Icône de liste Rechercher") **Rechercher** qui fournit une manière rapide et facile de réduire les enregistrements d’une liste et d’afficher uniquement les enregistrements qui contiennent les données que vous souhaitez afficher.
+En haut de chaque page de liste, il y a une ![liste de recherche.](media/ui-search/search-list.png "Icône de liste Rechercher") action **Rechercher** qui fournit une manière rapide et facile de réduire les enregistrements d’une liste et d’afficher uniquement les enregistrements qui contiennent les données que vous souhaitez afficher.
 
 Pour rechercher, sélectionnez simplement l’action **Rechercher**, puis dans la case, entrez le texte souhaité. Vous pouvez saisir des lettres, des chiffres et d’autres symboles.
 
@@ -144,7 +144,7 @@ Dans le volet Filtre et sur une page de demande, vous devez entrer vos critères
 
 Le type de champ à filtrer détermine les critères que vous pouvez entrer. Par exemple, filtrer un champ avec des valeurs fixes vous permet uniquement de choisir parmi ces valeurs. Pour plus d’informations sur les symboles de filtre spéciaux, consultez [Critères de filtre](#FilterCriteria) et [Jetons de filtre](#FilterTokens).
 
-Les colonnes qui ont déjà des filtres sont signalées par l’![Icône de filtre](media/ui-search/filter-icon.png "Icône de filtre") dans l’en-tête de colonne. Pour supprimer un filtre, choisissez la flèche déroulante du titre de la page, puis choisissez l’action **Effacer le filtre**.
+Les colonnes qui ont déjà des filtres sont signalées par l’![Icône de filtre](media/ui-search/filter-icon.png "Icône de filtre"). dans l’en-tête de la colonne. Pour supprimer un filtre, choisissez la flèche déroulante du titre de la page, puis choisissez l’action **Effacer le filtre**.
 
 > [!TIP]
 > Accélérez la recherche et l’analyse de vos données en utilisant des combinaisons des raccourcis clavier. Par exemple, sélectionnez un champ, utilisez **Maj+Alt+F3** pour ajouter ce champ au volet Filtre, saisissez les critères de filtre, utilisez **Ctrl+Entrée** pour revenir aux lignes, sélectionnez un autre champ, puis utilisez **Alt+F3** pour filtrer selon cette valeur. Pour plus d’informations, reportez-vous à [Raccourcis clavier](keyboard-shortcuts.md#KeyboardFilter).
@@ -220,6 +220,7 @@ Lorsque vous saisissez des critères, vous pouvez utiliser tous les chiffres et 
 |Expression|Enregistrements affichés|  
 |-----------------------|-----------------------|  
 |`'man'`|Texte qui correspond exactement à **man** et qui respecte la casse.|  
+|`''`|Texte vide.|  
 
 #### <a name="-case-insensitive"></a>(@) Non-respect de la casse  
 
@@ -259,7 +260,7 @@ Il peut y avoir des cas où les valeurs de champ contiennent l’un des symboles
 - =
 - &#124;
 
-Si vous souhaitez filtrer sur l’un de ces symboles, placez l’expression de filtre entre guillemets (’’). Par exemple, si vous souhaitez filtrer les enregistrements commençant par le texte *J & V*, l’expression de filtre serait `'J & V*'`.
+Pour filtrer sur l’un de ces symboles, placez l’expression de filtre entre apostrophes (`'<expression with symbol>'`). Par exemple, si vous souhaitez filtrer les enregistrements commençant par le texte *J & V*, l’expression de filtre serait `'J & V*'`.
 
 Cette exigence n’est pas nécessaire pour les autres symboles.
 
@@ -304,7 +305,7 @@ Utilisez `%myvendors` dans le champ **N°** fournisseur pour afficher tous les e
 
 ## <a name="see-also"></a>Voir aussi
 
-[FAQ sur la recherche et le filtrage](ui-search-filter-faq.md)  
+[FAQ sur la recherche et le filtrage](ui-search-filter-faq.yml)  
 [Enregistrer et personnaliser les vues de liste](ui-views.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

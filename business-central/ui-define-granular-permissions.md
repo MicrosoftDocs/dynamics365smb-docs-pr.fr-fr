@@ -2,20 +2,20 @@
 title: Définir des autorisations granulaires
 description: Cette rubrique décrit comment définir des autorisations granulaires en donnant à certains utilisateurs l’accès aux objets et en leur attribuant des ensembles d’autorisations.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
+ms.search.form: 1, 119, 9807, 9808, 9830, 9831
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d048350c9963ae889b5320b3c78b87336197a7a9
-ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
+ms.openlocfilehash: c0dedf8ba397bb1a50f81de0435abf5e4e726404
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547022"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146123"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Attribuer des autorisations aux utilisateurs et aux groupes
 
@@ -264,8 +264,8 @@ Vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour envoy
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Administration](admin-setup-and-administration.md)  
-[Ajouter des utilisateurs à Microsoft 365 pour les entreprises](/microsoft-365/admin/add-users/add-users)  
-[Sécurité et protection dans Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) dans l’aide sur Developer and IT-Pro
+[Ajouter des utilisateurs à Microsoft 365 pour les entreprises](/microsoft-365/admin/add-users/add-users)  
+[Sécurité et protection dans Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) dans l'aide sur Developer and IT-Pro
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

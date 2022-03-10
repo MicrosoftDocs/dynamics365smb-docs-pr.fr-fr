@@ -1,21 +1,20 @@
 ---
-title: Configurer des lignes standard pour les ventes et achats récurrents| Microsoft
-description: Vous pouvez définir des lignes vente et des lignes achat que vous utilisez fréquemment et les insérer dans des documents achat et vente pour remplir rapidement les lignes avec des informations standard.
+title: Lignes vente et achat récurrentes standard
+description: Définissez des lignes vente et des lignes achat que vous utilisez fréquemment et les insérer dans des documents achat et vente pour remplir rapidement les lignes avec des informations standard.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 10/01/2020
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 40af4b0010b46938a9ce53a12dd95f1b2a687cc9
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6039739825964ce059a4f76d1e92f32b581c60a7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748168"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144748"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Créer des lignes ventes et achat récurrentes
 Si vous devez souvent créer des lignes ventes et des lignes achat comportant des informations similaires, vous pouvez configurer des lignes standard que vous pouvez ensuite insérer dans les documents vente et achat, par exemple, pour les commandes de réapprovisionnement récurrentes.  
@@ -24,7 +23,7 @@ Les procédures suivantes indiquent comment utiliser des lignes ventes standard 
 
 ## <a name="to-set-up-recurring-sales-lines"></a>Pour configurer des lignes vente récurrentes
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Lignes vente récurrentes**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Lignes vente récurrentes**, puis sélectionnez le lien associé.  
 2. Sur la page **Lignes vente récurrentes**, cliquez sur l’action **Nouveau**.  
 3. Sur le raccourci **Général**, complétez les champs, comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Dans le raccourci **Lignes**, renseignez les champs pour préparer les lignes ventes qui répercutent les lignes standard que vous prévoyez d’utiliser comme lignes récurrentes sur les documents ventes.  
@@ -38,7 +37,7 @@ Les procédures suivantes indiquent comment utiliser des lignes ventes standard 
 
 Affectez une ou plusieurs lignes vente récurrentes à un client afin qu’elles soient disponibles pour insertion sur les documents vente pour ce client.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clients**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.
 2. Ouvrez la fiche pour un client concerné.
 3. Choisissez l’action **Lignes vente récurrentes**.
 4. Sur la page **Lignes vente récurrentes**, sélectionnez les codes des lignes vente récurrentes que vous souhaitez pouvoir insérer sur les documents vente du client.
@@ -60,7 +59,7 @@ Affectez une ou plusieurs lignes vente récurrentes à un client afin qu’elles
 
 Si des lignes vente récurrentes existent pour le client, vous pouvez les insérer ou demander à les insérer sur tous les types de documents vente, par exemple une facture vente. Si vous avez activé les options **Toujours demander**, vous serez informé si des lignes vente récurrentes existent.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures**, puis sélectionnez le lien associé.
 2. Ouvrez la facture vente que vous souhaitez pour insérer une ou plusieurs lignes ventes standard.
 3. Choisissez l’action **Extraire les lignes vente récurrentes**.
 4. Sur la page **Lignes vente récurrentes**, cliquez sur le bouton de recherche du champ **Code**, puis sélectionnez un ensemble de lignes vente standard.
@@ -69,7 +68,7 @@ Si des lignes vente récurrentes existent pour le client, vous pouvez les insér
 ## <a name="to-create-multiple-sales-invoices-based-on-recurring-sales-lines"></a>Pour créer plusieurs factures vente à partir de lignes vente récurrentes
 Vous pouvez utiliser le traitement par lots **Créer des factures vente récurrentes** pour créer des factures vente en fonction des lignes vente standard qui sont affectées aux clients et avec des dates comptabilisation comprises entre les dates de début et de fin de validité que vous spécifiez dans les lignes vente standard.
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Créer des factures vente récurrentes**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Créer des factures vente récurrentes**, puis sélectionnez le lien associé.
 2. Sur la page **Créer des factures vente récurrentes**, renseignez les champs selon les besoins.
 3. Dans le champ de filtre **Code**, entrez le code des lignes vente standard associées à un client pour lequel vous souhaitez créer des factures vente.
 4. Cliquez sur le bouton **OK**.
@@ -80,3 +79,6 @@ Les factures vente sont créées pour les clients ayant le code vente client sta
 
 [Ventes](sales-manage-sales.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

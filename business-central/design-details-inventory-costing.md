@@ -1,28 +1,30 @@
 ---
-title: Détails de conception - Coûts ajustés | Microsoft Docs
+title: Détails de conception – Évaluation stock
 description: Cette documentation fournit une analyse technique détaillée des concepts et principes qui sont utilisés dans les fonctions Inventory Costing dans Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.date: 10/01/2020
+ms.search.form: 8645
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 5ebde5f0d330f0e258f08f27a1a686a72dc12bea
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 82b837475f12f402d3b534f1ae1063a56619d8c4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913762"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146656"
 ---
 # <a name="design-details-inventory-costing"></a>Détails de conception : coûts ajustés
-Cette documentation fournit une analyse technique détaillée des concepts et principes qui sont utilisés dans les fonctions Inventory Costing dans [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+Cette documentation fournit une analyse technique détaillée des concepts et principes qui sont utilisés dans les fonctions Inventory Costing dans [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 L’évaluation des coûts de stock, aussi appelé gestion des coûts, se charge de l’enregistrement et de la déclaration des coûts d’exploitation de la société.  
 
-## <a name="in-this-section"></a>Dans cette section  
+## <a name="in-this-section"></a>Dans cette section
+
 [Détails de conception : modes évaluation stock](design-details-costing-methods.md)  
 [Détails de conception : lettrage article](design-details-item-application.md)  
 [Détails de conception : problème de lettrage article connu](design-details-inventory-zero-level-open-item-ledger-entries.md)  
@@ -41,3 +43,6 @@ L’évaluation des coûts de stock, aussi appelé gestion des coûts, se charge
 [Détails de conception : comptes de la comptabilité](design-details-accounts-in-the-general-ledger.md)  
 [Détails de conception : évaluation du stock](design-details-inventory-valuation.md)  
 [Détails de conception : réévaluation](design-details-revaluation.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

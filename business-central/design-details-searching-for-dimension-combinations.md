@@ -1,21 +1,20 @@
 ---
 title: Détails de conception - recherche des croisements analytiques | Microsoft Docs
-description: Lorsque vous fermez une page après avoir modifié un ensemble de dimensions, Business Central évalue si l’ensemble de dimensions modifié existe. Si l’ensemble n’existe pas, un nouvel ensemble est créé et le code de croisement analytique est retourné.
+description: Lorsque vous fermez une page après avoir modifié un ensemble de dimensions, Business Central évalue si l’ensemble de dimensions modifié existe. Si l’ensemble n’existe pas, un nouvel ensemble est créé et le code de croisement analytique est retourné.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: c3867c45f659f054a3bdee1605f2d8541e72dec1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 67aa9c5a7b56b00e49573b5232045f032db178c3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751129"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145809"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Détails de conception : recherche des croisements analytiques
 Lorsque vous fermez une page après avoir modifié un ensemble de dimensions, [!INCLUDE[prod_short](includes/prod_short.md)] évalue si l’ensemble de dimensions modifié existe. Si l’ensemble n’existe pas, un nouvel ensemble est créé et le code de croisement analytique est retourné.  
@@ -26,7 +25,7 @@ Lorsque vous fermez une page après avoir modifié un ensemble de dimensions, [!
 ### <a name="example-1"></a>Exemple 1  
  Le schéma suivant représente un arbre de recherche avec six ensembles de dimensions. Seule l’écriture d’ensemble de dimensions distinctive est affichée dans le schéma.  
 
- ![Exemple de structure arborescente des dimensions](media/nav2013_dimension_tree.png "Exemple de structure arborescente des dimensions")  
+ ![Exemple de structure arborescente des dimensions.](media/nav2013_dimension_tree.png "Exemple de structure arborescente des dimensions")  
 
  Le tableau suivant décrit une liste complète des écritures d’ensemble de dimensions qui constituent chaque ensemble de dimensions.  
 
@@ -45,7 +44,7 @@ Lorsque vous fermez une page après avoir modifié un ensemble de dimensions, [!
 
  D’abord, [!INCLUDE[prod_short](includes/prod_short.md)] met également à jour la table **Nœud d’arbre ensemble de dimensions** pour s’assurer que l’arbre de recherche ressemble au schéma suivant. Ainsi, l’ensemble de dimensions 7 devient un enfant de l’ensemble de dimensions 5.  
 
- ![Exemple de structure arborescente des dimensions dans NAV 2013](media/nav2013_dimension_tree_example2.png "Exemple de structure arborescente des dimensions dans NAV 2013")  
+ ![Exemple de structure arborescente des dimensions dans NAV 2013.](media/nav2013_dimension_tree_example2.png "Exemple de structure arborescente des dimensions dans NAV 2013")  
 
 ### <a name="finding-dimension-set-id"></a>Recherche de l’ID ensemble de dimensions  
  Au niveau conceptuel, **Code parent**, **Dimension** et **Section analytique**, dans l’arbre de recherche, sont combinés et sont utilisés comme clé primaire, car [!INCLUDE[prod_short](includes/prod_short.md)] parcourt l’arborescence dans le même ordre que les écritures analytiques. La fonction GET (enregistrement) est utilisée pour rechercher l’ID de l’ensemble de dimensions L’exemple de code suivant indique comment trouver l’ID d’ensemble de dimensions lorsqu’il existe trois sections analytiques.  
@@ -72,9 +71,12 @@ EXIT(DimSet.ID);
 
 ```  
 
-## <a name="see-also"></a>Voir aussi  
- [Fonction GET (Enregistrement)](/dynamics-nav/GET-Function--Record-)    
+## <a name="see-also"></a>Voir aussi
+    
  [Détails de conception : écritures d’ensemble de dimensions](design-details-dimension-set-entries.md)   
  [Aperçu des écritures de l’ensemble de dimensions](design-details-dimension-set-entries-overview.md)   
  [Détails de conception : structure de la table](design-details-table-structure.md)   
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

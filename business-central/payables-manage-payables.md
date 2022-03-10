@@ -1,21 +1,21 @@
 ---
-title: Aperçu des tâches permettant de gérer la comptabilité fournisseur| Microsoft Docs
+title: Aperçu des tâches permettant de gérer la comptabilité fournisseur
 description: Décrit les tâches permettant de gérer la comptabilité fournisseur, par exemple, le paiement des créditeurs ou le lettrage de paiements sortants dans la comptabilité pour clôturer des factures ou des avoirs.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
+ms.search.form: 161, 254, 256, 347, 574, 599, 9002
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b69280502f9289449a5a652c8c0eb670a6c6d4ef
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ef7b8fafd5949d9a3595a003c4840994e2319d54
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779531"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137730"
 ---
 # <a name="managing-payables"></a>Gestion des comptes fournisseur
 

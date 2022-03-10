@@ -1,21 +1,20 @@
 ---
-title: Détails de conception- Structure de l’interface de validation | Microsoft Docs
-description: Cette rubrique donne un aperçu des procédures globales dans la structure de l’interface de validation.
+title: Détails de conception : structure de l’interface de validation
+description: Cette rubrique donne un aperçu des procédures globales et les détails de la conception dans la structure de l’interface de validation.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting, interface, design
-ms.date: 10/01/2020
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: e306b0caeb58bfe7bd04f93ac64d8b593f70f695
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ed590455c9edbe5b8727988d4300172223bd2056
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751254"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131924"
 ---
 # <a name="design-details-posting-interface-structure"></a>Détails de conception : Structure de l’interface de validation
 Dans la structure de l’interface de validation [!INCLUDE[prod_short](includes/prod_short.md)], il y a plusieurs procédures globales utilisant la même structure :  
@@ -28,3 +27,5 @@ Dans la structure de l’interface de validation [!INCLUDE[prod_short](includes/
   
 ## <a name="see-also"></a>Voir aussi  
 [Détails de conception : Structure du moteur de validation](design-details-posting-engine-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,35 +1,58 @@
 ---
-title: Comment autoriser les reçus pour plus d'articles que ceux commandés | Microsoft Docs
+title: Regroupement de bons de réception sur une seule facture
 description: Si vous voulez facturer plusieurs réceptions achat en une fois, vous pouvez utiliser la fonction Regroupement des réceptions.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 6076412504a8f9176503deced03ae92c7e8076c5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 136, 145, 146
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: fa038043a1a9451f3f74c0ab72f8c9a2b8033cf0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312435"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137262"
 ---
-# <a name="allow-receipt-of-more-items-than-ordered"></a>Autoriser la réception de plus d'articles que ceux commandés
-Lorsque vous recevez plus de produits que commandés, vous pouvez les réceptionner au lieu d'annuler la réception. Par exemple, il peut être moins coûteux de conserver les stocks excédentaires que de les retourner ou votre fournisseur peut vous proposer un rabais pour les conserver.
+# <a name="combine-receipts-on-a-single-invoice"></a>Regroupement de bons de réception sur une seule facture
 
-Les entreprises de traitement des commandes et les magasiniers doivent être en mesure de gérer ces « excédents » sans passer par un long processus de préparation et d’approbation pour un nouveau bon de commande.
+Si vous voulez facturer plusieurs réceptions achat en une fois, vous pouvez utiliser la fonction **Regroupement des réceptions**.  
 
-## <a name="to-receive-more-items-than-specified-on-the-purchase-document"></a>Pour recevoir plus d'articles que spécifié sur le document d'achat
+Avant de pouvoir regrouper des réceptions achat, plusieurs réceptions achat du même fournisseur doivent être validées dans la même devise. En d’autres termes, vous devez avoir renseigné au moins deux commandes achat et les avoir validées comme reçues, mais non facturées.  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres achats**, puis sélectionnez le lien associé.
-2.   
+Lorsque des réceptions achat sont regroupées sur une facture et validées, une facture achat enregistrée est créée pour les lignes facturées. Le champ **Quantité facturée** de la commande achat d’origine, ou de la commande ouverte achat, est mis à jour en fonction de la quantité facturée. Comme ce document d’achat d’origine n’est toutefois pas supprimé, même s’il a été entièrement reçu et facturé, vous devez supprimer le document d’achat.  
 
-## <a name="see-also"></a>Voir aussi  
+> [!NOTE]
+> La facture achat qui en résulte ne peut pas être corrigée ou annulée ultérieurement. Si vous souhaitez modifier une facture achat ainsi créée, vous devez utiliser des avoirs achat. Pour plus d’informations, voir [Corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
+
+## <a name="to-combine-receipts"></a>Pour regrouper des réceptions
+
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures achat**, puis sélectionnez le lien associé.  
+2. Sélectionnez l’action **Nouveau**. Pour plus d’informations, voir [Enregistrer des achats](purchasing-how-record-purchases.md).  
+3. Dans le raccourci **Lignes**, sélectionnez l’action **Extraire lignes réception**.  
+4. Sélectionnez plusieurs lignes réception à inclure dans la facture.  
+
+    Si une ligne réception incorrecte a été sélectionnée ou que vous souhaitez recommencer, il vous suffit de supprimer les lignes de la facture achat et d’utiliser à nouveau la fonction **Extraire lignes réception**.  
+5. Pour valider la facture, sélectionnez l’action **Valider**.  
+
+## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Pour supprimer des commandes achat ouvertes après la validation de reçus regroupés
+
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Supprimer les retours achat facturé**, puis sélectionnez le lien associé.  
+2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+3. Cliquez sur le bouton **OK**.  
+
+Vous pouvez également supprimer chacune des commandes manuellement.
+
+Répétez les étapes 1 à 3 pour tous les autres documents affectés, comme des commandes ouvertes achat.
+
+## <a name="see-also"></a>Voir aussi
+
 [Achats](purchasing-manage-purchasing.md)  
-[Réceptionner des articles](warehouse-how-receive-items.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

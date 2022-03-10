@@ -1,21 +1,20 @@
 ---
-title: Détails de conception - Paramètres entrepôt | Microsoft Docs
-description: La fonctionnalité d’entrepôt dans Business Central contient différents niveaux de complexité, tels que définis par les autorisations de licence dans les granules proposés. Le niveau de complexité dans une solution entrepôt est en grande partie défini par le paramétrage des emplacements sur les fiches magasin, qui est lui-même contrôlé par licence afin que l’accès aux champs de configuration de l’emplacement soit défini par la licence.
+title: 'Détails de conception : paramètres entrepôt'
+description: La fonctionnalité d’entrepôt contient différents niveaux de complexité, qui sont largement définis par la configuration des bacs sur les cartes de localisation.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 32c3fedfbeea37a1be315d737ac9fe41b5c7c20a
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: 9014836d228ee5bd01a74129fa0ba2aa0dd8dcea
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035430"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142340"
 ---
 # <a name="design-details-warehouse-setup"></a>Détails de conception : paramètres entrepôt
 
@@ -141,3 +140,6 @@ Le modèle rangement peut être affecté à un article et à un magasin. Le mod�
 
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)   
 [Détails de conception : disponibilité dans l’entrepôt](design-details-availability-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,23 +1,23 @@
 ---
-title: Procédure de configuration des calendriers usine | Microsoft Docs
-description: Les calendriers de centre de charge spécifient les jours ouvrés et les heures de travail, les équipes, les jours fériés et les absences déterminant la capacité disponible brute du centre de charge, mesurée en unités de temps, en fonction des valeurs d’efficacité et de capacité définies. La création et l’activation d’un calendrier de centre de charge nécessite plusieurs étapes préliminaires.
+title: Paramétrer des calendriers usine
+description: La création et l’activation d’un calendrier centre de charge impliquent plusieurs tâches, notamment la configuration des calendriers d’atelier et la création d’équipes.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 343f608e9f8a451b67422a3c198ba4306256c0ad
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a39df1fc7ccff9d3f4fcfbf76e7d6a57a7801bce
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921657"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131326"
 ---
 # <a name="set-up-shop-calendars"></a>Paramétrer des calendriers usine
+
 Les calendriers de centre de charge ou de poste de charge spécifient les jours ouvrés et les heures de travail, les équipes, les jours fériés et les absences déterminant la capacité disponible brute du centre de charge, mesurée en unités de temps, en fonction des valeurs d’efficacité et de capacité définies.
 
 Avant de calculer un calendrier de centre de charge ou de poste de charge spécifique, vous devez définir un ou plusieurs calendriers usine généraux. Les calendriers usine définissent la semaine de travail standard en fonction des heures de début et de fin de chaque jour ouvré et des changements d’équipe. En outre, ils déterminent les jours fériés fixes de l’année.  
@@ -25,7 +25,7 @@ Avant de calculer un calendrier de centre de charge ou de poste de charge spéci
 La procédure suivante décrit comment configurer des calendriers de centre de charge. Les étapes sont similaires lorsque vous configurez des calendriers de poste de charge.  
 
 ## <a name="to-create-work-shifts"></a>Pour créer des équipes  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Équipes**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Équipes**, puis choisissez le lien associé.  
 2.  Sur une ligne blanche, entrez le numéro d’identification de l’équipe, par exemple, **1**, dans le champ **Code**.  
 3.  Dans le champ **Désignation**, entrez la désignation de l’équipe, par exemple, **1ère équipe**.  
 4.  Vous pouvez également renseignez les lignes d’une deuxième ou troisième équipe.  
@@ -33,7 +33,7 @@ La procédure suivante décrit comment configurer des calendriers de centre de c
 Même si vos centres de charge n’ont pas recours à diverses équipes, entrez au moins un code équipe.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Pour configurer un calendrier usine  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Calendriers usine**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Calendriers usine**, puis choisissez le lien associé.  
 2.  Sur une ligne blanche, entrez le numéro d’identification du calendrier usine dans le champ **Code**.  
 3.  Dans le champ **Désignation**, entrez la désignation du calendrier usine.  
 4.  Choisissez l’action **Jours ouvrés**.
@@ -68,7 +68,7 @@ Le calendrier usine peut ensuite être attribué à un centre de charge pour cal
 
 ## <a name="to-calculate-a-work-center-calendar"></a>Pour calculer un calendrier de centre de charge  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Centres de charge**, puis sélectionnez le lien associé.
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Centres de charge**, puis choisissez le lien associé.
 2. Ouvrez le centre de charge que vous voulez mettre à jour.  
 3. Dans le champ **Code calendrier usine**, sélectionnez le calendrier usine à utiliser comme base pour le calendrier du centre de charge.  
 4. Sélectionnez l’action **Calendrier**.  
@@ -110,4 +110,7 @@ La capacité du jour sélectionné est réduite conformément aux heures d’abs
 [Configurer les centres de charge et les postes de charge](production-how-to-set-up-work-and-machine-centers.md)  
 [Paramétrage de la production](production-configure-production-processes.md)  
 [Production](production-manage-manufacturing.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
