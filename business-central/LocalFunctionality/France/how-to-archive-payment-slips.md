@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 10868, 10870, 10860, 10861, 10864, 10865, 10866, 10871, 10872, 10873, 10874, 10877, 10878, 10879, 10869, 10867, 10882, 10880
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 561e068fed3727f115222d21ce6da1a6c839e685
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fe6f954b1f96db0712f653ef3c89f9fb9f66836d
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131103"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366599"
 ---
 # <a name="archive-payment-slips-in-the-french-version"></a>Archiver les bordereaux de paiement dans la version française
 
@@ -45,13 +45,13 @@ Vous pouvez archiver le bordereau paiement à l’aide des méthodes suivantes 
 Les bordereaux paiement sont archivés.  
 
 > [!NOTE]  
->  Ce traitement par lots archive uniquement les bordereaux paiement dont la case **Archivage autorisé** est cochée sur la page **Statut règlement**. Pour plus d’informations, voir [Paramétrer des statuts règlement](how-to-set-up-payment-statuses.md).  
+>  Ce traitement par lots archive uniquement les bordereaux paiement dont la case **Archivage autorisé** est cochée sur la page **Statut règlement**. Pour plus d’informations, voir [Paramétrer des statuts règlement](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes).  
 
 ## <a name="see-also"></a>Voir aussi  
  [Gestion des paiements](payment-management.md)   
  [Paramétrer des types de règlement](how-to-set-up-payment-classes.md)   
- [Paramétrer des statuts règlement](how-to-set-up-payment-statuses.md)   
- [Paramétrer des étapes règlement](how-to-set-up-payment-steps.md)   
+ [Paramétrer des statuts règlement](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)   
+ [Paramétrer des étapes règlement](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)   
  [Configurer des adresses de paiement](how-to-set-up-payment-addresses.md)   
  [Créer bordereaux paiement](how-to-create-payment-slips.md)   
  [Valider des bordereaux paiement](how-to-post-payment-slips.md)

@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7592bc1b93e96a0622e94c20063fbd5259c7def7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9057ff5228fee42b54b6a3e07e380d1e99cd362e
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138995"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366367"
 ---
 # <a name="export-payments"></a>Exporter des paiements
 Le module Gestion des paiements vous permet d’exporter vos paiements par voie électronique via un fichier texte ou un XMLport.  
@@ -35,7 +35,7 @@ La prochaine fois que vous effectuerez un paiement basé sur cette étape de rè
 
 ## <a name="see-also"></a>Voir aussi  
  [Paramétrer des types de règlement](how-to-set-up-payment-classes.md)   
- [Paramétrer des étapes règlement](how-to-set-up-payment-steps.md)
+ [Paramétrer des étapes règlement](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

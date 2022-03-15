@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 425b2fa169f0f5b082ecb37b931151d772b284d7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f4f7505d810dec9d174fb0dc987295df2c21da10
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134470"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366912"
 ---
 # <a name="post-payment-slips-in-the-french-version"></a>Valider les bordereaux de paiement dans la version française
 Vous devez valider des bordereaux paiement afin de finaliser une transaction paiement et créer des données financières. Vous pouvez valider un bordereau paiement si le **type d’action** du bordereau paiement est défini sur **Comptabilité**.  
@@ -33,8 +33,8 @@ Le bordereau paiement est validé.
 ## <a name="see-also"></a>Voir aussi  
  [Gestion des paiements](payment-management.md)   
  [Paramétrer des types de règlement](how-to-set-up-payment-classes.md)   
- [Paramétrer des statuts règlement](how-to-set-up-payment-statuses.md)   
- [Paramétrer des étapes règlement](how-to-set-up-payment-steps.md)   
+ [Paramétrer des statuts règlement](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)   
+ [Paramétrer des étapes règlement](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)   
  [Configurer des adresses de paiement](how-to-set-up-payment-addresses.md)   
  [Créer bordereaux paiement](how-to-create-payment-slips.md)   
  [Exporter ou importer les paramètres de configuration de la gestion des paiements](how-to-export-or-import-payment-management-setup-parameters.md)   

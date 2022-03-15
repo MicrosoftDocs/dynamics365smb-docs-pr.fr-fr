@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: soalex
-ms.openlocfilehash: 6f097d609ccfe02645cd1767d4236fa045145f63
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c449aee46558b96e269a57cf1710210d464bcbae
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138142"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366874"
 ---
 # <a name="france-local-functionality"></a>Fonctionnalité locale, France
 
@@ -29,8 +29,8 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
 
 * Banque et paiements
     * [Configurer les adresses de paiement](how-to-set-up-payment-addresses.md) **Disponible maintenant**
-    * [Configurer les statuts de paiement](how-to-set-up-payment-statuses.md) **Disponible maintenant**
-    * [Configurer les étapes de paiement](how-to-set-up-payment-steps.md) **Disponible maintenant**
+    * [Configurer les statuts de paiement](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes) **Disponible maintenant**
+    * [Configurer les étapes de paiement](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes) **Disponible maintenant**
     * [Configurer les classes de paiement](how-to-set-up-payment-classes.md) **Disponible maintenant**
     * [Archiver les bordereaux de paiement](how-to-archive-payment-slips.md) **Disponible maintenant**
     * [Créer des bordereaux de paiement](how-to-create-payment-slips.md) **Disponible maintenant**

@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 10868, 10870, 10860, 10861, 10864, 10865, 10866, 10871, 10872, 10873, 10874, 10877, 10878, 10879, 10869, 10867, 10882, 10880
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f1a0b5a0c825da6595e9545e8e283d05db3d0cfe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 24a994f6e958de63117967cce96c1ae1ec124f75
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147386"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366477"
 ---
 # <a name="create-payment-slips"></a>Créer bordereaux paiement
 Vous pouvez créer des bordereaux paiement pour gérer les paiements fournisseur et client. Avant de créer des bordereaux paiement, vous devez paramétrer des types de règlement. Pour plus d’informations, voir [Paramétrer des types de règlement](how-to-set-up-payment-classes.md).  
@@ -123,8 +123,8 @@ Après avoir créé un bordereau de paiement, vous pouvez générer des fichiers
 ## <a name="see-also"></a>Voir aussi  
  [Gestion des paiements](payment-management.md)   
  [Paramétrer des types de règlement](how-to-set-up-payment-classes.md)   
- [Paramétrer des statuts règlement](how-to-set-up-payment-statuses.md)   
- [Paramétrer des étapes règlement](how-to-set-up-payment-steps.md)   
+ [Paramétrer des statuts règlement](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)   
+ [Paramétrer des étapes règlement](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)   
  [Configurer des adresses de paiement](how-to-set-up-payment-addresses.md)   
  [Valider des bordereaux paiement](how-to-post-payment-slips.md)   
  [Archiver les bordereaux de paiement](how-to-archive-payment-slips.md)   
