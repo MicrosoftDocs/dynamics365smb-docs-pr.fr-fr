@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: soalex
-ms.openlocfilehash: c449aee46558b96e269a57cf1710210d464bcbae
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 1a47db44b4d51e56fd0a9079ddcd801e416f3552
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366874"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519377"
 ---
 # <a name="france-local-functionality"></a>Fonctionnalité locale, France
 
@@ -63,7 +63,7 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
 
 ## <a name="see-also"></a>Voir aussi
 
-[Utilisation de [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilité par pays/région et langues prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
