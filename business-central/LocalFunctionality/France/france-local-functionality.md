@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: soalex
-ms.openlocfilehash: 1a47db44b4d51e56fd0a9079ddcd801e416f3552
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6fb7cb988610106a0a98cf8b01976e9b9d6f7324
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519377"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809005"
 ---
 # <a name="france-local-functionality"></a>Fonctionnalité locale, France
 
@@ -26,6 +26,7 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
     * [Exporter les écritures comptables pour les audits fiscaux](how-to-export-general-ledger-entries-for-tax-audits.md) **Disponible maintenant**
     * [Exporter les écritures comptables vers un fichier XML](how-to-export-general-ledger-entries-to-an-xml-file.md) **Disponible maintenant**
     * [Configuration requise pour la déclaration d’échanges de biens](requirements-for-reporting-declaration-of-trade-in-goods.md) **Disponible maintenant**
+    * Rapport Déclaration de services DES **2e vague de lancement 2022**
 
 * Banque et paiements
     * [Configurer les adresses de paiement](how-to-set-up-payment-addresses.md) **Disponible maintenant**
