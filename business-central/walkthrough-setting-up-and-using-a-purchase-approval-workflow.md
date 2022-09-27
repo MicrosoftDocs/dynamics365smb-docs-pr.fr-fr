@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 276e80b622bc0dceb5280e7a4a95e7583ac89a8e
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 65959b62d89bcbca8c80071c55579339ffc8448a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129631"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533776"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procédure pas à pas : Configuration et utilisation d’un flux d’approbation achat
 
@@ -25,7 +25,7 @@ Avant de créer des flux d’approbation, vous devez configurer un approbateur e
 > [!NOTE]
 > Outre la fonctionnalité de flux de travail dans [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez utiliser Power Automate pour définir des flux de travail des événements dans [!INCLUDE[prod_short](includes/prod_short.md)]. Remarquez que bien qu’ils soient deux systèmes de flux de travail distincts, tous les modèles Flow que vous créez dans Power Automate est ajouté à la liste des modèles de flux de travail dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Utiliser Business Central dans un flux automatisé](across-how-use-financials-data-source-flow.md).  
 
-Vous pouvez configurer et utiliser des flux de travail qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du workflow, précédées ou suivies des tâches de l’utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du workflow. Pour plus d’informations, voir [Flux de travail](across-workflow.md).  
+Vous pouvez configurer et utiliser des flux de travail qui connectent des tâches de processus entreprise exécutées par différents utilisateurs. Les tâches du système, telles que la validation automatique, peuvent être incluses comme étapes du flux de travail, précédées ou suivies des tâches de l’utilisateur. Demander et accorder une approbation pour créer des enregistrements sont des étapes classiques du workflow. Pour plus d’informations, voir [Flux de travail](across-workflow.md).  
 
 ## <a name="about-this-walkthrough"></a>À propos de cette procédure pas à pas
 
@@ -123,7 +123,7 @@ Définissez les variations des flux de travail en renseignant les champs des lig
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training"></a>Voir la [formation Microsoft](/training/modules/use-approval-workflows/) associée
 
 ## <a name="see-also"></a>Voir aussi
 
