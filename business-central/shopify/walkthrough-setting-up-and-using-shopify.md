@@ -49,7 +49,7 @@ Configurez le magasin Shopify comme indiqué dans les étapes suivantes :
 4. Sélectionnez **Vers Shopify** dans le champ **Synchroniser les images de l’article**.
 5. Activez le bouton à bascule **Synchroniser les attributs d’un article**.
 6. Activez le bouton bascule **Stock suivi**.
-7. Sélectionnez **Refuser** dans le champ **Règle de stock par défaut**.
+7. Sélectionnez **Refuser** dans le champ **Règle de stock par défaut** .
 8. Activez le bouton de basculement **Créer automatiquement des clients inconnus**.
 9. Remplissez le champ **Code modèle client** avec le modèle approprié.
 10. Remplissez le **Compte de frais d’expédition**, le **Compte de pourboires** avec le compte de revenus. Par exemple, aux É.-U., utilisez `40100`.
@@ -96,9 +96,9 @@ Choisissez le bouton **Acheter maintenant** et passez à la caisse.
 1. Dans le champ **Adresse e-mail ou numéro de téléphone portable**, saisissez `cl@contoso.com` (ou l’adresse e-mail à laquelle vous souhaitez recevoir les confirmations de commande et d’expédition).
 2. Dans **Prénom** et **Nom**, saisissez `Claudia Lawson`.
 3. Entrez l’adresse locale.
-4. Cochez la case **Enregistrer ces informations pour la prochaine fois**.
+4. Cochez la case **Enregistrer ces informations pour la prochaine fois** .
 5. Cliquez sur le bouton **Continuer vers la livraison**.
-6. Conservez `Standard` comme méthode de livraison, puis choisissez le bouton **Continuer vers le paiement**.
+6. Conservez `Standard` comme méthode de livraison, puis choisissez le bouton **Continuer vers le paiement** .
 7. Sélectionnez un pourboire de `10%`.
 8. Dans le champ **Carte de crédit**, saisissez `1` si vous utilisez *(pour tester) Bogus Gateway*, si vous utilisez les *Shopify Payments* en mode test, saisissez `5555 5555 5555 4444` dans le champ **Carte de crédit**.
 9. Renseignez le champ **Nom sur la fiche**.
@@ -158,10 +158,10 @@ Dans [!INCLUDE[prod_short](../includes/prod_short.md)], exécutez l’une des é
 
 Préparez les données.
 
-1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Groupe prix client**, puis sélectionnez le lien associé.
+1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Groupe prix client**, puis sélectionnez le lien associé.
 2. Ajoutez un nouveau groupe de tarifs. Dans le champ **Code**, entrez `SHOPIFY`.
 3. Fermez fenêtre **Groupe prix client**.
-4. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis choisissez le lien associé.
+4. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Articles**, puis choisissez le lien associé.
 5. Sélectionnez l’article **1896-S, bureau Athens**.
 6. Choisissez l’action **Variantes**, puis ajoutez deux variantes et `PREMIUM, Athens Desk, Premium edition` et `ESSENTIAL, Athens Desk, Essential edition`.
 7. Choisissez **Texte développé**, créez un texte développez valide pour tous les codes de langue. Dans le champ **Description**, entrez `Shopify`. 
@@ -282,10 +282,10 @@ Configurez le magasin Shopify comme indiqué ci-dessous dans les étapes suivant
 
 ### Résultats
 
-* Les produits Shopify sont importés. Pour vérifier cela, sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Produits Shopify** et choisissez le lien associé.
-* Des articles avec des images sont créés. Pour vérifier cela, sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Article**, puis choisissez le lien associé.
-* Les clients Shopify sont importés. Pour vérifier cela, sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients Shopify**, puis choisissez le lien associé.
-* Les clients sont créés. Pour vérifier cela, sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Clients**, puis choisissez le lien associé.
+* Les produits Shopify sont importés. Pour vérifier cela, sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  saisissez **Produits Shopify** et choisissez le lien associé.
+* Des articles avec des images sont créés. Pour vérifier cela, sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Article**, puis choisissez le lien associé.
+* Les clients Shopify sont importés. Pour vérifier cela, sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Clients Shopify**, puis choisissez le lien associé.
+* Les clients sont créés. Pour vérifier cela, sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Clients**, puis choisissez le lien associé.
 
 
 ## Voir aussi
