@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f30fb7397316a8bd7aff77d56071ba85414044de
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147388"
 ---
-# <a name="general-ledger-in-france"></a>Comptabilité en France
+# Comptabilité en France
 
 La fonctionnalité Comptabilité pour la France est décrite dans les rubriques ci-dessous.
 
@@ -27,7 +21,7 @@ La fonctionnalité Comptabilité pour la France est décrite dans les rubriques 
 [Afficher des rapprochements comptables](how-to-view-ledger-reconciliations.md)  
 [Exporter des écritures comptables pour les audits fiscaux](how-to-export-general-ledger-entries-for-tax-audits.md)  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Fonctionnalité locale, France](france-local-functionality.md)  
 [Familiarisation avec les écritures comptables et les COA](../../finance-general-ledger.md)  

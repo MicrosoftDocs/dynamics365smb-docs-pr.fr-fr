@@ -1,23 +1,17 @@
 ---
-title: Procédure de calcul de l’amortissement accéléré [FR]
-description: Dans Business Central, vous calculez l’amortissement périodique des immobilisations à l’aide du traitement par lots Calculer amortissement.
+title: 'Procédure de calcul de l’amortissement accéléré [FR]'
+description: "Dans Business\_Central, vous calculez l’amortissement périodique des immobilisations à l’aide du traitement par lots Calculer amortissement."
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 5610, 5611
+ms.search.keywords: null
+ms.search.form: '5610, 5611'
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 6f7febe7685f004c0ec5aa834930c292df4dca54
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139008"
 ---
-# <a name="calculate-accelerated-depreciation-in-the-french-version"></a>Calculer l’amortissement accéléré dans la version française
+# Calculer l’amortissement accéléré dans la version française
 Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], vous calculez l’amortissement périodique des immobilisations à l’aide du traitement par lots **Calculer amortissement**. La loi d’amortissement liée à l’immobilisation définit la méthode d’amortissement, la date de début de l’amortissement et le groupe comptabilisation immobilisation utilisé par le traitement par lots.  
 
 Si une loi d’amortissement d’immobilisation est intégrée dans la comptabilité, elle est appelée *loi d’amortissement comptable*. Si une loi d’amortissement d’immobilisation n’est pas intégrée dans la comptabilité, elle est appelée *loi d’amortissement fiscal*.  
@@ -26,7 +20,7 @@ Vous ne pouvez calculer l’amortissement accéléré que pour les immobilisatio
 
 Les écritures sont transférées vers la feuille immobilisation lorsque vous sélectionnez une loi d’amortissement comptable dans le traitement par lots. Les écritures sont transférées vers la feuille immobilisation lorsque vous sélectionnez la loi d’amortissement fiscal.  
 
-## <a name="to-calculate-accelerated-depreciation"></a>Pour calculer l’amortissement accéléré  
+## Pour calculer l’amortissement accéléré  
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Calculer amortissement**, puis choisissez le lien pertinent.  
 2.  Sur la page **Calculer amortissement**, sur le raccourci **Options**, renseignez les champs comme indiqué dans le tableau suivant.  
@@ -47,7 +41,7 @@ Les écritures sont transférées vers la feuille immobilisation lorsque vous s�
 
 L’amortissement accéléré de l’immobilisation est calculé.  
 
-## <a name="see-also"></a>Voir aussi  
+## Voir aussi  
  [Amortissement accéléré](accelerated-depreciation.md)   
  [Paramétrer l’amortissement accéléré](how-to-set-up-accelerated-depreciation.md)   
  [Configurer un amortissement immobilisation](../../fa-how-setup-depreciation.md)  

@@ -1,27 +1,21 @@
 ---
-title: Procédure de validation des bordereaux paiement [FR]
+title: 'Procédure de validation des bordereaux paiement [FR]'
 description: Vous devez valider des bordereaux paiement afin de finaliser une transaction paiement et créer des données financières.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: f4f7505d810dec9d174fb0dc987295df2c21da10
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366912"
 ---
-# <a name="post-payment-slips-in-the-french-version"></a>Valider les bordereaux de paiement dans la version française
+# Valider les bordereaux de paiement dans la version française
 Vous devez valider des bordereaux paiement afin de finaliser une transaction paiement et créer des données financières. Vous pouvez valider un bordereau paiement si le **type d’action** du bordereau paiement est défini sur **Comptabilité**.  
 
 Avant de publier un bordereau paiement, vous devez créer le bordereau paiement. Pour plus d’informations, consultez [Créer des bordereaux paiement](how-to-create-payment-slips.md).  
 
-## <a name="to-post-a-payment-slip"></a>Pour valider un bordereau paiement  
+## Pour valider un bordereau paiement  
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Bordereaux de paiement**, puis sélectionnez le lien pertinent.  
 2.  Sélectionnez un bordereau paiement, puis cliquez sur **Modifier**.  
@@ -30,7 +24,7 @@ Avant de publier un bordereau paiement, vous devez créer le bordereau paiement.
 
 Le bordereau paiement est validé.  
 
-## <a name="see-also"></a>Voir aussi  
+## Voir aussi  
  [Gestion des paiements](payment-management.md)   
  [Paramétrer des types de règlement](how-to-set-up-payment-classes.md)   
  [Paramétrer des statuts règlement](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)   

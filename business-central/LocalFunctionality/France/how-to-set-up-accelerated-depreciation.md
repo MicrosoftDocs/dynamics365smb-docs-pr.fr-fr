@@ -1,23 +1,17 @@
 ---
 title: Paramétrer l’amortissement accéléré
-description: Pour utiliser la fonction de calcul de l’amortissement accéléré, vous devez configurer les lois d’amortissement pour les immobilisations.
+description: 'Pour utiliser la fonction de calcul de l’amortissement accéléré, vous devez configurer les lois d’amortissement pour les immobilisations.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 5610, 5611
+ms.search.keywords: null
+ms.search.form: '5610, 5611'
 ms.date: 02/14/2022
 ms.author: edupont
-ms.openlocfilehash: 0e8b0039c4d12c3f9973a0a84115fd5b46562315
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147382"
 ---
-# <a name="set-up-accelerated-depreciation"></a>Paramétrer l’amortissement accéléré
+# Paramétrer l’amortissement accéléré
 
 Pour utiliser la fonction de calcul de l’amortissement accéléré, vous devez configurer les lois d’amortissement suivantes pour les immobilisations :  
 
@@ -42,7 +36,7 @@ Si vous n’activez pas ce champ, vous devez utiliser la feuille immobilisation 
 
 Pour la loi d’amortissement fiscal, sur le raccourci **Général**, vous spécifiez ensuite la loi d’amortissement comptable pertinente dans le **Calcul dérogatoire** qui calculera l’amortissement dérogatoire. Le champ **Utilisé avec la loi dérogatoire** dans la loi d’amortissement comptable est mis à jour avec le code de la loi d’amortissement fiscal.  
 
-## <a name="derogatory-calculation"></a>Calcul dérogatoire
+## Calcul dérogatoire
 
 Le champ **Calcul dérogatoire** d’une loi d’amortissement comptable spécifie si cette loi est utilisée comme loi d’amortissement fiscal pour le calcul de l’amortissement dérogatoire. Le code spécifié pour la loi d’amortissement comptable établit un paramétrage dérogatoire.
 
@@ -50,7 +44,7 @@ Le champ **Calcul dérogatoire** d’une loi d’amortissement comptable spécif
 
 Lorsque le champ est vide, [!INCLUDE[prod_short](../../includes/prod_short.md)] utilise la loi d’amortissement de manière standard. S’il ne l’est pas, le système calcule l’amortissement dérogatoire.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Amortissement accéléré](accelerated-depreciation.md)  
 [Calculer l'amortissement accéléré](how-to-calculate-accelerated-depreciation.md)  

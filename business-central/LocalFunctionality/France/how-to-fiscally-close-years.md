@@ -1,22 +1,16 @@
 ---
 title: Procédure de clôture fiscale des exercices
-description: Lorsqu’un exercice comptable est terminé, vous devez clôturer fiscalement les périodes qui le composent pour veiller à ce qu’aucune autre écriture comptable ne puisse être validée.
+description: 'Lorsqu’un exercice comptable est terminé, vous devez clôturer fiscalement les périodes qui le composent pour veiller à ce qu’aucune autre écriture comptable ne puisse être validée.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9ce5b7a372e7d22332e88e651868b4b179a335b5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132263"
 ---
-# <a name="fiscally-close-years"></a>Clôturer fiscalement des exercices
+# Clôturer fiscalement des exercices
 Lorsqu’un exercice comptable est terminé, vous devez clôturer fiscalement les périodes qui le composent pour veiller à ce qu’aucune autre écriture comptable ne puisse être validée.  
 
 Avant que la clôture fiscale ne soit autorisée, vous devez vérifier ce qui suit :  
@@ -25,7 +19,7 @@ Avant que la clôture fiscale ne soit autorisée, vous devez vérifier ce qui su
 - toutes les lignes feuille non validées pour l’exercice sont validées ou supprimées avant la clôture fiscale de l’exercice ;
 - toutes les écritures de clôture sont à jour.  
 
-## <a name="to-fiscally-close-years"></a>Pour clôturer fiscalement des exercices  
+## Pour clôturer fiscalement des exercices  
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Périodes comptables**, puis choisissez le lien pertinent.  
 2.  Sélectionnez la case à cocher **Clôturer l’exercice fiscalement**.  
@@ -36,7 +30,7 @@ Avant que la clôture fiscale ne soit autorisée, vous devez vérifier ce qui su
 
 Lorsque l’exercice comptable est clôturé fiscalement, le champ **Clôturé fiscalement** est sélectionné pour toutes les périodes de l’exercice. Vous ne pouvez plus rouvrir l’exercice clôturé fiscalement, ni désactiver le champ **Clôturé fiscalement**.  
 
-## <a name="see-also"></a>Voir aussi  
+## Voir aussi  
  [Clôturer fiscalement des exercices](how-to-close-years.md)   
  [Vue d’ensemble des processus de fin d’exercice](year-end-processes-overview.md)   
  [Valider l’écriture de clôture d’exercice](how-to-post-the-year-end-closing-entry.md)   

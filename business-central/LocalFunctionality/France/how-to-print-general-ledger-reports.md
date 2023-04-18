@@ -1,25 +1,19 @@
 ---
-title: Imprimer des états comptables [FR]
-description: Les états de la comptabilité répondent aux normes de la comptabilité générale et ils contiennent des informations sur les écritures comptables, les écritures des clients, des fournisseurs et des banques.
+title: 'Imprimer des états comptables [FR]'
+description: 'Les états de la comptabilité répondent aux normes de la comptabilité générale et ils contiennent des informations sur les écritures comptables, les écritures des clients, des fournisseurs et des banques.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 954e96fde6a998f5f392304b789df110c729ddd4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135554"
 ---
-# <a name="print-general-ledger-reports"></a>Imprimer des états de la comptabilité
+# Imprimer des états de la comptabilité
 Les états de la comptabilité répondent aux normes de la comptabilité générale et ils contiennent des informations sur les écritures comptables, les écritures des clients, des fournisseurs et des banques.  
 
-## <a name="to-print-general-ledger-reports"></a>Pour imprimer des états comptables  
+## Pour imprimer des états comptables  
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Comptabilité**, puis choisissez le lien pertinent.  
 2.  Choisissez l’action **États et analyse**, choisissez l’action **France**, puis choisissez l’un des états suivants.  
@@ -47,7 +41,7 @@ Les états de la comptabilité répondent aux normes de la comptabilité génér
 
 4.  Sélectionnez le bouton **Imprimer** pour imprimer l’état, ou le bouton **Aperçu** pour l’afficher à l’écran.  
 
-## <a name="see-also"></a>Voir aussi  
+## Voir aussi  
  [Exporter des écritures comptables vers un fichier XML](how-to-export-general-ledger-entries-to-an-xml-file.md)
 
 

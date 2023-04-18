@@ -1,26 +1,20 @@
 ---
-title: Ouvrir un nouvel exercice comptable [FR]
-description: Avant de pouvoir effectuer une validation dans un exercice comptable, vous devez l’ouvrir et définir ses périodes comptables.
+title: 'Ouvrir un nouvel exercice comptable [FR]'
+description: 'Avant de pouvoir effectuer une validation dans un exercice comptable, vous devez l’ouvrir et définir ses périodes comptables.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 07ac3571bb2ad2a16228f7bc5ba52a27c7826dac
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138138"
 ---
-# <a name="open-a-new-fiscal-year-in-the-french-version"></a>Ouvrir un nouvel exercice comptable dans la version française
+# Ouvrir un nouvel exercice comptable dans la version française
 
 Avant de pouvoir effectuer une validation dans un exercice comptable, vous devez l’ouvrir et définir ses périodes comptables.  
 
-## <a name="to-open-a-new-fiscal-year"></a>Pour ouvrir un nouvel exercice comptable  
+## Pour ouvrir un nouvel exercice comptable  
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Périodes comptables**, puis choisissez le lien pertinent.  
 2.  Choisissez l’action **Créer exercice**.  
@@ -35,7 +29,7 @@ Après la dernière période de l’exercice comptable, une période comptable e
 > [!IMPORTANT]  
 > Conformément à la législation française, un maximum de deux exercices comptables peuvent être ouverts en même temps.  
 
-## <a name="see-also"></a>Voir aussi  
+## Voir aussi  
  [Définir des périodes de validation](how-to-specify-posting-periods.md)   
  [Clôturer fiscalement des exercices](how-to-close-years.md)   
  [Valider l’écriture de clôture d’exercice](how-to-post-the-year-end-closing-entry.md)   
