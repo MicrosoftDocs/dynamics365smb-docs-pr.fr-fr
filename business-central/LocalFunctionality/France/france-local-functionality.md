@@ -1,32 +1,26 @@
 ---
-title: Fonctionnalité locale, France
-description: Les rubriques suivantes décrivent la fonctionnalité locale de la version française de Business Central.
+title: 'Fonctionnalité locale, France'
+description: "Cet article décrit les différentes fonctionnalités locales de la version française de Business\_Central."
 author: sorenfriisalexandersen
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/18/2021
 ms.author: soalex
-ms.openlocfilehash: 6fb7cb988610106a0a98cf8b01976e9b9d6f7324
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809005"
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: conceptual
+ms.date: 12/21/2022
+ms.custom: bap-template
 ---
-# <a name="france-local-functionality"></a>Fonctionnalité locale, France
 
-Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à la version française de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+# Fonctionnalité locale, France
 
-## <a name="feature-availability"></a>Disponibilité des fonctionnalités
+Les articles suivants décrivent la fonctionnalité locale qui est propre à la version française de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+
+## Disponibilité des fonctionnalités
 
 * TVA
     * [Exporter les écritures comptables pour les audits fiscaux](how-to-export-general-ledger-entries-for-tax-audits.md) **Disponible maintenant**
     * [Exporter les écritures comptables vers un fichier XML](how-to-export-general-ledger-entries-to-an-xml-file.md) **Disponible maintenant**
     * [Configuration requise pour la déclaration d’échanges de biens](requirements-for-reporting-declaration-of-trade-in-goods.md) **Disponible maintenant**
-    * Rapport Déclaration de services DES **2e vague de lancement 2022**
+    * [Rapport Déclaration de services DES](../../finance-how-setup-use-service-declaration.md) **Disponible maintenant**
 
 * Banque et paiements
     * [Configurer les adresses de paiement](how-to-set-up-payment-addresses.md) **Disponible maintenant**
@@ -62,7 +56,12 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
     * [Amortissement accéléré](accelerated-depreciation.md) **Disponible maintenant**
     * [Calculer l’amortissement accéléré](how-to-calculate-accelerated-depreciation.md) **Disponible maintenant**
 
-## <a name="see-also"></a>Voir aussi
+## Futures exigences législatives en cours d’investigation
+
+* Facturation électronique **1re vague 2024**
+* Mentions obligatoires sur les documents commerciaux **1re vague 2023**
+
+## Voir aussi
 
 [Utiliser [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilité par pays/région et langues prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

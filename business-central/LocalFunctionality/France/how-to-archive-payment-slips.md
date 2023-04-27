@@ -1,23 +1,17 @@
 ---
-title: Archiver les bordereaux de paiement [FR]
-description: Lorsqu’un bordereau paiement a été entièrement traité, vous pouvez le séparer des bordereaux paiement actifs en l’archivant dans la version française de Business Central.
+title: 'Archiver les bordereaux de paiement [FR]'
+description: 'Lorsqu’un bordereau paiement a été entièrement traité, vous pouvez le séparer des bordereaux paiement actifs en l’archivant dans la version française de Business Central.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 10868, 10870, 10860, 10861, 10864, 10865, 10866, 10871, 10872, 10873, 10874, 10877, 10878, 10879, 10869, 10867, 10882, 10880
+ms.search.keywords: null
+ms.search.form: '10868, 10870, 10860, 10861, 10864, 10865, 10866, 10871, 10872, 10873, 10874, 10877, 10878, 10879, 10869, 10867, 10882, 10880'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fe6f954b1f96db0712f653ef3c89f9fb9f66836d
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366599"
 ---
-# <a name="archive-payment-slips-in-the-french-version"></a>Archiver les bordereaux de paiement dans la version française
+# Archiver les bordereaux de paiement dans la version française
 
 Lorsqu’un bordereau paiement a été entièrement traité, vous pouvez le séparer des bordereaux paiement actifs en l’archivant.  
 
@@ -26,7 +20,7 @@ Vous pouvez archiver le bordereau paiement à l’aide des méthodes suivantes 
 - Manuellement pour des bordereaux paiement individuels.  
 - Automatiquement pour un lot de bordereaux paiement.  
 
-## <a name="to-archive-a-payment-slip"></a>Pour archiver un bordereau paiement  
+## Pour archiver un bordereau paiement  
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Bordereaux de paiement**, puis sélectionnez le lien pertinent.  
 2.  Sélectionnez le bordereau paiement concerné, puis cliquez sur l’action **Modifier**.  
@@ -36,7 +30,7 @@ Vous pouvez archiver le bordereau paiement à l’aide des méthodes suivantes 
     > [!NOTE]  
     >  Si le statut actuel du bordereau paiement n’autorise pas l’archivage, un message s’affiche.  
 
-## <a name="to-archive-a-batch-of-payment-slips"></a>Pour archiver un lot de bordereaux paiement  
+## Pour archiver un lot de bordereaux paiement  
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Archiver les bordereaux de paiement**, puis sélectionnez le lien pertinent.  
 2.  Sur la page **Archiver les bordereaux de paiement**, sur le raccourci **En-tête bordereau**, sélectionnez les filtres appropriés.  
@@ -47,7 +41,7 @@ Les bordereaux paiement sont archivés.
 > [!NOTE]  
 >  Ce traitement par lots archive uniquement les bordereaux paiement dont la case **Archivage autorisé** est cochée sur la page **Statut règlement**. Pour plus d’informations, voir [Paramétrer des statuts règlement](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes).  
 
-## <a name="see-also"></a>Voir aussi  
+## Voir aussi  
  [Gestion des paiements](payment-management.md)   
  [Paramétrer des types de règlement](how-to-set-up-payment-classes.md)   
  [Paramétrer des statuts règlement](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)   
