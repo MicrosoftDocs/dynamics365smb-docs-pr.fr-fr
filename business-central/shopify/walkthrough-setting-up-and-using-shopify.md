@@ -29,7 +29,7 @@ En savoir plus sur la création de versions d’essai Shopify et les paramètres
 
 Vous devez disposer d’un compte [!INCLUDE[prod_short](../includes/prod_short.md)]. 
 
-Par exemple, vous pouvez créer un compte démo ou démarrer un essai. Pour en savoir plus, rendez-vous sur [Préparation des démonstrations de [!INCLUDE[prod_short](../includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/administration/demo-environment.md) et [Inscrivez-vous à l’essai](../trial-signup.md). 
+Par exemple, vous pouvez créer un compte démo ou démarrer un essai. Pour en savoir plus, rendez-vous sur [Préparer les environnements de démonstrations de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment) et [S’inscrire à l’essai](../trial-signup.md). 
 
 ## Connexion de Business Central à la boutique Shopify
 
@@ -100,7 +100,7 @@ Choisissez le bouton **Acheter maintenant** et passez à la caisse.
 5. Cliquez sur le bouton **Continuer vers la livraison**.
 6. Conservez `Standard` comme méthode de livraison, puis choisissez le bouton **Continuer vers le paiement** .
 7. Sélectionnez un pourboire de `10%`.
-8. Dans le champ **Carte de crédit**, saisissez `1` si vous utilisez *(pour tester) Bogus Gateway*, si vous utilisez les *Shopify Payments* en mode test, saisissez `5555 5555 5555 4444` dans le champ **Carte de crédit**.
+8. Dans le champ **Carte de crédit**, saisissez `1` si vous utilisez *(pour tester) Bogus Gateway*, ou saisissez `5555 5555 5555 4444` si vous utilisez *Shopify Payments* en mode test.
 9. Renseignez le champ **Nom sur la fiche**.
 10. Dans le champ **Date d’expiration**, saisissez le mois/l’année en cours.
 11. Dans le champ **Code de sécurité**, entrez `111`.
@@ -162,18 +162,20 @@ Préparez les données.
 2. Ajoutez un nouveau groupe de tarifs. Dans le champ **Code**, entrez `SHOPIFY`.
 3. Fermez fenêtre **Groupe prix client**.
 4. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Articles**, puis choisissez le lien associé.
-5. Sélectionnez l’article **1896-S, bureau Athens**.
-6. Choisissez l’action **Variantes**, puis ajoutez deux variantes et `PREMIUM, Athens Desk, Premium edition` et `ESSENTIAL, Athens Desk, Essential edition`.
-7. Choisissez **Texte développé**, créez un texte développez valide pour tous les codes de langue. Dans le champ **Description**, entrez `Shopify`. 
-8. Ajoutez la description suivante avec les balises HTML : `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
-9. Choisissez **prix de vente** et ajoutez de nouveaux prix comme indiqué dans le tableau suivant :
+
+Sélectionnez l’élément **1896-S, Bureau d’Athènes** et exécutez les étapes suivantes.
+
+1. Choisissez l’action **Variantes**, puis ajoutez deux variantes et `PREMIUM, Athens Desk, Premium edition` et `ESSENTIAL, Athens Desk, Essential edition`.
+2. Choisissez **Texte développé**, créez un texte développez valide pour tous les codes de langue. Dans le champ **Description**, entrez `Shopify`. 
+3. Ajoutez le texte suivant avec les balises HTML : `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
+4. Choisissez **prix de vente** et ajoutez de nouveaux prix comme indiqué dans le tableau suivant :
 
   |Ligne|**Type vente**|**Code vente**|Type|Code|Code variante<br>(ajoutez le champ via la personnalisation)|Prix unit|
   |------|------------|------------|------------|------------|------------|------------|
   |0|Groupe prix client|SHOPIFY|Article|1896-S|ESSENTIAL|700|
-  |2|Groupe prix client|SHOPIFY|Article|1896-S|PREMIUM|1 000|
+  |2|Groupe prix client|SHOPIFY|Article ;|1896-S|PREMIUM|1 000|
 
-10. Choisissez **Remises sur les ventes** et ajoutez une nouvelle remise :
+5. Choisissez **Remises sur les ventes** et ajoutez une nouvelle remise :
 
 * **Type de vente** *Groupe rem. client*
 * **Code vente** *VENTE AU DÉTAIL*
@@ -182,22 +184,22 @@ Préparez les données.
 * **Code unité** *PCS*
 * **% Remise ligne** *10*
 
-11. Choisissez **références article** et ajoutez les lignes suivantes :
+6. Choisissez **références article** et ajoutez les lignes suivantes :
 
   |Ligne|**Type référence**|**N° référence**|Code variante|
   |------|------------|------------|------------|
   |0|Code-barres|77777777|ESSENTIAL|
   |2|Code-barres|11111111|PREMIUM|
 
-12. Refermez la **fiche article**.
-13. Sélectionnez l’article **1920-S, Table de conférence ANTWERP**.
-14. Choisissez **Ajuster le stock** et dans le champ **Nouveau stock**, saisissez `100` pour les emplacements *EST* et *OUEST*. 
-1. Cliquez sur **OK**.
-1. Refermez la **fiche article**.
+
+Sélectionnez l’élément **1920-S, Table de conférence ANVERS** et exécutez les étapes suivantes.
+
+1. Choisissez **Ajuster le stock** et dans le champ **Nouveau stock**, saisissez `100` pour les emplacements *EST* et *OUEST*. 
+2. Cliquez sur **OK**.
 
 Ajustez les paramètres de synchronisation.
 
-1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), , saisissez **Magasins Shopify** et choisissez le lien associé.
+1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  , saisissez **Magasins Shopify** et choisissez le lien associé.
 2. Sélectionnez le magasin *DÉMO1* pour lequel vous voulez synchroniser les articles pour ouvrir la page Fiche magasin Shopify.
 3. Sélectionnez *SHOPIFY* dans le champ **Groupe de prix client**.
 4. Sélectionnez *VENTE AU DÉTAIL* dans le champ **Groupe rem. client**.
