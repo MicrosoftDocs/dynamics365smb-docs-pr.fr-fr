@@ -76,7 +76,7 @@ La maintenance est également plus facile. Lorsque vous ajoutez une autorisation
   |**Réduire à Indirect**|Modifiez le niveau d’accès sur Indirect si des ensembles d’autorisations donnent un accès Direct à l’objet. Par exemple, choisissez cette option si l’ensemble d’autorisations donne un accès direct aux écritures comptables, mais vous ne voulez pas que les utilisateurs aient un accès complet aux écritures.|
   
   > [!NOTE]
-  > Si une autorisation est à la fois incluse et exclue, l’autorisation sera exclue.
+  > Si une autorisation se trouve à la fois dans un ensemble d’autorisations qui est inclus et dans un ensemble d’autorisations qui est exclu, l’autorisation sera exclue.
 
 6. Utilisez les champs **Type d’objet** et **ID d’objet** pour spécifier l’objet auquel vous donnez accès.
 
@@ -109,12 +109,11 @@ Pour exclure toutes les autorisations que vous avez ajoutées depuis un ensemble
 
 Pour exclure totalement ou partiellement une autorisation spécifique dans un ensemble que vous avez ajouté, sous **Autorisations**, créez une ligne pour l’objet. Les champs de niveau d’accès, Permission d’insertion, Permission de modification, etc. contiendront tous **Exclure**. Pour autoriser un certain niveau d’accès, choisissez l’option appropriée.
 
-> [!NOTE]
-> L’exclusion d’un ensemble d’autorisations exclut toutes les autorisations de l’ensemble. [!INCLUDE [prod_short](includes/prod_short.md)] calcule les autorisations comme suit :
+L’exclusion d’un ensemble d’autorisations exclut toutes les autorisations de l’ensemble. [!INCLUDE [prod_short](includes/prod_short.md)] calcule les autorisations comme suit :
 
-> 1. Calculer la liste complète des autorisations incluses
-> 2. Calculer la liste complète des autorisations exclues
-> 3. Supprimer les autorisations exclues de la liste des autorisations incluses (la suppression d’une autorisation indirecte est identique à Réduire à indirecte)
+1. Calculer la liste complète des autorisations incluses
+2. Calculer la liste complète des autorisations exclues
+3. Supprimer les autorisations exclues de la liste des autorisations incluses (la suppression d’une autorisation indirecte est identique à Réduire à indirecte)
 
 ## Pour copier un ensemble d’autorisations
 
