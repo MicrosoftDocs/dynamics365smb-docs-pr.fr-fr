@@ -51,7 +51,10 @@ Les articles suivants décrivent la fonctionnalité locale qui est propre à la 
     * [Spécifier les périodes de validation](how-to-specify-posting-periods.md) **Disponible maintenant**
     * [Afficher les rapprochements comptables](how-to-view-ledger-reconciliations.md) **Disponible maintenant**
 
-* COMPTES D’IMMOBILISATIONS
+* Vente
+    * [Émettre une facture vente avec des spécificités françaises](finance-sales-invoice-specifics.md) **Disponible maintenant**
+
+* COMPTES D'IMMOBILISATIONS
     * [Configurer l’amortissement accéléré](how-to-set-up-accelerated-depreciation.md) **Disponible maintenant**
     * [Amortissement accéléré](accelerated-depreciation.md) **Disponible maintenant**
     * [Calculer l’amortissement accéléré](how-to-calculate-accelerated-depreciation.md) **Disponible maintenant**
@@ -59,7 +62,9 @@ Les articles suivants décrivent la fonctionnalité locale qui est propre à la 
 ## Futures exigences législatives en cours d’investigation
 
 * Facturation électronique **1re vague 2024**
-* Mentions obligatoires sur les documents commerciaux **1re vague 2023**
+* Nouvelle fonctionnalité d’exportation d’audit **juin 2023**
+
+Si vous connaissez les fonctionnalités réglementaires à venir, envoyez une [Alerte de fonctionnalité réglementaire](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).  
 
 ## Voir aussi
 
