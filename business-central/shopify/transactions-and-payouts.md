@@ -1,13 +1,13 @@
 ---
 title: Synchroniser les transactions et les règlements
 description: Configurer et exécuter l’importation des transactions et des paiements à partir de Shopify.
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30124, 30125, 30130, 30131, 30132, 30133, 30134,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Transactions et règlements
@@ -21,6 +21,8 @@ Si vous utilisez le paiement Shopify comme fournisseur de paiement, en plus des 
 Les transactions réalisées sur Shopify sont synchronisées avec les commandes et s’affichent dans la page **Commandes Shopify**.
 
 Pour examiner toutes les transactions, sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez **Transactions**, puis choisissez le lien associé.
+
+Le champ **N° de facture enregistrée** peut être utile dans le processus de rapprochement.
 
 Si vous avez configuré le mappage des modes de règlement, un code de mode de règlement est attribué au document de vente créé. En savoir plus dans la section [Mappage du mode de paiement](#payment-method-mapping).
 
