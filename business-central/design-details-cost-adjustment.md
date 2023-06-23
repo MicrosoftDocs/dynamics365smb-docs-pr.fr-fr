@@ -96,14 +96,14 @@ Lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article**
 
 L’exemple suivant montre le cas où vous validez un article acheté comme étant reçu et facturé le 01/01/20. Vous validez ultérieurement l’article vendu comme étant expédié et facturé le 01-15-20. Ensuite, vous exécutez les traitements par lots **Ajuster coûts - Écr. article** et **Valider coûts ajustés**. Les écritures suivantes sont créées.  
 
-#### <a name="value-entries-" /><a name="value-entries-1"></a>Écritures valeur (1)
+#### <a name="value-entries-1" /><a name="value-entries-1"></a>Écritures valeur (1)
 
 |Date comptabilisation|Type écriture comptable article|Coût total (réel)|Coût validé en comptabilité|Quantité facturée|Numéro de la séquence|  
 |------------|----------------------|--------------------|------------------|-----------------|---------|  
 |01/01/20|Achats|10,00|10,00|1|1|  
 |15/01/20|Vente|-10,00|-10,00|-1|2|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" /><a name="relation-entries-in-the-gl--item-ledger-relation-table-1"></a>Liens écritures dans la comptabilité – Table Écriture comptable article (1)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-1" /><a name="relation-entries-in-the-gl--item-ledger-relation-table-1"></a>Liens écritures dans la comptabilité – Table Écriture comptable article (1)
 
 |N° séquence compta.|N° écriture valeur|N° hist. transaction compta.|  
 |-------------|---------------|----------------|  
@@ -112,7 +112,7 @@ L’exemple suivant montre le cas où vous validez un article acheté comme éta
 |3|2|1|  
 |4|2|1|  
 
-#### <a name="general-ledger-entries-" /><a name="general-ledger-entries-1"></a>Écritures comptables (1)
+#### <a name="general-ledger-entries-1" /><a name="general-ledger-entries-1"></a>Écritures comptables (1)
 
 |Date comptabilisation|Compte général|N° compte (démonstration Fr-FR)|Montant|Numéro de la séquence|  
 |------------------|------------------|---------------------------------|------------|---------------|  
@@ -123,14 +123,14 @@ L’exemple suivant montre le cas où vous validez un article acheté comme éta
 
 Ultérieurement, vous validez des frais annexes achat associés de 2,00 DS facturés le 10/02/20. Vous exécutez le traitement par lots **Ajuster coûts - Écr. article**, puis le traitement par lots **Valider coûts ajustés**. Le traitement par lots d’ajustement des coûts ajuste le coût de la vente de 2,00 DS en conséquence, et le traitement par lots **Valider coûts ajustés** valide les nouvelles écritures valeur en comptabilité. Le résultat est le suivant.  
 
-#### <a name="value-entries-" /><a name="value-entries-2"></a>Écritures valeur (2)
+#### <a name="value-entries-2" /><a name="value-entries-2"></a>Écritures valeur (2)
 
 |Date comptabilisation|Type écriture comptable article|Coût total (réel)|Coût validé en comptabilité|Quantité facturée|Ajustement|Numéro de la séquence|  
 |------------|----------------------|--------------------|------------------|-----------------|----------|---------|  
 |10/02/20|Achats|2,00|2,00|0|Non|3|  
 |15/01/20|Vente|-2,00|-2,00|0|Oui|4|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" /><a name="relation-entries-in-the-gl--item-ledger-relation-table-2"></a>Liens écritures dans la comptabilité – Table Écriture comptable article (2)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-2" /><a name="relation-entries-in-the-gl--item-ledger-relation-table-2"></a>Liens écritures dans la comptabilité – Table Écriture comptable article (2)
 
 |N° séquence compta.|N° écriture valeur|N° hist. transaction compta.|  
 |-------------|---------------|----------------|  
@@ -139,7 +139,7 @@ Ultérieurement, vous validez des frais annexes achat associés de 2,00 DS fact
 |7|4|2|  
 |8|4|2|  
 
-#### <a name="general-ledger-entries-" /><a name="general-ledger-entries-2"></a>Écritures comptables (2)
+#### <a name="general-ledger-entries-2" /><a name="general-ledger-entries-2"></a>Écritures comptables (2)
 
 |Date comptabilisation|Compte général|N° compte (démonstration Fr-FR)|Montant|Numéro de la séquence|  
 |------------|-----------|------------------------|------|---------|  

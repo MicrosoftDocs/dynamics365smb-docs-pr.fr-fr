@@ -10,11 +10,11 @@ ms.date: 12/21/2022
 ms.custom: bap-template
 ---
 
-# Fonctionnalité locale, France
+# <a name="france-local-functionality" />Fonctionnalité locale, France
 
 Les articles suivants décrivent la fonctionnalité locale qui est propre à la version française de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## Disponibilité des fonctionnalités
+## <a name="feature-availability" />Disponibilité des fonctionnalités
 
 * TVA
     * [Exporter les écritures comptables pour les audits fiscaux](how-to-export-general-ledger-entries-for-tax-audits.md) **Disponible maintenant**
@@ -59,19 +59,19 @@ Les articles suivants décrivent la fonctionnalité locale qui est propre à la 
     * [Amortissement accéléré](accelerated-depreciation.md) **Disponible maintenant**
     * [Calculer l’amortissement accéléré](how-to-calculate-accelerated-depreciation.md) **Disponible maintenant**
 
-## Futures exigences législatives en cours d’investigation
+## <a name="future-legislation-requirements-being-investigated" />Futures exigences législatives en cours d’investigation
 
 * Facturation électronique **1re vague 2024**
 * Nouvelle fonctionnalité d’exportation d’audit **juin 2023**
 
 Si vous connaissez les fonctionnalités réglementaires à venir, envoyez une [Alerte de fonctionnalité réglementaire](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).  
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Utiliser [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilité par pays/région et langues prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
