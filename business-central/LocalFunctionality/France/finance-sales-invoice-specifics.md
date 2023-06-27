@@ -12,17 +12,17 @@ ms.search.keywords: 'sales, invoice, order, siren'
 ms.search.form: '21, 42, 43, 44'
 ---
 
-# <a name="deliver-sales-invoices-with-french-specifics" />Émettre des factures vente avec des spécificités françaises
+# <a name="deliver-sales-invoices-with-french-specifics"></a>Émettre des factures vente avec des spécificités françaises
 
 Cet article explique comment configurer et utiliser les informations de facture vente spécifiques à la France.
 
-## <a name="create-a-new-customer" />Créer un client
+## <a name="create-a-new-customer"></a>Créer un client
 
 Lorsque vous créez un client en France, il convient d’inclure certaines informations spécifiques. Pour créer correctement la fiche **Client**, dans l’onglet **Facturation**, saisissez une valeur dans le **N° SIREN** . Ce numéro est nécessaire pour imprimer les factures vente.
 
 Si la fiche **Client** est créée à partir d’une fiche **Contact** existante, la valeur du champ **N° SIREN** est copié à partir du contact.
 
-## <a name="work-with-the-sales-documents" />Utiliser les documents de vente
+## <a name="work-with-the-sales-documents"></a>Utiliser les documents de vente
 
 Lorsque vous créez un document vente, vous pouvez choisir d’imprimer ou non la taxe sur la valeur ajoutée (TVA) acquittée sur les débits. Pour imprimer ces informations, dans l’onglet **Détails de facture**, activez le champ **TVA acquittée sur les débits**.
 
@@ -33,7 +33,7 @@ Lorsque vous imprimez des documents vente, [!INCLUDE[prod_long](../../includes/p
 
 Vous pouvez trouver des informations de formation sur les factures vente sur [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Gestion financière](../../finance.md)  
 [Utiliser [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)

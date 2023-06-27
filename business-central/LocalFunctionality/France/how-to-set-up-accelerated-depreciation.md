@@ -11,7 +11,7 @@ ms.search.form: '5610, 5611'
 ms.date: 02/14/2022
 ms.author: edupont
 ---
-# <a name="set-up-accelerated-depreciation" />Paramétrer l’amortissement accéléré
+# <a name="set-up-accelerated-depreciation"></a>Paramétrer l’amortissement accéléré
 
 Pour utiliser la fonction de calcul de l’amortissement accéléré, vous devez configurer les lois d’amortissement suivantes pour les immobilisations :  
 
@@ -36,7 +36,7 @@ Si vous n’activez pas ce champ, vous devez utiliser la feuille immobilisation 
 
 Pour la loi d’amortissement fiscal, sur le raccourci **Général**, vous spécifiez ensuite la loi d’amortissement comptable pertinente dans le **Calcul dérogatoire** qui calculera l’amortissement dérogatoire. Le champ **Utilisé avec la loi dérogatoire** dans la loi d’amortissement comptable est mis à jour avec le code de la loi d’amortissement fiscal.  
 
-## <a name="derogatory-calculation" />Calcul dérogatoire
+## <a name="derogatory-calculation"></a>Calcul dérogatoire
 
 Le champ **Calcul dérogatoire** d’une loi d’amortissement comptable spécifie si cette loi est utilisée comme loi d’amortissement fiscal pour le calcul de l’amortissement dérogatoire. Le code spécifié pour la loi d’amortissement comptable établit un paramétrage dérogatoire.
 
@@ -44,7 +44,7 @@ Le champ **Calcul dérogatoire** d’une loi d’amortissement comptable spécif
 
 Lorsque le champ est vide, [!INCLUDE[prod_short](../../includes/prod_short.md)] utilise la loi d’amortissement de manière standard. S’il ne l’est pas, le système calcule l’amortissement dérogatoire.
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Amortissement accéléré](accelerated-depreciation.md)  
 [Calculer l'amortissement accéléré](how-to-calculate-accelerated-depreciation.md)  
