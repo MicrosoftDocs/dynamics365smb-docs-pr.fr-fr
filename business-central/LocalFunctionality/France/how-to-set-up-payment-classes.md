@@ -11,13 +11,13 @@ ms.search.form: '10868, 10870, 10860, 10861, 10864, 10865, 10866, 10871, 10872, 
 ms.date: 07/07/2021
 ms.author: edupont
 ---
-# <a name="set-up-payment-classes"></a><a name="set-up-payment-classes"></a>Paramétrer des types de règlement
+# <a name="set-up-payment-classes"></a><a name="set-up-payment-classes"></a><a name="set-up-payment-classes"></a>Paramétrer des types de règlement
 
 Pour utiliser le module Gestion des paiements dans la version française de [!INCLUDE [prod_short](../../includes/prod_short.md)], vous devez paramétrer des types de règlement pour définir des types d’opération, tels que des lettres de change, des paiements électroniques ou des chèques. Les classes de paiement sont définies sur la page **Paramètres bordereau de paiement**.  
 
 Pour chaque type d’opération, vous définissez ensuite les différents statuts que peut avoir le type d’opération, et vous associez à chaque statut des étapes pour définir comment le paiement passe d’un statut à l’autre.  
 
-## <a name="to-set-up-a-payment-class"></a><a name="to-set-up-a-payment-class"></a>Pour paramétrer un type de règlement
+## <a name="to-set-up-a-payment-class"></a><a name="to-set-up-a-payment-class"></a><a name="to-set-up-a-payment-class"></a>Pour paramétrer un type de règlement
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Configuration bordereau de paiement**, puis sélectionnez le lien pertinent.  
 2. Sur la page **Configuration bordereau de paiement**, sélectionnez l’action **Nouveau**.  
@@ -34,7 +34,7 @@ Pour chaque type d’opération, vous définissez ensuite les différents statut
     |**Contrepassation de TVA sur encaissement**|Spécifiez la méthode pour gérer la TVA sur encaissement.<br /><br /> Si vous sélectionnez **Lettrage**, la TVA sera réalisée lors de la validation du lettrage de la facture et du paiement.<br /><br /> Si vous sélectionnez **En retard**, vous devez définir l’étape de règlement au cours de laquelle la TVA doit être réalisée, en sélectionnant le champ **Réaliser TVA** sur la page **Fiche étape règlement**.|  
     |**Type transfert SEPA**|Spécifiez le format d’exportation SEPA, **Virement** ou **Prélèvement**. Vous spécifiez le format d’exportation pour les virements SEPA dans les étapes de paiement pour la classe de paiement.|  
 
-## <a name="to-set-up-payment-statuses-for-a-payment-class"></a><a name="to-set-up-payment-statuses-for-a-payment-class"></a>Pour paramétrer les statuts de paiement pour une classe de paiement
+## <a name="to-set-up-payment-statuses-for-a-payment-class"></a><a name="to-set-up-payment-statuses-for-a-payment-class"></a><a name="to-set-up-payment-statuses-for-a-payment-class"></a>Pour paramétrer les statuts de paiement pour une classe de paiement
 
 1. Sur la page **Configuration bordereau paiement**, sélectionnez un type de règlement, puis sélectionnez l’action **Statut**.  
 2. Sur la page **Statut règlement**, sélectionnez l’action **Nouveau**.  
@@ -46,7 +46,7 @@ Pour chaque type d’opération, vous définissez ensuite les différents statut
 
 Ensuite, vous devez définir les étapes pour chaque type de règlement. Les étapes de paiement définissent comment le paiement passe d’un état à l’autre, comme *Création de documents*, *Documents créés* et *Création de paiements*.  
 
-## <a name="to-set-up-payment-steps-for-a-payment-class"></a><a name="to-set-up-payment-steps-for-a-payment-class"></a>Pour paramétrer les étapes de paiement pour une classe de paiement
+## <a name="to-set-up-payment-steps-for-a-payment-class"></a><a name="to-set-up-payment-steps-for-a-payment-class"></a><a name="to-set-up-payment-steps-for-a-payment-class"></a>Pour paramétrer les étapes de paiement pour une classe de paiement
 
 1. Sur la page **Configuration bordereau paiement**, sélectionnez un type de règlement, puis sélectionnez l’action **Étapes**.  
 2. Dans la liste **Étape de paiement**, ajoutez les étapes pertinentes pour cette classe de paiement. Pour chaque étape, vous pouvez entrer 50 caractères alphanumériques maximum.  
@@ -62,13 +62,13 @@ Ensuite, vous devez définir les étapes pour chaque type de règlement. Les ét
 
 Si le type d’action de l’étape règlement est **Comptabilité**, vous devez définir des informations supplémentaires pour l’étape règlement.  
 
-### <a name="to-set-up-ledger-information-for-a-payment-step"></a><a name="to-set-up-ledger-information-for-a-payment-step"></a>Pour définir des informations de comptabilité lors d’une étape de paiement
+### <a name="to-set-up-ledger-information-for-a-payment-step"></a><a name="to-set-up-ledger-information-for-a-payment-step"></a><a name="to-set-up-ledger-information-for-a-payment-step"></a>Pour définir des informations de comptabilité lors d’une étape de paiement
 
 1. Sur la page **Fiche étape règlement** de l’étape règlement, choisissez l’action **Comptabilité**.  
 2. Sur la page **Etape comptabilisation règlement**, sélectionnez l’action **Nouveau**.  
 3. Renseignez les autres champs, comme nécessaire. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
 
  [Gestion des paiements](payment-management.md)  
  [Configurer des adresses de paiement](how-to-set-up-payment-addresses.md)  
