@@ -11,12 +11,12 @@ ms.search.form: '10868, 10870, 10860, 10861, 10864, 10865, 10866, 10871, 10872, 
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="create-payment-slips"></a><a name="create-payment-slips"></a><a name="create-payment-slips"></a>Créer bordereaux paiement
+# <a name="create-payment-slips"></a>Créer bordereaux paiement
 Vous pouvez créer des bordereaux paiement pour gérer les paiements fournisseur et client. Avant de créer des bordereaux paiement, vous devez paramétrer des types de règlement. Pour plus d’informations, voir [Paramétrer des types de règlement](how-to-set-up-payment-classes.md).  
 
 La procédure suivante décrit comment créer des bordereaux paiement pour les règlements fournisseur, mais les mêmes étapes s’appliquent également à la création des bordereaux paiement pour les règlements client.  
 
-## <a name="to-create-a-payment-slip-for-vendors"></a><a name="to-create-a-payment-slip-for-vendors"></a><a name="to-create-a-payment-slip-for-vendors"></a>Pour créer un bordereau de paiement pour les fournisseurs
+## <a name="to-create-a-payment-slip-for-vendors"></a>Pour créer un bordereau de paiement pour les fournisseurs
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Bordereaux de paiement**, puis sélectionnez le lien pertinent.  
 2.  Sélectionnez l’action **Nouveau**.  
@@ -103,7 +103,7 @@ Après avoir créé un bordereau de paiement, vous pouvez générer des fichiers
 > [!NOTE]  
 >  Un fichier de paiement peut être créé si le bordereau de paiement affiche **Fichier** dans le champ **Type action**.
 
-## <a name="to-create-a-payment-file"></a><a name="to-create-a-payment-file"></a><a name="to-create-a-payment-file"></a>Pour créer un fichier de paiement
+## <a name="to-create-a-payment-file"></a>Pour créer un fichier de paiement
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Bordereaux de paiement**, puis sélectionnez le lien pertinent.  
 2.  Sélectionnez un bordereau paiement, puis cliquez sur **Modifier**.  
@@ -114,7 +114,7 @@ Après avoir créé un bordereau de paiement, vous pouvez générer des fichiers
 
 5.  En cas d’erreur, consultez les erreurs répertoriées dans le récapitulatif **Erreurs exportation fichier** et prenez la mesure appropriée.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
  [Gestion des paiements](payment-management.md)   
  [Paramétrer des types de règlement](how-to-set-up-payment-classes.md)   
  [Paramétrer des statuts règlement](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)   

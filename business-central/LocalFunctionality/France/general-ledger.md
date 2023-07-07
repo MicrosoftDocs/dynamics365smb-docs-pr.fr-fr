@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="general-ledger-in-france"></a><a name="general-ledger-in-france"></a><a name="general-ledger-in-france"></a>Comptabilité en France
+# <a name="general-ledger-in-france"></a>Comptabilité en France
 
 La fonctionnalité Comptabilité pour la France est décrite dans les rubriques ci-dessous.
 
@@ -21,7 +21,7 @@ La fonctionnalité Comptabilité pour la France est décrite dans les rubriques 
 [Afficher des rapprochements comptables](how-to-view-ledger-reconciliations.md)  
 [Exporter des écritures comptables pour les audits fiscaux](how-to-export-general-ledger-entries-for-tax-audits.md)  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Fonctionnalité locale, France](france-local-functionality.md)  
 [Familiarisation avec les écritures comptables et les COA](../../finance-general-ledger.md)  
