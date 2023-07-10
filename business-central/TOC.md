@@ -1,4 +1,6 @@
-# [Bienvenue dans Business Central](index.md)  
+
+# [Documentation de Business Central](index.yml)
+# [Bienvenue dans Business Central](welcome.md)
 # [Fonctionnalités nouvelles et prévues](product-news.md)
 # Mise en route
 ## [Présentation des fonctionnalités d’entreprise](across-business-functionality.md)
@@ -156,6 +158,7 @@
 ### [Passage à une autre entreprise ou à un autre environnement](ui-organization-switch.md)
 ### [Gestion des notifications](ui-smart-notifications.md)
 ### [Conseils sur les performances pour les utilisateurs métier](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
+### [Analyser les performances](/dynamics365/business-central/dev-itpro/administration/performance-profiler-overview?toc=/dynamics365/business-central/toc.json)
 ### [Avertissements et messages d’erreur](product-error-messages.md)
 ### Personnalisation de Business Central
 #### [Personnalisation de votre espace de travail](ui-personalization-user.md)
@@ -295,8 +298,8 @@
 ##### [Mappage de champs pendant l’importation de fichiers SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md)
 ##### [Mappage de champ pour l’extension AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
-## Finance
-### [Vue d’ensemble de Finance](finance.md)
+## Finances
+### [Vue d’ensemble de Finances](finance.md)
 ### [États financiers](finance-reports.md)
 ### Gestion de la comptabilité client
 #### [Vue d’ensemble de la comptabilité client](receivables-manage-receivables.md)
@@ -350,9 +353,11 @@
 #### Configuration de la TVA
 ##### [Configuration de la TVA (taxe sur la valeur ajoutée)](finance-setup-vat.md)
 ##### [Configuration du groupe comptabilisation](finance-posting-groups.md#tax-posting-groups)
+##### [Configuration de la TVA non déductible](finance-setup-nondeductible-vat.md)
 ##### [Configuration de la TVA sur encaissement](finance-setup-unrealized-vat.md)
 ##### [Configuration d’une déclaration de TVA](finance-how-setup-vat-statement.md)
 #### [Utilisation de la TVA sur les ventes et les achats](finance-work-with-vat.md)
+#### [Utilisation de la TVA non déductible](finance-how-use-non-deductible-vat.md)
 #### [Envoi des déclarations de TVA aux autorités fiscales](finance-how-report-vat.md)
 #### [Gestion des changements de taux de TVA](finance-how-use-vat-rate-change-tool.md)
 #### [Validation des n° identif. intracomm.](finance-how-validate-vat-registration-number.md)
@@ -598,7 +603,7 @@
 ### [Enregistrement des employés](hr-how-register-employees.md)
 ### [Gestion de l’indisponibilité des employés](hr-how-manage-absence.md)
 
-## Planification
+## Planning
 ### [Planification de la production](production-planning.md)
 ### [À propos de la fonctionnalité Planification](production-about-planning-functionality.md)
 ### [Planification avec/sans magasin](production-planning-with-without-locations.md)
@@ -843,7 +848,7 @@
 #### [Pack de localisation de base pour le tchèque (extension)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
 #### [Pack de localisation avancée pour le tchèque (extension)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
 #### Finances de base  
-##### [Finance](LocalFunctionality/Czech/finance.md)
+##### [Finances](LocalFunctionality/Czech/finance.md)
 ##### [Opérations de clôture d’exercice](LocalFunctionality/Czech/year-close-operations.md)
 ##### [Lettrage des écritures comptables](LocalFunctionality/Czech/general-ledger-entries-application.md)
 ##### [Mise à jour des taux de change](LocalFunctionality/Czech/exchange-rate-update.md)
@@ -993,6 +998,7 @@
 ### Inde
 #### [Vue d’ensemble](LocalFunctionality/India/india-local-functionality.md)
 #### [Définition de la validation des souches de numéros](LocalFunctionality/India/posting-no-series-setup.md)
+#### [Piste d’audit et journaux d’édition pour les logiciels de comptabilité en Inde](LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software.md)
 #### Moteur de taxe
 ##### [Vue d’ensemble](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Configuration d’importation et d’exportation du moteur de taxe](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
@@ -1493,8 +1499,8 @@
 <!--setup-->
 ## Configuration de Business Central
 ### [Vue d’ensemble des tâches](setup.md)
-### Configuration de Finance
-#### [Configuration de Finance](finance-setup-finance.md)
+### Configuration de Finances
+#### [Configuration de Finances](finance-setup-finance.md)
 #### [Configuration des modes de règlement](finance-payment-methods.md)
 #### [Configuration des conditions de paiement](finance-payment-terms.md)
 #### [Configuration des groupes comptabilisation](finance-posting-groups.md)
@@ -1723,7 +1729,7 @@
 
 ## États intégrés
 ### [Vue d’ensemble du rapport](reports-available-reports.md)
-### Finance
+### Finances
 #### [Business Intelligence financière](bi.md)
 #### [Analyse des états financiers avec Excel](finance-analyze-excel.md)
 #### [États financiers clés](finance-reports.md)
@@ -1841,6 +1847,7 @@
 ### [Tâches d’administration](admin-setup-and-administration.md)
 ### Gestion de l’accès à Business Central
 #### [Vue d’ensemble](admin-access-overview.md)
+#### [Contrôler l’accès à Business Central à l’aide de groupes de sécurité](ui-security-groups.md)
 #### Accès aux licences Microsoft 365
 ##### [Vue d’ensemble](admin-access-with-m365-license.md)
 ##### [Configuration de l’accès avec les licences Microsoft 365](admin-access-with-m365-license-setup.md)

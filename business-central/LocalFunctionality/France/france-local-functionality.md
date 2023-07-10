@@ -17,10 +17,12 @@ Les articles suivants décrivent la fonctionnalité locale qui est propre à la 
 ## Disponibilité des fonctionnalités
 
 * TVA
+    * [Nouvelle fonctionnalité d’exportation d’audit](export-french-audit-file.md) **Disponible maintenant**
     * [Exporter les écritures comptables pour les audits fiscaux](how-to-export-general-ledger-entries-for-tax-audits.md) **Disponible maintenant**
     * [Exporter les écritures comptables vers un fichier XML](how-to-export-general-ledger-entries-to-an-xml-file.md) **Disponible maintenant**
     * [Configuration requise pour la déclaration d’échanges de biens](requirements-for-reporting-declaration-of-trade-in-goods.md) **Disponible maintenant**
     * [Rapport Déclaration de services DES](../../finance-how-setup-use-service-declaration.md) **Disponible maintenant**
+    * [Nouvelle fonctionnalité d’exportation d’audit](export-french-audit-file.md) **Disponible maintenant**
 
 * Banque et paiements
     * [Configurer les adresses de paiement](how-to-set-up-payment-addresses.md) **Disponible maintenant**
@@ -61,8 +63,10 @@ Les articles suivants décrivent la fonctionnalité locale qui est propre à la 
 
 ## Futures exigences législatives en cours d’investigation
 
-* Facturation électronique **1re vague 2024**
-* Nouvelle fonctionnalité d’exportation d’audit **juin 2023**
+* Facturation électronique – planifiée pour **1re vague 2024**
+* Format de déclaration TVA 2023 – planifié pour **août 2023**
+* Mise à jour réglementaire sur les prépaiements – planifiée pour **2è vague de lancement 2023**
+
 
 Si vous connaissez les fonctionnalités réglementaires à venir, envoyez une [Alerte de fonctionnalité réglementaire](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).  
 
