@@ -19,7 +19,7 @@ En France, les entreprises doivent fournir des informations relatives à l’imp
 > [!NOTE]
 > Il y a une nouvelle fonctionnalité dans la version 22.1. Pour utiliser cette fonctionnalité, exécutez la page **Document d’exportation des fichiers d’audit**. 
 
-## Exporter le fichier d’audit
+## <a name="export-the-audit-file"></a>Exporter le fichier d’audit
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Document d’exportation des fichiers d’audit**, puis sélectionnez le lien associé.
 2. Sélectionnez **Nouveau** pour créer un processus d’exportation. 
@@ -28,7 +28,7 @@ En France, les entreprises doivent fournir des informations relatives à l’imp
 5. Saisissez le **Code source par défaut** pour spécifier le code journal à utiliser si aucun code n’est spécifié dans l’écriture comptable. 
 6. Entrez les informations dans les champs restants comme décrit dans l’article, [Comment exporter des fichiers d’audit](../../finance-how-to-export-audit-files.md).
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Fonctionnalité locale en français](france-local-functionality.md)
 [Comment utiliser l’application Exporter les fichiers d’audit](../../finance-how-to-export-audit-files.md)
