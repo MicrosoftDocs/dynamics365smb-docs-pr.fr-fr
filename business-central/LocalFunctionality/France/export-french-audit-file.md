@@ -12,7 +12,7 @@ ms.date: 06/13/2023
 ms.author: altotovi
 ---
 
-# Exportation des écritures comptables pour les audits fiscaux
+# <a name="export-general-ledger-entries-for-tax-audits"></a>Exportation des écritures comptables pour les audits fiscaux
 
 En France, les entreprises doivent fournir des informations relatives à l’impôt sur les sociétés et à la TVA, telles que les transactions et les écritures comptables, pour les audits. Les informations doivent être fournies dans un format de fichier spécifié par les autorités fiscales. Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], ces informations sont enregistrées dans un fichier d’audit standard conçu pour fournir des informations sur les types de comptes qui incluent des entrées comptabilisées.
 
