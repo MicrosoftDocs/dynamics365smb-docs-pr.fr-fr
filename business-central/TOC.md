@@ -298,10 +298,10 @@
 ##### [Mappage de champs pendant l’importation de fichiers SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md)
 ##### [Mappage de champ pour l’extension AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
-## Finances
+## Finance
 ### [Vue d’ensemble de Finances](finance.md)
 ### [États financiers](finance-reports.md)
-### Gestion de la comptabilité client
+### Gestion des créances
 #### [Vue d’ensemble de la comptabilité client](receivables-manage-receivables.md)
 #### [Rapports Comptabilité client et analyse](receivables-reports.md)
 #### Lettrage automatique des paiements et rapprochement des comptes bancaires
@@ -322,7 +322,7 @@
 #### [Taxe sur les ventes dans la version par défaut de Business Central](sales-tax-concept.md)
 #### [Utilisation les états de déclaration d’échanges de biens](finance-how-report-intrastat.md)
 
-### Gestion de la comptabilité fournisseur
+### Gestion des dettes
 #### [Vue d’ensemble de la comptabilité fournisseur](payables-manage-payables.md)
 #### [Rapports Comptabilité fournisseur et analyse](payables-reports.md)
 #### Exécution des paiements
@@ -350,6 +350,7 @@
 
 ### Gestion de la TVA
 #### [Vue d’ensemble de la gestion de la TVA](finance-manage-vat.md)
+#### [Transactions d’achat de tiers dans l’UE](finance-how-to-eu3party-trade-purchase.md)
 #### Configuration de la TVA
 ##### [Configuration de la TVA (taxe sur la valeur ajoutée)](finance-setup-vat.md)
 ##### [Configuration du groupe comptabilisation](finance-posting-groups.md#tax-posting-groups)
@@ -1729,7 +1730,7 @@
 
 ## États intégrés
 ### [Vue d’ensemble du rapport](reports-available-reports.md)
-### Finances
+### Finance
 #### [Business Intelligence financière](bi.md)
 #### [Analyse des états financiers avec Excel](finance-analyze-excel.md)
 #### [États financiers clés](finance-reports.md)

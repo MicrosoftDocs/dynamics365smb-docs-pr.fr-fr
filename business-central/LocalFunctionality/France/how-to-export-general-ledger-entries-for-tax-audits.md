@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="export-general-ledger-entries-for-tax-audits-in-the-french-version"></a>Exporter les écritures comptables pour les contrôles fiscaux en version française
+# Exporter les écritures comptables pour les contrôles fiscaux en version française
 En France, les entreprises doivent fournir des informations relatives à l’impôt sur les sociétés et à la TVA, telles que les transactions et les écritures comptables, pour les audits dans un format de fichier spécifié par les autorités fiscales. Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], ces informations sont enregistrées dans un fichier d’audit standard conçu pour fournir des informations sur les types de comptes qui incluent des entrées comptabilisées.
 
 Vous pouvez inclure des soldes d’ouverture dans le fichier, mais il ne s’agit pas d’entrées comptabilisées réelles. [!INCLUDE[prod_short](../../includes/prod_short.md)] calcule le solde d’ouverture en utilisant des entrées de compte jusqu’à la date de début que vous spécifiez pour le fichier. Le calcul inclut également les écritures de clôture générées par la clôture de l’exercice précédent. Les soldes d’ouverture sont ensuite mappés aux champs obligatoires de l’état.  
@@ -30,7 +30,7 @@ Si vous ne fermez pas votre exercice comptable ou n’exécutez pas l’action *
 >  Avant d’exporter des écritures comptables, assurez-vous que vous avez marqué les comptes généraux à détailler lors de l’exportation des soldes d’ouverture. C’est généralement une exigence pour les comptes généraux de banque, de client et de fournisseur. L’opération s’effectue en cochant la case dans le champ **Solde détaillé** sur la page **Carte de compte général**.
 >   
 
-## <a name="to-export-general-ledger-entries-to-a-text-file-for-a-tax-audit"></a>Pour exporter des écritures comptables ver un fichier texte pour un audit fiscal
+## Pour exporter des écritures comptables ver un fichier texte pour un audit fiscal  
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Exporter écritures comptables - Audit fiscal**, puis choisissez le lien approprié.  
 2.  Sur la page **Exporter écritures comptables - Audit fiscal**, sur le raccourci **Options**, renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -46,7 +46,7 @@ Lorsque vous créez l’état, [!INCLUDE[prod_short](../../includes/prod_short.m
 
 L’état aura le nom suivant : `<taxpayername>FEC<YYYYMMDD>`  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
  [Clôturer fiscalement des exercices](how-to-close-years.md)
 
