@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: edupont
 ---
-# Clôturer les comptes de gestion dans la version française
+# <a name="close-income-statement-accounts-in-the-french-version"></a>Clôturer les comptes de gestion dans la version française
 
 Avant d’exécuter le traitement par lots **Clôturer les comptes de gestion**, vous devez clôturer l’exercice fiscal. Pour plus d’informations, voir [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md).  
 
-## Pour clôturer des comptes de gestion  
+## <a name="to-close-the-income-statement-accounts"></a>Pour clôturer des comptes de gestion
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Clôturer exercice comptable**, puis choisissez le lien pertinent.  
 2. Sur la page **Clôturer exercice comptable**, sous le raccourci **Options**, indiquez les conditions du traitement par lots.  
@@ -27,7 +27,7 @@ Avant d’exécuter le traitement par lots **Clôturer les comptes de gestion**,
 6. Saisissez une ligne avec une écriture contrepartie qui valide le revenu net dans le compte général en capitaux propres adéquat dans le bilan.  
 7. Choisissez l’action **Valider** pour valider la feuille.  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md)
 
