@@ -10,12 +10,12 @@ ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: bholtorf
 ---
-# Valider les bordereaux de paiement dans la version française
+# <a name="post-payment-slips-in-the-french-version"></a>Valider les bordereaux de paiement dans la version française
 Vous devez valider des bordereaux paiement afin de finaliser une transaction paiement et créer des données financières. Vous pouvez valider un bordereau paiement si le **type d’action** du bordereau paiement est défini sur **Comptabilité**.  
 
 Avant de publier un bordereau paiement, vous devez créer le bordereau paiement. Pour plus d’informations, consultez [Créer des bordereaux paiement](how-to-create-payment-slips.md).  
 
-## Pour valider un bordereau paiement  
+## <a name="to-post-a-payment-slip"></a>Pour valider un bordereau paiement
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Bordereaux de paiement**, puis sélectionnez le lien pertinent.  
 2.  Sélectionnez un bordereau paiement, puis cliquez sur **Modifier**.  
@@ -24,7 +24,7 @@ Avant de publier un bordereau paiement, vous devez créer le bordereau paiement.
 
 Le bordereau paiement est validé.  
 
-## Voir aussi  
+## <a name="see-also"></a>Voir aussi
  [Gestion des paiements](payment-management.md)   
  [Paramétrer des types de règlement](how-to-set-up-payment-classes.md)   
  [Paramétrer des statuts règlement](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)   
