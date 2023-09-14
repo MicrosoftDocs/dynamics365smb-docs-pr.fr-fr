@@ -1,20 +1,20 @@
 ---
 title: 'Ouvrir un nouvel exercice comptable [FR]'
 description: 'Avant de pouvoir effectuer une validation dans un exercice comptable, vous devez l’ouvrir et définir ses périodes comptables.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="open-a-new-fiscal-year-in-the-french-version"></a>Ouvrir un nouvel exercice comptable dans la version française
+# Ouvrir un nouvel exercice comptable dans la version française
 
 Avant de pouvoir effectuer une validation dans un exercice comptable, vous devez l’ouvrir et définir ses périodes comptables.  
 
-## <a name="to-open-a-new-fiscal-year"></a>Pour ouvrir un nouvel exercice comptable
+## Pour ouvrir un nouvel exercice comptable  
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Périodes comptables**, puis choisissez le lien pertinent.  
 2.  Choisissez l’action **Créer exercice**.  
@@ -29,7 +29,7 @@ Après la dernière période de l’exercice comptable, une période comptable e
 > [!IMPORTANT]  
 > Conformément à la législation française, un maximum de deux exercices comptables peuvent être ouverts en même temps.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
  [Définir des périodes de validation](how-to-specify-posting-periods.md)   
  [Clôturer fiscalement des exercices](how-to-close-years.md)   
  [Valider l’écriture de clôture d’exercice](how-to-post-the-year-end-closing-entry.md)   

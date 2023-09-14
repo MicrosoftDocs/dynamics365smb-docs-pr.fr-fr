@@ -3,19 +3,19 @@ title: Procédure d’exportation des paiements
 description: Le module Gestion des paiements vous permet d’exporter vos paiements par voie électronique via un fichier texte ou un XMLport.
 services: project-madeira
 documentationcenter: ''
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="export-payments"></a>Exporter des paiements
+# Exporter des paiements
 Le module Gestion des paiements vous permet d’exporter vos paiements par voie électronique via un fichier texte ou un XMLport.  
 
-## <a name="to-export-payments"></a>Pour exporter des paiements
+## Pour exporter des paiements  
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Configuration bordereau de paiement**, puis sélectionnez le lien pertinent.  
 2.  Sur la page **Types de règlement**, sélectionnez un type de règlement, puis sélectionnez l’action **Étapes**.  
@@ -27,7 +27,7 @@ Le module Gestion des paiements vous permet d’exporter vos paiements par voie 
 
 La prochaine fois que vous effectuerez un paiement basé sur cette étape de règlement, les paiements seront exportés vers le fichier spécifié.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
  [Paramétrer des types de règlement](how-to-set-up-payment-classes.md)   
  [Paramétrer des étapes règlement](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)
 

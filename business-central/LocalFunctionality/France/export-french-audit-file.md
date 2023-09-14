@@ -28,6 +28,16 @@ En France, les entreprises doivent fournir des informations relatives à l’imp
 5. Saisissez le **Code source par défaut** pour spécifier le code journal à utiliser si aucun code n’est spécifié dans l’écriture comptable. 
 6. Entrez les informations dans les champs restants comme décrit dans l’article, [Comment exporter des fichiers d’audit](../../finance-how-to-export-audit-files.md).
 
+## Numérotation dans la balise "EcritureNum"
+
+La numérotation dans la balise "EcritureNum" doit augmenter avec le temps et ne contenir aucune coupure. Cette numérotation des transactions doit être unique pour l’ensemble du dossier ou spécifique à chaque code feuille. Utilisation du **N°** Le champ des **Hist. trans. comptabilité** fournit une numérotation unique. Toutefois, si vous validez plusieurs factures dans une seule feuille, toutes les factures auront un **N°** commun. La réglementation française impose un numéro unique pour chaque facture.  
+
+Pour répondre à cette exigence, exécutez le rapport avec une option supplémentaire. Pour ce faire, procédez comme suit :  
+
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") et saisissez **Exporter écritures comptables - Audit fiscal**.
+2. Sélectionnez **Utiliser le numéro de transaction.** . vous sélectionnez cette option, le numéro de transaction est utilisé comme numéro progressif dans le fichier d’audit. Si vous ne sélectionnez pas cette option, le numéro du registre comptable est utilisé comme numéro progressif.
+3. Sélectionnez **OK** pour créer le rapport.  
+
 ## Voir aussi
 
 [Fonctionnalité locale en français](france-local-functionality.md)
