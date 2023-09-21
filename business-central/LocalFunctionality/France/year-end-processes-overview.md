@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: bholtorf
 ---
-# <a name="year-end-processes-overview-in-the-french-version"></a>Vue d’ensemble des processus de fin d’année dans la version française
+# Vue d’ensemble des processus de fin d’année dans la version française
 
 Une clôture d’exercice dans [!INCLUDE[prod_short](../../includes/prod_short.md)] implique trois étapes :  
 
@@ -28,7 +28,7 @@ Le système génère ensuite une écriture de clôture mais ne la valide pas aut
 
 Après avoir clôturé fiscalement un exercice, vous ne pourrez plus rien comptabiliser dans cet exercice.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Clôturer fiscalement des périodes comptables](how-to-fiscally-close-accounting-periods.md)  
 [Validation de l’écriture de clôture d’exercice](how-to-post-the-year-end-closing-entry.md)  
