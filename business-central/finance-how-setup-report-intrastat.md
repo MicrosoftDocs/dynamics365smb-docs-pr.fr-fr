@@ -338,8 +338,6 @@ Le processus de travail avec les états intracommunautaires est le même que dan
 
 <!-- ### United Kingdom-->
 
-## Voir la formation associée sur [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
 ## Voir aussi
 
 [Génération d’état intracommunautaire dans Business Central](finance-how-report-intrastat.md)  

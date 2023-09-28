@@ -56,7 +56,7 @@ Le montant du taux de change d’ajustement ou le montant du taux de change d’
 
 ## Ajustement des taux de change
 
-Comme les taux de change ne cessent de fluctuer, il convient d’ajuster périodiquement les équivalents devise supplémentaires de votre système. À défaut d’effectuer ces ajustements, les montants convertis à partir de devises étrangères (ou supplémentaires) et publiés dans la comptabilité en DS risquent d’être erronés. En outre, les écritures quotidiennes validées avant la saisie d’un taux de change quotidien dans l’application doivent être mises à jour après la saisie des informations de taux de change quotidienne.
+Comme les taux de change ne cessent de fluctuer, il convient d’ajuster périodiquement les équivalents devise supplémentaires de votre système. À défaut d'effectuer ces ajustements, les montants convertis à partir de devises étrangères (ou supplémentaires) et publiés dans la comptabilité en DS risquent d'être erronés. En outre, les écritures quotidiennes validées avant la saisie d’un taux de change quotidien dans l’application doivent être mises à jour après la saisie des informations de taux de change quotidienne.
 
 Le traitement par lots **Ajuster taux de change** permet d’ajuster manuellement les taux de change d’écritures client, fournisseur et compte bancaire validées. Il peut également mettre à jour d’autres montants en devise report dans des écritures comptables.  
 
@@ -122,13 +122,11 @@ Vous pouvez utiliser un service externe pour tenir vos taux de change des devise
 
 La valeur dans le champ **Taux de change** de la page **Devises** est mise à jour avec le dernier taux de change des devises.
 
-## Voir la [formation Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Devises dans Business Central](finance-currencies.md)  
 [Configurer des devises](finance-set-up-currencies.md)  
-[Configurer une devise report supplémentaire](finance-how-setup-additional-currencies.md)  
+[Configuration d’une devise report supplémentaire](finance-how-setup-additional-currencies.md)  
 [Clôture des exercices et des périodes](year-close-years-periods.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
