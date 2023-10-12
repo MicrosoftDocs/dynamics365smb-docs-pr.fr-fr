@@ -3,10 +3,10 @@ title: Prélever des articles pour l’expédition entrepôt
 description: Découvrez comment utiliser les documents de prélèvement entrepôt pour créer et traiter les informations de prélèvement avant de valider une expédition entrepôt.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 01/25/2023
+ms.date: 09/11/2023
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
@@ -39,9 +39,13 @@ Vous ne pouvez pas créer un document de prélèvement en entrepôt à partir de
 >  
 > Pour plus d’informations sur le prélèvement de composants pour les ordres d’assemblage, notamment les situations où les éléments d’assemblage ne sont pas associés à une expédition vente, consultez [Prélever pour la fabrication, l’assemblage ou les tâches dans les configurations de stockage avancées](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
+## Vérifier si les articles sont disponibles pour le prélèvement
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
+
 ## Pour créer des documents de prélèvement en bloc avec la feuille prélèvement
 
-1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille prélèvement**, puis choisissez le lien associé.  
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Feuille prélèvement**, puis choisissez le lien associé.  
 
 2. Choisissez l’action **Extraire documents entrepôt**.  
 
