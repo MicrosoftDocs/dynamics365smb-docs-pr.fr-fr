@@ -10,10 +10,10 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Clôturer fiscalement des périodes comptables
+# <a name="fiscally-close-accounting-periods"></a>Clôturer fiscalement des périodes comptables
 Lorsqu’une période fiscale est terminée, vous pouvez la clôturer fiscalement pour veiller à ce qu’aucune autre écriture comptable ne puisse être validée.  
 
-## Pour clôturer fiscalement des périodes comptables  
+## <a name="to-fiscally-close-accounting-periods"></a>Pour clôturer fiscalement des périodes comptables
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Périodes comptables**, puis choisissez le lien pertinent.  
 2.  Sur la page **Périodes comptables**, sélectionnez l’action **Clôturer période fiscale**.  
@@ -24,7 +24,7 @@ Lorsqu’une période fiscale est terminée, vous pouvez la clôturer fiscalemen
 
 Lorsque la période est clôturée fiscalement, le champ Clôturé fiscalement est sélectionné, et le champ Date de clôture fiscale est mis à jour pour la période.  
 
-## Voir aussi  
+## <a name="see-also"></a>Voir aussi
  [Clôturer fiscalement des exercices](how-to-close-years.md)   
  [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md)   
  [Rouvrir des périodes comptables](how-to-reopen-accounting-periods.md)   
