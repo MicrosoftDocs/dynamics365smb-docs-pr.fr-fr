@@ -69,8 +69,8 @@ Fonctionnalités de l’application [!INCLUDE [prod_short](includes/prod_short.m
 |Épingler les détails de la carte sous forme d’onglet |![Oui](media/check.png)|
 |Afficher les onglets [!INCLUDE [prod_short](includes/prod_short.md)]|![Oui](media/check.png)|
 |Ajouter un onglet [!INCLUDE [prod_short](includes/prod_short.md)]|![Non_](media/x-icon.png )|
-|Rechercher des contacts professionnels |![N°](media/x-icon.png )|
-|Coller et partager un aperçu de lien sous forme de carte|![N°](media/x-icon.png )|
+|Rechercher des contacts professionnels |![Non](media/x-icon.png )|
+|Coller et partager un aperçu de lien sous forme de carte|![Non](media/x-icon.png )|
 
 Fonctions du client [!INCLUDE [prod_short](includes/prod_short.md)] intégré dans Teams :
 

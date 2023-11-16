@@ -41,7 +41,7 @@ Sur les fiches article, le champ **Variante obligatoire si elle existe** a les o
 |Valeur de champ |Désignation|
 |---------|----|
 |Par défaut| La définition de **Paramètres stock** s’applique à cet article.|
-|N°| Les utilisateurs ne sont pas tenus de spécifier une variante pour cet article.|
+|Non| Les utilisateurs ne sont pas tenus de spécifier une variante pour cet article.|
 |Oui| Si l’article a une ou plusieurs variantes, les utilisateurs doivent spécifier la variante appropriée. S’ils ne le font pas, ils ne pourront pas publier la transaction.|
 
 > [!NOTE]

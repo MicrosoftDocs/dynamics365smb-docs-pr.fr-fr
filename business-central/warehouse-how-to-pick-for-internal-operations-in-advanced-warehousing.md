@@ -101,8 +101,8 @@ Utilisez les documents **Prélèvement entrepôt** pour sélectionner les compos
 
     |Option|Description|
     |-|-|
-    |Montant Nombre de lignes prélèvement|Crée des documents prélèvement qui n’ont pas plus que le nombre de lignes spécifié dans chaque document.|
-    |Montant Non. de docs origine prélèvement|Crée des documents prélèvement qui couvrent pas plus que le nombre spécifié de documents d’origine.|
+    |Montant N° de lignes prélèvement|Crée des documents prélèvement qui n’ont pas plus que le nombre de lignes spécifié dans chaque document.|
+    |Montant N° de docs origine prélèvement|Crée des documents prélèvement qui couvrent pas plus que le nombre spécifié de documents d’origine.|
     |Code utilisateur affecté|Crée des documents prélèvement uniquement pour les lignes qui sont affectées au magasinier sélectionné.|
     |Méthode de tri|Choisissez parmi les options disponibles pour trier les lignes du document prélèvement créé.|
     |Filtrer déconditionnement|Masque les lignes prélèvement déconditionnement intermédiaires lorsqu’une plus grande unité est convertie en une unité de mesure inférieure et est prélevée dans son intégralité.|

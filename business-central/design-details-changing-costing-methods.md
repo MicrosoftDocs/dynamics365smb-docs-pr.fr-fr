@@ -123,7 +123,7 @@ Lorsque vous créez des ordres d’assemblage, utilisez les informations des Feu
 |Champ  |Valeur à saisir  |
 |---------|---------|
 |Type |Article ; |
-|Non. |Le numéro de l’article d’origine. |
+|N° |Le numéro de l’article d’origine. |
 |Quantité par |1 |
 |Code variante |Idem à la feuille inventaire. |
 |Code magasin |Idem à la feuille inventaire. |

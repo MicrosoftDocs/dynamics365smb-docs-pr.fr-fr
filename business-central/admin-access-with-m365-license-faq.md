@@ -95,7 +95,7 @@ Pour maximiser la productivité et rationaliser leurs opérations, les PME achè
 
 ### Est-ce 100 % gratuit ?
  
-Non L’accès aux données de Business Central dans Microsoft Teams nécessite que chaque utilisateur dispose d’une licence Business Central ou d’une licence Microsoft 365 de la liste des plans pris en charge.
+Non. L’accès aux données de Business Central dans Microsoft Teams nécessite que chaque utilisateur dispose d’une licence Business Central ou d’une licence Microsoft 365 de la liste des plans pris en charge.
 
 ### Cela fonctionne-t-il avec les versions d’essai de Microsoft 365 et de Business Central ?
 

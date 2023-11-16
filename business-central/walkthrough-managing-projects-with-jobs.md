@@ -190,7 +190,7 @@ Dans la procédure suivante, vous créez une feuille projet nominative pour Tric
 
 2. Créez des lignes planning avec les informations suivantes :  
 
-    | Ligne | Type ligne | Date planning  | Type        | Non.   | Quantité | Prix unitaire |
+    | Ligne | Type ligne | Date planning  | Type        | N°   | Quantité | Prix unitaire |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Budget et Facturable | (date du jour) | Ressource | Tricia | 40        |     |
     | 2    | Budget et Facturable | (date du jour) | Ressource | Grégory | 40        |     |
@@ -199,7 +199,7 @@ Dans la procédure suivante, vous créez une feuille projet nominative pour Tric
      Fermez la page. Les totaux sont mis à jour sur la page **Lignes tâche projet**.  
 3. Sélectionnez la ligne 1020, puis cliquez sur **Lignes planning projet**. Entrez les informations suivantes :  
 
-    | Ligne | Type ligne | Date planning  | Type        | Non.   | Quantité | Prix unitaire |
+    | Ligne | Type ligne | Date planning  | Type        | N°   | Quantité | Prix unitaire |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Budget et Facturable | (date du jour) | Ressource | Tricia | 80        |     |
     | 2    | Budget et Facturable | (date du jour) | Article ; | 80201 (Programme graphique) | 1 |     |
@@ -272,7 +272,7 @@ Les lignes sont à présent validées.
 
 4. Sur la page **Lignes tâche projet**, sélectionnez la ligne 1120, puis choisissez l’action **Lignes planning projet**. Créez une ligne planning avec les informations suivantes :  
 
-    | Ligne | Type ligne | Type        | Non.   | Quantité |
+    | Ligne | Type ligne | Type        | N°   | Quantité |
     |------|-----------|-------------|-------|----------|
     | 1    | Budget et Facturable  | Ressource | Tricia | 30 |
 
@@ -413,7 +413,7 @@ Les procédures suivantes expliquent comment créer un projet, définir un prix 
 
 6. Créez une ligne planning avec les informations suivantes :  
 
-    | Ligne | Type ligne | Date planning  | Type        | Non.   | Quantité | Prix unitaire |
+    | Ligne | Type ligne | Date planning  | Type        | N°   | Quantité | Prix unitaire |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Facturable  | (date du jour) | Compte général | 40255 | 1        | 5000       |
 
@@ -423,7 +423,7 @@ Les procédures suivantes expliquent comment créer un projet, définir un prix 
 
 8. Créez une ligne planning avec les informations suivantes :
 
-    | Ligne | Type ligne | Date planning  | Type     | Non.    | Quantité |
+    | Ligne | Type ligne | Date planning  | Type     | N°    | Quantité |
     |------|-----------|----------------|----------|--------|----------|
     | 1    | Budget    | (date du jour) | Ressource | Tricia | 120      |
     | 2    | Budget    | (date du jour) | Article ;     | 70104  | 10       |
@@ -434,7 +434,7 @@ Les procédures suivantes expliquent comment créer un projet, définir un prix 
 
 10. Créez une ligne planning avec les informations suivantes :
 
-    | Ligne | Type ligne | Date planning   | Type        | Non.   | Quantité | Prix unitaire |
+    | Ligne | Type ligne | Date planning   | Type        | N°   | Quantité | Prix unitaire |
     |------|-----------|-----------------|-------------|-------|----------|------------|
     | 1    | Facturable  | (une date future) | Compte général | 40255 | 1        | 5000       |
 

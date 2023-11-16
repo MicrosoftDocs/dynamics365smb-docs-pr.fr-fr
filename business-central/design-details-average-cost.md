@@ -69,10 +69,10 @@ Le tableau suivant montre les écritures comptables pour l’exemple coût artic
 
 | **N° article** | **Code variante** | **Code magasin** | **Date évaluation** | **Coût ajusté** |
 |--|--|--|--|--|
-| ARTICLE1 |  | BLEU | 01/01/23 |   N° |
-| ARTICLE1 |  | BLEU | 02/01/23 |   N° |
-| ARTICLE1 |  | BLEU | 02/02/23 |   N° |
-| ARTICLE1 |  | BLEU | 02/03/23 |   N° |
+| ARTICLE1 |  | BLEU | 01/01/23 |   Non |
+| ARTICLE1 |  | BLEU | 02/01/23 |   Non |
+| ARTICLE1 |  | BLEU | 02/02/23 |   Non |
+| ARTICLE1 |  | BLEU | 02/03/23 |   Non |
 
  Le tableau suivant montre les mêmes écritures comptables une fois le traitement par lots **Ajuster coûts - Écr. article** exécuté. Le coût moyen par jour est calculé et appliqué aux sorties de stock.  
 
@@ -109,8 +109,8 @@ Le tableau suivant montre les écritures de la table **Point d’entrée ajustem
 
 | **N° article** | **Code variante** | **Code magasin** | **Date évaluation** | **Coût ajusté** |
 |--|--|--|--|--|
-| ARTICLE1 |  | BLEU | 01/31/23 |   N° |
-| ARTICLE1 |  | BLEU | 02/28/23 |   N° |
+| ARTICLE1 |  | BLEU | 01/31/23 |   Non |
+| ARTICLE1 |  | BLEU | 02/28/23 |   Non |
 
 > [!NOTE]  
 > La date d’évaluation est définie au dernier jour de la période de coût moyen, qui est dans ce cas le dernier jour du mois.  
