@@ -4,14 +4,14 @@ description: Liste complète des combinaisons de raccourcis clavier pour utilise
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
-ms.date: 09/11/2023
+ms.date: 10/26/2023
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="keyboard-shortcuts"></a>raccourcis clavier ;
+# raccourcis clavier ;
 
 Cet article fournit un aperçu de certaines combinaisons de touches de raccourcis que vous pouvez utiliser avec lorsque vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -21,7 +21,7 @@ Pour un aperçu des raccourcis clavier les plus courants, voir [Raccourcis clavi
 > Pour une vue graphique des raccourcis les plus utilisés, sélectionnez l’image suivante et téléchargez le fichier PDF.  
 > [ ![Icône pour le fichier PDF.](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Icône qui ouvre un PDF")
 
-## <a name="overview"></a>Aperçu
+## Aperçu
 
 Les raccourcis clavier facilitent l’accessibilité et la navigation dans différentes zones et éléments d’une page. Ils sont pris en charge par la plupart des navigateurs Web ; toutefois, leur comportement peut varier légèrement.
 
@@ -31,9 +31,12 @@ Les raccourcis clavier facilitent l’accessibilité et la navigation dans diff�
 La plupart des raccourcis sont les mêmes, que le système d’exploitation soit Windows ou macOS. Cependant, certains raccourcis diffèrent pour macOS. Ces raccourcis sont indiqués entre parenthèses dans les sections suivantes.
 
 > [!NOTE]
+> Business Central ne prend en charge qu’un jeu de caractères unique pour les données. Aussi, il se peut que certains caractères ne soient pas pris en charge dans votre environnement et vous pouvez rencontrer des problèmes de récupération des données saisies à l’aide d’un autre jeu de caractères. Cela peut également s’appliquer aux raccourcis clavier. Par exemple, votre environnement peut prendre en charge les caractères anglais et russes uniquement. Dans ce cas, si vous entrez des données dans une autre langue, il se peut que celles-ci ne soient pas stockées correctement. Vous devez contacter votre administrateur système pour connaître les langues prises en charge par votre client Business Central. 
+
+> [!NOTE]
 > Outre les raccourcis clavier globaux décrits dans cet article, un certain nombre de raccourcis spécifiques à votre activité sont disponibles. Par exemple, dans la version générique de [!INCLUDE[prod_short](includes/prod_short.md)], <kbd>F9</kbd> valide un document et <kbd>Ctrl</kbd>+<kbd>F7</kbd> affiche les écritures comptables pour un enregistrement lorsque vous ouvrez l’enregistrement dans une fiche. Cet article inclut certains des raccourcis spécifiques à l’entreprise les plus courants, qui sont affichés en italique. Sachez que les raccourcis réels peuvent être différents dans votre solution. Dans l’interface utilisateur, le raccourci clavier est affiché dans l’info-bulle de l’action en question.
 
-## <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a>Raccourcis clavier généraux
+##  <a name="Keyboard"></a> Raccourcis clavier généraux
 
 Le tableau suivant décrit les raccourcis clavier pour naviguer et accéder aux différents éléments d’une page. Les éléments comprennent des éléments tels que des actions, des listes déroulantes, des recherches, etc. Pour en savoir plus sur les raccourcis clavier pour naviguer entre les enregistrements au sein de la liste, consultez la prochaine section.
 
@@ -68,14 +71,14 @@ Le tableau suivant décrit les raccourcis clavier pour naviguer et accéder aux 
 |<kbd>Maj</kbd>+<kbd>Tab</kbd>|Déplacer le focus sur le contrôle ou l’élément précédent d’une page, par exemple les actions, les boutons, les champs ou les en-têtes d’une liste.|
 |<kbd>Y</kbd> et <kbd>N</kbd>|Activer les boutons **Oui** et **Non** dans les boîtes de dialogue. Les touches réelles varieront en fonction de votre langue actuelle spécifiée dans **Mes paramètres**. Par exemple, sélectionnez <kbd>J</kbd> pour activer le bouton **Ja** lorsque vous utilisez la langue allemande.|
 
-## <a name="keyboard-shortcuts-in-lists"></a>Raccourcis clavier dans les listes
+## Raccourcis clavier dans les listes
 
 Le tableau suivant décrit les raccourcis clavier que vous pouvez utiliser dans une page de liste. L’action de raccourci est légèrement différente selon que la page est affichée dans la vue de liste ou la vue en mosaïque.
 <!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
-### <a name="general"></a>Général
+### Général
 
 |Sélectionnez ces touches<br />(dans macOS)|Pour procéder dans une vue de liste|Pour procéder dans une vue en mosaïque |
 |--------------------------------|-------------------------|--------------------------|
@@ -91,7 +94,7 @@ Le tableau suivant décrit les raccourcis clavier que vous pouvez utiliser dans 
 |<kbd>Maj</kbd>+<kbd>Ctrl</kbd>+<kbd>F</kbd>|Envoyer les lignes suggérées sur la page des **feuilles de calcul des flux de trésorerie**.|Non applicable.|
 |<kbd>Maj</kbd>+<kbd>Ctrl</kbd>+<kbd>I</kbd>|Afficher les numéros de série et de lot qui sont affectés à l’élément de ligne sur le document ou le journal.|Non applicable.|
 
-### <a name="navigate-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Naviguer entre les lignes et les colonnes
+### <a name="navigateshortcuts"></a>Naviguer entre les lignes et les colonnes
 
 Des grilles contenant des lignes et des colonnes existent sur de nombreux types de page dans [!INCLUDE[prod_short](includes/prod_short.md)], telles que les pages de liste et les éléments **Lignes** sur les documents. Le passage d’une cellule à une autre sur une grille est entièrement compatible avec le clavier.
 
@@ -112,7 +115,7 @@ Des grilles contenant des lignes et des colonnes existent sur de nombreux types 
 | <kbd>Tab</kbd> | Dans une liste modifiable, accédez au prochain champ à droite de la même ligne. | Non applicable. | 
 | <kbd>Maj</kbd>+<kbd>Tab</kbd> | Dans une liste modifiable, accédez au champ suivant à gauche de la même ligne. | Non applicable. |
 
-### <a name="select-copy-and-paste"></a><a name="CopyRows"></a>Sélectionner, imprimer et coller
+### <a name="CopyRows"></a>Sélectionner, imprimer et coller
 
 |Sélectionnez ces touches<br />(dans macOS)|Pour procéder dans une vue de liste |Pour procéder dans une vue en mosaïque |
 |--------------------------------|--------------------------|--------------------------|
@@ -130,7 +133,7 @@ Des grilles contenant des lignes et des colonnes existent sur de nombreux types 
 |<kbd>Maj</kbd>+<kbd>Bas</kbd><br /><br />(<kbd>Maj</kbd>+<kbd>Fn</kbd>+<kbd>Flèche bas</kbd>)|Étendez la sélection des lignes pour inclure toutes les lignes visibles au-dessous de la sélection actuelle des lignes.|Non applicable.|
 |<kbd>F8</kbd>|Copier le champ dans la même colonne de la ligne précédente, et le coller dans la ligne actuelle. Vous pouvez effectuer ces opérations uniquement dans les listes modifiables. L’utilisation de ce raccourci suivi d’une tabulation <kbd>Tab</kbd> vous permet de renseigner rapidement les champs dans les lignes articles que vous souhaitez avoir la même valeur que la ligne précédente.|Non applicable.|
 
-### <a name="search-and-filter-lists"></a><a name="KeyboardFilter"></a>Rechercher et filtrer les listes
+### <a name="KeyboardFilter"></a>Rechercher et filtrer les listes
 
 |Sélectionnez ces touches<br />(dans macOS)|Pour|
 |--------------------------------|----------|
@@ -142,7 +145,7 @@ Des grilles contenant des lignes et des colonnes existent sur de nombreux types 
 |<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Réinitialisez les filtres. Cela correspond à choisir **Réinitialiser les filtres** dans le volet Filtre, et s’applique aux champs et aux filtres de totaux.<br /><br /> Les filtres reviennent aux filtres par défaut de la fenêtre actuelle. Si la fenêtre actuelle est définie sur **Tous**, il s’agit de l’équivalent à revenir à une vue non filtrée avec tous les enregistrements. |
 |<kbd>Ctrl</kbd>+<kbd>Entrée</kbd>|Modifiez le focus depuis le volet de filtrage pour revenir à la liste.|
 
-## <a name="keyboard-shortcuts-in-cards-and-documents"></a>Raccourcis clavier des fiches et documents
+## Raccourcis clavier des fiches et documents
 
 Les raccourcis suivants sont disponibles sur les pages Fiche, telles que **Fiche client** et les pages de document, telles que **Commande vente** pour visualiser et modifier les enregistrements.
 
@@ -171,7 +174,7 @@ Les raccourcis suivants sont disponibles sur les pages Fiche, telles que **Fiche
 |<kbd>Maj</kbd>+<kbd>F9</kbd>|Valider et imprimer un document.|
 |<kbd>Maj</kbd>+<kbd>F11</kbd>|Lettrer des écritures, extraire des documents origine ou extraire des documents entrepôt.|
 
-## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Raccourcis rapides d’écriture pour les champs
+## <a name="QuickEntry"></a>Raccourcis rapides d’écriture pour les champs
 
 Les raccourcis suivants se rapportent à la fonction de saisie rapide sur les cartes, documents et pages de liste. Sur les listes, les raccourcis ne peuvent pas être utilisés lorsque les listes sont dans la vue en mosaïque. Pour plus d’informations sur la saisie rapide, reportez-vous à la rubrique [Accélérer la saisie de données à l’aide de la fonction Saisie rapide](ui-enter-data.md#QuickEntry).
 
@@ -181,7 +184,7 @@ Les raccourcis suivants se rapportent à la fonction de saisie rapide sur les ca
 |<kbd>Maj</kbd>+<kbd>Entrée</kbd>|Confirmez la valeur dans le champ actuel et accédez au champ précédent de saisie rapide.||
 |<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>Entrée</kbd>|Confirmez la valeur dans la colonne actuelle et accédez au champ suivant de saisie rapide en dehors de la liste.<br /><br />Ce raccourci s’applique aux listes intégrées d’une page, comme les articles de ligne d’une commande vente. Il vous permet de sortir rapidement de la liste et de poursuivre la saisie des données dans d’autres champs de la page.|
 
-## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"></a>Raccourcis clavier du calendrier (sélecteur de date)
+## <a name="calendarshortcuts"></a> Raccourcis clavier du calendrier (sélecteur de date)
 
 Lorsque vous définissez un champ de date, vous pouvez saisir la date manuellement ou ouvrir un calendrier (sélecteur de date) qui vous permet de sélectionner la date souhaitée. Le tableau suivant décrit les raccourcis clavier du calendrier.
 
@@ -199,14 +202,14 @@ Lorsque vous définissez un champ de date, vous pouvez saisir la date manuelleme
 |<kbd>Page suivante</kbd>|Accéder au mois suivant.|
 |<kbd>Page précédente</kbd>|Accéder au mois précédent.|  
 
-## <a name="keyboard-shortcuts-in-date-fields"></a>Raccourcis clavier dans les champs de date
+## Raccourcis clavier dans les champs de date
 
 |Sélectionnez ces touches<br />(dans macOS)|Pour|
 |--------------------------------|----------|
 |<kbd>a</kbd>|Entrez la date actuelle. « T » signifie « today » (aujourd’hui).|
 |<kbd>t</kbd>|Entrez la date de travail. Pour plus d’informations, voir [Date du flux](ui-change-basic-settings.md#work-date)|
 
-## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"></a>Raccourcis clavier dans l’aperçu des états
+## <a name="reportpreviewshortcuts"></a>Raccourcis clavier dans l’aperçu des états
 
 |Sélectionnez ces touches<br />(dans macOS)|Pour|
 |--------------------------------|----------|
@@ -220,7 +223,7 @@ Lorsque vous définissez un champ de date, vous pouvez saisir la date manuelleme
 |<kbd>Page suivante</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Flèche bas</kbd>)|Accédez à la prochaine page de l’état.|
 |<kbd>Page précédente</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Flèche vers le haut</kbd>)|Accédez à la page précédente de l’état.|
 
-## <a name="keyboard-shortcuts-for-zooming-in-and-out"></a><a name="zoomshortcuts"></a>Raccourcis clavier pour le zoom avant et arrière
+## <a name="zoomshortcuts"></a>Raccourcis clavier pour le zoom avant et arrière
 
 |Sélectionnez ces touches|Pour|
 |--------------------------------|----------|
@@ -228,7 +231,7 @@ Lorsque vous définissez un champ de date, vous pouvez saisir la date manuelleme
 |<kbd>Ctrl</kbd>+<kbd>-</kbd>|Effectuez un zoom arrière sur la page actuelle.|  
 |<kbd>Ctrl</kbd>+<kbd>0</kbd>|Effectuez un zoom avant ou arrière à 100 % sur la page actuelle.|  
 
-## <a name="keyboard-shortcuts-for-role-explorer"></a><a name="roleexplorer"></a>Raccourcis clavier pour l’explorateur de rôles
+## <a name="roleexplorer"></a>Raccourcis clavier pour l’explorateur de rôles
 
 L’explorateur de rôles vous donne une vue d’ensemble et un accès rapide à toutes les fonctionnalités métier disponibles pour votre rôle. Pour plus d’informations, voir [Recherche de pages avec l’explorateur de rôles](ui-role-explorer.md).
 
@@ -240,7 +243,7 @@ L’explorateur de rôles vous donne une vue d’ensemble et un accès rapide à
 |<kbd>Maj</kbd> <kbd>F3</kbd> ou <kbd>Ctrl</kbd>+<kbd>Flèche vers le haut</kbd>|Déplace le focus sur la fonction précédente trouvée dans l’explorateur de rôles.|
 |<kbd>Ctrl</kbd>+<kbd>Maj</kbd>|Développez ou réduisez tous les sous-nœuds, en plus des nœuds de niveau supérieur, lorsque vous choisissez l’action **Développer** ou **Réduire**.|
 
-## <a name="numeric-keypad-shortcuts"></a><a name="keypad"></a>Raccourcis du pavé numérique
+##  <a name="keypad"></a> Raccourcis du pavé numérique
 
 Le tableau suivant décrit les raccourcis d’un pavé numérique.
 
@@ -249,7 +252,7 @@ Le tableau suivant décrit les raccourcis d’un pavé numérique.
 |<kbd>Alt</kbd>+<kbd>Séparateur décimal</kbd>|Basculez la sortie de la touche de séparateur décimal vers un point (.) ou le caractère déterminé par le paramètre **Région** de la page **Mes paramètres**. Pour plus d’informations, voir [Définition du séparateur décimal utilisé par les claviers numériques](ui-enter-data.md#decimal).|
 
 
-## <a name="access-keys-for-action-bar-and-navigation-menu"></a>Touches d’accès à la barre d’action et au menu de navigation
+## Touches d’accès à la barre d’action et au menu de navigation
 
 Les touches d’accès sont des raccourcis clavier qui sélectionnent des actions spécifiques dans la barre d’action et le menu de navigation, vous permettant de parcourir les actions pour accéder à la page souhaitée. Les touches d’accès sont disponibles dans le client Web Business Central et sont similaires aux touches d’accès dans Excel et Word Online.  
 
@@ -261,7 +264,7 @@ Pour sélectionner une action, sélectionnez la combinaison de touches affichée
 - Si l’action s’ouvre sur un sous-menu d’autres actions, les astuces des touches du sous-menu s’affichent, vous permettant de continuer à utiliser les touches d’accès si vous le souhaitez.
 - Si l’action ouvre une page différente, les conseils clés sont désactivés. Pour les afficher à nouveau, sélectionnez la touche <kbd>Alt</kbd>. 
  
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Référence rapide de raccourcis clavier – PC uniquement](keyboard-shortcuts-cheatsheet.md)  
 [Fonctionnalités d’assistance](ui-accessibility.md)  

@@ -5,9 +5,8 @@
 # Démarrer
 ## [Vue d’ensemble des fonctionnalités d’entreprise](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
-## En savoir plus
+## Learn
 ### [Ressources pour les utilisateurs](resources-for-users.md)
-### [Catalogue de formations Business Central](readiness/readiness-learning-catalog.md)
 ### [Formation Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Procédures pas à pas liées au processus métier
 #### [Procédures pas à pas disponibles](walkthrough-business-process-walkthroughs.md)
@@ -209,19 +208,6 @@
 ### [Visite de notre vidéothèque](across-videos.md)
 ### [Obtention du support technique](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
-<!--## Microsoft Learn training
-### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
-### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
-### [Business Functionality Learning Paths](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
-### Resources for a Business Decision Maker
-#### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Business User
-#### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Developer
-#### [Learning catalog](readiness/readiness-learning-developers.md)
-#### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
 # Fonctionnalités d’entreprise
 ## [Vue d’ensemble des fonctionnalités d’entreprise](across-business-functionality.md)
 <!--general-->
@@ -244,10 +230,11 @@
 ### [Utilisation des files projets pour planifier des tâches](admin-job-queues-schedule-tasks.md)
 ### [Autorisation de Business Central à suggérer des valeurs](ui-let-system-suggest-values.md)
 ### [Utilisation des cartes en ligne pour rechercher des magasins et des directions](across-online-maps.md)
+### [Configuration des pièces justificatives numériques](across-how-setup-digital-vouchers.md)
 
 ### Documents entrants
 #### [Vue d’ensemble des documents entrants](across-income-documents.md)
-#### [Paramétrage des documents entrants](across-how-setup-income-documents.md)
+#### [Configuration des documents entrants](across-how-setup-income-documents.md)
 #### [Création d’enregistrements de document entrant](across-how-create-income-document-records.md)
 #### [Utilisation de l’OCR pour convertir des fichiers PDF et images en documents électroniques](across-how-use-ocr-pdf-images-files.md)
 #### [Création des enregistrements de document entrant directement à partir de documents et d’écritures](across-how-connect-disconnect-income-document-records.md)
@@ -271,7 +258,7 @@
 #### Configuration des échanges de données
 ##### [Configuration des échanges de données](across-set-up-data-exchange.md)
 ##### [Configuration d’un service d’échange de documents](across-how-to-set-up-a-document-exchange-service.md)
-##### [Paramétrage des documents entrants](across-how-setup-income-documents.md)
+##### [Configuration des documents entrants](across-how-setup-income-documents.md)
 ##### [Préparation à l’envoi et à la réception des documents par voie électronique](across-how-to-set-up-electronic-document-sending-and-receiving.md)
 #### [Recouvrement de paiements par prélèvement automatique SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 ##### [Utiliser l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
@@ -304,7 +291,7 @@
 ##### [Révision ou lettrage manuels des paiements après un lettrage automatique](receivables-how-review-apply-payments-auto-application.md)
 ##### [Rapprochement des paiements qui ne peuvent pas être lettrés automatiquement](receivables-how-reconcile-payments-cannot-apply-auto.md)
 ##### [Mappage du texte sur les paiements récurrents aux comptes pour un rapprochement automatique](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
-##### [Définition des règles pour le lettrage automatique des paiements](receivables-how-set-up-payment-application-rules.md)
+##### [Configuration des règles pour le lettrage automatique des paiements](receivables-how-set-up-payment-application-rules.md)
 #### [Rapprochement des paiements client à partir de la liste des documents vente échus](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 #### [Rapprochement des paiements clients avec la feuille règlement ou les écritures comptables client](receivables-how-apply-sales-transactions-manually.md)
 #### [Collecte des soldes restants](receivables-collect-outstanding-balances.md)
@@ -344,7 +331,7 @@
 
 ### Gérer les documents électroniques
 #### [Vue d’ensemble des documents électroniques](finance-edocuments-overview.md)
-#### [Paramétrer les documents électroniques](finance-how-setup-edocuments.md)
+#### [Configuration des documents électroniques](finance-how-setup-edocuments.md)
 #### [Utiliser des documents électroniques dans les ventes et les achats](finance-how-use-edocuments.md)
 #### [Extension de la fonctionnalité des documents électroniques](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
@@ -803,10 +790,10 @@
 ##### [Impression les déclarations de TVA périodiques](LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md)
 ##### [Configuration des nomenclatures produits belges](LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers.md)
 ##### [États de déclaration d’échanges de biens belges](LocalFunctionality/Belgium/belgian-intrastat-reporting.md)
-##### [Configuration des numéros d’établissement intracommunautaires](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)
-##### [Impression de l’état du formulaire de D.E.B.](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md)
+##### [Configuration des numéros d’établissement de déclaration d’échange de biens](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)
+##### [Impression de l’état du formulaire de déclaration d'échanges de biens](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md)
 ##### [Configuration des types de déclarations](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
-##### [Exportation des déclarations tierces intracommunautaires](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
+##### [Exportation des déclarations d'échanges de biens tierces](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
 #### Banque et paiements
 ##### [Opérations bancaires électroniques (Belgique)](LocalFunctionality/Belgium/belgian-electronic-banking.md)
 ##### [Paiements électroniques (Belgique)](LocalFunctionality/Belgium/belgian-electronic-payments.md)
@@ -882,10 +869,12 @@
 
 ### Danemark
 #### [Fonctionnalité locale dans la version danoise](LocalFunctionality/Denmark/denmark-local-functionality.md)
+#### [Notification et inscription au NemHandelsregisteret au Danemark](localfunctionality/denmark/how-to-nemhandel-register.md)
 #### TVA
 ##### [Impression des états sur le rapprochement TVA](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [États TVA-VIES](LocalFunctionality/Denmark/vat-vies-reporting.md)
 ##### [Configuration du numéro d’enregistrement TVA pour la déclaration d’échanges de biens](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
+##### [Envoi des retours TVA par voie électronique](localfunctionality/denmark/how-to-evat-statement-dk.md)
 #### Banque et paiements
 ##### [Détails du FIK dans la feuille rapprochement bancaire](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [Extension Paiements et rapprochements (Danemark)](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -897,6 +886,8 @@
 ##### [Création des documents électroniques dans un format OIOUBL](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
 #### Paie
 ##### [Définitions de données de paie (Danemark)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
+#### Pièces justificatives numériques
+##### [Configuration des pièces justificatives numériques au Danemark](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
 
 ### Finlande
 #### [Fonctionnalité locale dans la version finnoise](LocalFunctionality/Finland/finland-local-functionality.md)
@@ -1208,7 +1199,7 @@
 #### [Fonctionnalité locale dans la version néo-zélandaise](LocalFunctionality/NewZealand/new-zealand-local-functionality.md)
 #### Taxe
 ##### [Retenue à la source](LocalFunctionality/NewZealand/withholding-tax.md)
-##### [Paramétrage de la retenue à la source](LocalFunctionality/NewZealand/how-to-set-up-withholding-tax.md)
+##### [Configuration de la retenue à la source](LocalFunctionality/NewZealand/how-to-set-up-withholding-tax.md)
 ##### [Configuration des types de revenus pour la retenue à la source](LocalFunctionality\NewZealand\how-to-set-up-revenue-types-for-withholding-tax.md)
 ##### [Configuration de la validation de la taxe sur les produits et services](LocalFunctionality/NewZealand/how-to-set-up-goods-and-service-tax-posting.md)  
 ##### [Configuration des fournisseurs sans ABN pour calculer la retenue à la source](LocalFunctionality/NewZealand/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md)
@@ -1838,6 +1829,7 @@
 ## Gestion des fonctionnalités de Copilot et d’IA
 ### [Configuration des fonctionnalités de Copilot et d’IA](enable-ai.md)
 ### [Déplacement des données Copilot entre des zones géographiques](ai-copilot-data-movement.md)
+### [Résoudre les problèmes des fonctionnalités de Copilot et d’IA](ai-copilot-troubleshooting.md)
 ## Aide pour le rapprochement de compte bancaire (version préliminaire)
 ### [Rapprochement de compte bancaire avec Copilot](bank-reconciliation-with-copilot.md)
 ### [FAQ pour l’aide au rapprochement bancaire](faqs-bank-reconciliation.md)
