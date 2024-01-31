@@ -3,17 +3,16 @@ title: 'Clôturer fiscalement des exercices [FR]'
 description: 'Lorsqu’un exercice comptable est terminé, vous devez clôturer les périodes qui le composent avec la fonctionnalité Périodes comptables.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="close-years-in-the-french-version"></a>Clôturer les exercices dans la version française
+# Clôturer les exercices dans la version française
 Lorsqu’un exercice comptable est terminé, vous devez clôturer les périodes qui le composent.  
 
-## <a name="to-close-a-year"></a>Pour clôturer un exercice
+## Pour clôturer un exercice  
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Périodes comptables**, puis choisissez le lien pertinent.  
 2.  Choisissez l’action **Clôturer exercice**.  
@@ -33,7 +32,7 @@ Une fois qu’un exercice comptable a été clôturé, vous devez clôturer les 
 
 Après avoir été clôturé fiscalement, un exercice comptable ne peut plus être rouvert et aucune écriture comptable ne peut y être validée.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
  [Clôturer fiscalement des exercices](how-to-fiscally-close-years.md)   
  [Vue d’ensemble des processus de fin d’exercice](year-end-processes-overview.md)   
  [Valider l’écriture de clôture d’exercice](how-to-post-the-year-end-closing-entry.md)   

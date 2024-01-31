@@ -4,17 +4,17 @@ description: "Cet article décrit les différentes fonctionnalités locales de l
 author: sorenfriisalexandersen
 ms.author: soalex
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 12/21/2022
+ms.date: 01/18/2024
 ms.custom: bap-template
 ---
 
-# <a name="france-local-functionality"></a>Fonctionnalité locale, France
+# Fonctionnalité locale, France
 
 Les articles suivants décrivent la fonctionnalité locale qui est propre à la version française de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Disponibilité des fonctionnalités
+## Disponibilité des fonctionnalités
 
 * TVA
     * [Nouvelle fonctionnalité d’exportation d’audit](export-french-audit-file.md) **Disponible maintenant**
@@ -22,13 +22,12 @@ Les articles suivants décrivent la fonctionnalité locale qui est propre à la 
     * [Exporter les écritures comptables vers un fichier XML](how-to-export-general-ledger-entries-to-an-xml-file.md) **Disponible maintenant**
     * [Configuration requise pour la déclaration d’échanges de biens](requirements-for-reporting-declaration-of-trade-in-goods.md) **Disponible maintenant**
     * [Rapport Déclaration de services DES](../../finance-how-setup-use-service-declaration.md) **Disponible maintenant**
-    * [Nouvelle fonctionnalité d’exportation d’audit](export-french-audit-file.md) **Disponible maintenant**
-
+   
 * Banque et paiements
     * [Configurer les adresses de paiement](how-to-set-up-payment-addresses.md) **Disponible maintenant**
-    * [Configurer les statuts de paiement](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes) **Disponible maintenant**
-    * [Configurer les étapes de paiement](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes) **Disponible maintenant**
-    * [Configurer les classes de paiement](how-to-set-up-payment-classes.md) **Disponible maintenant**
+    * [Configurer les statuts de paiement](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes#to-set-up-payment-statuses-for-a-payment-class) **Disponible maintenant**
+    * [Configurer les étapes de paiement](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes#to-set-up-payment-steps-for-a-payment-class) **Disponible maintenant**
+    * [Configurer les classes de paiement](how-to-set-up-payment-classes.md#to-set-up-a-payment-class) **Disponible maintenant**
     * [Archiver les bordereaux de paiement](how-to-archive-payment-slips.md) **Disponible maintenant**
     * [Créer des bordereaux de paiement](how-to-create-payment-slips.md) **Disponible maintenant**
     * [Exporter des paiements](how-to-export-payments.md) **Disponible maintenant**
@@ -61,16 +60,16 @@ Les articles suivants décrivent la fonctionnalité locale qui est propre à la 
     * [Amortissement accéléré](accelerated-depreciation.md) **Disponible maintenant**
     * [Calculer l’amortissement accéléré](how-to-calculate-accelerated-depreciation.md) **Disponible maintenant**
 
-## <a name="future-legislation-requirements-being-investigated"></a>Futures exigences législatives en cours d’investigation
+## Futures exigences législatives en cours d’investigation
 
-* Facturation électronique – planifiée pour **1re vague 2024**
-* Format de déclaration TVA 2023 – planifié pour **août 2023**
-* Mise à jour réglementaire sur les prépaiements – planifiée pour **2è vague de lancement 2023**
+* Facturation électronique – **planifiée pour 1re vague de lancement 2025**
+* Nouveau format de déclaration de TVA dans les données de démonstration – **prévu pour la 2e vague de lancement 2024**
+* Mise à jour réglementaire sur les prépaiements – planifiée pour **23.5**
 
 
 Si vous connaissez les fonctionnalités réglementaires à venir, envoyez une [Alerte de fonctionnalité réglementaire](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Utiliser [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilité par pays/région et langues prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

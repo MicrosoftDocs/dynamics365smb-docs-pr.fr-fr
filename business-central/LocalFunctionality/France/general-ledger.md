@@ -3,14 +3,13 @@ title: Comptabilité en France
 description: Une fonctionnalité d'écritures comptables spéciale existe pour la version française de Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="general-ledger-in-france"></a>Comptabilité en France
+# Comptabilité en France
 
 La fonctionnalité Comptabilité pour la France est décrite dans les rubriques ci-dessous.
 
@@ -21,7 +20,7 @@ La fonctionnalité Comptabilité pour la France est décrite dans les rubriques 
 [Afficher des rapprochements comptables](how-to-view-ledger-reconciliations.md)  
 [Exporter des écritures comptables pour les audits fiscaux](how-to-export-general-ledger-entries-for-tax-audits.md)  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Fonctionnalité locale, France](france-local-functionality.md)  
 [Familiarisation avec les écritures comptables et les COA](../../finance-general-ledger.md)  
