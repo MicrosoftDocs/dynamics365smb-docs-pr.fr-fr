@@ -9,11 +9,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Exporter ou importer les paramètres de configuration de la gestion des paiements
+# <a name="export-or-import-payment-management-setup-parameters"></a>Exporter ou importer les paramètres de configuration de la gestion des paiements
 
 Vous pouvez exporter ou importer les paramètres de configuration de la gestion des paiements vers un disque externe afin de pouvoir utiliser les mêmes paramètres pour une autre société présentant les mêmes exigences.  
 
-## Pour exporter ou importer les paramètres de configuration de la gestion des paiements  
+## <a name="to-export-or-import-payment-management-setup-parameters"></a>Pour exporter ou importer les paramètres de configuration de la gestion des paiements
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Configuration bordereau de paiement**, puis sélectionnez le lien pertinent.  
 2. Sur la page **Type règlement**, sélectionnez l’action **Exporter paramètres**.  
@@ -23,7 +23,7 @@ Vous pouvez exporter ou importer les paramètres de configuration de la gestion 
 3. Choisissez le bouton **Enregistrer** pour ouvrir la page **Enregistrer sous** et accéder à l’emplacement où le fichier doit être enregistré.  
 4. Cliquez sur le bouton **OK**.  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Gestion des paiements](payment-management.md)  
 [Paramétrer des types de règlement](how-to-set-up-payment-classes.md)  
