@@ -3,13 +3,12 @@ title: "Procédure\_: configurer des utilisateurs de flux de travail"
 description: 'Avant de pouvoir créer des flux de travail, vous devez configurer des utilisateurs qui y participent sur la page Paramètres utilisateur des approbations.'
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'reject, delegate, request'
 ms.search.form: '1533,'
 ms.date: 05/31/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Configurer une séquence d’utilisateurs de flux de travail
 

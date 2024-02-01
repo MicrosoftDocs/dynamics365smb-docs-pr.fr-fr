@@ -3,9 +3,7 @@ title: FAQ Power BI
 description: "Obtenez des réponses à certaines questions courantes sur l’utilisation de Power BI et de Business\_Central."
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Power BI, reports, faq, errors'
 ms.date: 04/22/2021
 ms.author: jswymer

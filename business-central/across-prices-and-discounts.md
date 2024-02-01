@@ -3,9 +3,7 @@ title: Configurer les prix et les remises
 description: Décrit comment définir des accords de prix et de remise standard et spéciaux pour les ventes et les achats.
 author: brentholtorf
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'price, pricing, discount, discounting, rebate, sale, purchase, invoice'
 ms.search.form: '459, 460, 7001, 7011, 7015, 7016, 7017, 7018'
 ms.date: 04/01/2021

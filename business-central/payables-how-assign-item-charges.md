@@ -3,9 +3,7 @@ title: Affecter les frais annexes aux ventes et aux achats (contient une vidéo)
 description: 'Attribuez des frais annexes lorsque vous avez besoin d’articles en stock pour supporter des coûts supplémentaires, tels que le fret et la manutention physique.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'transportation, added cost, landed cost'
 ms.search.form: '5709, 5800, 5805, 5814'
 ms.date: 11/08/2023

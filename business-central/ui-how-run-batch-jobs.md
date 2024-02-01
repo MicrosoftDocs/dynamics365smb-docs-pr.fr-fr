@@ -3,9 +3,7 @@ title: Exécuter des traitements par lots et des ports XML
 description: 'Vous exécutez des traitements par lots pour traiter les données et mettre à jour les informations, par exemple, pour élaborer des activités périodiques de comptabilité, ou effectuer des calculs.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'task, process'
 ms.search.form: '672, 676, 682'
 ms.date: 04/01/2021

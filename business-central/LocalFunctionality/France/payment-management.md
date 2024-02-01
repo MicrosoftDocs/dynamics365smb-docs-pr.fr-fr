@@ -3,15 +3,14 @@ title: 'Gestion des paiements [FR]'
 description: "Vous pouvez gérer des lettres de change, des paiements électroniques et des paiements fournisseur à l’aide de la fonction de gestion des paiements dans la version française de Business\_Central."
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '10868, 10870, 10860, 10861, 10864, 10865, 10866, 10871, 10872, 10873, 10874, 10877, 10878, 10879, 10869, 10867, 10882, 10880'
 ms.date: 07/07/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="payment-management-in-the-french-version"></a>Gestion des paiements dans la version française
+# Gestion des paiements dans la version française
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] vous permet de gérer des lettres de change, des paiements électroniques et des paiements fournisseur à l’aide de la fonction de gestion des paiements.  
 
@@ -27,7 +26,7 @@ Vous pouvez gérer les paiements fournisseur et client à l’aide des bordereau
 
 Vous pouvez également transférer vos informations de configuration de la gestion des paiements vers un disque externe afin de pouvoir utiliser les mêmes paramètres pour une autre société présentant les mêmes exigences.  
 
-## <a name="managing-payment-slips-and-files"></a>Gestion des bordereaux et des fichiers paiement
+## Gestion des bordereaux et des fichiers paiement
 
 Vous pouvez créer des bordereaux paiement pour gérer les paiements client et fournisseur. Après avoir créé le bordereau paiement, vous devez le valider.  
 
@@ -35,11 +34,11 @@ Ces bordereaux paiement peuvent être convertis en fichiers de paiement, qui peu
 
 Pour plus d’informations, consultez [Créer des bordereaux paiement](how-to-create-payment-slips.md).  
 
-## <a name="archiving-payment-slips"></a>Archivage des bordereaux paiement
+## Archivage des bordereaux paiement
 
 Vous pouvez séparer un bordereau paiement entièrement traité des bordereaux paiement actifs en l’archivant. Vous pouvez archiver un bordereau paiement manuellement ou vous pouvez archiver un lot de bordereaux automatiquement. Pour plus d’informations, consultez [Archiver des bordereaux paiement](how-to-archive-payment-slips.md).  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Paramétrer des types de règlement](how-to-set-up-payment-classes.md)  
 [Configurer des adresses de paiement](how-to-set-up-payment-addresses.md)  

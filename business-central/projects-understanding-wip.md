@@ -3,9 +3,7 @@ title: Méthodes TEC pour calculer et enregistrer la progression d’un projet
 description: 'Décrit les différentes méthodes de travaux en cours (TEC) qui peuvent être utilisées pour valider, surveiller et calculer les données financières des projets en cours.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'work in process, work in progress, calculate project WIP'
 ms.search.form: 1010
 ms.date: 04/01/2021

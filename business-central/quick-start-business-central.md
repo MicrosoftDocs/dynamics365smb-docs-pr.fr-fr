@@ -3,9 +3,7 @@ title: Démarrage rapide de Business Central
 description: Soyez rapidement opérationnel avec Business Central grâce aux conseils des articles de démarrage rapide qui vous aident à remplir les premiers champs critiques.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: quickstart
 ms.date: 08/25/2022
 ms.author: bholtorf

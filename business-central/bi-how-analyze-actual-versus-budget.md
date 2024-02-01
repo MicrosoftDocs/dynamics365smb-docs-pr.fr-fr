@@ -3,9 +3,7 @@ title: Analyser les montants réalisés et les montants budgétés
 description: 'Cet article explique comment analyser les montants réels par rapport aux montants budgétés afin de collecter, d’analyser et de partager les données de votre entreprise.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '120, 121, 422'
 ms.date: 09/14/2022

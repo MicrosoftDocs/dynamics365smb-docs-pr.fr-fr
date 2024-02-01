@@ -3,7 +3,6 @@ title: Définir le mode d’échange électronique de documents
 description: 'Définissez comment Business Central échange des données avec des fichiers externes tels que des documents électroniques, des données bancaires, des catalogues d’articles, etc.'
 author: brentholtorf
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: null
 ms.search.form: '1210, 1211, 1213, 1214, 1215, 1216, 1217'
 ms.date: 11/03/2022

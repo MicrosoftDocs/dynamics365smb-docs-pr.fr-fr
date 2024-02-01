@@ -3,9 +3,7 @@ title: Gérez les paramètres et préférences utilisateur en tant qu’administ
 description: Gérez les paramètres et les préférences de l’utilisateur dans Dynamics 365 Business Central.
 author: sorenfriisalexandersen
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.keywords: 'user settings, preferences, language, region, time zone, regional settings'
 ms.search.form: '9204,'

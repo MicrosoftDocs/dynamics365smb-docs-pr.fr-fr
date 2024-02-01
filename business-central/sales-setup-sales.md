@@ -3,9 +3,7 @@ title: Aperçu des tâches de configuration des processus de vente
 description: 'Présentation des tâches requises pour configurer les règles et les valeurs qui définissent vos politiques et processus de vente, y compris la configuration générale et la configuration des ventes liées aux finances.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'trade, sell, configure'
 ms.search.form: '170, 172, 300, 301, 428, 456, 459, 1401'
 ms.date: 06/23/2021

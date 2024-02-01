@@ -3,8 +3,7 @@ title: Affichage et édition dans Excel depuis Business Central (contient une vi
 description: "En savoir plus sur la manière dont vous pouvez ouvrir les pages dans Microsoft Excel à partir de Business\_Central pour une meilleure analyse de données."
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
+ms.devlang: al
 ms.search.form: 1480
 ms.search.keywords: 'accountant, accounting, financial report'
 ms.date: 04/01/2021

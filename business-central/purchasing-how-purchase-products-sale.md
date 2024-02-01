@@ -3,9 +3,7 @@ title: Acheter des articles pour une vente
 description: 'Depuis une facture vente, pour acheter des biens, vous pouvez créer une facture achat pour un fournisseur.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'supply planning, sales demand, replenish'
 ms.search.form: '50, 51, 56, 9308'
 ms.date: 04/01/2021

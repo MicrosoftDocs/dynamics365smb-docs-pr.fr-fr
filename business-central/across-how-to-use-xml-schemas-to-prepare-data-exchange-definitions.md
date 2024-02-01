@@ -3,9 +3,7 @@ title: "Schémas\_XML pour préparer des définitions d’échange de données"
 description: Utilisez des schémas XML pour configurer l’infrastructure d’échange de données afin de définir les éléments de données avec lesquels vous souhaitez échanger.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/11/2021
 ms.author: bholtorf

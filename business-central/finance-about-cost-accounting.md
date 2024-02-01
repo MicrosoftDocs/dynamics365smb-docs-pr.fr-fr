@@ -3,9 +3,7 @@ title: À propos de la comptabilité analytique
 description: La comptabilité analytique vous permet de cerner les coûts liés à l’exploitation d’un activié. Les informations sur la comptabilité analytique sont conçues pour analyser divers problèmes.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '1101, 1103, 1105, 1108, 1111, 1112, 1124, 1123'
 ms.date: 08/23/2022
 ms.author: bholtorf

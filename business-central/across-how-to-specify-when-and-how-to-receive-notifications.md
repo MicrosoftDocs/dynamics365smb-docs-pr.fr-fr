@@ -3,9 +3,7 @@ title: Spécifier quand et comment recevoir des notifications de flux de travail
 description: 'Lorsque vous configurez des utilisateurs dans des flux de travails d’approbation, vous pouvez spécifier comment et quand chaque utilisateur d’approbation reçoit des notifications.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '663, 1500, 1512, 1513,'
 ms.date: 09/09/2022

@@ -3,9 +3,7 @@ title: Configurer des documents électroniques
 description: Découvrez comment configurer la fonctionnalité de documents électroniques.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice'
 ms.search.form: '359, 360, 6103, 6133'
 ms.date: 10/05/2023

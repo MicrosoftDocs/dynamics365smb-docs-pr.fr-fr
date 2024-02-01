@@ -3,13 +3,12 @@ title: Détails de conception – Coût moyen
 description: Le coût moyen d’un article est calculé avec une moyenne pondérée périodique.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '8645,'
 ms.date: 06/06/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Détails de conception : coût moyen
 

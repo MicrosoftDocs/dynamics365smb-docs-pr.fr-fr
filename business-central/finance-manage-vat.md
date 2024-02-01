@@ -3,9 +3,7 @@ title: Vue d’ensemble de la gestion de la TVA
 description: Découvrez comment gérer la TVA avec les informations et ressources répertoriées.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: VAT
 ms.search.form: '118, 472, 737, 743'
 ms.date: 01/31/2023

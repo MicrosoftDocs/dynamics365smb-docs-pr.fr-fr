@@ -3,9 +3,7 @@ title: Faire des livraisons directes (contient une vidéo)
 description: Décrit comment créer une commande vente liée à une commande achat pour permettre la livraison directe du fournisseur au client.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: bholtorf

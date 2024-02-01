@@ -3,9 +3,7 @@ title: Configurer des acheteurs d’articles et les affecter aux fournisseurs (c
 description: 'Si plusieurs acheteurs ou agents d’achat travaillent dans votre société, vous pouvez les planifier pour l’analyse statistique.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: purchasing agent
 ms.search.form: '14, 5116'
 ms.date: 04/01/2021

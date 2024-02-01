@@ -3,9 +3,7 @@ title: "Pratiques de configuration recommandées\_: planification de l’approvi
 description: 'Lorsqu’elle est configurée et utilisée correctement, la planification des approvisionnements évite les rupture de stocks et minimise les coûts de commande et de stockage.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: bholtorf

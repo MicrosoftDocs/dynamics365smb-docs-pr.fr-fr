@@ -3,9 +3,7 @@ title: Ajouter du texte étendu
 description: 'Vous pouvez ajouter des lignes supplémentaires pour étendre le texte standard qui décrit un article, un compte général et d’autres données.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '391, 30'
 ms.date: 06/24/2021
 ms.author: bholtorf

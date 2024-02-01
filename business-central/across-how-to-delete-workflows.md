@@ -3,9 +3,7 @@ title: "Procédure\_: supprimer des flux de travail approbation"
 description: 'Si vous êtes certain qu’un flux de travail n’est plus utilisé, vous pouvez le supprimer. Toutes les instances d’étape de flux de travail définies dans leflux de travail doivent avoir le statut **Terminé**.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '1500,'
 ms.date: 09/08/2022

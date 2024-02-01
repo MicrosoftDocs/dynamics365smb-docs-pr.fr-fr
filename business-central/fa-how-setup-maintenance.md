@@ -3,9 +3,7 @@ title: Paramétrer la maintenance des immobilisations
 description: 'Pour gérer les réparations et la maintenance des immobilisations, spécifiez les informations de maintenance générale, les codes du type de travail, et un compte de validation pour les coûts.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'repair, service'
 ms.search.form: '5600, 5642'
 ms.date: 04/01/2021

@@ -3,9 +3,7 @@ title: Visiter notre vidéothèque
 description: "Visitez notre vidéothèque pour obtenir de l’aide, des vidéos de démarrage illustrant les tâches courantes «\_Procédure pour\_» de vidéos de produits thématiques."
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'video, library, how to'
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 06/11/2021

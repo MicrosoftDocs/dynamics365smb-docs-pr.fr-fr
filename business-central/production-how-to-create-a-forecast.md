@@ -3,9 +3,7 @@ title: Créer une prévision de la demande
 description: Découvrez les fonctionnalités de prévision de la demande et comment créer des prévisions de vente et de production.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '9245, 99000919, 99000921, 99000922'
 ms.date: 03/11/2022
 ms.author: bholtorf

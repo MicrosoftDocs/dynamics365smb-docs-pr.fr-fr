@@ -3,9 +3,7 @@ title: Affecter un niveau de priorité à un fournisseur (contient une vidéo)
 description: "Vous pouvez affecter des numéros à vos fournisseurs pour les classer par ordre de priorité et faciliter des propositions de paiement dans Business\_Central."
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'supplier, payment priority'
 ms.search.form: '26, 27'
 ms.date: 04/01/2021

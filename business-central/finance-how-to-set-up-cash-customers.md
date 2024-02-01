@@ -3,9 +3,7 @@ title: Configurer des clients effectuant un achat au comptoir
 description: Cette rubrique décrit les étapes nécessaires pour configurer la facture avec un numéro de client pour les clients qui paient en espèces.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '21, 22'
 ms.date: 06/16/2021
 ms.author: bholtorf

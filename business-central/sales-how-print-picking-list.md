@@ -3,9 +3,7 @@ title: Imprimer la liste des prélèvements à partir d’une commande vente
 description: 'Vous pouvez imprimer une liste des prélèvements des stocks directement à partir d’une commande client, des ventes, de la facture et d’autres documents de vente sortants.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: bholtorf

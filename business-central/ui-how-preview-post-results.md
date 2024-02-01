@@ -3,9 +3,7 @@ title: Afficher un aperçu des écritures avant de valider un document ou une fe
 description: Vous pouvez faire en sorte que les écritures des documents et des feuilles soient précises avant de les valider en comptabilité.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

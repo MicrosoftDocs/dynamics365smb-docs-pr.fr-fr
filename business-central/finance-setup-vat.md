@@ -3,9 +3,7 @@ title: Configuration de la TVA
 description: 'Assurez-vous de calculer, de valider et de déclarer correctement la TVA pour les ventes et les achats. Il est recommandé d’utiliser le guide de configuration assistée pour configurer la TVA.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'VAT, posting, tax, value-added tax'
 ms.search.form: '10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877,'
 ms.date: 01/31/2023

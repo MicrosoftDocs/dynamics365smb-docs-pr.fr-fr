@@ -3,9 +3,7 @@ title: Utilisation de l’extension Importer le fichier de paie de QuickBooks | 
 description: Cet article décrit comment utiliser l’extension pour importer des transactions de salaire et de paie à partir de QuickBooks.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms. search.keywords: 'app, add-in, manifest, customize, salary, wage'
 ms.date: 12/07/2023
 ms.author: bholtorf

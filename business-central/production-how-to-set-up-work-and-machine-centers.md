@@ -3,9 +3,7 @@ title: Configurer les centres de charge et les postes de charge
 description: 'Les fiches Centre de charge organisent les exigences et les valeurs fixes des ressources de production, et régissent ainsi la production des centres de charge.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 99000762'
 ms.date: 04/01/2021
 ms.author: bholtorf

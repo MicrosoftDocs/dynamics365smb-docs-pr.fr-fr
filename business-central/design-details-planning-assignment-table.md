@@ -3,9 +3,7 @@ title: "Détails de conception\_: tableau d’affectation de planification"
 description: Cette rubrique donne un aperçu de ce qui se passe lorsqu’un changement dans les modèles de demande ou d’approvisionnement nécessite que vous calculiez la façon dont vous planifiez un article.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf

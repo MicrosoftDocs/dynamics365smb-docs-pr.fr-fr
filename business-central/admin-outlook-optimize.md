@@ -3,9 +3,7 @@ title: Optimisation d’Outlook pour votre boîte de réception professionnelle
 description: Découvrez ce que vous pouvez faire pour améliorer l’expérience avec la boîte de réception professionnelle dans Microsoft Outlook.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Outlook, Microsoft 365, inbox, business inbox, WebView2, Edge, addin, add-in'
 ms.date: 12/06/2023
 ms.author: jswymer

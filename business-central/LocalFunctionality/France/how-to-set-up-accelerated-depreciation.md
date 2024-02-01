@@ -3,9 +3,7 @@ title: Paramétrer l’amortissement accéléré
 description: 'Pour utiliser la fonction de calcul de l’amortissement accéléré, vous devez configurer les lois d’amortissement pour les immobilisations.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '5610, 5611'
 ms.date: 02/14/2022

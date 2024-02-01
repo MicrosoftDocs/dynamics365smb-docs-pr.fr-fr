@@ -3,13 +3,12 @@ title: Aperçu des tâches permettant de gérer vos achats
 description: 'Décrit les tâches permettant de gérer vos processus d’achat ou d’approvisionnement, y compris le fonctionnement des factures achat et des commandes achat.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'procurement, supply, vendor order'
 ms.search.form: '460, 9307'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Procédure d’achat
 
