@@ -10,7 +10,7 @@ ms.date: 07/07/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Gestion des paiements dans la version française
+# <a name="payment-management-in-the-french-version"></a>Gestion des paiements dans la version française
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] vous permet de gérer des lettres de change, des paiements électroniques et des paiements fournisseur à l’aide de la fonction de gestion des paiements.  
 
@@ -26,7 +26,7 @@ Vous pouvez gérer les paiements fournisseur et client à l’aide des bordereau
 
 Vous pouvez également transférer vos informations de configuration de la gestion des paiements vers un disque externe afin de pouvoir utiliser les mêmes paramètres pour une autre société présentant les mêmes exigences.  
 
-## Gestion des bordereaux et des fichiers paiement
+## <a name="managing-payment-slips-and-files"></a>Gestion des bordereaux et des fichiers paiement
 
 Vous pouvez créer des bordereaux paiement pour gérer les paiements client et fournisseur. Après avoir créé le bordereau paiement, vous devez le valider.  
 
@@ -34,11 +34,11 @@ Ces bordereaux paiement peuvent être convertis en fichiers de paiement, qui peu
 
 Pour plus d’informations, consultez [Créer des bordereaux paiement](how-to-create-payment-slips.md).  
 
-## Archivage des bordereaux paiement
+## <a name="archiving-payment-slips"></a>Archivage des bordereaux paiement
 
 Vous pouvez séparer un bordereau paiement entièrement traité des bordereaux paiement actifs en l’archivant. Vous pouvez archiver un bordereau paiement manuellement ou vous pouvez archiver un lot de bordereaux automatiquement. Pour plus d’informations, consultez [Archiver des bordereaux paiement](how-to-archive-payment-slips.md).  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Paramétrer des types de règlement](how-to-set-up-payment-classes.md)  
 [Configurer des adresses de paiement](how-to-set-up-payment-addresses.md)  
