@@ -9,11 +9,11 @@ ms.date: 06/18/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="specify-posting-periods-in-the-french-version"></a>Définir les périodes de validation dans la version française
+# Définir les périodes de validation dans la version française
 
 En définissant des périodes de validation, vous limitez la période durant laquelle la validation est autorisée.  
 
-## <a name="to-specify-posting-periods"></a>Pour définir des périodes de validation
+## Pour définir des périodes de validation  
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilité**, puis choisissez le lien associé.  
 2. Sur la page **Paramètres comptabilité**, dans le champ **Début période validation**, spécifiez la date de début de la période de validation.  
@@ -30,7 +30,7 @@ Les dates définies ici s’appliquent à l’ensemble de la société, c’est-
 
 Si vous entrez des dates ici, les dates entrées sur la page **Paramètres comptabilité** ne s’appliquent pas à ces utilisateurs.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Périodes fiscales et exercices comptables](fiscal-periods-and-fiscal-years.md)
 
