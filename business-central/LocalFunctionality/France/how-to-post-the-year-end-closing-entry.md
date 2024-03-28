@@ -9,11 +9,11 @@ ms.date: 06/18/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Valider l’écriture de clôture d’exercice dans la version française
+# <a name="post-the-year-end-closing-entry-in-the-french-version"></a>Valider l’écriture de clôture d’exercice dans la version française
 
 Après avoir utilisé le traitement par lots **Solder les comptes de gestion** pour générer les écritures de clôture d’exercice, vous devez ouvrir la feuille spécifiée dans le traitement par lots, puis consulter et valider les écritures.  
 
-## Pour valider l’écriture de clôture d’exercice  
+## <a name="to-post-the-year-end-closing-entry"></a>Pour valider l’écriture de clôture d’exercice
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille comptabilité**, puis choisissez le lien associé.  
 2. Examinez les écritures.  
@@ -24,7 +24,7 @@ En cas de détection d’une erreur, un message d’erreur s’affiche. Si la va
 
 Une fois validée, une entrée est validée dans chaque compte résultats, de façon à ce que son solde indique zéro et à ce que les résultats de l’exercice soient transférés vers le bilan.  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Vue d’ensemble des processus de fin d’exercice](year-end-processes-overview.md)   
 [Clôturer fiscalement des exercices](how-to-close-years.md)   
